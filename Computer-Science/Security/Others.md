@@ -47,7 +47,7 @@ Stegosploit creates a new way to encode "drive-by" browser exploits and deliver 
 
 ## CMDCTRL - <https://cmdnctrl.net>
 
-## NT (New Technology) LAN Manager(NTLM)**
+## NT (New Technology) LAN Manager(NTLM)
 
 In a [Windows](https://www.wikiwand.com/en/Microsoft_Windows) network, **NT (New Technology) LAN Manager(NTLM)** is a suite of [Microsoft](https://www.wikiwand.com/en/Microsoft) security protocols intended to provide authentication, integrity, and confidentiality to users.NTLM is the successor to the authentication protocol in Microsoft [LAN Manager](https://www.wikiwand.com/en/LAN_Manager)(LANMAN), an older Microsoft product. The NTLM protocol suite is implemented in a [Security Support Provider](https://www.wikiwand.com/en/SSPI#Windows_SSPs), which combines the [LAN Manager](https://www.wikiwand.com/en/LAN_Manager) authentication protocol, NTLMv1, NTLMv2 and NTLM2 Session protocols in a single package. Whether these protocols are used or can be used on a system is governed by [Group Policy](https://www.wikiwand.com/en/Group_Policy) settings, for which different versions of Windows have different default settings. NTLM passwords are considered weak because they can be brute-forced very easily with modern hardware.
 

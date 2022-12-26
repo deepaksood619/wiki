@@ -18,7 +18,7 @@ A json file maintained on the cloud where all the updates are performed. These i
 
 <https://dzone.com/articles/apache-kafka-as-digital-twin-in-industrial-iot-iio>
 
-## TPM - Trusted Platform Module**
+## TPM - Trusted Platform Module
 
 Is an [international standard](https://en.wikipedia.org/wiki/International_standard) for a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor), a dedicated [microcontroller](https://en.wikipedia.org/wiki/Microcontroller) designed to secure hardware through integrated [cryptographic keys](https://en.wikipedia.org/wiki/Cryptographic_keys).
 
@@ -147,30 +147,24 @@ Information flows in one direction from other systems to a device (or a group of
 ## Tools
 
 1. **Node-RED**
-    - **Flow-based programming for the Internet of Things**
-    - **Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.**
-    - **It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.**
+    - Flow-based programming for the Internet of Things
+    - Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+    - It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
 
 ## IoT Protocols
 
 1. Infrastructure(ex: 6LowPAN, IPv4/IPv6, RPL)
-
 2. Identification(ex: EPC, uCode, IPv6, URIs)
-
 3. Comms / Transport(ex: Wifi, Bluetooth, LPWAN)
-
 4. Discovery(ex: Physical Web, mDNS, DNS-SD)
-
 5. Data Protocols(ex: MQTT, CoAP, AMQP, Websocket, Node)
-
 6. Device Management(ex: TR-069, OMA-DM)
-
 7. Semantic(ex: JSON-LD, Web Thing Model)
-
 8. Multi-layer Frameworks(ex: Alljoyn, IoTivity, Weave, Homekit)
+
 <https://www.postscapes.com/internet-of-things-protocols>
 
-## References**
+## References
 
 <https://cloudplatform.googleblog.com/2018/04/implementing-an-event-driven-architecture-on-serverless-the-Smart-Parking-story.html?m=1>
 

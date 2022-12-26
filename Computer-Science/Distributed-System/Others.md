@@ -64,7 +64,7 @@ If an actor receive a message it can do 3 things
 
 <https://www.youtube.com/watch?v=7erJ1DV_Tlo>
 
-## Multi-Tenancy**
+## Multi-Tenancy
 
 Multi-tenancy is an architecture in which a single instance of a software application serves multiple customers. Each customer is called a tenant. Tenants may be given the ability to customize some parts of the application, such as color of the user interface ([UI](http://searchsoa.techtarget.com/definition/user-interface)) or [business rules](http://whatis.techtarget.com/definition/business-rule), but they cannot customize the application's [code](http://whatis.techtarget.com/definition/code).
 Multi-tenancy can be economical because software development and maintenance costs are shared. It can be contrasted with single-tenancy, an architecture in which each customer has their own software instance and may be given access to code. With a multi-tenancy architecture, the provider only has to make updates once. With a single-tenancy architecture, the provider has to touch multiple instances of the software in order to make updates.
@@ -84,14 +84,14 @@ Another type of failure isOmission Fault. This failure model assumes that the pr
 The hardest failures to overcome areArbitraryorByzantine Failures, where the process continues executing algorithm steps, but in a way that contradicts the algorithm in some way (for example, by deciding on a value that was never proposed).
 <https://medium.com/databasss/on-ways-to-agree-part-1-links-and-flp-impossibility-f6bd8a6a0980>
 
-## Shared-Nothing architecture (SN)**
+## Shared-Nothing architecture (SN)
 
 Ashared-nothing architecture(SN) is a [distributed-computing](https://en.wikipedia.org/wiki/Distributed_computing) architecture in which each update request is satisfied by a single node (processor/memory/storage unit). The intent is to eliminate contention among nodes. Nodes do not share (independently access) memory or storage. One alternative architecture is shared everything, in which requests are satisfied by arbitrary combinations of nodes. This may introduce contention, as multiple nodes may seek to update the same data at the same time.
 SN eliminates [single points of failure](https://en.wikipedia.org/wiki/Single_point_of_failure), allowing the overall system to continue operating despite failures in individual nodes and allowing individual nodes to upgrade without a system-wide shutdown.
 A SN system can scale simply by adding nodes, since no central resource bottlenecks the system.Another term for SN is [sharding](https://en.wikipedia.org/wiki/Sharding). A SN system typically partitions its data among many nodes. A refinement is to replicate commonly used but infrequently modified data across many nodes, allowing more requests to be resolved on a single node.
 <https://en.wikipedia.org/wiki/Shared-nothing_architecture>
 
-## Redundancy, Replication, Transparency**
+## Redundancy, Replication, Transparency
 
 replicationtakes a redundant node one step further; it ensures that the redundant node (areplica) is identical to all of its other copies.
 [Transparency](https://medium.com/baseds/transparency-illusions-of-a-single-system-part-1-b01c25f7dddd) in [a system](https://medium.com/baseds/transparency-illusions-of-a-single-system-part-2-2b21c5047774) means that all the replicas and the original node must behave similarly, which means that a consumer of the system (like an end user or another node) could potentially write to one replica, while another consumer of the system could read fromanotherreplica!

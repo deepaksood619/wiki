@@ -142,19 +142,19 @@ How do certificates get validated?
 - In the event that the last certificate is not a root certificate, and there are no more certificates to download, the chain is untrusted.
 <https://howhttps.works/certificate-authorities>
 
-## CSR (Certificate Signing Request)**
+## CSR (Certificate Signing Request)
 
 A CSR or Certificate Signing request is a block of encoded text that is given to a Certificate Authority when applying for an SSL Certificate. It is usually generated on the server where the certificate will be installed and contains information that will be included in the certificate such as the organization name, common name (domain name), locality, and country. It also contains the public key that will be included in the certificate. A private key is usually created at the same time that you create the CSR, making a key pair. A CSR is generally encoded using ASN.1 according to the PKCS #10 specification.
 A [certificate authority](https://www.sslshopper.com/certificate-authority-reviews.html) will use a CSR to create your SSL certificate, but it does not need your private key. You need to keep your private key secret. The certificate created with a particular CSR will only work with the private key that was generated with it. So if you lose the private key, the certificate will no longer work.
 <https://www.sslshopper.com/what-is-a-csr-certificate-signing-request.html>
 
-## Server Name Indication(SNI)**
+## Server Name Indication(SNI)
 
 Server Name Indication(SNI) is an extension to the [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)(TLS) computer [networking protocol](https://en.wikipedia.org/wiki/Networking_protocol) by which a [client](https://en.wikipedia.org/wiki/Client_(computing)) indicates which [hostname](https://en.wikipedia.org/wiki/Hostname) it is attempting to connect to at the start of the handshaking process.This allows a server to present multiple [certificates](https://en.wikipedia.org/wiki/Public_key_certificate) on the same [IP address](https://en.wikipedia.org/wiki/IP_address) and [TCP port](https://en.wikipedia.org/wiki/TCP_port) number and hence allows multiple secure ([HTTPS](https://en.wikipedia.org/wiki/HTTP_Secure)) websites (or any other [service](https://en.wikipedia.org/wiki/Server_(computing)#Types_of_servers) over TLS) to be served by the same IP address without requiring all those sites to use the same certificate. It is the conceptual equivalent to HTTP/1.1 name-based [virtual hosting](https://en.wikipedia.org/wiki/Virtual_hosting), but for HTTPS. The desired hostname is not encrypted in the original SNI extension, so an eavesdropper can see which site is being requested.
 Server Name Indication (SNI) is an extension to the TLS protocol by which a client indicates the hostname to connect to at the start of the TLS handshake. The load balancer can present multiple certificates through the same secure listener, which enables it to support multiple secure websites using a single secure listener. Application Load Balancers also support a smart certificate selection algorithm with SNI. If the hostname indicated by a client matches multiple certificates, the load balancer determines the best certificate to use based on multiple factors including the capabilities of the client.
 <https://en.wikipedia.org/wiki/Server_Name_Indication>
 
-## What is ESNI (Encrypted Server Name Indication)?**
+## What is ESNI (Encrypted Server Name Indication)?
 
 Encrypted Server Name Indication (ESNI) is an extension to TLS 1.3 which prevents eavesdroppers from knowing the domain name of the website network users are connecting to. When combined with encrypted DNS, it is not possible to know which websites a user is visiting.
 

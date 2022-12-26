@@ -68,6 +68,6 @@ ngrok is a reverse proxy that creates a secure tunnel from a public endpoint to 
 
 <https://github.com/inconshreveable/ngrok>
 
-## Secure access service edge (SASE) model**
+## Secure access service edge (SASE) model
 
 <https://pages.awscloud.com/AWSMP-SEC-NetworkSecurity-Edge-SASE-en.html>

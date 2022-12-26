@@ -45,7 +45,7 @@ By using basic counters instead of physical clocks, Lamport simplifies clocks in
 
 <https://medium.com/baseds/logical-time-and-lamport-clocks-part-2-272c097dcdda>
 
-## Interval Tree Clocks: A Logical Clock for Dynamic Systems**
+## Interval Tree Clocks: A Logical Clock for Dynamic Systems
 
 <https://github.com/catwell/itc.lua>
 

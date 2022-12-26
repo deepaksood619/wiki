@@ -21,7 +21,7 @@ Most [block storage](https://en.wikipedia.org/wiki/Block_(data_storage)) runs ov
 The goal of Fibre Channel is to create a [storage area network](https://en.wikipedia.org/wiki/Storage_area_network)(SAN) to connect servers to storage.
 <https://en.wikipedia.org/wiki/Fibre_Channel>
 
-## Storage Area Network (SAN)**
+## Storage Area Network (SAN)
 
 The SAN is a dedicated network that enables multiple servers to access data from one or more storage devices.[Enterprise storage](https://en.wikipedia.org/wiki/Enterprise_storage) uses the SAN to backup to secondary storage devices including disk arrays, tape libraries, and other backup while the storage is still accessible to the server. Servers may access storage from multiple storage devices over the network as well.
 SANs are often designed with dual fabrics to increase fault tolerance. Two completely separate fabrics are operational and if the primary fabric fails, then the second fabric becomes the primary.
@@ -39,7 +39,7 @@ DHCP can be implemented on networks ranging in size from [home networks](https:/
 The DHCP employs a [connectionless](https://en.wikipedia.org/wiki/Connectionless_communication) service model, using the [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)(UDP). It is implemented with two UDP port numbers for its operations which are the same as for the bootstrap protocol ([BOOTP](https://en.wikipedia.org/wiki/BOOTP)). UDP port number 67 is the destination port of a server, and UDP port number 68 is used by the client.
 <https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>
 
-## Server Message Block (SMB)**
+## Server Message Block (SMB)
 
 In [computer networking](https://en.wikipedia.org/wiki/Computer_network), **Server Message Block(SMB**), one version of which was also known as **Common Internet File System(CIFS**) operates as an [application-layer](https://en.wikipedia.org/wiki/Application_layer) or [presentation-layer](https://en.wikipedia.org/wiki/Presentation_layer)(network protocol) mainly used for providing [shared access](https://en.wikipedia.org/wiki/Shared_access) to [files](https://en.wikipedia.org/wiki/Computer_file), [printers](https://en.wikipedia.org/wiki/Computer_printer), and [serial ports](https://en.wikipedia.org/wiki/Serial_port) and miscellaneous communications between nodes on a network. It also provides an authenticated [inter-process communication](https://en.wikipedia.org/wiki/Inter-process_communication) mechanism. Most usage of SMB involves computers running [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), where it was known as "Microsoft Windows Network" before the introduction of [Active Directory](https://en.wikipedia.org/wiki/Active_Directory). Corresponding [Windows services](https://en.wikipedia.org/wiki/Windows_service) are LAN Manager Server (for the server component) and LAN Manager Workstation (for the client component).
 <https://en.wikipedia.org/wiki/Server_Message_Block>
@@ -54,14 +54,14 @@ Reactive Streams is an initiative to provide a standard for asynchronous stream 
 TheWeb Proxy Auto-Discovery (WPAD) Protocolis a method used by clients to locate the URL of a configuration file using [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) and/or [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) discovery methods. Once detection and download of the configuration file is complete, it can be executed to determine the proxy for a specified URL.
 <https://en.wikipedia.org/wiki/Web_Proxy_Auto-Discovery_Protocol>
 
-## Contrained Application Protocol (CoAP)**
+## Contrained Application Protocol (CoAP)
 
 ## Constrained Application Protocol(CoAP) is a specialized Internet Application Protocol for constrained devices, as defined in [RFC 7252](https://tools.ietf.org/html/rfc7252). It enables those constrained devices called "nodes" to communicate with the wider Internet using similar protocols. CoAP is designed for use between devices on the same constrained network (e.g., low-power, lossy networks), between devices and general nodes on the Internet, and between devices on different constrained networks both joined by an internet. CoAP is also being used via other mechanisms, such as SMS on mobile communication networks
 
 CoAP is a [service layer](https://en.wikipedia.org/wiki/Service_layer) protocol that is intended for use in resource-constrained internet devices, such as [wireless sensor network](https://en.wikipedia.org/wiki/Wireless_sensor_network) nodes. CoAP is designed to easily translate to [HTTP](https://en.wikipedia.org/wiki/HTTP) for simplified integration with the web, while also meeting specialized requirements such as [multicast](https://en.wikipedia.org/wiki/Multicast) support, very low overhead, and simplicity.Multicast, low overhead, and simplicity are extremely important for [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_Things)(IoT) and [Machine-to-Machine](https://en.wikipedia.org/wiki/Machine-to-Machine)(M2M) devices, which tend to be deeply [embedded](https://en.wikipedia.org/wiki/Embedded_system) and have much less memory and power supply than traditional internet devices have. Therefore, efficiency is very important. CoAP can run on most devices that support [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) or a UDP analogue.
 <https://www.eclipse.org/californium>
 
-## Lightweight Directory Access Protocol (LDAP)**
+## Lightweight Directory Access Protocol (LDAP)
 
 LDAP is an open, vendor-neutral, industry standard [application protocol](https://en.wikipedia.org/wiki/Application_protocol) for accessing and maintaining distributed [directory information services](https://en.wikipedia.org/wiki/Directory_service) over an [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)(IP) network.[Directory services](https://en.wikipedia.org/wiki/Directory_service) play an important role in developing [intranet](https://en.wikipedia.org/wiki/Intranet) and Internet applications by allowing the sharing of information about users, systems, networks, services, and applications throughout the network.As examples, directory services may provide any organized set of records, often with a hierarchical structure, such as a corporate [email](https://en.wikipedia.org/wiki/Email) directory. Similarly, a [telephone directory](https://en.wikipedia.org/wiki/Telephone_directory) is a list of subscribers with an address and a phone number.
 <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
@@ -91,7 +91,7 @@ BACnet Protocol (Building Automation and Control networks)
 zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.
 <http://zenoh.io>
 
-## OPC Unified Architecture(OPC UA)**
+## OPC Unified Architecture(OPC UA)
 
 OPC Unified Architecture(OPC UA) is a [machine to machine](https://en.wikipedia.org/wiki/Machine_to_machine)[communication protocol](https://en.wikipedia.org/wiki/Communication_protocol) for [industrial automation](https://en.wikipedia.org/wiki/Industrial_automation) developed by the [OPC Foundation](https://en.wikipedia.org/wiki/OPC_Foundation). Distinguishing characteristics are:
 
@@ -138,7 +138,7 @@ The OPC UA specification is a multi-part specification and consists of the follo
 
 <https://opcfoundation.org/about/opc-technologies/opc-ua>
 
-## Dedicated short-range communications (DSRC)**
+## Dedicated short-range communications (DSRC)
 
 Dedicated short-range communications(DSRC) are one-way or two-way short-range to medium-range [wireless](https://en.wikipedia.org/wiki/Wireless) communication channels specifically designed for automotive use  and a corresponding set of protocols and standards.
 <https://en.wikipedia.org/wiki/Dedicated_short-range_communications>

@@ -21,7 +21,7 @@ JSON is not useful where:
 
 <https://medium.com/@biplav.nep/grpc-using-flask-restful-code-2ed5607ae9a>
 
-## grpc-web**
+## grpc-web
 
 <https://www.freecodecamp.org/news/how-to-use-grpc-web-with-react-1c93feb691b5>
 

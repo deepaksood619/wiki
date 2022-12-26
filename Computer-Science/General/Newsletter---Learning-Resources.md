@@ -54,7 +54,7 @@ Quote of the Week:"Computer programming is an art because it applies accumulated
 
 4. Tech Dummies -<https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA>
 
-## #2**
+## #2
 
 ## This is all about Coding
 

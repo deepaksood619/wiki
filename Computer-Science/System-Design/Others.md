@@ -15,7 +15,7 @@ Globus Toolkit - GSIFTP
 
 <https://en.wikipedia.org/wiki/GridFTP>
 
-## Real-Time Analytics**
+## Real-Time Analytics
 
 1. Ingestion
 

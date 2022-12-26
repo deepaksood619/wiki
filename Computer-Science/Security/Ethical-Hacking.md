@@ -57,7 +57,7 @@ A black hat hacker has no qualms about selling vulnerabilities and exploits to t
 FestInis a tool for discovering open S3 Buckets starting from a domains.
 <https://github.com/cr0hn/festin>
 
-## Practice / Learning**
+## Practice / Learning
 
 ## Damn Vulnerable Web Application (DVWA)
 

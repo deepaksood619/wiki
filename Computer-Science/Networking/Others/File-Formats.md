@@ -49,7 +49,7 @@ The Ion text format is a superset of JSON; thus, any valid JSON document is also
 
 <http://amzn.github.io/ion-docs/docs/spec.html>
 
-## File Format Benchmarks - Avro, JSON, ORC, Parquet**
+## File Format Benchmarks - Avro, JSON, ORC, Parquet
 
 Avro
 
@@ -203,9 +203,9 @@ Parquet
 
 <https://www.slideshare.net/oom65/file-format-benchmarks-avro-json-orc-parquet>
 
-## Compression (zlib)**
+## Compression (zlib)
 
-## In 1 mb of memory
+In 1 mb of memory
 
 raw 7304 (19 kv pair)
 
@@ -255,7 +255,7 @@ Daily hits: 50000*52 = 2600000 messages / day = 2.6 Million msgs/day
 
 ## h5 File / h5py
 
-## Hierarchical Data Format(**HDF**) is a set of file formats (**HDF4**,**HDF5) designed to store and organize large amounts of data. Originally developed at the [National Center for Supercomputing Applications](https://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications), it is supported by The HDF Group, a non-profit corporation whose mission is to ensure continued development of HDF5 technologies and the continued accessibility of data stored in HDF
+Hierarchical Data Format(**HDF**) is a set of file formats (**HDF4**,**HDF5) designed to store and organize large amounts of data. Originally developed at the [National Center for Supercomputing Applications](https://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications), it is supported by The HDF Group, a non-profit corporation whose mission is to ensure continued development of HDF5 technologies and the continued accessibility of data stored in HDF
 
 Filename extensions - .hdf,.h4,.hdf4,.he2,.h5,.hdf5,.he5
 HETEROGENEOUS DATA

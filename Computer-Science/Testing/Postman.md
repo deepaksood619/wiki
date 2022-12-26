@@ -93,43 +93,30 @@ You can run collections against specific environments, and can pass data files i
 Newman is a command line Collection Runner for Postman. It allows you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
 <https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman>
 
-## Pre-Request Script**
+## Pre-Request Script
 
-varkey**=**'6aeb53996e29f845ae6b52dbda150df5fb03b981da8eaac63e3faa327fdce343';
-
-varfinalstring**=**'';
-
-## for(vari**=**0;i**<**pm.request.body.urlencoded.toJSON().length;i**++){
-
-## if[pm.request.body.urlencoded.toJSON(](i).key**!='checksum'){
-
-## if(i**!=0){
-
-finalstring**+=**'&';
-
+```js
+var key='xxx';
+var finalstring = '';
+for (var i =0; i < pm.request.body.urlencoded.toJSON().length; i++) {
+    if (pm.request.body.urlencoded.toJSON()[i].key != 'checksum') {
+        if (i != 0) {
+            finalstring += '&';
+        }
+        finalstring += pm.request.body.urlencoded.toJSON()[i].key + '=' + pm.request.body.urlencoded.toJSON()[i].value;
+    }
 }
-
-finalstring**+=**pm.request.body.urlencoded.toJSON()[i].key**+**'='**+**pm.request.body.urlencoded.toJSON()[i].value;
-
-}
-
-}
-
-finalstring**=**finalstring;
-
-varsignature**=**CryptoJS.HmacSHA256(finalstring, key).**toString**();
-
+finalstring = finalstring;
+var signature = CryptoJS.HmacSHA256(finalstring, key).toString();
 postman.setEnvironmentVariable("checksum", signature);
-
-pm.variables.**get**("variable_key");
+pm.variables.get("variable_key");
+```
 
 ## Shortcuts
 
-CMD + / - show all shortcuts
-
-CMD + ? - show all shortcuts
-
-CMD +  - show/hide sidebar
+- CMD + / - show all shortcuts
+- CMD + ? - show all shortcuts
+- CMD +  - show/hide sidebar
 
 ## OAuth 2.0 - Authentication and Authorization with Identity Server (KeyCloak)
 

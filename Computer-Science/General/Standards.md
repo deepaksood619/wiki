@@ -21,7 +21,7 @@ Common to all binary-to-text encoding schemes, Base64 is designed to carry data 
 The difference between Base64 and hex is really just how bytes are represented. Hex is another way of saying "Base16". **Hex will take two characters for each byte - Base64 takes 4 characters for every 3 bytes, so it's more efficient than hex.** Assuming you're using UTF-8 to encode the XML document, a 100K file will take 200K to encode in hex, or 133K in Base64.
 <https://en.wikipedia.org/wiki/Base64>
 
-## Base64 vs UTF-8/UTF-16**
+## Base64 vs UTF-8/UTF-16
 
 UTF-8andUTF-16are methods to encode Unicode strings to byte sequences.
 

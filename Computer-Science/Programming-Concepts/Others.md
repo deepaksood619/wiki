@@ -46,7 +46,7 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 
 <https://semver.org>
 
-## Calendar Versioning (CalVer)**
+## Calendar Versioning (CalVer)
 
 CalVer is a versioning convention based on your project's release calendar, instead of arbitrary numbers.
 
@@ -55,7 +55,7 @@ CalVer is a versioning convention based on your project's release calendar, inst
 <https://calver.org>
 <https://www.wikiwand.com/en/Software_versioning>
 
-## What is Dynamic Binding (late binding)?**
+## What is Dynamic Binding (late binding)?
 
 Binding refers to the linking of a procedure call to the code to be executed in response to the call. Dynamic binding means that the code associated with a given procedure call is not known until the time of the call at run-time.
 Late binding, dynamic binding, ordynamic linkageis a computer programming mechanism in which the method being called upon an object or the function being called with arguments is looked up by name at [runtime](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)).

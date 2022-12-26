@@ -43,13 +43,13 @@ sdb3 = 3rd partition on the second HD ('b' is second of two or more active HDs)
 
 ## /dev/shm
 
-## /dev/shm**is nothing but implementation of traditional**shared memoryconcept. It is an efficient means of passing data between programs. One program will create a memory portion, which other processes (if permitted) can access. This will result into speeding up things on Linux
+/dev/shm **is nothing but implementation of traditional** shared memory concept. It is an efficient means of passing data between programs. One program will create a memory portion, which other processes (if permitted) can access. This will result into speeding up things on Linux
 
 shm / shmfs is also known as tmpfs, which is a common name for a temporary file storage facility on many Unix-like operating systems. It is intended to appear as a mounted file system, but one which uses virtual memory instead of a persistent storage device.
 You can use /dev/shm to improve the performance of application software such as Oracle or overall Linux system performance. On heavily loaded system, it can make tons of difference. For example VMware workstation/server can be optimized to improve your Linux host's performance (i.e. improve the performance of your virtual machines).
 <https://www.cyberciti.biz/tips/what-is-devshm-and-its-practical-usage.html>
 
-## /etc**
+## /etc
 
 This is one area of the filesystem where you will spend a lot of time if you are working as a system administrator. This directory is basically a configuration directory for various system-wide services.
 
@@ -92,7 +92,7 @@ The [computer file](https://en.wikipedia.org/wiki/Computer_file)**hosts** is an 
 
 <https://bencane.com/2013/10/29/managing-dns-locally-with-etchosts>
 
-## /home**
+## /home
 
 This location contains the home directories of all of the users on the system (except for the administrative user, root). If you have created other users, a directory matching their username will typically be created under this directory.
 

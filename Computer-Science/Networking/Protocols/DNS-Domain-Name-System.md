@@ -110,7 +110,7 @@ A **Service record**(**SRV record**) is a specification of data in the [Domain N
 | TXT                            | Descriptive text            | host -t txt nixcraft.com            |
 <https://dev.to/chrisachard/dns-record-crash-course-for-web-developers-35hn>
 
-## Dissecting a domain name (URL - Uniform Resource Locator)**
+## Dissecting a domain name (URL - Uniform Resource Locator)
 
 ![image](media/DNS-Domain-Name-System-image2.png)
 ![image](media/DNS-Domain-Name-System-image3.png)
@@ -138,14 +138,14 @@ Resolver / Recursive DNS
 While the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) technically supports arbitrary sequences of octets in domain name labels, the DNS standards recommend the use of the LDH subset of ASCII conventionally used for host names, and require that string comparisons between DNS domain names should be case-insensitive. The Punycode syntax is a method of encoding strings containing Unicode characters, such as [internationalized domain names](https://en.wikipedia.org/wiki/Internationalized_domain_name)(IDNA), into the LDH subset of ASCII favored by DNS. It is specified in [IETF](https://en.wikipedia.org/wiki/IETF)[Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) 3492.
 <https://en.wikipedia.org/wiki/Punycode>
 
-## mDNS (multicast DNS)**
+## mDNS (multicast DNS)
 
 In [computer networking](https://en.wikipedia.org/wiki/Computer_networking), themulticast DNS(mDNS) protocol resolves [hostnames](https://en.wikipedia.org/wiki/Hostname) to IP addresses within small networks that do not include a local [name server](https://en.wikipedia.org/wiki/Name_server). It is a [zero-configuration](https://en.wikipedia.org/wiki/Zero_configuration_networking) service, using essentially the same programming interfaces, packet formats and operating semantics as the unicast [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). Although [Stuart Cheshire](https://en.wikipedia.org/wiki/Stuart_Cheshire) designed mDNS as a stand-alone protocol, it can work in concert with standard DNS servers.
 The mDNS protocol is published as [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) [6762](https://tools.ietf.org/html/rfc6762), uses IP multicast [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)(UDP) packets, and is implemented by the Apple [Bonjour](https://en.wikipedia.org/wiki/Bonjour_(software)) and open source [Avahi](https://en.wikipedia.org/wiki/Avahi_(software)) software packages.[Android](https://en.wikipedia.org/wiki/Android_(operating_system)) contains an mDNS implementation.mDNS has also been implemented in [Windows 10](https://en.wikipedia.org/wiki/Windows_10), initially limited to discovering networked printers, later becoming capable of resolving hostnames as well.
 mDNS can work in conjunction with [DNS Service Discovery](https://en.wikipedia.org/wiki/DNS_Service_Discovery)(DNS-SD), a companion zero-configuration technique specified separately in [RFC 6763](https://tools.ietf.org/html/rfc6763).
 <https://en.wikipedia.org/wiki/Multicast_DNS>
 
-## What is DNS encryption?**
+## What is DNS encryption?
 
 DNS encryption ensures that only you and your DNS provider know what DNS queries are being performed, and therefore which websites you are visiting. Also, it enforces your choice of DNS provider. So you can choose a provider that offers features and guarantees which differ from your ISP, such as speed and privacy.
 
@@ -157,7 +157,7 @@ Cloudflare DNS, available at 1.1.1.1, is a free public DNS service run by the CD
 
 <https://blog.cloudflare.com/dns-encryption-explained>
 
-## Which services can use SNI?**
+## Which services can use SNI?
 
 SNI is an extension to TLS that provides support for multiple hostnames on a single IP address. The most common use of TLS is HTTPS for secure websites. However, it is present in all protocols that use TLS for security.
 

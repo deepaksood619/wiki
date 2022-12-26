@@ -53,7 +53,7 @@ WebSocket will probably remain used but SSE and its EventSource API combined wit
 
 <https://ably.com/topic/websockets>
 
-## socketio / socket.io**
+## socketio / socket.io
 
 Bidirectional and low-latency communication for every platform
 
@@ -68,4 +68,4 @@ Socketio advantages are that it simplifies the usage of WebSockets, and probably
 
 <https://davidwalsh.name/websocket>
 
-## >> Django Channels**
+## Django Channels

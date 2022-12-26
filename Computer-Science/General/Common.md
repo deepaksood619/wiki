@@ -62,7 +62,7 @@ TheYear 2038 problem(also called Y2038, Epochalypse, Y2k38, or Unix Y2K) relates
 
 ## 4122 - UUID/GUID <https://tools.ietf.org/html/rfc4122.html>
 
-## Epoch Time / Unix Time**
+## Epoch Time / Unix Time
 
 Unix time(also known asEpoch time, POSIX time, seconds since the Epoch, orUNIX Epoch time) is a system for describing a [point in time](https://www.wikiwand.com/en/Timestamp). It is the number of [seconds](https://www.wikiwand.com/en/Second) that have elapsed since theUnix epoch, minus [leap seconds](https://www.wikiwand.com/en/Leap_second); the Unix epoch is 00:00:00 [UTC](https://www.wikiwand.com/en/Coordinated_Universal_Time) on 1 January 1970 (an arbitrary date); leap seconds are ignored, with a leap second having the same Unix time as the second before it, and every day is treated as if it contains exactly86400seconds.Due to this treatment Unix time is not a true representation of UTC.
 It should also be pointed out that this point in time technically does not change no matter where you are located on the globe. This is very useful to computer systems for tracking and sorting dated information in dynamic and distributed applications both online and client side. The reason why Unix timestamps are used by many webmasters is because they can represent all time zones at once.
@@ -72,7 +72,7 @@ It should also be pointed out that this point in time technically does not chang
 
 <https://everytimezone.com>
 
-## Time - ISO 8601**
+## Time - ISO 8601
 
 ISO 8601Data elements and interchange formats -- Information interchange -- Representation of dates and times is an [international standard](https://en.wikipedia.org/wiki/International_standard) covering the exchange of [date](https://en.wikipedia.org/wiki/Calendar_date)- and [time](https://en.wikipedia.org/wiki/Time)-related data. It was issued by the [International Organization for Standardization](https://en.wikipedia.org/wiki/International_Organization_for_Standardization) (ISO) and was first published in 1988. The purpose of this standard is to provide an unambiguous and well-defined method of representing dates and times, so as to avoid misinterpretation of numeric representations of dates and times, particularly when data is transferred between [countries with different conventions](https://en.wikipedia.org/wiki/Date_and_time_notation_by_country) for writing numeric dates and times.
 
@@ -127,12 +127,12 @@ Solution - python 7.py
 
 <https://medium.com/@williambengtson/python-typosquatting-for-fun-not-profit-99869579c35d>
 
-## Three-way comparison Operator (SpaceShip Operator < = >)**
+## Three-way comparison Operator (SpaceShip Operator < = >)
 
 In [computer science](https://www.wikiwand.com/en/Computer_science), athree-way comparisontakes two values A and B belonging to a type with a [total order](https://www.wikiwand.com/en/Total_order) and determines whether A < B, A = B, or A > B in a single operation, in accordance with the mathematical [law of trichotomy](https://www.wikiwand.com/en/Trichotomy_(mathematics)).
 <https://www.wikiwand.com/en/Three-way_comparison>
 
-## FP64, FP32, FP16, BFloat16, TF32 (Floating Points)**
+## FP64, FP32, FP16, BFloat16, TF32 (Floating Points)
 
 <https://medium.com/@moocaholic/fp64-fp32-fp16-bfloat16-tf32-and-other-members-of-the-zoo-a1ca7897d407>
 

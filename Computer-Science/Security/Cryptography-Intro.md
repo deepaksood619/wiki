@@ -36,14 +36,14 @@ P = D (E (P))-  Key - Critical (secret) information used in cipher and known onl
 
 ## What Principles are Important When You're Developing a Cipher?
 
-## Kerckhoff's principle**states that a cryptographic system should be secure, even if all the details (other than the key) are known publicly. Claude Shannon later rewrote this message as '**The enemy knows the system.'
+Kerckhoff's principle states that a cryptographic system should be secure, even if all the details (other than the key) are known publicly. Claude Shannon later rewrote this message as 'The enemy knows the system.'
 
 Essentially, a very well designed system should be able to send secret messages even if an attacker can encrypt and decrypt their own messages using the same algorithm (with a different key). The security of the encrypted message should depend entirely on the key.
 Additionally, in order to hinder statistical analysis (attempts to break an encryption algorithm), a good cryptographic system should employ the principles of **confusion and diffusion.**
 
-## Confusion requires that the key does not relate to the ciphertext in a simple manner. Each character of the ciphertext should depend on multiple parts of the key. The goal is to make it very difficult for an attacker to determine the key from the ciphertext
+Confusion requires that the key does not relate to the ciphertext in a simple manner. Each character of the ciphertext should depend on multiple parts of the key. The goal is to make it very difficult for an attacker to determine the key from the ciphertext
 
-## Diffusion means that if a single character of the plaintext is changed, then several characters of the ciphertext should change. And if a single character of the ciphertext is changed, then several characters of the plaintext should change
+Diffusion means that if a single character of the plaintext is changed, then several characters of the ciphertext should change. And if a single character of the ciphertext is changed, then several characters of the plaintext should change
 
 Ideally, the relationship between the ciphertext and the plaintext is hidden. No diffusion is perfect (all will have some patterns), but the best diffusion scatters patterns widely, even scrambling several patterns together.
 Diffusion makes patterns hard for an attacker to spot, and requires the attacker to have more data in order to mount a successful attack.

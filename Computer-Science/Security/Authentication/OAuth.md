@@ -74,7 +74,7 @@ The [OAuth 2.0 Framework](https://www.oauth.com/oauth2-servers/map-oauth-2-0-spe
 Luckily, [OpenID Connect](https://openid.net/connect/) or OIDC brings some sanity to the madness. It is an OAuth extension which adds and strictly defines an ID Token for returning user information. Now when we log in with our Identity Provider, it can return specific fields that our applications can expect and handle. The important thing to remember is that OIDC is just a special, simplified case of OAuth, not a replacement. It uses the same terminology and concepts.
 <https://blog.runscope.com/posts/understanding-oauth-2-and-openid-connect>
 
-## Map of OAuth 2.0 Specs**
+## Map of OAuth 2.0 Specs
 
 <https://www.oauth.com/oauth2-servers/map-oauth-2-0-specs>
 

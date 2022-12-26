@@ -18,7 +18,7 @@ Modified: 2022-10-30 23:34:37 +0500
 
 <https://www.postscapes.com/long-range-wireless-iot-protocol-lora>
 
-## P2PLoc for Group-Motion Applications**
+## P2PLoc for Group-Motion Applications
 
 P2PLoc (peer-to-peer localization) envisions wearable IoT devices on users' arms or wrists that exchange wireless messages to ultimately compute the relative positions of each group member. The outcome is a topology or configuration of mo- bile users that can be tracked in real time.
 Using the time wireless signals take to travel between two devices as a measure of the distance between them. The precision of this time measurement directly correlates with the bandwidth of the wireless signal used. Therefore, we use ultra-wideband (UWB) radios with a 1 GHz bandwidth. When used with a packet-handshake protocol called two-way ranging (TWR), today's UWB platforms can estimate the distance between two devices with about 10 cm precision without clock synchronization.

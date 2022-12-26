@@ -105,120 +105,22 @@ In [theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_comp
 - Hazelcast IMDG and indeed most in-memory data grids are an implementation of a PA/EC system; Hazelcast can be configured to be EL rather than EC.Concurrency primitives (Lock, AtomicReference, CountDownLatch, etc.) can be either PC/EC or PA/EC.
 - [FaunaDB](https://news.ycombinator.com/item?id=18257128) implements [Calvin](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf), a transaction protocol created by Dr. Daniel Abadi and author of PACELC theorem, and offers users adjustable controls for LC tradeoff. It is PC/EC for strictly serializable transactions, and EL for serializable reads.
 
-<table>
-<colgroup>
-<col style="width: 35%" />
-<col style="width: 17%" />
-<col style="width: 17%" />
-<col style="width: 17%" />
-<col style="width: 10%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>DDBS</th>
-<th>P+A</th>
-<th>P+C</th>
-<th>E+L</th>
-<th>E+C</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>DynamoDB</td>
-<td>Yes</td>
-<td></td>
-<td><p>Yes</p>
-</td>
-<td></td>
-</tr>
-<tr>
-<td>Cassandra</td>
-<td>Yes</td>
-<td></td>
-<td><p>Yes</p>
-</td>
-<td></td>
-</tr>
-<tr>
-<td>Cosmos DB</td>
-<td>Yes</td>
-<td></td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr>
-<td>Couchbase</td>
-<td></td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Riak</td>
-<td>Yes</td>
-<td></td>
-<td><p>Yes</p>
-</td>
-<td></td>
-</tr>
-<tr>
-<td>VoltDB/H-Store</td>
-<td></td>
-<td>Yes</td>
-<td></td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Megastore</td>
-<td></td>
-<td>Yes</td>
-<td></td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>BigTable/HBase</td>
-<td></td>
-<td>Yes</td>
-<td></td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>MySQL Cluster</td>
-<td></td>
-<td>Yes</td>
-<td></td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>MongoDB</td>
-<td>Yes</td>
-<td></td>
-<td></td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>PNUTS</td>
-<td></td>
-<td>Yes</td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr>
-<td>Hazelcast IMDG</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>FaunaDB</td>
-<td></td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
+| **DDBS** | **P+A** | **P+C** | **E+L** | **E+C** |
+|---|---|---|---|---|
+| DynamoDB | Yes | Yes |
+| Cassandra | Yes | Yes |
+| Cosmos DB | Yes | Yes |
+| Couchbase | Yes | Yes | Yes |
+| Riak | Yes | Yes |
+| VoltDB/H-Store | Yes | Yes |
+| Megastore | Yes | Yes |
+| BigTable/HBase | Yes | Yes |
+| MySQL Cluster | Yes | Yes |
+| MongoDB | Yes | Yes |
+| PNUTS | Yes | Yes |
+| Hazelcast IMDG | Yes | Yes | Yes | Yes |
+| FaunaDB | Yes | Yes | Yes |
+
 
 [PACELC theorem - Wikipedia](https://en.wikipedia.org/wiki/PACELC_theorem)
 [CAP Twelve Years Later: How the "Rules" Have Changed](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed)

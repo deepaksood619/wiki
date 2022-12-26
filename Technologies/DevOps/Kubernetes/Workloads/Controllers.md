@@ -14,7 +14,7 @@ The Informer which uses the API server as a source requests the state of an obje
 
 A Workqueue uses a key to hand out tasks to various workers. The standard Go workqueues of rate limiting, delayed, and time queue are typically used.
 
-The**endpoints, namespace, andserviceaccounts**controllers each manage the eponymous resources for Pods.
+The **endpoints, namespace, andserviceaccounts** controllers each manage the eponymous resources for Pods.
 
 ## ReplicaSet
 
@@ -22,11 +22,11 @@ ReplicaSet is the next-generation Replication Controller. The only difference be
 
 A ReplicaSet ensures that a specified number of Pod replicas are running at any given time. A ReplicaSet is a management wrapper around a Pod. If a Pod, that is managed by a ReplicaSet, dies, the ReplicaSet brings up a new Pod instance.
 
-## Note:**A [**Deployment**](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) that configures a [**ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) is now the recommended way to set up replication
+Note: A [**Deployment**](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) that configures a [**ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) is now the recommended way to set up replication
 
 ## Deployment
 
-ADeploymentcontroller provides declarative updates for [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) and [ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/).
+A Deploymentcontroller provides declarative updates for [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) and [ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/).
 
 You describe adesired statein a Deployment object, and the Deployment controller changes the actual state to the desired state at a controlled rate. You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments.
 
@@ -67,7 +67,7 @@ Kubernetes StatefulSets gives you a set of resources to deal with stateful conta
 
 The data lifetime is independent of the Pod's lifetime. So, even when the Pod dies or is moved to another node, that data will still persist until it is explicitly deleted by the user.
 
-## The spec.serviceName in StatefulSet manifest must be equal to metadata.name in a headless service definition
+The spec.serviceName in StatefulSet manifest must be equal to metadata.name in a headless service definition
 
 ## DaemonSet
 

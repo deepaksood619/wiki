@@ -34,6 +34,6 @@ A **[torus](https://en.wikipedia.org/wiki/Torus) interconnect**is a switch-less 
 
 ## InfiniBand
 
-## InfiniBand(**IB) is a computer networking communications standard used in [high-performance computing](https://en.wikipedia.org/wiki/High-performance_computing) that features very high [throughput](https://en.wikipedia.org/wiki/Throughput) and very low [latency](https://en.wikipedia.org/wiki/Latency_(engineering)). It is used for data interconnect both among and within computers. InfiniBand is also used as either a direct or switched interconnect between servers and storage systems, as well as an interconnect between storage systems
+InfiniBand(IB) is a computer networking communications standard used in [high-performance computing](https://en.wikipedia.org/wiki/High-performance_computing) that features very high [throughput](https://en.wikipedia.org/wiki/Throughput) and very low [latency](https://en.wikipedia.org/wiki/Latency_(engineering)). It is used for data interconnect both among and within computers. InfiniBand is also used as either a direct or switched interconnect between servers and storage systems, as well as an interconnect between storage systems
 
 <https://en.wikipedia.org/wiki/InfiniBand>

@@ -49,7 +49,7 @@ The effects of the fallacies
 
 <https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-2-b8ff29beed56>
 
-## Byzantine Generals' Problem / Two Generals' Problem**
+## Byzantine Generals' Problem / Two Generals' Problem
 
 ![image](media/Fallacies-and-Problems-image1.jpg)
 

@@ -10,7 +10,7 @@ Modified: 2022-08-06 12:17:15 +0500
 
 <https://www.notboring.co/p/braintrust-fighting-capitalism-with>
 
-## Bitcoin (2008): first combination of proof-of-work / distributed ledger / hashchain**
+## Bitcoin (2008): first combination of proof-of-work / distributed ledger / hashchain
 
 - Solves Byzantine agreemeent, permissionless, Sybil-proof, reasonable cryptographic assumptions
 - Elegant in its simplicity

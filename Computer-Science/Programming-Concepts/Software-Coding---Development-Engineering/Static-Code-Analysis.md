@@ -20,7 +20,7 @@ Cyclomatic complexity is computed using the [control flow graph](https://en.wiki
 One [testing](https://en.wikipedia.org/wiki/Software_testing) strategy, called [basis path testing](https://en.wikipedia.org/wiki/Basis_path_testing) by McCabe who first proposed it, is to test each linearly independent path through the program; in this case, the number of test cases will equal the cyclomatic complexity of the program.
 <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
 
-## Test & Code Coverage**
+## Test & Code Coverage
 
 In [computer science](https://en.wikipedia.org/wiki/Computer_science), test coverageis a measure used to describe the degree to which the [source code](https://en.wikipedia.org/wiki/Source_code) of a [program](https://en.wikipedia.org/wiki/Computer_program) is executed when a particular [test suite](https://en.wikipedia.org/wiki/Test_suite) runs. A program with high test coverage, measured as a percentage, has had more of its source code executed during testing, which suggests it has a lower chance of containing undetected [software bugs](https://en.wikipedia.org/wiki/Software_bug) compared to a program with low test coverage.
 Many different metrics can be used to calculate test coverage; some of the most basic are the percentage of program [subroutines](https://en.wikipedia.org/wiki/Subroutine) and the percentage of program [statements](https://en.wikipedia.org/wiki/Statement_(computer_science)) called during execution of the test suite.
@@ -40,7 +40,7 @@ Code Coverage = (Number of lines of code exercised)/(Total Number of lines of co
 Knowing the percentage of code that is covered by tests, can help developers assess the quality of their test cases and help them add missing tests and thereby find and remove software faults
 <https://codecov.io>
 
-## Lint / Linting / Linter**
+## Lint / Linting / Linter
 
 Lint (In computer programming, lint is a Unix utility that flags some suspicious and non-portable constructs (likely to be bugs) in C language source code; generically, lint or a linter is any tool that flags suspicious usage in software written in any computer language.)
 [Code linting](https://en.wikipedia.org/wiki/Lint_(software)) is the act of finding bugs, stylistic errors, and suspicious constructs from static code analysis.
@@ -62,7 +62,7 @@ Application Inspector is different from traditional static analysis tools in tha
 The tool supports scanning various programming languages including C, C++, C#, Java, JavaScript, HTML, Python, Objective-C, Go, Ruby, PowerShell and [more](https://github.com/microsoft/ApplicationInspector/wiki/2.1-Field:-applies_to-(languages-support)) and can scan projects with mixed langauge files. It also includes HTML, JSON and text output formats with the default being an HTML report similar to the one shown here.
 <https://github.com/Microsoft/ApplicationInspector>
 
-## SonarQube (Continuous Code Quality Inspector)**
+## SonarQube (Continuous Code Quality Inspector)
 
 SonarQube(formerlySonar)is an [open-source](https://en.wikipedia.org/wiki/Open-source_software) platform developed by [SonarSource](https://en.wikipedia.org/wiki/SonarSource) for continuous inspection of [code quality](https://en.wikipedia.org/wiki/Software_quality) to perform automatic reviews with static [analysis of code](https://en.wikipedia.org/wiki/Static_program_analysis) to detect [bugs](https://en.wikipedia.org/wiki/Software_bug), [code smells](https://en.wikipedia.org/wiki/Code_smell), and security vulnerabilities on 20+[programming languages](https://en.wikipedia.org/wiki/Programming_language). SonarQube offers reports on [duplicated code](https://en.wikipedia.org/wiki/Duplicate_code), [coding standards](https://en.wikipedia.org/wiki/Programming_style), [unit tests](https://en.wikipedia.org/wiki/Unit_testing), [code coverage](https://en.wikipedia.org/wiki/Code_coverage), [code complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity), [comments](https://en.wikipedia.org/wiki/Comment_(computer_programming)), [bugs](https://en.wikipedia.org/wiki/Defensive_programming), and security vulnerabilities.
 SonarQube can record metrics history and provides evolution graphs. SonarQube provides fully automated analysis and integration with [Maven](https://en.wikipedia.org/wiki/Apache_Maven), [Ant](https://en.wikipedia.org/wiki/Apache_Ant), [Gradle](https://en.wikipedia.org/wiki/Gradle), [MSBuild](https://en.wikipedia.org/wiki/MSBuild) and [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) tools ([Atlassian Bamboo](https://en.wikipedia.org/wiki/Bamboo_(software)), [Jenkins](https://en.wikipedia.org/wiki/Jenkins_(software)), [Hudson](https://en.wikipedia.org/wiki/Hudson_(software)), etc.).
@@ -70,7 +70,7 @@ SonarQube can record metrics history and provides evolution graphs. SonarQube pr
 
 <https://www.sonarqube.org>
 
-## AI Autocomplete & Assistant**
+## AI Autocomplete & Assistant
 
 - Kite
 - <https://www.tabnine.com>

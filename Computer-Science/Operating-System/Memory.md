@@ -164,7 +164,7 @@ The lower levels of the hierarchy -- from disks downwards -- are also known as [
 
 <https://www.thegeekstuff.com/2012/02/linux-memory-swap-cache-shared-vm>
 
-## Transparent Huge Pages (THP)**
+## Transparent Huge Pages (THP)
 
 Transparent Huge Pages (THP) is a Linux memory management system that reduces the overhead of Translation Lookaside Buffer (TLB) lookups on machines with large amounts of memory by using larger memory pages.
 A **compressible resource** can be throttled, but an impressible resource---not so much. For example, CPU is considered compressible and memory is incompressible.

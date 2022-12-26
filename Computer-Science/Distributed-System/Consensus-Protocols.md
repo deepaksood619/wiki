@@ -40,7 +40,7 @@ Multi-paxos - models the log as a series of consensus problems, one for each slo
 
 <https://engineering.fb.com/2022/03/07/core-data/augmenting-flexible-paxos-logdevice>
 
-## Raft - Consensus Algorithm**
+## Raft - Consensus Algorithm
 
 [RAFT](https://raft.github.io/raft.pdf) is a much simpler consensus algorithm.
 Used by -
@@ -91,7 +91,7 @@ The use of quorums provide partition tolerance by fencing minority partitions wh
 Google relies on Paxos for its high-replication datastore in App Engine as well as its [Chubby lock service](http://static.googleusercontent.com/media/research.google.com/en/us/archive/chubby-osdi06.pdf). The distributed key-value store [etcd](https://github.com/coreos/etcd) uses Raft to manage highly available replicated logs. Zab, which differentiates itself from the former by implementing a primary-backup protocol, was designed for the [ZooKeeper](http://zookeeper.apache.org/) coordination service. In general, there are several different implementations of these protocols, such as the [Go implementation](https://github.com/goraft/raft) of Raft.
 <https://bravenewgeek.com/understanding-consensus>
 
-## SAGA (Asynchronous Distributed Transactions)**
+## SAGA (Asynchronous Distributed Transactions)
 
 ## Context
 
@@ -117,7 +117,7 @@ Youtube - [Do you know Distributed transactions?](https://www.youtube.com/watch?
 
 <https://microservices.io/patterns/data/saga.html>
 
-## Gossip / Gossiping**
+## Gossip / Gossiping
 
 Agossip protocolis a procedure or process of computer peer-to-peer communication that is based on the way that [epidemics](https://en.wikipedia.org/wiki/Epidemic) spread. Some [distributed systems](https://en.wikipedia.org/wiki/Distributed_computing) use peer-to-peer gossip to ensure that data is routed to all members of an ad-hoc network. Some ad-hoc networks have no central registry and the only way to spread common data is to rely to each member to pass it along to their neighbors.
 

@@ -36,7 +36,7 @@ Used for setting, communicating and monitoring quarterly goals and results in or
 
 <https://okrexamples.co/technology-engineering-rnd-okr-examples>
 
-## TPM - Total Productive Maintainence**
+## TPM - Total Productive Maintainence
 
 ## MVP - Minimum Viable Products
 
@@ -256,7 +256,7 @@ Safety-critical elements are systems or components that are designed to prevent,
 
 ## Concurrent Engineering
 
-## Concurrent engineering(**CE**) is a work methodology emphasizing the parallelisation of tasks (i.e. performing tasks concurrently), which is sometimes called**simultaneous engineering**or**integrated product development**(**IPD) using an [integrated product team](https://en.wikipedia.org/wiki/Integrated_product_team) approach. It refers to an approach used in [product development](https://en.wikipedia.org/wiki/Product_development) in which functions of design engineering, manufacturing engineering, and other functions are integrated to reduce the time required to bring a new product to market
+Concurrent engineering(**CE**) is a work methodology emphasizing the parallelisation of tasks (i.e. performing tasks concurrently), which is sometimes called**simultaneous engineering**or**integrated product development**(**IPD) using an [integrated product team](https://en.wikipedia.org/wiki/Integrated_product_team) approach. It refers to an approach used in [product development](https://en.wikipedia.org/wiki/Product_development) in which functions of design engineering, manufacturing engineering, and other functions are integrated to reduce the time required to bring a new product to market
 
 ## The Four Keys To Rapid Response Software Development
 
@@ -282,7 +282,7 @@ Safety-critical elements are systems or components that are designed to prevent,
 TheUnified Software Development ProcessorUnified Processis an [iterative and incremental](https://en.wikipedia.org/wiki/Iterative_and_incremental_development)[software development process](https://en.wikipedia.org/wiki/Software_development_process) framework. The best-known and extensively documented refinement of the Unified Process is the [Rational Unified Process](https://en.wikipedia.org/wiki/Rational_Unified_Process)(RUP). Other examples are [OpenUP](https://en.wikipedia.org/wiki/OpenUP) and [Agile Unified Process](https://en.wikipedia.org/wiki/Agile_Unified_Process).
 <https://en.wikipedia.org/wiki/Unified_Process>
 
-## STAR method (Situation-Task-Action-Result)**
+## STAR method (Situation-Task-Action-Result)
 
 Here's the Action-Result method:
 
@@ -390,7 +390,7 @@ Brooks goes on to argue that there is a difference between "good" designers and 
 
 <https://medium.com/squad-engineering/squad-takes-the-joel-test-9189709a6235>
 
-## The 7 R's: Common use cases and deployment**
+## The 7 R's: Common use cases and deployment
 
 - Rehost (also known as "lift-and-shift")
 

@@ -8,7 +8,7 @@ Modified: 2021-05-29 00:06:03 +0500
 
 ## Hierarchical Data Format
 
-## Hierarchical Data Format(**HDF**) is a set of file formats (**HDF4**,**HDF5) designed to store and organize large amounts of data
+Hierarchical Data Format(**HDF**) is a set of file formats (**HDF4**,**HDF5) designed to store and organize large amounts of data
 
 HDF5 simplifies the file structure to include only two major types of object:
 
@@ -17,11 +17,9 @@ HDF5 simplifies the file structure to include only two major types of object:
 In addition to these advances in the file format, HDF5 includes an improved type system, and dataspace objects which represent selections over dataset regions. The API is also object-oriented with respect to datasets, groups, attributes, types, dataspaces and property lists.
 Because it uses [B-trees](https://en.wikipedia.org/wiki/B-trees) to index table objects, HDF5 works well for [time series](https://en.wikipedia.org/wiki/Time_series) data such as stock price series, network monitoring data, and 3D meteorological data. The bulk of the data goes into straightforward arrays (the table objects) that can be accessed much more quickly than the rows of an [SQL](https://en.wikipedia.org/wiki/SQL) database, but B-tree access is available for non-array data. The HDF5 data storage mechanism can be simpler and faster than an SQL [star schema](https://en.wikipedia.org/wiki/Star_schema).
 
-## References
-
 <https://en.wikipedia.org/wiki/Hierarchical_Data_Format>
 
-## Cap'n Proto**
+## Cap'n Proto
 
 Cap'n Proto is an insanely fast data interchange format and capability-based RPC system. Think JSON, except binary. Or think [Protocol Buffers](http://protobuf.googlecode.com/), except faster.
 Cap'n Proto gets a perfect score because*there is no encoding/decoding step*. The Cap'n Proto encoding is appropriate both as a data interchange format and an in-memory representation, so once your structure is built, you can simply write the bytes straight out to disk!

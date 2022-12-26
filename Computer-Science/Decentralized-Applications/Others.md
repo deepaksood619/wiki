@@ -8,17 +8,18 @@ Modified: 2022-03-13 16:54:15 +0500
 
 ## IPFS (InterPlanatery File System)
 
-## InterPlanetary File System(IPFS) is a [protocol](https://en.wikipedia.org/wiki/Communications_protocol) and network designed to create a [content-addressable](https://en.wikipedia.org/wiki/Content-addressable_storage), [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) method of storing and sharing [hypermedia](https://en.wikipedia.org/wiki/Hypermedia) in a [distributed file system](https://en.wikipedia.org/wiki/Distributed_file_system)
+InterPlanetary File System(IPFS) is a [protocol](https://en.wikipedia.org/wiki/Communications_protocol) and network designed to create a [content-addressable](https://en.wikipedia.org/wiki/Content-addressable_storage), [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) method of storing and sharing [hypermedia](https://en.wikipedia.org/wiki/Hypermedia) in a [distributed file system](https://en.wikipedia.org/wiki/Distributed_file_system)
 
 IPFS is a peer-to-peer distributed file system that seeks to connect all computing devices with the same system of files. IPFS could be seen as a single [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent) swarm, exchanging objects within one [Git](https://en.wikipedia.org/wiki/Git_(software)) repository. In other words, IPFS provides a high-throughput, content-addressed [block storage](https://en.wikipedia.org/wiki/Block_storage) model, with content-addressed [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink).Distributed Content Delivery saves bandwidth and prevents [DDoS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack), which HTTP struggles with.
 
 ## Working
 
-- Each file and all of theblocks within itare given aunique fingerprintcalled acryptographic hash.
-- IPFSremoves duplicationsacross the network.
-- Eachnetwork nodestores only content it is interested in, and some indexing information that helps figure out who is storing what.
-- Whenlooking up files, you're asking the network to find nodes storing the content behind a unique hash.
-- Every file can be found byhuman-readable namesusing a decentralized naming system calledIPNS.
+- Each file and all of theblocks within it are given a unique fingerprint called a cryptographic hash.
+- IPFS removes duplications across the network.
+- Each network nodestores only content it is interested in, and some indexing information that helps figure out who is storing what.
+- When looking up files, you're asking the network to find nodes storing the content behind a unique hash.
+- Every file can be found by human-readable names using a decentralized naming system called IPNS.
+
 <https://ipfs.io>
 
 <https://en.wikipedia.org/wiki/InterPlanetary_File_System>
@@ -37,7 +38,7 @@ Peer-to-Peer Databases for the Decentralized Web
 
 ## OpenBazaar
 
-## OpenBazaaris an open source project developing a protocol for [e-commerce](https://en.wikipedia.org/wiki/E-commerce) transactions in a fully [decentralized](https://en.wikipedia.org/wiki/Decentralization) marketplace. It uses [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) as medium of exchange and was inspired by a [hackathon](https://en.wikipedia.org/wiki/Hackathon) project called**DarkMarket
+OpenBazaar is an open source project developing a protocol for [e-commerce](https://en.wikipedia.org/wiki/E-commerce) transactions in a fully [decentralized](https://en.wikipedia.org/wiki/Decentralization) marketplace. It uses [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) as medium of exchange and was inspired by a [hackathon](https://en.wikipedia.org/wiki/Hackathon) project called - DarkMarket
 
 <https://en.wikipedia.org/wiki/OpenBazaar>
 
@@ -77,6 +78,7 @@ XRootD software framework is a fully generic suite for fast, low latency and sca
 - 🐍 Distributed Hash Tables
 - 📌 Routing Table
 - 🤺 Attacks on BitTorrent
+
 <https://dev.to/brandonskerritt/how-does-bittorrent-work-a-plain-english-guide-16a2>
 
 <https://skerritt.blog/bit-torrent>
@@ -86,7 +88,7 @@ Others - **WebTorrent**
 
 ## DApps
 
-## Decentralized database
+### Decentralized database
 
 <https://gun.eco>
 

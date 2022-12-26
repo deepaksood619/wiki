@@ -61,15 +61,15 @@ RTL is short for RTL2832U. The Realtek RTL2832U chipset was a popular choice for
 It depends on the SDR. If you have the right hardware, yes you can, but not with the RTL-SDR. Some transmission capable SDRs include the HackRF, PlutoSDR, LimeSDR, LimeSDR Mini, and more.
 <https://www.toptal.com/software/software-defined-radio-tutorial-rtl-sdr>
 
-## Virtual Reality (VR / WebVR / AR - Augmented realityƒ)**
+## Virtual Reality (VR / WebVR / AR - Augmented realityƒ)
 
 [https://www.toptal.com/virtual-reality/webvr-and-edge-computing](https://www.toptal.com/virtual-reality/webvr-and-edge-computing?)
 
 <https://www.gather.town>
 
-## GIS (Geographic Information System)**
+## GIS (Geographic Information System)
 
-AGeographic Information System(GIS) is a system designed to capture, store, manipulate, analyze, manage, and present spatial or [geographic data](https://en.wikipedia.org/wiki/Geographic_data_and_information). GIS applications are tools that allow users to create interactive queries (user-created searches), analyze spatial information, edit data in maps, and present the results of all these operations.GIS (more commonly GIScience) sometimes refers to [geographic information science (GIScience)](https://en.wikipedia.org/wiki/Geographic_information_science), the science underlying geographic concepts, applications, and systems.Since the mid-1980s, geographic information systems have become valuable tool used to support a variety of city and regional planning functions.
+A Geographic Information System(GIS) is a system designed to capture, store, manipulate, analyze, manage, and present spatial or [geographic data](https://en.wikipedia.org/wiki/Geographic_data_and_information). GIS applications are tools that allow users to create interactive queries (user-created searches), analyze spatial information, edit data in maps, and present the results of all these operations.GIS (more commonly GIScience) sometimes refers to [geographic information science (GIScience)](https://en.wikipedia.org/wiki/Geographic_information_science), the science underlying geographic concepts, applications, and systems.Since the mid-1980s, geographic information systems have become valuable tool used to support a variety of city and regional planning functions.
 GIS can refer to a number of different technologies, processes, techniques and methods. It is attached to many operations and has many applications related to engineering, planning, management, transport/logistics, insurance, telecommunications, and business.For that reason, GIS and [location intelligence](https://en.wikipedia.org/wiki/Location_intelligence) applications can be the foundation for many location-enabled services that rely on analysis and visualization.
 GIS can relate unrelated information by using location as the key index variable. Locations or extents in the Earth [space--time](https://en.wikipedia.org/wiki/Space%E2%80%93time) may be recorded as dates/times of occurrence, and x, y, and z [coordinates](https://en.wikipedia.org/wiki/Coordinate) representing, [longitude](https://en.wikipedia.org/wiki/Longitude), [latitude](https://en.wikipedia.org/wiki/Latitude), and [elevation](https://en.wikipedia.org/wiki/Elevation_(geography)), respectively. All Earth-based spatial--temporal location and extent references should be relatable to one another and ultimately to a "real" physical location or extent. This key characteristic of GIS has begun to open new avenues of scientific inquiry.
 <https://en.wikipedia.org/wiki/Geographic_information_system>

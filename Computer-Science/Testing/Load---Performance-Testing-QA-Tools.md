@@ -14,7 +14,7 @@ Modified: 2022-01-05 23:09:26 +0500
 - <https://www.sitespeed.io>
 - <https://estimator.dev>
 
-## Bash - add artificial load to the CPU**
+## Bash - add artificial load to the CPU
 
 ```bash
 while true; do i=0; done

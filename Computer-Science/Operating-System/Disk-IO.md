@@ -127,7 +127,7 @@ Input/output operations per second(IOPS, pronouncedeye-ops) is an [input/output]
 
 ## Wear Leveling
 
-## Wear leveling(also written as**wear levelling) is a technique  for prolonging the [service life](https://en.wikipedia.org/wiki/Service_life) of some kinds of erasable [computer storage](https://en.wikipedia.org/wiki/Computer_storage) media, such as [flash memory](https://en.wikipedia.org/wiki/Flash_memory), which is used in [solid-state drives](https://en.wikipedia.org/wiki/Solid-state_drive)(SSDs) and [USB flash drives](https://en.wikipedia.org/wiki/USB_flash_drive), and [phase-change memory](https://en.wikipedia.org/wiki/Phase-change_memory). There are several wear leveling mechanisms that provide varying levels of longevity enhancement in such memory systems
+## Wear leveling(also written aswear levelling) is a technique  for prolonging the [service life](https://en.wikipedia.org/wiki/Service_life) of some kinds of erasable [computer storage](https://en.wikipedia.org/wiki/Computer_storage) media, such as [flash memory](https://en.wikipedia.org/wiki/Flash_memory), which is used in [solid-state drives](https://en.wikipedia.org/wiki/Solid-state_drive)(SSDs) and [USB flash drives](https://en.wikipedia.org/wiki/USB_flash_drive), and [phase-change memory](https://en.wikipedia.org/wiki/Phase-change_memory). There are several wear leveling mechanisms that provide varying levels of longevity enhancement in such memory systems
 
 ## Monitoring
 
@@ -143,7 +143,7 @@ A solid-state-storage program-erase cycle is a sequence of events in which data 
 Some disagreement exists in the literature as to the maximum number of PE cycles that each type of technology can execute while maintaining satisfactory performance. For MLC, typical maximum PE-cycle-per-[block](https://searchsqlserver.techtarget.com/definition/block) numbers range from 1500 to 10,000. For E-MLC, numbers range up to approximately 30,000 PE cycles per block. For SLC, devices can execute up to roughly 100,000 PE cycles per block.
 <https://www.mydigitaldiscount.com/everything-you-need-to-know-about-slc-mlc-and-tlc-nand-flash.html>
 
-## Distributed Asynchronous Object Storage (DAOS)**
+## Distributed Asynchronous Object Storage (DAOS)
 
 TheDistributedAsynchronousObjectStorage (DAOS) is an open-source software-defined object store designed from the ground up for massively distributed Non Volatile Memory (NVM). DAOS takes advantage of next generation NVM technology like Storage Class Memory (SCM) and NVM express (NVMe) while presenting a key-value storage interface and providing features such as transactional non-blocking I/O, advanced data protection with self healing on top of commodity hardware, end-to-end data integrity, fine grained data control and elastic storage to optimize performance and cost.
 <https://github.com/daos-stack/daos>

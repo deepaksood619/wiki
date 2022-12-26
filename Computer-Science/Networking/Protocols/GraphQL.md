@@ -179,7 +179,8 @@ Quiver - <https://medium.com/@syrusakbary/quiver-graphql-on-steroids-13612ea1ea7
 
 <https://xuorig.medium.com/why-graphql-performance-monitoring-is-hard-41381bc7c44d>
 
-## Persisted Queries -** <https://www.apollographql.com/blog/apollo-client/persisted-graphql-queries>
+## Persisted Queries
+<https://www.apollographql.com/blog/apollo-client/persisted-graphql-queries>
 
 ## References
 
