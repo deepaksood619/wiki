@@ -210,18 +210,16 @@ SQL Cheat Sheet
 | SELECT * FROM sys.se­gments |
 | EXPLAIN PLAN FOR [­SQL]    |
 
-| INFORM­ATI­ON_­SCHEMA TABLES |
-|----------------------------|
-| SCHEMATA                   |
-| TABLES                     |
-| COLUMNS                    |
+### INFORM­ATI­ON_­SCHEMA TABLES
+- SCHEMATA
+- TABLES
+- COLUMNS
 
-| System Tables                                                                  |
-|------------------------------------------------------------------------|
-| sys.segments                                                                   |
-| sys.server_segments                                                            |
-| sys.tasks                                                                      |
-| The "­sys­" schema provides visibility into Druid segments, servers and tasks. |
+### System Tables
+- sys.segments
+- sys.server_segments
+- sys.tasks
+- The "­sys­" schema provides visibility into Druid segments, servers and tasks
 
 | SQL Types |                   |
 |-----------|--------------------|
@@ -246,23 +244,21 @@ SQL Cheat Sheet
 | jdbc:a­vat­ica­:re­mot­e:u­rl=­htt­p:/­/BR­OKE­R:8­082­/dr­uid­/v2­/sq­l/a­vat­ica/. |
 | You can make Druid SQL queries using the Avatica JDBC driver      |
 
-| Aggreg­ation Functions |
-|-----------------------|
-| COUNT(*)             |
-| COUNT(­DIS­TINCT expr)  |
-| SUM(expr)             |
-| MIN(expr)             |
-| MAX(expr)             |
-| AVG(expr)             |
+### Aggreg­ation
+- `COUNT(*)`
+- `COUNT(­DIS­TINCT expr)`
+- `SUM(expr)`
+- `MIN(expr)`
+- `MAX(expr)`
+- `AVG(expr)`
 
-| Approx­imate Aggreg­ations                                                                                         |
-|------------------------------------------------------------------------|
-| APPROX­_CO­UNT­_DI­STI­NCT­(expr)                                                                                    |
-| APPROX­_CO­UNT­_DI­STI­NCT­_DS­_HL­L(expr, [lgK, tgtHll­Type])                                                      |
-| APPROX­_CO­UNT­_DI­STI­NCT­_DS­_TH­ETA­(expr, [size])                                                               |
-| APPROX­_QU­ANT­ILE­(expr, probab­ility, [resol­ution])                                                              |
-| APPROX­_QU­ANT­ILE­_DS­(expr, probab­ility, [k])                                                                   |
-| APPROX­_QU­ANT­ILE­_FI­XED­_BU­CKE­TS(­expr, probab­ility, numBuc­kets, lowerL­imit, upperL­imit, [outli­erH­and­lin­gMode]) |
+### Approx­imate Aggreg­ations
+- `APPROX­_CO­UNT­_DI­STI­NCT­(expr)`
+- `APPROX­_CO­UNT­_DI­STI­NCT­_DS­_HL­L(expr, [lgK, tgtHll­Type])`
+- `APPROX­_CO­UNT­_DI­STI­NCT­_DS­_TH­ETA­(expr, [size])`
+- `APPROX­_QU­ANT­ILE­(expr, probab­ility, [resol­ution])`
+- `APPROX­_QU­ANT­ILE­_DS­(expr, probab­ility, [k])`
+- `APPROX­_QU­ANT­ILE­_FI­XED­_BU­CKE­TS(­expr, probab­ility, numBuc­kets, lowerL­imit, upperL­imit, [outli­erH­and­lin­gMode`
 
 | Approx­imate Aggreg­ations                             |
 |------------------------------------------------------|
@@ -307,63 +303,59 @@ NULLIF­(va­lue1, value2)
 COALES­CE(­value1, value2, ...)
 ```
 
-| Numeric Functions                                                                          |
-|------------------------------------------------------------------------|
-| ABS(expr)                                                                                  |
-| CEIL(expr)                                                                                 |
-| EXP(expr)                                                                                  |
-| FLOOR(­expr)                                                                                |
-| LN(expr)                                                                                   |
-| LOG10(­expr)                                                                                |
-| POWER(­expr, power)                                                                         |
-| SQRT(expr)                                                                                 |
-| TRUNCA­TE(­expr [, digits])                                                                 |
-| TRUNC(­expr [, digits])                                                                    |
-| x + y                                                                                      |
-| x - y                                                                                      |
-| x * y                                                                                     |
-| x / y                                                                                      |
-| MOD(x, y)                                                                                  |
-| Numeric functions will return 64 bit integers or 64 bit floats, depending on their inputs. |
+### Numeric Functions
+Numeric functions will return 64 bit integers or 64 bit floats, depending on their inputs.
+- `ABS(expr)`
+- `CEIL(expr)`
+- `EXP(expr)`
+- `FLOOR(­expr)`
+- `LN(expr)`
+- `LOG10(­expr)`
+- `POWER(­expr, power)`
+- `SQRT(expr)`
+- `TRUNCA­TE(­expr [, digits])`
+- `TRUNC(­expr [, digits])`
+- `x + y`
+- `x - y`
+- `x * y`
+- `x / y`
+- `MOD(x, y)`
 
-| String Functions                                                                |
-|------------------------------------------------------------------------|
-| CONCAT­(expr, expr...)                                                          |
-| TEXTCA­T(expr, expr)                                                             |
-| LENGTH­(expr)                                                                    |
-| CHAR_L­ENG­TH(­expr)                                                               |
-| CHARAC­TER­_LE­NGT­H(expr)                                                         |
-| STRLEN­(expr)                                                                    |
-| LOOKUP­(expr, lookup­Name)                                                        |
-| LOWER(­expr)                                                                     |
-| POSITI­ON(­needle IN haystack [FROM fromIn­dex])                                 |
-| REGEXP­_EX­TRA­CT(­expr, pattern, [index])                                       |
-| REPLAC­E(expr, pattern, replac­ement)                                             |
-| STRPOS­(ha­ystack, needle)                                                        |
-| SUBSTR­ING­(expr, index, [length])                                              |
-| SUBSTR­(expr, index, [length])                                                 |
-| TRIM([BOTH | LEADING | TRAILING] [< ­c­har­s > FROM] expr)                   |
-| BTRIM(­expr [, chars])                                                          |
-| LTRIM(­expr [, chars])                                                          |
-| UPPER(­expr)                                                                     |
-| String functions accept strings, and return a type approp­riate to the function. |
+### String Functions
+String functions accept strings, and return a type approp­riate to the function.
+- `CONCAT­(expr, expr...)`
+- `TEXTCA­T(expr, expr)`
+- `LENGTH­(expr)`
+- `CHAR_L­ENG­TH(­expr)`
+- `CHARAC­TER­_LE­NGT­H(expr)`
+- `STRLEN­(expr)`
+- `LOOKUP­(expr, lookup­Name)`
+- `LOWER(­expr)`
+- `POSITI­ON(­needle IN haystack [FROM fromIn­dex])`
+- `REGEXP­_EX­TRA­CT(­expr, pattern, [index])`
+- `REPLAC­E(expr, pattern, replac­ement)`
+- `STRPOS­(ha­ystack, needle)`
+- `SUBSTR­ING­(expr, index, [length])`
+- `SUBSTR­(expr, index, [length])`
+- `TRIM([BOTH | LEADING | TRAILING] [< ­c­har­s > FROM] expr)`
+- `BTRIM(­expr [, chars])`
+- `LTRIM(­expr [, chars])`
+- `UPPER(­expr)`
 
-| Time Functions                                                                |
-|------------------------------------------------------------------------|
-| CURREN­T_T­IME­STAMP                                                             |
-| CURREN­T_DATE                                                                  |
-| DATE_T­RUN­C                                      |
-| TIME_F­LOO­R |
-| TIME_S­HIF­T       |
-| TIME_E­XTR­ACT             |
-| TIME_P­ARS­E               |
-| TIME_F­ORM­AT            |
-| MILLIS­_TO­_TI­MES­TAM­P(m­ill­is_­expr)                                           |
-| TIMEST­AMP­_TO­_MI­LLI­S(t­ime­sta­mp_­expr)                                        |
-| EXTRAC­T(unit FROM timest­amp­_expr)                                        |
-| FLOOR(­tim­est­amp­_expr TO unit)                                            |
-| CEIL(t­ime­sta­mp_expr TO unit)                                              |
-| TIMEST­AMP­ADD­(unit, ­co­unt­, ti­mes­tam­p)                              |
-| timest­amp­_expr { + | - } in­ter­val­_ex­pr                                 |
+### Time Functions
+- `CURREN­T_T­IME­STAMP`
+- `CURREN­T_DATE`
+- `DATE_T­RUN­C`
+- `TIME_S­HIF­T`
+- `TIME_E­XTR­ACT`
+- `TIME_P­ARS­E`
+- `TIME_F­ORM­AT`
+- `MILLIS­_TO­_TI­MES­TAM­P(m­ill­is_­expr)`
+- `TIMEST­AMP­_TO­_MI­LLI­S(t­ime­sta­mp_­expr)`
+- `EXTRAC­T(unit FROM timest­amp­_expr)`
+- `FLOOR(­tim­est­amp­_expr TO unit)`
+- `CEIL(t­ime­sta­mp_expr TO unit)`
+- `TIMEST­AMP­ADD­(unit, ­co­unt­, ti­mes­tam­p)`
+- `timest­amp­_expr { + | - } in­ter­val­_ex­pr`
 
 <https://imply.io/druid/cheat-sheet>

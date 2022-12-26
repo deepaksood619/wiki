@@ -26,46 +26,42 @@ Modified: 2020-12-03 13:52:29 +0500
 
 holt_winters(v range-vector, sf scalar, tf scalar)produces a smoothed value for time series based on the range inv. The lower the smoothing factorsf, the more importance is given to old data. The higher the trend factortf, the more trends in the data is considered. Bothsfandtfmust be between 0 and 1.
 
-- [hour()](https://prometheus.io/docs/prometheus/latest/querying/functions/#hour)
-- [idelta()](https://prometheus.io/docs/prometheus/latest/querying/functions/#idelta)
-- [increase()](https://prometheus.io/docs/prometheus/latest/querying/functions/#increase)
-- [irate()](https://prometheus.io/docs/prometheus/latest/querying/functions/#irate)
-- [label_join()](https://prometheus.io/docs/prometheus/latest/querying/functions/#label_join)
-- [label_replace()](https://prometheus.io/docs/prometheus/latest/querying/functions/#label_replace)
-- [ln()](https://prometheus.io/docs/prometheus/latest/querying/functions/#ln)
-- [log2()](https://prometheus.io/docs/prometheus/latest/querying/functions/#log2)
-- [log10()](https://prometheus.io/docs/prometheus/latest/querying/functions/#log10)
-- [minute()](https://prometheus.io/docs/prometheus/latest/querying/functions/#minute)
-- [month()](https://prometheus.io/docs/prometheus/latest/querying/functions/#month)
-- [predict_linear()](https://prometheus.io/docs/prometheus/latest/querying/functions/#predict_linear)
-- [rate()](https://prometheus.io/docs/prometheus/latest/querying/functions/#rate)
-- [resets()](https://prometheus.io/docs/prometheus/latest/querying/functions/#resets)
-- [round()](https://prometheus.io/docs/prometheus/latest/querying/functions/#round)
-- [scalar()](https://prometheus.io/docs/prometheus/latest/querying/functions/#scalar)
-- [sort()](https://prometheus.io/docs/prometheus/latest/querying/functions/#sort)
-- [sort_desc()](https://prometheus.io/docs/prometheus/latest/querying/functions/#sort_desc)
-- [sqrt()](https://prometheus.io/docs/prometheus/latest/querying/functions/#sqrt)
-- [time()](https://prometheus.io/docs/prometheus/latest/querying/functions/#time)
-- [timestamp()](https://prometheus.io/docs/prometheus/latest/querying/functions/#timestamp)
-- [vector()](https://prometheus.io/docs/prometheus/latest/querying/functions/#vector)
-- [year()](https://prometheus.io/docs/prometheus/latest/querying/functions/#year)
-- [<aggregation>_over_time()](https://prometheus.io/docs/prometheus/latest/querying/functions/#aggregation_over_time)
+- [`hour()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#hour)
+- [`idelta()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#idelta)
+- [`increase()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#increase)
+- [`irate()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#irate)
+- [`label_join()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#label_join)
+- [`label_replace()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#label_replace)
+- [`ln()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#ln)
+- [`log2()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#log2)
+- [`log10()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#log10)
+- [`minute()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#minute)
+- [`month()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#month)
+- [`predict_linear()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#predict_linear)
+- [`rate()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#rate)
+- [`resets()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#resets)
+- [`round()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#round)
+- [`scalar()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#scalar)
+- [`sort()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#sort)
+- [`sort_desc()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#sort_desc)
+- [`sqrt()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#sqrt)
+- [`time()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#time)
+- [`timestamp()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#timestamp)
+- [`vector()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#vector)
+- [`year()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#year)
+- [`<aggregation>_over_time()`](https://prometheus.io/docs/prometheus/latest/querying/functions/#aggregation_over_time)
 
 ## PromQL
 
+```bash
 sum by (instance) (
-
-irate(
-
-container_cpu_usage_seconds_total{
-
-pod_name=~"worker.*"
-
-}[5m]
-
+    irate(
+        container_cpu_usage_seconds_total{
+            pod_name=~"worker.*"
+        }[5m]
+    )
 )
-
-)
+```
 
 To subtract two metrics use **`on ()`**
 
