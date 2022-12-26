@@ -92,7 +92,7 @@ keydb - Multithreaded fork of redis
 
 <https://docs.keydb.dev/blog/2019/10/07/blog-post>
 
-## twenproxy (by twitter)**
+## twenproxy (by twitter)
 
 twemproxy(pronounced "two-em-proxy"), akanutcrackeris a fast and lightweight proxy for [memcached](http://www.memcached.org/) and [redis](http://redis.io/) protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture.
 

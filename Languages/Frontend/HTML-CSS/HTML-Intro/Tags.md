@@ -44,9 +44,9 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [`<select>`](https://www.w3schools.com/tags/tag_select.asp)         | Defines a drop-down list                                   |
 | [`<optgroup>`](https://www.w3schools.com/tags/tag_optgroup.asp)     | Defines a group of related options in a drop-down list     |
 | [`<option>`](https://www.w3schools.com/tags/tag_option.asp)         | Defines an option in a drop-down list                      |
-| [`<label>`](https://www.w3schools.com/tags/tag_label.asp)           | Defines a labelfor an <input> element                   |
+| [`<label>`](https://www.w3schools.com/tags/tag_label.asp)           | Defines a label for an `<input>` element                   |
 | [`<fieldset>`](https://www.w3schools.com/tags/tag_fieldset.asp) | Groups related elements in a form                      |
-| [`<legend>`](https://www.w3schools.com/tags/tag_legend.asp)         | Defines a caption for a <fieldset> element               |
+| [`<legend>`](https://www.w3schools.com/tags/tag_legend.asp)         | Defines a caption for a `<fieldset>` element               |
 | [`<datalist>`](https://www.w3schools.com/tags/tag_datalist.asp) #  | Specifies a list of pre-defined options for input controls |
 | [`<output>`](https://www.w3schools.com/tags/tag_output.asp) #      | Defines the result of a calculation                        |
 
@@ -56,8 +56,8 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | Tag                                                            | Description                                                                                |
 |----------------|--------------------------------------------------------|
 | [`<audio>`](https://www.w3schools.com/tags/tag_audio.asp) #   | Defines sound content                                                                      |
-| [`<source>`](https://www.w3schools.com/tags/tag_source.asp) # | Defines multiple media resources for media elements (<video>, <audio> and <picture>) |
-| [`<track>`](https://www.w3schools.com/tags/tag_track.asp) #   | Defines text tracks for media elements (<video> and <audio>)                           |
+| [`<source>`](https://www.w3schools.com/tags/tag_source.asp) # | Defines multiple media resources for media elements (`<video>, <audio> and <picture>`) |
+| [`<track>`](https://www.w3schools.com/tags/tag_track.asp) #   | Defines text tracks for media elements (`<video> and <audio>`)                           |
 | [`<video>`](https://www.w3schools.com/tags/tag_video.asp) #   | Defines a video or movie                                                                   |
 
 ## Links
@@ -80,7 +80,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [`<thead>`](https://www.w3schools.com/tags/tag_thead.asp)       | Groups the header content in a table                                      |
 | [`<tbody>`](https://www.w3schools.com/tags/tag_tbody.asp)       | Groups the body content in a table                                        |
 | [`<tfoot>`](https://www.w3schools.com/tags/tag_tfoot.asp)       | Groups the footer content in a table                                      |
-| [`<col>`](https://www.w3schools.com/tags/tag_col.asp)           | Specifies column properties for each column within a <colgroup> element |
+| [`<col>`](https://www.w3schools.com/tags/tag_col.asp)           | Specifies column properties for each column within a `<colgroup>` element |
 | [`<colgroup>`](https://www.w3schools.com/tags/tag_colgroup.asp) | Specifies a group of one or more columns in a table for formatting        |
 
 ## Styles and Semantics
@@ -98,6 +98,6 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [`<aside>`](https://www.w3schools.com/tags/tag_aside.asp) #     | Defines content aside from the page content                 |
 | [`<details>`](https://www.w3schools.com/tags/tag_details.asp) # | Defines additional details that the user can view or hide   |
 | [`<dialog>`](https://www.w3schools.com/tags/tag_dialog.asp) #   | Defines a dialog box or window                              |
-| [`<summary>`](https://www.w3schools.com/tags/tag_summary.asp) # | Defines a visible heading for a <details> element         |
+| [`<summary>`](https://www.w3schools.com/tags/tag_summary.asp) # | Defines a visible heading for a `<details>` element         |
 | [`<data>`](https://www.w3schools.com/tags/tag_data.asp) #       | Links the given content with a machine-readable translation |
 

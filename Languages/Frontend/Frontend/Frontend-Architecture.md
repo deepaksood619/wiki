@@ -115,12 +115,12 @@ Gatsby (React) and Gridsome (Vue)
 
 ## Server-Side Frameworks
 
-- Nodejs - **Express,** Koa, Adonis, Featherjs, Nestjs
-- PHP - **Laravel**, Symfony, Slim
-- Python - **Django, Flask**
-- C# - **ASP.NET MVC**
-- Java - **Spring MVC**, Grails
-- Ruby - **Ruby on Rails**, Sinatra
+- Nodejs - Express, Koa, Adonis, Featherjs, Nestjs
+- PHP - Laravel, Symfony, Slim
+- Python - Django, Flask
+- C# - ASP.NET MVC
+- Java - Spring MVC, Grails
+- Ruby - Ruby on Rails, Sinatra
 - Go - Revel
 
 ## Mobile Development

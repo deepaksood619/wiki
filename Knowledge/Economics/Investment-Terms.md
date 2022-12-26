@@ -38,7 +38,7 @@ Note that in calculating absolute returns, there is no relevance of the time it 
 
 Compound annual growth rate (CAGR) is the [rate of return](https://www.investopedia.com/terms/r/rateofreturn.asp) that would be required for an investment to grow from its beginning balance to its ending balance, assuming the profits were reinvested at the end of each year of the investment's lifespan.
 
-## Compound annual growth rate(**CAGR) is a business and investing specific term for the [geometric progression](https://en.wikipedia.org/wiki/Geometric_progression) ratio that provides a constant rate of return over the time period
+Compound annual growth rate (CAGR) is a business and investing specific term for the [geometric progression](https://en.wikipedia.org/wiki/Geometric_progression) ratio that provides a constant rate of return over the time period
 
 An absolute return can be misleading if you want to compare two investments. CAGR helps you answer this question -- I bought Infosys at 3030 and held the stock for 2 years and sold it 3550. At what rate did my investment grow over the last two years?
 

@@ -149,7 +149,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 
 <http://druid.io/docs/latest/tutorials/tutorial-kafka.html>
 
-## Kafka Indexing Service - Exactly once ingestion**
+## Kafka Indexing Service - Exactly once ingestion
 
 <https://imply.io/post/exactly-once-streaming-ingestion>
 

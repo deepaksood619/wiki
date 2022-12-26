@@ -42,7 +42,7 @@ The [storage engine](https://docs.mongodb.com/manual/reference/glossary/#term-st
 
 <https://docs.mongodb.com/manual/core/storage-engines>
 
-## ODM (Object Document Mapper)**
+## ODM (Object Document Mapper)
 
 ## Commands
 
@@ -117,7 +117,7 @@ Performance metrics - <https://stackoverflow.com/a/37654411/5424888>
 [GridFS](https://docs.mongodb.com/manual/reference/glossary/#term-gridfs) is a specification for storing and retrieving files that exceed the [BSON](https://docs.mongodb.com/manual/reference/glossary/#term-bson)-document [size limit](https://docs.mongodb.com/manual/reference/limits/#limit-bson-document-size) of 16 MB.
 <https://docs.mongodb.com/manual/core/gridfs>
 
-## UI / Tools**
+## UI / Tools
 
 <https://www.mongodb.com/products/compass>
 

@@ -20,7 +20,7 @@ By encapsulating shard-routing logic, Vitess allows application code and databas
 
 <https://www.planetscale.com/blog/videos-intro-to-vitess-its-powerful-capabilities-and-how-to-get-started>
 
-## MySQL Workbench / MySQLWorkbench**
+## MySQL Workbench / MySQLWorkbench
 
 <https://dev.mysql.com/doc/workbench/en/wb-performance-explain.html>
 <https://www.mysql.com/products/workbench>

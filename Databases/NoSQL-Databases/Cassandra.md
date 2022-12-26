@@ -38,7 +38,7 @@ Data is automatically replicated to multiple nodes for [fault-tolerance](https:/
 
 Cassandra is typically classified as an [AP system](https://en.wikipedia.org/wiki/CAP_theorem), meaning that availability and partition tolerance are generally considered to be more important than consistency in Cassandra, Writes and reads offer a tunable level of [consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), all the way from "writes never fail" to "block for all replicas to be readable", with the [quorum level](https://en.wikipedia.org/wiki/Quorum_(distributed_computing)) in the middle.
 
-## Can provide both eventual and strong consistency. (Local Quorum -**This many nodes must be written out to transaction to be successful**)
+Can provide both eventual and strong consistency. (Local Quorum - This many nodes must be written out to transaction to be successful)
 
 6. MapReduce support
 

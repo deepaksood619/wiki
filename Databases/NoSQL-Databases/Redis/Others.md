@@ -57,7 +57,7 @@ RediSearch is a fast search engine that enables you to query your recently index
 Rich with features, RediSearch supports many capabilities including ranking, boolean queries, geo-filters, synonyms, numeric filters and ranges, aggregation, and more, and even allows you to add your own custom scoring code.
 <https://redislabs.com/redis-enterprise/redis-search>
 
-## Redis on Flash (SSD)**
+## Redis on Flash (SSD)
 
 Redis on Flash (RoF) offers users of [Redis Enterprise Software](https://docs.redislabs.com/latest/rs/) and [Redis Enterprise Cloud](https://redislabs.com/redis-enterprise-cloud/) the unique ability to have very large Redis databases but at significant cost savings. Where standard Redis databases must all be in RAM, Redis on Flash enables your Redis databases to span both RAM and dedicated flash memory (SSD).Whilst keys are always stored in RAM, RoF intelligently manages the location of their values (RAM vs Flash) in the database via a LRU-based (least-recently-used) mechanism. Hot values are stored in RAM, but infrequently used, or warm values, are ejected to flash memory. This enables you to have much larger datasets with RAM-like latency and performance, but at dramatically lower cost than an all-RAM database.
 <https://docs.redislabs.com/latest/rs/concepts/memory-architecture/redis-flash>

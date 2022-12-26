@@ -339,7 +339,7 @@ Redis is also able to perform the union of HLLs
 - Redis is also a [Pub-Sub server](https://redis.io/topics/pubsub).
 <https://redis.io/topics/data-types-intro>
 
-## Redis single-­‐argument commands and their corresponding multi-­‐argument alternatives**
+## Redis single-­‐argument commands and their corresponding multi-­‐argument alternatives
 
 | **Single-­‐Argument Command** | **Single-­‐Argument Description**  | **Multi-­‐Argument Alternative** | **Multi-­‐Argument Description**             |
 |---------------|------------------------|---------------|------------------|

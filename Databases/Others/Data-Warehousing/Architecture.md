@@ -93,7 +93,7 @@ It consists of the Top, Middle and Bottom Tier.
 </tbody>
 </table>
 
-## More (dzone refcardz) -**
+## More (dzone refcardz) -
 
 - Data
 - Data Modeling

@@ -161,7 +161,7 @@ The role of TCP is to deliver the entire stream of bytes, in the correct order, 
 
 ## Peformance-enhancing proxy
 
-## Performance-enhancing proxies(**PEPs) are network agents designed to improve the end-to-end performance of some [communication protocols](https://en.wikipedia.org/wiki/Communication_protocols)
+Performance-enhancing proxies(PEPs) are network agents designed to improve the end-to-end performance of some [communication protocols](https://en.wikipedia.org/wiki/Communication_protocols)
 
 ## Classification
 

@@ -215,7 +215,7 @@ Subjective validation, sometimes called personalvalidationeffect, is a cognitive
 
 It is the idea that things of an unpleasant nature, like bad news on the telly, for example, tend to stay with us more than something positive.
 
-## Thenegativity bias, also known as the**negativity effect, is the notion that, even when of equal intensity, things of a more negative nature (e.g. unpleasant thoughts, emotions, or social interactions; harmful/traumatic events) have a greater effect on one's psychological state and processes than neutral or positive things.In other words, something very positive will generally have less of an impact on a person's behavior and cognition than something equally emotional but negative. The negativity bias has been investigated within many different domains, including the [formation of impressions](https://www.wikiwand.com/en/Impression_formation) and general evaluations; attention, learning, and memory; and [decision-making](https://www.wikiwand.com/en/Decision-making) and risk considerations
+The negativity bias, also known as the negativity effect, is the notion that, even when of equal intensity, things of a more negative nature (e.g. unpleasant thoughts, emotions, or social interactions; harmful/traumatic events) have a greater effect on one's psychological state and processes than neutral or positive things.In other words, something very positive will generally have less of an impact on a person's behavior and cognition than something equally emotional but negative. The negativity bias has been investigated within many different domains, including the [formation of impressions](https://www.wikiwand.com/en/Impression_formation) and general evaluations; attention, learning, and memory; and [decision-making](https://www.wikiwand.com/en/Decision-making) and risk considerations
 
 - Negative messages stick: they embed themselves in our brains better than positive ones
 - Our brains are more notice, response to, and be influenced by negative things
@@ -225,7 +225,7 @@ It is the idea that things of an unpleasant nature, like bad news on the telly, 
 
 ## Ostrich Effect
 
-## Why do we prefer to ignore negative information?
+### Why do we prefer to ignore negative information?
 
 Theostrich effect, also known as the ostrich problem, is a cognitive bias that describes how people often avoid negative information, including feedback that could help them monitor their goal progress. Instead of dealing with the situation, we bury our heads in the sand, like ostriches. This avoidance can often make things worse, incurring costs that we might not have had to pay if we had faced things head-on.
 

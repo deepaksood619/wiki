@@ -98,7 +98,7 @@ Until `det(A) not equal to 0, A^-1^ exists` -  Rank - Number of dimensions in th
 
 In Ax = v, when v happens to be the zero vector, null space gives all of the possible solution to the linear equation
 
-## Non Square Matrices as transformations between dimensions**
+## Non Square Matrices as transformations between dimensions
 
 - A 2x3 matrix i.e. there are 2 rows and 3 columns represent that the transformation starts in 3 dimension and the landing space is represented in 2 dimension
 

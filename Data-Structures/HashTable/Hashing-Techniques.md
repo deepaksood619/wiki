@@ -105,7 +105,7 @@ Even with a stash of just three or four cells, rehashing can be postponed signif
 Cuckoo hashing can be generalized to use an arbitrary but fixed number of internal hash tables.
 <https://programming.guide/cuckoo-hashing.html>
 
-## Separate chaining vs. linear probing**
+## Separate chaining vs. linear probing
 
 ## Separate chaining
 

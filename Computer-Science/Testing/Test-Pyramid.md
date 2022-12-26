@@ -39,9 +39,9 @@ Introducing errors in a controlled manner in production to see if your system ca
 Another interesting variation of this kind of testing is multivariate testing, where you're not really testing your new service against defects, instead, you are A/B testing new release features behind A/B testing toggles. The purpose of this type of testing is to see how well these features are received. You can decide roll it out to your entire set of users or make fixes where necessary.
 <https://martinfowler.com/articles/practical-test-pyramid.html>
 
-## Automated vs. Manual Testing**
+## Automated vs. Manual Testing
 
-## Exploratory testing (Manual Testing) is a form of testing that is done without a plan. In an exploratory test, you're just exploring the application
+Exploratory testing (Manual Testing) is a form of testing that is done without a plan. In an exploratory test, you're just exploring the application
 
 This is where **automated testing** comes in. Automated testing is the execution of your test plan (the parts of your application you want to test, the order in which you want to test them, and the expected responses) by a script instead of a human. Python already comes with a set of tools and libraries to help you create automated tests for your application. We'll explore those tools and libraries in this tutorial.
 

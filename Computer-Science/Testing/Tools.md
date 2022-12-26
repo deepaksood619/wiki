@@ -70,7 +70,7 @@ TestLink Open Source Test & Requirement Management System
 TestLink is a web based test management and test execution system. It enables quality assurance teams to create and manage their test cases as well as to organize them into test plans. These test plans allow team members to execute test cases and track test results dynamically.
 <https://github.com/TestLinkOpenSourceTRMS/testlink-code>
 
-## UIPath (Robotic Process Automation - RPA)**
+## UIPath (Robotic Process Automation - RPA)
 
 <https://www.uipath.com>
 Robotic Process Automation (RPA) is a software program that imitates human actions while interacting with a computer application and accomplishing automation of repetitive, rule-based processes. UiPath is reliable, fast and one of the most popular among other existing automation tools.

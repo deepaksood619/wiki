@@ -20,7 +20,7 @@ TheCommon European Framework of Reference for Languages: Learning, Teaching, Ass
 
 ## Bibliography
 
-## Bibliography(from [Greek]$1 $2*biblion*, "book" and -γραφία*-graphia*, "writing"), as a discipline, is traditionally the academic study of [books](https://en.wikipedia.org/wiki/Book) as physical, cultural objects; in this sense, it is also known as**bibliology(from Greek-λογία, [*-logia*](https://en.wikipedia.org/wiki/-logy)). Carter and Barker (2010) describe bibliography as a twofold scholarly discipline---the organized listing of books (enumerative bibliography) and the systematic description of books as objects (descriptive bibliography)
+Bibliography, as a discipline, is traditionally the academic study of [books](https://en.wikipedia.org/wiki/Book) as physical, cultural objects; in this sense, it is also known as**bibliology(from Greek-λογία, [*-logia*](https://en.wikipedia.org/wiki/-logy)). Carter and Barker (2010) describe bibliography as a twofold scholarly discipline---the organized listing of books (enumerative bibliography) and the systematic description of books as objects (descriptive bibliography)
 
 A bibliography is a list of all of the sources you have used (whether referenced or not) in the process of researching your work.
 
@@ -30,11 +30,13 @@ In an annotated bibliography, the bibliographic information is followed by a bri
 
 <https://en.wikipedia.org/wiki/Bibliography>
 
-## Tautology - the saying of the same thing twice over in different words, generally considered to be a fault of style
+## Tautology
+The saying of the same thing twice over in different words, generally considered to be a fault of style
 
 ## Continuation
 
-## ; - Semicolon - It is the continuation of meaning. It basically indicates that we're gonna say the same thing again, or say something that's connected to previous idea. It's not a contrast, it's a continuation
+## ; - Semicolon
+It is the continuation of meaning. It basically indicates that we're gonna say the same thing again, or say something that's connected to previous idea. It's not a contrast, it's a continuation
 
 ## Games
 

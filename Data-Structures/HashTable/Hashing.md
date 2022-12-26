@@ -105,7 +105,7 @@ On what metric is the 2-choice algorithm better than the standard hashing algori
 The 2-choice algorithm is better on the metric of likelihood of overflowing the hash tables given a certain number of inserts into the hash table (equivalently, given a certain occupancy ratio). This is because the 2-choice algorithm explicitly favors the hash table location that has lower occupancy, which means that it is less likely to overflow an already full location in the hash table. The standard hashing algorithm, on the other hand, pays no attention to how occupied a location is.
 <https://en.wikipedia.org/wiki/2-choice_hashing>
 
-## 2-left Hashing**
+## 2-left Hashing
 
 A [dictionary](https://xlinux.nist.gov/dads/HTML/dictionary.html) implemented with two [hash tables](https://xlinux.nist.gov/dads/HTML/hashtab.html) of equal size, T1and T2, and two different [hash functions](https://xlinux.nist.gov/dads/HTML/hash.html), h1and h2. A new [key](https://xlinux.nist.gov/dads/HTML/key.html) is put in table 2 only if there are fewer (colliding) keys at T2 [h2(key)] than at T1 [h1(key)], otherwise it is put in table 1. With n keys and two tables of size n/2, the most collisions is 0.69... log2ln n +[O](https://xlinux.nist.gov/dads/HTML/bigOnotation.html)(1) with high probability.
 

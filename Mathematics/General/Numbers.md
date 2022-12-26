@@ -127,12 +127,12 @@ Pi - 3.14159 265 359
 sqrt(2) - 1.4142135
 <https://en.wikipedia.org/wiki/List_of_mathematical_constants>
 
-## Aleph Numbers (א)**
+## Aleph Numbers (א)
 
 In [mathematics](https://en.wikipedia.org/wiki/Mathematics), and in particular [set theory](https://en.wikipedia.org/wiki/Set_theory), thealeph numbersare a sequence of numbers used to represent the [cardinality](https://en.wikipedia.org/wiki/Cardinality)(or size) of [infinite sets](https://en.wikipedia.org/wiki/Infinite_set) that can be [well-ordered](https://en.wikipedia.org/wiki/Well-ordered). They are named after the symbol used to denote them, the [Hebrew](https://en.wikipedia.org/wiki/Hebrew_alphabet) letter [aleph](https://en.wikipedia.org/wiki/Aleph)(א) (though in older mathematics books the letter aleph is often printed upside down by accident, partly because a [monotype](https://en.wikipedia.org/wiki/Monotype) matrix for aleph was mistakenly constructed the wrong way up).
 <https://en.wikipedia.org/wiki/Aleph_number>
 
-## Euler's Number (e - 2.71828182845)**
+## Euler's Number (e - 2.71828182845)
 
 e is the natural language of growth
 
@@ -141,7 +141,7 @@ e is the epitome of the universal growth
 
 <https://www.youtube.com/watch?v=yTfHn9Aj7UM&ab_channel=BetterExplained>
 
-## Euler's Identity**
+## Euler's Identity
 
 Most beautiful equation - e^iπ^+ 1 = 0
 The five contants are:

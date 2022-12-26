@@ -204,6 +204,6 @@ A short overview of how OT works :
 
 <https://operational-transformation.github.io>
 
-## Differential Synchronization -** <https://neil.fraser.name/writing/sync>
+## Differential Synchronization - <https://neil.fraser.name/writing/sync>
 
 Keeping two or more copies of the same document synchronized with each other in real-time is a complex challenge. **Differential synchronization** offers scalability, fault-tolerance, and responsive collaborative editing across an unreliable network.

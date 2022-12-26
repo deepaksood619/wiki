@@ -101,7 +101,7 @@ There are two modes for MySQL Fulltext searching: natural language mode and Bool
 <https://stackoverflow.com/questions/1125678/mysql-fulltext-not-working>
 <https://dev.mysql.com/doc/refman/5.7/en/innodb-index-types.html>
 
-## Primary Key Indexes - MySQL**
+## Primary Key Indexes - MySQL
 
 - Because the clustered index "is" the table in InnoDB, it's important that you choose a suitable primary key, as this key will be used often, and restructuring can be very expensive.
 - Non-sequential primary keys could lead to fragmentation issues. Causing page splits and disk fragmentations that lead to overheads in I/O operations.
@@ -376,7 +376,7 @@ select count(*) from sys.schema_unused_indexes;
 - [REPAIR TABLE Method](https://dev.mysql.com/doc/refman/8.0/en/rebuilding-tables.html#rebuilding-tables-repair-table)
 <https://dev.mysql.com/doc/refman/8.0/en/rebuilding-tables.html>
 
-## MySQL 8.0 - Invisible Index**
+## MySQL 8.0 - Invisible Index
 
 Invisible indexes make it possible to test the effect of removing an index on query performance, without making a destructive change that must be undone should the index turn out to be required. Dropping and re-adding an index can be expensive for a large table, whereas making it invisible and visible are fast, in-place operations.
 <https://dev.mysql.com/doc/refman/8.0/en/invisible-indexes.html>

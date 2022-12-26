@@ -21,7 +21,7 @@ Modified: 2022-02-04 23:46:45 +0500
 - Allows you to proactively handle potential issues
 - Make sure to configure alerts so you can react appropriately to all events based on the severity level
 
-### Use Percentiles**
+### Use Percentiles
 
 The term "perc50" indicates you're looking at a number where 50% of requests are at or below that number.
 

@@ -90,7 +90,7 @@ As you can see all write operations in LSM Trees are sequential: Write-Ahead Log
 
 <https://medium.com/databasss/on-disk-io-access-patterns-in-lsm-trees-2ba8dffc05f9>
 
-## LMS Trees (Copy on Write B-Trees)**
+## LMS Trees (Copy on Write B-Trees)
 
 - Take B-Tree, let's make the pages immutable (every page is a new instance appended to old instance)
 <https://blog.acolyer.org/2014/11/26/the-log-structured-merge-tree-lsm-tree>

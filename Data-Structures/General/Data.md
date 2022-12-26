@@ -30,7 +30,7 @@ Unstructured data is a data which is not organized in a predefined manner or doe
 | **Query performance**      | Structured query allow complex joining                | Queries over anonymous nodes are possible                                         | Only textual queries are possible                  |
 <https://www.geeksforgeeks.org/difference-between-structured-semi-structured-and-unstructured-data>
 
-## Types of Large Objects (LOBs)**
+## Types of Large Objects (LOBs)
 
 There are different kinds of LOBs which can be stored either in the database or in external files.
 

@@ -33,7 +33,7 @@ In [probability theory](https://en.wikipedia.org/wiki/Probability_theory), theru
 The formula is still used, particularly to estimate underlying probabilities when there are few observations, or for events that have not been observed to occur at all in (finite) sample data. Assigning events a [zero probability](https://en.wikipedia.org/wiki/Zero_probability) contravenes [Cromwell's rule](https://en.wikipedia.org/wiki/Cromwell%27s_rule); such contravention can never be strictly justified in physical situations, albeit sometimes must be assumed in practice.
 <https://en.wikipedia.org/wiki/Rule_of_succession>
 
-## Probability part 1 - Rules and Patterns**
+## Probability part 1 - Rules and Patterns
 
 - Pareidolia - A product of our brains that causes us to see the pattern of a face in a non-face objects
 

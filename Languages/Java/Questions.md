@@ -651,7 +651,7 @@ A thread is a execution in a program. The life cycle of a thread include −
 4. Blocked state
 5. Dead state
 
-# **What is the difference between the `>>` and `>>>` operators?**
+**What is the difference between the `>>` and `>>>` operators?**
 
 The `>>` operator carries the sign bit when shifting right. The `>>>` zero-fills bits that have been shifted out.
 

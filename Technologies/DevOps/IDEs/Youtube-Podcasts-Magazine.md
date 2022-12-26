@@ -132,7 +132,7 @@ Timeline world history documentaries
 - Diplomatic dispatch - sansad tv
 - The daily show with Trevor noah
 
-### Finance / Stocks / Personal finance (People with same thought process)**
+### Finance / Stocks / Personal finance (People with same thought process)
 
 - Zerodha online
 - Mad money Jim Cramer - CNBC Television

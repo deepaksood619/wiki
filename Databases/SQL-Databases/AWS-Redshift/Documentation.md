@@ -121,7 +121,7 @@ Interleaved sort gives equal weight to each column in the Redshift sort keys. As
 
 <https://github.com/awsdocs/amazon-redshift-developer-guide/blob/master/doc_source/c_best-practices-sort-key.md>
 
-## Redshift Distribution Key (DIST Keys)**
+## Redshift Distribution Key (DIST Keys)
 
 RedshiftDistributionKeys([DIST Keys](http://docs.aws.amazon.com/redshift/latest/dg/t_Distributing_data.html)) determine where data is stored in Redshift. Clusters store data fundamentally across the compute nodes. Query performance suffers when a large amount of data is stored on a single node.
 The query optimizer distributes less number of rows to the compute nodes to perform joins and aggregation on query execution. This redistribution of data can include shuffling of the entire tables across all the nodes.

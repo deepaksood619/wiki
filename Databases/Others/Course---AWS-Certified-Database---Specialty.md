@@ -51,7 +51,7 @@ Modified: 2022-12-10 22:04:10 +0500
    - Recognize potential security vulnerabilities within database solutions
 <https://www.aws.training/Details/eLearning?id=47245>
 
-## Purpose Built Databases: Match your workload to the right database**
+## Purpose Built Databases: Match your workload to the right database
 
 Factors while choosing a db
 

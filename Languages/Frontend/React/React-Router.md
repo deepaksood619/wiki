@@ -8,7 +8,7 @@ Modified: 2022-05-06 16:08:43 +0500
 
 This is of high significance as it's anentry point of your application. There can be several routes in your application and you would need functionalities like validation, authentication, redirection, etc. depending upon the requirement.
 
-## react-router**contains all the common components between**react-router-dom **and** react-router-native**. When should you use one over the other? If you're on the web then**react-router-dom**should have everything you need as it also exports the common components you'll need. If you're using React Native,**react-router-native**should have everything you need for the same reason. So you'll probably never have to import anything directly from**react-router
+react-router **contains all the common components between** react-router-dom and **react-router-native**. When should you use one over the other? If you're on the web then**react-router-dom**should have everything you need as it also exports the common components you'll need. If you're using React Native, **react-router-native** should have everything you need for the same reason. So you'll probably never have to import anything directly from react-router
 
 <https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks>
 

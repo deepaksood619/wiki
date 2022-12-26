@@ -245,7 +245,7 @@ Fully managed ledged database
 | Ledger            | Systems of record, supply chain, registrations, banking transactions                           | [Amazon Quantum Ledger Database](https://aws.amazon.com/qldb/?c=db&sec=srv)                                                                                                                    |
 <https://aws.amazon.com/products/databases>
 
-## Row Oriented vs Column Oriented (columnar) Databases**
+## Row Oriented vs Column Oriented (columnar) Databases
 
 Here is an example: Say we have a table that stores the following data for 1M users:user_id, name, # logins, last_login. So we effectively have 1M rows and 4 columns. A row-oriented data store will physically store each user's data (i.e., each row) contiguously on disk. By contrast, a columnar store will store all of the user_id's together, all of the names together, and so forth, so that each column's data is stored contiguously on disk.
 As a result, shallow-and-wide queries will be faster on a row store (e.g., "fetch all data for user X"), while deep-and-narrow queries will be faster on a column store (e.g., "calculate the average number of logins for all users").

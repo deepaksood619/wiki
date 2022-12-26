@@ -74,7 +74,7 @@ A moving average is commonly used with [time series](https://en.wikipedia.org/wi
 In [statistics](https://en.wikipedia.org/wiki/Statistics), a**parameter space** is the [space](https://en.wikipedia.org/wiki/Space_(mathematics)) of all possible combinations of values for all the different [parameters](https://en.wikipedia.org/wiki/Parameter) contained in a particular [mathematical model](https://en.wikipedia.org/wiki/Mathematical_model). The ranges of values of the parameters may form the axes of a [plot](https://en.wikipedia.org/wiki/Plot_(graphics)), and particular outcomes of the model may be plotted against these axes to illustrate how different regions of the parameter space produce different types of behaviour in the model.
 <https://en.wikipedia.org/wiki/Parameter_space>
 
-## Ziph's Law**
+## Ziph's Law
 
 Zipf's law([/zɪf/](https://en.wikipedia.org/wiki/Help:IPA/English)) is an [empirical law](https://en.wikipedia.org/wiki/Empirical_law) formulated using [mathematical statistics](https://en.wikipedia.org/wiki/Mathematical_statistics) that refers to the fact that many types of data studied in the [physical](https://en.wikipedia.org/wiki/Physical_science) and [social](https://en.wikipedia.org/wiki/Social_science) sciences can be approximated with a Zipfian distribution, one of a family of related discrete [power law](https://en.wikipedia.org/wiki/Power_law)[probability distributions](https://en.wikipedia.org/wiki/Probability_distribution).Zipf distributionis related to the [zeta distribution](https://en.wikipedia.org/wiki/Zeta_distribution), but is not identical.
 For example, Zipf's law states that given some [corpus](https://en.wikipedia.org/wiki/Text_corpus) of [natural language](https://en.wikipedia.org/wiki/Natural_language) utterances, the frequency of any word is [inversely proportional](https://en.wikipedia.org/wiki/Inversely_proportional) to its rank in the [frequency table](https://en.wikipedia.org/wiki/Frequency_table). Thus the most frequent word will occur approximately twice as often as the second most frequent word, three times as often as the third most frequent word, etc.: the [rank-frequency distribution](https://en.wikipedia.org/wiki/Rank-frequency_distribution) is an inverse relation. For example, in the [Brown Corpus](https://en.wikipedia.org/wiki/Brown_Corpus) of American English text, the word [the](https://en.wikipedia.org/wiki/English_articles#Definite_article) is the most frequently occurring word, and by itself accounts for nearly 7% of all word occurrences (69,971 out of slightly over 1 million). True to Zipf's Law, the second-place wordofaccounts for slightly over 3.5% of words (36,411 occurrences), followed byand(28,852). Only 135 vocabulary items are needed to account for half the [Brown Corpus](https://en.wikipedia.org/wiki/Brown_Corpus).
@@ -119,7 +119,7 @@ The Lorenz curve is a graphical representation of [income inequality](https://ww
 ![image](media/Other-Statistics-image7.jpeg)
 <https://www.investopedia.com/terms/l/lorenz-curve.asp>
 
-## Rank Order Scale / Rank Ordering / Ranking scale**
+## Rank Order Scale / Rank Ordering / Ranking scale
 
 Rank order items are analyzed using [Spearman](http://changingminds.org/explanations/research/analysis/spearman.htm) or [Kendall](http://changingminds.org/explanations/research/analysis/kendall.htm) correlation.
 

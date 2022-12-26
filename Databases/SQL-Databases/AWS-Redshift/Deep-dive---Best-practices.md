@@ -10,7 +10,7 @@ Modified: 2022-12-02 09:41:04 +0500
 
 <https://stackoverflow.com/questions/16485425/aws-redshift-jdbc-insert-performance>
 
-## Optimizations / Best practices**
+## Optimizations / Best practices
 
 <https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-redshift-announces-automatic-table-optimization>
 
@@ -25,7 +25,7 @@ Modified: 2022-12-02 09:41:04 +0500
 
 <https://aws.amazon.com/blogs/big-data/amazon-redshift-engineerings-advanced-table-design-playbook-preamble-prerequisites-and-prioritization>
 
-## Data storage, ingestion and ELT**
+## Data storage, ingestion and ELT
 
 - **Redundancy**
 

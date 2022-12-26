@@ -17,7 +17,7 @@ MurmurHashis a non-[cryptographic](https://en.wikipedia.org/wiki/Cryptographic_h
 Unlike [cryptographic hash functions](https://en.wikipedia.org/wiki/Cryptographic_hash_function), it is not specifically designed to be difficult to reverse by an adversary, making it unsuitable for cryptographic purposes.
 <https://en.wikipedia.org/wiki/MurmurHash>
 
-## SipHash (for strings in python dictionary implementation)**
+## SipHash (for strings in python dictionary implementation)
 
 SipHashis a relatively fast hash function. On a 64-bit machine, SipHash returns a 64-bit hash. The hash is then converted into an index to be used in an array.
 SipHashis an [add--rotate--xor](https://en.wikipedia.org/wiki/Block_cipher#ARX_(add%E2%80%93rotate%E2%80%93xor))(ARX) based family of [pseudorandom functions](https://en.wikipedia.org/wiki/Pseudorandom_function) created by [Jean-Philippe Aumasson](https://en.wikipedia.org/w/index.php?title=Jean-Philippe_Aumasson&action=edit&redlink=1) and [Daniel J. Bernstein](https://en.wikipedia.org/wiki/Daniel_J._Bernstein) in 2012, in response to a spate of "hash flooding"[denial-of-service attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack) in late 2011.
