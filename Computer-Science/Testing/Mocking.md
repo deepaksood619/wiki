@@ -200,7 +200,8 @@ Usually, I would useautospec=Trueandspec_set=Trueeverywhere. Code which uses int
 
 ## pytests monkeypatch
 
-monkeypatchis a fixture from pytest. I will explain what a fixture is in the next article. For now, just accept it as a parameter you can give to your tests without specifying it and pytest will take care of it. You don't even need to import anything.
+monkeypatch is a fixture from pytest. I will explain what a fixture is in the next article. For now, just accept it as a parameter you can give to your tests without specifying it and pytest will take care of it. You don't even need to import anything.
+
 For the credit card fraud example, it looks like this:
 
 ```python

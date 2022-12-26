@@ -203,12 +203,11 @@ Modified: 2019-11-20 00:28:52 +0500
 | POST         | /druid/v2/            | The endpoint for submitting queries. Accepts an option ?pretty that pretty prints the results. |
 | POST         | /druid­/v2­/ca­ndi­dates/ | Returns segment inform­ation lists including server locations for the given query..             |
 
-SQL Cheat Sheet
+## SQL Cheat Sheet
 
-| Metadata Commands           |
-|-----------------------------|
-| SELECT * FROM sys.se­gments |
-| EXPLAIN PLAN FOR [­SQL]    |
+### Metadata Commands
+- SELECT * FROM sys.se­gments 
+- EXPLAIN PLAN FOR [­SQL]    
 
 ### INFORM­ATI­ON_­SCHEMA TABLES
 - SCHEMATA
@@ -239,10 +238,9 @@ SQL Cheat Sheet
 | DATE      | LONG               |
 | OTHER     | COMPLEX            |
 
-| JDBC CONNECTOR                                                    |
-|-------------------------------------------------------------------|
-| jdbc:a­vat­ica­:re­mot­e:u­rl=­htt­p:/­/BR­OKE­R:8­082­/dr­uid­/v2­/sq­l/a­vat­ica/. |
-| You can make Druid SQL queries using the Avatica JDBC driver      |
+### JDBC CONNECTOR
+You can make Druid SQL queries using the Avatica JDBC driver
+- `jdbc:a­vat­ica­:re­mot­e:u­rl=­htt­p:/­/BR­OKE­R:8­082­/dr­uid­/v2­/sq­l/a­vat­ica`
 
 ### Aggreg­ation
 - `COUNT(*)`
@@ -258,12 +256,11 @@ SQL Cheat Sheet
 - `APPROX­_CO­UNT­_DI­STI­NCT­_DS­_TH­ETA­(expr, [size])`
 - `APPROX­_QU­ANT­ILE­(expr, probab­ility, [resol­ution])`
 - `APPROX­_QU­ANT­ILE­_DS­(expr, probab­ility, [k])`
-- `APPROX­_QU­ANT­ILE­_FI­XED­_BU­CKE­TS(­expr, probab­ility, numBuc­kets, lowerL­imit, upperL­imit, [outli­erH­and­lin­gMode`
+- `APPROX­_QU­ANT­ILE­_FI­XED­_BU­CKE­TS(­expr, probab­ility, numBuc­kets, lowerL­imit, upperL­imit, [outli­erH­and­lin­gMode]`
 
-| Approx­imate Aggreg­ations                             |
-|------------------------------------------------------|
-| BLOOM_­FIL­TER­(expr, numEnt­ries)                      |
-| BLOOM_­FIL­TER­_TE­ST(­< ­ex­pr >, <­ se­ria­liz­ed-­fil­ter ­>) |
+### Approx­imate Aggreg­ations
+- `BLOOM_­FIL­TER­(expr, numEnt­ries)`
+- `BLOOM_­FIL­TER­_TE­ST(­­ex­pr, se­ria­liz­ed-­fil­ter)`
 
 ### Comparison Operators
 
