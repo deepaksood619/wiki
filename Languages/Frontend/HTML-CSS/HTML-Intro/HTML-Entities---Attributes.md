@@ -14,19 +14,19 @@ Characters that are not present on your keyboard can also be replaced by entitie
 
 Some characters are reserved in HTML.
 
-If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+If you use the less than (`<`) or greater than (`>`) signs in your text, the browser might mix them with tags.
 
 Character entities are used to display reserved characters in HTML.
 
 A character entity looks like this:
 
+```html
 &entity_name;
-
 OR
-
 &#entity_number;
+```
 
-To display a less than sign (<) we must write:`<`or&#60;
+To display a less than sign (`<`) we must write: `&lt;` or `&#60;`
 
 Advantage of using an entity name:An entity name is easy to remember.
 
@@ -34,7 +34,7 @@ Disadvantage of using an entity name:Browsers may not support all entity names, 
 
 ## Non-breaking Space
 
-A common character entity used in HTML is the non-breaking space:&nbsp;
+A common character entity used in HTML is the non-breaking space: `&nbsp;`
 
 A non-breaking space is a space that will not break into a new line.
 
@@ -42,30 +42,30 @@ Two words separated by a non-breaking space will stick together (not break into 
 
 Examples:
 
-- § 10
-- 10 km/h
-- 10 PM
+- `§ 10`
+- `10 km/h`
+- `10 PM`
 
 Another common use of the non-breaking space is to prevent that browsers truncate spaces in HTML pages.
 
-If you write 10 spaces in your text, the browser will remove 9 of them. To add real spaces to your text, you can use the&nbsp;character entity.
+If you write 10 spaces in your text, the browser will remove 9 of them. To add real spaces to your text, you can use the `&nbsp;` character entity.
 
-The non-breaking hyphen ([&#8209;](https://www.w3schools.com/charsets/ref_utf_punctuation.asp)) lets you use a hyphen character (‑) that won't break.
+The non-breaking hyphen ([`&#8209;`](https://www.w3schools.com/charsets/ref_utf_punctuation.asp)) lets you use a hyphen character (‑) that won't break.
 
-| **Result** | **Description**                    | **Entity Name** | **Entity Number** |
-|----------|---------------------------------|--------------|---------------|
-|           | non-breaking space                 | &nbsp;          | &#160;            |
-| <         | less than                          | `<`            | &#60;             |
-| >         | greater than                       | `>`            | &#62;             |
-| &          | ampersand                          | &amp;           | &#38;             |
-| "         | double quotation mark              | &quot;          | &#34;             |
-| '         | single quotation mark (apostrophe) | &apos;          | &#39;             |
-| ¢          | cent                               | &cent;          | &#162;            |
-| £          | pound                              | &pound;         | &#163;            |
-| ¥          | yen                                | &yen;           | &#165;            |
-| €          | euro                               | &euro;          | &#8364;           |
-| ©          | copyright                          | &copy;          | &#169;            |
-| ®          | registered trademark               | &reg;           | &#174;            |
+| **Result** | **Description** | **Entity Name** | **Entity Number** |
+|---|---|---|---|
+| ` ` | non-breaking space | `&nbsp;` | `&#160;` |
+| `<` | less than | `&lt;` | `&#60;` |
+| `>` | greater than | `&gt;` | `&#62;` |
+| `&` | ampersand | `&amp;` | `&#38;` |
+| `"` | double quotation mark | `&quot;` | `&#34;` |
+| `'` | single quotation mark (apostrophe) | `&apos;` | `&#39;` |
+| `¢` | cent | `&cent;` | `&#162;` |
+| `£` | pound | `&pound;` | `&#163;` |
+| `¥` | yen | `&yen;` | `&#165;` |
+| `€` | euro | `&euro;` | `&#8364;` |
+| `©` | copyright | `&copy;` | `&#169;` |
+| `®` | registered trademark | `&reg;` | `&#174;` |
 
 A diacritical mark is a "glyph" added to a letter.
 
@@ -78,15 +78,16 @@ Diacritical marks can be used in combination with alphanumeric characters, to pr
 Here are some examples:
 
 | **Mark** | **Character** | **Construct** | **Result** |
-|----------|---------------|---------------|------------|
-| ̀        | a             | a&#768;       | à          |
-| ́        | a             | a&#769;       | á          |
-| ̂         | a             | a&#770;       | â          |
-| ̃        | a             | a&#771;       | ã          |
-| ̀        | O             | O&#768;       | Ò          |
-| ́        | O             | O&#769;       | Ó          |
-| ̂         | O             | O&#770;       | Ô          |
-| ̃        | O             | O&#771;       | Õ          |
+|---|---|---|---|
+| ̀ | `a` | `a&#768;` | `à` |
+| ́ | `a` | `a&#769;` | `á` |
+| ̂ | `a` | `a&#770;` | `â` |
+| ̃ | `a` | `a&#771;` | `ã` |
+| ̀ | `O` | `O&#768;` | `Ò` |
+| ́ | `O` | `O&#769;` | `Ó` |
+| ̂ | `O` | `O&#770;` | `Ô` |
+| ̃ | `O` | `O&#771;` | `Õ` |
+
 
 ## HTML Attributes
 
