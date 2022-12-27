@@ -22,11 +22,11 @@ It is not power that corrupts but fear. Fear of losing power corrupts those who 
 
 1. **Never outshine the master**
 
-Always make those above you feel comfortably superior. In your desire to please and impress them, do not go too far in displaying your talents or you might accomplish the opposite---inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power.
+Always make those above you feel comfortably superior. In your desire to please and impress them, do not go too far in displaying your talents or you might accomplish the opposite - inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power.
 
 2. **Never put too much trust in friends, learn how to use enemies**
 
-Be wary of friends---they will betray you more quickly, for they are easily aroused to envy. They also become spoiled and tyrannical. But hire a former enemy and he will be more loyal than a friend, because he has more to prove. In fact, you have more to fear from friends than from enemies. If you have no enemies, find a way to make them.
+Be wary of friends - they will betray you more quickly, for they are easily aroused to envy. They also become spoiled and tyrannical. But hire a former enemy and he will be more loyal than a friend, because he has more to prove. In fact, you have more to fear from friends than from enemies. If you have no enemies, find a way to make them.
 
 - Friends often conceal things in order to avoid conflict; this can be dangerous.
 - Keep friends for friendship, but work with the skilled and competent.
@@ -45,7 +45,7 @@ I: Use decoyed objects of desire and red herrings to throw people off the scent:
 
 II: Use smoke screens to disguise your actions:
 
-- Deception is always the best strategy, but the best deceptions require a screen of smoke to distract people attention from your real purpose. The bland exterior---like the unreadable poker face---is often the perfect smoke screen, hiding your intentions behind the comfortable and familiar. If you lead the sucker down a familiar path, he won't catch on when you lead him into a trap.
+- Deception is always the best strategy, but the best deceptions require a screen of smoke to distract people attention from your real purpose. The bland exterior - like the unreadable poker face - is often the perfect smoke screen, hiding your intentions behind the comfortable and familiar. If you lead the sucker down a familiar path, he won't catch on when you lead him into a trap.
 - A helpful or honest gesture can divert from a deception.
 - Patterns will also help mask a deception.
 - Often the key to deception is being bland and acting with humility.
@@ -73,12 +73,12 @@ Everything is judged by its appearance; what is unseen counts for nothing. Never
 
 I: Surround your name with the sensational and scandalous
 
-- Draw attention to yourself by creating an unforgettable, even controversial image. Court scandal. Do anything to make yourself seem larger than life and shine more brightly than those around you. Make no distinction between kinds of attention---notoriety of any sort will bring you power. Better to be slandered and attacked than ignored.
+- Draw attention to yourself by creating an unforgettable, even controversial image. Court scandal. Do anything to make yourself seem larger than life and shine more brightly than those around you. Make no distinction between kinds of attention - notoriety of any sort will bring you power. Better to be slandered and attacked than ignored.
 - At the beginning of your rise, spend all your energy on attracting attention. The quality of attention is irrelevant.
 
 II: Create an air of mystery
 
-- In a world growing increasingly banal and familiar, what seems enigmatic instantly draws attention. Never make it too clear what you are doing or about to do. Do not show all your cards. An air of mystery heightens your presence; it also creates anticipation---everyone will be watching you to see what happens next. Use mystery to beguile, seduce, even frighten.
+- In a world growing increasingly banal and familiar, what seems enigmatic instantly draws attention. Never make it too clear what you are doing or about to do. Do not show all your cards. An air of mystery heightens your presence; it also creates anticipation - everyone will be watching you to see what happens next. Use mystery to beguile, seduce, even frighten.
 - Remember: Most people are upfront, can be read like an open book, take little care to control their words or image, and are hopelessly predictable. By simply holding back, keeping silent, occasionally uttering ambiguous phrases, deliberately appearing inconsistent, and acting odd in the subtlest of ways, you will emanate an aura of mystery.
 - Do not let mystery turn to an air of deceit; it must always seem a game, playful, unthreatening.
 
@@ -93,7 +93,7 @@ Use the wisdom, knowledge, and legwork of other people to further your own cause
 
 8. **Make other people come to you - use bait if necessary.**
 
-When you force the other person to act, you are the one in control. It is always better to make your opponent come to you, abandoning his own plans in the process. Lure him with fabulous gains---then attack. You hold the cards.
+When you force the other person to act, you are the one in control. It is always better to make your opponent come to you, abandoning his own plans in the process. Lure him with fabulous gains - then attack. You hold the cards.
 
 - The essence of power is keeping the initiative and forcing others to react, keeping them on the defensive.
 - Master your anger yet play on people's natural tendency to react angrily when pushed and baited.
@@ -107,7 +107,7 @@ Any momentary triumph you think you have gained through argument is really a Pyr
 
 10. **Infection: avoid the unhappy and unlucky**
 
-You can die from someone else's misery---emotional states are as infectious as diseases. You may feel you are helping the drowning man but you are only precipitating your own disaster. The unfortunate sometimes draw misfortune on themselves; they will also draw it on you. Associate with the happy and fortunate instead.
+You can die from someone else's misery - emotional states are as infectious as diseases. You may feel you are helping the drowning man but you are only precipitating your own disaster. The unfortunate sometimes draw misfortune on themselves; they will also draw it on you. Associate with the happy and fortunate instead.
 
 - The most important person to avoid: the sufferer of chronic dissatisfaction.
 - Examine someone's history to recognize these people: turbulence, a long line of broken relationships, etc.
@@ -123,7 +123,7 @@ To maintain your independence you must always be needed and wanted. The more you
 
 12. **Use selective honesty and generosity to disarm your victim**
 
-One sincere and honest move will cover over dozens of dishonest ones. Open-hearted gestures of honesty and generosity bring down the guard of even the most suspicious people. Once your selective honesty opens a hole in their armor, you can deceive and manipulate them at will. A timely gift---a Trojan horse---will serve the same purpose.
+One sincere and honest move will cover over dozens of dishonest ones. Open-hearted gestures of honesty and generosity bring down the guard of even the most suspicious people. Once your selective honesty opens a hole in their armor, you can deceive and manipulate them at will. A timely gift - a Trojan horse - will serve the same purpose.
 
 - Learn to give before you take - an actual gift, a generous act, a kind favour, an "honest" admission - whatever it takes.
 - Selective honesty is best employed on your first encounter with someone.
@@ -169,14 +169,14 @@ Humans are creatures of habit with an insatiable need to see familiarity in othe
 
 18. **Do not build fortresses to protect yourself - isolation is dangerous**
 
-The world is dangerous and enemies are everywhere---everyone has to protect themselves. A fortress seems the safest. But isolation exposes you to more dangers than it Protects you from---it cuts you off from valuable information, it makes you conspicuous and an easy target. Better to circulate among people, find allies, mingle. You are shielded from your enemies by the crowd.
+The world is dangerous and enemies are everywhere - everyone has to protect themselves. A fortress seems the safest. But isolation exposes you to more dangers than it Protects you from - it cuts you off from valuable information, it makes you conspicuous and an easy target. Better to circulate among people, find allies, mingle. You are shielded from your enemies by the crowd.
 
 - Retreat to a fortress and you lose contact with your sources of power, and your knowledge of what is going on.
 - If you need time to think, then choose isolation as a last resort, and only in small doses.
 
 19. **Know who you're dealing with - do not offend the wrong person**
 
-There are many different kinds of people in the world, and you can never assume that everyone will react to your strategies in the same way. Deceive or outmaneuver some people and they will spend the rest of their lives seeking revenge. They are wolves in lambs' clothing. Choose your victims and opponents carefully, then---never of fend or deceive the wrong person.
+There are many different kinds of people in the world, and you can never assume that everyone will react to your strategies in the same way. Deceive or outmaneuver some people and they will spend the rest of their lives seeking revenge. They are wolves in lambs' clothing. Choose your victims and opponents carefully, then - never of fend or deceive the wrong person.
 
 Being able to recognize the type of person you're dealing with is critical. Here are the five most dangerous:
 
@@ -190,7 +190,7 @@ Never rely on instincts when judging someone; instead gather concrete knowledge.
 
 20. **Do not commit to anyone**
 
-It is the fool who always rushes to take sides. Do not commit to any side or cause but yourself. By maintaining your independence, you become the master of others---playing people against one another, making them pursue you.
+It is the fool who always rushes to take sides. Do not commit to any side or cause but yourself. By maintaining your independence, you become the master of others - playing people against one another, making them pursue you.
 
 Part 1: Do not commit to anyone, but be courted by all.
 
@@ -205,19 +205,19 @@ Part 2: Do not commit to anyone - stay above the fray.
 
 21. **Play a sucker to catch a sucker - seem dumber than your mark**
 
-No one likes feeling stupider than the next person. The trick, then, is to make your victims feel smart---and not just smart, but smarter than you are. Once convinced of this, they will never suspect that you may have ulterior motives.
+No one likes feeling stupider than the next person. The trick, then, is to make your victims feel smart - and not just smart, but smarter than you are. Once convinced of this, they will never suspect that you may have ulterior motives.
 
 - Intelligence, taste and sophistication are all things you should downplay, or reassure others that they are more advanced than you.
 
 22. **Use the surrender tactic: transform weakness into power**
 
-When you are weaker, never fight for honor's sake; choose surrender instead. Surrender gives you time to recover, time to torment and irritate your conqueror, time to wait for his power to wane. Do not give him the satisfaction of fighting and defeating you---surrender first. By turning the other cheek you infuriate and unsettle him. Make surrender a tool of power.
+When you are weaker, never fight for honor's sake; choose surrender instead. Surrender gives you time to recover, time to torment and irritate your conqueror, time to wait for his power to wane. Do not give him the satisfaction of fighting and defeating you - surrender first. By turning the other cheek you infuriate and unsettle him. Make surrender a tool of power.
 
 - The essence of the surrender tactic: inwardly you stay firm, but outwardly you bend. Your enemy will be bewildered when properly executed, as they will be expecting retaliation.
 
 23. **Concentrate your forces**
 
-Conserve your forces and energies by keeping them concentrated at their strongest point. You gain more by finding a rich mine and mining it deeper, than by flitting from one shallow mine to another---intensity defeats extensity every time. When looking for sources of power to elevate you, find the one key patron, the fat cow who will give you milk for a long time to come.
+Conserve your forces and energies by keeping them concentrated at their strongest point. You gain more by finding a rich mine and mining it deeper, than by flitting from one shallow mine to another - intensity defeats extensity every time. When looking for sources of power to elevate you, find the one key patron, the fat cow who will give you milk for a long time to come.
 
 - Concentrate on a single goal, a single task, and beat it into submission.
 - Note: when fighting a stronger enemy, you must be prepared to dissolve your forces and be elusive.
@@ -246,7 +246,7 @@ The Laws of Court Politics
 
 25. **Re-create yourself**
 
-Do not accept the roles that society foists on you. Re-create yourself by forging a new identity, one that commands attention and never bores the audience. Be the master of your own image rather than letting others define it for you. Incorporate dramatic devices into your public gestures and actions---your power will be enhanced and your character will seem larger than life.
+Do not accept the roles that society foists on you. Re-create yourself by forging a new identity, one that commands attention and never bores the audience. Be the master of your own image rather than letting others define it for you. Incorporate dramatic devices into your public gestures and actions - your power will be enhanced and your character will seem larger than life.
 
 - The first step in the process of self-creation is being aware of yourself and taking control of your appearances and emotions.
 - The second step is the creation of a memorable character that compels attention and stands above the others on the stage.
@@ -307,7 +307,7 @@ The ending is everything. Plan all the way to it, taking into account all the po
 - The ending is everything - it is the end of action that determines who gets the glory, the money, the prize. Your conclusion must be crystal clear, and you must keep it constantly in mind.
 
 30. **Make your accomplishments seem effortless**
-    - **Your actions must seem natural and executed with ease. All the toil and practice that go into them, and also all the clever tricks, must be concealed. When you act, act effortlessly, as if you could do much more. Avoid the temptation of revealing how hard you work---it only raises questions. Teach no one your tricks or they will be used against you.**
+    - **Your actions must seem natural and executed with ease. All the toil and practice that go into them, and also all the clever tricks, must be concealed. When you act, act effortlessly, as if you could do much more. Avoid the temptation of revealing how hard you work - it only raises questions. Teach no one your tricks or they will be used against you.**
     - **Some think exposure to how hard they work and practice demonstrates diligence and honesty, but really it just shows weakness.**
     - **Sprezzatura:the capacity to make the difficult seem easy.**
     - **What is understandable is not awe-inspiring. The more mystery surrounds your actions, the more awesome your power seems.**
@@ -326,8 +326,8 @@ The following are among the most common forms of controlling the options:
 - Force the Resister:This is a good technique to use on children and other willful people who enjoy doing the opposite of what you ask them to: Push them to choose what you want them to do by appearing to advocate the opposite.
 - Alter the Playing Field:In this tactic your opponents know their hand is being forced, but it doesn't matter. The technique is effective against those who resist at all costs.
 - The Shrinking Options:A variation on this technique is to raise the price every time the buyer hesitates and another day goes by. This is an excellent negotiating ploy to use on the chronically indecisive, who will fall for the idea that they are getting a better deal today than if they wait till tomorrow.
-- The Weak Man on the Precipice:He would describe all sorts of dangers, exaggerating them as much as possible, until the duke saw a yawning abyss in every direction except one: the one Retz was pushing him to take. This tactic is similar to "Color the Choices," but with the weak you have to be more aggressive. Work on their emotions---use fear and terror to propel them into action. Try reason and they will always find a way to procrastinate.
-- Brothers in Crime:This is a classic con-artist technique: You attract your victims to some criminal scheme, creating a bond of blood and guilt between you. They participate in your deception, commit a crime (or think they do), and are easily manipulated. It is often wise to implicate in your deceptions the very person who can do you the most harm if you fail. Their involvement can be subtle---even a hint of their involvement will narrow their options and buy their silence.
+- The Weak Man on the Precipice:He would describe all sorts of dangers, exaggerating them as much as possible, until the duke saw a yawning abyss in every direction except one: the one Retz was pushing him to take. This tactic is similar to "Color the Choices," but with the weak you have to be more aggressive. Work on their emotions - use fear and terror to propel them into action. Try reason and they will always find a way to procrastinate.
+- Brothers in Crime:This is a classic con-artist technique: You attract your victims to some criminal scheme, creating a bond of blood and guilt between you. They participate in your deception, commit a crime (or think they do), and are easily manipulated. It is often wise to implicate in your deceptions the very person who can do you the most harm if you fail. Their involvement can be subtle - even a hint of their involvement will narrow their options and buy their silence.
 - The Horns of a Dilemma:This is a classic trial lawyer's technique: The lawyer leads the witnesses to decide between two possible explanations of an event, both of which poke a hole in their story. They have to answer the lawyer's questions, but whatever they say they hurt themselves. The key to this move is to strike quickly: Deny the victim the time to think of an escape. As they wriggle between the horns of the dilemma, they dig their own grave.
 - Controlling the options has one main purpose: to disguise yourself as the agent of power and punishment.
 
@@ -393,7 +393,7 @@ By acknowledging a petty problem you give it existence and credibility. The more
 
 37. **Create compelling spectacles**
 
-Striking imagery and grand symbolic gestures create the aura of power---everyone responds to them. Stage spectacles for those around you, then, full of arresting visuals and radiant symbols that heighten your presence. Dazzled by appearances, no one will notice what you are really doing.
+Striking imagery and grand symbolic gestures create the aura of power - everyone responds to them. Stage spectacles for those around you, then, full of arresting visuals and radiant symbols that heighten your presence. Dazzled by appearances, no one will notice what you are really doing.
 
 - Words often go astray, but symbols and the visual strike with emotional power and immediacy.
 - Find an associate yourself with powerful images and symbols to gain power.
@@ -403,13 +403,13 @@ Striking imagery and grand symbolic gestures create the aura of power---everyone
     - **If you make a show of going against the times, flaunting your unconventional ideas and unorthodox ways, people will think that you only want attention and that you look down upon them. They will find a way to punish you for making them feel inferior. It is far safer to blend in and nurture the common touch. Share your originality only with tolerant friends and those who are sure to appreciate your uniqueness.**
     - **Flaunting your pleasure in alien ways of thinking and acting will reveal a different motive - to demonstrate your superiority over your fellows.**
     - **Wise and clever people learn early on that they can display conventional behavior and mouth conventional ideas without having to believe in them. The power these people gain from blending in is that of being left alone to have the thoughts they want to have, and to express them to the people they want to express them to, without suffering isolation or ostracism.**
-    - **The only time it is worth standing out is when you already stand out---when you have achieved an unshakable position of power, and can display your difference from others as a sign of the distance between you.**
+    - **The only time it is worth standing out is when you already stand out - when you have achieved an unshakable position of power, and can display your difference from others as a sign of the distance between you.**
 
 39. **Stir up waters to catch fish**
 
 Anger and emotion are strategically counterproductive. You must always stay calm and objective. But if you can make your enemies angry while staying calm yourself, you gain a decided advantage. Put your enemies off-balance: Find the chink in their vanity through which you can rattle them and you hold the strings.
 
-- This is the essence of the Law: When the waters are still, your opponents have the time and space to plot actions that they will initiate and control. So stir the waters, force the fish to the surface, get them to act before they are ready, steal the initiative. The best way to do this is to play on uncontrollable emotions---pride, vanity, love, hate.
+- This is the essence of the Law: When the waters are still, your opponents have the time and space to plot actions that they will initiate and control. So stir the waters, force the fish to the surface, get them to act before they are ready, steal the initiative. The best way to do this is to play on uncontrollable emotions - pride, vanity, love, hate.
 - Angry people end up looking ridiculous. It is comical how much they take personally, and more comical how they belief that outbursts signify power.
 - We should not repress our angry or emotional responses, but rather that realize in the social realm, and the game of power, nothing is personal.
 - Reveal an apparent weakness to lure your opponent into action.
@@ -419,7 +419,7 @@ Anger and emotion are strategically counterproductive. You must always stay calm
 
 40. **Despise the free lunch**
 
-What is offered for free is dangerous-it usually involves either a trick or a hidden obligation. What has worth is worth paying for. By paying your own way you stay clear of gratitude, guilt, and deceit. It is also often wise to pay the full price---there is no cutting corners with excellence. Be lavish with your money and keep it circulating, for generosity is a sign and a magnet for power.
+What is offered for free is dangerous-it usually involves either a trick or a hidden obligation. What has worth is worth paying for. By paying your own way you stay clear of gratitude, guilt, and deceit. It is also often wise to pay the full price - there is no cutting corners with excellence. Be lavish with your money and keep it circulating, for generosity is a sign and a magnet for power.
 
 - What is offered for free often has a psychological price tag - complicated feelings of obligation, compromises with quality, the insecurity those compromises bring, on and on. By paying the full price, you keep your independence and room to maneuver.
 - Being open and flexible with money also teaches the value of strategic generosity.
@@ -444,7 +444,7 @@ What happens first always appears better and more original than what comes after
 
 42. **Strike the shepherd and the sheep will scatter**
 
-Trouble can often be traced to a single strong individual ---the stirrer, the arrogant underling, the poisoner of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them---they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter.
+Trouble can often be traced to a single strong individual ---the stirrer, the arrogant underling, the poisoner of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them - they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter.
 
 - In every group, power is concentrated in the hands of one or two people.
 - When troubles arise, find the source, and isolate them - physically, politically or psychologically. Separate them from their power base.
@@ -453,7 +453,7 @@ Trouble can often be traced to a single strong individual ---the stirrer, the ar
 
 Coercion creates a reaction that will eventually work against you. You must seduce others into wanting to move in your direction. A person you have seduced becomes your loyal pawn. And the way to seduce others is to operate on their individual psychologies and weaknesses. Soften up the resistant by working on their emotions, playing on what they hold dear and what they fear. Ignore the hearts and minds of others and they will grow to hate you.
 
-- Remember: The key to persuasion is softening people up and breaking them down, gently. Seduce them with a two-pronged approach: Work on their emotions and play on their intellectual weaknesses. Be alert to both what separates them from everyone else (their individual psychology) and what they share with everyone else (their basic emotional responses). Aim at the primary emotions---love, hate, jealousy. Once you move their emotions you have reduced their control, making them more vulnerable to persuasion.
+- Remember: The key to persuasion is softening people up and breaking them down, gently. Seduce them with a two-pronged approach: Work on their emotions and play on their intellectual weaknesses. Be alert to both what separates them from everyone else (their individual psychology) and what they share with everyone else (their basic emotional responses). Aim at the primary emotions - love, hate, jealousy. Once you move their emotions you have reduced their control, making them more vulnerable to persuasion.
 - Play on contrasts: push people to despair, then give them relief. If they expect pain and you give them pleasure, you win their hearts.
 - Symbolic gestures of self-sacrifice can win sympathy and goodwill.
 - The quickest way to secure people's minds is by demonstrating, as simply as possible, how an action will benefit them.

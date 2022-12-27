@@ -121,7 +121,7 @@ Fact tablesstore observations or events, and can be sales orders, stock balances
 
 typically contain slowly changing attributes of specific entities, and attributes sometimes can be organized in a hierarchical structure. These attributes are often called "dimensions", and can be joined with the fact tables, as long as there is a foreign key available in the fact table. Ex - dimension tables such as users, listings, and markets that can help to slice and dice data.
 
-## Dimension tablesdescribe business entities---thethingsyou model. Entities can include products, people, places, and concepts including time itself. The most consistent table you'll find in a star schema is a date dimension table. A dimension table contains a key column (or columns) that acts as a unique identifier, and descriptive columns
+## Dimension tablesdescribe business entities - thethingsyou model. Entities can include products, people, places, and concepts including time itself. The most consistent table you'll find in a star schema is a date dimension table. A dimension table contains a key column (or columns) that acts as a unique identifier, and descriptive columns
 
 ## Dimension tables supportfilteringandgrouping
 

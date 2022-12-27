@@ -88,7 +88,7 @@ Our bodies change our minds, and our minds change our behavior, and our behavior
 - If I were a candidate for some elective office would defeat dishearten me or should I reckon each successive defeat as preparation for final victory?
 - When confronted with unexpected difficulties in anything that I have undertaken, is my first impulse, or reaction, the desire to back down or to go ahead with greater energy than before?
 - Have I a persistent resolution when once a careful judgment has been made?
-- In making purchases---whether of neckties or machinery equipments---do I inspect the goods under consideration and form independent opinion of their merits or am I influenced unconsciously in my decisions by what I think the salesman may think of me?
+- In making purchases - whether of neckties or machinery equipments - do I inspect the goods under consideration and form independent opinion of their merits or am I influenced unconsciously in my decisions by what I think the salesman may think of me?
 - Do I sometimes accept less than I know I should for services rendered because I lack the stamina to stand up for my rights?
 
 ## Criticism / Criticizing / Criticize
@@ -239,19 +239,19 @@ This happens because of a few mental blocks that are keeping us locked in this c
 
 ## Control Stimuli
 
-Acting independently begins with what you let into your mind---meaning what comes in from your environment. If you are lacking agency, it's likely your attention is being hijacked and you need to figure out how to restore it.
+Acting independently begins with what you let into your mind - meaning what comes in from your environment. If you are lacking agency, it's likely your attention is being hijacked and you need to figure out how to restore it.
 
 To help you increase your control, practice going to quiet and screen-free spaces to escape overstimulation.
 
 1. [**Associate selectively**](https://deepstash.com/idea/13067/associate-selectively)
 
-It's impossible not to be affected by those around us---it's easy to "catch" their emotions and our brains tend to synch up when we associate with other people.
+It's impossible not to be affected by those around us - it's easy to "catch" their emotions and our brains tend to synch up when we associate with other people.
 
 We should set boundaries with difficult people, disentangle yourself from negative online interactions, and be more conscious of how you might be vulnerable to "groupthink"---pressures to behave or think in ways that are contrary to your values.
 
 2. [**Move**](https://deepstash.com/idea/13068/move)
 
-Physical movement can lead to greater self-control---the ability to defer gratification.
+Physical movement can lead to greater self-control - the ability to defer gratification.
 
 If you're in deep at work, set a timer to go off every hour and remind yourself to take a moment to assess your mood. If you're feeling stuck or overwhelmed, get up and move. And, if you're having any issues at work, discussing them in a walking meeting (instead of a sitting meeting) may help mitigate conflicts.
 
@@ -259,7 +259,7 @@ If you're in deep at work, set a timer to go off every hour and remind yourself 
 
 This requires nurturing your curiosity and allowing yourself to explore new ideas, skills, and people.
 
-This isn't always easy. Practicing a growth mindset---where you recognize that you are a work in progress, capable of learning and changing---can help combat the fear of failure or judgment that often come with learning new things
+This isn't always easy. Practicing a growth mindset - where you recognize that you are a work in progress, capable of learning and changing - can help combat the fear of failure or judgment that often come with learning new things
 
 4. [**Manage your emotions and beliefs**](https://deepstash.com/idea/13070/manage-your-emotions-and-beliefs)
 
@@ -351,7 +351,7 @@ For example: "If only I'd drank less and maintained a disciplined diet, I wouldn
 
 For example: "If only I'd asked that girl out." Or "If only I'd started that business."
 
-"If foundation regrets arise from the failure to plan ahead, work hard, follow through, and build a stable platform for life, boldness regrets...arise from the failure to take full advantage of that platform---to use it as a springboard into a richer life." ‐ Daniel Pink
+"If foundation regrets arise from the failure to plan ahead, work hard, follow through, and build a stable platform for life, boldness regrets...arise from the failure to take full advantage of that platform - to use it as a springboard into a richer life." ‐ Daniel Pink
 
 ## Moral regrets: If only I'd done the right thing
 

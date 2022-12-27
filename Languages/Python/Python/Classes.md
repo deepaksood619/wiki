@@ -70,7 +70,7 @@ the [id()](https://docs.python.org/3.2/library/functions.html#id) function retur
 
 An object's mutability is determined by its type; for instance, numbers, strings and tuples are immutable, while dictionaries and lists are mutable.
 
-Objects are never explicitly destroyed; however, when they become unreachable they may be garbage-collected. An implementation is allowed to postpone garbage collection or omit it altogether --- it is a matter of implementation quality how garbage collection is implemented, as long as no objects are collected that are still reachable.
+Objects are never explicitly destroyed; however, when they become unreachable they may be garbage-collected. An implementation is allowed to postpone garbage collection or omit it altogether - it is a matter of implementation quality how garbage collection is implemented, as long as no objects are collected that are still reachable.
 
 ## Advanced
 

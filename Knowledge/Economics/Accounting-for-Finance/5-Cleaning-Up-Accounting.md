@@ -137,8 +137,8 @@ Starting in 2019, both GAAP and IFRS are requiring companies to treat all lease 
 - Accouting statements reflect not only an "accouting" view of the company, but the burden of accouting history and legacy rules
 - When analyzing a company, you should start with accouting statements, but you should have no qualms about changing, modifying or redoing them to reflect what you are trying to do with the data in those statements
 
-![image](media/Accounting-for-Finance_5--Cleaning-Up-Accounting-image1.jpg)
+![image](media/Accounting-for-Finance_5-Cleaning-Up-Accounting-image1.jpg)
 
-![image](media/Accounting-for-Finance_5--Cleaning-Up-Accounting-image2.jpg)
+![image](media/Accounting-for-Finance_5-Cleaning-Up-Accounting-image2.jpg)
 
-![image](media/Accounting-for-Finance_5--Cleaning-Up-Accounting-image3.jpg)
+![image](media/Accounting-for-Finance_5-Cleaning-Up-Accounting-image3.jpg)

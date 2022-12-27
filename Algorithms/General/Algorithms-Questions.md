@@ -20,7 +20,7 @@ If the current phrase begins with the word, we have a split point!
 
 Add the word to the output
 
-Recursively call the split function on the remaining portion of the phrase--- phrase[len(word):]
+Recursively call the split function on the remaining portion of the phrase - phrase[len(word):]
 
 Egg Drop - 2 eggs, 100 floors
 

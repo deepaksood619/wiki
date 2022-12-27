@@ -55,7 +55,7 @@ Path MTU Discovery(PMTUD) is a standardized technique in [computer networking](h
 
 ## MSS (Maximum Segment Size)
 
-Maximum segment size is the maximum TCP datagram size. It represents the maximum payload size an endpoint is willing to accept within a single packet. Maximum MSS value is 1460 bytes. The MSS, IP header and TCP header, together make up the MTU value. That is, 1500 MTU = 1460 byte MSS + 20 byte IP header + 20 byte TCP header. Said another way, MSS = MTU --- 40.
+Maximum segment size is the maximum TCP datagram size. It represents the maximum payload size an endpoint is willing to accept within a single packet. Maximum MSS value is 1460 bytes. The MSS, IP header and TCP header, together make up the MTU value. That is, 1500 MTU = 1460 byte MSS + 20 byte IP header + 20 byte TCP header. Said another way, MSS = MTU - 40.
 ![image](media/TCP-(Connection-Oriented-Protocol)-image2.png)
 
 Do note that MSS is only announced during the TCP handshake in the SYN segment, it is not a negotiated parameter. Meaning, client and server can announce their own individual and different MSS values [[rfc879]](https://tools.ietf.org/html/rfc879). The actual MSS is selected based on the endpoint's buffer and outgoing interface MTU. This can be represented visually by considering a communication between client A and server B [[cisco-ipfrag]](https://www.cisco.com/c/en/us/support/docs/ip/generic-routing-encapsulation-gre/25885-pmtud-ipfrag.html).**TCP Segment Structure**

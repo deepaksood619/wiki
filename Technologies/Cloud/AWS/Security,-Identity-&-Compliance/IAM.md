@@ -62,7 +62,7 @@ AWS Identity and Access Management (IAM) enables you to manage access to AWS ser
 
 ![IAM policy evaluation Decision rts at De 2 Evaluate all applicable policies 3 there a explicit Yes inal decision ="De (explicit Deny) 4 No s there a Allow? nal decision z" 5 NO nal decision -"De (default Deny) Policy enforcement ](../../../media/Cloud-AWS-IAM-image1.png)
 
-- ![Context and policies --- a new way to think about evaluation Context of Your Request The unique components of each AWS request. anvent Allowed Denied e 201 R. Your Defined Policies The policies you define on identities, resources, and organizations. aws ](../../../media/Cloud-AWS-IAM-image2.png)
+- ![Context and policies - a new way to think about evaluation Context of Your Request The unique components of each AWS request. anvent Allowed Denied e 201 R. Your Defined Policies The policies you define on identities, resources, and organizations. aws ](../../../media/Cloud-AWS-IAM-image2.png)
 
 ## Policy types and how they work together
 

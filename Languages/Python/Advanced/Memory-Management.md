@@ -36,9 +36,9 @@ Therefore, If a block is empty instead of an object, it stores an address of the
 
 Each pool has three states:
 
-- used --- partially used, neither empty nor full
-- full --- all the pool's blocks are currently allocated
-- empty --- all the pool's blocks are currently available for allocation
+- used - partially used, neither empty nor full
+- full - all the pool's blocks are currently allocated
+- empty - all the pool's blocks are currently available for allocation
 
 In order to efficiently manage pools Python uses an additional array calledusedpools. It stores pointers to the pools grouped by class. As we already know, all pools of the same block size are linked together. To iterate over them, we just need to know the start of the list. If there are no pools of such size, then a new pool will be created on the first memory request.
 

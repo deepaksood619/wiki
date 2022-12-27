@@ -22,15 +22,15 @@ The tourist returns after inspecting the rooms, says he is dissatisfied, takes h
 
 Daniel Chambliss, an American sociologist, on how top performers feel about hard work:
 
-"At the higher levels of competitive swimming, something like an inversion of attitude takes place. The very features of the sport that the 'C' swimmer finds unpleasant, the top level swimmer enjoys. What others see as boring---swimming back and forth over a black line for two hours, say---they find peaceful, even meditative, often challenging, or therapeutic. They enjoy hard practices, look forward to difficult competitions, try to set difficult goals. Coming into the 5:30 A.M. practices at Mission Viejo, many of the swimmers were lively, laughing, talking, enjoying themselves, perhaps appreciating the fact that most people would positively hate doing it. It is incorrect to believe that top athletes suffer great sacrifices to achieve their goals. Often, they don't see what they do as sacrificial at all. They like it."
+"At the higher levels of competitive swimming, something like an inversion of attitude takes place. The very features of the sport that the 'C' swimmer finds unpleasant, the top level swimmer enjoys. What others see as boring - swimming back and forth over a black line for two hours, say - they find peaceful, even meditative, often challenging, or therapeutic. They enjoy hard practices, look forward to difficult competitions, try to set difficult goals. Coming into the 5:30 A.M. practices at Mission Viejo, many of the swimmers were lively, laughing, talking, enjoying themselves, perhaps appreciating the fact that most people would positively hate doing it. It is incorrect to believe that top athletes suffer great sacrifices to achieve their goals. Often, they don't see what they do as sacrificial at all. They like it."
 
 AuthorMichael Lewison the stories we tell ourselves:
 
-"As I've gotten older---I would say starting in my mid-to-late 20s---I could not help but notice the effect on people of the stories they told about themselves. If you listen to people, if you just sit and listen, you'll find that there are patterns in the way they talk about themselves.
+"As I've gotten older - I would say starting in my mid-to-late 20s - I could not help but notice the effect on people of the stories they told about themselves. If you listen to people, if you just sit and listen, you'll find that there are patterns in the way they talk about themselves.
 
 There's the kind of person who is always the victim in any story that they tell. Always on the receiving end of some injustice. There's the person who's always kind of the hero of every story they tell. There's the smart person; they delivered the clever put down there.
 
-There are lots of versions of this, and you've got to be very careful about how you tell these stories because it starts to become you. You are---in the way you craft your narrative---kind of crafting your character. And so I did at some point decide, "I am going to adopt self-consciously as my narrative, that I'm the happiest person anybody knows." And it is amazing how happy-inducing it is."
+There are lots of versions of this, and you've got to be very careful about how you tell these stories because it starts to become you. You are - in the way you craft your narrative - kind of crafting your character. And so I did at some point decide, "I am going to adopt self-consciously as my narrative, that I'm the happiest person anybody knows." And it is amazing how happy-inducing it is."
 
 ## Blind men and an elephant
 
@@ -48,7 +48,7 @@ Years passed and the eagle grew very old. One day he saw a magnificent bird abov
 
 The old eagle looked up in awe. "Who's that?" he asked.
 
-"That's the eagle, the king of the birds," said his neighbor. "He belongs to the sky. We belong to the earth---we're chickens."
+"That's the eagle, the king of the birds," said his neighbor. "He belongs to the sky. We belong to the earth - we're chickens."
 
 So the eagle lived and died a chicken, for that's what he thought he was."
 

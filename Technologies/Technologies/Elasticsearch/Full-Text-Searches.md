@@ -40,13 +40,13 @@ Facets correspond to properties of the information elements. They are often deri
 
 ## Searchable entities
 
-The first thing you need in order to build your omni-search, is to map the entities users might be searching for. Remember: it's not what they search it by --- just what they'd like to find.
+The first thing you need in order to build your omni-search, is to map the entities users might be searching for. Remember: it's not what they search it by - just what they'd like to find.
 
 You might not be sure what's considered 'an entity'. For example, on Google Drive, you can search for PDFs, Sheets, or Docs. Are these different entities? While there's a technical discussion I won't get into, as a rule of thumb, if all candidates share the same attributes (e.g. doc name, creator, date...) --- then it can be considered the same entity with a 'type' attribute.
 
 ## Searchable attributes
 
-Once you've selected the entities to be searched, let's select the attributes that the users can search by. Don't be tempted to use all available attributes --- this will slow performance and produce bad results. Instead, only use the attributes your users are likely to use. If you're not sure, guess, and then go back after the release and see what your users have tried searching by.
+Once you've selected the entities to be searched, let's select the attributes that the users can search by. Don't be tempted to use all available attributes - this will slow performance and produce bad results. Instead, only use the attributes your users are likely to use. If you're not sure, guess, and then go back after the release and see what your users have tried searching by.
 
 Example: on Spotify, each artist has an 'about' attribute, which you can see after you've clicked on the artist (all the way on the bottom). However, if you tried copy-pasting that 'about' text to the omni-search, you won't find the artist, because Spotify doesn't search artists by the 'about' attribute, which makes sense: it's unlikely anyone will try searching by it, in any reasonable use-case.
 
@@ -96,9 +96,9 @@ Showing results
 
 Here's when the fun starts! Results can be shown in 3 basic formats:
 
-- quick preview --- a popup showing around 10 top results
-- result summary --- a full page showing the main results for each entity
-- all results --- all of the results of a specific entity
+- quick preview - a popup showing around 10 top results
+- result summary - a full page showing the main results for each entity
+- all results - all of the results of a specific entity
 
 <https://uxdesign.cc/designing-an-omni-search-29c6cb6ec3f7>
 

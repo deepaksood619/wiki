@@ -402,7 +402,7 @@ Changing the way applications are architected and developed, usually by employin
 
 - Re-platform (sometimes referred to as "lift-tinker-and-shift")
 
-Making a few optimizations to applications---but without changing their core architecture, like moving from self-managed Kubernetes to Amazon EKS.
+Making a few optimizations to applications - but without changing their core architecture, like moving from self-managed Kubernetes to Amazon EKS.
 
 - Repurchase (casually known as "drop and shop")
 
@@ -418,7 +418,7 @@ Identifying assets that are no longer useful and turning them off, strengthening
 
 - Retain
 
-Leaving the application on-premises---for now, at least.
+Leaving the application on-premises - for now, at least.
 
 ## When building a full-stack feature, start where the data is
 

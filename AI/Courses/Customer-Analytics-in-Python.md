@@ -182,11 +182,11 @@ You should be able to identify customers in each segment and measure their chara
 
 2. **Substantial**
 
-It's usually not cost-effective to target small segments --- a segment, therefore, must be large enough to be potentially profitable.
+It's usually not cost-effective to target small segments - a segment, therefore, must be large enough to be potentially profitable.
 
 3. **Accessible**
 
-It sounds obvious, but your company should be able to reach its segments via communication and distribution channels. When it comes to young people, for example, your company should have access to Twitter and Tumblr and know how to use them authentically --- or, as Clearblue smartly did, reach out to celebrities with active Twitter presences to do some of yourmarketing for you.
+It sounds obvious, but your company should be able to reach its segments via communication and distribution channels. When it comes to young people, for example, your company should have access to Twitter and Tumblr and know how to use them authentically - or, as Clearblue smartly did, reach out to celebrities with active Twitter presences to do some of yourmarketing for you.
 
 4. **Stable**
 

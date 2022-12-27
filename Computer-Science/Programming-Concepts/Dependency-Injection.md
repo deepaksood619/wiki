@@ -24,7 +24,7 @@ turtle = Turtle()
 draw_square(turtle, 100)
 ```
 
-This has a fancy name---dependency injection. It just means that if a function needs some kind of object to do its work, likedraw_squareneeds aTurtle, the caller is responsible for passing that object in as a parameter. No, really, if you were ever curious about Python dependency injection, this is it.
+This has a fancy name - dependency injection. It just means that if a function needs some kind of object to do its work, likedraw_squareneeds aTurtle, the caller is responsible for passing that object in as a parameter. No, really, if you were ever curious about Python dependency injection, this is it.
 <https://www.toptal.com/python/python-parameterized-design-patterns>
 
 ## Like I'm Five

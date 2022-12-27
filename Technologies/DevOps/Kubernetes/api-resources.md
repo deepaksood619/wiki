@@ -44,7 +44,7 @@ A Kubernetes construct that enables users to run a pod on every node in the clus
 
 ### Jobs and Cronjobs
 
-Kubernetes includes the logic to run jobs, processes that run to completion, and cronjobs --- processes that run at specific intervals and run to completion.
+Kubernetes includes the logic to run jobs, processes that run to completion, and cronjobs - processes that run at specific intervals and run to completion.
 
 ### Extension Points
 

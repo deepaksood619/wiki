@@ -26,7 +26,7 @@ When you read messages from the log, the kernel will attempt to pull the data fr
 
 ![application read user space kernel space page cache disk send socket NIC ](../../media/Technologies-Kafka-Kafka-Architecture-image2.png)
 
-However, if the data is already in wire format, we can bypass user space entirely using thesendfilesystem call, which will copy the data directly from the page cache to the NIC buffer---twocopies (including one from page cache) andonesystem call. This turns out to be an important optimization, especially in garbage-collected languages since we're bringing less data into application memory. Zero-copy also reduces CPU cycles and memory bandwidth.
+However, if the data is already in wire format, we can bypass user space entirely using thesendfilesystem call, which will copy the data directly from the page cache to the NIC buffer - twocopies (including one from page cache) andonesystem call. This turns out to be an important optimization, especially in garbage-collected languages since we're bringing less data into application memory. Zero-copy also reduces CPU cycles and memory bandwidth.
 
 ![user space kernel space page cache disk sendfile NIC ](../../media/Technologies-Kafka-Kafka-Architecture-image3.png)
 

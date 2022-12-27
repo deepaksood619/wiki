@@ -30,7 +30,7 @@ This module helps you set up an efficient trading system using a systematic appr
 
 Personal finance is an essential aspect of your life because it can help you meet your short term and long term financial goals. This module encompasses the various aspects of personal finance such as investment, insurance, retirement planning, goal-oriented investments, budgeting, etc.that may help you construct an ideal personal finance plan.
 
-## Innerworth --- Mind over markets
+## Innerworth - Mind over markets
 
 A series of articles on the psychology of trading, that will guide you mend your thought and prepare you psychologically to become a novice trader.
 

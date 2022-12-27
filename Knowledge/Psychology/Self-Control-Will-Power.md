@@ -148,7 +148,7 @@ a construal is a way that people perceive, comprehend, and interpret their world
 
 ## Construal-Level Theory (CLT)
 
-People are capable of thinking about the future, the past, remote locations, another person's perspective, and counterfactual alternatives. Without denying the uniqueness of each process, it is proposed that they constitute different forms of traversing psychological distance. Psychological distance is egocentric: Its reference point is the self in the here and now, and the different ways in which an object might be removed from that point---in time, in space, in social distance, and in hypotheticality---constitute different distance dimensions. Transcending the self in the here and now entails mental construal, and the farther removed an object is from direct experience, the higher (more abstract) the level of construal of that object.
+People are capable of thinking about the future, the past, remote locations, another person's perspective, and counterfactual alternatives. Without denying the uniqueness of each process, it is proposed that they constitute different forms of traversing psychological distance. Psychological distance is egocentric: Its reference point is the self in the here and now, and the different ways in which an object might be removed from that point - in time, in space, in social distance, and in hypotheticality - constitute different distance dimensions. Transcending the self in the here and now entails mental construal, and the farther removed an object is from direct experience, the higher (more abstract) the level of construal of that object.
 
 If something feels far from us, we view it abstractly. This is calledhigh-levelconstrual.
 

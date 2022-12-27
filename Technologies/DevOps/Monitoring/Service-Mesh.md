@@ -34,7 +34,7 @@ The service mesh is a networking model that sits at a layer of abstraction above
 
 In some ways, the service mesh is analogous to TCP/IP. Just as the TCP stack abstracts the mechanics of reliably delivering bytes between network endpoints, the service mesh abstracts the mechanics of reliably delivering requests between services. Like TCP, the service mesh doesn't care about the actual payload or how it's encoded. The application has a high-level goal ("send something from A to B"), and the job of the service mesh, like that of TCP, is to accomplish this goal while handling any failures along the way.
 
-Unlike TCP, the service mesh has a significant goal beyond "just make it work": it provides a uniform, application-wide point for introducing visibility and control into the application runtime. The explicit goal of the service mesh is to move service communication out of the realm of the invisible, implied infrastructure, and into the role of afirst-class member of the ecosystem---where it can be monitored, managed and controlled.
+Unlike TCP, the service mesh has a significant goal beyond "just make it work": it provides a uniform, application-wide point for introducing visibility and control into the application runtime. The explicit goal of the service mesh is to move service communication out of the realm of the invisible, implied infrastructure, and into the role of afirst-class member of the ecosystem - where it can be monitored, managed and controlled.
 
 ## Tools
 

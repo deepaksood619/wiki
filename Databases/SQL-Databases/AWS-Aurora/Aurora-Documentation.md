@@ -111,7 +111,7 @@ Database cloning uses acopy-on-write protocol, in which data is copied at the ti
 
 ## Backtracking an Amazon Aurora DB
 
-Backtracking lets you rewind the Aurora DB cluster to the time you specify. With backtracking enabled, Aurora keeps a record of changes to your database and allows you to switch to a previous consistent state. With this feature you can easily undo mistakes. For example, if by accident you perform a destructive action, such as a DELETE without a WHERE clause, you can quickly backtrack to a state before the accident. Unlike restoring from a snapshot or automated backup---a slower operation, backtracking lets you move back and forth in time in a matter of minutes.
+Backtracking lets you rewind the Aurora DB cluster to the time you specify. With backtracking enabled, Aurora keeps a record of changes to your database and allows you to switch to a previous consistent state. With this feature you can easily undo mistakes. For example, if by accident you perform a destructive action, such as a DELETE without a WHERE clause, you can quickly backtrack to a state before the accident. Unlike restoring from a snapshot or automated backup - a slower operation, backtracking lets you move back and forth in time in a matter of minutes.
 Backtracking is not a replacement for backing up your DB cluster so that you can restore it to a point in time.
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Managing.Backtrack.html>
 

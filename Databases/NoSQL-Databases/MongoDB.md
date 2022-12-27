@@ -65,9 +65,9 @@ mongo admin --username root --password YOURPASSWORD
 
 - Document oriented
 - High performance
-- High availability --- Replication
+- High availability - Replication
 - High scalability -- Sharding
-- Dynamic --- No rigid schema.
+- Dynamic - No rigid schema.
 - Flexible -- field addition/deletion have less or no impact on the application
 - Heterogeneous Data
 - No Joins
@@ -92,10 +92,10 @@ mongo admin --username root --password YOURPASSWORD
 - Blogs and content management.
 - Real-time analytics and high-speed logging, caching, and high scalability.
 - Configuration management.
-- Maintaininglocation-based data --- Geospatial data.
+- Maintaininglocation-based data - Geospatial data.
 - Mobile and social networking sites.
 - Evolving data requirements.
-- Loosely coupled objectives --- the design may change by over time.
+- Loosely coupled objectives - the design may change by over time.
 
 ## Not so Good For
 

@@ -81,7 +81,7 @@ Command + / - Show shortcuts
 - [Must-Read](https://zapier.com/blog/best-free-slack-apps/#mustread): Make sure your most important Slack messages are read by your team
 - [Zapier](https://zapier.com/blog/best-free-slack-apps/#zapier): Build your own Slack bot with no coding knowledge required
 
-The workflows you create in Zapier are called Zaps, and they can automate many common tasks for you---like adding items to your to-do list or updating leads in your CRM.
+The workflows you create in Zapier are called Zaps, and they can automate many common tasks for you - like adding items to your to-do list or updating leads in your CRM.
 
 - [**https://workstreams.ai/**](https://workstreams.ai/)
 

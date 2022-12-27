@@ -10,7 +10,7 @@ When in doubt do
 
 Habits are the compound interest of self-improvement.
 
-A small habit---when repeated consistently---grows into something significant.
+A small habit - when repeated consistently - grows into something significant.
 
 Knowledge does not change behavior
 

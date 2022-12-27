@@ -20,7 +20,7 @@ Variables are not pointers. When you assign to a variable you are *binding* the 
 
 ## Tuples are immutable and strings are mutable
 
-One is performance: knowing that a string is immutable makes it easy to lay it out at construction time --- fixed and unchanging storage requirements. This is also one of the reasons for the distinction between tuples and lists. This also allows the implementation to safely reuse string objects. For example, the CPython implemenation uses pre-allocated objects for single-character strings, and usually returns the original string for string operations that doesn't change the content.
+One is performance: knowing that a string is immutable makes it easy to lay it out at construction time - fixed and unchanging storage requirements. This is also one of the reasons for the distinction between tuples and lists. This also allows the implementation to safely reuse string objects. For example, the CPython implemenation uses pre-allocated objects for single-character strings, and usually returns the original string for string operations that doesn't change the content.
 
 The other is that strings in Python are considered as "elemental" as numbers. No amount of activity will change the value 8 to anything else, and in Python, no amount of activity will change the string "eight" to anything else.
 

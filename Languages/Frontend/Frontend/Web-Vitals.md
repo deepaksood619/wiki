@@ -22,7 +22,7 @@ Measures **interactivity**. To provide a good user experience, pages should have
 
 Measures**visual stability**. To provide a good user experience, pages should maintain a CLS of less than0.1.
 
-Cumulative Layout Shift (CLS) is an important, user-centric metric for measuring [visual stability](https://web.dev/user-centric-performance-metrics/#types-of-metrics) because it helps quantify how often users experience unexpected layout shifts---a low CLS helps ensure that the page is [delightful](https://web.dev/user-centric-performance-metrics/#questions).
+Cumulative Layout Shift (CLS) is an important, user-centric metric for measuring [visual stability](https://web.dev/user-centric-performance-metrics/#types-of-metrics) because it helps quantify how often users experience unexpected layout shifts - a low CLS helps ensure that the page is [delightful](https://web.dev/user-centric-performance-metrics/#questions).
 
 <https://web.dev/cls>
 

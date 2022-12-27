@@ -48,7 +48,7 @@ Modified: 2022-08-10 10:47:14 +0500
 
 ## Variables
 
-Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests---and if you need to update the value, you only have to change it in one place.
+Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests - and if you need to update the value, you only have to change it in one place.
 Postman supports the following variable scopes:
 
 - Global

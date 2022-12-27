@@ -321,7 +321,7 @@ EBR - Executive Business Review
 
 ## Power Users
 
-Power users drive some of the most successful companies --- people who love their product, are highly engaged, and contribute a ton of value to the network. In ecommerce marketplaces it's power sellers, in ridesharing platforms it's power riders, and in social networks it's influencers.
+Power users drive some of the most successful companies - people who love their product, are highly engaged, and contribute a ton of value to the network. In ecommerce marketplaces it's power sellers, in ridesharing platforms it's power riders, and in social networks it's influencers.
 
 ![image](media/Customer-Engagement-CX-image3.png)
 

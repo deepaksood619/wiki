@@ -17,7 +17,7 @@ Modified: 2022-04-24 16:29:10 +0500
 
 ## What is a Hook?
 
-Hooks are functions that let you "hook into" React state and lifecycle features from function components. Hooks don't work inside classes --- they let you use React without classes.
+Hooks are functions that let you "hook into" React state and lifecycle features from function components. Hooks don't work inside classes - they let you use React without classes.
 
 React provides a few built-in Hooks likeuseState. You can also create your own Hooks to reuse stateful behavior between different components.
 

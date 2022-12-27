@@ -106,7 +106,7 @@ Out of the box, HCI isn't a true private cloud. To have a fully operational priv
 
 ## Compliance and Security
 
-Companies are subject to many regulations regarding security and data-handling---and these regulations can have a significant impact on how you utilize the cloud. These are some of the main regulations that it's important to be familiar with:
+Companies are subject to many regulations regarding security and data-handling - and these regulations can have a significant impact on how you utilize the cloud. These are some of the main regulations that it's important to be familiar with:
 
 - **GDPR:** TheGeneral Data Protection Regulation (GDPR)protects EU citizens from data breaches and misuse. It applies to all companies with data for EU citizens, even if those companies are not located in the EU.
 - **HIPAA:** TheHealth Insurance Portability and Accountability Act (HIPAA)regulates the data security of healthcare patients. Companies that handle healthcare data (e.g., hospitals, clinics and insurance companies) are required to comply with HIPAA regulations.

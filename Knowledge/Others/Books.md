@@ -64,7 +64,7 @@ Ex - One Hundred Years of Solitude
 - Edward de bano (Lateral Thinking/The mechanism of mind)
 - Elastic: Flexible Thinking in a Time of Change
 - Emily dickinson poetry
-- Essentialism---The Disciplined Pursuit of Lessby Greg McKeown
+- Essentialism - The Disciplined Pursuit of Lessby Greg McKeown
 - Flow - The Psychology of Optimal Experience
 - Fluent in 3 months by Benny Lewis
 - **Godel Escher Bach - An eternal golden braid by douglas hofstadter (AI - Intelligence)**

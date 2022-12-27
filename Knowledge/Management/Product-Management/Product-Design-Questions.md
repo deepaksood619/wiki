@@ -38,7 +38,7 @@ A great product designer should be able to demonstrate knowledge describing the 
 
 ### Please describe how you test your product designs, what methodologies you use, and how you evaluate product usability
 
-The fundamental purpose of product testing is to better understand, and empathize with, the core users of a product. User testing---which is part of a user-centered design philosophy---is one of the most important aspects of a designer's job. A great product designer should talk about the many different types (depending on the project and the design phase) of user tests they employ - from behavioral and attitudinal, to qualitative and quantitative, each with a defined number of participants for optimal results.
+The fundamental purpose of product testing is to better understand, and empathize with, the core users of a product. User testing - which is part of a user-centered design philosophy - is one of the most important aspects of a designer's job. A great product designer should talk about the many different types (depending on the project and the design phase) of user tests they employ - from behavioral and attitudinal, to qualitative and quantitative, each with a defined number of participants for optimal results.
 
 Attitudinal and behavioral testing is **"what people say" vs. "what people do."** Many times, the two are different.**Qualitative and quantitative testing is described as "direct observation" vs. "indirect measurement." Quantitative testing data will always express a certain quantity, amount, or range, while qualitative testing data contains information about qualities
 
@@ -54,7 +54,7 @@ A specific set of heuristics contains empirical rules of thumb, best practices, 
 
 This question should help you understand more about a product designer's process. What did they find challenging, and why? How did they set out to come up with a solution? While there is no right or wrong way to approach a particular challenge, having a clear strategy to facilitate an end goal is essential.
 
-For example---on an existing product---did they gather extra user-generated data to help them crystallize a problem? This could mean collecting data using analytics, or it might involve testing the design on a specific demographic in a format that makes the most sense. This could include testing wireframes or interactive prototypes on users to either validate or reject hypotheses, or it could be sending a survey to a broader demographic to better understand product-market fit.
+For example - on an existing product - did they gather extra user-generated data to help them crystallize a problem? This could mean collecting data using analytics, or it might involve testing the design on a specific demographic in a format that makes the most sense. This could include testing wireframes or interactive prototypes on users to either validate or reject hypotheses, or it could be sending a survey to a broader demographic to better understand product-market fit.
 
 For example, did they employ remote moderated user testing or a form of remote research methodology in order to listen to users and arrive at better design solutions?
 
@@ -68,7 +68,7 @@ One attribute of a great product designer is the ability to evaluate their work 
 
 Listen for answers that not only describe the challenges they may face but how they overcome them. Also, listen for phrases like OKRs (objectives and key results) and KPIs (key performance indicators), which product designers have to grapple with when evaluating the success of their product designs at the business level.
 
-They may have a challenge justifying their product design process to specific stakeholders---it may seem too costly and take too long. How do they overcome these obstacles? How do they align their work with that of the goals of the business, the company's brand, and marketing efforts?
+They may have a challenge justifying their product design process to specific stakeholders - it may seem too costly and take too long. How do they overcome these obstacles? How do they align their work with that of the goals of the business, the company's brand, and marketing efforts?
 
 For example, convincing a company they need more in-depth user research before a product is designed, or incorporating proper usability testing during a product design lifecycle can be difficult. How do they advocate for those mentioned above in making their case?
 
@@ -87,7 +87,7 @@ Follow-up questions on this topic:
 
 Product design is continuously evolving and searching for new ways to solve problems. Seasoned product designers have likely been developing their approach to the design process and will vary from one designer to another. In general, good product designers will walk through a specific process (or "toolkit") they follow when approaching a problem or project. It will likely be a set of steps they take to solve user problems and create engaging product experiences. Listen for a clear process and a goal to align with business needs and brand promises, a deep curiosity and a constant desire to learn, and the specific steps they take to solve user problems.
 
-One overarching theme should be around a human-centric approach to design; perhaps mention "design thinking," which follows a thorough understanding of both user and business goals. In general, this is often an iterative design process that is constantly evolving. Key concepts or methods used to carry out this process may include but are not limited to: **competitive audits, stakeholder interviews, user personas, empathy maps, user research, content audits, minimum viable product (MVP) and Lean UX, information architecture, business model canvases, mood boards, storyboards, use case scenarios and user flows, customer journeys, wireframes, mockups, prototypes, and usability testing.** They may also mention conducting **user testing---moderated or unmoderated, remote or in-person---multivariate testing, A/B testing, eye tracking, click-tracking heatmaps, and other quantitative analytics.**
+One overarching theme should be around a human-centric approach to design; perhaps mention "design thinking," which follows a thorough understanding of both user and business goals. In general, this is often an iterative design process that is constantly evolving. Key concepts or methods used to carry out this process may include but are not limited to: **competitive audits, stakeholder interviews, user personas, empathy maps, user research, content audits, minimum viable product (MVP) and Lean UX, information architecture, business model canvases, mood boards, storyboards, use case scenarios and user flows, customer journeys, wireframes, mockups, prototypes, and usability testing.** They may also mention conducting **user testing - moderated or unmoderated, remote or in-person - multivariate testing, A/B testing, eye tracking, click-tracking heatmaps, and other quantitative analytics.**
 
 Apart from the above, listen for product design methodologies that will help align the product's design with business goals and marketing and which encompass the company's brand promise.
 
@@ -99,7 +99,7 @@ First and foremost, human-centered design is all about understanding your users.
 
 A seasoned product designer should be able to elaborate on how they think of and engage user research, which, in essence, drives human-centered design. What "lenses" do they use when conducting user research? These "lenses" could be ethnographic studies, field studies and contextual observations, focus groups, surveys, and diary studies.
 
-Reflecting on past projects, they should mention details of how they set goals for the research and came up with a research plan, how the organizational aspect was approached, the recruiting of representative users---what kind of research questions they asked, and how the results were analyzed. While there is more than one approach to facilitating user research, the designer should have a clear description of the method, the sample size required to gain a meaningful result, and speak to the interpretation of the data.
+Reflecting on past projects, they should mention details of how they set goals for the research and came up with a research plan, how the organizational aspect was approached, the recruiting of representative users - what kind of research questions they asked, and how the results were analyzed. While there is more than one approach to facilitating user research, the designer should have a clear description of the method, the sample size required to gain a meaningful result, and speak to the interpretation of the data.
 
 Look for a product designer who understands how to measure appropriately by selecting the minimum number of subjects needed to gain a strong understanding of the research, and comprehends what they are testing and seeking to understand.
 
@@ -113,7 +113,7 @@ Listening to the reasons why they love their design heroes and favorite apps can
 
 It's more important to listen for the why rather than give credence to names or which design guru it is. Nevertheless, here are a few to take note of: Dieter Rams (German industrial designer at Braun), Steve Jobs and Jonathan Ive (Apple), Don Norman (best known for his books on design, especially The Design of Everyday Things), Steve Krug, and Alan Cooper.
 
-The above also applies to their favorite apps. Again, it's the why that's important---listen carefully for what it is in the product's design that makes these their favorite apps. For example, YouTube, Spotify, SoundCloud, Shazam, Uber, Instagram, Snapseed, and Netflix.
+The above also applies to their favorite apps. Again, it's the why that's important - listen carefully for what it is in the product's design that makes these their favorite apps. For example, YouTube, Spotify, SoundCloud, Shazam, Uber, Instagram, Snapseed, and Netflix.
 
 ## Walk me through a product design example where you set out to solve a business problem
 
@@ -127,9 +127,9 @@ Lastly, they would have reached into their product design toolkit and used wiref
 
 Listen for passion and knowledge. A good product designer is going to be excited about this topic; the answer will help you understand where their current focus lies.
 
-Listen for how a product designer keeps up with the industry---such as following design podcasts, reading design blogs and books, attending design conferences, webinars, and online training courses for ongoing learning, and more.
+Listen for how a product designer keeps up with the industry - such as following design podcasts, reading design blogs and books, attending design conferences, webinars, and online training courses for ongoing learning, and more.
 
-A product designer who thinks ahead will be an invaluable asset to your company. They may talk about new use cases beyond screens---or how designing for accessibility is an area of interest for them. They may discuss new prototyping tools that save developers and designers time by converting the design to code, or may explain an evolving trend and how terrific it is to be at the forefront of technology. Whatever the answer, passion should shine through. Most of all, it's not about technology; it's about solving problems for people in new and efficient ways.
+A product designer who thinks ahead will be an invaluable asset to your company. They may talk about new use cases beyond screens - or how designing for accessibility is an area of interest for them. They may discuss new prototyping tools that save developers and designers time by converting the design to code, or may explain an evolving trend and how terrific it is to be at the forefront of technology. Whatever the answer, passion should shine through. Most of all, it's not about technology; it's about solving problems for people in new and efficient ways.
 
 Ultimately, it's not about "design fads." A great product designer doesn't follow trends but designs products that have staying power and work well for end users.
 
@@ -150,7 +150,7 @@ With a focus on accessibility, user testing becomes especially important and sho
 
 In that kind of situation, a great product designer exhibits thoughtful restraint. They will not take critique personally but use it as an opportunity to dig deeper and uncover the real reasons why a client may not like a design. Great product designers are objective; they rely on tried and true principles, past learnings, white papers and studies, best practices, standards, and design conventions that have been tested, studied, and validated. Accordingly, they should be able to back up their designs based on those mentioned above.
 
-Typically, in these situations, a misalignment has occurred between what the client was looking for and what the product designer was trying to achieve. A great product designer would take a step back and ask smart questions to uncover the issues a client may have with the design. Is the client subjective as in, "I don't like that color"? The designer would inquire why and make sure the client understands that design decisions are based on sound principles---color theory, for example---and not subjective opinion.
+Typically, in these situations, a misalignment has occurred between what the client was looking for and what the product designer was trying to achieve. A great product designer would take a step back and ask smart questions to uncover the issues a client may have with the design. Is the client subjective as in, "I don't like that color"? The designer would inquire why and make sure the client understands that design decisions are based on sound principles - color theory, for example - and not subjective opinion.
 
 Also listen for examples of when the product designer backed up design decisions based on analytics data and testing (staying objective) and how they presented facts and findings to make their case.
 
@@ -162,7 +162,7 @@ A great product designer should describe design thinking as a strategy that goes
 
 Listen for the product designer who describes "design thinking" as a user-centered design process. As Tim Brown, president and CEO of IDEO, a famed global design consultancy, describes it: "Design thinking is a human-centered approach to innovation that draws from the designer's toolkit to integrate the needs of people, the possibilities of technology, and the requirements for business success."
 
-Design thinking is a method for the generation of solutions and a practical, creative resolution of problems. It's about uncovering insights into the unmet needs of your target audience. It's a form of solution-based or solution-focused thinking, with the intent of producing a constructive future result. Most of all, it's a "people first" approach---a design process mindset that designs products around people's needs, motivations, and behaviors.
+Design thinking is a method for the generation of solutions and a practical, creative resolution of problems. It's about uncovering insights into the unmet needs of your target audience. It's a form of solution-based or solution-focused thinking, with the intent of producing a constructive future result. Most of all, it's a "people first" approach - a design process mindset that designs products around people's needs, motivations, and behaviors.
 
 The design thinking process can be broken down into five stages: **empathize, define, ideate, prototype, and test.** Each step should be given time and the appropriate resources to create an end product that truly meets user needs and wants.
 
@@ -174,7 +174,7 @@ A great product designer would talk about what a "design mindset" means, a compr
 
 Listen for humility backed by confidence. Do they have a cultivated eye for solutions? Are they passionate about creating delightful user experiences and designing products people love?
 
-Listen for answers that include a discussion around empathy---things like "walking a mile in a customer's shoes" (customer journeys) and a human-centered, goal-driven approach to designing products. Empathizing with people often means engaging in in-depth user research to solve problems. At the core of a design mindset is the ability to empathize, together with the ability to formulate great questions. It's essential to ask the right questions in order to come up with reliable solutions; and to ask great questions, designers need to be able to empathize with people and gather relevant information through in-depth research.
+Listen for answers that include a discussion around empathy - things like "walking a mile in a customer's shoes" (customer journeys) and a human-centered, goal-driven approach to designing products. Empathizing with people often means engaging in in-depth user research to solve problems. At the core of a design mindset is the ability to empathize, together with the ability to formulate great questions. It's essential to ask the right questions in order to come up with reliable solutions; and to ask great questions, designers need to be able to empathize with people and gather relevant information through in-depth research.
 
 A seasoned, experienced product designer balances business goals and technical constraints with creating the best user experience possible. They should come up with **"personas" (the core users of a product)**, define when and how to do surveys, distill research findings, conduct field visits and interviews, report their research findings, create wireframes and prototypes, conduct usability testing, and, in order to make further improvements, analyze quantitative user data once a product is released.
 

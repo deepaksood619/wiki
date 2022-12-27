@@ -28,7 +28,7 @@ Tangible value and perceived value
 
 Ecommerce - <https://drive.google.com/drive/folders/1tsdmHgdMJCPQP3Wy2zU86DQRGXkS00lX>
 
-## Cut through the clutter and do it fast: An e-retail visitor spends fewer than 10 minutes per visit on a platform. Shoppers browse 10 product pages, on average, in electronics, and more than 15 in mobiles before adding any to their cart. Brands and sellers have limited time to tell their story and make an impression in the minds of the consumers. Images are key---1 in 2 visitors browse image galleries, whereas only 1 in 22 read product descriptions
+## Cut through the clutter and do it fast: An e-retail visitor spends fewer than 10 minutes per visit on a platform. Shoppers browse 10 product pages, on average, in electronics, and more than 15 in mobiles before adding any to their cart. Brands and sellers have limited time to tell their story and make an impression in the minds of the consumers. Images are key - 1 in 2 visitors browse image galleries, whereas only 1 in 22 read product descriptions
 
 ## Influencers have a growing influence: Approximately 40% of online shoppers made at least one purchase through social media channels (e.g., Facebook, Instagram, WhatsApp) in 2020. Content creators and influencers will play an increasingly critical role in the future of commerce
 

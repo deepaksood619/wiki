@@ -50,7 +50,7 @@ Here are some guidelines that can help you decide when to use a persistent sessi
 
 - The client needs only to publish messages to topics, the client does not need to subscribe to topics.You don't want the broker to store session information or retry transmission of QoS 1 and 2 messages.
 - The client does not need to get messages that it misses offline.
-Persistent sessions are often used for MQTT clients on constrained devices and clients who must not miss any messages for certain topics---not even when they are disconnected. When a client reconnects, the broker will send all missed messages for a subscription with a QoS Level of 1 or 2. Persistent sessions are most useful for clients that subscribe to topics; publishing-only clients don't profit from persistent sessions.
+Persistent sessions are often used for MQTT clients on constrained devices and clients who must not miss any messages for certain topics - not even when they are disconnected. When a client reconnects, the broker will send all missed messages for a subscription with a QoS Level of 1 or 2. Persistent sessions are most useful for clients that subscribe to topics; publishing-only clients don't profit from persistent sessions.
 
 ## How long does the broker store messages?
 

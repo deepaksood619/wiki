@@ -18,11 +18,11 @@ Thread is designed to address the unique interoperability, security, power, and 
 
 Thread's primary features include:
 
-- Simplicity --- Simple installation, start up, and operation
-- Security --- All devices in a Thread network are authenticated and all communications are encrypted
-- Reliability --- Self-healing mesh networking, with no single point of failure, and spread-spectrum techniques to provide immunity to interference
-- Efficiency --- Low-power Thread devices can sleep and operate on battery power for years
-- Scalability --- Thread networks can scale up to hundreds of devices
+- Simplicity - Simple installation, start up, and operation
+- Security - All devices in a Thread network are authenticated and all communications are encrypted
+- Reliability - Self-healing mesh networking, with no single point of failure, and spread-spectrum techniques to provide immunity to interference
+- Efficiency - Low-power Thread devices can sleep and operate on battery power for years
+- Scalability - Thread networks can scale up to hundreds of devices
 
 ## Features
 

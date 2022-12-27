@@ -8,7 +8,7 @@ Modified: 2022-01-23 19:59:57 +0500
 
 ## Cash Flows: A Life Cycle Perspective
 
-![image](media/Accounting-for-Finance_4A--Cash-Flow-Statement-Comparisions-image1.jpg)
+![image](media/Accounting-for-Finance_4A-Cash-Flow-Statement-Comparisions-image1.jpg)
 
 ## Sector and Industry Differences
 
@@ -23,10 +23,10 @@ Modified: 2022-01-23 19:59:57 +0500
   - You should also be able to see what equity investors received as cash flows
 - If your objective is to estimate cash flows, prior to debt payments, you can start with the statement of cash. flows but you have to trace interest expenses (netted out to get to net income and add them back
 
-![image](media/Accounting-for-Finance_4A--Cash-Flow-Statement-Comparisions-image2.jpg)
+![image](media/Accounting-for-Finance_4A-Cash-Flow-Statement-Comparisions-image2.jpg)
 
-![image](media/Accounting-for-Finance_4A--Cash-Flow-Statement-Comparisions-image3.jpg)
+![image](media/Accounting-for-Finance_4A-Cash-Flow-Statement-Comparisions-image3.jpg)
 
-![image](media/Accounting-for-Finance_4A--Cash-Flow-Statement-Comparisions-image4.jpg)
+![image](media/Accounting-for-Finance_4A-Cash-Flow-Statement-Comparisions-image4.jpg)
 
-![image](media/Accounting-for-Finance_4A--Cash-Flow-Statement-Comparisions-image5.jpg)
+![image](media/Accounting-for-Finance_4A-Cash-Flow-Statement-Comparisions-image5.jpg)

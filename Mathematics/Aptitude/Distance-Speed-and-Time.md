@@ -37,17 +37,17 @@ Distance per time squared? Don't let that throw you. You end up with time square
 
 It may be easier, for a given problem, to use units such as mph/s (miles per hour per second). This would be useful if the velocity in question had a magnitude of something like several miles per hour that changed typically over a number of seconds.
 
-Say you become a drag racer in order to analyze your acceleration down the dragway. After a test race, you know the distance you went --- 402 meters, or about 0.25 miles (the magnitude of your displacement) --- and you know the time it took --- 5.5 seconds. So what was your acceleration as you blasted down the track?
+Say you become a drag racer in order to analyze your acceleration down the dragway. After a test race, you know the distance you went - 402 meters, or about 0.25 miles (the magnitude of your displacement) --- and you know the time it took - 5.5 seconds. So what was your acceleration as you blasted down the track?
 
 Well, you can relate displacement, acceleration, and time as follows:
 
 ![image](media/Distance-Speed-and-Time-image2.png)
 
-and that's what you want --- you always work the algebra so that you end up relating all the quantities you know to the one quantity youdon'tknow. In this case, you have
+and that's what you want - you always work the algebra so that you end up relating all the quantities you know to the one quantity youdon'tknow. In this case, you have
 
 ![image](media/Distance-Speed-and-Time-image6.png)
 
-(Keep in mind that in this case, your initial velocity is 0 --- you're not allowed to take a running start at the drag race!) You can rearrange this equation with a little algebra to solve for acceleration; just divide both sides byt2and multiply by 2 to get
+(Keep in mind that in this case, your initial velocity is 0 - you're not allowed to take a running start at the drag race!) You can rearrange this equation with a little algebra to solve for acceleration; just divide both sides byt2and multiply by 2 to get
 
 ![image](media/Distance-Speed-and-Time-image7.png)
 
@@ -55,4 +55,4 @@ Great. Plugging in the numbers, you get the following:
 
 ![image](media/Distance-Speed-and-Time-image8.png)
 
-Okay, the acceleration is approximately 27 meters per second2. What's that in more understandable terms? The acceleration due to gravity,g,is 9.8 meters per second2, so this is about 2.7 g's --- you'd feel yourself pushed back into your seat with a force about 2.7 times your own weight.
+Okay, the acceleration is approximately 27 meters per second2. What's that in more understandable terms? The acceleration due to gravity,g,is 9.8 meters per second2, so this is about 2.7 g's - you'd feel yourself pushed back into your seat with a force about 2.7 times your own weight.

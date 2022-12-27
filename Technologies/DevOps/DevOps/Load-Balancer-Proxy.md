@@ -104,7 +104,7 @@ This application load balancer method measures traffic in megabits (Mbps) per se
 | Minimizing resource utilization in proxy is more important than features | Use L3/L4 LB                                                                                |
 | Latency is paramount                                                     | Use L3/L4 LB                                                                                |
 
-## GSLB --- Global Server Load Balancing extends L4 and L7 capabilities to servers in different geographic locations
+## GSLB - Global Server Load Balancing extends L4 and L7 capabilities to servers in different geographic locations
 
 Global server load balancing(GSLB) refers to the intelligent distribution of traffic across server resources located in multiple geographies. The servers can be on premises in a company's own data centers, or hosted in a private cloud or the public cloud.
 

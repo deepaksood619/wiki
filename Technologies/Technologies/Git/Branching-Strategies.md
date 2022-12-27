@@ -6,7 +6,7 @@ Modified: 2021-03-09 20:20:53 +0500
 
 ---
 
-## Note: Up until the first public release of a product, it absolutely makes sense to commit all changes directly to the main branch---even if you are a Git flow advocate---for the sake of the speed and simplicity of the development workflow. Since there's no production yet, there's no possibility of a production bug that the team needs to fix ASAP. Doing all the branching magic that classic Git flow implies is therefore overkill at this stage
+## Note: Up until the first public release of a product, it absolutely makes sense to commit all changes directly to the main branch - even if you are a Git flow advocate - for the sake of the speed and simplicity of the development workflow. Since there's no production yet, there's no possibility of a production bug that the team needs to fix ASAP. Doing all the branching magic that classic Git flow implies is therefore overkill at this stage
 
 Everything in dev can be merged to master (if it can't it's a good candidate to break the repository)
 
@@ -85,7 +85,7 @@ But even with projects well-suited to the classic Git flow model, I've suffered 
 
 - Git flow is complex, with two long-lived branches, three types of temporary branches, and strict rules on how branches deal with each other. Such complexity makes mistakes more likely and increases the effort required to fix them.
 - Release and hotfix branches require "double merging"---once into main, then into develop. At times you can forget to do both. You can make Git flow branching easier with scripts or VCS GUI client plugins, but you have to set them up first for every machine of every developer involved in a given project.
-- In CI/CD workflows, you usually end up with two final builds for a release---one from the latest commit of the release branch itself and another one from the merge commit to main. Strictly speaking, you should use the one from the main, but the two are usually identical, creating the potential for confusion.
+- In CI/CD workflows, you usually end up with two final builds for a release - one from the latest commit of the release branch itself and another one from the merge commit to main. Strictly speaking, you should use the one from the main, but the two are usually identical, creating the potential for confusion.
 
 <https://www.toptal.com/gitflow/enhanced-git-flow-explained>
 
@@ -95,7 +95,7 @@ Under the forking workflow, each developer has two Git repositories: a local one
 
 The forking workflow presents the benefit that developers' contributions can be integrated without the need for a single central repository. Developers can push to their own server-side repositories. The project maintainer can then push to the official repository That way, the maintainer can accept commits from any developer but doesn't have to grant them write access to the official repository.
 
-To start working under the forking workflow, a developer would typically fork the "true" repository in order to create a copy of it on the server. This copy serves as their personal public repository---no one can push to it, but they can pull changes from it. After their server-side copy is created, the developer can then perform "Git clone" to get a local copy of their online copy of the original repository.
+To start working under the forking workflow, a developer would typically fork the "true" repository in order to create a copy of it on the server. This copy serves as their personal public repository - no one can push to it, but they can pull changes from it. After their server-side copy is created, the developer can then perform "Git clone" to get a local copy of their online copy of the original repository.
 
 When developers want to publish a local commit, they push the commit to their ownrepository instead of the official/original one. Then, they submit a pull request to the repository, which lets the project maintainer know that an update is coming their way. The pull request can also serve as discussion thread if there are problems with the contributed code.
 

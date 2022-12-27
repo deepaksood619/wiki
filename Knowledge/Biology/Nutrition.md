@@ -57,7 +57,7 @@ Micronutrients support metabolism.
 
 ## Gluten
 
-Gluten is a protein naturally found in some [grains](https://www.hsph.harvard.edu/nutritionsource/whole-grains/) including wheat, barley, rye, and spelt. It acts like a binder, holding food together and adding a "stretchy" quality---think of a pizza maker tossing and stretching out a ball of dough. Without gluten, the dough would rip easily.
+Gluten is a protein naturally found in some [grains](https://www.hsph.harvard.edu/nutritionsource/whole-grains/) including wheat, barley, rye, and spelt. It acts like a binder, holding food together and adding a "stretchy" quality - think of a pizza maker tossing and stretching out a ball of dough. Without gluten, the dough would rip easily.
 
 Wheat products, such as bread, baked goods, crackers, cereals, and pasta, commonly contain gluten. It is also an ingredient in barley-based products, including malt, food coloring, malt vinegar, and beer.
 

@@ -40,7 +40,7 @@ Bekaar aadmi kuch kiya kar... Kapde udherkar siya kar...
 
 ## OHIO principle, also known as "Only Handle it Once."
 
-The secret to being productive is to work on the right thing---even if it's at a slow pace.
+The secret to being productive is to work on the right thing - even if it's at a slow pace.
 
 Fight procrastination with mini-deadlines that hold you accountable.
 
@@ -78,7 +78,7 @@ Delete. The projects you don't take on, don't need to be finished.
 
 Is this a problem that needs to be solved? Or is it a problem that can be eliminated all together?"
 
-"It is wonderful how much work can be got through in a day, if we go by the rule---map out our time, divide it off, and take up one thing regularly after another. To drift through our work, or to rush through it in a helter-skelter fashion, ends in comparatively little being done. "One thing at a time" will always perform a better day's work than doing two or three things at a time. By following this rule, one person will do more in a day than another does in a week."
+"It is wonderful how much work can be got through in a day, if we go by the rule - map out our time, divide it off, and take up one thing regularly after another. To drift through our work, or to rush through it in a helter-skelter fashion, ends in comparatively little being done. "One thing at a time" will always perform a better day's work than doing two or three things at a time. By following this rule, one person will do more in a day than another does in a week."
 
 ![image](media/Productivity-Productive-Time-Management-TODO-image1.jpg)
 
@@ -506,7 +506,7 @@ Example - Starbucks where everyone is allowed to make decisions.
 
 [Principles For Success by Ray Dalio (In 30 Minutes)](https://youtu.be/B9XGUpQZY38)
 
-Since the same kinds of things happen over and over again, in your life, a relatively few well-thought-out principles will allow you to deal with just about anything that reality throws at you. Where you get these principles from doesn't matter as much as having them and using them consistently---and that you never stop refining and improving them.
+Since the same kinds of things happen over and over again, in your life, a relatively few well-thought-out principles will allow you to deal with just about anything that reality throws at you. Where you get these principles from doesn't matter as much as having them and using them consistently - and that you never stop refining and improving them.
 
 To acquire principles that work, it's essential that you embrace reality and deal with it well. Don't fall into the common trap of wishing that reality worked differently than it does or that your own realities were different. Instead, embrace your realities and deal with them effectively. After all, making the most of your circumstances is what life is all about. This includes being transparent with your thoughts and open-mindedly accepting the feedback of others. Doing so will dramatically increase your learning.
 
@@ -584,7 +584,7 @@ Never seize on the first available option, no matter how good it seems, before y
 
 10. Convert your principles into algorithms and have the computer make decisions alongside you. The process of man's mind working with technology is what elevates us - its what has taken us from an economy where most people dig in the dirt to today's information age. Its for that reason that people who have common sense, imagination and determination, who knows what they value and what they want, and who also use computers, math, and game theory are the best decision makers there are.
 
-You can of course do all of these things alone, but if you've understood anything about the concept of radical open-mindedness, it should be obvious that going it alone will only take you so far. We all need others to help us triangulate and get to the best possible decisions---and to help us see our weaknesses objectively and compensate for them. More than anything else, your life is affected by the people around you and how you interact with each other. Your ability to get what you want when working with others who want the same things is much greater than your ability to get these things by yourself.
+You can of course do all of these things alone, but if you've understood anything about the concept of radical open-mindedness, it should be obvious that going it alone will only take you so far. We all need others to help us triangulate and get to the best possible decisions - and to help us see our weaknesses objectively and compensate for them. More than anything else, your life is affected by the people around you and how you interact with each other. Your ability to get what you want when working with others who want the same things is much greater than your ability to get these things by yourself.
 
 ## The 4-Hour Workweek by Tim Ferriss
 

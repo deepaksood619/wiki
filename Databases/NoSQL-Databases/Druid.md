@@ -49,7 +49,7 @@ Once Druid has ingested your data, a copy is stored safely in [deep storage](htt
 ## Druid Important Points
 
 Druid does not natively support nested data, so, we need to flatten arrays in our JSON events by providing a [flattenspec](https://druid.apache.org/docs/latest/ingestion/index.html#flattenspec), or by doing some preprocessing before the event lands in it.
-Druid assigns types to columns --- string, long, float, complex, etc. The type enforcement at the column level can be restrictive if the incoming data presents with mixed types for a particular field/fields. Each column except the timestamp can be of type dimension or metric.
+Druid assigns types to columns - string, long, float, complex, etc. The type enforcement at the column level can be restrictive if the incoming data presents with mixed types for a particular field/fields. Each column except the timestamp can be of type dimension or metric.
 One can filter and group by on dimension columns, but not on metric columns. This needs some forethought when picking which columns to pre-aggregate and which ones will be used for slice-and-dice analyses.
 Partition keys must be picked carefully for load-balancing and scaling up. Streaming new updates to the table after creation requires using one of the [supported ways of ingesting](https://druid.apache.org/docs/latest/ingestion/index.html#streaming)--- Kafka, Kinesis, or Tranquility.
 Druid works well for event analytics in environments where data is somewhat predictable and rollups and pre-aggregations can be defined a priori. It involves some maintenance and tuning overhead in terms of engineering, but for event analytics that doesn't involve complex joins, it can serve queries with low latency and scale up as required.

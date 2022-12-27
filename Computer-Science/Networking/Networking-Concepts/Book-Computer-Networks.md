@@ -372,9 +372,9 @@ Modified: 2020-01-01 22:24:49 +0500
 
 5.6.5Label Switching and MPLS, 470
 
-5.6.6OSPF---An Interior Gateway Routing Protocol, 474
+5.6.6OSPF - An Interior Gateway Routing Protocol, 474
 
-5.6.7BGP---The Exterior Gateway Routing Protocol, 479
+5.6.7BGP - The Exterior Gateway Routing Protocol, 479
 
 5.6.8Internet Multicasting, 484
 
@@ -465,7 +465,7 @@ Modified: 2020-01-01 22:24:49 +0500
 
 ## 7THE APPLICATION LAYER
 
-7.1DNS---THE DOMAIN NAME SYSTEM, 611
+7.1DNS - THE DOMAIN NAME SYSTEM, 611
 
 7.1.1The DNS Name Space, 612
 
@@ -491,7 +491,7 @@ Modified: 2020-01-01 22:24:49 +0500
 
 7.3.3Dynamic Web Pages and Web Applications, 672
 
-7.3.4HTTP---The HyperText Transfer Protocol, 683
+7.3.4HTTP - The HyperText Transfer Protocol, 683
 
 7.3.5The Mobile Web, 693
 
@@ -533,9 +533,9 @@ Modified: 2020-01-01 22:24:49 +0500
 8.1.5Two Fundamental Cryptographic Principles, 776
 8.2SYMMETRIC-KEY ALGORITHMS, 778
 
-8.2.1DES---The Data Encryption Standard, 780
+8.2.1DES - The Data Encryption Standard, 780
 
-8.2.2AES---The Advanced Encryption Standard, 783
+8.2.2AES - The Advanced Encryption Standard, 783
 
 8.2.3Cipher Modes, 787
 
@@ -584,7 +584,7 @@ Modified: 2020-01-01 22:24:49 +0500
 8.7.5Authentication Using Public-Key Cryptography, 840
 8.8EMAIL SECURITY*, 841
 
-8.8.1PGP---Pretty Good Privacy, 842
+8.8.1PGP - Pretty Good Privacy, 842
 
 8.8.2S/MIME, 846
 8.9WEB SECURITY, 846
@@ -593,7 +593,7 @@ Modified: 2020-01-01 22:24:49 +0500
 
 8.9.2Secure Naming, 848
 
-8.9.3SSL---The Secure Sockets Layer, 853
+8.9.3SSL - The Secure Sockets Layer, 853
 
 8.9.4Mobile Code Security, 857
 8.10SOCIAL ISSUES, 860

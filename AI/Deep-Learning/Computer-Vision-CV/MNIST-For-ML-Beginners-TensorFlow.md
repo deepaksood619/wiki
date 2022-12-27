@@ -10,7 +10,7 @@ When one learns how to program, there's a tradition that the first thing you do 
 
 MNIST is a simple computer vision dataset. It consists of images of handwritten digits like these:
 
-![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-----TensorFlow-image1.png)
+![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-TensorFlow-image1.png)
 
 It also includes labels for each image, telling us which digit it is. For example, the labels for the above images are 5, 0, 4, and 1.
 
@@ -40,7 +40,7 @@ As mentioned earlier, every MNIST data point has two parts: an image of a handwr
 
 Each image is 28 pixels by 28 pixels. We can interpret this as a big array of numbers:
 
-![media](media/Computer-Vision-CV_MNIST-For-ML-Beginners-----TensorFlow-image2.png)
+![media](media/Computer-Vision-CV_MNIST-For-ML-Beginners-TensorFlow-image2.png)
 
 We can flatten this array into a vector of 28x28 = 784 numbers. It doesn't matter how we flatten the array, as long as we're consistent between images. From this perspective, the MNIST images are just a bunch of points in a 784-dimensional vector space, with a [very rich structure](https://colah.github.io/posts/2014-10-Visualizing-MNIST/) (warning: computationally intensive visualizations).
 
@@ -48,13 +48,13 @@ Flattening the data throws away information about the 2D structure of the image.
 
 The result is that mnist.train.images is a tensor (an n-dimensional array) with a shape of [55000, 784]. The first dimension is an index into the list of images and the second dimension is the index for each pixel in each image. Each entry in the tensor is a pixel intensity between 0 and 1, for a particular pixel in a particular image.
 
-![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-----TensorFlow-image3.png)
+![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-TensorFlow-image3.png)
 
 Each image in MNIST has a corresponding label, a number between 0 and 9 representing the digit drawn in the image.
 
 For the purposes of this tutorial, we're going to want our labels as "one-hot vectors". A one-hot vector is a vector which is 0 in most dimensions, and 1 in a single dimension. In this case, the nth digit will be represented as a vector which is 1 in the nth dimension. For example, 3 would be [0,0,0,1,0,0,0,0,0,0]. Consequently, mnist.train.labels is a [55000, 10] array of floats.
 
-![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-----TensorFlow-image4.png)
+![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-TensorFlow-image4.png)
 
 We're now ready to actually make our model!
 
@@ -70,7 +70,7 @@ To tally up the evidence that a given image is in a particular class, we do a we
 
 The following diagram shows the weights one model learned for each of these classes. Red represents negative weights, while blue represents positive weights.
 
-![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-----TensorFlow-image5.png)
+![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-TensorFlow-image5.png)
 
 We also add some extra evidence called a bias. Basically, we want to be able to say that some things are more likely independent of the input. The result is that the evidence for a class i given an input x is:
 
@@ -100,15 +100,15 @@ But it's often more helpful to think of softmax the first way: exponentiating it
 
 You can picture our softmax regression as looking something like the following, although with a lot more xs. For each output, we compute a weighted sum of the xs, add a bias, and then apply softmax.
 
-![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-----TensorFlow-image6.png)
+![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-TensorFlow-image6.png)
 
 If we write that out as equations, we get:
 
-![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-----TensorFlow-image7.png)
+![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-TensorFlow-image7.png)
 
 We can "vectorize" this procedure, turning it into a matrix multiplication and vector addition. This is helpful for computational efficiency. (It's also a useful way to think.)
 
-![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-----TensorFlow-image8.png)
+![image](media/Computer-Vision-CV_MNIST-For-ML-Beginners-TensorFlow-image8.png)
 
 More compactly, we can just write:
 

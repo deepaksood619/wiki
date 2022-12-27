@@ -142,7 +142,7 @@ NewSQL databases follow the relational structure and semantics, but are built us
 
 12. Multi-model databases
 
-Multi-model databases are databases that combine the functionality of more than one type of database. The benefits of this approach are clear --- the same system can use different representations for different types of data.-  ArangoDB
+Multi-model databases are databases that combine the functionality of more than one type of database. The benefits of this approach are clear - the same system can use different representations for different types of data.-  ArangoDB
 
 - OrientDB
 - Couchbase
@@ -271,12 +271,12 @@ Of course, in reality there is more work that CCSV would need to do to be a viab
 
 ## COMPRESSION IMPROVEMENTS
 
-Storing like-data together also has advantages for compression codecs. Many compression codecs (including GZIP and Snappy) have a higher compression-ratio when compressing sequences of similar data. By storing records column-by-column, in many cases each section of column data will contain similar values --- that makes it ripe for compression. In fact, each column could be compressed independently of the others to optimize this further.
-The final benefit is that compression and dense-packing in columnar databases free up space --- space that may be used to sort and index data within the columns. In other words, **columnar databases have higher sorting and indexing efficiency**, which comes more as a side benefit of having some leftover space from strong compression. It is also, in fact, mutually beneficial: researchers who study columnar databases point out that sorted data compress better than unsorted data, because sorting lowers entropy.
+Storing like-data together also has advantages for compression codecs. Many compression codecs (including GZIP and Snappy) have a higher compression-ratio when compressing sequences of similar data. By storing records column-by-column, in many cases each section of column data will contain similar values - that makes it ripe for compression. In fact, each column could be compressed independently of the others to optimize this further.
+The final benefit is that compression and dense-packing in columnar databases free up space - space that may be used to sort and index data within the columns. In other words, **columnar databases have higher sorting and indexing efficiency**, which comes more as a side benefit of having some leftover space from strong compression. It is also, in fact, mutually beneficial: researchers who study columnar databases point out that sorted data compress better than unsorted data, because sorting lowers entropy.
 
 ## Negatives of Columnar Formats
 
-The biggest negative of columnar formats is that re-constructing a complete record is slower and requires reading segments from each row, one-by-one. It is for this reason that columnar-file-formats initially hit their groove for analytics-style workflows, rather than Map/Reduce style workflows --- which by default operate on whole rows of data at a time.
+The biggest negative of columnar formats is that re-constructing a complete record is slower and requires reading segments from each row, one-by-one. It is for this reason that columnar-file-formats initially hit their groove for analytics-style workflows, rather than Map/Reduce style workflows - which by default operate on whole rows of data at a time.
 For real columnar file formats (like [Parquet](http://parquet.apache.org/)), this downside is minimized by some clever tricks like breaking the file up into 'row groups' and building extensive metadata, although for particularly wide datasets (like 200+ columns), the speed impact can be fairly significant.
 The other downside, is that they are more CPU and ram intensive to write, as the file writer needs to collect a whole bunch of metadata, and reorganize the rows before it can write the file.
 <https://blog.matthewrathbone.com/2019/11/21/guide-to-columnar-file-formats.html>
@@ -323,7 +323,7 @@ Arelational databaseis a type of database. It uses a structure that allows us to
 <https://dbdb.io>
 
 <https://www.sciencedirect.com/science/article/pii/S1319157816300453>
-[Rust at speed --- building a fast concurrent database](https://www.youtube.com/watch?v=s19G6n0UjsM)
+[Rust at speed - building a fast concurrent database](https://www.youtube.com/watch?v=s19G6n0UjsM)
 
 <https://www.youtube.com/watch?v=Cym4TZwTCNU>
 <https://www.freecodecamp.org/news/learn-nosql-in-3-hours>

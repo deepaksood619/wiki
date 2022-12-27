@@ -8,7 +8,7 @@ Modified: 2021-12-22 21:26:10 +0500
 
 ## Balance Sheet: A Life Cycle Perspective
 
-![image](media/Accounting-for-Finance_3A--Balance-Sheet-Comparisions-image1.jpg)
+![image](media/Accounting-for-Finance_3A-Balance-Sheet-Comparisions-image1.jpg)
 
 ## Sector and Industry Differences
 

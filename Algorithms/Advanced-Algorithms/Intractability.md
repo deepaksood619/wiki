@@ -64,7 +64,7 @@ If some decision variables are not discrete the problem is known as amixed-integ
 
 # P vs NP
 
-NP - Non Deterministic Polynomial Time (The complexity class NPcontains all of the problems inP---it is often incorrectly ascribed to mean "not polynomial time.")
+NP - Non Deterministic Polynomial Time (The complexity class NPcontains all of the problems inP - it is often incorrectly ascribed to mean "not polynomial time.")
 
 ![image](media/Intractability-image19.png)
 

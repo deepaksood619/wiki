@@ -18,7 +18,7 @@ Here are some basic but very effective types:
   - **Analytical** questions look for the roots of a problem.What are the causes of...?
   - **Clarifying** questions help align and avoid misunderstandings.So, you mean that..?
 
-- **Closed questions** call for specific answers---usually yes or no---or they force the respondent to select an answer from a given set, or to agree or disagree with a statement. Closed questions tend to focus on facts---what, when, where---and are usually easy to answer. For example:"Where were you born? How many miles do you drive a month?"
+- **Closed questions** call for specific answers - usually yes or no - or they force the respondent to select an answer from a given set, or to agree or disagree with a statement. Closed questions tend to focus on facts - what, when, where - and are usually easy to answer. For example:"Where were you born? How many miles do you drive a month?"
 
 ## The Anatomy of a Good Question
 
@@ -26,7 +26,7 @@ A **good question** doesn't depend just on the **type** of question it is, but a
 
 ## Good questions should empower
 
-Disempowering questions focus on why the person did not succeed, which puts that person in a defensive mode. Empowering questions are asked from trust---they get people to think and find their own answers, which transfers ownership and develops self-responsibility.
+Disempowering questions focus on why the person did not succeed, which puts that person in a defensive mode. Empowering questions are asked from trust - they get people to think and find their own answers, which transfers ownership and develops self-responsibility.
 
 For example, when giving feedback, instead of just saying"I don't think this would work,"you could ask,"**What other options have you explored, and why did you choose this one?**"
 
@@ -44,7 +44,7 @@ Good questions open up new possibilities. They involve people in divergent thoug
 
 ## Dig deeper
 
-Ask follow-up questions in order to get deeper information and clarify that everyone understands the same thing. Use the power of silence---just keep silent, look people in the eye, and nod---so they can expand on their thoughts and ideas without interruption.
+Ask follow-up questions in order to get deeper information and clarify that everyone understands the same thing. Use the power of silence - just keep silent, look people in the eye, and nod - so they can expand on their thoughts and ideas without interruption.
 
 ## Questioning Techniques That Build a Deeper Understanding
 

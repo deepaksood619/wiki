@@ -544,7 +544,7 @@ A trading account is used to place buy or sell orders in the stock market.
 
 ## Exchange-traded fund (Index ETF)
 
-An exchange-traded fund (ETF) is a collection of securities---such as stocks---that tracks an underlying [index](https://www.investopedia.com/terms/m/marketindex.asp).
+An exchange-traded fund (ETF) is a collection of securities - such as stocks - that tracks an underlying [index](https://www.investopedia.com/terms/m/marketindex.asp).
 
 An ETF is called an exchange-traded fund since it's traded on an exchange just like stocks. The price of an ETF's shares will change throughout the trading day as the shares are bought and sold on the market. This is [unlike mutual funds](https://www.investopedia.com/ask/answers/09/mutual-fund-etf.asp), which are not traded on an exchange, and trade only once per day after the markets close.
 

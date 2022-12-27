@@ -55,7 +55,7 @@ RTOSes can significantly ease the development of complex products, which can tra
 
 ## What are the most important characteristics of UART-based (also calledRS-232-likeandTTL-like) serial communication, I2C communication, and SPI communication?
 
-Simple UART-based serial communication---with or without UART hardware---is the least demanding communications protocol to implement, but comes with severe limitations:
+Simple UART-based serial communication - with or without UART hardware - is the least demanding communications protocol to implement, but comes with severe limitations:
 
 - It's intended to connect only two devices.
 - It's asynchronous, meaning there's no explicit agreement about clock rates between the devices.
@@ -93,13 +93,13 @@ Bluetooth is a reasonable choice for interfacing between different types of hard
 
 There are also custom radio-based communication devices and protocols which work on the same frequencies as WiFi and Bluetooth (around 2.4 GHz), but with simpler protocols that are incompatible with the standard ones. They are usually cheaper than Bluetooth and simpler to implement.
 
-There are also transceivers operating at low frequencies such as 433 MHz. While they offer very low bitrates over short distances---up to 10 yards (~9 meters)---they are extremely cheap and easy to implement. If larger distances are required and a small bitrate is acceptable, which is often the case in IoT devices, solutions like LoRa, SigFox, and NB-IoT can be used.
+There are also transceivers operating at low frequencies such as 433 MHz. While they offer very low bitrates over short distances - up to 10 yards (~9 meters)---they are extremely cheap and easy to implement. If larger distances are required and a small bitrate is acceptable, which is often the case in IoT devices, solutions like LoRa, SigFox, and NB-IoT can be used.
 
 Finally, infrared communication over very short distances (a couple of yards) can also be an efficient choice.
 
 ## Describe the role of a watchdog timer
 
-A watchdog timer is a feature of many microcontrollers---usually implemented with specific dedicated hardware---that can be used to check whether the software running on the microcontroller hung.
+A watchdog timer is a feature of many microcontrollers - usually implemented with specific dedicated hardware - that can be used to check whether the software running on the microcontroller hung.
 
 Microcontrollers are designed to be sturdy and resilient. But there's still any number of issues that can affect hardware stability. There can also be an unhandled combination of events on the software side. Both of these can cause microcontrollers to "hang," either electrically or in an infinite loop in software.
 
@@ -107,7 +107,7 @@ A watchdog timer is a subsystem which needs to be explicitly notified by the sof
 
 ## What are some common issues when handling interrupts?
 
-Interrupt handlers almost always need to finish their execution quickly---the details depend on the device and application---and this limits the complexity of what can be done in their code. Also, the context in which the interrupt handler code is executed can, for either hardware or software reasons, prevent the usage from within the interrupt handler code of:
+Interrupt handlers almost always need to finish their execution quickly - the details depend on the device and application - and this limits the complexity of what can be done in their code. Also, the context in which the interrupt handler code is executed can, for either hardware or software reasons, prevent the usage from within the interrupt handler code of:
 
 - Common library functions
 - Access to peripherals and devices

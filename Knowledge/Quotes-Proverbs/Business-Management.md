@@ -240,7 +240,7 @@ And it means nothing.
 
 Aadhaar is salt.
 
-ZEV's --- Zero Economic Value citizens
+ZEV's - Zero Economic Value citizens
 
 Q. How do you become a millionaire in the airline industry?
 
@@ -321,7 +321,7 @@ A list of 10 principles from an early internal memo at Nike, long before the com
 
 2. We're on offense. All the time.
 
-3. Perfect results count --- not a perfect process. Break the rules: fight the law.
+3. Perfect results count - not a perfect process. Break the rules: fight the law.
 
 4. This is as much about battle as about business.
 

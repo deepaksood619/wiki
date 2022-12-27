@@ -290,7 +290,7 @@ Low level working - <https://erthalion.info/2019/12/06/postgresql-stay-curious>
 
 Locking Tuples internals - <https://github.com/postgres/postgres/blob/master/src/backend/access/heap/README.tuplock>
 
-Youtube - [Breaking PostgreSQL at Scale --- Christophe Pettus](https://www.youtube.com/watch?v=XUkTUMZRBE8)
+Youtube - [Breaking PostgreSQL at Scale - Christophe Pettus](https://www.youtube.com/watch?v=XUkTUMZRBE8)
 
 ## Configuration
 

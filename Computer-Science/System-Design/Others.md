@@ -38,7 +38,7 @@ The ALT architecture addresses these shortcomings of Lambda architectures. The k
 
 1. TheTailerpulls new incoming data from a static or streaming source into an indexing engine. Its job is to fetch from all data sources, be it a data lake, like S3, or a dynamic source, like Kafka or Kinesis.
 
-2. TheLeafis a powerful indexing engine. It indexes all data as and when it arrives via the Tailer. The indexing component builds multiple types of indexes---inverted, columnar, document, geo, and many others---on the fields of a data set. The goal of indexing is to make any query on any data field fast.
+2. TheLeafis a powerful indexing engine. It indexes all data as and when it arrives via the Tailer. The indexing component builds multiple types of indexes - inverted, columnar, document, geo, and many others - on the fields of a data set. The goal of indexing is to make any query on any data field fast.
 
 3. The scalableAggregatortier is designed to deliver low-latency aggregations, be it columnar aggregations, joins, relevance sorting, or grouping. The Aggregators leverage indexing so efficiently that complex logic typically executed by pipeline software in other architectures can be executed on the fly as part of the query.
 
@@ -46,7 +46,7 @@ The ALT architecture addresses these shortcomings of Lambda architectures. The k
 
 The ALT architecture enables the app developer or data scientist to run low-latency queries on raw data sets without any prior transformation. A large portion of the data transformation process can occur as part of the query itself. How is this possible in the ALT architecture?
 
-- Indexing is critical to making queries fast.The Leaves maintain a variety of indexes concurrently, so that data can be quickly accessed regardless of the type of query---aggregation, key-value, time series, or search. Every document and field is indexed, including both value and type of each field, resulting in fast query performance that allows significantly more complex data processing to be inserted into queries.
+- Indexing is critical to making queries fast.The Leaves maintain a variety of indexes concurrently, so that data can be quickly accessed regardless of the type of query - aggregation, key-value, time series, or search. Every document and field is indexed, including both value and type of each field, resulting in fast query performance that allows significantly more complex data processing to be inserted into queries.
 
 - Queries are distributed across a scalable Aggregator tier.The ability to scale the number of Aggregators, which provide compute and memory resources, allows compute power to be concentrated on any complex processing executed on the fly.
 

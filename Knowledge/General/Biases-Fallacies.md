@@ -85,7 +85,7 @@ Survivorship bias can lead to overly optimistic beliefs because failures are ign
 
 ## In the military
 
-During World War II, the statistician [Abraham Wald](https://en.wikipedia.org/wiki/Abraham_Wald) took survivorship bias into his calculations when considering how to minimize bomber losses to enemy fire.Researchers from the Center for Naval Analyses had conducted a study of the damage done to aircraft that had returned from missions, and had recommended that armor be added to the areas that showed the most damage.Wald noted that the study only considered the aircraft that hadsurvivedtheir missions---the bombers that had been shot down were not present for the damage assessment. The holes in the returning aircraft, then, represented areas where a bomber could take damage and still return home safely. Wald proposed that the Navy reinforce areas where the returning aircraft were unscathed, since those were the areas that, if hit, would cause the plane to be lost. His work is considered seminal in the then-nascent discipline of [operational research](https://en.wikipedia.org/wiki/Operational_research).
+During World War II, the statistician [Abraham Wald](https://en.wikipedia.org/wiki/Abraham_Wald) took survivorship bias into his calculations when considering how to minimize bomber losses to enemy fire.Researchers from the Center for Naval Analyses had conducted a study of the damage done to aircraft that had returned from missions, and had recommended that armor be added to the areas that showed the most damage.Wald noted that the study only considered the aircraft that hadsurvivedtheir missions - the bombers that had been shot down were not present for the damage assessment. The holes in the returning aircraft, then, represented areas where a bomber could take damage and still return home safely. Wald proposed that the Navy reinforce areas where the returning aircraft were unscathed, since those were the areas that, if hit, would cause the plane to be lost. His work is considered seminal in the then-nascent discipline of [operational research](https://en.wikipedia.org/wiki/Operational_research).
 
 <https://en.wikipedia.org/wiki/Survivorship_bias>
 
@@ -245,7 +245,7 @@ Changes that the act of observation will make on a phenomenon being observed. (r
 
 ## Planning Fallacy
 
-Most people are terrible planners. In fact, people are so bad at planning that psychologists have a name for it---the planning fallacy. The planning fallacy points out that people tend to be overly optimistic planners. Our projects take much longer and more effort than we anticipate.
+Most people are terrible planners. In fact, people are so bad at planning that psychologists have a name for it - the planning fallacy. The planning fallacy points out that people tend to be overly optimistic planners. Our projects take much longer and more effort than we anticipate.
 
 [**The utility fallacy**](https://deepstash.com/idea/9481/the-utility-fallacy)
 
@@ -350,7 +350,7 @@ The fallacious sense of "slippery slope" is often used synonymously with [contin
 
 Consensus is often right. You shouldn't disagree with something just because the majority of people believe it. That's not contrarianism. That's stupidity.
 
-We always think that democracy is a good thing, and in a Democracy, the majority is more right than wrong. 51% is more right than 49%. 70% is even more right. But if you get to 99.9%, maybe that's totally right --- or maybe you're in North Korea."
+We always think that democracy is a good thing, and in a Democracy, the majority is more right than wrong. 51% is more right than 49%. 70% is even more right. But if you get to 99.9%, maybe that's totally right - or maybe you're in North Korea."
 
 Have some **skepticism towards consensus**
 

@@ -8,7 +8,7 @@ Modified: 2021-11-20 21:36:00 +0500
 
 ## Tax Rates
 
-![image](media/Accounting-for-Finance_5A--Accounting-Inconsistency-Examples-image1.jpg)
+![image](media/Accounting-for-Finance_5A-Accounting-Inconsistency-Examples-image1.jpg)
 
 ## Non-debt commitments
 
@@ -46,6 +46,6 @@ Modified: 2021-11-20 21:36:00 +0500
 - But your choices will have consequences: That can have consequences for how you measure profits, invested capital and even share count. The company that you see will be closer to the truth than the company described in accounting statements
 - Markets don't follow (and are more sensible than) accountants: For the most part, markets learn and move on faster than accountants do. Thus, markets have been pricing in retailers, on the assumption that leases are debt for decades, while accountants made the change in 2019
 
-![image](media/Accounting-for-Finance_5A--Accounting-Inconsistency-Examples-image2.jpg)
+![image](media/Accounting-for-Finance_5A-Accounting-Inconsistency-Examples-image2.jpg)
 
-![image](media/Accounting-for-Finance_5A--Accounting-Inconsistency-Examples-image3.jpg)
+![image](media/Accounting-for-Finance_5A-Accounting-Inconsistency-Examples-image3.jpg)

@@ -22,7 +22,7 @@ React's magic comes from its interpretation of the DOM and its strategy for crea
 
 React uses the Virtual DOM to render an HTML tree virtually first. Then, every time a state changes and we get a new HTML tree that needs to be taken to the browser's DOM, instead of writing the whole new tree React will only write the difference between the new tree and the previous tree (since React has both trees in memory). This process is known as Tree Reconciliation.
 
-The VDOM is a programming concept, providing a critical part of the React architecture. Rather than interacting directly with the DOM, changes are instead first rendered to the VDOM---a lightweight representation of the target state of the DOM.
+The VDOM is a programming concept, providing a critical part of the React architecture. Rather than interacting directly with the DOM, changes are instead first rendered to the VDOM - a lightweight representation of the target state of the DOM.
 
 Changes made to the VDOM are batched together to avoid unnecessary frequent changes to the DOM. Each time these batched changes are persisted to the DOM, React creates a diff between the current representation and the previous representation persisted to the DOM, then applies the diff to the DOM.
 

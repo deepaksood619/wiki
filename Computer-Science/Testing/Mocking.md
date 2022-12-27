@@ -41,7 +41,7 @@ except:
 ... # Application code to be tested
 ```
 
-## The Problem --- Simple Examples
+## The Problem - Simple Examples
 
 Example 1: We want to add a user to a database. You can see thatdbdoes not return anything, but we change the state of our system. And we want to be sure that we don't actually change our production system when the unit tests are running!
 Example 2: Generate a file name based on the current date. You can see that the dependencydatetimereturns a value:
@@ -165,13 +165,13 @@ assert generate_filename() == "1990-04-28.png"
 You now know how to replace a dependency, hence it is time to talk about what to replace it with. This is whereunittest.mock.Mockandunittest.mock.MagicMockcome into play.
 
 Everything you do with Mock will return a Mock. Call a function? Get a Mock as a return value. Access an attribute? Get a Mock as a value.
-Python has so called "magic" methods. I like the term "dunder" methods better --- it just means all methods which start and end with adoubleunderscore. Examples are `__iter__` or `__contains__`. MagicMock has those defined, Mock doesn't. I would use MagicMock everywhere, except if the mocked object doesn't define any of the magic functions.
+Python has so called "magic" methods. I like the term "dunder" methods better - it just means all methods which start and end with adoubleunderscore. Examples are `__iter__` or `__contains__`. MagicMock has those defined, Mock doesn't. I would use MagicMock everywhere, except if the mocked object doesn't define any of the magic functions.
 
 A core feature of mock classes is that they allow you to not only remove a dependency which is hard to test, but also to assert on the way the mock was interacted with. Typical methods are [assert_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called)(), [assert_called_with](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_with)(), [assert_not_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_not_called)().
 
 ## spec, autospec & spec_set
 
-A part that is really bad aboutMagicMockis that you can do anything with it --- including accessing non-existing attributes, calling non-existing methods or calling existing methods with the wrong count of parameters. The mock object is missing aspecification. If you don't like that, useautospec=Truewhen patching the object:
+A part that is really bad aboutMagicMockis that you can do anything with it - including accessing non-existing attributes, calling non-existing methods or calling existing methods with the wrong count of parameters. The mock object is missing aspecification. If you don't like that, useautospec=Truewhen patching the object:
 
 patch.object(Foo, 'foo', autospec=True)
 Or you can create a Mock like this:
@@ -214,7 +214,7 @@ def test_is_credit_card_fraud_monkeypatch(monkeypatch):
     assert is_fraud == True
 ```
 
-The question when you should use `unittest.mock.patch` and --- if necessary ---unittest.mock.Mockor pytestsmonkeypatchboils pretty much down to personal taste nowadays. The core Pythons patch / Mock only exist since Python 3.3 which, I guess, is a big part of the reason whymonkeypatchexists in the first place.
+The question when you should use `unittest.mock.patch` and - if necessary ---unittest.mock.Mockor pytestsmonkeypatchboils pretty much down to personal taste nowadays. The core Pythons patch / Mock only exist since Python 3.3 which, I guess, is a big part of the reason whymonkeypatchexists in the first place.
 
 ## External Packages
 
@@ -284,7 +284,7 @@ In some cases it feels very natural to apply such a pattern, in others it doesn'
 
 ## Temporary files: Are Mocks a Code Smell?
 
-It depends very much on the details, but I like to mock as little as possible. Simply for the reason that not mocking means that you test more of your system. Strictly speaking you can't call the test aunit testanymore if you test more than one unit. It would be an integration test then --- but that is also essential, right? You wouldn't be happy with BMW selling you a motor, some seats and a steering wheel and claiming "all units work". They need work together. Extensive mocks might prevent you from testing how things work together.
+It depends very much on the details, but I like to mock as little as possible. Simply for the reason that not mocking means that you test more of your system. Strictly speaking you can't call the test aunit testanymore if you test more than one unit. It would be an integration test then - but that is also essential, right? You wouldn't be happy with BMW selling you a motor, some seats and a steering wheel and claiming "all units work". They need work together. Extensive mocks might prevent you from testing how things work together.
 
 In an ideal world, you would have both: Unit tests which are very controlled and in case of failure make it easy to narrow down the source of the error. And integration / end-to-end tests which show that the complete system works.
 

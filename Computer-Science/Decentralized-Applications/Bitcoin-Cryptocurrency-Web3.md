@@ -41,7 +41,7 @@ The Lightning Network uses a network of nodes that hold funds in multi-sig walle
 
 ## Blockchain Trilemma
 
-The blockchain trilemma is a concept coined by [Vitalik Buterin](https://coinmarketcap.com/alexandria/glossary/vitalik-buterin) that proposes a set of three main issues --- decentralization, security and scalability --- that developers encounter when building blockchains, forcing them to ultimately sacrifice one "aspect" for as a trade-off to accommodatethe other two
+The blockchain trilemma is a concept coined by [Vitalik Buterin](https://coinmarketcap.com/alexandria/glossary/vitalik-buterin) that proposes a set of three main issues - decentralization, security and scalability - that developers encounter when building blockchains, forcing them to ultimately sacrifice one "aspect" for as a trade-off to accommodatethe other two
 
 ## The Scalability Trilemma
 

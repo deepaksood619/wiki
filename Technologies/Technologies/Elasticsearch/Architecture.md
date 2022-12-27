@@ -16,7 +16,7 @@ As users, we can talk toany node in the cluster, including the master node. Ever
 
 ## Index
 
-To add data to Elasticsearch, we need anindex---a place to store related data.In reality, an index is just alogical namespacethat points to one or more physicalshards.
+To add data to Elasticsearch, we need anindex - a place to store related data.In reality, an index is just alogical namespacethat points to one or more physicalshards.
 
 Ashardis a low-levelworker unitthat holdsjust a slice of all the data in the index. A shard is a single instance of Lucene, and is a complete search engine in its own right. Our documents are stored and indexed in shards, but our applications don't talk to them directly. Instead, they talk to an index.
 
@@ -32,7 +32,7 @@ The number of primary shards in an index is fixed at the time that an index is c
 
 Most entities or objects in most applications can be serialized into a JSON object, with keys and values.Akeyis the name of a field or property, and avaluecanbe a string, a number, a Boolean, another object, an array of values, or some other specialized type such as a string representing a date or an object representing a geolocation.
 
-Often, we use the termsobjectanddocumentinterchangeably. However, there is a distinction.An object is just a JSON object---similar to what is known as a hash, hashmap, dictionary, or associative array. Objects may contain other objects. In Elasticsearch, the termdocumenthas a specific meaning. It refers to the top-level, or root object thatis serialized into JSON and stored in Elasticsearch under a unique ID.
+Often, we use the termsobjectanddocumentinterchangeably. However, there is a distinction.An object is just a JSON object - similar to what is known as a hash, hashmap, dictionary, or associative array. Objects may contain other objects. In Elasticsearch, the termdocumenthas a specific meaning. It refers to the top-level, or root object thatis serialized into JSON and stored in Elasticsearch under a unique ID.
 
 ## Document Metadata
 

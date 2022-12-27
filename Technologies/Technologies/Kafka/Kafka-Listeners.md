@@ -14,7 +14,7 @@ In this post I'll talk about *why* this is necessary, and then show *how* to do 
 
 ## Is anyone listening?
 
-Kafka is a distributed system. Data is read from & written to the *Leader* for a given partition, which could be on any of the brokers in a cluster. When a client (producer/consumer) starts, it will request metadata about which broker is the leader for a partition---and it can do this from *any* broker. The metadata returned will include the endpoints available for the Leader broker for that partition, and the client will then use those endpoints to connect to the broker to read/write data as required.
+Kafka is a distributed system. Data is read from & written to the *Leader* for a given partition, which could be on any of the brokers in a cluster. When a client (producer/consumer) starts, it will request metadata about which broker is the leader for a partition - and it can do this from *any* broker. The metadata returned will include the endpoints available for the Leader broker for that partition, and the client will then use those endpoints to connect to the broker to read/write data as required.
 
 It's these endpoints that cause people trouble. On a *single machine, running 'bare metal'* (no VMs, no Docker), everything might be the hostname (or just *localhost*) and it's easy. But once you move into more complex networking setups, and multiple nodes, you have to pay more attention to it.
 
@@ -42,7 +42,7 @@ KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: LISTENER_BOB:PLAINTEXT,LISTENER_FRED:PLAIN
 KAFKA_INTER_BROKER_LISTENER_NAME: LISTENER_BOB
 ```
 
-*I'm using the Docker config names---the equivalents if you're configuring server.properties directly (e.g. on AWS etc) are shown indented in the following list*
+*I'm using the Docker config names - the equivalents if you're configuring server.properties directly (e.g. on AWS etc) are shown indented in the following list*
 
 - KAFKA_LISTENERS is a comma-separated list of listeners, and the host/ip and port to which Kafka binds to on which to listen. For more complex networking this might be an IP address associated with a given network interface on a machine. The default is 0.0.0.0, which means listening on all interfaces.
 
@@ -144,7 +144,7 @@ Metadata for all topics (from broker -1: ec2-54-191-84-122.us-west-2.compute.ama
 broker 0 at ip-172-31-18-160.us-west-2.compute.internal:9092
 ```
 
-Clear as day, the *internal* hostname is returned. This also makes this seemingly-confusing error make a lot more sense---connecting to one hostname, getting a lookup error on another:
+Clear as day, the *internal* hostname is returned. This also makes this seemingly-confusing error make a lot more sense - connecting to one hostname, getting a lookup error on another:
 
 ```bash
 $ kafkacat -b ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092 -C -t test

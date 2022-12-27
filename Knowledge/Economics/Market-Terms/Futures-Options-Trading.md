@@ -194,7 +194,7 @@ A "put" or put option is a right to sell an asset at a predetermined price. A "c
 
 ## Exercising Put and Call Options
 
-An options holder may exercise his or her right to buy or sell the contract's underlying shares at a specified price---also called the [strike price](https://www.investopedia.com/video/play/strike-price/).
+An options holder may exercise his or her right to buy or sell the contract's underlying shares at a specified price - also called the [strike price](https://www.investopedia.com/video/play/strike-price/).
 
 - Exercising a [put option](https://www.investopedia.com/terms/p/putoption.asp) allows you tosellthe underlying security at a stated price within a specific timeframe.
 - Exercising a [call option](https://www.investopedia.com/terms/c/calloption.asp) allows you tobuythe underlying security at a stated price within a specific timeframe.

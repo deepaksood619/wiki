@@ -51,11 +51,11 @@ Modified: 2022-10-30 23:58:08 +0500
 
 Adark patternis "a [user interface](https://en.wikipedia.org/wiki/User_interface) that has been carefully crafted to trick users into doing things, such as buying overpriced insurance with their purchase or signing up for recurring bills". [User experience designer](https://en.wikipedia.org/wiki/User_experience_design) Harry Brignull coined the [neologism](https://en.wikipedia.org/wiki/Neologism) on 28 July 2010 with the registration of darkpatterns.org, a "pattern library with the specific goal of naming and shaming deceptive user interfaces".More broadly, dark patterns supplant "user value...in favor of shareholder value".
 
-- Confirmshaming --- Want To Say 'No'? Shame on you!
-- Disguised Ads --- Where Is The Download?
-- Forced Continuity --- A Silent Parasite
-- Roach Model --- Want To Say Goodbye? Not So Easy!
-- Tricky Questions --- Check or uncheck? That's the question.
+- Confirmshaming - Want To Say 'No'? Shame on you!
+- Disguised Ads - Where Is The Download?
+- Forced Continuity - A Silent Parasite
+- Roach Model - Want To Say Goodbye? Not So Easy!
+- Tricky Questions - Check or uncheck? That's the question.
 
 [**https://www.darkpatterns.org/types-of-dark-pattern**](https://www.darkpatterns.org/types-of-dark-pattern)
 

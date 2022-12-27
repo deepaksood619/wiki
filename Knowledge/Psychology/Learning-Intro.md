@@ -97,8 +97,8 @@ The right sort of practice over a sufficient period of time leads to improvement
 The ability to do a task (brushing teeth)
 
 - **Declarative / Explicit**
-  - Semantic --- Memory of facts and meaning
-  - Episodic --- Memory from events
+  - Semantic - Memory of facts and meaning
+  - Episodic - Memory from events
 
 Experiences you've had
 
@@ -375,7 +375,7 @@ the difficulty posed by recall is ultimately desirable, as it maximizes our chan
 
 - project aligns with you career objectives
 
-[Josh Waitzkin --- How to Cram 2 Months of Learning into 1 Day | The Tim Ferriss Show](https://www.youtube.com/watch?v=4r6gr7uytQA)
+[Josh Waitzkin - How to Cram 2 Months of Learning into 1 Day | The Tim Ferriss Show](https://www.youtube.com/watch?v=4r6gr7uytQA)
 
 - What types of bio-markers do you track in coaching clients
 - What is an individual's Resonance Frequency?

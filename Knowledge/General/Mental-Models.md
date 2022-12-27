@@ -103,7 +103,7 @@ Occam's Razoris the problem-solving principle that the simplest solution tends t
 ## Interpreting
 
 - (1)[Order of Magnitude](https://en.wikipedia.org/wiki/Order_of_magnitude)--- "An order-of-magnitude estimate of a variable whose precise value is unknown is an estimate rounded to the nearest power of ten." (related:[order of approximation](https://en.wikipedia.org/wiki/Order_of_approximation), [back-of-the-envelope calculation](https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation), [dimensional analysis](https://en.wikipedia.org/wiki/Dimensional_analysis), [Fermi problem](https://en.wikipedia.org/wiki/Fermi_problem))
-- (1) Major vs Minor Factors --- Major factors explains major portions of the results, while minor factors only explain minor portions. (related: first order vs second order effects --- first order effects directly follow from a cause, while second order effects follow from first order effects.)
+- (1) Major vs Minor Factors - Major factors explains major portions of the results, while minor factors only explain minor portions. (related: first order vs second order effects - first order effects directly follow from a cause, while second order effects follow from first order effects.)
 - (1)[False Positives and False Negatives](https://en.wikipedia.org/wiki/False_positives_and_false_negatives)--- "A false positive error, or in short false positive, commonly called a 'false alarm', is a result that indicates a given condition has been fulfilled, when it actually has not been fulfilled...A false negative error, or in short false negative, is where a test result indicates that a condition failed, while it actually was successful, i.e. erroneously no effect has been assumed."
 - (1)[Confidence Interval](https://en.wikipedia.org/wiki/Confidence_interval)--- "Confidence intervals consist of a range of values (interval) that act as good estimates of the unknown population parameter; however, the interval computed from a particular sample does not necessarily include the true value of the parameter." (related:[error bar](https://en.wikipedia.org/wiki/Error_bar))
 - (2)[Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)--- "Describes the probability of an event, based on conditions that might be related to the event. For example, suppose one is interested in whether a person has cancer, and knows the person's age. If cancer is related to age, then, using Bayes' theorem, information about the person's age can be used to more accurately assess the probability that they have cancer." (related:[base rate fallacy](https://en.wikipedia.org/wiki/Base_rate_fallacy))
@@ -172,7 +172,7 @@ In the late 16th and early 17th centuries, Thomas Hobson worked as a licensed ca
 
 ## Strategizing
 
-- (1) Sustainable Competitive Advantage --- Structural factors that allow a firm to outcompete its rivals for many years.
+- (1) Sustainable Competitive Advantage - Structural factors that allow a firm to outcompete its rivals for many years.
 - (1)[Core Competency](https://en.wikipedia.org/wiki/Core_competency)--- "A harmonized combination of multiple resources and skills that distinguish a firm in the marketplace." (related:[circle of competence](http://www.businessinsider.com/the-circle-of-competence-theory-2013-12)--- "you don't have to be an expert on every company, or even many. You only have to be able to evaluate companies within your circle of competence. The size of that circle is not very important; knowing its boundaries, however, is vital.")
 - (1)[Strategy vs Tactics](https://en.wikipedia.org/wiki/Tactic_(method))--- Sun Tzu: "Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat."
 - (1)[Sphere of Influence](https://en.wikipedia.org/wiki/Sphere_of_influence)--- "A spatial region or concept division over which a state or organization has a level of cultural, economic, military, or political exclusivity, accommodating to the interests of powers outside the borders of the state that controls it."
@@ -232,7 +232,7 @@ The economic problem of overconsumption and depletion of shared resources
 
 - (2)[Nature vs Nurture](https://en.wikipedia.org/wiki/Nature_versus_nurture)--- "the relative importance of an individual's innate qualities as compared to an individual's personal experiences in causing individual differences, especially in behavioral traits."
 - (2) Chain Reaction --- "A sequence of reactions where a reactive product or by-product causes additional reactions to take place. In a chain reaction, positive feedback leads to a self-amplifying chain of events." (related:[cascading failure](https://en.wikipedia.org/wiki/Cascading_failure), [domino effect](https://en.wikipedia.org/wiki/Domino_effect))
-- (2) Filling a Vacuum --- A [vacuum](https://en.wikipedia.org/wiki/Vacuum)"is space void of matter." Filling a vacuum refers to the fact that if a vacuum is put next to something with pressure, it will be quickly filled by the gas producing that pressure. (related:[power vacuum](https://en.wikipedia.org/wiki/Power_vacuum))
+- (2) Filling a Vacuum - A [vacuum](https://en.wikipedia.org/wiki/Vacuum)"is space void of matter." Filling a vacuum refers to the fact that if a vacuum is put next to something with pressure, it will be quickly filled by the gas producing that pressure. (related:[power vacuum](https://en.wikipedia.org/wiki/Power_vacuum))
 - (2)[Emergence](https://en.wikipedia.org/wiki/Emergence#See_also)--- "Whereby larger entities, patterns, and regularities arise through interactions among smaller or simpler entities that themselves do not exhibit such properties." (related:[decentralized system](https://en.wikipedia.org/wiki/Decentralised_system), [spontaneous order](https://en.wikipedia.org/wiki/Spontaneous_order))
 - (3)[Natural Selection](https://en.wikipedia.org/wiki/Natural_selection)--- "The differential survival and reproduction of individuals due to differences in phenotype. It is a key mechanism of evolution, the change in heritable traits of a population over time."
 - (3)[Butterfly Effect](https://en.wikipedia.org/wiki/Butterfly_effect#See_also)--- "The concept that small causes can have large effects." (related:[bullwhip effect](https://en.wikipedia.org/wiki/Bullwhip_effect)--- "increasing swings in inventory in response to shifts in customer demand as you move further up the supply chain.")
@@ -249,7 +249,7 @@ The economic problem of overconsumption and depletion of shared resources
 
 The doctrine that an action is right in so far as it promotes happiness, and that the greatest happiness of the greatest number should be the guiding principle of conduct.
 
-- (3)[Agnosticism](https://en.wikipedia.org/wiki/Agnosticism)--- "The view that the truth values of certain claims --- especially metaphysical and religious claims such as whether God, the divine, or the supernatural exist --- are unknown and perhaps unknowable."
+- (3)[Agnosticism](https://en.wikipedia.org/wiki/Agnosticism)--- "The view that the truth values of certain claims - especially metaphysical and religious claims such as whether God, the divine, or the supernatural exist - are unknown and perhaps unknowable."
 - (3)[Veil of Ignorance](https://en.wikipedia.org/wiki/Veil_of_ignorance)--- "A method of determining the morality of a certain issue (e.g., slavery) based upon the following thought experiment: parties to the original position know nothing about the particular abilities, tastes, and positions individuals will have within a social order. When such parties are selecting the principles for distribution of rights, positions, and resources in the society in which they will live, the veil of ignorance prevents them from knowing who will receive a given distribution of rights, positions, and resources in that society."
 
 ## Internet
@@ -335,7 +335,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - Law of Shitty Click-Through Rates: Most marketing strategies have a short window of success, as click-through rates decrease as tactics mature. For example, the first banner-ad has a click-through rate of more than 70%. Now we avoid them with ad-blockers.
 
-- Russell Conjugation: Journalists often change the meaning of a sentence by replacing one word with a synonym that implies a different meaning. For example, the same person can support an estate tax but oppose a death tax --- even though they are the same thing.
+- Russell Conjugation: Journalists often change the meaning of a sentence by replacing one word with a synonym that implies a different meaning. For example, the same person can support an estate tax but oppose a death tax - even though they are the same thing.
 
 - Overton Window: You can control thought without limiting speech. You can do it by defining the limits of acceptable thought while allowing for lively debate within these barriers. For example, Fox News and MSNBC set limits on what political thoughts they consider acceptable, but in the grand scheme of things, they're both fairly conventional. The political spectrum stretches far beyond the ideas they entertain, but ideas outside their limits are shunned.
 
@@ -357,7 +357,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - The Paradox of Specificity: Focus isn't as constraining as it seems. In the age of the Internet, when everybody has Google search and personalized social media feeds, differentiation is free marketing. The more specific your goal, the more opportunities you'll create for yourself. Narrowing your aperture can expand your horizons.
 
-- Emergence: When things interact, they often birth new, unpredictable forms. Therefore, the sum total of a system is more than its component parts. As a system evolves, its structure can transform --- just like how water becomes cold water until it turns into ice.
+- Emergence: When things interact, they often birth new, unpredictable forms. Therefore, the sum total of a system is more than its component parts. As a system evolves, its structure can transform - just like how water becomes cold water until it turns into ice.
 
 - Occam's Razor: If there are multiple explanations for why something happened and they are equally persuasive, assume the simplest one is true. In the search for truth, remove unnecessary assumptions. Trust the lowest-complexity answer.
 
@@ -379,7 +379,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - Creativity Begins at the Edge: Change starts away from the spotlight. Then, it moves towards the center. That's why the most interesting ideas at a conference never come from the main stage. They come from the hallways and the bar after sunset
 
-- The Copernican Principle: The more we learn about astronomy, the less it seems that earth is special. It's a small part of the universe, and each human is a small part of the earth. We are all spinning through the solar system --- nowhere near the beginning or end of time.
+- The Copernican Principle: The more we learn about astronomy, the less it seems that earth is special. It's a small part of the universe, and each human is a small part of the earth. We are all spinning through the solar system - nowhere near the beginning or end of time.
 
 - Personal Monopoly: Corporations reward conformity, but the Internet rewards people who are unique. If you work in a creative field, strive to be the only person who does what you do. Find your own style, then run with it. Create intellectual real estate for yourself.
 
@@ -415,7 +415,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - Mimesis: we mimic each other in our desires
 
-The default cycle of mimetic desire leads people to want what other people have, and eventually leads to rivalry and conflict. But desires can be mimetic in tremendously positive ways. Heroism is mimetic---we saw it on 9/11. When a firefighter runs into a burning building, it might become a little easier for the second and third to run in.
+The default cycle of mimetic desire leads people to want what other people have, and eventually leads to rivalry and conflict. But desires can be mimetic in tremendously positive ways. Heroism is mimetic - we saw it on 9/11. When a firefighter runs into a burning building, it might become a little easier for the second and third to run in.
 
 We're inspired by people who take a stand for what they believe in, who refuse to give in; we're inspired by people who demonstrate extreme empathy and vulnerability. That, too, is mimetic. When we see it in others, it makes us want to be more like that.
 

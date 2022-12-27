@@ -20,7 +20,7 @@ The data lake is schemaless
 | **Analytics**    | Machine learning, predictive analytics, data discovery, and profiling           | Batch reporting, BI, and visualizations                                           |
 | **Users**        | Data scientists and engineers                                                   | Data analysts and business analysts                                               |
 | **Tasks**        | Storing data and big data analytics, like deep learning and real-time analytics | Typically read-only queries for aggregating and summarizing data                  |
-| **Size**         | Stores all data that might be used---can take up petabytes!                     | Only stores data relevant to analysis                                             |
+| **Size**         | Stores all data that might be used - can take up petabytes!                     | Only stores data relevant to analysis                                             |
 |                 | Seperation of compute and storage                                               | Tightly coupled compute and storage                                               |
 |                 | Designed prior to the data warehouse implementation **(Schema on read**)        | Written at the time of analysis **(Schema on write**)                             |
 |                 | Great for storing granular data; raw as well as processed data                  | Great for storing frequently accessed data as well as data aggregates and summary |

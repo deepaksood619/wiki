@@ -112,7 +112,7 @@ Below are some of the key features of Hyperledger Fabric and what differentiates
 - Permissioned architecture
 - Highly modular
 - Pluggable consensus
-- Open smart contract model --- flexibility to implement any desired solution model (account model, UTXO model, structured data, unstructured data, etc)
+- Open smart contract model - flexibility to implement any desired solution model (account model, UTXO model, structured data, unstructured data, etc)
 - Low latency of finality/confirmation
 - Flexible approach to data privacy : data isolation using 'channels', or share private data on a need-to-know basis using private data 'collections'
 - Multi-language smart contract support: Go, Java, Javascript

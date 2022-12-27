@@ -50,7 +50,7 @@ Now, if we want to search forquick brown, we just need to find the documents in 
 | quick    | X         |           |
 | Total    | 2         | 1         |
 
-Both documents match, but the first document has more matches than the second. If we apply a naive **similarity algorithm** thatjust counts the number of matching terms, then we can say that the first document is a better match---ismore relevantto our query---than the second document.
+Both documents match, but the first document has more matches than the second. If we apply a naive **similarity algorithm** thatjust counts the number of matching terms, then we can say that the first document is a better match - ismore relevantto our query - than the second document.
 But there are a few problems with our current inverted index:
 
 - Quickandquickappear as separate terms, while the user probably thinks of them as the same word.
@@ -60,7 +60,7 @@ With the preceding index, a search for+Quick +foxwouldn't match any documents. (
 Our user could reasonably expect both documents to match the query. We can do better.
 If we normalize the terms into a standardformat, then we can find documents that contain terms that are not exactly the same as the user requested, but are similar enough to still be relevant. For instance:
 - Quickcan be lowercased to becomequick.
-- foxescan be **stemmed**--reduced to its root form---to becomefox. Similarly, dogscould be stemmed todog.
+- foxescan be **stemmed**--reduced to its root form - to becomefox. Similarly, dogscould be stemmed todog.
 - jumpedandleapare synonyms and can be indexed as just the single termjump.
 Now the index looks like this:
 

@@ -264,7 +264,7 @@ Here are some of the interesting flake8 plugins:
 ### Security
 
 - [flake8-bandit](https://pypi.org/project/flake8-bandit/): Security Testing
-- [flake8-bugbear](https://pypi.org/project/flake8-bugbear/): finding likely bugs and design problems in your program --- usually it's silent, but when it's not you should have a look 🐻
+- [flake8-bugbear](https://pypi.org/project/flake8-bugbear/): finding likely bugs and design problems in your program - usually it's silent, but when it's not you should have a look 🐻
 - [flake8-requests](https://pypi.org/project/flake8-requests/): checks usage of the request framework
 
 ### Flake8: Remove Debugging Artifacts
@@ -288,7 +288,7 @@ vulture . --exclude .history
 
 ### Flake8: Nudging Yourself to use Good Style
 
-- [flake8-comprehensions](https://pypi.org/project/flake8-comprehensions/): Helps you write better list/set/dict comprehensions --- I love this one 😍
+- [flake8-comprehensions](https://pypi.org/project/flake8-comprehensions/): Helps you write better list/set/dict comprehensions - I love this one 😍
 - [flake8-executable](https://pypi.org/project/flake8-executable/): Check executable permissions and [shebangs](https://en.wikipedia.org/wiki/Shebang_(Unix)). Files should either executable and have a shebang, or not be executable and not have a shebang.
 - [flake8-raise](https://pypi.org/project/flake8-raise/): Finds improvements for raise statements
 - [flake8-pytest](https://pypi.org/project/flake8-pytest/): Use assert instead of assertEqual

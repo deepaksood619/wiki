@@ -104,7 +104,7 @@ kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "gcrreg"
 
 Easily run containers on Azure without managing servers
 
-Develop apps fast without managing virtual machines or having to learn new tools---it's just your application, in a container, running in the cloud.
+Develop apps fast without managing virtual machines or having to learn new tools - it's just your application, in a container, running in the cloud.
 
 Azure Container Instances (ACI) provide a hosted environment for running containers in Azure. When using ACI, there is no need to manage the underlying compute infrastructure, Azure handles this management for you. When running containers in ACI, you are charged by the second for each running container.
 

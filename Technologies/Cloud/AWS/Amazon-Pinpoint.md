@@ -45,7 +45,7 @@ In today's digitally transformed world, it's more important than ever to have a 
 
 AWS seems to have recognized that 'messaging' is as important a service as any other. They have launched a service called AWS Pinpoint which allows you to send Emails, SMS, and Push Notifications to your customers. Before Pinpoint you had to achieve this by integrating your app with multiple AWS services like SES, SNS, SMS, S3, SQS, CloudWatch, etc.
 
-Sadly, AWS has rolled out Pinpoint with an altogether different set of monsters to deal with. First, Pinpoint can get needlessly expensive as it charges $0.0012 per customer tracked. Second, the Pinpoint Delivery Dashboard (a sort of UI to see things like delivery metrics, bounce notifications, etc.) costs $1,250 per month --- SERIOUSLY --- a huge charge for something that should have been a basic requirement. This rules out Pinpoint for Small and Medium Businesses (SMB's).
+Sadly, AWS has rolled out Pinpoint with an altogether different set of monsters to deal with. First, Pinpoint can get needlessly expensive as it charges $0.0012 per customer tracked. Second, the Pinpoint Delivery Dashboard (a sort of UI to see things like delivery metrics, bounce notifications, etc.) costs $1,250 per month - SERIOUSLY - a huge charge for something that should have been a basic requirement. This rules out Pinpoint for Small and Medium Businesses (SMB's).
 
 <https://www.pinpointjourneys.com/build>
 
@@ -58,7 +58,7 @@ When you create a campaign, you have to choose a segment to send the campaign to
 There are two types of segments that you can create in Amazon Pinpoint:
 
 - **Dynamic segments--** Segments that are based on attributes that you define. Dynamic segments can change over time. For example, if you add new endpoints to Amazon Pinpoint, or if you modify or delete existing endpoints, the number of endpoints in that segment may increase or decrease. For more information about dynamic segments, see [Building segments](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-building.html).
-- **Imported segments--** Segments that are created outside of Amazon Pinpoint and saved in CSV or JSON format. Imported segments are static---that is, they never change. When you create a new segment, you can use an imported segment as a base segment, and then refine it by adding filters. For more information about importing segments, see [Importing segments](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-importing.html).
+- **Imported segments--** Segments that are created outside of Amazon Pinpoint and saved in CSV or JSON format. Imported segments are static - that is, they never change. When you create a new segment, you can use an imported segment as a base segment, and then refine it by adding filters. For more information about importing segments, see [Importing segments](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-importing.html).
 
 ## Segment files
 
@@ -109,7 +109,7 @@ In addition to these channels, you can also extend the capabilities to meet your
 - **Delivery rate metrics--** This section shows the overall delivery and response rates for the messages that were sent from your campaign. It includes the following information:
   - **Delivery rate--** The percentage of messages that were delivered to recipients, of the total number of endpoints that you targeted in the segment that you sent this campaign to.
   - **Email open rate--** The percentage of messages that were opened by recipients, of the total number of messages that were delivered.
-  - **Bounce rate--** The percentage of messages that weren't delivered to recipients because they bounced. This value includes only hard bounces---that is, messages that bounced because of a permanent issue. For example, hard bounces could occur when the recipient's email address doesn't exist, or when the recipient permanently rejects email from your domain.
+  - **Bounce rate--** The percentage of messages that weren't delivered to recipients because they bounced. This value includes only hard bounces - that is, messages that bounced because of a permanent issue. For example, hard bounces could occur when the recipient's email address doesn't exist, or when the recipient permanently rejects email from your domain.
 - **Campaign runs--** This section shows information that's specific to each time the campaign ran. Because you can use Amazon Pinpoint to create recurring campaigns, this section can show information for several campaign runs. However, if you completed the procedures in this tutorial, this section contains information for only one campaign run because you ran the campaign only once. This section contains the following metrics, in addition to the metrics that are defined in the preceding sections:
   - **Endpoints targeted--** The number of endpoints that were targeted by the segment that was associated with the campaign run. This number includes endpoints that were part of the segment, but didn't receive the message.
   - **Total email opened--** The total number of times that messages sent from the campaign run were opened. For example, if a message was opened two times by one recipient, both of those opens are counted.

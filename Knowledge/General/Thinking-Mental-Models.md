@@ -26,7 +26,7 @@ The quote is from Ernest Hemingway. The graphic is from Gautam John, a subscribe
 
 - **Systems Thinking**
 
-"Systems thinking is a way of seeing the world as a series of **interconnected** and **interdependent** systems rather than lots of independent parts. As a thinking tool, it seeks to oppose the **reductionist view** --- the idea that a system can be understood by the sum of its isolated parts --- and replace it with **expansionism**, the view that everything is part of a larger whole and that the connections between all elements are critical."
+"Systems thinking is a way of seeing the world as a series of **interconnected** and **interdependent** systems rather than lots of independent parts. As a thinking tool, it seeks to oppose the **reductionist view** --- the idea that a system can be understood by the sum of its isolated parts - and replace it with **expansionism**, the view that everything is part of a larger whole and that the connections between all elements are critical."
 
 - (1)[Systems Thinking](https://en.wikipedia.org/wiki/Systems_thinking)--- "By taking the overall system as well as its parts into account systems thinking is designed to avoid potentially contributing to further development of unintended consequences." (related:[causal loop diagrams](https://en.wikipedia.org/wiki/System_dynamics#Causal_loop_diagrams);[stock and flow](https://en.wikipedia.org/wiki/Stock_and_flow);[Le Chatelier's principle](https://en.wikipedia.org/wiki/Le_Chatelier%27s_principle#Effect_of_a_catalyst), [hysteresis](https://en.wikipedia.org/wiki/Hysteresis#In_biology) - "the time-based dependence of a system's output on present and past inputs."; "Can't see the forest for the trees.")
 
@@ -141,8 +141,8 @@ A crowd can be smarter than a single person, Consider other's perspective to cha
 - (1)[Anecdotal](https://yourlogicalfallacyis.com/anecdotal)--- "Using a personal experience or an isolated example instead of a sound argument or compelling evidence."
 - (1)[False Cause](https://yourlogicalfallacyis.com/false-cause)--- "Presuming that a real or perceived relationship between things means that one is the cause of the other." (related:[correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), or in [xkcd form](https://xkcd.com/552/))
 - (1)[Straw Man](https://en.wikipedia.org/wiki/Straw_man)--- "Giving the impression of refuting an opponent's argument, while actually refuting an argument that was not advanced by that opponent."
-- (1) Plausible --- Thinking that just because something is plausible means that it is true.
-- (1) Likely --- Thinking that just because something is possible means that it is likely.
+- (1) Plausible - Thinking that just because something is plausible means that it is true.
+- (1) Likely - Thinking that just because something is possible means that it is likely.
 - (1)[Appeal to Emotion](https://yourlogicalfallacyis.com/appeal-to-emotion)--- "Manipulating an emotional response in place of a valid or compelling argument."
 - (1)[Ad Hominem](https://yourlogicalfallacyis.com/ad-hominem)--- "Attacking your opponent's character or personal traits in an attempt to undermine their argument."
 - (1)[Slippery Slope](https://yourlogicalfallacyis.com/slippery-slope)--- "Asserting that if we allow A to happen, then Z will eventually happen too, therefore A should not happen." (related:[broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory)--- "maintaining and monitoring urban environments to prevent small crimes such as vandalism, public drinking, and toll-jumping helps to create an atmosphere of order and lawfulness, thereby preventing more serious crimes from happening.")

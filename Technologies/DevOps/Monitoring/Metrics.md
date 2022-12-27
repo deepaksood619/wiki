@@ -159,9 +159,9 @@ it visualises the full distribution by plotting time in the x-axis and latency b
 
 ### What is Latency
 
-Latency is defined as**the time it took one operation to happen**.This means every operation has its own latency---with one million operations there areone million latencies. As a result, latencycannotbe measured aswork units / time. What we're interested in is how latencybehaves. To do this meaningfully, we must describe the complete distribution of latencies. Latency almostneverfollows a normal, Gaussian, or Poisson distribution, so looking at averages, medians, and even standard deviations is useless.
+Latency is defined as**the time it took one operation to happen**.This means every operation has its own latency - with one million operations there areone million latencies. As a result, latencycannotbe measured aswork units / time. What we're interested in is how latencybehaves. To do this meaningfully, we must describe the complete distribution of latencies. Latency almostneverfollows a normal, Gaussian, or Poisson distribution, so looking at averages, medians, and even standard deviations is useless.
 
-Latency tends to be heavily multi-modal, and part of this is attributed to "hiccups" in response time. Hiccupsresemble periodic freezes and can be due to any number of reasons---GC pauses, hypervisor pauses, context switches, interrupts, database reindexing, cache buffer flushes to disk, etc. These hiccups never resemble normal distributions and the shift between modes is often rapid and eclectic.
+Latency tends to be heavily multi-modal, and part of this is attributed to "hiccups" in response time. Hiccupsresemble periodic freezes and can be due to any number of reasons - GC pauses, hypervisor pauses, context switches, interrupts, database reindexing, cache buffer flushes to disk, etc. These hiccups never resemble normal distributions and the shift between modes is often rapid and eclectic.
 
 The number one indicator you should never get rid of is the maximum value. That is not noise, that is the signal. The rest of it is noise.
 

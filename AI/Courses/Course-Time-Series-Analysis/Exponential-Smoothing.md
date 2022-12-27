@@ -26,7 +26,7 @@ s~t~=αx~t~+(1−α)s~t-1~
 
 ## Holt Winters (basic forecasting) / Triple exponential smoothing
 
-Holt-Winters forecasting is a way to model and predict the behavior of a sequence of values over time---a time series. Holt-Winters is one of the most popular forecasting techniques for time series. It's decades old, but it's still ubiquitous in many applications, including monitoring, where it's used for purposes such as anomaly detection and capacity planning.
+Holt-Winters forecasting is a way to model and predict the behavior of a sequence of values over time - a time series. Holt-Winters is one of the most popular forecasting techniques for time series. It's decades old, but it's still ubiquitous in many applications, including monitoring, where it's used for purposes such as anomaly detection and capacity planning.
 
 Holt-Winters is a model of time series behavior. Forecasting always requires a model, and Holt-Winters is a way to model three aspects of the time series: **a typical value (average), a slope (trend) over time, and a cyclical repeating pattern (seasonality)**. Holt-Winters uses exponential smoothing to encode lots of values from the past and use them to predict "typical" values for the present and future.
 

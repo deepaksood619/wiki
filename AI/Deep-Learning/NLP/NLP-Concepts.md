@@ -6,9 +6,9 @@ Modified: 2021-07-02 00:12:04 +0500
 
 ---
 
-A **token** is the technical name for a sequence of characters --- such as hairy, his, or :) --- that we want to treat as a group. When we count the number of tokens in a text, say, the phrase *to be or not to be*, we are counting occurrences of these sequences
+A **token** is the technical name for a sequence of characters - such as hairy, his, or :) --- that we want to treat as a group. When we count the number of tokens in a text, say, the phrase *to be or not to be*, we are counting occurrences of these sequences
 
-A **word type** is the form or spelling of the word independently of its specific occurrences in a text --- that is, the word considered as a unique item of vocabulary.
+A **word type** is the form or spelling of the word independently of its specific occurrences in a text - that is, the word considered as a unique item of vocabulary.
 
 Now, let's calculate a measure of the lexical richness of the text. The next example shows us that the number of distinct words is just 6% of the total number of words, or equivalently that each word is used 16 times on average
 
@@ -47,7 +47,7 @@ The thieves stole the paintings. They were subsequently caught.
 
 The thieves stole the paintings. They were subsequently found.
 
-Answering this question involves finding the **antecedent** of the pronoun they, either thieves or paintings. Computational techniques for tackling this problem include **anaphora resolution** --- identifying what a pronoun or noun phrase refers to --- and **semantic role labeling** --- identifying how a noun phrase relates to the verb (as agent, patient, instrument, and so on).
+Answering this question involves finding the **antecedent** of the pronoun they, either thieves or paintings. Computational techniques for tackling this problem include **anaphora resolution** --- identifying what a pronoun or noun phrase refers to - and **semantic role labeling** --- identifying how a noun phrase relates to the verb (as agent, patient, instrument, and so on).
 
 ## Spoken Dialog Systems
 

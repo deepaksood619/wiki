@@ -229,7 +229,7 @@ Actual data vs Excepted data
 
 1. PSI < 0.1: No change. You can continue using the existing model.
 
-2. PSI >=0.1:but less than 0.2 --- Slight change is required.
+2. PSI >=0.1:but less than 0.2 - Slight change is required.
 
 3. PSI >=0.2:Significant change is required. Ideally, we should not use this model anymore. It should be recalibrated/redeveloped.
 

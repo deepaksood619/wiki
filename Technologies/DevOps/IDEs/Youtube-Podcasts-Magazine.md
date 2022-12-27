@@ -113,7 +113,7 @@ Timeline world history documentaries
 - BBC News
 - CNBC Television
 - Bloomberg
-- Top U.S. & World Headlines --- Democracy Now
+- Top U.S. & World Headlines - Democracy Now
 - The Telegraph
 - NonStop 100 aajtak
 - Hindi - 1 Minute, 1 Khabar

@@ -100,9 +100,9 @@ If we have a need to expose our API's outside of our system like third party app
 Makes use of the same Identity provider which we saw in OpenId, but it is XML based and more flexible. The recommended version for SAML is 2.0. SAML also provides a way to achieve Single SignOn(SSO), user can make use of the Identity provider URL to login into the system which redirects with XML data back to your application page which can then be decoded to get the user information. We have SAML providers like G Suite, Office 365, OneLogin, Okta etc.,
 SAML is an XML-based open-standard for transferring identity data between two parties: an identity provider (IdP) and a service provider (SP).
 
-Identity Provider--- Performs authentication and passes the user's identity and authorization level to the service provider.
+Identity Provider - Performs authentication and passes the user's identity and authorization level to the service provider.
 
-Service Provider--- Trusts the identity provider and authorizes the given user to access the requested resource.
+Service Provider - Trusts the identity provider and authorizes the given user to access the requested resource.
 
 ## Benefits
 

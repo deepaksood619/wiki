@@ -251,7 +251,7 @@ Ohno placed a cord above every work station in the production facility and encou
 
 Jidoka places responsibility down to the assembly workers to ensure that they are mindful of the quality of each part produced.
 
-- Henry Ford: "If I had asked people what they wanted, they would have said faster horses." Customers can easily describe a problem they're having --- in this case, wanting to get somewhere faster --- but not the best solution.
+- Henry Ford: "If I had asked people what they wanted, they would have said faster horses." Customers can easily describe a problem they're having - in this case, wanting to get somewhere faster - but not the best solution.
 - <https://drive.google.com/file/d/15pU5j7nTfe17iiLCh55eoGJzgph83Id8/view>
 
 - [How Cadbury Destroyed Its Competitors 🔥 | Cadbury GENIUS Marketing Strategy | Business Case Study](https://youtu.be/xKEtVu_k9jQ)
@@ -284,7 +284,7 @@ Jidoka places responsibility down to the assembly workers to ensure that they ar
 
 - **Shared value /Collective impact**
 
-Collective impact is based on the idea that social problems arise from and persist because of a complex combination of actions and omissions by players in all sectors---and therefore can be solved only by the coordinated efforts of those players, from businesses to government agencies, charitable organizations, and members of affected populations. What's needed is nothing less than changing how the system functions. Collective-impact efforts have made significant progress on issues as diverse as education, homelessness, juvenile justice, substance abuse, childhood obesity, job creation, and [pollution.](http://www.collectiveimpactforum.org/featured-case-studies)
+Collective impact is based on the idea that social problems arise from and persist because of a complex combination of actions and omissions by players in all sectors - and therefore can be solved only by the coordinated efforts of those players, from businesses to government agencies, charitable organizations, and members of affected populations. What's needed is nothing less than changing how the system functions. Collective-impact efforts have made significant progress on issues as diverse as education, homelessness, juvenile justice, substance abuse, childhood obesity, job creation, and [pollution.](http://www.collectiveimpactforum.org/featured-case-studies)
 
 1. a common agenda, which helps align the players' efforts and defines their commitment
 

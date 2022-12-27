@@ -66,10 +66,10 @@ In a disaster, the system is scaled up quickly to handle the production load. In
 
 When you replicate data to a remote location, you should consider these factors:
 
-- Distance between the sites --- Larger distances typically are subject to more latency or jitter.
-- Available bandwidth --- The breadth and variability of the interconnections.
-- Data rate required by your application --- The data rate should be lower than the available bandwidth.
-- Replication technology --- The replication technology should be parallel (so that it can use the network
+- Distance between the sites - Larger distances typically are subject to more latency or jitter.
+- Available bandwidth - The breadth and variability of the interconnections.
+- Data rate required by your application - The data rate should be lower than the available bandwidth.
+- Replication technology - The replication technology should be parallel (so that it can use the network
     effectively).
 
 There are two main approaches for replicating data: synchronous and asynchronous.

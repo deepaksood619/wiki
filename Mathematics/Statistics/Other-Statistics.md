@@ -98,7 +98,7 @@ Pivot tables are a technique in [data processing](https://en.wikipedia.org/wiki/
 ## Empirical Cumulative Distribution Function
 
 This plot draws a line showing us what percent of our data falls below a certain value on the x-axis. Here the x-axis displays the value of the data and the y-axis the percent of our data that falls below a specific value on the x-axis.
-On the chart below, take the point 6 on the x-axis and use your finger to trace a straight path up until you hit the line---the value on the y-axis at the point you hit the line is about 75%. So 75% of the data in the example below are lower than 6.
+On the chart below, take the point 6 on the x-axis and use your finger to trace a straight path up until you hit the line - the value on the y-axis at the point you hit the line is about 75%. So 75% of the data in the example below are lower than 6.
 
 ![image](media/Other-Statistics-image6.png)
 

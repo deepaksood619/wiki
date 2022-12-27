@@ -73,7 +73,7 @@ A built-in Notifications funnel analysis shows you how your users respond to par
 
 ## Test Lab
 
-Firebase Test Lab is a cloud-based app-testing infrastructure. With one operation, you can test your Android or iOS app across a wide variety of devices and device configurations, and see the results---including logs, videos, and screenshots---in the Firebase console.
+Firebase Test Lab is a cloud-based app-testing infrastructure. With one operation, you can test your Android or iOS app across a wide variety of devices and device configurations, and see the results - including logs, videos, and screenshots - in the Firebase console.
 
 Test Lab runs [Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html) and [UI Automator 2.0](http://developer.android.com/tools/testing-support-library/index.html#UIAutomator) tests on Android apps, and [XCTest](https://developer.apple.com/documentation/xctest) tests on iOS apps.
 

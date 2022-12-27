@@ -221,7 +221,7 @@ Keep 10 almonds soaked in water over-night and eat them as soon as you wake up t
 
 3. Limit white potatoes and refined grain products such as white breads and white pasta to small side dishes.
 
-4. Limit concentrated sweets---including high-calorie foods with a low glycemic index, such as ice cream--- to occasional treats. Reduce fruit juice to no more than one cup a day. Completely eliminate sugar-sweetened drinks
+4. Limit concentrated sweets - including high-calorie foods with a low glycemic index, such as ice cream - to occasional treats. Reduce fruit juice to no more than one cup a day. Completely eliminate sugar-sweetened drinks
 
 5. Eat a healthful type of protein, such as beans, fish, or skinless chicken, at most meals
 

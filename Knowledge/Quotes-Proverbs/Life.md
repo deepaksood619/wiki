@@ -246,7 +246,7 @@ Love is not an instrument of convenience. Love is a process of self-annihilation
 
 I don't like that man. I must get to know him better. -- Abraham Lincoln
 
-The number of people who believe an idea is directly proportional to the number of times it has been repeated during the last year---even if the idea is false. -- Clear's Law of Recurrence
+The number of people who believe an idea is directly proportional to the number of times it has been repeated during the last year - even if the idea is false. -- Clear's Law of Recurrence
 
 Spend as little time as possible talking about how other people are wrong. -- Tyler Cowen
 
@@ -322,7 +322,7 @@ What you feed yourself today is who you become tomorrow. -- James Clear
 
 Increasing your standards of happiness is a dangerous game. Instead of trying too hard to be happy, seek the truth.
 
-"Those pursuing happiness may set high standards for their levels of happiness. When their happiness falls short of their standards---which is likely when the standards are high---the resulting disappointment and frustration impedes the experience of happiness." -- Paradoxical Effects of Pursuing Positive Emotion, Positive Emotion by Brett Q. Ford and Iris B. Mauss
+"Those pursuing happiness may set high standards for their levels of happiness. When their happiness falls short of their standards - which is likely when the standards are high - the resulting disappointment and frustration impedes the experience of happiness." -- Paradoxical Effects of Pursuing Positive Emotion, Positive Emotion by Brett Q. Ford and Iris B. Mauss
 
 If you gain a little more mastery over your mind, body, and life energies, you can become the master of your destiny. -- Sadhguru
 
@@ -738,7 +738,7 @@ But we can influence our feelings by taking action.
 
 Take one small step. Move the body first and the mind will follow."
 
-"There is a wonderful, almost mystical, law of nature that says three of the things we want most---happiness, freedom, and peace of mind---are always attained when we give them to others. Give it away to get it back."
+"There is a wonderful, almost mystical, law of nature that says three of the things we want most - happiness, freedom, and peace of mind - are always attained when we give them to others. Give it away to get it back."
 
 "Repetition unlocks value.
 
@@ -772,7 +772,7 @@ People who struggle also tend to obsess over the details.
 
 The difference is what details they focus on. Minutiae vs polish.
 
-Most things don't matter---but when it does, you want to get the details right.
+Most things don't matter - but when it does, you want to get the details right.
 
 Do the people around me act the way I wish to act?
 
@@ -836,7 +836,7 @@ Every great opportunity has many reasons why it could fail. You have to trust yo
 
 People who look for reasons why things won't work, struggle to take action.
 
-People who look for reasons why things will work---and solve problems as they arise---make things happen
+People who look for reasons why things will work - and solve problems as they arise - make things happen
 
 Awareness is not a virtue in and of itself, not without a moral imperative -- Imani Perry
 
@@ -856,7 +856,7 @@ Someone else living a good life does not prevent you from living a good life.
 
 There are many ways to win and plenty of space.
 
-You have power over your mind --- not outside events. Realize this, and you will find strength.
+You have power over your mind - not outside events. Realize this, and you will find strength.
 
 You are the average of your five closest friends. On the internet, you're a composite of all the shit you read and watch. Choose wisely.
 

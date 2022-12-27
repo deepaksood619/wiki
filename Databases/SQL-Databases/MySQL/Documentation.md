@@ -266,85 +266,85 @@ Repository
 
 4.3 Server and Server-Startup Programs
 
-4.3.1 mysqld --- The MySQL Server
+4.3.1 mysqld - The MySQL Server
 
-4.3.2 mysqld_safe --- MySQL Server Startup Script
+4.3.2 mysqld_safe - MySQL Server Startup Script
 
-4.3.3 mysql.server --- MySQL Server Startup Script
+4.3.3 mysql.server - MySQL Server Startup Script
 
-4.3.4 mysqld_multi --- Manage Multiple MySQL Servers
+4.3.4 mysqld_multi - Manage Multiple MySQL Servers
 
 4.4 Installation-Related Programs
 
-4.4.1 comp_err --- Compile MySQL Error Message File
+4.4.1 comp_err - Compile MySQL Error Message File
 
-4.4.2 mysql_install_db --- Initialize MySQL Data Directory
+4.4.2 mysql_install_db - Initialize MySQL Data Directory
 
-4.4.3 mysql_plugin --- Configure MySQL Server Plugins
+4.4.3 mysql_plugin - Configure MySQL Server Plugins
 
-4.4.4 mysql_secure_installation --- Improve MySQL Installation Security
+4.4.4 mysql_secure_installation - Improve MySQL Installation Security
 
-4.4.5 mysql_ssl_rsa_setup --- Create SSL/RSA Files
+4.4.5 mysql_ssl_rsa_setup - Create SSL/RSA Files
 
-4.4.6 mysql_tzinfo_to_sql --- Load the Time Zone Tables
+4.4.6 mysql_tzinfo_to_sql - Load the Time Zone Tables
 
-4.4.7 mysql_upgrade --- Check and Upgrade MySQL Tables
+4.4.7 mysql_upgrade - Check and Upgrade MySQL Tables
 
 4.5 Client Programs
 
-4.5.1 mysql --- The MySQL Command-Line Client
+4.5.1 mysql - The MySQL Command-Line Client
 
-4.5.2 mysqladmin --- Client for Administering a MySQL Server
+4.5.2 mysqladmin - Client for Administering a MySQL Server
 
-4.5.3 mysqlcheck --- A Table Maintenance Program
+4.5.3 mysqlcheck - A Table Maintenance Program
 
-4.5.4 mysqldump --- A Database Backup Program
+4.5.4 mysqldump - A Database Backup Program
 
-4.5.5 mysqlimport --- A Data Import Program
+4.5.5 mysqlimport - A Data Import Program
 
-4.5.6 mysqlpump --- A Database Backup Program
+4.5.6 mysqlpump - A Database Backup Program
 
-4.5.7 mysqlshow --- Display Database, Table, and Column Information
+4.5.7 mysqlshow - Display Database, Table, and Column Information
 
-4.5.8 mysqlslap --- Load Emulation Client
+4.5.8 mysqlslap - Load Emulation Client
 
 4.6 Administrative and Utility Programs
 
-4.6.1 innochecksum --- Offline InnoDB File Checksum Utility
+4.6.1 innochecksum - Offline InnoDB File Checksum Utility
 
-4.6.2 myisam_ftdump --- Display Full-Text Index information
+4.6.2 myisam_ftdump - Display Full-Text Index information
 
-4.6.3 myisamchk --- MyISAM Table-Maintenance Utility
+4.6.3 myisamchk - MyISAM Table-Maintenance Utility
 
-4.6.4 myisamlog --- Display MyISAM Log File Contents
+4.6.4 myisamlog - Display MyISAM Log File Contents
 
-4.6.5 myisampack --- Generate Compressed, Read-Only MyISAM Tables
+4.6.5 myisampack - Generate Compressed, Read-Only MyISAM Tables
 
-4.6.6 mysql_config_editor --- MySQL Configuration Utility
+4.6.6 mysql_config_editor - MySQL Configuration Utility
 
-4.6.7 mysqlbinlog --- Utility for Processing Binary Log Files
+4.6.7 mysqlbinlog - Utility for Processing Binary Log Files
 
-4.6.8 mysqldumpslow --- Summarize Slow Query Log Files
+4.6.8 mysqldumpslow - Summarize Slow Query Log Files
 
 4.7 Program Development Utilities
 
-4.7.1 mysql_config --- Display Options for Compiling Clients
+4.7.1 mysql_config - Display Options for Compiling Clients
 
-4.7.2 my_print_defaults --- Display Options from Option Files
+4.7.2 my_print_defaults - Display Options from Option Files
 
-4.7.3 resolve_stack_dump --- Resolve Numeric Stack Trace Dump to Symbols
+4.7.3 resolve_stack_dump - Resolve Numeric Stack Trace Dump to Symbols
 
 4.8 Miscellaneous Programs
 
-4.8.1 lz4_decompress --- Decompress mysqlpump LZ4-Compressed Output
+4.8.1 lz4_decompress - Decompress mysqlpump LZ4-Compressed Output
 
-4.8.2 perror --- Display MySQL Error Message Information
+4.8.2 perror - Display MySQL Error Message Information
 
-4.8.3 replace --- A String-Replacement Utility
+4.8.3 replace - A String-Replacement Utility
 
-4.8.4 resolveip --- Resolve Host name to IP Address or Vice Versa
+4.8.4 resolveip - Resolve Host name to IP Address or Vice Versa
 
-4.8.5 zlib_decompress --- Decompress mysqlpump ZLIB-Compressed Output
+4.8.5 zlib_decompress - Decompress mysqlpump ZLIB-Compressed Output
 
 4.9 Environment Variables
 
@@ -1660,7 +1660,7 @@ xvi
 
 19 Using MySQL as a Document Store
 
-19.1 Preproduction Status --- Legal Notice
+19.1 Preproduction Status - Legal Notice
 
 19.2 Key Concepts
 
@@ -1782,71 +1782,71 @@ xvi
 
 21.4 NDB Cluster Programs
 
-21.4.1 ndbd --- The NDB Cluster Data Node Daemon
+21.4.1 ndbd - The NDB Cluster Data Node Daemon
 
-21.4.2 ndbinfo_select_all --- Select From ndbinfo Tables
+21.4.2 ndbinfo_select_all - Select From ndbinfo Tables
 
-21.4.3 ndbmtd --- The NDB Cluster Data Node Daemon (Multi-Threaded)
+21.4.3 ndbmtd - The NDB Cluster Data Node Daemon (Multi-Threaded)
 
-21.4.4 ndb_mgmd --- The NDB Cluster Management Server Daemon
+21.4.4 ndb_mgmd - The NDB Cluster Management Server Daemon
 
-21.4.5 ndb_mgm --- The NDB Cluster Management Client
+21.4.5 ndb_mgm - The NDB Cluster Management Client
 
-21.4.6 ndb_blob_tool --- Check and Repair BLOB and TEXT columns of NDB
+21.4.6 ndb_blob_tool - Check and Repair BLOB and TEXT columns of NDB
 
 Cluster Tables
 
-21.4.7 ndb_config --- Extract NDB Cluster Configuration Information
+21.4.7 ndb_config - Extract NDB Cluster Configuration Information
 
-21.4.8 ndb_cpcd --- Automate Testing for NDB Development
+21.4.8 ndb_cpcd - Automate Testing for NDB Development
 
-21.4.9 ndb_delete_all --- Delete All Rows from an NDB Table
+21.4.9 ndb_delete_all - Delete All Rows from an NDB Table
 
-21.4.10 ndb_desc --- Describe NDB Tables
+21.4.10 ndb_desc - Describe NDB Tables
 
-21.4.11 ndb_drop_index --- Drop Index from an NDB Table
+21.4.11 ndb_drop_index - Drop Index from an NDB Table
 
-21.4.12 ndb_drop_table --- Drop an NDB Table
+21.4.12 ndb_drop_table - Drop an NDB Table
 
-21.4.13 ndb_error_reporter --- NDB Error-Reporting Utility
+21.4.13 ndb_error_reporter - NDB Error-Reporting Utility
 
-21.4.14 ndb_import --- Import CSV Data Into NDB
+21.4.14 ndb_import - Import CSV Data Into NDB
 
-21.4.15 ndb_index_stat --- NDB Index Statistics Utility
+21.4.15 ndb_index_stat - NDB Index Statistics Utility
 
-21.4.16 ndb_move_data --- NDB Data Copy Utility
+21.4.16 ndb_move_data - NDB Data Copy Utility
 
-21.4.17 ndb_perror --- Obtain NDB Error Message Information
+21.4.17 ndb_perror - Obtain NDB Error Message Information
 
-21.4.18 ndb_print_backup_file --- Print NDB Backup File Contents
+21.4.18 ndb_print_backup_file - Print NDB Backup File Contents
 
-21.4.19 ndb_print_file --- Print NDB Disk Data File Contents
+21.4.19 ndb_print_file - Print NDB Disk Data File Contents
 
-21.4.20 ndb_print_frag_file --- Print NDB Fragment List File Contents
+21.4.20 ndb_print_frag_file - Print NDB Fragment List File Contents
 
-21.4.21 ndb_print_schema_file --- Print NDB Schema File Contents
+21.4.21 ndb_print_schema_file - Print NDB Schema File Contents
 
-21.4.22 ndb_print_sys_file --- Print NDB System File Contents
+21.4.22 ndb_print_sys_file - Print NDB System File Contents
 
-21.4.23 ndb_redo_log_reader --- Check and Print Content of Cluster Redo Log
+21.4.23 ndb_redo_log_reader - Check and Print Content of Cluster Redo Log
 
-21.4.24 ndb_restore --- Restore an NDB Cluster Backup
+21.4.24 ndb_restore - Restore an NDB Cluster Backup
 
-21.4.25 ndb_select_all --- Print Rows from an NDB Table
+21.4.25 ndb_select_all - Print Rows from an NDB Table
 
-21.4.26 ndb_select_count --- Print Row Counts for NDB Tables
+21.4.26 ndb_select_count - Print Row Counts for NDB Tables
 
-21.4.27 ndb_setup.py --- Start browser-based Auto-Installer for NDB Cluster
+21.4.27 ndb_setup.py - Start browser-based Auto-Installer for NDB Cluster
 
-21.4.28 ndb_show_tables --- Display List of NDB Tables
+21.4.28 ndb_show_tables - Display List of NDB Tables
 
-21.4.29 ndb_size.pl --- NDBCLUSTER Size Requirement Estimator
+21.4.29 ndb_size.pl - NDBCLUSTER Size Requirement Estimator
 
-21.4.30 ndb_top --- View CPU usage information for NDB threads
+21.4.30 ndb_top - View CPU usage information for NDB threads
 
-21.4.31 ndb_waiter --- Wait for NDB Cluster to Reach a Given Status
+21.4.31 ndb_waiter - Wait for NDB Cluster to Reach a Given Status
 
-21.4.32 Options Common to NDB Cluster Programs --- Options Common to NDB
+21.4.32 Options Common to NDB Cluster Programs - Options Common to NDB
 
 Cluster Programs
 

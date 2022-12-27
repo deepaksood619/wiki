@@ -248,7 +248,7 @@ Easily define, create, and manage ledger-based tokens
 
 Compute
 
-Access cloud compute capacity and scale on demand---and only pay for the resources you use
+Access cloud compute capacity and scale on demand - and only pay for the resources you use
 
 [Learn More](https://azure.microsoft.com/en-in/product-categories/compute/)
 
@@ -432,7 +432,7 @@ Small-footprint, edge-optimised data engine with built-in AI
 
 ## Developer Tools
 
-Build, manage and continuously deliver cloud applications---using any platform or language
+Build, manage and continuously deliver cloud applications - using any platform or language
 
 [Visual Studio](https://azure.microsoft.com/en-in/products/visual-studio/)
 
@@ -464,7 +464,7 @@ Quickly create environments using reusable templates and artifacts
 
 [Developer tool integrations](https://azure.microsoft.com/en-in/products/developer-tool-integrations/)
 
-Use the development tools you know---including Eclipse, IntelliJ and Maven---with Azure
+Use the development tools you know - including Eclipse, IntelliJ and Maven - with Azure
 
 [App ConfigurationPREVIEW](https://azure.microsoft.com/en-in/services/app-configuration/)
 
@@ -516,7 +516,7 @@ Full observability into your applications, infrastructure and network
 
 ## Hybrid
 
-Get Azure innovation everywhere---bring the agility and innovation of cloud computing to your on-premises workloads.
+Get Azure innovation everywhere - bring the agility and innovation of cloud computing to your on-premises workloads.
 
 [Azure SQL Database](https://azure.microsoft.com/en-in/services/sql-database/)
 
@@ -568,7 +568,7 @@ Synchronise on-premises directories and enable single sign-on
 
 [Azure Information Protection](https://azure.microsoft.com/en-in/services/information-protection/)
 
-Better protect your sensitive information---anytime, anywhere
+Better protect your sensitive information - anytime, anywhere
 
 [Azure Active Directory Domain Services](https://azure.microsoft.com/en-in/services/active-directory-ds/)
 
@@ -740,7 +740,7 @@ Streamline Azure administration with a browser-based shell
 
 [Azure mobile app](https://azure.microsoft.com/en-in/features/azure-portal/mobile-app/)
 
-Stay connected to your Azure resources---anytime, anywhere
+Stay connected to your Azure resources - anytime, anywhere
 
 [Azure Policy](https://azure.microsoft.com/en-in/services/azure-policy/)
 
@@ -876,7 +876,7 @@ Easily build and consume Cloud APIs
 
 [Azure mobile app](https://azure.microsoft.com/en-in/features/azure-portal/mobile-app/)
 
-Stay connected to your Azure resources---anytime, anywhere
+Stay connected to your Azure resources - anytime, anywhere
 
 [Visual Studio App Centre](https://azure.microsoft.com/en-in/services/app-center/)
 
@@ -976,7 +976,7 @@ Synchronise on-premises directories and enable single sign-on
 
 [Azure Information Protection](https://azure.microsoft.com/en-in/services/information-protection/)
 
-Better protect your sensitive information---anytime, anywhere
+Better protect your sensitive information - anytime, anywhere
 
 [Azure Active Directory Domain Services](https://azure.microsoft.com/en-in/services/active-directory-ds/)
 

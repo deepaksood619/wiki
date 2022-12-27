@@ -14,7 +14,7 @@ The basic structure of a Spark-cluster:
 
 ![The basic structure of a Spark-cluster: A driver program's SparkContext interfaces with a cluster manager, both of which interface with worker nodes, which have access to each other. Each worker node has an executor with tasks, and a cache.](../../media/Technologies-Apache-Apache-Spark-image1.png)
 
-The cluster manager is not part of the Spark framework itself---even though Spark ships with its own, this one should not be used in production. Supported cluster managers are Mesos, Yarn, and Kubernetes.
+The cluster manager is not part of the Spark framework itself - even though Spark ships with its own, this one should not be used in production. Supported cluster managers are Mesos, Yarn, and Kubernetes.
 
 The driver program is a Java, Scala, or Python application, which is executed on the Spark Master.
 

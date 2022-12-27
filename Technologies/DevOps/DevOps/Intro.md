@@ -28,7 +28,7 @@ DevOps is a set of practices intended to reduce the time between committing a ch
 
 ![Illustration showing stages in a DevOps toolchain](../../media/DevOps-DevOps-Intro-image1.png)
 
-1. Plan / Code --- code development and review, [source code management](https://en.wikipedia.org/wiki/Version_control) tools, code merging
+1. Plan / Code - code development and review, [source code management](https://en.wikipedia.org/wiki/Version_control) tools, code merging
 
 2. Create / Build ---[continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) tools, build status
 
@@ -36,9 +36,9 @@ DevOps is a set of practices intended to reduce the time between committing a ch
 
 4. Package ---[artifact repository](https://en.wikipedia.org/wiki/Binary_repository_manager), application pre-deployment staging
 
-5. Release --- change management, release approvals, [release automation](https://en.wikipedia.org/wiki/Application_release_automation)
+5. Release - change management, release approvals, [release automation](https://en.wikipedia.org/wiki/Application_release_automation)
 
-6. Configure --- infrastructure configuration and management, [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) tools
+6. Configure - infrastructure configuration and management, [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) tools
 
 7. Monitor ---[applications performance monitoring](https://en.wikipedia.org/wiki/Application_performance_management), end--user experience
 

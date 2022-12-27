@@ -64,7 +64,7 @@ If you feel an emotion try to put a label on that emotion, so that it can move f
 
 3. **Learning and Careers**
 
-This week, we'll be talking about how your own career can develop and change through your life. Your own internal feelings about what you want to do can play a critical role in your long-term happiness. But society and culture can also have a dramatic effect on your career choices and decisions---as can your parents, family, and friends. We'll talk about second-skilling yourself, and developing a talent stack of average talents that can combine into a formidable asset. We'll also talk about various tactics and techniques to help you survive career changes and upheavals.
+This week, we'll be talking about how your own career can develop and change through your life. Your own internal feelings about what you want to do can play a critical role in your long-term happiness. But society and culture can also have a dramatic effect on your career choices and decisions - as can your parents, family, and friends. We'll talk about second-skilling yourself, and developing a talent stack of average talents that can combine into a formidable asset. We'll also talk about various tactics and techniques to help you survive career changes and upheavals.
 
 - π (Pie) approach to skill development
 - Skilling approach
@@ -78,7 +78,7 @@ This week, we'll be talking about how your own career can develop and change thr
 
 4. **Adopting a Learning Lifestyle**
 
-In this final week of the course, we'll be exploring how and why to keep yourself in "mindshift" mode. We'll give you all sorts of insider tips on how to pick out the best online learning with materials that are right for you. And we'll also talk about other ways of learning---ways that can make you "the smartest person in the room." Disruption lies ahead in the world---this week, we'll help you seize the advantage.
+In this final week of the course, we'll be exploring how and why to keep yourself in "mindshift" mode. We'll give you all sorts of insider tips on how to pick out the best online learning with materials that are right for you. And we'll also talk about other ways of learning - ways that can make you "the smartest person in the room." Disruption lies ahead in the world - this week, we'll help you seize the advantage.
 
 - Read more than anyone else
 - Mentor

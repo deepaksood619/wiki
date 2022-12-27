@@ -29,7 +29,7 @@ Modified: 2021-08-29 13:28:37 +0500
 
 3. **Assertions**
      - Python's assert statement is a debugging aid that tests a condition as an internal self-check in your program.
-     - Asserts should only be used to help developers identify bugs--- they're not a mechanism for handling run-time errors.
+     - Asserts should only be used to help developers identify bugs - they're not a mechanism for handling run-time errors.
      - Asserts can be globally disabled with an interpreter setting.
 
 4. **Context Managers and the with statement**

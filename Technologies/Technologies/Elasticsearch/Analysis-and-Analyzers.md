@@ -61,7 +61,7 @@ Encodes words and sentences as numeric vectors. These vector representations are
 
 - Word Embeddings
 
-A word embedding model represents a word as a dense numeric vector. These vectors aim to capture semantic properties of the word --- words whose vectors are close together should be similar in terms of semantic meaning. In a good embedding, directions in the vector space are tied to different aspects of the word's meaning. As an example, the vector for "Canada" might be close to "France" in one direction, and close to "Toronto" in another.
+A word embedding model represents a word as a dense numeric vector. These vectors aim to capture semantic properties of the word - words whose vectors are close together should be similar in terms of semantic meaning. In a good embedding, directions in the vector space are tied to different aspects of the word's meaning. As an example, the vector for "Canada" might be close to "France" in one direction, and close to "Toronto" in another.
 
 The NLP and search communities have been interested in vector representations of words for quite some time. There was a resurgence of interest in word embeddings in the past few years, when many traditional tasks were being revisited using neural networks. Some successful word embedding algorithms were developed, including [word2vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) and [GloVe](https://nlp.stanford.edu/pubs/glove.pdf). These approaches make use of large text collections, and examine the context each word appears in to determine its vector representation:
 
@@ -72,7 +72,7 @@ The NLP and search communities have been interested in vector representations of
 
 Researchers have started to focus on embedding techniques that represent not only words, but longer sections of text. Most current approaches are based on complex neural network architectures, and sometimes incorporate labelled data during training to aid in capturing semantic information.
 
-Once trained, the models are able to take a sentence and produce a vector for each word in context, as well as a vector for the entire sentence. Similarly to word embedding, pre-trained versions of many models are available, allowing users to skip the expensive training process. While the training process can be very resource-intensive, invoking the model is much more lightweight --- sentence embedding models are typically fast enough to be used as part of real-time applications.
+Once trained, the models are able to take a sentence and produce a vector for each word in context, as well as a vector for the entire sentence. Similarly to word embedding, pre-trained versions of many models are available, allowing users to skip the expensive training process. While the training process can be very resource-intensive, invoking the model is much more lightweight - sentence embedding models are typically fast enough to be used as part of real-time applications.
 
 Some common sentence embedding techniques include [InferSent](https://arxiv.org/abs/1705.02364), [Universal Sentence Encoder](https://arxiv.org/abs/1803.11175), [ELMo](https://arxiv.org/abs/1802.05365), and [BERT](https://arxiv.org/abs/1810.04805). Improving word and sentence embeddings is an active area of research, and it's likely that additional strong models will be introduced.
 

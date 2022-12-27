@@ -28,7 +28,7 @@ Both Java clients talk to the cluster over port9300, usingthe native Elasticsear
 
 ## Document Oriented
 
-Elasticsearch is*document oriented*, meaningthat it stores entire objects or *documents*. It not only stores them, but also *indexes*the contents of each document in order to make them searchable. In Elasticsearch, you index, search, sort, and filter documents---not rows of columnar data. This is a fundamentally different way of thinking about data and is one of the reasons Elasticsearch can perform complex full-text search.
+Elasticsearch is*document oriented*, meaningthat it stores entire objects or *documents*. It not only stores them, but also *indexes*the contents of each document in order to make them searchable. In Elasticsearch, you index, search, sort, and filter documents - not rows of columnar data. This is a fundamentally different way of thinking about data and is one of the reasons Elasticsearch can perform complex full-text search.
 
 ## JSON
 
@@ -122,4 +122,4 @@ Data in Elasticsearch can be broadly divided into two types: exact values and fu
 
 *Exact values*are exactly what they sound like.Examples are a date or a user ID, but can also include exact strings such as a username or an email address. The exact valueFoois not the same as the exact valuefoo. The exact value2014is not the same as the exact value2014-09-15.
 
-*Full text*, on the other hand, refersto textual data---usually written in some human language --- like the text of a tweet or the body of an email.
+*Full text*, on the other hand, refersto textual data - usually written in some human language --- like the text of a tweet or the body of an email.

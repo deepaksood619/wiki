@@ -80,7 +80,7 @@ Step 5 is the secret sauce in this process. Thecluster DNSservice is based on [C
 
 It's important to understand that the name registered with DNS is the value ofmetadata.nameand that the ClusterIP is dynamically assigned by Kubernetes.
 
-![apiVersion: VI kind: Service metadata : name: web---svc labels: blog: svc-discovery spec: type: LoadBalancer ](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image7.jpg)
+![apiVersion: VI kind: Service metadata : name: web - svc labels: blog: svc-discovery spec: type: LoadBalancer ](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image7.jpg)
 
 Once a Service is registered with the cluster's DNS it can bediscoveredby other Pods running on the cluster...
 

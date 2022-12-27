@@ -16,7 +16,7 @@ Airflow is a WMS (Workflow Management System) that defines tasks and and their d
 
 ## Workflows are DAGs
 
-Workflows in Airflow are collections of tasks that have directional dependencies. Specifically, Airflow uses directed acyclic graphs --- or DAG for short --- to represent a workflow. Each node in the graph is a task, and edges define dependencies amongst tasks (The graph is enforced to be acyclic so that there are no circular dependencies that can cause infinite execution loops).
+Workflows in Airflow are collections of tasks that have directional dependencies. Specifically, Airflow uses directed acyclic graphs - or DAG for short - to represent a workflow. Each node in the graph is a task, and edges define dependencies amongst tasks (The graph is enforced to be acyclic so that there are no circular dependencies that can cause infinite execution loops).
 
 At a high level, a DAG can be thought of as a container that holds tasks and their dependencies, and sets the context for when and how those tasks should be executed. Each DAG has a set of properties, most important of which are itsdag_id, a unique identifier amongst all DAGs, itsstart_date, the point in time at which the DAG's tasks are to begin executing, and theschedule_interval, or how often the tasks are to be executed. In addition to thedag_id, start_date, andschedule_interval, each DAG can be initialized with a set ofdefault_arguments. These default arguments are inherited by all tasks in the DAG.
 
@@ -26,7 +26,7 @@ Although the DAG is used to organize tasks and set their execution context, DAGs
 
 ## DagRuns and TaskInstances
 
-Once we've defined a DAG --- i.e. we've instantiated tasks and defined their dependencies --- we can then execute the tasks based on the parameters of the DAG. A key concept in Airflow is that of anexecution_time. When the Airflow scheduler is running, it will define a regularly-spaced schedule of dates for which to execute a DAG's associated tasks. The execution times begin at the DAG'sstart_dateand repeat everyschedule_interval. For our example the scheduled execution times would be('2017--01--01 00:00:00', '2017--01--02 00:00:00', ...). For eachexecution_time, aDagRunis created and operates under the context of that execution time. Thus aDagRunis simply a DAG with some execution time
+Once we've defined a DAG - i.e. we've instantiated tasks and defined their dependencies - we can then execute the tasks based on the parameters of the DAG. A key concept in Airflow is that of anexecution_time. When the Airflow scheduler is running, it will define a regularly-spaced schedule of dates for which to execute a DAG's associated tasks. The execution times begin at the DAG'sstart_dateand repeat everyschedule_interval. For our example the scheduled execution times would be('2017--01--01 00:00:00', '2017--01--02 00:00:00', ...). For eachexecution_time, aDagRunis created and operates under the context of that execution time. Thus aDagRunis simply a DAG with some execution time
 
 ## Principles
 

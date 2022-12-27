@@ -194,7 +194,7 @@ Marketing engages customers in the actions that will result in the growth lever 
 - "atomic network" is the smallest network needed that can stand on its own
 - Starting with a Niche Works
 - Christensen's Disruption Theory. These small networks often grow in niches, slowly growing to take over the entire market.
-- Disruptive technologies are dismissed as toys because when they are first launched they "undershoot" user needs. The first telephone could only carry voices a mile or two. The leading telco of the time, Western Union, passed on acquiring the phone because they didn't see how it could possibly be useful to businesses and railroads---their primary customers. What they failed to anticipate was how rapidly telephone technology and infrastructure would improve (technology adoption is usually non-linear due to so-called complementary network effects). The same was true of how mainframe companies viewed the PC (microcomputer), and how modern telecom companies viewed Skype.
+- Disruptive technologies are dismissed as toys because when they are first launched they "undershoot" user needs. The first telephone could only carry voices a mile or two. The leading telco of the time, Western Union, passed on acquiring the phone because they didn't see how it could possibly be useful to businesses and railroads - their primary customers. What they failed to anticipate was how rapidly telephone technology and infrastructure would improve (technology adoption is usually non-linear due to so-called complementary network effects). The same was true of how mainframe companies viewed the PC (microcomputer), and how modern telecom companies viewed Skype.
 
 ## Churn
 
@@ -214,7 +214,7 @@ Marketing engages customers in the actions that will result in the growth lever 
 
 Why would churn be highly correlated with price? Two reasons:
 
-1. **Customer type:**The cheaper your product, the smaller the businesses you're likely selling to---and the smaller the businesses, the more likely they are to go out of business, change their minds, or switch to a competitor.
+1. **Customer type:**The cheaper your product, the smaller the businesses you're likely selling to - and the smaller the businesses, the more likely they are to go out of business, change their minds, or switch to a competitor.
 
 2. **Unit economics:**If it's costing you thousands of dollars to close a deal, you won't survive if too many of those customers churn. And so companies with a high price point don't last long if churn is too high.
 

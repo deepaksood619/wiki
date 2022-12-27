@@ -103,7 +103,7 @@ When you create a Package with a Source Archive, Fission automatically builds it
 
 ## SPECIFICATIONS
 
-Specifications (specs for short) are simply YAML config files containing the objects we've spoken about so far --- Functions, Environments, Triggers, Packages, and Archives.
+Specifications (specs for short) are simply YAML config files containing the objects we've spoken about so far - Functions, Environments, Triggers, Packages, and Archives.
 
 <https://fission.io>
 
@@ -189,7 +189,7 @@ Benefits are broad and significant. Teams with a reliance on existing virtual ma
 
 ExternalDNS synchronizes exposed Kubernetes Services and Ingresses with DNS providers.
 
-Inspired by [Kubernetes DNS](https://github.com/kubernetes/dns), Kubernetes' cluster-internal DNS server, ExternalDNS makes Kubernetes resources discoverable via public DNS servers. Like KubeDNS, it retrieves a list of resources (Services, Ingresses, etc.) from the [Kubernetes API](https://kubernetes.io/docs/api/) to determine a desired list of DNS records.UnlikeKubeDNS, however, it's not a DNS server itself, but merely configures other DNS providers accordingly---e.g.[AWS Route 53](https://aws.amazon.com/route53/) or [Google Cloud DNS](https://cloud.google.com/dns/docs/).
+Inspired by [Kubernetes DNS](https://github.com/kubernetes/dns), Kubernetes' cluster-internal DNS server, ExternalDNS makes Kubernetes resources discoverable via public DNS servers. Like KubeDNS, it retrieves a list of resources (Services, Ingresses, etc.) from the [Kubernetes API](https://kubernetes.io/docs/api/) to determine a desired list of DNS records.UnlikeKubeDNS, however, it's not a DNS server itself, but merely configures other DNS providers accordingly - e.g.[AWS Route 53](https://aws.amazon.com/route53/) or [Google Cloud DNS](https://cloud.google.com/dns/docs/).
 
 In a broader sense, ExternalDNS allows you to control DNS records dynamically via Kubernetes resources in a DNS provider-agnostic way.
 

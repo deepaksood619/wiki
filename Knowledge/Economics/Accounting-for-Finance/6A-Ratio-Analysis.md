@@ -8,11 +8,11 @@ Modified: 2022-04-07 21:08:00 +0500
 
 ## Financial Ratios: A Life Cycle Perspective
 
-![image](media/Accounting-for-Finance_6A--Ratio-Analysis-image1.jpg)
+![image](media/Accounting-for-Finance_6A-Ratio-Analysis-image1.jpg)
 
 1. **Profitability Ratios**
 
-![image](media/Accounting-for-Finance_6A--Ratio-Analysis-image2.jpg)
+![image](media/Accounting-for-Finance_6A-Ratio-Analysis-image2.jpg)
 
 ## And analysis
 
@@ -24,7 +24,7 @@ Modified: 2022-04-07 21:08:00 +0500
 
 2. **Accounting Returns**
 
-![image](media/Accounting-for-Finance_6A--Ratio-Analysis-image3.jpg)
+![image](media/Accounting-for-Finance_6A-Ratio-Analysis-image3.jpg)
 
 ## Reflections of
 
@@ -37,7 +37,7 @@ Modified: 2022-04-07 21:08:00 +0500
 
 3. **Efficiency Ratios**
 
-![image](media/Accounting-for-Finance_6A--Ratio-Analysis-image4.jpg)
+![image](media/Accounting-for-Finance_6A-Ratio-Analysis-image4.jpg)
 
 ## The dark side of growth
 
@@ -48,7 +48,7 @@ Modified: 2022-04-07 21:08:00 +0500
 
 4. **Debt Ratios**
 
-![image](media/Accounting-for-Finance_6A--Ratio-Analysis-image5.jpg)
+![image](media/Accounting-for-Finance_6A-Ratio-Analysis-image5.jpg)
 
 ## Debt, the double edged sword
 
@@ -60,7 +60,7 @@ Modified: 2022-04-07 21:08:00 +0500
 
 5. **Coverage & Liquidity Ratios**
 
-![image](media/Accounting-for-Finance_6A--Ratio-Analysis-image6.jpg)
+![image](media/Accounting-for-Finance_6A-Ratio-Analysis-image6.jpg)
 
 ## And analysis
 

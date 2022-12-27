@@ -66,7 +66,7 @@ By silent, we mean silent from the perspective of the arbiter process, which com
 
 ## Architecture
 
-Gunicorn's main process starts one or more worker processes, and restarts them if they die. To ensure the workers are still alive, Gunicorn has a heartbeat system---which works by using a file on the filesystem. Gunicorn therefore recommends that this file be stored in a memory-only part of the filesystem.
+Gunicorn's main process starts one or more worker processes, and restarts them if they die. To ensure the workers are still alive, Gunicorn has a heartbeat system - which works by using a file on the filesystem. Gunicorn therefore recommends that this file be stored in a memory-only part of the filesystem.
 
 - Gunicorn starts a single master process that gets forked, and the resulting child processes are the workers.
 - The role of the master process is to make sure that the number of workers is the same as the ones defined in the settings. So if any of the workers die, the master process starts another one, by forking itself again.

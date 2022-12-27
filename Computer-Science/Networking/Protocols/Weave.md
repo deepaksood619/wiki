@@ -11,12 +11,12 @@ Weave protocols deliver device-to-device, device-to-mobile, and device-to-cloud 
 
 Weave was designed with the following goals in mind:
 
-- Low overhead --- Lightweight solution for low-power devices
-- Pervasive --- Scalable and unified protocol everywhere
-- Robust --- Leverages Thread® and is self-healing to the cloud
-- Secure --- Interactions are secure, even when the network is not
-- Easy to use --- Flexible setup and configuration
-- Versatile --- Strongly-typed data for powerful interaction
+- Low overhead - Lightweight solution for low-power devices
+- Pervasive - Scalable and unified protocol everywhere
+- Robust - Leverages Thread® and is self-healing to the cloud
+- Secure - Interactions are secure, even when the network is not
+- Easy to use - Flexible setup and configuration
+- Versatile - Strongly-typed data for powerful interaction
 ![image](media/Weave-image1.png)
 
 ## References

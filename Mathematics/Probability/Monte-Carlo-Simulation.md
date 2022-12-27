@@ -7,7 +7,7 @@ Modified: 2021-10-20 20:46:20 +0500
 ---
 
 Monte Carlo simulation(also known as the Monte Carlo Method) lets you see all the possible outcomes of your decisions and assess the impact of risk, allowing for better decision making under uncertainty.
-Monte Carlo simulation performs risk analysis by building models of possible results by substituting a range of values---a probability distribution---for any factor that has inherent uncertainty. It then calculates results over and over, each time using a different set of random values from the probability functions. Depending upon the number of uncertainties and the ranges specified for them, a Monte Carlo simulation could involve thousands or tens of thousands of recalculations before it is complete. Monte Carlo simulation produces distributions of possible outcome values.
+Monte Carlo simulation performs risk analysis by building models of possible results by substituting a range of values - a probability distribution - for any factor that has inherent uncertainty. It then calculates results over and over, each time using a different set of random values from the probability functions. Depending upon the number of uncertainties and the ranges specified for them, a Monte Carlo simulation could involve thousands or tens of thousands of recalculations before it is complete. Monte Carlo simulation produces distributions of possible outcome values.
 By using probability distributions, variables can have different probabilities of different outcomes occurring. Probability distributions are a much more realistic way of describing uncertainty in variables of a risk analysis.
 Common probability distributions include:
 

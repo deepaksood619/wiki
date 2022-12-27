@@ -343,7 +343,7 @@ citizens might need to wait a few more months.
 
 Incorrect: I cannot wait to tell you...I got married!
 
-Correct: I cannot wait to tell you---I got married!
+Correct: I cannot wait to tell you - I got married!
 
 In formal writing, ellipses are not used to indicate pauses. Rather, they are used when words or sentences in a quoted manner are omitted. Increasingly, in informal contexts, they are used to create a type of suspense in the reader. These types of uses are not appropriate for formal writing.
 

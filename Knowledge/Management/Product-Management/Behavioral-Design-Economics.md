@@ -14,7 +14,7 @@ Modified: 2022-10-31 21:04:05 +0500
 
 ## Forced Choice
 
-Asked people to "accept" or "decline" the new feature. By asking people if they wanted to decline (which is definitive and final), there was now a cost to not accepting it---you might not get a second chance. Suddenly, "accept" looks much better in comparison. When we allow people to skip something or say "maybe later," there's very little cost to them.
+Asked people to "accept" or "decline" the new feature. By asking people if they wanted to decline (which is definitive and final), there was now a cost to not accepting it - you might not get a second chance. Suddenly, "accept" looks much better in comparison. When we allow people to skip something or say "maybe later," there's very little cost to them.
 
 ![image](media/Product-Management_Behavioral-Design-Economics-image1.jpeg)
 

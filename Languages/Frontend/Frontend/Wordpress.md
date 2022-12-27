@@ -8,7 +8,7 @@ Modified: 2022-07-31 12:20:16 +0500
 
 <https://wordpress.com/home/deepaksood619.wordpress.com>
 
-WordPress is a content management system that powers 34% of all websites on the internet and 60% of websites that run on CMS. The power of WordPress is in the ecosystem---there are a lot of different plugins and themes. Anyone without any special programming knowledge can build a website, but a working knowledge of WordPress intricacies is a boon to any developer or designer resume.
+WordPress is a content management system that powers 34% of all websites on the internet and 60% of websites that run on CMS. The power of WordPress is in the ecosystem - there are a lot of different plugins and themes. Anyone without any special programming knowledge can build a website, but a working knowledge of WordPress intricacies is a boon to any developer or designer resume.
 
 <https://www.advancedcustomfields.com>
 
@@ -16,7 +16,7 @@ WordPress is a content management system that powers 34% of all websites on the 
 
 ## wp-admin
 
-[WordPress Admin Dashboard Tutorial 2020 --- Step By Step For Beginners In WP-ADMIN!](https://www.youtube.com/watch?v=Ov_zUmMyJnQ)
+[WordPress Admin Dashboard Tutorial 2020 - Step By Step For Beginners In WP-ADMIN!](https://www.youtube.com/watch?v=Ov_zUmMyJnQ)
 
 Posts - That are part of blogs
 

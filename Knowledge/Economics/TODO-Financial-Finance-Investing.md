@@ -283,7 +283,7 @@ For foreign equity allocation, the ideal option would a fund like Vanguard Globa
 ## Tips
 
 - Invest less during bullish market (SIP 25%)
-  - importance of not getting caught up in bull markets---speculative investments during bull markets can lead to huge loss of principal investment.
+  - importance of not getting caught up in bull markets - speculative investments during bull markets can lead to huge loss of principal investment.
 - Invest more during bearish market (SIP 75%)
 
 ## Resources
@@ -310,7 +310,7 @@ For foreign equity allocation, the ideal option would a fund like Vanguard Globa
 
 rags to riches and back to rags stories of film stars, lottery ticket winners, and such other starkly high income earners who lost their wealth.
 
-They would be surrounded by relatives and friends that systematically leached off the wealth or led them to poor quality investments. The man who won the first round of Kaun Banega Crorepati admitted that he bought houses for siblings and funded their businesses before losing his winnings and returning to his old job in a few years. Easy money belongs to everyone---that seems to be the credo.
+They would be surrounded by relatives and friends that systematically leached off the wealth or led them to poor quality investments. The man who won the first round of Kaun Banega Crorepati admitted that he bought houses for siblings and funded their businesses before losing his winnings and returning to his old job in a few years. Easy money belongs to everyone - that seems to be the credo.
 
 - Do not disclose your earnings, income or wealth. No one other than your spouse and children at an appropriate age need to know. What you give is always measured with respect to what you make. In itself, a gift of 50,000 at a relative's wedding is substantial. It might be bigger than what others gave. But if it is known that you earn Rs.5 lakh every month, that is seen as too little.
 

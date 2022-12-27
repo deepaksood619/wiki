@@ -10,7 +10,7 @@ Modified: 2022-07-30 23:40:58 +0500
 
 While most investors focus on a company's PE ratio, it's earnings growth, return on equity etc. .. very few pay enough attention to the quality of people running that business. Presence of a sound management team is what will differentiate a good business from a great one. In Fact no one knows this better than Warren Buffett who has often said and I quote:
 
-"OVER TIME, THE SKILL WITH WHICH A COMPANY'S MANAGERS ALLOCATE CAPITAL HAS AN ENORMOUS IMPACT ON THE ENTERPRISE'S VALUE. CHARLIE AND I LOOK FOR COMPANIES THAT HAVE ABLE AND TRUSTWORTHY MANAGEMENT. YOU NEED TWO THINGS --- A MOAT AROUND THE CASTLE, AND YOU NEED A KNIGHT IN THE CASTLE WHO IS TRYING TO WIDEN THE MOAT AROUND THE CASTLE."
+"OVER TIME, THE SKILL WITH WHICH A COMPANY'S MANAGERS ALLOCATE CAPITAL HAS AN ENORMOUS IMPACT ON THE ENTERPRISE'S VALUE. CHARLIE AND I LOOK FOR COMPANIES THAT HAVE ABLE AND TRUSTWORTHY MANAGEMENT. YOU NEED TWO THINGS - A MOAT AROUND THE CASTLE, AND YOU NEED A KNIGHT IN THE CASTLE WHO IS TRYING TO WIDEN THE MOAT AROUND THE CASTLE."
 
 So, you need two things. A moat around the castle and you need a knight who is continuously trying to widen that moat. So the big question facing us is how do we identify companies with managers who do a remarkable job of delivering value to their shareholders consistently and put the interests of their shareholders above their own. The 4C framework is nothing but 4 essential characteristics by which we evaluate managements. The first C stands for capable or capability, the second C is commitment, the third C is candidness or candid and the fourth C in our framework is compassion.
 

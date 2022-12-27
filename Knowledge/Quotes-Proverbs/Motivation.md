@@ -268,7 +268,7 @@ People tend to overestimate what can be done in one year and to underestimate wh
 
 Luck favors the prepared Mind -- Pasteur
 
-We cannot control our luck---good or bad---but we can control our effort and preparation.
+We cannot control our luck - good or bad - but we can control our effort and preparation.
 
 Luck smiles on us all from time to time. And when it does, the way to honor your good luck is to work hard and make the most of it.
 
@@ -835,4 +835,4 @@ You believe environment controls you
 
 You believe you control environment and whatever you do matters for your results
 
-The true mark of a pro --- at anything --- is that he understands, loves, and is good at even the drudgery of his profession.
+The true mark of a pro - at anything - is that he understands, loves, and is good at even the drudgery of his profession.

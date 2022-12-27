@@ -16,7 +16,7 @@ Keep your study schedule evenly spaced out, with only a slight bump right before
 
 2. **Recalling**
 
-After your first time learning the material, the majority of subsequent studying should be in the form of retrieval practice---trying to reproduce the information, solve a problem or explain an idea---without looking at the source.
+After your first time learning the material, the majority of subsequent studying should be in the form of retrieval practice - trying to reproduce the information, solve a problem or explain an idea - without looking at the source.
 
 ![image](media/Learning-Intro_Exams-image2.png)
 

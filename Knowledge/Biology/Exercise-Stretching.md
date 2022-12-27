@@ -37,15 +37,15 @@ Stretching is a type of flexibility exercise that keeps your muscles relaxed and
 ## Static stretches - Stretches that you hold for extended periods of time
 
 - Active static stretch - the muscle being stretched does the work of holding the position.
-- Passive static stretch - depends on gravity or a prop---like a partner, barre, strap, or elastic band--- to hold the muscle that is being stretched in place.
+- Passive static stretch - depends on gravity or a prop - like a partner, barre, strap, or elastic band - to hold the muscle that is being stretched in place.
 
-## Ballistic stretches - Many people try to go deeper into a stretch by adopt- ing a stretch position, then bouncing to quickly extend muscle length and range of motion. Stretches like these are called ballistic stretches. Ballistic stretches trigger the stretch reflex---resistance prompted by specialized nerves, forcing a lengthening muscle to contract
+## Ballistic stretches - Many people try to go deeper into a stretch by adopt- ing a stretch position, then bouncing to quickly extend muscle length and range of motion. Stretches like these are called ballistic stretches. Ballistic stretches trigger the stretch reflex - resistance prompted by specialized nerves, forcing a lengthening muscle to contract
 
 ## Proprioceptive neuromuscular facilitation - PNF takes a two-step approach. It starts with iso- metric contraction of the opposing muscle, followed by a passive static stretch of the target muscle applied by a partner who focuses on moving a joint through its range of motion. (To do an isometric contraction, you press against an immovable object, like a partner, so that the muscle activates without lengthening or shortening.)
 
 ## Stretching
 
-You should not do static stretches (in which you adopt and hold a position) before you exercise. Rather, you should do these when your muscles are warmed up---say, after 10 minutes on the treadmill or with a type of warm-up called dynamic stretching that increases the flow of blood and oxygen to muscles. Surprisingly, rather than readying muscles for sports, static stretches do not improve athletic performance, but can actually undercut strength and power, possibly by affecting the ability of the muscle to store and swiftly release energy. Dynamic stretches are a better choice.
+You should not do static stretches (in which you adopt and hold a position) before you exercise. Rather, you should do these when your muscles are warmed up - say, after 10 minutes on the treadmill or with a type of warm-up called dynamic stretching that increases the flow of blood and oxygen to muscles. Surprisingly, rather than readying muscles for sports, static stretches do not improve athletic performance, but can actually undercut strength and power, possibly by affecting the ability of the muscle to store and swiftly release energy. Dynamic stretches are a better choice.
 
 ## How a Strech work
 

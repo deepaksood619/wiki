@@ -46,9 +46,9 @@ The honest answer is: forever. Because once you stop doing it, it is no longer a
 
 A habit is a lifestyle to be lived, not a finish line to be crossed. Make small, sustainable changes you can stick with.
 
-Make it so easy you can't say no --- Leo Babauta
+Make it so easy you can't say no - Leo Babauta
 
-The key---if you want to build habits that last---is to join a group where the desired behavior is the normal behavior.
+The key - if you want to build habits that last - is to join a group where the desired behavior is the normal behavior.
 
 ## The recipe for Sustained Success
 
@@ -416,7 +416,7 @@ This suggests putting some caution on one's goals for habits. If the idea is tha
 
 This leads into a second limitation of habits: they are rarely permanent.
 
-Since many habits are actually routines---mixtures of automated and deliberate action---there are few we care about that don't involve some ongoing effort to sustain.
+Since many habits are actually routines - mixtures of automated and deliberate action - there are few we care about that don't involve some ongoing effort to sustain.
 
 I've written before about why I think [habits are often meta-stable](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/wnh2h6uozelxrqs7/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxNS8wMy8yNS9wZXJtYW5lbnQtaGFiaXRzLw==). They can require little effort to sustain provided everything else in your life is static. Since that assumption rarely holds, there is always some effort required to reassert the routine you want.
 
@@ -434,7 +434,7 @@ Commitments are another thing that seem similar to habits [but are quite differe
 
 4. **Habits are Often Too Slow**
 
-The [habit-forming philosophy](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/8ghqh3u54m7qgkfk/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOC8xMC8xOC9ib29rLXJlY29tbWVuZGF0aW9uLWF0b21pYy1oYWJpdHMv)---that you ought to do things slowly and steadily, since positive, automatic behaviors will compound over time---has major benefits. But there are many areas where such a strategy doesn't apply.
+The [habit-forming philosophy](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/8ghqh3u54m7qgkfk/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOC8xMC8xOC9ib29rLXJlY29tbWVuZGF0aW9uLWF0b21pYy1oYWJpdHMv)---that you ought to do things slowly and steadily, since positive, automatic behaviors will compound over time - has major benefits. But there are many areas where such a strategy doesn't apply.
 
 The person starting a business may only have a few months to reach profitability or they'll run out of capital. Starting a new job, going back to school, taking on a difficult project all often involve similar large upfront investments of effort that can't be smoothed down.
 

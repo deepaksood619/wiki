@@ -113,7 +113,7 @@ Since the primary index contains a direct reference to the data block address th
 
 ## Secondary Indexes
 
-Obviously there can only be one clustered index --- because you can't store the row data in two places at once; Therefore secondary indexes (any indexes we apply that aren't the primary) are not clustered, and are in fact separate structures to the table itself.
+Obviously there can only be one clustered index - because you can't store the row data in two places at once; Therefore secondary indexes (any indexes we apply that aren't the primary) are not clustered, and are in fact separate structures to the table itself.
 The leaf nodes for secondary indexes don't store row data as the Primary Key B-Tree did, instead they simply store Primary Key values which serve as "pointers" to the row data, as you can see below:
 
 ![Image for post](media/Indexing_MySQL-Indexing-image2.png)
@@ -128,9 +128,9 @@ Slow, It should be quite obvious that this additional lookup to follow the Prima
 
 ## UNIQUE Key Index
 
-Like primary keys, unique keys can also identify records uniquely with one difference --- the unique key column can containnullvalues.
+Like primary keys, unique keys can also identify records uniquely with one difference - the unique key column can containnullvalues.
 Unlike other database servers, in MySQL a unique key column can have as manynullvalues as possible. In SQL standard,nullmeans an undefined value. So if MySQL has to contain only one null value in a unique key column, it has to assume that all null values are the same.
-But logically this is not correct sincenullmeans undefined --- and undefined values can't be compared with each other, it's the nature ofnull. As MySQL can't assert if allnulls mean the same, it allows multiplenullvalues in the column.
+But logically this is not correct sincenullmeans undefined - and undefined values can't be compared with each other, it's the nature ofnull. As MySQL can't assert if allnulls mean the same, it allows multiplenullvalues in the column.
 The following command shows how to create a unique key index in MySQL:
 
 `CREATE UNIQUE INDEX unique_idx_1 ON index_demo (pan_no);`
@@ -158,7 +158,7 @@ MySQL maintains something called index statistics which helps MySQL infer what t
 ## How does composite index work?
 
 The columns used in composite indices are concatenated together, and those concatenated keys are stored in sorted order using a B+ Tree. When you perform a search, concatenation of your search keys is matched against those of the composite index. Then if there is any mismatch between the ordering of your search keys & ordering of the composite index columns, the index can't be used.
-In our example, for the following record, a composite index key is formed by concatenating pan_no, name, age---HJKXS9086Wkousik28.
+In our example, for the following record, a composite index key is formed by concatenating pan_no, name, age - HJKXS9086Wkousik28.
 
 | name     | kousik     |
 |----------|------------|
@@ -174,7 +174,7 @@ In our example, for the following record, a composite index key is formed by con
 
 ## Covering Index
 
-A covering index is a special kind of composite index where all the columns specified in the query somewhere exist in the index. So the query optimizer does not need to hit the database to get the data --- rather it gets the result from the index itself. Example: we have already defined a composite index on(pan_no, name, age), so now consider the following query:
+A covering index is a special kind of composite index where all the columns specified in the query somewhere exist in the index. So the query optimizer does not need to hit the database to get the data - rather it gets the result from the index itself. Example: we have already defined a composite index on(pan_no, name, age), so now consider the following query:
 
 SELECT age FROM index_demo WHERE pan_no = 'HJKXS9086W' AND name = 'kousik'
 The columns mentioned in theSELECT&WHEREclauses are part of the composite index. So in this case, we can actually get the value of theagecolumn from the composite index itself. Let's see what theEXPLAINcommand shows for this query:
@@ -233,7 +233,7 @@ This would utilize the first part (last_name) of our index, allowing us to quick
 
 Similarly, you can't use an index fully to perform range queries on two columns for the points already mentioned.-  You may need to have indexes on the same columns in different orders depending on your queries.
 
-- Try use as many columns as possible up to the first range of the query --- after a range no other index column can be used. So put the index that is likely to be ranged right at the end.
+- Try use as many columns as possible up to the first range of the query - after a range no other index column can be used. So put the index that is likely to be ranged right at the end.
 
 ## Index Condition Pushdown
 
@@ -344,7 +344,7 @@ Therefore, we recommend to avoid such OR conditions and consider splitting the q
 
 - Since indices consume extra memory, carefully decide how many & what type of index will suffice your need.
 - WithDMLoperations, indices are updated, so write operations are quite costly with indexes. The more indices you have, the greater the cost. Indexes are used to make read operations faster. So if you have a system that is write heavy but not read heavy, think hard about whether you need an index or not.
-- Cardinality is important --- cardinality means the number of distinct values in a column. If you create an index in a column that has low cardinality, that's not going to be beneficial since the index should reduce search space. Low cardinality does not significantly reduce search space.
+- Cardinality is important - cardinality means the number of distinct values in a column. If you create an index in a column that has low cardinality, that's not going to be beneficial since the index should reduce search space. Low cardinality does not significantly reduce search space.
     Example: if you create an index on a boolean (int1or0only ) type column, the index will be very skewed since cardinality is less (cardinality is 2 here). But if this boolean field can be combined with other columns to produce high cardinality, go for that index when necessary.
 - Indices might need some maintenance as well if old data still remains in the index. They need to be deleted otherwise memory will be hogged, so try to have a monitoring plan for your indices.
 

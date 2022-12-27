@@ -267,7 +267,7 @@ Move from Maker to Multiplier mode
 
 A solutions architect creates the overall technical vision for a specific solution to a business problem.
 
-A good solutions architect looks at the existing environment and analyzes what technologies are available and what software product must be developed to provide the best solution for the problem that needs to be solved. From there, the solutions architect creates an overall strategic technical vision---not unlike an architect designing a blueprint for a building. They develop a budget for producing a software product based on that vision.
+A good solutions architect looks at the existing environment and analyzes what technologies are available and what software product must be developed to provide the best solution for the problem that needs to be solved. From there, the solutions architect creates an overall strategic technical vision - not unlike an architect designing a blueprint for a building. They develop a budget for producing a software product based on that vision.
 
 <https://www.coursera.org/articles/solutions-architect>
 
@@ -567,9 +567,9 @@ Uncertainty
 
 2. The second motivational driver is **competence**. Competence refers to our desires to seek control but also to experience mastery. Competence speaks to our natural human desire to be learners, to be growing and feeling like we're making progress. It could be progress in our career, progress towards a set of objectives or working for a team or a company that is making progress. Anything that helps individuals feel they are moving toward mastery leverages competence as a motivation.
 
-...make sure that even when you are giving people constructive feedback, you are pairing it with a lot of positive feedback and praise as well. That way it reminds them of the progress they've already made --- and show them you're trying to help them make even more progress.
+...make sure that even when you are giving people constructive feedback, you are pairing it with a lot of positive feedback and praise as well. That way it reminds them of the progress they've already made - and show them you're trying to help them make even more progress.
 
-3. The third and final motivational driver is **relatedness**. Relatedness refers to our will to connect with others, interact and care for other people. In terms of research, we've only just begun to grasp just how important relatedness to others truly is. But we know that humans are much more motivated to take actions when they're seen as pro-social --- that is, when they're seen as being able to help other people.
+3. The third and final motivational driver is **relatedness**. Relatedness refers to our will to connect with others, interact and care for other people. In terms of research, we've only just begun to grasp just how important relatedness to others truly is. But we know that humans are much more motivated to take actions when they're seen as pro-social - that is, when they're seen as being able to help other people.
 
 ...if you can ensure the members of your team know who exactly is being helped by their efforts, you can almost guarantee they'll be willing to work hard to help those people.
 

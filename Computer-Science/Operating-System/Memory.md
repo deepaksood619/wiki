@@ -167,7 +167,7 @@ The lower levels of the hierarchy -- from disks downwards -- are also known as [
 ## Transparent Huge Pages (THP)
 
 Transparent Huge Pages (THP) is a Linux memory management system that reduces the overhead of Translation Lookaside Buffer (TLB) lookups on machines with large amounts of memory by using larger memory pages.
-A **compressible resource** can be throttled, but an impressible resource---not so much. For example, CPU is considered compressible and memory is incompressible.
+A **compressible resource** can be throttled, but an impressible resource - not so much. For example, CPU is considered compressible and memory is incompressible.
 
 CPU is considered a "compressible" resource. If your app starts hitting your CPU limits, Kubernetes starts throttling your container. This means the CPU will be artificially restricted, giving your app potentially worse performance! However, it won't be terminated or evicted. You can use a [liveness health check](https://cloudplatform.googleblog.com/2018/05/Kubernetes-best-practices-Setting-up-health-checks-with-readiness-and-liveness-probes.html) to make sure performance has not been impacted.-  **[Disk Cache memory](http://en.wikipedia.org/wiki/Page_cache):** This are chunks of the physical memory, the RAM, used to store files. That way when a program needs to read the file, it's fetched from memory instead of the hard disk. This is done because memory is way faster.
 

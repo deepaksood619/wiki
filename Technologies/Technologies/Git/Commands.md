@@ -195,8 +195,8 @@ git reset HEAD~ --hard (Revert a last commit with all changes removed)
 
 **Tilde vs Caret**
 
-- Use `~` most of the time --- to go back a number of generations, usually what you want
-- Use `^` on merge commits --- because they have two or more (immediate) parents
+- Use `~` most of the time - to go back a number of generations, usually what you want
+- Use `^` on merge commits - because they have two or more (immediate) parents
 
 **Mnemonics:**
 

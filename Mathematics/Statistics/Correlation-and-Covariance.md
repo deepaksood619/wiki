@@ -89,7 +89,7 @@ For the Pearsonrcorrelation, both variables should be normally distributed (norm
 
 Kendall rank correlation is a non-parametric test that measures the strength of dependence between two variables. If we consider two samples, a and b, where each sample size isn, we know that the total number of pairings with a b isn(n-1)/2. The following formula is used to calculate the value of Kendall rank correlation:
 
-![---n(n --- 1) ](media/Correlation-and-Covariance-image3.jpg)
+![---n(n - 1) ](media/Correlation-and-Covariance-image3.jpg)
 
 Nc= number of concordant
 

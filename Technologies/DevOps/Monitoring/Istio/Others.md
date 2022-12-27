@@ -32,7 +32,7 @@ Default turn off, only on in demo profile
 
 kubectl describe cm istio -n istio-system
 
-![Globally Enabling Access Logs Globally enabling using "istioctl install" istioctl install ---set profile-deno ------set Globally customizing encoding which defaults to "TEXT istiocti install ------set profile---demo ------set Reverting back to no access log istiocti instati ------set profile-deno ------set meshConfig.aecessLogFiie=•• ------set This configuration is stored in "istio" configmap as default "mesh" configuration kubecti ---n istio---system get cm istio ---o yami I grep accessLog accessLogEneoding: TEXT accessLogFiie: • accessLogFormat: ](../../../media/DevOps-Monitoring-Others-image4.png)
+![Globally Enabling Access Logs Globally enabling using "istioctl install" istioctl install ---set profile-deno ------set Globally customizing encoding which defaults to "TEXT istiocti install ------set profile - demo ------set Reverting back to no access log istiocti instati ------set profile-deno ------set meshConfig.aecessLogFiie=•• ------set This configuration is stored in "istio" configmap as default "mesh" configuration kubecti ---n istio - system get cm istio ---o yami I grep accessLog accessLogEneoding: TEXT accessLogFiie: • accessLogFormat: ](../../../media/DevOps-Monitoring-Others-image4.png)
 
 ![image](../../../media/DevOps-Monitoring-Others-image5.png)
 
