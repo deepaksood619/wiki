@@ -17,11 +17,11 @@ Modified: 2022-05-23 00:02:39 +0500
 
 ## Revisiting the Cash Flow Statement
 
-![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image1.jpg)
+![image](media/Accounting-for-Finance_4--Cash-Flow-Statements-Cash-In-and-Cash-Out-image1.jpg)
 
 1. Cash flows from Operations
 
-![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image2.jpg)
+![image](media/Accounting-for-Finance_4--Cash-Flow-Statements-Cash-In-and-Cash-Out-image2.jpg)
 
 ## The working capital effect?
 
@@ -32,7 +32,7 @@ Modified: 2022-05-23 00:02:39 +0500
 
 2. **Cash flows from Investing**
 
-![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image3.jpg)
+![image](media/Accounting-for-Finance_4--Cash-Flow-Statements-Cash-In-and-Cash-Out-image3.jpg)
 
 ## Operating or Non-operating assets
 
@@ -42,7 +42,7 @@ Modified: 2022-05-23 00:02:39 +0500
 
 3. **Cash flows from Financing**
 
-![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image4.jpg)
+![image](media/Accounting-for-Finance_4--Cash-Flow-Statements-Cash-In-and-Cash-Out-image4.jpg)
 
 ## Debt cash flows
 
@@ -84,10 +84,10 @@ The dividend discount model (DDM) is a quantitative method used for predicting t
 
 ## Potential Dividends (FCFE)
 
-![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image5.jpg)
+![image](media/Accounting-for-Finance_4--Cash-Flow-Statements-Cash-In-and-Cash-Out-image5.jpg)
 
-![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image6.jpg)
+![image](media/Accounting-for-Finance_4--Cash-Flow-Statements-Cash-In-and-Cash-Out-image6.jpg)
 
-![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image7.jpg)
+![image](media/Accounting-for-Finance_4--Cash-Flow-Statements-Cash-In-and-Cash-Out-image7.jpg)
 
-![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image8.jpg)
+![image](media/Accounting-for-Finance_4--Cash-Flow-Statements-Cash-In-and-Cash-Out-image8.jpg)

@@ -132,7 +132,7 @@ If the destination container orserviceand the source container are not on the sa
 
 **Example**
 
-![image](../../media/DevOps-Docker-Stack---Swarm-image1.png)
+![image](../../media/DevOps-Docker-Stack-Swarm-image1.png)
 
 In this example, there is a service of two containers called `myservice`. A second service (client) exists on the same network. The client executes two curl operations for docker.com and myservice. These are the resulting actions:
 

@@ -23,7 +23,7 @@ Internet of Things Solutions and deployment of Intelligent products.
 
 Eclipse Hono provides remote service interfaces for connecting large numbers of IoT devices to a back end and interacting with them in a uniform way regardless of the device communication protocol.
 
-![Telemetry MQTT Solutions AMQP 1.0 CoAP Things AMQP 1.0 Command &Control Custom ](../../media/Technologies-Others-Others---IoT-image1.png)
+![Telemetry MQTT Solutions AMQP 1.0 CoAP Things AMQP 1.0 Command &Control Custom ](../../media/Technologies-Others-Others-IoT-image1.png)
 
 Hono specifically supports scalable and secure ingestion of large volumes of sensor data by means of its Telemetry and Event APIs. Hono's Command & Control API allows for sending commands (request messages) to devices and receive a reply to such a command from a device in an asynchronous way.
 
@@ -63,7 +63,7 @@ Hono specifically supports scalable and secure ingestion of large volumes of sen
 
 The MQTT protocol adapter exposes an MQTT topic hierarchy for publishing telemetry data and events to downstream consumers and for receiving commands from applications and sending back responses.
 
-![. Devices H TTP MQTT AMQP H TTp Adapter MQTT Adapter AMQP Adapter Grafana Hono Instance Auth Server Device Registry Graphite AMQP Network . Artemis Dispatch Router AMQP 1.0 Solution Tier : Application One Application Two InfluxDB Monitoring Infrastructure . ](../../media/Technologies-Others-Others---IoT-image2.png)
+![image](../../media/Technologies-Others-Others-IoT-image2.png)
 
 <https://github.com/eclipse/hono>
 
@@ -75,9 +75,8 @@ The MQTT protocol adapter exposes an MQTT topic hierarchy for publishing telemet
 
 Project Flogo is an ultra-light, Go-based open source ecosystem for building event-driven apps.
 
-The notion of triggers and actions are leveraged to process incoming events. An action, a common interface, exposes key capabilities such as application integration, stream processing, etc.
-
-![(spelpueH 38 罒 ](../../media/Technologies-Others-Others---IoT-image3.png)
+The notion of triggers and actions are leveraged to process incoming events. An action, a common interface, exposes key capabilities such as application integration, stream processing, etc
+![image](../../media/Technologies-Others-Others-IoT-image3.png)
 
 - **App = Trigger(s) + Actions [&Activities]**
 - **Triggers**

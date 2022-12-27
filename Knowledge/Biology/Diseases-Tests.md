@@ -119,7 +119,7 @@ It can be prevented in babies before birth
 
 ## Tests
 
-![image](media/Diseases---Tests-image1.png)
+![image](media/Diseases-Tests-image1.png)
 
 - fasting lipid profile test (full lipid profile or lipoprotein analysis) - every 5 years
   - total cholestral
@@ -127,11 +127,11 @@ It can be prevented in babies before birth
   - HDL
   - Triglyceride
 
-![image](media/Diseases---Tests-image2.png)
+![image](media/Diseases-Tests-image2.png)
 
 - Blood Pressure (every year)
 
-![image](media/Diseases---Tests-image3.png)
+![image](media/Diseases-Tests-image3.png)
 
 ## Hemorrhoid / Piles
 
@@ -153,7 +153,7 @@ An eating disorder characterized by markedly reduced appetite or total aversion 
 
 - A boil is a common, painful infection of a hair follicle and the surrounding skin. It begins as a red lump, then fills with pus as white blood cells rush in to fight the infection. Good home care can often clear up a single boil, also known as a skin abscess. A doctor's care is needed when a boil resists treatment or develops in certain vulnerable areas of the body.
 
-![image](media/Diseases---Tests-image4.jpg)
+![image](media/Diseases-Tests-image4.jpg)
 
 - You may also have a general feeling of ill health, fatigue, or a fever, which is reason to call a doctor.
 - Most boils are caused by **staph bacteria (Staphylococcus aureus)**. When a scrape, cut, or splinter breaks the skin, the bacteria can enter a hair follicle and start an infection.
@@ -170,7 +170,7 @@ An eating disorder characterized by markedly reduced appetite or total aversion 
 
 When several boils form close together and join beneath the skin, it's called a carbuncle. They are most commonly found on the back and the neck but can develop anywhere. Men are more likely to develop carbuncles than women. A carbuncle tends to lie deeper beneath the skin than a boil and can take longer to heal.
 
-![image](media/Diseases---Tests-image5.jpg)
+![image](media/Diseases-Tests-image5.jpg)
 
 - Cystic Acne
 - Armpit and Groin (hidradenitis suppurativa)

@@ -36,7 +36,7 @@ Brief size / Capri - M (80-85 cm)
 
 Innerwear Vest - S (80-85 cm)
 
-![1 ](media/Nutrition_My-Body---About-me-image1.png)
+![1 ](media/Nutrition_My-Body-About-me-image1.png)
 
 Body Fat - 3.8%
 

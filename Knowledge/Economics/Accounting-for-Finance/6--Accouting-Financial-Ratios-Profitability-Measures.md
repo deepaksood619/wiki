@@ -17,7 +17,7 @@ Modified: 2022-01-10 21:59:08 +0500
 
 1. **Profit Margins**
 
-![image](media/Accounting-for-Finance_6--Accouting-Financial-Ratios---Profitability-Measures-image1.jpeg)
+![image](media/Accounting-for-Finance_6--Accouting-Financial-Ratios-Profitability-Measures-image1.jpeg)
 
 ## Contribution & Gross Margins: The Costs of Production
 
@@ -47,7 +47,7 @@ Modified: 2022-01-10 21:59:08 +0500
 
 ## A Life Cycle View of Margins
 
-![image](media/Accounting-for-Finance_6--Accouting-Financial-Ratios---Profitability-Measures-image2.jpg)
+![image](media/Accounting-for-Finance_6--Accouting-Financial-Ratios-Profitability-Measures-image2.jpg)
 
 2. **Accounting Returns**
     - **With accounting returns, profits are scaled to measures of investment in a project or business**
@@ -59,11 +59,11 @@ Modified: 2022-01-10 21:59:08 +0500
 
 ## Return on Equity
 
-![image](media/Accounting-for-Finance_6--Accouting-Financial-Ratios---Profitability-Measures-image3.jpg)
+![image](media/Accounting-for-Finance_6--Accouting-Financial-Ratios-Profitability-Measures-image3.jpg)
 
 ## Return on Invested Capital
 
-![image](media/Accounting-for-Finance_6--Accouting-Financial-Ratios---Profitability-Measures-image4.jpg)
+![image](media/Accounting-for-Finance_6--Accouting-Financial-Ratios-Profitability-Measures-image4.jpg)
 
 3. **Efficiency Ratios**
     - **Efficiency ratios measure the revenue payoff that companies get from reinvesting back in their businesses**

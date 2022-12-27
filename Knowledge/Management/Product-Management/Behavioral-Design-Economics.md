@@ -16,13 +16,13 @@ Modified: 2022-10-31 21:04:05 +0500
 
 Asked people to "accept" or "decline" the new feature. By asking people if they wanted to decline (which is definitive and final), there was now a cost to not accepting it---you might not get a second chance. Suddenly, "accept" looks much better in comparison. When we allow people to skip something or say "maybe later," there's very little cost to them.
 
-![image](media/Product-Management_Behavioral-Design---Economics-image1.jpeg)
+![image](media/Product-Management_Behavioral-Design-Economics-image1.jpeg)
 
 ## Present bias
 
 The immediate benefit to the user of taking the action should be higher than the cost of the action. This is because we tend toward ["present bias](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3909663)." In the prior example, we increased the benefit of saying "yes," by making "no" relatively more costly (definitive and final). Now we increased the benefit of saying "yes" by focusing people on a short-term goal: completing setup. People (you, your users, your customers) all want to complete things. By making people feel closer to completing something, we delivered a bigger immediate benefit.
 
-![image](media/Product-Management_Behavioral-Design---Economics-image2.jpg)
+![image](media/Product-Management_Behavioral-Design-Economics-image2.jpg)
 
 <https://irrationallabs.com/blog/its-not-always-about-making-things-easier-when-to-make-your-sign-up-flow-harder>
 
@@ -48,17 +48,17 @@ Day 1 is the day your users have the most momentum they will ever have. Catching
 
 3. Behavioral map
 
-![image](media/Product-Management_Behavioral-Design---Economics-image3.jpg)
+![image](media/Product-Management_Behavioral-Design-Economics-image3.jpg)
 
 4. Identify the psychologies at play
 
 Humans tend to follow the path of least resistance and respond to immediate incentives
 
-![image](media/Product-Management_Behavioral-Design---Economics-image4.jpg)
+![image](media/Product-Management_Behavioral-Design-Economics-image4.jpg)
 
 5. Conduct theory-based experiments
 
-![image](media/Product-Management_Behavioral-Design---Economics-image5.jpeg)
+![image](media/Product-Management_Behavioral-Design-Economics-image5.jpeg)
 
 <https://irrationallabs.com/learn>
 

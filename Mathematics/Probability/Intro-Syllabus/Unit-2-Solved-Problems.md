@@ -17,7 +17,7 @@ We roll two fair 6-sided dice. Each one of the 36 possible outcomes is assumed t
 (c) Find the probability that at least one die roll is a 6.
 
 (d) Given that the two dice land on different numbers, find the conditional probability that at least one die roll is a 6.
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image1.png)# A chess tournament problem
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image1.png)# A chess tournament problem
 
 This year's Belmont chess champion is to be selected by the following procedure. Bo and Ci, the leading challengers, first play a two-game match. If one of them wins both games, he gets to play a two-game*second round*with Al, the current champion. Al retains his championship unless a second round is required and the challenger beats Al in both games. If Al wins the initial game of the second round, no more games are played.
 
@@ -46,20 +46,20 @@ Assume no tie games are possible and all games are independent.
 (b) Al retains his championship.
 
 3. Given that the second round was required and that it comprised only one game, what is the conditional probability that it was Bo who won the first round?
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image2.png)
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image3.png)
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image2.png)
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image3.png)
 
 # A coin tossing puzzle
 
 A coin is tossed twice. Alice claims that the event of getting two Heads is at least as likely if we know that the first toss is Heads than if we know that at least one of the tosses is Heads. Is she right? Does it make a difference if the coin is fair or unfair? How can we generalize Alice's reasoning?
-![A 乙 丿 匕 ](media/Intro---Syllabus_Unit-2---Solved-Problems-image4.png)
+![A 乙 丿 匕 ](media/Intro-Syllabus_Unit-2-Solved-Problems-image4.png)
 
 Solution - We can see that Alice claim is true without ever considering the probability of Head if it is biased or not.
 Also P ( A intersection B | A ) = 1/2 and P ( A intersection B | A U B ) = 1/3, for a fair coin, where
 
 A = 1st toss is head and B = 2nd toss is head
 
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image5.png)
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image5.png)
 
 # The Monty Hall problem
 
@@ -70,7 +70,7 @@ This is a much discussed puzzle, based on an old American game show. You are tol
 - You first point to door 1. If door 2 is opened, you do not switch. If door 3 is opened, you switch.
 
 Which is the best strategy?
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image6.png)# A random walker
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image6.png)# A random walker
 
 Imagine a drunk tightrope walker, who manages to keep his balance, but takes a step forward with probabilitypand takes a step back with probability(1−p).
 
@@ -79,12 +79,12 @@ Imagine a drunk tightrope walker, who manages to keep his balance, but takes a s
 (b) What is the probability that after three steps, the tightrope walker will be one step forward from where he started?
 
 (c) Given that after three steps he has managed to move ahead one step, what is the probability that the first step he took was a step forward?
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image7.png)
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image8.png)# Communication over a noisy channel
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image7.png)
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image8.png)# Communication over a noisy channel
 
 A source transmits a message (a string of symbols) over a noisy communication channel. Each symbol is0or1with probabilitypand1−p, respectively, and is received incorrectly with probabilityϵ0andϵ1, respectively (see the figure below). Errors in different symbol transmissions are independent.
 
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image9.png)
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image9.png)
 
 (a) What is the probability that thekth symbol is received correctly?
 
@@ -96,12 +96,12 @@ A source transmits a message (a string of symbols) over a noisy communication ch
 
 (e) Suppose that the scheme of part (c) is used. What is the probability that a symbol was0given that the received string is101?
 
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image10.png)# Network reliability
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image10.png)# Network reliability
 
 An electrical system consists of identical components, each of which is operational with probabilityp, independent of other components. The components are connected in three subsystems, as shown in the figure. The system is operational if there is a path that starts at pointA, ends at pointB, and consists of operational components. What is the probability of this happening?
 
-![0 ](media/Intro---Syllabus_Unit-2---Solved-Problems-image11.png)
-![sena ](media/Intro---Syllabus_Unit-2---Solved-Problems-image12.png)
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image13.png)
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image14.png)
-![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image15.png)
+![0 ](media/Intro-Syllabus_Unit-2-Solved-Problems-image11.png)
+![sena ](media/Intro-Syllabus_Unit-2-Solved-Problems-image12.png)
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image13.png)
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image14.png)
+![image](media/Intro-Syllabus_Unit-2-Solved-Problems-image15.png)

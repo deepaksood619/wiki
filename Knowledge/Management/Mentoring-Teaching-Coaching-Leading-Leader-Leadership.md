@@ -28,7 +28,7 @@ Leadership is not equal to management
 
 The best way to encourage radical candor is to be open to it youself - demonstrate the behavior you want to encourage in others
 
-![image](media/Mentoring---Teaching---Coaching---Leading---Leader---Leadership-image1.jpeg)
+![image](media/Mentoring-Teaching-Coaching-Leading-Leader-Leadership-image1.jpeg)
 
 ## Principles - <https://www.amazon.jobs/en/principles>
 
@@ -161,7 +161,7 @@ This ultra-hands-off style of leadership essentially transfers all authority to 
 
 <https://www.atlassian.com/blog/quiz/find-your-leadership-style-examples>
 
-![image](media/Mentoring---Teaching---Coaching---Leading---Leader---Leadership-image2.jpg)
+![image](media/Mentoring-Teaching-Coaching-Leading-Leader-Leadership-image2.jpg)
 
 ## Executive Presence
 

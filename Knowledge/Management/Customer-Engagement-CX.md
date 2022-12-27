@@ -94,7 +94,7 @@ Closely monitoring and analyzing customers' feedback helps you unlock incredible
 
 [Net Promoter Score (NPS)](https://www.hotjar.com/blog/customer-effort-score/) is a measure used to gauge customer loyalty, satisfaction, and enthusiasm with a company that's calculated by asking customers one question: "On a scale from 0 to 10, how likely are you to recommend this product/company to a friend or colleague?" Aggregate NPS scores help businesses improve upon service, customer support, delivery, etc. for increased customer loyalty.
 
-![image](media/Customer-Engagement---CX-image1.jpeg)
+![image](media/Customer-Engagement-CX-image1.jpeg)
 
 ## NPS = % of promoters (9s and 10s) - % of detractors (0s - 6s)
 
@@ -317,13 +317,13 @@ Clarity is a free, easy-to-use tool that captures how real people actually use y
 
 EBR - Executive Business Review
 
-![image](media/Customer-Engagement---CX-image2.jpg)
+![image](media/Customer-Engagement-CX-image2.jpg)
 
 ## Power Users
 
 Power users drive some of the most successful companies --- people who love their product, are highly engaged, and contribute a ton of value to the network. In ecommerce marketplaces it's power sellers, in ridesharing platforms it's power riders, and in social networks it's influencers.
 
-![image](media/Customer-Engagement---CX-image3.png)
+![image](media/Customer-Engagement-CX-image3.png)
 
 <https://andrewchen.com/power-user-curve>
 
@@ -412,7 +412,7 @@ Connecting a CRM to a different software platform like accounting or newsletter 
 
 ## Customer Data Platform (CDP)
 
-![image](media/Customer-Engagement---CX-image4.png)
+![image](media/Customer-Engagement-CX-image4.png)
 
 A Customer Data Platform (CDP) is a software that aggregates and organizes customer data across a variety of touchpoints and is used by other software, systems, and marketing efforts. CDPs collect and structure real-time data into individual, centralized customer profiles.
 

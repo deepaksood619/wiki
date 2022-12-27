@@ -45,7 +45,7 @@ The blockchain trilemma is a concept coined by [Vitalik Buterin](https://coinmar
 
 ## The Scalability Trilemma
 
-![image](media/Bitcoin---Cryptocurrency---Web3-image1.jpg)
+![image](media/Bitcoin-Cryptocurrency-Web3-image1.jpg)
 <https://medium.com/logos-network/everything-you-know-about-the-scalability-trilemma-is-probably-wrong-bc4f4b7a7ef>
 <https://www.toptal.com/bitcoin/intro-to-bitcoin-lightning-network>
 
@@ -62,7 +62,7 @@ The blockchain trilemma is a concept coined by [Vitalik Buterin](https://coinmar
 - Proof of work -> Proof of stake
 - Sharding will increasing 1000 TPS
 - EIP 1559
-![image](media/Bitcoin---Cryptocurrency---Web3-image2.jpeg)
+![image](media/Bitcoin-Cryptocurrency-Web3-image2.jpeg)
 
 ## Is a greener, faster and more decentralised alternative to Bitcoin possible?
 

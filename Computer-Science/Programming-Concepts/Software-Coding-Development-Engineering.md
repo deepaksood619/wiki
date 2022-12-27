@@ -31,7 +31,7 @@ Making great software is more about managing complexity and thinking through det
 
 Used for setting, communicating and monitoring quarterly goals and results in organizations.
 
-![image](media/Software-Coding---Development-Engineering-image1.png)
+![image](media/Software-Coding-Development-Engineering-image1.png)
 <https://soapboxhq.com/goal-examples/engineering>
 
 <https://okrexamples.co/technology-engineering-rnd-okr-examples>
@@ -59,7 +59,7 @@ Yak shaving is programming lingo for the seemingly endless series of small tasks
 
 ## SLAP - Single Level of Abstraction Principle
 
-![Three stages](media/Software-Coding---Development-Engineering-image2.png)
+![Three stages](media/Software-Coding-Development-Engineering-image2.png)
 
 ## Legacy code
 
@@ -131,7 +131,7 @@ An interaction diagram is used to show theinteractive behaviorof a system. Since
 
 A sequence diagram simply depicts interaction between objects in a sequential order i.e. the order in which these interactions take place. We can also use the terms event diagrams or event scenarios to refer to a sequence diagram. Sequence diagrams describe how and in what order the objects in a system function. These diagrams are widely used by businessmen and software developers to document and understand requirements for new and existing systems.
 
-![image](media/Software-Coding---Development-Engineering-image3.png)
+![image](media/Software-Coding-Development-Engineering-image3.png)
 
 <https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams>-  Flowchart
 
@@ -180,7 +180,7 @@ A Workflow is a series of decisions made by different people that determines wha
 
 Aswimlane(orswimlane diagram) is used in [process flow diagrams](https://www.wikiwand.com/en/Flowchart), or flowcharts, that visually distinguishes [job sharing](https://www.wikiwand.com/en/Job_sharing) and responsibilities for sub-processes of a [business process](https://www.wikiwand.com/en/Business_process). Swimlanes may be arranged either horizontally or vertically.
 
-![image](media/Software-Coding---Development-Engineering-image4.png)
+![image](media/Software-Coding-Development-Engineering-image4.png)
 
 <https://www.wikiwand.com/en/Swim_lane>
 
@@ -205,10 +205,10 @@ Safety-critical elements are systems or components that are designed to prevent,
 
 ## Non Functional Requirements
 
-<https://en.wikipedia.org/wiki/Non-functional_requirement>![image](media/Software-Coding---Development-Engineering-image5.png)
-![image](media/Software-Coding---Development-Engineering-image6.png)
-![image](media/Software-Coding---Development-Engineering-image7.png)
-![image](media/Software-Coding---Development-Engineering-image8.png)
+<https://en.wikipedia.org/wiki/Non-functional_requirement>![image](media/Software-Coding-Development-Engineering-image5.png)
+![image](media/Software-Coding-Development-Engineering-image6.png)
+![image](media/Software-Coding-Development-Engineering-image7.png)
+![image](media/Software-Coding-Development-Engineering-image8.png)
 
 ## Junior developer training guide
 
@@ -302,7 +302,7 @@ Here, the applicant clearly describes what they did (launch Facebook Messenger),
 
 ## Cycle time compression
 
-![image](media/Software-Coding---Development-Engineering-image9.png)
+![image](media/Software-Coding-Development-Engineering-image9.png)
 
 ## Time Estimation
 

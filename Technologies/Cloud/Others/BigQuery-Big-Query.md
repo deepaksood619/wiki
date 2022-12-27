@@ -18,7 +18,7 @@ Jupiter - The Network
 
 BigQuery - The Service
 
-![image](../../media/Cloud-Others-BigQuery---Big-Query-image1.png)
+![image](../../media/Cloud-Others-BigQuery-Big-Query-image1.png)
 
 ## Separation of Compute and State
 

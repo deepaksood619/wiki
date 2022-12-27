@@ -14,7 +14,7 @@ Patterns in the past persist in the future
 
 1. Significant coefficients
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image1.png)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image1.png)
 
 2. Parsimonious (as simple as possible)
 
@@ -47,16 +47,16 @@ We rely on autoregressive models when there is clear autocorrelation within the 
 
 Since time series assumes that patterns found in the past translate to the future, if autocorrelation is present in the data, we need to us some form of AR model to capture this relationship if we wish to make good estimates
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image2.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image2.jpg)
 
 - A linear model, where current period values are a sum of past outcomes multiplied by a numeric factor
 - phi is between -1 and +1
 
 ## Implementation of simple mode in Python
 
-![The library](media/Course---Time-Series-Analysis_Time-Series-Modeling-image3.jpg)
+![The library](media/Course-Time-Series-Analysis_Time-Series-Modeling-image3.jpg)
 
-![1 More ](media/Course---Time-Series-Analysis_Time-Series-Modeling-image4.png)
+![1 More ](media/Course-Time-Series-Analysis_Time-Series-Modeling-image4.png)
 
 Which do we use to select the correct ARmodel and why: the ACFor the PACF? The PACF because it shows the individual effect each past value has on the current one.
 
@@ -133,11 +133,11 @@ This implies that there are other factors apart from the previous values of the 
 
 This is why, these models incorporate past residuals (also known as error terms) to help us improve our estimations. These make sure our model handles unexpected shocks well, which is why it's also known as a smoothing model
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image5.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image5.jpg)
 
 ## Implementation of the Simple Model in Python
 
-![The library](media/Course---Time-Series-Analysis_Time-Series-Modeling-image6.jpg)
+![The library](media/Course-Time-Series-Analysis_Time-Series-Modeling-image6.jpg)
 
 How is the MAmodel different from the ARmodel?
 
@@ -176,11 +176,11 @@ The ARMA incorporates both past values (like the AR) and past errors (like the M
 
 Picking the correct order for such a model could be tricky, since including or removing AR and MA orders can have widly different effects on the accuracy
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image7.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image7.jpg)
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image8.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image8.jpg)
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image9.png)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image9.png)
 
 Positive 0.7649 ar.L1.returns means that
 
@@ -228,9 +228,9 @@ An ARIMA model with 0 degrees of integration is simply an ARMA model, and so any
 
 The order of integration (d) tells us exactly how many times we need to compute the non-seasonal differences between the values to reach stationarity and including more is discouraged (due to data attrition and interpretability of the results)
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image10.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image10.jpg)
 
-![Implementation](media/Course---Time-Series-Analysis_Time-Series-Modeling-image11.jpg)
+![Implementation](media/Course-Time-Series-Analysis_Time-Series-Modeling-image11.jpg)
 
 p - AutoRegressive (AR) components
 
@@ -248,7 +248,7 @@ ARIMA (0, 0, q) = MA(q)
 
 ARIMA (p, 0, 0) = AR(p)
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image12.png)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image12.png)
 
 - For any integration we lose a single observation
 
@@ -260,7 +260,7 @@ Why does an ARIMA(p,d,q) model estimate the same number of coefficients as an AR
 
 Because the order of integration does not affect the number of coefficients we are trying to find.
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image13.png)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image13.png)
 
 ARIMA (5,1,1)
 
@@ -286,9 +286,9 @@ These variables can be pretty much anything that can have an affect on the value
 
 These models are great, when a big part of the change period to period cannot be explained by past values and past errors alone, so including other relevant values might be of great help (like the prices for an index of a market of a neighbouring country)
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image14.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image14.jpg)
 
-![Implementation](media/Course---Time-Series-Analysis_Time-Series-Modeling-image15.jpg)
+![Implementation](media/Course-Time-Series-Analysis_Time-Series-Modeling-image15.jpg)
 
 The ARIMA is just an integrated version of the ARMA model. What that means is, we simply integrate the data (however many times is needed) to get a stationary set
 
@@ -329,9 +329,9 @@ For instance, by not including exogenous variables and having no integration, th
 
 The equation on the left is exactly that - a SARIMAX equivalent of a SARMA
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image16.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image16.jpg)
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image17.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image17.jpg)
 
 Capital letters - Seasonal components
 
@@ -342,13 +342,13 @@ Lower letters - Non seasonal components
 - The number of periods needed to pass before the tendency reappears
 - s = 1 -> No seasonality
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image18.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image18.jpg)
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image19.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image19.jpg)
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image20.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image20.jpg)
 
-![Implementation](media/Course---Time-Series-Analysis_Time-Series-Modeling-image21.jpg)
+![Implementation](media/Course-Time-Series-Analysis_Time-Series-Modeling-image21.jpg)
 
 ## Volatility
 
@@ -378,17 +378,17 @@ As you can see on the left side of the equation, the endogenous variable is the 
 
 Thus, this is only the variance equation of the model. The simplest ARCH model assumes a 0 or constant mean, so this is the only equation we are interested in
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image22.jpg)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image22.jpg)
 
-![Implementation](media/Course---Time-Series-Analysis_Time-Series-Modeling-image23.jpg)
+![Implementation](media/Course-Time-Series-Analysis_Time-Series-Modeling-image23.jpg)
 
 Why does the ARCHmodel require 2 equations?
 
 Because we need some sort of benchmark to measure the volatility away from it.
 
-![equation-3](media/Course---Time-Series-Analysis_Time-Series-Modeling-image24.png)
+![equation-3](media/Course-Time-Series-Analysis_Time-Series-Modeling-image24.png)
 
-![The arch model](media/Course---Time-Series-Analysis_Time-Series-Modeling-image25.png)
+![The arch model](media/Course-Time-Series-Analysis_Time-Series-Modeling-image25.png)
 
 How many coefficients does the simple ARCHmodel estimate? - 3
 
@@ -402,9 +402,9 @@ The generalization comes from the fact that including a single past variance wou
 
 It serves as a sort of ARMA equivalent to the ARCH, where we're including both past values and past errors (albeit squared)
 
-![Var](media/Course---Time-Series-Analysis_Time-Series-Modeling-image26.jpg)
+![Var](media/Course-Time-Series-Analysis_Time-Series-Modeling-image26.jpg)
 
-![Implementation](media/Course---Time-Series-Analysis_Time-Series-Modeling-image27.jpg)
+![Implementation](media/Course-Time-Series-Analysis_Time-Series-Modeling-image27.jpg)
 
 How is the GARCHdifferent from the ARCH?
 
@@ -430,7 +430,7 @@ Yield non-significant coefficients
 
 - auto_arima by default only compares the model based on their AIC
 
-![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image28.png)
+![image](media/Course-Time-Series-Analysis_Time-Series-Modeling-image28.png)
 
 <http://alkaline-ml.com/pmdarima/modules/generated/pmdarima.arima.auto_arima.html#pmdarima.arima.auto_arima>
 

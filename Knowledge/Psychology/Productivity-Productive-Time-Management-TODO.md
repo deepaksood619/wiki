@@ -80,7 +80,7 @@ Is this a problem that needs to be solved? Or is it a problem that can be elimin
 
 "It is wonderful how much work can be got through in a day, if we go by the rule---map out our time, divide it off, and take up one thing regularly after another. To drift through our work, or to rush through it in a helter-skelter fashion, ends in comparatively little being done. "One thing at a time" will always perform a better day's work than doing two or three things at a time. By following this rule, one person will do more in a day than another does in a week."
 
-![image](media/Productivity---Productive---Time-Management---TODO-image1.jpg)
+![image](media/Productivity-Productive-Time-Management-TODO-image1.jpg)
 
 ## MIT Technique
 
@@ -174,7 +174,7 @@ At first this seems crazy large. And, admittedly, this rule can be reduced for l
 
 ## Blinkist - Get your shit together by Sarah Knight (2 Jan 2019)
 
-![image](media/Productivity---Productive---Time-Management---TODO-image2.png)
+![image](media/Productivity-Productive-Time-Management-TODO-image2.png)
 
 ## Blinkist - The Organized Mind by Daniel Levitin (3 Jan 2019)
 
@@ -661,7 +661,7 @@ What you want in life is to be in control of your time. You want to get into a l
 
 ## Eisenhower Matrix
 
-![image](media/Productivity---Productive---Time-Management---TODO-image3.png)
+![image](media/Productivity-Productive-Time-Management-TODO-image3.png)
 
 1. Urgent & Important
 
@@ -671,7 +671,7 @@ What you want in life is to be in control of your time. You want to get into a l
 
 4. Not Urgent & Not Important
 
-![jp-kantor](media/Productivity---Productive---Time-Management---TODO-image4.png)
+![jp-kantor](media/Productivity-Productive-Time-Management-TODO-image4.png)
 
 ## Blinkist - The Slight Edge
 

@@ -98,7 +98,7 @@ The TLS protocol aims primarily to provide [privacy](https://en.wikipedia.org/wi
 
 [Application-Layer](https://en.wikipedia.org/wiki/Application_layer) Protocol Negotiation(ALPN) is a [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)(TLS) extension that allows the application layer to negotiate which [protocol](https://en.wikipedia.org/wiki/Communications_protocol) should be performed over a secure connection in a manner that avoids additional round trips and which is independent of the application-layer protocols. It is needed by secure [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) connections, which improves the compression of web pages and reduces their latency compared to HTTP/1.x. The ALPN and HTTP/2 standards emerged from development work done by Google on the now withdrawn [SPDY](https://en.wikipedia.org/wiki/SPDY) protocol.
 
-![image](media/HTTP---HTTPS-image1.png)
+![image](media/HTTP-HTTPS-image1.png)
 
 <https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation>
 

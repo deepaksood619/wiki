@@ -74,11 +74,11 @@ Creating **psychological safety** in the workplace for learning, innovation, and
   - What challenges are you facing?
   - What can I do to help you?
 
-![image](media/People---Team-Management---Culture-image1.png)
+![image](media/People-Team-Management-Culture-image1.png)
 
-![image](media/People---Team-Management---Culture-image2.png)
+![image](media/People-Team-Management-Culture-image2.png)
 
-![image](media/People---Team-Management---Culture-image3.png)
+![image](media/People-Team-Management-Culture-image3.png)
 
 [Work Principles](https://deepstash.com/idea/58882/work-principles)
 
@@ -195,11 +195,11 @@ The fundamental principle of the situational leadership model is that there is *
   - Motivation
   - Urgency
 
-![image](media/People---Team-Management---Culture-image4.png)
+![image](media/People-Team-Management-Culture-image4.png)
 
-![image](media/People---Team-Management---Culture-image5.png)
+![image](media/People-Team-Management-Culture-image5.png)
 
-![image](media/People---Team-Management---Culture-image6.png)
+![image](media/People-Team-Management-Culture-image6.png)
 
 - Three are many ways to lead
   - Coach
@@ -208,9 +208,9 @@ The fundamental principle of the situational leadership model is that there is *
   - Champion
 - Saying no
 
-![image](media/People---Team-Management---Culture-image7.png)
+![image](media/People-Team-Management-Culture-image7.png)
 
-![image](media/People---Team-Management---Culture-image8.png)
+![image](media/People-Team-Management-Culture-image8.png)
 
 1. Awareness
 
@@ -232,7 +232,7 @@ The fundamental principle of the situational leadership model is that there is *
 - Influencing
 - Delegation
 
-![image](media/People---Team-Management---Culture-image9.png)
+![image](media/People-Team-Management-Culture-image9.png)
 
 <https://blog.trello.com/flexibility-secret-of-great-leaders-everywhere>
 
@@ -245,7 +245,7 @@ The fundamental principle of the situational leadership model is that there is *
 
 Move from Maker to Multiplier mode
 
-![image](media/People---Team-Management---Culture-image10.png)
+![image](media/People-Team-Management-Culture-image10.png)
 
 [You're The Tech Lead! Now What?](https://www.youtube.com/watch?v=muls9BogsVQ)
 
@@ -356,7 +356,7 @@ Logically segment the business into micro-subdomains, so that each can be suppor
 
 <https://about.gitlab.com/blog/2020/08/27/measuring-engineering-productivity-at-gitlab>
 
-![image](media/People---Team-Management---Culture-image11.jpeg)
+![image](media/People-Team-Management-Culture-image11.jpeg)
 
 ## Bus Factor
 
@@ -368,7 +368,7 @@ Escalation matrix
 
 ## One Minute Manager
 
-![image](media/People---Team-Management---Culture-image12.png)
+![image](media/People-Team-Management-Culture-image12.png)
 
 [**https://klinger.io/posts/managing-people-%F0%9F%A4%AF**](https://klinger.io/posts/managing-people-%F0%9F%A4%AF)
 
@@ -402,7 +402,7 @@ This is a question that I love asking my manager and peers because I experience 
 - Attention to detail
 - Communicate well & Clearly
 
-![image](media/People---Team-Management---Culture-image13.png)
+![image](media/People-Team-Management-Culture-image13.png)
 
 ## Remote Working / Teams
 
@@ -480,7 +480,7 @@ To complement the self-assessment of the stress continuum, McGladrey recently pi
 
 ## QRC Team Topologies
 
-![image](media/People---Team-Management---Culture-image14.jpeg)
+![image](media/People-Team-Management-Culture-image14.jpeg)
 
 ## Managing Managers
 

@@ -333,13 +333,13 @@ You must own **equity -** a piece of business - to gain your financial freedom
 
 - Max alpha (growth) with lowest beta (risk)
 
-![image](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image1.jpeg)
+![image](media/TODO-Financial-Finance-Investing_Checklist-Tips-Personal-Finance-Quotes-image1.jpeg)
 
-![image](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image2.jpg)
+![image](media/TODO-Financial-Finance-Investing_Checklist-Tips-Personal-Finance-Quotes-image2.jpg)
 
-![image](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image3.jpeg)
+![image](media/TODO-Financial-Finance-Investing_Checklist-Tips-Personal-Finance-Quotes-image3.jpeg)
 
-![image](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image4.jpeg)
+![image](media/TODO-Financial-Finance-Investing_Checklist-Tips-Personal-Finance-Quotes-image4.jpeg)
 
 ## Financial Independence, Retire Early (FIRE)
 

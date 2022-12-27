@@ -10,7 +10,7 @@ Modified: 2022-03-31 22:34:57 +0500
 - Don't add all in video call (to save bandwidth)
 - Do group calls
 
-![image](media/Project-Management_Scrum---Meetings-image1.gif)
+![image](media/Project-Management_Scrum-Meetings-image1.gif)
 
 Scrum: The Art of Doing Twice the Work in Half the Time by J. J. Sutherland
 
@@ -96,7 +96,7 @@ Keep tabs on action items.Assign someone to check in at appropriate intervals af
 - [Overview](https://www.atlassian.com/agile/scrum)
 - [Sprints](https://www.atlassian.com/agile/scrum/sprints)
 
-![image](media/Project-Management_Scrum---Meetings-image2.png)
+![image](media/Project-Management_Scrum-Meetings-image2.png)
 
 - **Artifacts**
   - Product Backlog
@@ -180,11 +180,11 @@ Keep tabs on action items.Assign someone to check in at appropriate intervals af
 18. Managers - engineering to product managers
 19. Executive
 
-![image](media/Project-Management_Scrum---Meetings-image3.png)
+![image](media/Project-Management_Scrum-Meetings-image3.png)
 
-![image](media/Project-Management_Scrum---Meetings-image4.jpg)
+![image](media/Project-Management_Scrum-Meetings-image4.jpg)
 
-![image](media/Project-Management_Scrum---Meetings-image5.jpg)
+![image](media/Project-Management_Scrum-Meetings-image5.jpg)
 
 ## Questions
 
@@ -236,7 +236,7 @@ Keep tabs on action items.Assign someone to check in at appropriate intervals af
 
 ## Checklist
 
-![image](media/Project-Management_Scrum---Meetings-image6.jpg)
+![image](media/Project-Management_Scrum-Meetings-image6.jpg)
 
 ## WBR - Weekly Business Review
 
@@ -248,4 +248,4 @@ Keep tabs on action items.Assign someone to check in at appropriate intervals af
 
 Sounding board meetings are typically group forums designed to elicit opinions about a particular matter. Some small business owners use these types of meetings to troubleshoot new product or marketing ideas, while others use them as problem-resolution platforms. Sounding board meetings can be very advantageous, as they can help a small business owner discover breakthrough ideas or solutions to ongoing problems, as well as move forward on new projects quickly. If you are planning to launch a new product or service, or you simply want to clear up misunderstandings that are plaguing the office, plan an effective, efficient sounding board meeting.
 
-![image](media/Project-Management_Scrum---Meetings-image7.jpg)
+![image](media/Project-Management_Scrum-Meetings-image7.jpg)

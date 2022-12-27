@@ -33,7 +33,7 @@ Anything and everything. You're writing code, so the possibilities are infinite.
 
 A flow diagram of how Cloudflare worker responds to an**HTTP request.**
 
-![image](../../media/Cloud-Others-Others---SAAS-image1.jpg)
+![image](../../media/Cloud-Others-Others-SAAS-image1.jpg)
 
 <https://blog.opstree.com/2020/06/30/cache-using-cloudflare-workers-cache-api>
 

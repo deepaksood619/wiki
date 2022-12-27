@@ -40,7 +40,7 @@ Data applications built with Dagster will have the following properties:
 
 [Dagster: A New Programming Model for Data Processing | Elementl](https://www.youtube.com/watch?v=D_1VJapCscc)
 
-![WHAT νιουιο:Υ0ΙΙβΑΥ yovoo ](../../media/Technologies-Others-Others---Data-image1.jpg)
+![image](../../media/Technologies-Others-Others-Data-image1.jpg)
 
 ## Dremel
 

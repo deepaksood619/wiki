@@ -348,15 +348,15 @@ Box jumps
 
 4. HIIT - BDNF (brain derived neurotrophic factor) - high intensity interval training
 
-![image](media/Exercise---Stretching_Gym-image1.jpg)
+![image](media/Exercise-Stretching_Gym-image1.jpg)
 
-![image](media/Exercise---Stretching_Gym-image2.jpg)
+![image](media/Exercise-Stretching_Gym-image2.jpg)
 
-![image](media/Exercise---Stretching_Gym-image3.jpg)
+![image](media/Exercise-Stretching_Gym-image3.jpg)
 
-![image](media/Exercise---Stretching_Gym-image4.jpg)
+![image](media/Exercise-Stretching_Gym-image4.jpg)
 
-![image](media/Exercise---Stretching_Gym-image5.jpg)
+![image](media/Exercise-Stretching_Gym-image5.jpg)
 
 ## Gym Fads
 

@@ -63,7 +63,7 @@ Mathematically, the [gradient](https://en.wikipedia.org/wiki/Gradient) of a two-
 
 Since the intensity function of a digital image is only known at discrete points, derivatives of this function cannot be defined unless we assume that there is an underlying [continuous](https://en.wikipedia.org/wiki/Continuous_function) intensity function which has been sampled at the image points. With some additional assumptions, the derivative of the continuous intensity function can be computed as a function on the sampled intensity function, i.e., the digital image. Approximations of these derivative functions can be defined at varying degrees of accuracy. The most common way to approximate the image gradient is to [convolve](https://en.wikipedia.org/wiki/Convolution) an image with a kernel, such as the [Sobel operator](https://en.wikipedia.org/wiki/Sobel_operator) or [Prewitt operator](https://en.wikipedia.org/wiki/Prewitt_operator).
 
-![image](media/Computer-Vision---CV-image1.png)
+![image](media/Computer-Vision-CV-image1.png)
 
 On the left, an intensity image of a cat. In the center, a gradient image in the x direction measuring horizontal change in intensity. On the right, a gradient image in the y direction measuring vertical change in intensity. Gray pixels have a small gradient; black or white pixels have a large gradient.
 

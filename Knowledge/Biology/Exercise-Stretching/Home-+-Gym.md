@@ -57,15 +57,15 @@ Modified: 2021-10-10 17:54:14 +0500
 
    - Dumbbell Bench Press
 
-![image](media/Exercise---Stretching_Home-+-Gym-image1.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image1.jpg)
 
 - Dumbell pull overs
 
-![image](media/Exercise---Stretching_Home-+-Gym-image2.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image2.jpg)
 
 - Triceps Extension
 
-![image](media/Exercise---Stretching_Home-+-Gym-image3.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image3.jpg)
 
 - Standing Triceps over head dumbbell
 
@@ -77,19 +77,19 @@ Modified: 2021-10-10 17:54:14 +0500
 
    - Hammer
 
-![image](media/Exercise---Stretching_Home-+-Gym-image4.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image4.jpg)
 
 - Reverse Fly
 
-![image](media/Exercise---Stretching_Home-+-Gym-image5.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image5.jpg)
 
 - Dumbbell Row
 
-![image](media/Exercise---Stretching_Home-+-Gym-image6.jpeg)
+![image](media/Exercise-Stretching_Home-+-Gym-image6.jpeg)
 
 - Bicep curl
 
-![image](media/Exercise---Stretching_Home-+-Gym-image7.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image7.jpg)
 
 3. Wednesday (Focus Shoulders & Legs & Abs)
 
@@ -97,27 +97,27 @@ Modified: 2021-10-10 17:54:14 +0500
 
    - Overhead press
 
-![image](media/Exercise---Stretching_Home-+-Gym-image8.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image8.jpg)
 
 - Squat
 
-![image](media/Exercise---Stretching_Home-+-Gym-image9.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image9.jpg)
 
 - Lunge
 
-![image](media/Exercise---Stretching_Home-+-Gym-image10.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image10.jpg)
 
 - Shrug
 
-![image](media/Exercise---Stretching_Home-+-Gym-image11.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image11.jpg)
 
 - Front raise
 
-![image](media/Exercise---Stretching_Home-+-Gym-image12.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image12.jpg)
 
 - Lateral raise
 
-![image](media/Exercise---Stretching_Home-+-Gym-image13.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image13.jpg)
 
 - Abs
 
@@ -143,7 +143,7 @@ Modified: 2021-10-10 17:54:14 +0500
 
    - Dumbbell Crunch
 
-![image](media/Exercise---Stretching_Home-+-Gym-image14.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image14.jpg)
 
 - Plank
 
@@ -155,31 +155,31 @@ Modified: 2021-10-10 17:54:14 +0500
 
 - Dumbbell Flyes
 
-![Dumbbell Flyes](media/Exercise---Stretching_Home-+-Gym-image15.jpg)
+![Dumbbell Flyes](media/Exercise-Stretching_Home-+-Gym-image15.jpg)
 
 ## Workout 2: Arms (Week 1)
 
 ## 2B [Triceps kick-back](https://www.coachmag.co.uk/tricep-exercises/6913/how-to-do-the-triceps-kick-back)
 
-![image](media/Exercise---Stretching_Home-+-Gym-image16.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image16.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
 ## 3A [Spider curl](https://www.coachmag.co.uk/biceps-exercises/8357/how-to-do-the-spider-curl)
 
-![image](media/Exercise---Stretching_Home-+-Gym-image17.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image17.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
 ## 3B Narrow dumbbell press-up
 
-![image](media/Exercise---Stretching_Home-+-Gym-image18.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image18.jpg)
 
 Sets4Reps10Rest60secTempo2010
 
 Renegade Row
 
-![image](media/Exercise---Stretching_Home-+-Gym-image19.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image19.jpg)
 
 Week 2
 
@@ -218,19 +218,19 @@ Week 4
 
 ## 1B [Woodchop](https://www.coachmag.co.uk/exercises/full-body-workouts/212/woodchop)
 
-![image](media/Exercise---Stretching_Home-+-Gym-image20.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image20.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
 ## 2B Halo
 
-![!화7曰 ](media/Exercise---Stretching_Home-+-Gym-image21.jpg)
+![!화7曰 ](media/Exercise-Stretching_Home-+-Gym-image21.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
 ## 3A [Goblet squat](https://www.coachmag.co.uk/leg-exercises/3379/how-to-master-the-goblet-squat)
 
-![image](media/Exercise---Stretching_Home-+-Gym-image22.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image22.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
@@ -238,12 +238,12 @@ Sets4Reps10Rest0secTempo2010
 
 ## 2A [Arnold press](https://www.coachmag.co.uk/exercises/arm-exercises/2987/6-standing-dumb-bell-curl-arnold-press)
 
-![image](media/Exercise---Stretching_Home-+-Gym-image23.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image23.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
 ## 2B [Upright row](https://www.coachmag.co.uk/back-exercises/6699/how-to-do-the-upright-row)
 
-![image](media/Exercise---Stretching_Home-+-Gym-image24.jpg)
+![image](media/Exercise-Stretching_Home-+-Gym-image24.jpg)
 
 Sets4Reps10Rest60secTempo2010

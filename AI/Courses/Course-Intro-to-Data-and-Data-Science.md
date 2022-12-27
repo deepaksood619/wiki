@@ -37,14 +37,14 @@ Analytics - Future (Explore potential future events)
 - Quantitative analytics
   - formulas + algorithms
 
-![image](media/Course---Intro-to-Data-and-Data-Science-image1.png)
+![image](media/Course-Intro-to-Data-and-Data-Science-image1.png)
 
 Business Intelligence is the preliminary step of predictive analytics
 
 - analyse past data and extract useful insights
 - create appropriate models
 
-![image](media/Course---Intro-to-Data-and-Data-Science-image2.jpeg)
+![image](media/Course-Intro-to-Data-and-Data-Science-image2.jpeg)
 
 Factor analysis
 

@@ -20,7 +20,7 @@ In the long run, your performance reverts to the value you provide.
 
 Great Marketing kills a bad product faster
 
-![image](media/Marketing---Sales-image1.jpg)
+![image](media/Marketing-Sales-image1.jpg)
 
 ## Sales model
 
@@ -28,11 +28,11 @@ In a bottoms-up model, engineers within an enterprise start using your product t
 
 In the top-down model, you engage the CIO, CEO, or CTO directly and try to convince them that your product is worth paying for. When the senior leadership of a bank buys into your product idea, you can count on that senior leadership to convince their developers to use your product within the bank.
 
-![image](media/Marketing---Sales-image2.jpg)
+![image](media/Marketing-Sales-image2.jpg)
 
 [**https://www.helloroketto.com/saas-marketing**](https://www.helloroketto.com/saas-marketing)
 
-![image](media/Marketing---Sales-image3.jpeg)
+![image](media/Marketing-Sales-image3.jpeg)
 
 ## Customer satisfaction
 
@@ -46,7 +46,7 @@ A sales funnel allows you to view the entire process of acquiring a user in a si
 
 Sales funnels allow for a numbers-based approach to improvement. Without them, efforts to improve an app's profitability would be far less focused and therefore less efficient, further reducing profit margins.
 
-![image](media/Marketing---Sales-image4.png)
+![image](media/Marketing-Sales-image4.png)
 
 <https://www.toptal.com/app/profit-from-mobile-funnel>
 
@@ -217,7 +217,7 @@ The opposite of the halo effect is the horn effect, named for the horns of the d
 
 [Why we make bad decisions | Dan Gilbert](https://www.youtube.com/watch?v=c-4flnuxNV4)
 
-![image](media/Marketing---Sales-image5.jpeg)
+![image](media/Marketing-Sales-image5.jpeg)
 
 ## Email Marketing
 
@@ -228,7 +228,7 @@ I see email being used, by and large, exactly the way I envisioned. In particula
   - Email 2: 16 hours later
   - Email 3: 2 days later
 
-![image](media/Marketing---Sales-image6.png)
+![image](media/Marketing-Sales-image6.png)
 
 - Flash sale: This is a simpe campaign with a few emails and a discount/promotion with a time-limit which persuades your customers to buy right now AKA Impulse Buying. [This campaign works well during holidays like Christmas, Halloween, Black Friday]
   - Email 1: Day 1
@@ -236,7 +236,7 @@ I see email being used, by and large, exactly the way I envisioned. In particula
   - Email 3: Day 4
   - Email 4: Day 5
 
-![image](media/Marketing---Sales-image7.png)
+![image](media/Marketing-Sales-image7.png)
 
 - Customer Nurturing: This is basically a flow to show your new customers that you care about them! It's a chance to educate them more about your brand
   - Email 1: Immediately
@@ -244,11 +244,11 @@ I see email being used, by and large, exactly the way I envisioned. In particula
   - Email 3: 4 days later
   - Note: Tell the customer how to use the product in the best way possible
 
-![image](media/Marketing---Sales-image8.png)
+![image](media/Marketing-Sales-image8.png)
 
 - Win-Back: A meticulously crafted campaign designed to pique the interest of existing leads and customers that haven't visited or purchased in around 120 days. It's a great way to encourage them to come back
 
-![image](media/Marketing---Sales-image9.png)
+![image](media/Marketing-Sales-image9.png)
 
 - Emails with personalized subject lines generate 50% higher open rates
 - Sending three abandoned card emails results in 69% more orders than a single email
@@ -417,7 +417,7 @@ Copywriting Hacks for Email Marketing
 
 - **Identify your target audience**
 
-![image](media/Marketing---Sales-image10.png)
+![image](media/Marketing-Sales-image10.png)
 
 - Use Exit Intent
 
@@ -530,7 +530,7 @@ Account based marketing (ABM) is a business marketing strategy that concentrates
 
 ABM also takes a more holistic view of marketing, beyond just [lead generation](https://www.optimizely.com/optimization-glossary/lead-generation/). Marketing to existing customer accounts to encourage upselling and cross-selling is one of the keys to getting the most value from your largest accounts.
 
-![image](media/Marketing---Sales-image11.jpg)
+![image](media/Marketing-Sales-image11.jpg)
 
 <https://blog.hubspot.com/marketing/account-based-marketing-guide>
 
@@ -586,7 +586,7 @@ Interstitial ads are full-screen ads that cover the interface of their host app.
 
 <https://www.gigsmedia.in>
 
-![image](media/Marketing---Sales-image12.jpeg)
+![image](media/Marketing-Sales-image12.jpeg)
 
 ## Channels
 
@@ -722,11 +722,11 @@ Tools / Cloud vendors / Agencies
 
 <https://www.smartinsights.com/marketing-planning/marketing-models/use-bcg-matrix>
 
-![image](media/Marketing---Sales-image13.jpg)
+![image](media/Marketing-Sales-image13.jpg)
 
 ## Instagram Followers
 
-![image](media/Marketing---Sales-image14.jpg)
+![image](media/Marketing-Sales-image14.jpg)
 
 ## Ad Recall
 

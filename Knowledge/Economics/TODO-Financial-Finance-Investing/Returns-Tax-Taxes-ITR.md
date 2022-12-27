@@ -186,17 +186,17 @@ Loss from business and profession cannot be set off against income chargeable to
 
 1. Max - 1.5 lakh
 
-![image](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image1.png)
+![image](media/TODO-Financial-Finance-Investing_Returns-Tax-Taxes-ITR-image1.png)
 
-![image](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image2.png)
+![image](media/TODO-Financial-Finance-Investing_Returns-Tax-Taxes-ITR-image2.png)
 
 - PF - tax free upto 1 lakh
 
-![image](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image3.png)
+![image](media/TODO-Financial-Finance-Investing_Returns-Tax-Taxes-ITR-image3.png)
 
 - Rent
 
-![image](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image4.jpg)
+![image](media/TODO-Financial-Finance-Investing_Returns-Tax-Taxes-ITR-image4.jpg)
 
 <https://www.etmoney.com/blog/beyond-section-80c-10-ways-to-save-taxes>
 

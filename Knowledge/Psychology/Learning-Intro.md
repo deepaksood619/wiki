@@ -535,7 +535,7 @@ Adult Learning Theory in practice
 
 <https://360learning.com/blog/adult-learning-theory>
 
-![image](media/Learning---Intro-image1.jpg)
+![image](media/Learning-Intro-image1.jpg)
 
 ## Forgetting Curve
 

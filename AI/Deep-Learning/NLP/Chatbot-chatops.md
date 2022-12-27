@@ -52,7 +52,7 @@ E-Commerce Bots
 - Dialogue system - Talking with an automated system in a two-way conversation
 - Chit chat bot - Goal is to have an ongoing conversation without necessarily doing anything
 
-![image](media/NLP_Chatbot---chatops-image1.jpeg)
+![image](media/NLP_Chatbot-chatops-image1.jpeg)
 
 ## State machines vs neural methods
 
@@ -180,7 +180,7 @@ The domain file is a directory of everything our assistant "knows"
   - Consider to combine, if a lot of same tokens show up in training data for two intents
   - **Example**
 
-![image](media/NLP_Chatbot---chatops-image2.jpeg)
+![image](media/NLP_Chatbot-chatops-image2.jpeg)
 
 - Training data for an intent
   - User-generated > synthetic
@@ -200,17 +200,17 @@ Training data to teach your assistant what it should do next
   - Then add common errors/digressions
 - Once your model is trained, add more data from user conversations
 
-![image](media/NLP_Chatbot---chatops-image3.jpeg)
+![image](media/NLP_Chatbot-chatops-image3.jpeg)
 
 ## Or statements
 
-![image](media/NLP_Chatbot---chatops-image4.jpeg)
+![image](media/NLP_Chatbot-chatops-image4.jpeg)
 
 ## Checkpoints
 
-![image](media/NLP_Chatbot---chatops-image5.jpg)
+![image](media/NLP_Chatbot-chatops-image5.jpg)
 
-![image](media/NLP_Chatbot---chatops-image6.jpg)
+![image](media/NLP_Chatbot-chatops-image6.jpg)
 
 ## Rules
 
@@ -245,7 +245,7 @@ There are 3 ways entities can be extracted in Rasa
 3. Using ML
     - For extracting custom entities
 
-![image](media/NLP_Chatbot---chatops-image7.jpeg)
+![image](media/NLP_Chatbot-chatops-image7.jpeg)
 
 The output of the entity extraction is a snippet of JSON which contains the details of
 
@@ -258,11 +258,11 @@ The output of the entity extraction is a snippet of JSON which contains the deta
 
 Synonyms can be used to map the extracted values to a single standardized value
 
-![image](media/NLP_Chatbot---chatops-image8.jpg)
+![image](media/NLP_Chatbot-chatops-image8.jpg)
 
 OR during entity extraction
 
-![image](media/NLP_Chatbot---chatops-image9.jpeg)
+![image](media/NLP_Chatbot-chatops-image9.jpeg)
 
 ## Others
 
@@ -348,7 +348,7 @@ NER - Rasa NLU for Entity Extraction
 
 ## Chatbot strategy
 
-![image](media/NLP_Chatbot---chatops-image10.jpeg)
+![image](media/NLP_Chatbot-chatops-image10.jpeg)
 
 ## Chats: Human and Bots
 

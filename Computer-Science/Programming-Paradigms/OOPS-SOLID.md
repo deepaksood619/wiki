@@ -79,7 +79,7 @@ Types of polymorphism
 
     This is a pretty common technique in many languages, albeit better known as "Generics". The core idea is to allow programmers to use a wildcard type when defining data structures that can later be filled with any type.
 
-    ![image](media/OOPS---SOLID-image1.png)
+    ![image](media/OOPS-SOLID-image1.png)
 
 2. Subtype polymorphism (most used type, using shape like triangle, rectangle and calling area like traingle.area(), rectangle.area())
 
@@ -145,7 +145,7 @@ class Printer {
 
 2. Diamond Problem
 
-    ![image](media/OOPS---SOLID-image2.png)
+    ![image](media/OOPS-SOLID-image2.png)
 
     Both Scanner and Printer has the same function, so Copier will inherit which function? (Most OO language doesn't let you do that)
 

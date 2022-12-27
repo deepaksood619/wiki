@@ -375,7 +375,7 @@ Instead of working toward retirement, work toward your ideal lifestyle. There is
 
 If the plan doesn't work, change the plan, but never the goal.
 
-![image](media/Business---Management-image1.png)
+![image](media/Business-Management-image1.png)
 
 Smarter people take more risks
 

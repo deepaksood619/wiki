@@ -35,7 +35,7 @@ Rows - 1,048,576-  Text to column
 - Conditional Formatting
 - Custom cell formatting
 
-![image](media/Intro-to-Microsoft-Excel---Google-Sheets-image1.png)
+![image](media/Intro-to-Microsoft-Excel-Google-Sheets-image1.png)
 
 - IF
   - SUMIF, SUMIFS, COUNTIF, COUNTIFS
@@ -320,7 +320,7 @@ Excel tips & tricks Part 3
 
 Excel tips & tricks Part 4
 <https://365datascience.teachable.com/courses/enrolled/233558>
-![image](media/Intro-to-Microsoft-Excel---Google-Sheets-image2.png)
+![image](media/Intro-to-Microsoft-Excel-Google-Sheets-image2.png)
 [Google Sheets - Full Course](https://www.youtube.com/watch?v=N2opj8XzYBY&ab_channel=freeCodeCamp.org)
 
 - =GOOGLEFINANCE("GOOGL")

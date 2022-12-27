@@ -8,16 +8,16 @@ Modified: 2018-06-27 00:38:25 +0500
 
 # Functions
 
-![image](media/Intro---Syllabus_Additional-Theoretical-Material-image1.png)
+![image](media/Intro-Syllabus_Additional-Theoretical-Material-image1.png)
 
 - Every element of A is mapped to exactly one element of B, not more.
 - It is possible that some elements of B, do not correspond to any elements of A
-![image](media/Intro---Syllabus_Additional-Theoretical-Material-image2.png)# The Variance of the geometric PMF
+![image](media/Intro-Syllabus_Additional-Theoretical-Material-image2.png)# The Variance of the geometric PMF
 
 ## The variance of the geometric PMF.IfXis a geometric random variable with parameterp>0, show that
 
-![var (X) ](media/Intro---Syllabus_Additional-Theoretical-Material-image3.png)
-![image](media/Intro---Syllabus_Additional-Theoretical-Material-image4.png)
+![var (X) ](media/Intro-Syllabus_Additional-Theoretical-Material-image3.png)
+![image](media/Intro-Syllabus_Additional-Theoretical-Material-image4.png)
 
 The way to think about X is the number of coin flips that it takes until we obtain heads for the first time, where p is the probability of heads at each toss.
 
@@ -26,16 +26,16 @@ Variance of a random variable is equal to the expected value of the square of th
 
 # The inclusion-exclusion formula
 
-![image](media/Intro---Syllabus_Additional-Theoretical-Material-image5.png)
-![image](media/Intro---Syllabus_Additional-Theoretical-Material-image6.png)
+![image](media/Intro-Syllabus_Additional-Theoretical-Material-image5.png)
+![image](media/Intro-Syllabus_Additional-Theoretical-Material-image6.png)
 
-![image](media/Intro---Syllabus_Additional-Theoretical-Material-image7.png)
+![image](media/Intro-Syllabus_Additional-Theoretical-Material-image7.png)
 
 # Independence of random variable vs independence of events
 
 LetAandBbe two events, and letIAandIBbe the associated indicator variables. Show that eventsAandBare independent if and only if the random variablesIAandIBare independent.
 
-![image](media/Intro---Syllabus_Additional-Theoretical-Material-image8.png)
+![image](media/Intro-Syllabus_Additional-Theoretical-Material-image8.png)
 
 ## Meaning of Independence of two events - The probability of their intersection is the product of their individual probabilities
 

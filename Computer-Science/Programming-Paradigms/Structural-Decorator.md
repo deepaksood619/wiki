@@ -10,15 +10,15 @@ In [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_p
 
 ## Starbuzz Coffee
 
-![image](media/Structural---Decorator-image1.jpg)
+![image](media/Structural-Decorator-image1.jpg)
 
 ## Adding Ingredients: First Try
 
-![image](media/Structural---Decorator-image2.jpg)-  But what if we want more ingredients? Open-closed principle?
+![image](media/Structural-Decorator-image2.jpg)-  But what if we want more ingredients? Open-closed principle?
 
 ## Adding Ingredients: Second Try
 
-![image](media/Structural---Decorator-image3.jpg)
+![image](media/Structural-Decorator-image3.jpg)
 What we want:
 
 - Adding a new ingredient like soy milk should not modify the original beverage classes
@@ -26,7 +26,7 @@ What we want:
 
 ## Solution: Decorator Pattern
 
-![image](media/Structural---Decorator-image4.jpg)
+![image](media/Structural-Decorator-image4.jpg)
 
 - Composition solves the problem
 - Note: Do not confuse this with Python function decorators

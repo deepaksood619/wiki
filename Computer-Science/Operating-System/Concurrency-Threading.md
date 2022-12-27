@@ -29,7 +29,7 @@ Modern processors can executed multiple threads at once (multi-threading) and al
 A thread shares with its peer threads various information like code segment, data segment, and open files. When one thread alters a code segment memory item, all other threads see that.
 A thread is also called a**lightweight process**. Threads provide a way to improve application performance through parallelism. Threads represent a software approach to improving the performance of operating systems by reducing the overhead. A thread is equivalent to a classical process.
 Each thread belongs to exactly one process, and no thread can exist outside a process. Each thread represents a separate flow of control. Threads have been successfully used in implementing network servers and web servers. They also provide a suitable foundation for parallel execution of applications on shared memory multiprocessors.
-![image](media/Concurrency---Threading-image1.jpg)
+![image](media/Concurrency-Threading-image1.jpg)
 
 ## Advantages of threads
 
@@ -48,7 +48,7 @@ Each thread belongs to exactly one process, and no thread can exist outside a pr
 
 In this case, the thread management kernel is not aware of the existence of threads. The thread library contains code for creating and destroying threads, for passing messages and data between threads, for scheduling thread execution, and for saving and restoring thread contexts. The application starts with a single thread.
 
-![image](media/Concurrency---Threading-image2.png)
+![image](media/Concurrency-Threading-image2.png)
 
 ## Advantages
 
@@ -67,7 +67,7 @@ In this case, the thread management kernel is not aware of the existence of thre
 In this case, thread management is done by the Kernel. There is no thread management code in the application area. Kernel threads are supported directly by the operating system. Any application can be programmed to be multithreaded. All of the threads within an application are supported within a single process.
 The Kernel maintains context information for the process as a whole and for individuals threads within the process. Scheduling by the Kernel is done on a thread basis. The Kernel performs thread creation, scheduling, and management in Kernel space. Kernel threads are generally slower to create and manage than the user threads.
 
-![image](media/Concurrency---Threading-image3.png)
+![image](media/Concurrency-Threading-image3.png)
 
 ## Advantages
 

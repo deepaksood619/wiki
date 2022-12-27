@@ -9,14 +9,14 @@ Modified: 2018-06-09 14:38:22 +0500
 ## The birthday problem
 
 Considernpeople who are attending a party. We assume that every person has an equal probability of being born on any day during the year, independently of everyone else, and ignore the additional complication presented by leap years (i.e., nobody is born on February 29). What is the probability that each person has a distinct birthday?
-![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image1.png)
-![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image2.png)
+![image](media/Intro-Syllabus_Unit-3-Solved-Problems-image1.png)
+![image](media/Intro-Syllabus_Unit-3-Solved-Problems-image2.png)
 
 ## Rooks on a chessboard
 
 Eight rooks are placed in distinct squares of an8×8chessboard, with all possible placements being equally likely. Find the probability that all the rooks are safe from one another, i.e., that there is no row or column with more than one rook.
-![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image3.png)
-![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image4.png)
+![image](media/Intro-Syllabus_Unit-3-Solved-Problems-image3.png)
+![image](media/Intro-Syllabus_Unit-3-Solved-Problems-image4.png)
 
 1. Counting Principle
 2. Discrete Uniform Law
@@ -24,8 +24,8 @@ Eight rooks are placed in distinct squares of an8×8chessboard, with all possibl
 ## Hypergeometric probabilities
 
 An urn containsnballs, out of which exactlymare red. We selectkof the balls at random, without replacement (i.e., selected balls are not put back into the urn before the next selection). What is the probability thatiof the selected balls are red?
-![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image5.png)
-![と ) ](media/Intro---Syllabus_Unit-3---Solved-Problems-image6.png)
+![image](media/Intro-Syllabus_Unit-3-Solved-Problems-image5.png)
+![と ) ](media/Intro-Syllabus_Unit-3-Solved-Problems-image6.png)
 
 ## Multinomial probabilities
 
@@ -34,7 +34,7 @@ An urn contains balls ofrdifferent colors. We drawnballs, with different draws b
 (For such independence to be possible, you may think of an urn that has infinitely many balls, so that removing one does not change the probabilitiespi, or you can think about drawing "with replacement": the chosen ball is put back into the urn before the next draw.)
 
 Letn1,...,nrbe nonnegative integers that sum ton. What is the probability that we obtain exactlyniballs of colori, for eachi=1,...,r?
-![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image7.png)
+![image](media/Intro-Syllabus_Unit-3-Solved-Problems-image7.png)
 
 This is the multinomial probability for the special case where we are dealing with two colors.
-![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image8.png)
+![image](media/Intro-Syllabus_Unit-3-Solved-Problems-image8.png)

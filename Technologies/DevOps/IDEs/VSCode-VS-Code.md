@@ -116,7 +116,7 @@ Command + Shit + p (directly run commands)
 - **Select All > Option + shift + i - Every line multiline cursor**
 - **Search > Command + Shift + L - Cursor in every searched line**
 
-![image](../../media/DevOps-IDEs-VSCode---VS-Code-image1.png)
+![image](../../media/DevOps-IDEs-VSCode-VS-Code-image1.png)
 
 <https://dev.to/selrond/tips-to-use-vscode-more-efficiently-3h6p>
 

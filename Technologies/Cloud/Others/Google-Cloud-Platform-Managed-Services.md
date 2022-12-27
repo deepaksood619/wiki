@@ -122,9 +122,9 @@ Modified: 2020-11-05 15:23:19 +0500
     - No resharding
     - Dynamically scalable (up and down) within seconds
 
-![image](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image1.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform-Managed-Services-image1.png)
 
-![image](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image2.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform-Managed-Services-image2.png)
 
 - When cloud spanner fits less well
   - Lift and shift
@@ -168,7 +168,7 @@ Modified: 2020-11-05 15:23:19 +0500
 
 - Cloud Memorystore
 
-![image](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image3.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform-Managed-Services-image3.png)
 
 ## API Platform and Ecosystems
 
@@ -310,6 +310,6 @@ gcloud compute ssh --project deepak-project-619 --zone us-east1-b root@instance-
 
 <https://medium.com/google-cloud/13-most-common-google-cloud-reference-architectures-23630b46326d>
 
-![API PLATFORM AND ECOSYSTEMS](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image4.png)
+![API PLATFORM AND ECOSYSTEMS](../../media/Cloud-Others-Google-Cloud-Platform-Managed-Services-image4.png)
 
-![image](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image5.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform-Managed-Services-image5.png)

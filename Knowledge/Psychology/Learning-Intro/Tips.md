@@ -103,7 +103,7 @@ Teaching someone the concept is the best way to learn, since you will make mista
 
 - Pomodoro Technique
 
-![image](media/Learning---Intro_Tips-image1.jpg)
+![image](media/Learning-Intro_Tips-image1.jpg)
 
 - Chunking
 - Space Repetition
@@ -141,7 +141,7 @@ Exhale rapidly
 
 - 5.5 seconds in and 5.5 seconds out
 
-![image](media/Learning---Intro_Tips-image2.jpg)
+![image](media/Learning-Intro_Tips-image2.jpg)
 
 ## Motivation
 
@@ -151,7 +151,7 @@ Theories of motivation tend to come in two flavors:
 
 2. **Biased.** We're short-sighted and lazy. Our minds weren't built for modernity, so we often ignore obvious ways to make our lives better. Boosting your motivation, even artificially, can make you better off.
 
-3. ![0 | AT10B/ ](media/Learning---Intro_Tips-image3.png)
+3. ![0 | AT10B/ ](media/Learning-Intro_Tips-image3.png)
 
 These two perspectives suggest two different approaches you should take:
 

@@ -99,7 +99,7 @@ However, flat design is limiting at times and may make designs too minimal and l
 
 - Neumorphism (Soft UI)
 
-![Image for post](media/UI---UX---IxD---Design---Frontend-image1.png)
+![Image for post](media/UI-UX-IxD-Design-Frontend-image1.png)
 
 While neumorphic design looks aesthetically pleasing, it certainly has a lot of limitations. The subtle differences in the color value make it look minimal and aesthetically pleasing. However, having a low contrast ratio presents an accessibility issue. While it is possible to achieve different states of buttons such as active, pressed, and hovered with the use of different types of shadows, it might only be considering the users with clear eyesight. Moreover, it is complex to achieve a visual hierarchy by visually differentiating elements based on their levels of importance without compromising accessibility. Neumorphism might compromise UX for aesthetically pleasing UI if not done correctly.
 
@@ -109,7 +109,7 @@ While neumorphic design looks aesthetically pleasing, it certainly has a lot of 
 
 <https://css-tricks.com/neumorphism-and-css>
 
-![Image for post](media/UI---UX---IxD---Design---Frontend-image2.png)
+![Image for post](media/UI-UX-IxD-Design-Frontend-image2.png)
 
 - **Glassmorphism**
 
@@ -199,9 +199,9 @@ Information architecture (IA) involves the way a website/app is structured and h
 - Needs to be analytical, hardworking, creative, curious and interested in people and ideas
 - Must be a confident and motivated self-starter
 
-![image](media/UI---UX---IxD---Design---Frontend-image3.png)
+![image](media/UI-UX-IxD-Design-Frontend-image3.png)
 
-![image](media/UI---UX---IxD---Design---Frontend-image4.png)
+![image](media/UI-UX-IxD-Design-Frontend-image4.png)
 
 [UX / UI Inspiration for 2019](https://www.youtube.com/watch?v=7wlM_uOhKH4)
 
@@ -219,7 +219,7 @@ Information architecture (IA) involves the way a website/app is structured and h
 
 ## Occupied vs Unoccupied time
 
-![image](media/UI---UX---IxD---Design---Frontend-image5.jpeg)
+![image](media/UI-UX-IxD-Design-Frontend-image5.jpeg)
 
 ## Elevators
 
@@ -228,13 +228,13 @@ Information architecture (IA) involves the way a website/app is structured and h
 
 Speed is broken up in two pieces, **real** and **perceived**
 
-![image](media/UI---UX---IxD---Design---Frontend-image6.jpeg)
+![image](media/UI-UX-IxD-Design-Frontend-image6.jpeg)
 
-![image](media/UI---UX---IxD---Design---Frontend-image7.jpeg)
+![image](media/UI-UX-IxD-Design-Frontend-image7.jpeg)
 
 ## UX important hierarchy
 
-![image](media/UI---UX---IxD---Design---Frontend-image8.jpeg)
+![image](media/UI-UX-IxD-Design-Frontend-image8.jpeg)
 
 ## Design Thinking Process
 

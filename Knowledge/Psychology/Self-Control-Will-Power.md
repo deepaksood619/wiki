@@ -40,7 +40,7 @@ Indulge now and pay the price later? Or wait a little and reap bigger re- wards 
 
 The Four Burners Theorysays that "in order to be successful you have to cut off one of your burners. And in order to bereallysuccessful you have to cut off two."
 
-![Image](media/Self-Control---Will-Power-image1.jpg)
+![Image](media/Self-Control-Will-Power-image1.jpg)
 
 ## How to handle mid-life crisis
 
@@ -50,7 +50,7 @@ Surround yourself with believers. Go to leadership conferences, engage with peop
 
 ## Deck of Disruptors
 
-![image](media/Self-Control---Will-Power-image2.jpg)
+![image](media/Self-Control-Will-Power-image2.jpg)
 
 <https://www.thefivecoatconsultinggroup.com/the-coronavirus-crisis/transition>
 
@@ -58,17 +58,17 @@ Surround yourself with believers. Go to leadership conferences, engage with peop
 
 - **Mental rehearsal -** spend considerable time obsessing, rehearsing and preparing for those challenges before the actual challenge
 
-![image](media/Self-Control---Will-Power-image3.png)
+![image](media/Self-Control-Will-Power-image3.png)
 
 - Just sit
 
-![image](media/Self-Control---Will-Power-image4.png)
+![image](media/Self-Control-Will-Power-image4.png)
 
 ## Action - Intention Gap
 
 Our actions don't match our intentions.
 
-![image](media/Self-Control---Will-Power-image5.png)
+![image](media/Self-Control-Will-Power-image5.png)
 
 1. Understand your intentions
 
@@ -162,7 +162,7 @@ When something feels close, we view it more concretely. This is calledlow-levelc
 
 when people persistently sacrifice their immediate desires for their long term goals. This is called 'hyperopia'
 
-![image](media/Self-Control---Will-Power-image6.png)
+![image](media/Self-Control-Will-Power-image6.png)
 
 1. I often fail to enjoy attractive opportunities.
 
@@ -221,4 +221,4 @@ Eisenberg's theory was that when you get rewarded for effortful activity, the ex
 
 Learned industriousness claims that when you are rewarded for expending higher effort, the experience of effortful activity itself is reinforced. This leads to the experience of effort itself becoming less unpleasant, and thus changes your willingness to work harder for bigger payoffs.
 
-![image](media/Self-Control---Will-Power-image7.jpg)
+![image](media/Self-Control-Will-Power-image7.jpg)

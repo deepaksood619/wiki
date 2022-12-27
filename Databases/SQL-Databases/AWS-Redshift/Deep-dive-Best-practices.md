@@ -99,9 +99,9 @@ Designed for large writes
 UPDATE and DELETE
 - Immutable blocks means that we only logically delete rows on UPDATE or DELETE
 - Must VACUUM or DEEP COPY to remove ghost rows from table
-![image](media/AWS-Redshift_Deep-dive---Best-practices-image1.png)
+![image](media/AWS-Redshift_Deep-dive-Best-practices-image1.png)
 
-![image](media/AWS-Redshift_Deep-dive---Best-practices-image2.png)
+![image](media/AWS-Redshift_Deep-dive-Best-practices-image2.png)
 Steps
 
 1. Load CSV data into a staging table
@@ -111,7 +111,7 @@ Steps
 3. Insert (or append) data from the staging into the production table
 Create a Transaction
 
-![image](media/AWS-Redshift_Deep-dive---Best-practices-image3.png)
+![image](media/AWS-Redshift_Deep-dive-Best-practices-image3.png)
 
 ## Best practices: ELT
 
@@ -191,7 +191,7 @@ Short query acceleration (SQA):
 
 ## Create a queue for each workload type
 
-![image](media/AWS-Redshift_Deep-dive---Best-practices-image4.jpg)-  Unallocated memory goes into a general pool that can be used by any queue
+![image](media/AWS-Redshift_Deep-dive-Best-practices-image4.jpg)-  Unallocated memory goes into a general pool that can be used by any queue
 
 - Enable: Short Query Acceleration
 - Hidden superuser queue can be used by admins manually switched into:

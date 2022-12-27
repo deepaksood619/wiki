@@ -68,7 +68,7 @@ A/B/n testing
 
 Customer Retention
 
-![image](media/Product-Management_Coursera---PM-image1.png)
+![image](media/Product-Management_Coursera-PM-image1.png)
 
 <http://growth.eladgil.com/book/introduction/welcome-to-the-high-growth-handbook>
 
@@ -160,7 +160,7 @@ Associate product managers (APMs) / Rotational Product Managers (RPMs)
 - 1 PM per 7-8 engineers
 - 1 PM every 3 sales people
 
-![image](media/Product-Management_Coursera---PM-image2.png)
+![image](media/Product-Management_Coursera-PM-image2.png)
 
 ## Courses
 

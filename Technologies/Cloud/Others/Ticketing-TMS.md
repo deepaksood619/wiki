@@ -169,7 +169,7 @@ The "Spam" status is reserved for malicious or other unnecessary messages you do
     - Medium
     - Low
 
-![Ticket priority Urgent High Medium Low Respond within 1 hour 2 hours 4 hours 6 hours Resolve within 3 hours 8 hours 24 hours 48 hours ](../../media/Cloud-Others-Ticketing---TMS-image1.jpg)
+![Ticket priority Urgent High Medium Low Respond within 1 hour 2 hours 4 hours 6 hours Resolve within 3 hours 8 hours 24 hours 48 hours ](../../media/Cloud-Others-Ticketing-TMS-image1.jpg)
 
 4. Tag the case
 

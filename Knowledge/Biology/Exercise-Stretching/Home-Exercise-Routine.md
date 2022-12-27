@@ -8,29 +8,29 @@ Modified: 2021-10-27 22:06:14 +0500
 
 Youtube - Athlean X
 
-![image](media/Exercise---Stretching_Home-Exercise-Routine-image1.jpg)
+![image](media/Exercise-Stretching_Home-Exercise-Routine-image1.jpg)
 
 <https://in.pinterest.com/pin/thin-body-workout--801077852487590084>
 
 1. Shoulder rolls - from back, start small movements to large movements
 
-![image](media/Exercise---Stretching_Home-Exercise-Routine-image2.png)
+![image](media/Exercise-Stretching_Home-Exercise-Routine-image2.png)
 
 2. Overhead reach - Reaching side to side
 
-![image](media/Exercise---Stretching_Home-Exercise-Routine-image3.png)
+![image](media/Exercise-Stretching_Home-Exercise-Routine-image3.png)
 
 3. Torso rotation with a reach - lift your toes so you don't twist your back
 
-![image](media/Exercise---Stretching_Home-Exercise-Routine-image4.png)
+![image](media/Exercise-Stretching_Home-Exercise-Routine-image4.png)
 
 4. Hamstring curls with arms
 
-![image](media/Exercise---Stretching_Home-Exercise-Routine-image5.png)
+![image](media/Exercise-Stretching_Home-Exercise-Routine-image5.png)
 
 5. Knee lifts
 
-![(`츻냐 ](media/Exercise---Stretching_Home-Exercise-Routine-image6.png)
+![(`츻냐 ](media/Exercise-Stretching_Home-Exercise-Routine-image6.png)
 
 6. Surya Namaskar - 3 rounds
 
@@ -70,4 +70,4 @@ Youtube - Athlean X
 
 [20 Minute Heart-Pumping Cardio Workout - No Equipment With Warm-Up & Cool-Down | SELF](http://youtube.com/watch?v=vncKnAPhgtg&ab_channel=SELF)
 
-![COD ](media/Exercise---Stretching_Home-Exercise-Routine-image7.jpg)
+![COD ](media/Exercise-Stretching_Home-Exercise-Routine-image7.jpg)

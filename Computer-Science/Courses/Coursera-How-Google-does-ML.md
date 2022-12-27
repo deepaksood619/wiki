@@ -42,8 +42,8 @@ Prediction / Inference Phase
 
 ## Applications
 
-![image](media/Coursera---How-Google-does-ML-image1.png)
-![image](media/Coursera---How-Google-does-ML-image2.png)
+![image](media/Coursera-How-Google-does-ML-image1.png)
+![image](media/Coursera-How-Google-does-ML-image2.png)
 
 ## Topics
 
@@ -76,13 +76,13 @@ Prediction / Inference Phase
 4. Big Data and Analytics - Measure and achieve data-driven success
 
 5. Machine Learning - Automated feedback loop that can outpace human scale
-![image](media/Coursera---How-Google-does-ML-image3.png)
+![image](media/Coursera-How-Google-does-ML-image3.png)
 
-![image](media/Coursera---How-Google-does-ML-image4.png)
-![image](media/Coursera---How-Google-does-ML-image5.png)
-![image](media/Coursera---How-Google-does-ML-image6.png)
+![image](media/Coursera-How-Google-does-ML-image4.png)
+![image](media/Coursera-How-Google-does-ML-image5.png)
+![image](media/Coursera-How-Google-does-ML-image6.png)
 
-![image](media/Coursera---How-Google-does-ML-image5.png)
+![image](media/Coursera-How-Google-does-ML-image5.png)
 
 ## Resources
 

@@ -49,7 +49,7 @@ When a system writes data to cache, it must at some point write that data to the
 
 - **Write-through**
 
-![image](media/Caches---Caching-image1.png)
+![image](media/Caches-Caching-image1.png)
 write is done synchronously both to the cache and to the backing store. The significance here is not the order in which it happens or whether it happens in parallel. The significance is that I/O completion is only confirmed once the data has been written to both places.
 
 - **Advantage:** Ensures fast retrieval while making sure the data is in the backing store and is not lost in case the cache is disrupted.
@@ -58,7 +58,7 @@ write is done synchronously both to the cache and to the backing store. The sign
 
 The write-through policy is good for applications that has more reads than writes. This will result in slightly higher write latency but low read latency. So, it's ok to spend a bit longer writing once, but then benefit from reading frequently with low latency.-  **Write-back(also calledwrite-behind)**
 
-![image](media/Caches---Caching-image2.png)
+![image](media/Caches-Caching-image2.png)
 Initially, writing is done only to the cache. The write to the backing store is postponed until the modified content is about to be replaced by another cache block.
 Using the write-back policy, data is written to the cache and immediately I/O completion is confirmed. The data is then typically also written to the backing store in the background but the completion confirmation is not blocked on that.-  **Advantage:** Low latency and high throughput for write-intensive applications.
 
@@ -67,7 +67,7 @@ Using the write-back policy, data is written to the cache and immediately I/O co
 
 The write-back policy is the best performer for mixed workloads as both read and write I/O have similar response time levels. In reality, you can add resiliency (e.g. by duplicating writes) to reduce the likelihood of data loss.-  **Write-around**
 
-![image](media/Caches---Caching-image3.png)
+![image](media/Caches-Caching-image3.png)
 Using the write-around policy, data is written only to the backing store without writing to the cache. So, I/O completion is confirmed as soon as the data is written to the backing store.
 
 - **Advantage:** Good for not flooding the cache with data that may not subsequently be re-read.
@@ -198,7 +198,7 @@ Disadvantages:
 
 In [computer architecture](https://en.wikipedia.org/wiki/Computer_architecture), cache coherenceis the uniformity of shared resource data that ends up stored in multiple [local caches](https://en.wikipedia.org/wiki/Cache_(computing)). When clients in a system maintain [caches](https://en.wikipedia.org/wiki/CPU_cache) of a common memory resource, problems may arise with incoherent data, which is particularly the case with [CPUs](https://en.wikipedia.org/wiki/Central_processing_unit) in a [multiprocessing](https://en.wikipedia.org/wiki/Multiprocessing) system.
 In the illustration, consider both the clients have a cached copy of a particular memory block from a previous read. Suppose the client on the bottom updates/changes that memory block, the client on the top could be left with an invalid cache of memory without any notification of the change. Cache coherence is intended to manage such conflicts by maintaining a coherent view of the data values in multiple caches.
-![image](media/Caches---Caching-image4.png)
+![image](media/Caches-Caching-image4.png)
 
 ## Requirements for cache coherence
 

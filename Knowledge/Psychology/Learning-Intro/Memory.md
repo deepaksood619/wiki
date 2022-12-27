@@ -22,7 +22,7 @@ Hippocampus is used to store new memories. It is used for memory consolidation.
 
 Whenever we recall a memory it changes in a process called reconsolidation
 
-![image](media/Learning---Intro_Memory-image1.png)
+![image](media/Learning-Intro_Memory-image1.png)
 
 Astrocytes maintain the ion balance.
 

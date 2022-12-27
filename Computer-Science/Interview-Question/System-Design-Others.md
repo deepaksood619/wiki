@@ -9,8 +9,8 @@ Modified: 2022-07-15 17:39:32 +0500
 ## CricInfo
 
 [CRICINFO system design | CRICBUZZ System desi](http://youtube.com/watch?v=exSwQtMxGd4) gn
-![image](media/System-Design---Others-image1.jpg)
-![image](media/System-Design---Others-image2.png)
+![image](media/System-Design-Others-image1.jpg)
+![image](media/System-Design-Others-image2.png)
 
 ## Netflix
 
@@ -22,7 +22,7 @@ Modified: 2022-07-15 17:39:32 +0500
 2. Backend
 
 3. Client
-![image](media/System-Design---Others-image3.png)
+![image](media/System-Design-Others-image3.png)
 <https://www.linkedin.com/pulse/system-design-netflix-narendra-l>
 
 <https://netflixtechblog.com/netflixs-viewing-data-how-we-know-where-you-are-in-house-of-cards-608dd61077da>
@@ -31,7 +31,7 @@ Modified: 2022-07-15 17:39:32 +0500
 
 ## Gitlab
 
-![image](media/System-Design---Others-image4.png)
+![image](media/System-Design-Others-image4.png)
 
 ## S3 system design (distributed cloud storage)
 
@@ -64,7 +64,7 @@ Modified: 2022-07-15 17:39:32 +0500
 5. Health of FS
 
 6. Store offsets
-![image](media/System-Design---Others-image5.png)
+![image](media/System-Design-Others-image5.png)
 <https://www.youtube.com/watch?v=UmWtcgC96X8>
 
 ## Web Crawlers
@@ -97,7 +97,7 @@ Modified: 2022-07-15 17:39:32 +0500
 
 ## Financial System
 
-![image](media/System-Design---Others-image6.png)
+![image](media/System-Design-Others-image6.png)
 
 ## TikTok
 

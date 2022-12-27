@@ -36,7 +36,7 @@ Modified: 2022-07-18 09:27:25 +0500
   - **ESG (**To borrow Winston Churchill's words, ESG is "a riddle, wrapped in a mystery, inside an enigma.")
   - **Day trader**
 
-![image](media/TODO-Financial-Finance---Investing_Portfolios-image1.jpeg)
+![image](media/TODO-Financial-Finance-Investing_Portfolios-image1.jpeg)
 
 ## Modern Portfolio Theory
 
@@ -76,7 +76,7 @@ How to choose a financial product?
 - Invisible risk must be appreciated
 - Risk: reward; taxation; liquidity
 
-![ΑΙιαιηΌη »ςιΗ ](media/TODO-Financial-Finance---Investing_Portfolios-image2.png)
+![ΑΙιαιηΌη »ςιΗ ](media/TODO-Financial-Finance-Investing_Portfolios-image2.png)
 
 <table>
 <colgroup>
@@ -134,11 +134,11 @@ How to choose a financial product?
 </tbody>
 </table>
 
-![image](media/TODO-Financial-Finance---Investing_Portfolios-image3.png)
+![image](media/TODO-Financial-Finance-Investing_Portfolios-image3.png)
 
-![image](media/TODO-Financial-Finance---Investing_Portfolios-image4.png)
+![image](media/TODO-Financial-Finance-Investing_Portfolios-image4.png)
 
-![image](media/TODO-Financial-Finance---Investing_Portfolios-image5.png)
+![image](media/TODO-Financial-Finance-Investing_Portfolios-image5.png)
 
 - Freefincal Basics of Porfolio management
 
@@ -205,7 +205,7 @@ Always have 60-70% large cap regardless of age
 
 ## The Core Satellite Strategy
 
-![image](media/TODO-Financial-Finance---Investing_Portfolios-image6.jpg)
+![image](media/TODO-Financial-Finance-Investing_Portfolios-image6.jpg)
 
 Let us say, a market participant has a corpus of Rs.500,000/-. This corpus can be split into two unequal portions, for example the split can be 60 -- 40. The 60% of capital which is Rs.300,000/- can be invested for a long term period in fundamentally strong companies. This 60% of the investment makes up the core of the portfolio. One can expect the core portfolio to grow at a rate of at least 12% to 15% CAGR year on year basis.
 

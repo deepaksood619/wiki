@@ -23,7 +23,7 @@ getLong(tinyUrl) -> longUrl
 
 ## Application layer
 
-![image](media/System-Design---TinyURL-image1.png)
+![image](media/System-Design-TinyURL-image1.png)
 
 ## Load Balancer
 
@@ -49,7 +49,7 @@ Delegate requests to one of the worker threads
 - Length of generated tinyURL - 7 characters long
 - Total combinations - 62^7 - 3.5 trillion (million requests/second - 40 days, 1000 requests/second - 110 years exhaust)
 - Any number from 0 to 3.5 trillion can be represented by 43 bits
-![image](media/System-Design---TinyURL-image2.png)
+![image](media/System-Design-TinyURL-image2.png)
 
 ## Database
 
@@ -114,7 +114,7 @@ Convert 43 bits to 7 characters long url
          -  These all allotments of ranges is maintained by zookeeper
          -  It guarantees that there are no collisions.
          -  Also can add some random bits to increase security.
-![image](media/System-Design---TinyURL-image3.png)
+![image](media/System-Design-TinyURL-image3.png)
 Get requests can be cached using CDN
 [Paste bin system design | Software architecture for paste bin](https://www.youtube.com/watch?v=josjRSBqEBI)
 
@@ -169,7 +169,7 @@ User
 - name
 - created
 - metadata
-![pool < ](media/System-Design---TinyURL-image4.png)
+![pool < ](media/System-Design-TinyURL-image4.png)
 DKGS - Distributed Key Generation Service
 
 8 byte/8char

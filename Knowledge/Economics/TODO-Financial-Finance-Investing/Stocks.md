@@ -74,7 +74,7 @@ Long-term capital gains from the transfer of equity shares (listed and non-liste
 - educational services
 - healthcare
 
-![image](media/TODO-Financial-Finance---Investing_Stocks-image1.png)
+![image](media/TODO-Financial-Finance-Investing_Stocks-image1.png)
 
 ## Company / Companies
 
@@ -96,19 +96,19 @@ Long-term capital gains from the transfer of equity shares (listed and non-liste
 - WIPRO
 - DABUR
 
-![image](media/TODO-Financial-Finance---Investing_Stocks-image2.jpeg)
+![image](media/TODO-Financial-Finance-Investing_Stocks-image2.jpeg)
 
-![image](media/TODO-Financial-Finance---Investing_Stocks-image3.jpg)
+![image](media/TODO-Financial-Finance-Investing_Stocks-image3.jpg)
 
-![image](media/TODO-Financial-Finance---Investing_Stocks-image4.jpg)
+![image](media/TODO-Financial-Finance-Investing_Stocks-image4.jpg)
 
-![image](media/TODO-Financial-Finance---Investing_Stocks-image5.jpg)
+![image](media/TODO-Financial-Finance-Investing_Stocks-image5.jpg)
 
-![image](media/TODO-Financial-Finance---Investing_Stocks-image6.jpeg)
+![image](media/TODO-Financial-Finance-Investing_Stocks-image6.jpeg)
 
 ## Freefincal direct equity list
 
-![image](media/TODO-Financial-Finance---Investing_Stocks-image7.jpeg)
+![image](media/TODO-Financial-Finance-Investing_Stocks-image7.jpeg)
 
 - **Happiest Minds**
 - **Dixon**
@@ -119,7 +119,7 @@ Long-term capital gains from the transfer of equity shares (listed and non-liste
 
 2. Asian Paints and Berger Paints (the most efficient paint manufacturers), Astral Poly (the most efficient CPVC pipe manufacturer), Pidilite (the most efficient adhesives and waterproofing manufacturer) and Titan (the most efficient jeweler).
 
-![image](media/TODO-Financial-Finance---Investing_Stocks-image8.png)
+![image](media/TODO-Financial-Finance-Investing_Stocks-image8.png)
 
 - HDFC Bank
 - Dr Lal PathLabs

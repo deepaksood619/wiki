@@ -8,7 +8,7 @@ Modified: 2018-12-08 23:15:58 +0500
 
 ## Data Flow
 
-![image](media/Architectural---MVVM-image1.png)
+![image](media/Architectural-MVVM-image1.png)
 
 ## References
 

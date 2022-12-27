@@ -52,7 +52,7 @@ Thinking we know more than we do
 
 In the field of psychology, theDunning--Kruger effect is a cognitive bias in which people of low ability have illusory superiority and mistakenly assess their cognitive ability as greater than it is.
 
-![image](media/Biases---Fallacies-image1.jpg)
+![image](media/Biases-Fallacies-image1.jpg)
 
 ## Cognitive Dissonance
 
@@ -163,7 +163,7 @@ Perhaps the most prevalent place you hear about anchoring is with pricing. If th
 
 ## Anchoring Bias / Anchoring Effect
 
-![image](media/Biases---Fallacies-image2.jpg)
+![image](media/Biases-Fallacies-image2.jpg)
 
 There are two dominant theories behind anchoring bias
 
@@ -394,7 +394,7 @@ It's fallacy as eating the popcorn or watching the movie will not refund the amo
 - Cognitive Entrenchment - stuck in the way you have always done things
 - Stages of Feedback Grief
 
-![image](media/Biases---Fallacies-image3.jpeg)
+![image](media/Biases-Fallacies-image3.jpeg)
 
 ## Transaction utility
 

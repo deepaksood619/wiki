@@ -8,7 +8,7 @@ Modified: 2020-11-21 16:54:10 +0500
 
 ## ELK stands for Elasticsearch - Logstash - Kibana
 
-![estic ](../../media/Technologies-Elasticsearch-ELK-EFK-Stack--Elastic-Stack---ElasticSearch-image1.png)
+![estic ](../../media/Technologies-Elasticsearch-ELK-EFK-Stack--Elastic-Stack-ElasticSearch-image1.png)
 
 ## Elasticsearch
 

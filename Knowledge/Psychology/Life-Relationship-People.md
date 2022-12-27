@@ -53,7 +53,7 @@ it's easier to destroy a relationship than build one.
 
 The secret to feeling great about yourself is not to be found in searching for people who are less than you and then show yourself superior to them, but in searching for people who are more than you and then show yourself worthy of their company.
 
-![image](media/Life---Relationship---People-image1.png)
+![image](media/Life-Relationship-People-image1.png)
 
 1. **Body:**The condition of your body, including your diet, stamina, strength, and recovery.
 
@@ -194,7 +194,7 @@ This means that for every one negative feeling or interaction between partners, 
 
 ## Friendship
 
-![image](media/Life---Relationship---People-image2.jpeg)
+![image](media/Life-Relationship-People-image2.jpeg)
 
 ## Tips
 
@@ -367,7 +367,7 @@ Trust involves vulnerability, which involves risk. So **Dispositional Trust,** i
 
 "Friends are better than money. Almost anything money can do, friends can do better. In so many ways a friend with a boat is better than owning a boat."
 
-![image](media/Life---Relationship---People-image3.png)
+![image](media/Life-Relationship-People-image3.png)
 
 Cognitive trust can be earned by Competence, Intent and Integrity.
 
@@ -478,7 +478,7 @@ Developmental psychology has shown that kids come into the world, already knowin
 
 ## Inateness
 
-![image](media/Life---Relationship---People-image4.png)
+![image](media/Life-Relationship-People-image4.png)
 
 1. **Harm/care**
 
@@ -490,7 +490,7 @@ Developmental psychology has shown that kids come into the world, already knowin
 
 5. **Purity/sanctity**
 
-6. ![image](media/Life---Relationship---People-image5.png)
+6. ![image](media/Life-Relationship-People-image5.png)
 
 <https://www.youtube.com/watch?v=8SOQduoLgRw>
 
@@ -516,7 +516,7 @@ Overcoming the 7 greatest challenges that no one expects and everyone experience
 
 <https://www.lennysnewsletter.com/p/how-to-know-when-to-stop>
 
-![image](media/Life---Relationship---People-image6.jpeg)
+![image](media/Life-Relationship-People-image6.jpeg)
 
 7. Emptiness
 
@@ -560,7 +560,7 @@ Overcoming the 7 greatest challenges that no one expects and everyone experience
 
 ## Ikigai
 
-![Image for post](media/Life---Relationship---People-image7.jpg)
+![Image for post](media/Life-Relationship-People-image7.jpg)
 
 ## ikigaiis seen as the convergence of four primary elements
 
@@ -845,7 +845,7 @@ The story of my experiments with truth
   - Regular exercise is a good habit for both your body and your mind
 - Actionable advice - Lean into short-term pain (ex - working out)
 
-![image](media/Life---Relationship---People-image8.jpg)
+![image](media/Life-Relationship-People-image8.jpg)
 
 ## From Strength to Strength: Finding Success, Happiness and Deep Purpose in the Second Half of Life
 

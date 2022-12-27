@@ -204,7 +204,7 @@ Health care
 
 <https://github.com/MrMimic/data-scientist-roadmap>
 
-![image](media/Others---Resources---Interview-image1.png)
+![image](media/Others-Resources-Interview-image1.png)
 
 <https://github.com/tirthajyoti/Data-science-best-resources/blob/master/README.md>
 

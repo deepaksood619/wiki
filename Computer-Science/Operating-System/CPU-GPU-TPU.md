@@ -19,7 +19,7 @@ Specifically for matrix operations
   - Thats because GPUs were designed for 3d game rendering, which often involves parallel operations -The ability of a GPU with 100+ cores to process thousands of threads can accelerate some software by 100x over a CPU alone.
   - What's more, the GPU achieves this acceleration while being more power- and cost-efficient than a CPU.
   - So when neural networks run on GPUs, they run much faster than on CPUs
-- ![alt text](media/CPU---GPU---TPU-image1.jpg)
+- ![alt text](media/CPU-GPU-TPU-image1.jpg)
 - A GPU is a vector machine. You can give it a long list of data --- a 1D vector --- and run computations on the entire list at the same time.
 - This way, we can perform more computations per second, but we have to perform the same computation on a vector of data in parallel.
 - GPUs are general purpose chips. They don't just perform matrix operations, they can really do any kind of computation.
@@ -35,7 +35,7 @@ Specifically for matrix operations
 - Each MXU is capable of performing 16K multiply-accumulate operations in each cycle.
 - While the MXU's inputs and outputs are 32-bit floating point values, the MXU performs multiplies at reduced bfloat16 precision.
 - Bfloat16 is a 16-bit floating point representation that provides better training and model accuracy than the IEEE half-precision representation. -From a software perspective, each of the 8 cores on a Cloud TPU can execute user computations (XLA ops) independently.
-- High-bandwidth interconnects allow the chips to communicate directly with each other.-  ![alt text](media/CPU---GPU---TPU-image2.png)
+- High-bandwidth interconnects allow the chips to communicate directly with each other.-  ![alt text](media/CPU-GPU-TPU-image2.png)
 
 ## The Systolic Array
 
@@ -44,7 +44,7 @@ Specifically for matrix operations
 - A systolic array is a kind of hardware algorithm, and it describes a pattern of cells on a chip that computes matrix multiplication.
 - "Systolic" describes how data moves in waves across the chip, like the beating of a human heart.
 
-![alt text](media/CPU---GPU---TPU-image3.png)
+![alt text](media/CPU-GPU-TPU-image3.png)
 
 ## Use Cases
 

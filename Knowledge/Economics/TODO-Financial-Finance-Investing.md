@@ -296,7 +296,7 @@ For foreign equity allocation, the ideal option would a fund like Vanguard Globa
 
 <https://www.youtube.com/c/SUBRAMONEYPVSUBRAMANYAM/videos>
 
-![image](media/TODO-Financial-Finance---Investing-image1.jpeg)
+![image](media/TODO-Financial-Finance-Investing-image1.jpeg)
 
 [How To Retire Rich In Your 20's 🔥 | Financial Freedom 🔥 | 5 Rules Of Money 💸 |](https://youtu.be/LKRKTE33JR8)
 
@@ -344,4 +344,4 @@ Global gold - 7 trillion dollar
 
 ## Largest sovereign wealth funds
 
-![image](media/TODO-Financial-Finance---Investing-image2.jpg)
+![image](media/TODO-Financial-Finance-Investing-image2.jpg)

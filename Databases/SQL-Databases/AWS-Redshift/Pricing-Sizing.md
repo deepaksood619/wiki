@@ -150,7 +150,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 - **50% cheaper**
 - **2x query time**
 <https://medium.com/tensult/how-to-migrate-aws-redshift-dc2-to-ds2-node-cluster-73f320dc57f6>
-![image](media/AWS-Redshift_Pricing---Sizing-image1.png)
+![image](media/AWS-Redshift_Pricing-Sizing-image1.png)
 
 ## Resizing Amazon Redshift
 
@@ -161,11 +161,11 @@ Classic Resize
 - Enable / disable full disk encryption
 Elastic Resize
 - Nodes are added/removed to/from existing cluster (within minutes)
-![image](media/AWS-Redshift_Pricing---Sizing-image2.png)
-![image](media/AWS-Redshift_Pricing---Sizing-image3.png)
-![image](media/AWS-Redshift_Pricing---Sizing-image4.png)
-![image](media/AWS-Redshift_Pricing---Sizing-image5.png)
-![image](media/AWS-Redshift_Pricing---Sizing-image6.png)
+![image](media/AWS-Redshift_Pricing-Sizing-image2.png)
+![image](media/AWS-Redshift_Pricing-Sizing-image3.png)
+![image](media/AWS-Redshift_Pricing-Sizing-image4.png)
+![image](media/AWS-Redshift_Pricing-Sizing-image5.png)
+![image](media/AWS-Redshift_Pricing-Sizing-image6.png)
 
 ## Best Practices: Cluster Sizing
 

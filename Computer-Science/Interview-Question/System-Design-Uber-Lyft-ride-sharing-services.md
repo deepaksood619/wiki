@@ -104,8 +104,8 @@ Use **historical data** for ETA calculation (pretty accurate)
 
 Split the city into smaller blocks and then re-calculate the ETA's in real time. (Splitting the graph algorithm)
 
-![2 6 ](media/System-Design---Uber-Lyft-ride-sharing-services-image1.png)
-![image](media/System-Design---Uber-Lyft-ride-sharing-services-image2.png)**Summary -**
+![2 6 ](media/System-Design-Uber-Lyft-ride-sharing-services-image1.png)
+![image](media/System-Design-Uber-Lyft-ride-sharing-services-image2.png)**Summary -**
 
 1. Core features
 

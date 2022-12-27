@@ -52,8 +52,8 @@ MPEG-DASH - Dynamic Adaptive Streaming over HTTP
 - Ensures the call works in almost all environments
 - Relays packet from point A to point B
 - All TURN servers are also STUN servers
-![image](media/Video---Live-Streaming-image1.png)
-![image](media/Video---Live-Streaming-image2.png)
+![image](media/Video-Live-Streaming-image1.png)
+![image](media/Video-Live-Streaming-image2.png)
 [WebRTC Crash Course](https://youtu.be/FExZvpVvYxA)
 
 ## FFMPEG Streaming
@@ -93,25 +93,25 @@ FFMPEG stitching multiple files into one
 <https://trac.ffmpeg.org/wiki/Capture/Webcam>
 [**https://go.bitmovin.com/ultimate-guide-container-formats**](https://go.bitmovin.com/ultimate-guide-container-formats)
 
-![image](media/Video---Live-Streaming-image3.png)
+![image](media/Video-Live-Streaming-image3.png)
 
-![image](media/Video---Live-Streaming-image4.png)
+![image](media/Video-Live-Streaming-image4.png)
 
-![image](media/Video---Live-Streaming-image5.png)
+![image](media/Video-Live-Streaming-image5.png)
 
-![image](media/Video---Live-Streaming-image6.png)
+![image](media/Video-Live-Streaming-image6.png)
 
-![image](media/Video---Live-Streaming-image7.png)
+![image](media/Video-Live-Streaming-image7.png)
 
-![image](media/Video---Live-Streaming-image8.png)
+![image](media/Video-Live-Streaming-image8.png)
 
-![image](media/Video---Live-Streaming-image9.png)
+![image](media/Video-Live-Streaming-image9.png)
 
-![image](media/Video---Live-Streaming-image10.png)
-![image](media/Video---Live-Streaming-image11.jpg)
+![image](media/Video-Live-Streaming-image10.png)
+![image](media/Video-Live-Streaming-image11.jpg)
 
-![image](media/Video---Live-Streaming-image13.png)
+![image](media/Video-Live-Streaming-image13.png)
 
-![image](media/Video---Live-Streaming-image14.png)
+![image](media/Video-Live-Streaming-image14.png)
 
-![image](media/Video---Live-Streaming-image15.png)
+![image](media/Video-Live-Streaming-image15.png)

@@ -24,7 +24,7 @@ Files can have any extension they like or none at all.
 
 ## Directory Structure
 
-![image](media/Unix---Linux-image1.png)
+![image](media/Unix-Linux-image1.png)
 
 ## Unix File Types
 
@@ -89,17 +89,17 @@ Linux capabilities provide a subset of the available root privileges to a proces
 
 ## Linux kernel
 
-![image](media/Unix---Linux-image2.png)
+![image](media/Unix-Linux-image2.png)
 The kernel space is where we have system memory for low level applications on the kernel running. The user space is the environment where our user processes function and execute.
-![image](media/Unix---Linux-image3.png)
-![image](media/Unix---Linux-image4.png)
+![image](media/Unix-Linux-image3.png)
+![image](media/Unix-Linux-image4.png)
 
 Whenever an applications makes a request to a kernel level function, an interrupt is sent which tells the processor to stop whatever it is doing and attend to that particular request, you can think about it like context switching if it makes it easier to understand. Provided the user space application has relevant permission, there's a context switch to the kernel space, the user space application awaits a response back after the context switch has started and the required program/functionality in the kernel space is executed through the aid of the appropriate interrupt handler.
 
 ## Syscalls
 
 Systems Calls aka syscall is an API which allows a**small** part of kernel functionality to be exposed to user level applications. A small part is really stressed to inform whoever reading that syscalls are limited and are generic to serve a purpose. They are not the same across every operating system and do differ in both definition and mode of access.
-![image](media/Unix---Linux-image5.png)
+![image](media/Unix-Linux-image5.png)
 Sometimes, we have a group of syscalls that we want to group together, we do this using a linux kernel feature called Capabilities. These are predefined sets of privileges which a running program can have access to or be limited by.
 Capabilities further enhance syscalls by grouping related ones into defined privileges that can be granted or denied at once. This prevents even root level applications from exploiting restricted kernel spaces with reserved permissions.
 
@@ -182,7 +182,7 @@ ThePortable Operating System Interface(POSIX)is a family of [standards](https://
 
 ## Boot Process
 
-![image](media/Unix---Linux-image6.jpg)
+![image](media/Unix-Linux-image6.jpg)
 
 ## Distributions
 

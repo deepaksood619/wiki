@@ -70,7 +70,7 @@ Remove subvocalization (auditory reassurance)
 
 ## Bionic Reading
 
-![image](media/Learning---Intro_Speed-Reading-image1.jpg)
+![image](media/Learning-Intro_Speed-Reading-image1.jpg)
 
 [Read To Become A Better Investor | ET Money](https://youtu.be/_Y1Bn_OWCOA)
 

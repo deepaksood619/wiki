@@ -13,7 +13,7 @@ By encapsulating shard-routing logic, Vitess allows application code and databas
 
 ## Traditional Transactional Architecture
 
-![image](media/Technologies---Tools-image1.png)
+![image](media/Technologies-Tools-image1.png)
 <https://github.com/vitessio/vitess>
 
 <https://vitess.io>

@@ -8,7 +8,7 @@ Modified: 2022-02-07 20:39:51 +0500
 
 1. Masoor daal
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image1.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image1.png)
 
 Masoor is probably the most commonly used daal ([lentil](https://www.thespruceeats.com/lentil-selection-and-storage-1807776)) in India. It is available whole and split and without skin.
 
@@ -16,7 +16,7 @@ It does not need soaking prior to cooking as it is a "soft" daal and cooks quick
 
 2. Saabut masoor daal
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image2.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image2.png)
 
 Saabutmasoor, means whole and the brownish skin is left on in this type of masoor daal.
 
@@ -24,7 +24,7 @@ It can be used in all the same dishes as masoor daal (split and skin removed). S
 
 3. Saabut moong daal
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image3.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image3.png)
 
 Saabut moong daal, is whole moong or moong with the green skin left on. It cooks faster if soaked in advance as it is a "harder" daal. Saabut moong tastes great when sprouted and is a lovely, healthful addition to salads.
 
@@ -32,7 +32,7 @@ Mix a handful of sprouted Saabut moong daal in a bowl of yogurt, season with sal
 
 4. Moong daal
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image4.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image4.png)
 
 Moongdaal, has had its olive green skin removed and is split. It is a golden yellow color and turns slightly lighter when cooked.
 
@@ -40,7 +40,7 @@ Moong does not need soaking prior to being cooked as it is a "soft" daal.
 
 5. Toor/Tuvar or Arhar daal
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image5.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image5.png)
 
 Toor/tuvarorarhardaal, is most commonly sold and cooked in its split, skinless form. With its skin on, it is a greenish-brown color and without its skin, yellow.
 
@@ -48,11 +48,11 @@ Toor daal looks a lot likechana daalbut has smaller, more yellow-colored grains.
 
 6. Sabut urad
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image6.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image6.jpg)
 
 7. Split urad with skin
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image7.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image7.png)
 
 Urad daal, can be bought whole with its skin on, split with its skin on or split with its skin removed.
 
@@ -60,7 +60,7 @@ This [black lentil](https://www.thespruceeats.com/what-are-lentils-1328630) has 
 
 8. Urad daal with skin removed
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image8.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image8.png)
 
 Urad daal, has had its black skin removed. It is creamy white in color and has a milder flavor than whole urad daal.
 
@@ -68,7 +68,7 @@ Skinless Urad does not need soaking before it is cooked. It is often ground into
 
 9. Kabuli chana
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image9.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image9.png)
 
 Also known aschole, garbanzo beans, Egyptian peas and white chickpeas, kabulichana, has a lovely nutty flavor. In India, it is used to make curries, added to salads and even in dips.
 
@@ -76,7 +76,7 @@ Kabuli chana is especially popular in North India. It must be soaked for several
 
 10. Lobia or chawli
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image10.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image10.png)
 
 There is no need to soaklobiaorchawli, because it is a relatively "soft" bean that cooks easily. Watch carefully when cooking as it should not get mashed.
 
@@ -84,7 +84,7 @@ Lobia can be used almost similarly to kabulichana (white chickpeas) even though 
 
 11. Rajma
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image11.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image11.png)
 
 Slightly larger than the Mexican red bean, rajma or red kidney beans are very popular in North India where a well-loved dish is named after them. Not only do they taste great on their own, they make a terrific combination when cooked with vegetables and meats too.
 
@@ -92,13 +92,13 @@ Rajma must be soaked for several hours before cooking to soften it. As with all 
 
 12. Chickpeas - Kala chana / Black chickpeas / / Bengal gram / Desi chana
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image12.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image12.jpg)
 
 ## Types
 
 - **Black chickpeas (Bengal gram) / garbanzo beans:**These chickpeas come from India where they are sun-dried until they turn a deep rust color. Like regular chickpeas, they have a deep, earthy aroma and a nutty flavor. Black chickpeas can be found in Indian markets and specialty food shops.
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image13.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image13.png)
 
 - **Chana dal:**These small split desi chickpeas are sold in Indian stores and look very much like yellow split peas. Chana dal have a sweet, nutty taste. In India, chana dal are used to make chickpea flour, while in the United States, the larger kabuli chick-peas are used for flour. Chana dal can be found in Indian stores and some specialty food shops.
 
@@ -106,18 +106,18 @@ Chana daal, looks like a larger version of toor/tuvar or arhar daal. It is made 
 
 This [lentil](https://www.thespruceeats.com/history-of-lentils-1807624) has a nutty flavor and is used in dry curries or with vegetables or meats and also as a flour (Bengal gram flour). It cooks fairly quickly and does not need soaking prior to being cooked.
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image14.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image14.png)
 
 - **Chickpea shoots:** These feathery shoots of the chickpea plant are excellent in salads. Like fresh green chickpeas, they can occasionally be found in local farmers' markets.
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image15.png)
+![image](media/Nutrition_Pulses-Daal-Lentils-image15.png)
 
 - **Chickpea flour:**Chickpea flour has a rich culinary tradition in Indian cuisine, where it is known as **besanorchana** and is used in pancakes, stews, and curries. It is popular as well in Italian cuisine where**farina di ceci(chickpea flour)** is used to make pasta and a polenta-like dish. Chickpeas are also used in some blended flours, such as**garfava flour**, a combination of chickpeas and fava beans, and**dhokra flour**, a combination of rice, lentils, and chickpeas.
 - **Green chickpeas:**Fresh and sweet, like green peas, these are young, tender, fresh chickpeas. They are predominantly found in local farmers' markets.
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image16.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image16.jpg)
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image17.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image17.jpg)
 
 ## Health Benefits
 
@@ -149,9 +149,9 @@ Just 1 cup of cooked daal can give you as much as 62 percent of your daily dieta
 
 8. **mung / Green gram / Sabut moong**
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image18.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image18.jpg)
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image19.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image19.jpg)
 
 <https://wholefully.com/sprouting-101>
 
@@ -161,7 +161,7 @@ Just 1 cup of cooked daal can give you as much as 62 percent of your daily dieta
 
 Semolinais the coarse, purified [wheat middlings](https://en.wikipedia.org/wiki/Wheat_middlings) of [durum wheat](https://en.wikipedia.org/wiki/Durum) mainly used in making [upma](https://en.wikipedia.org/wiki/Upma), [pasta](https://en.wikipedia.org/wiki/Pasta), and [couscous](https://en.wikipedia.org/wiki/Couscous). The wordsemolinacan also refer to sweet dessert made from semolina and milk.The term semolina is also used to designate coarse middlings from other varieties of wheat, and from other grains, such as [rice](https://en.wikipedia.org/wiki/Rice) and [maize](https://en.wikipedia.org/wiki/Maize).
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image20.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image20.jpg)
 
 <https://en.wikipedia.org/wiki/Semolina>
 
@@ -171,7 +171,7 @@ Durum wheat([/ˈdjʊərəm/](https://en.wikipedia.org/wiki/Help:IPA/English)), a
 
 Durumin [Latin](https://en.wikipedia.org/wiki/Latin) means "hard", and the species is the hardest of all wheats. This refers to the resistance of the grain to milling, in particular of the [starchy](https://en.wikipedia.org/wiki/Starch)[endosperm](https://en.wikipedia.org/wiki/Endosperm), implying dough made from its flour is weak or "soft". This makes durum favorable for [semolina](https://en.wikipedia.org/wiki/Semolina) and [pasta](https://en.wikipedia.org/wiki/Pasta) and less practical for flour, which requires more work than with [hexaploid](https://en.wikipedia.org/wiki/Hexaploid) wheats like [common bread wheats](https://en.wikipedia.org/wiki/Common_wheat). Despite its high [protein](https://en.wikipedia.org/wiki/Protein) content, durum is not a strong wheat in the sense of giving strength to [dough](https://en.wikipedia.org/wiki/Dough) through the formation of a [gluten](https://en.wikipedia.org/wiki/Gluten) network. Durum contains 27% extractable wet gluten, about 3% higher than in common wheat (T. aestivumL.).
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image21.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image21.jpg)
 
 <https://en.wikipedia.org/wiki/Durum>
 
@@ -179,7 +179,7 @@ Durumin [Latin](https://en.wikipedia.org/wiki/Latin) means "hard", and the speci
 
 Buckwheat(Fagopyrum esculentum), orcommon buckwheat,  is a plant cultivated for its [grain-like](https://en.wikipedia.org/wiki/Pseudocereal) seeds and as a [cover crop](https://en.wikipedia.org/wiki/Cover_crop). A related species, [Fagopyrum tataricum](https://en.wikipedia.org/wiki/Fagopyrum_tataricum), is a domesticated food plant raised in Asia. Despite the name, buckwheat is not related to [wheat](https://en.wikipedia.org/wiki/Wheat), as it is not a [grass](https://en.wikipedia.org/wiki/Grasses). Instead, buckwheat is related to [sorrel](https://en.wikipedia.org/wiki/Sorrel), [knotweed](https://en.wikipedia.org/wiki/Polygonum), and [rhubarb](https://en.wikipedia.org/wiki/Rhubarb). Buckwheat is referred to as a [pseudocereal](https://en.wikipedia.org/wiki/Pseudocereal) because its seeds' culinary use is the same as cereals', owing to their composition of [complex carbohydrates](https://en.wikipedia.org/wiki/Complex_carbohydrates).
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image22.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image22.jpg)
 
 <https://en.wikipedia.org/wiki/Buckwheat>
 
@@ -205,9 +205,9 @@ Millets may have been consumed by humans for about 7,000 years and potentially h
 | Proso millet (broomcorn millet) | Chena                        |
 | Sorghum                         | Jowar                        |
 
-![image](media/Nutrition_Pulses---Daal---Lentils-image23.jpg)
+![image](media/Nutrition_Pulses-Daal-Lentils-image23.jpg)
 
-![P05 、 丶 ](media/Nutrition_Pulses---Daal---Lentils-image24.jpeg)
+![P05 、 丶 ](media/Nutrition_Pulses-Daal-Lentils-image24.jpeg)
 
 <https://en.wikipedia.org/wiki/Millet>
 

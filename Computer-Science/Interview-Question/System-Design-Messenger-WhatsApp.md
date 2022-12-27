@@ -117,7 +117,7 @@ User talks to Load Balancer (which can operate at Level-3, Level-4 or Level-7)
 Load Balancer then talks to one of the node servers
 
 Networking - HTTP, WebSockets
-![image](media/System-Design---Messenger---WhatsApp-image1.png)-  User will login using username and password at that time server will know that user is online
+![image](media/System-Design-Messenger-WhatsApp-image1.png)-  User will login using username and password at that time server will know that user is online
 
 - User A will send request to a load balancer, Load balancer will redirect the request to one of the hosts using FIFO or number of connections or load average of these hosts.
 - Bidirectional connection is needed for heartbeat
@@ -125,18 +125,18 @@ Networking - HTTP, WebSockets
 - Using the last heartbeat user can know when a user was last online (like 45 mins ago)
 - All the messages will be stored in Cassandra DB
 - If user is not online then text message will be stored in unread table
-![image](media/System-Design---Messenger---WhatsApp-image2.png)
+![image](media/System-Design-Messenger-WhatsApp-image2.png)
 
 ## Sending messages when user is offline
 
-![VS e I - CD ](media/System-Design---Messenger---WhatsApp-image3.png)
+![VS e I - CD ](media/System-Design-Messenger-WhatsApp-image3.png)
 
 ## Sending Images
 
 - Use thumbnail to send image
 - Save into blob storage and pass down url
 
-![BE s l.)VWeed ](media/System-Design---Messenger---WhatsApp-image4.png)
+![BE s l.)VWeed ](media/System-Design-Messenger-WhatsApp-image4.png)
 
 ## Optimizations
 

@@ -12,7 +12,7 @@ Let's take a simple example. You have a class called Figure that has the subclas
 
 When adding new types of shapes and colors, the number of combinations will grow exponentially. For example, to introduce triangles into the program, you'll have to create two new subclasses of triangles for each color. After this, a new color will require the creation of three classes for all kinds of figures. It only gets worse. Visually, it can be featured as:
 
-![image](media/Structural---Bridge-image1.png)
+![image](media/Structural-Bridge-image1.png)
 
 The root of the problem lies in the fact that we're trying to expand the classes of shapes in two independent planes - in form and color, which leads to the class tree growth.
 
@@ -20,7 +20,7 @@ The Bridge pattern suggests replacing inheritance with delegation. In order to d
 
 Thus, we can make Color a separate class with the Red and Blue subclasses. The Figure class gets a link to the Color object and can delegate the work to it, if necessary. This connection will become the bridge between Figure and Color. When adding new color classes, you won't need to touch the shape classes, and vice versa. Schematically it will look like this:
 
-![image](media/Structural---Bridge-image2.png)
+![image](media/Structural-Bridge-image2.png)
 
 ## Situations in which the Bridge pattern can help out
 

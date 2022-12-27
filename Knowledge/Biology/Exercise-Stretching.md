@@ -73,33 +73,33 @@ So, just what happens when you deliberately try to stretch a muscle? Sarcomeres 
 
 1. Shoulder rolls - from back, start small movements to large movements
 
-![image](media/Exercise---Stretching-image1.png)
+![image](media/Exercise-Stretching-image1.png)
 
 2. Overhead reach - Reaching side to side
 
-![image](media/Exercise---Stretching-image2.png)
+![image](media/Exercise-Stretching-image2.png)
 
 3. Torso rotation with a reach - lift your toes so you don't twist your back
 
-![image](media/Exercise---Stretching-image3.png)
+![image](media/Exercise-Stretching-image3.png)
 
 4. Hamstring curls - No arm movement
 
-![image](media/Exercise---Stretching-image4.png)
+![image](media/Exercise-Stretching-image4.png)
 
 5. Add arms to hamstring curl
 
 6. Shallow side lunges
 
-![image](media/Exercise---Stretching-image5.png)
+![image](media/Exercise-Stretching-image5.png)
 
 7. Knee lifts
 
-![(`츻냐 ](media/Exercise---Stretching-image6.png)
+![(`츻냐 ](media/Exercise-Stretching-image6.png)
 
 8. Arm sweeps - Cool down with four arm sweeps
 
-![image](media/Exercise---Stretching-image7.png)
+![image](media/Exercise-Stretching-image7.png)
 
 ## Pre-running streching
 

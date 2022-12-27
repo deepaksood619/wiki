@@ -215,8 +215,8 @@ The write permission gives you the authority to modify the contents of a file. T
 
 In Windows, an executable program usually has an extension ".exe" and which you can easily run. In Unix/Linux, you cannot run a program unless the execute permission is set. If the execute permission is not set, you might still be able to see/modify the program code (provided read & write permissions are set), but not run it.
 
-![image](media/Unix---Linux-File-System-image1.png)
-![image](media/Unix---Linux-File-System-image2.png)
+![image](media/Unix-Linux-File-System-image1.png)
+![image](media/Unix-Linux-File-System-image2.png)
 r= read permission
 
 w= write permission
@@ -224,7 +224,7 @@ w= write permission
 x= execute permission
 
 -= no permission
-![image](media/Unix---Linux-File-System-image3.png)
+![image](media/Unix-Linux-File-System-image3.png)
 
 ## Changing file/directory permissions with 'chmod' command
 
@@ -251,11 +251,11 @@ The table below gives numbers for all for permissions types.
 | 7      | Read + Write +Execute | rwx    |
 Let's see the chmod command in action.
 
-![image](media/Unix---Linux-File-System-image4.png)
+![image](media/Unix-Linux-File-System-image4.png)
 
 In the above-given terminal window, we have changed the permissions of the file 'sample to '764'.
 
-![image](media/Unix---Linux-File-System-image5.png)
+![image](media/Unix-Linux-File-System-image5.png)
 
 '764' absolute code says the following:
 
@@ -288,7 +288,7 @@ The various owners are represented as -
 
 We will not be using permissions in numbers like 755 but characters like rwx. Let's look into an example
 
-![image](media/Unix---Linux-File-System-image6.png)
+![image](media/Unix-Linux-File-System-image6.png)
 
 ## Changing Ownership and Group
 
@@ -302,7 +302,7 @@ In case you want to change the user as well as group for a file or directory use
 
 Let's see this in action
 
-![image](media/Unix---Linux-File-System-image7.png)
+![image](media/Unix-Linux-File-System-image7.png)
 
 In case you want to change group-owner only, use the command
 
@@ -310,18 +310,18 @@ In case you want to change group-owner only, use the command
 
 'chgrp'stands for change group.
 
-![image](media/Unix---Linux-File-System-image8.png)
+![image](media/Unix-Linux-File-System-image8.png)
 
 ## Tip
 
 - The file /etc/group contains all the groups defined in the system
 - You can use the command "groups" to find all the groups you are a member of
 
-![image](media/Unix---Linux-File-System-image9.png)
+![image](media/Unix-Linux-File-System-image9.png)
 
 - You can use the command newgrp to work as a member a group other than your default group
 
-![image](media/Unix---Linux-File-System-image10.png)
+![image](media/Unix-Linux-File-System-image10.png)
 
 - You cannot have 2 groups owning the same file.
 - You do not have nested groups in Linux. One group cannot be sub-group of other

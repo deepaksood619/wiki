@@ -46,7 +46,7 @@ Both methods use a multicast packet. Currently there is no standardized multicas
 ## MQTT-SN Architecture
 
 The architecture of MQTT-SN can be represented by the following figure -
-![image](media/MQTT---SN-image1.jpg)
+![image](media/MQTT-SN-image1.jpg)
 There are three kinds of MQTT-SN components -
 
 1. MQTT-SN clients,

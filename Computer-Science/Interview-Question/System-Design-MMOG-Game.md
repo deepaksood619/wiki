@@ -10,7 +10,7 @@ Modified: 2021-12-04 17:52:01 +0500
 
 ## Game Loop
 
-![image](media/System-Design---MMOG---Game-image1.png)
+![image](media/System-Design-MMOG-Game-image1.png)
 
 while (true) {
 
@@ -26,7 +26,7 @@ render_screen()
 
 - Unity
 - Unreal Engine
-![image](media/System-Design---MMOG---Game-image2.png)
+![image](media/System-Design-MMOG-Game-image2.png)
 
 1. Strategic games
 
@@ -56,7 +56,7 @@ render_screen()
 
 4. Therefore instead of TCP use UDP,
 
-![image](media/System-Design---MMOG---Game-image3.png)
+![image](media/System-Design-MMOG-Game-image3.png)
 
 - Send previous inputs in all packets
 - Add timestamps for replay-  **State Synchronization**
@@ -79,15 +79,15 @@ render_screen()
   - Not scalable
   - No design pattern
 
-![R AS ?ReSS 十 ](media/System-Design---MMOG---Game-image4.png)
-![image](media/System-Design---MMOG---Game-image5.png)
-![image](media/System-Design---MMOG---Game-image6.png)
-![image](media/System-Design---MMOG---Game-image7.png)
+![R AS ?ReSS 十 ](media/System-Design-MMOG-Game-image4.png)
+![image](media/System-Design-MMOG-Game-image5.png)
+![image](media/System-Design-MMOG-Game-image6.png)
+![image](media/System-Design-MMOG-Game-image7.png)
 
 - World Server
 - Game /Area Server
 - Data Structure - Map Template
-![image](media/System-Design---MMOG---Game-image8.png)
+![image](media/System-Design-MMOG-Game-image8.png)
 
 ## Patch Servers
 
