@@ -75,6 +75,7 @@ data:
                     proxy_read_timeout          3600;
                     send_timeout                600;
                     client_max_body_size 25M;
+                    server_name corporate.app.com;
                     listen 80;
 
                     location /static/ {
@@ -118,6 +119,28 @@ location /api {
 rewrite /api/(.*) /$1 break;
 proxy_pass http://api;
 }
+}
+
+# test.con
+# Start writing your nginx.conf here
+events { }
+http { 
+    server {
+        server_name corporate.app.com;
+        listen 80;
+        
+        location / {
+            proxy_pass  http://frontend/;
+        }
+
+        location /api/ {
+            proxy_pass http://rest_api/;
+        }
+
+        location /notification/ {
+            proxy_pass http://notification:8080/;
+        }
+    }
 }
 
 # Dockerfile

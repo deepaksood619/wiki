@@ -13,6 +13,7 @@ Your brain is for having ideas not holding them
 Extensions that helps make obsidian better
 
 - Advanced Tables
+- Outliners (Outlines like Roam Research)
 - DataView
 - Kanban
 - Calendar
