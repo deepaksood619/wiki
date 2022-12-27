@@ -178,6 +178,14 @@ Extensions that helps make obsidian better
 
 <https://forum.obsidian.md/t/the-all-obsidian-publish-s-collection-by-leo-latest-update-20210324/7248>
 
+### Blogs example templates
+
+<https://mathieudutour.github.io/gatsby-digital-garden>
+
+<https://jackiexiao.github.io/foam/backlinking>
+
+<https://hikerpig.github.io/foam-jekyll-template>
+
 ## Personal Knowledge Management (PKM) / Second Brain
 
 Personal knowledge management(PKM) is a process of collecting information that a person uses to gather, classify, store, search, retrieve and share [knowledge](https://en.wikipedia.org/wiki/Knowledge) in their daily activities ([Grundspenkis 2007](https://en.wikipedia.org/wiki/Personal_knowledge_management#CITEREFGrundspenkis2007)) and the way in which these processes support work activities ([Wright 2005](https://en.wikipedia.org/wiki/Personal_knowledge_management#CITEREFWright2005)). It is a response to the idea that [knowledge workers](https://en.wikipedia.org/wiki/Knowledge_worker) need to be responsible for their own growth and learning ([Smedley 2009](https://en.wikipedia.org/wiki/Personal_knowledge_management#CITEREFSmedley2009)). It is a bottom-up approach to [knowledge management](https://en.wikipedia.org/wiki/Knowledge_management)(KM) ([Pollard 2008](https://en.wikipedia.org/wiki/Personal_knowledge_management#CITEREFPollard2008)).

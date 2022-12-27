@@ -187,8 +187,9 @@ brew services cleanup
 - moreutils
 - thefuck - <https://github.com/nvbn/thefuck>
 - **tldr -** <https://tldr.sh> <https://github.com/tldr-pages/tldr>
-- <https://fig.io>
+- rename
 
+- <https://fig.io>
 ```bash
 brew install --cask fig
 # <https://github.com/withfig/autocomplete>

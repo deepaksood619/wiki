@@ -6,6 +6,16 @@ Modified: 2022-12-11 22:10:12 +0500
 
 ---
 
+## Extension - Foam
+
+<https://foambubble.github.io/foam>
+
+[Foam | Recipes](https://foambubble.github.io/foam/user/recipes/recipes)
+
+### Commands
+
+- Foam: Show Graph
+
 ## Extension - Markdown All in One
 
 <https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one>
@@ -26,23 +36,27 @@ Modified: 2022-12-11 22:10:12 +0500
 
 ### Shortcuts
 
-| Key                                                              | Command                          |
-| ---------------------------------------------------------------- | -------------------------------- |
-| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>B</kbd>                    | Toggle bold                      |
-| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>I</kbd>                    | Toggle italic                    |
-| <kbd>Alt</kbd>+<kbd>S</kbd> (on Windows)                         | Toggle strikethrough<sup>1</sup> |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>                | Toggle heading (uplevel)         |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>                | Toggle heading (downlevel)       |
-| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>M</kbd>                    | Toggle math environment          |
-| <kbd>Alt</kbd> + <kbd>C</kbd>                                    | Check/Uncheck task list item     |
-| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> | Toggle preview                   |
-| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>K</kbd> <kbd>V</kbd>       | Toggle preview to side           |
+| **Key** | **Command** |
+|---|---|
+| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>B</kbd> | Toggle bold |
+| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>I</kbd> | Toggle italic |
+| <kbd>Alt</kbd>+<kbd>S</kbd> (on Windows) | Toggle strikethrough<sup>1</sup> |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd> | Toggle heading (uplevel) |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd> | Toggle heading (downlevel) |
+| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>M</kbd> | Toggle math environment |
+| <kbd>Alt</kbd> + <kbd>C</kbd> | Check/Uncheck task list item |
+| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> | Toggle preview |
+| <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>K</kbd> <kbd>V</kbd> | Toggle preview to side |
 
 <sup>1. If the cursor is on a list/task item without selection, strikethrough will be added to the whole item (line)</sup>
 
 ## Other Extensions
+
 - Markdown Preview Enhanced
 - markdownlint
+- markdown-link-expander
+  [markdown-link-expander - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=skn0tt.markdown-link-expander)
+- [GitHub - svsool/memo: Markdown knowledge base with bidirectional [[link]]s built on top of VSCode](https://github.com/svsool/memo)
 
 ## Markdown shortcuts in VSCode
 
