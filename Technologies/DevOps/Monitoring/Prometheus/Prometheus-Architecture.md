@@ -81,7 +81,7 @@ As the diagram shows, Cortex "completes" the Prometheus Monitoring System. To ad
 
 Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view. The side-car container also pushes immutable data blocks to the object storage. When you need to retrieve data that is on block storage, the store component takes care of that. The compactor component takes care of compaction and downsampling.
 
-![GCS 1 S3 STORE SIDE CAR PROMETHEUS QUERIER SIDE CAR PROMETHEUS ](../../../media/DevOps-Monitoring-Prometheus-Architecture-image2.png)
+![image](../../../media/DevOps-Monitoring-Prometheus-Architecture-image2.png)
 
 ## M3
 

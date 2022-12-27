@@ -310,6 +310,6 @@ gcloud compute ssh --project deepak-project-619 --zone us-east1-b root@instance-
 
 <https://medium.com/google-cloud/13-most-common-google-cloud-reference-architectures-23630b46326d>
 
-![API PLATFORM AND ECOSYSTEMS](../../media/Cloud-Others-Google-Cloud-Platform-Managed-Services-image4.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform-Managed-Services-image4.png)
 
 ![image](../../media/Cloud-Others-Google-Cloud-Platform-Managed-Services-image5.png)

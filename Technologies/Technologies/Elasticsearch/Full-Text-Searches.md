@@ -108,9 +108,9 @@ Here's when the fun starts! Results can be shown in 3 basic formats:
 
 ## Transformers
 
-![Document retrieval Autosuggest Re-Ranking Summarization Question Answering Translation ](../../media/Technologies-Elasticsearch-Full-Text-Searches-image2.jpeg)
+![image](../../media/Technologies-Elasticsearch-Full-Text-Searches-image2.jpeg)
 
-![Document Retrieval: Transformers are an alternative to keyword based methods qve.S+ion kfinA oe 409 breeds are *here? Ret-riever Relevant User makes a query System returns relevant documents Sparse: Keyword based approaches (TF-IDF, BM25) String similarity: Bag-of-words Fast, lightweight, efficient (Word embeddings) Dense: Transformer based approaches (DPR, Sentence Transformers) Semantic similarity: Synonyms, context aware ... Representing documents as vectors ](../../media/Technologies-Elasticsearch-Full-Text-Searches-image3.jpeg)
+![image](../../media/Technologies-Elasticsearch-Full-Text-Searches-image3.jpeg)
 
 ![image](../../media/Technologies-Elasticsearch-Full-Text-Searches-image4.jpeg)
 

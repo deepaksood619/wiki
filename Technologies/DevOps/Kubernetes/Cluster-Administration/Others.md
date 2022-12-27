@@ -23,7 +23,7 @@ Note: For those platforms that supportPodsrunning in the host network (e.g. Linu
 
 [Container Networking From Scratch - Kristen Jacobs, Oracle](https://www.youtube.com/watch?v=6v_BDHIgOY8)
 
-![O ' NO 「 1-10 」 OS 山 0 」 6u | 0M N 」 eu ! u00 8L0 ~ e 」 WV "VON u000 22pn0 | 0 uo•aqnx ](../../../media/DevOps-Kubernetes-Others-image1.jpg)
+![image](../../../media/DevOps-Kubernetes-Others-image1.jpg)
 
 ## Extending Kubernetes > Service Catalog
 

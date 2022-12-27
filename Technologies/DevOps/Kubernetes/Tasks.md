@@ -28,7 +28,7 @@ The Horizontal Pod Autoscaler automatically scales the number of pods in a repli
 
 The Horizontal Pod Autoscaler is implemented as a Kubernetes API resource and a controller. The resource determines the behavior of the controller. The controller periodically adjusts the number of replicas in a replication controller or deployment to match the observed average CPU utilization to the target specified by user.
 
-![pod 1 pod 2 RC / Deployment Scale Horizontal pod Autoscaler Pod N ](../../media/DevOps-Kubernetes-Tasks-image1.png)
+![image](../../media/DevOps-Kubernetes-Tasks-image1.png)
 
 The Horizontal Pod Autoscaler is implemented as a control loop, with a period controlled by the controller manager's--horizontal-pod-autoscaler-sync-periodflag (with a default value of 15 seconds).
 

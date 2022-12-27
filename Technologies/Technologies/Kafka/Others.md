@@ -39,7 +39,7 @@ Modified: 2022-02-02 23:32:55 +0500
 - **At least once-** Consumers will receive and process every message, but they may process the same message more than once.
 - **Effectively once-** Also [contentiously](https://streaml.io/blog/exactly-once)[known](https://medium.com/@jaykreps/exactly-once-support-in-apache-kafka-55e1fdd0a35f) as exactly once, this promises consumers will process every message once.
 
-![囙 囙 囗 囗 NO guarantee At most 0 e Atleastonce Effectively once ](../../media/Technologies-Kafka-Others-image1.png)
+![image](../../media/Technologies-Kafka-Others-image1.png)
 
 ## Storage formats: Serialization and deserialization of events
 

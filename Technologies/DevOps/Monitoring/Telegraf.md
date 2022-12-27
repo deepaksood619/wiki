@@ -22,7 +22,7 @@ Telegraf is plugin-driven and has the concept of 4 distinct plugins:
 
 ## Architecture
 
-![TICK architecture (push) PG TICK Machine Telegraf Agent Server Capacitor (Alerts) Elastic Kubernetes Kubernetes Master Machine Kubernetes API Server Node machines Telegrgf Agent (DaemonSet) CloudWatch Storage External Machine Ext. Service + statsD Telegraf Agent (Daemon-Set) ](../../media/DevOps-Monitoring-Telegraf-image1.png)
+![image](../../media/DevOps-Monitoring-Telegraf-image1.png)
 
 ## Input Data Formats
 

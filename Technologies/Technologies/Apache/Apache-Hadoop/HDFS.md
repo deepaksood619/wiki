@@ -64,7 +64,7 @@ Modified: 2021-04-28 17:17:32 +0500
 
 ## Basic architecture of HDFS
 
-![Metadata (Name, replicas, /homeffoo/data, 3 Metadata o Clien e Datanodes Rack 1 amenode R Clien Bloc ops plication D es loc Rack 2 ](../../../media/Technologies-Apache-HDFS-image1.jpeg)
+![image](../../../media/Technologies-Apache-HDFS-image1.jpeg)
 
 ## HDFS Architecture: Key components
 
@@ -105,7 +105,7 @@ Basically what we are doing is trying to have multiple data nodes, and multiple 
 - Heterogeneous storage and archival storage
   - ARCHIVE, DISK, SSD, RAM_DISK
 
-![Federation: Block Pools : NN-k : NN- NSI Datanode I NS k Datanode 2 Conunon Storage • So, if you remember the original design you have one name sp data nodes. So, the structure looks similar. ](../../../media/Technologies-Apache-HDFS-image2.png)
+![image](../../../media/Technologies-Apache-HDFS-image2.png)
 
 ## HDFS Performance Measures
 
@@ -117,7 +117,7 @@ Basically what we are doing is trying to have multiple data nodes, and multiple 
 
 - Distributed data on local disks on several nodes
 
-![Node 1 Node 2 Node n ](../../../media/Technologies-Apache-HDFS-image3.jpeg)
+![image](../../../media/Technologies-Apache-HDFS-image3.jpeg)
 
 ## HDFS Block Size
 
@@ -130,7 +130,7 @@ Basically what we are doing is trying to have multiple data nodes, and multiple 
 - **NameNode memory usage:** Every block that you create basically every file could be a lot of blocks as we saw in the previous case, 160 blocks. And if you have millions of files that's millions of objects essentially. And for each object, it uses a bit of memory on the NameNode, so that is a direct effect of the number of blocks. But if you have replication, then you have 3 times the number of blocks
 - **Number of map tasks:** Number of maps typically depends on the number of blocks being processed.
 
-![II II ı ı ı ı ı ili ı ı ı ı ı ı ı ı ı ı ı ı ı ı ](../../../media/Technologies-Apache-HDFS-image4.jpeg)
+![image](../../../media/Technologies-Apache-HDFS-image4.jpeg)
 
 ## Large No. of small files: Impact on Name node
 
@@ -152,9 +152,9 @@ Basically what we are doing is trying to have multiple data nodes, and multiple 
 
 ## Read / Write Processes in HDFS
 
-![Read Process in HDFS HDFS dient client JVM dient 1: open . 3: read Distributed FileSystem FSData InputStream 4: read 2: get block locations 5: rel ](../../../media/Technologies-Apache-HDFS-image5.png)
+![image](../../../media/Technologies-Apache-HDFS-image5.png)
 
-![Write Process in HDFS dient client JVM client node 1: create 3: write HDFS Distributed FileSystem FSData OutputStream 4: write packet : 5: ad packet 4 2: create 7: complete DatdNode 4 Pipeline of datanodes DataNode J ](../../../media/Technologies-Apache-HDFS-image6.png)
+![image](../../../media/Technologies-Apache-HDFS-image6.png)
 
 ## HDFS Tuning Parameters
 

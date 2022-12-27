@@ -46,9 +46,9 @@ Modified: 2022-01-07 12:24:48 +0500
 - **Hadoop YARN:** It is a resource management platform responsible for managing compute resoures in the cluster and using them in order to schedule users and applications
 - **Hadoop MapReduce:** It is a programming model that scales across a lot of different processes
 
-![Apache Framework Basic Modules Apache Hadoop Ecosystem Ambari Provisioning, Managing and Monitoring Hadoop Clusters O O HDFS 2.0 Hadoop Distributed YARN Map Reduce v2 Distributed Processing Framework ile System Big Data Hadoop Stack CIM Big Data Computing ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image1.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image1.png)
 
-![High Level Architecture of Hadoop MapReduce layer HDFS layer Master Node TaskTracker JobTraeker U/ NameNode Slave Node Task Tracker DataNode Slave Node TaskTracker Data Node Two major pieces of Hadoop are: MapReduce, a parallel processin he are both open source and Google. Hadoop Distribute the e Syste d the framework that will ap nd duce ata. inspired by the techno ogies de ed at If about thi el inf u we sta bout things like askTrackers nd obTrackers the NameNod Bi5Dåta Comp an DataNodes. Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image2.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image2.png)
 
 ## Hadoop Distributed File System (HDFS)
 
@@ -56,13 +56,13 @@ Modified: 2022-01-07 12:24:48 +0500
 - Each node in Hadoop instance typically has a single name node, and a cluster of data nodes that formed this HDFS cluster
 - Each HDFS stores large files, typically in ranges of gigabytes to terabytes, and now petabytes, across multiple machines. And it can achieve reliability by replicating the cross multiple hosts, and therefore does not require any range storage on hosts
 
-![HDFS Metadata ops enode Metadata (Name, replicas, /home/foo/data, 3, li Re Datanodes Rack 1 Big Data Computing Bloc ops plication •t ien Datanodes loc Rack 2 Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image3.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image3.png)
 
-![HDFS DataNode HDFS Client rtbe DataNode NameNode , Re icati , Ba Secondary NameNo e cing DataNode DataNode DataNode Big Data Computing Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image4.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image4.png)
 
-![MapReduce Engine Cluster Servk:e Task T Dara Node Slaves Data Hiw. Dara Node The typical MapReduce engine will consist of a job tracker, to which client applications can submit MapReduce jobs, and this job trackeh typically pushes work out to all the available task trackers, now it's in the cluster. Struggling to keep the word as close to the data as possible, as balanced as possible. Big Data Computing Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image5.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image5.png)
 
-![Apache Hadoop NextGen MapReduce (YARN) • Yarn enhances the power of the Hadoop compute cluster, without being limited by the map produce kind of framework. • It's scalability's great. The processing continue to grow quickly, b cause the YARN .resea$.ch focuses ager exclusively on scheduling. It can manage those very large clusters quite quickly and easily. • YARN is completely compatible with the MapReduce. Existing MapReduce application end users can run on top of the Yarn without disrupting any of their existing processes. Big Data Computing Chent Resource Manager lent MapReduce StüS Job Submission Node Status Resource Request Contarwr App ode ode Conlarg•r Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image6.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image6.png)
 
 App mstr - Application master
 
@@ -85,21 +85,21 @@ Resource manager and Node manager are client-server architecture
 - Now we can bring in additional programming models, such as graph process or iterative modeling, and now it's possible to process the data in your base. This is especially useful when we talk about machine learning applications
 - Yarn allows multiple access engines, either open source or proprietary, to use Hadoop as a common standard for either batch or interactive processing, and even real time engines that can simultaneous acts as a lot of different data, so you can put streaming kind of applications on top of YARN inside a Hadoop architecture, and seamlessly work and communicate between these environments.
 
-![Hadoop 1.0 vs. Hadoop 2.0 HADOOP 1.0 Pig (data now) (eiuster re Hive Others & data proc HDFS HADOOP 2.0 St Services Tez YARN (duster resmarce trunage:rnent) HDFS2 Hadoop 2.0 provides a more general processing platform, that is not constraining to this map and reduce kinds of processes. The fundamental idea behind the MapReduce 2.0 is to split up two major functionalities of the job tracker, resource management, and the job scheduling and monitoring, and to do two separate units. The idea is to have a global resource manager, and per application master manager. Big Data Computing Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image7.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image7.png)
 
 # Hadoop Zoo
 
-![Apache Hadoop Ecosystem Apache Hadoop Ecosystem Ambari Provisioning, Managing and Monitoring Hadoop Clusters O YARN Map Reduce v2 Distributed Processing Framework O HDFS Hadoop Distributed File System Big Data Computing Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image8.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image8.png)
 
-![Original Google Stack Dremel Evenflow MySQL Evenflow Sawzall Dremel Bigtable Gateway MapReduce / GFS Chubby • Had their original MapReduce, and they were storing and processing large amounts of data. • Like to be able to access that data and access it in a SQL like language. So they built the SQL gateway to adjust the data into the MapReduce cluster and be able to query some of that data as well. Big Data Computing Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image9.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image9.png)
 
-![Original Google Stack Dremel Evenflow MySQL Gateway Evenflow Sawzall MapReduce / GFS Chubby Dremel Bigtable • Then, they realized they needed a high-level specific language to access MapReduce in the cluster and submit some of those jobs. So Sawzall came along. • Then, Evenflow came along and allowed to chain together complex work codes and coordinate events and service across this kind of a framework or the specific cluster they had at the time. Big Data Computing Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image10.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image10.png)
 
-![Original Google Stack Dremel Evenflow MySQL Gateway Evenflow Sawzall MapReduce / GFS Chubby Dremel Bigtable • Then, Dremel came along. Dremel was a columnar storage in the metadata manager that allows us to manage the data and is able to process a very large amount of unstructured data. • Then Chubby came along as a coordination system that would manage all of the products in this one unit or one ecosystem that could process all these large amounts of structured data seamlessly. Big Data Computing Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image11.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image11.png)
 
-![Facebook's Version of the Stack Languages Data Integration pee Scribe Compilers atabee Hive HBase Zookeeper Big Data Computing Data Store Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image12.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image12.png)
 
-![Data Integration Yahoo Version of the Stack IL anguages Compilers Oozie Pig & Hive Big Data Computing IHB Data Store Big Data Hadoop Stack ](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image13.png)
+![image](../../../media/Technologies-Apache-Big-Data-Hadoop-Stack-image13.png)
 
 ## Hadoop Ecosystem Major Components
 

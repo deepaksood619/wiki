@@ -31,7 +31,7 @@ Metrics get fed into the stack via theCarbonservice, which writes the data out t
 
 Graphite's web platform offers a variety of output styles and formats, including raw images, CSV, XML, and JSON, allowing anyone to easily embed custom graphs in other web pages or dashboards.
 
-![users Graphite-Web webam) memcached database load.lm.wsp Whisper load. 5m.wsp metrics Carbon carbon-relay carbon-aggregator load.15m.wsp Legend logical component optional required ](../../media/DevOps-Monitoring-Graphite-image1.png)
+![image](../../media/DevOps-Monitoring-Graphite-image1.png)
 
 ## Points
 

@@ -74,7 +74,7 @@ Storm integrates with the queueing and database technologies you already use. A 
 
 ## Apache Flink- Stateful Computations over Data Streams
 
-![Event-driven Applications](../../media/Technologies-Apache-Others-image1.png)
+![image](../../media/Technologies-Apache-Others-image1.png)
 
 Apache Flink is a framework and distributed processing engine for stateful computations over*unbounded and bounded*data streams. Flink has been designed to run in*all common cluster environments*, perform computations at*in-memory speed*and at*any scale*.
 
@@ -88,6 +88,6 @@ The OpenWhisk platform supports a programming model in which developers write fu
 
 ## Architecture
 
-![OpenWhisk Architecture](../../media/Technologies-Apache-Others-image2.png)
+![image](../../media/Technologies-Apache-Others-image2.png)
 
 <https://openwhisk.apache.org>

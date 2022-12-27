@@ -6,7 +6,7 @@ Modified: 2022-01-07 15:29:44 +0500
 
 ---
 
-![No alternative text description for this image](../../../media/DevOps-Terminal-Bash-Networking-tools-image1.jpg)
+![image](../../../media/DevOps-Terminal-Bash-Networking-tools-image1.jpg)
 
 <https://haydenjames.io/linux-networking-commands-scripts>
 

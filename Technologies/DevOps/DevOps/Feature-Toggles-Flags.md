@@ -34,11 +34,11 @@ Feature Toggles are also refered to as Feature Flags, Feature Bits, or Feature F
 
 ## Static vs Dynamic Toggles
 
-![years months days o ' Permission Toggles Ops Toggles ' Experiment 1 Toggles Release Toggles dynamism changes with a deployment changes with runtime re-configuration changes with each request ](../../media/DevOps-DevOps-Feature-Toggles-Flags-image1.png)
+![image](../../media/DevOps-DevOps-Feature-Toggles-Flags-image1.png)
 
 ## Long-lived toggles vs transient toggles
 
-![years months days o : Permission Toggles Ops Toggles ' Experiment , Toggles Release Toggles dynamism changes with a deployment changes with runtime re-configuration changes with each request ](../../media/DevOps-DevOps-Feature-Toggles-Flags-image2.png)
+![image](../../media/DevOps-DevOps-Feature-Toggles-Flags-image2.png)
 
 ## Implementation Techniques
 

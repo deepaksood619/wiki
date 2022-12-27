@@ -129,7 +129,9 @@ Resolver / Recursive DNS
 
 ![image](media/DNS-Domain-Name-System-image4.png)
 ![image](media/DNS-Domain-Name-System-image5.png)
-![image](media/DNS-Domain-Name-System-image6.png)[https://ns1.com/academy#](https://ns1.com/academy)
+![image](media/DNS-Domain-Name-System-image6.png)
+
+[https://ns1.com/academy#](https://ns1.com/academy)
 
 ## Punycode
 

@@ -150,9 +150,9 @@ htop - an interactive process viewer for Unix.
 
 It shows a frequently updated list of the processes running on a computer, normally ordered by the amount of CPU usage. Unlike top, htop provides a full list of processes running, instead of the top resource-consuming processes. htop uses color and gives visual information about [processor](https://en.wikipedia.org/wiki/Central_processing_unit), [swap](https://en.wikipedia.org/wiki/Swap_space) and [memory](https://en.wikipedia.org/wiki/Random_access_memory) status.
 
-![Number of processors or are user and green cores. This has 3 cores. 76.2 Total memory used by processes in green bars. Total CPU usage for core 1. e are low priority, 1 2 3 Mem are kernel threads Load avera e: Uptime: 1 day, 1024 74 ON099MB] ](../../media/DevOps-Terminal-Bash-Others-image1.png)
+![image](../../media/DevOps-Terminal-Bash-Others-image1.png)
 
-![Process owner. PID 17391 8081 8052 6157 8065 Process Ids. 8073 8074 8075 8077 8076 8082 Niceness or the user-space priority of processes. Ranges from -20 (highest) to 19 (lowest.) MEM 3.8 55: 25. 2.6 3.8 1.9 1.3 13:31. 1.1 4.3 1.3 4.3 3.8 0.3 3.8 0.3 3.8 4.9 3.8 8.8 3.8 3.8 Total amount of virtual memory requested by processes. Not all may be in use. Resident memory usage or what currently being used by process( I PRI 20 20 20 20 20 30 30 30 20 20 20 SHR 55844 584 504 572 584 584 584 584 584 584 TIME+ oe joe -oot joe joe joe joe 1 o VIRT 1435M 435M 719M 310M 719M 435M 435M 435M 435M 435M 435M 285M 285M 100M 32448 100M 285M 285M 285M 285M 285M 285M 142 . s s R R s R s s s s 5. 7 4 1:09. 0:52. 0:30. 0:31. 0:31. o. 0:25. •14. 0:09. 38 10 05 52 85 82 62 44 62 99 63 Command simplescr simplescr gea ry /us r/bin/ gea ry simplescr simplescr simplescr simplescr simplescr simplescr ](../../media/DevOps-Terminal-Bash-Others-image2.png)
+![image](../../media/DevOps-Terminal-Bash-Others-image2.png)
 
 <https://peteris.rocks/blog/htop>
 

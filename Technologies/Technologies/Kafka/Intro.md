@@ -70,7 +70,7 @@ Modified: 2021-06-06 16:40:19 +0500
 
 5. Broker: one of the servers that comprises a cluster
 
-![Producer Consumer Producer Consumer Producer Consumer ](../../media/Technologies-Kafka-Intro-image1.png)
+![image](../../media/Technologies-Kafka-Intro-image1.png)
 
 # Use Cases
 
@@ -144,7 +144,7 @@ Ex - Kafka can be used to **aggregate user activity** data such as clicks, navig
 
 Log compaction is a mechanism to give finer-grained per-record retention, rather than the coarser-grained time-based retention. The idea is to selectively remove records where we have a more recent update with the same primary key. This way the log is guaranteed to have at least the last state for each key.
 
-![Compacted Topics Log time key k4 k3 k4 k4 k3 value compacting time key value 9 kl VIO 14 15 vi6 16 k3 vi7 Compacted Log ](../../media/Technologies-Kafka-Intro-image2.png)
+![image](../../media/Technologies-Kafka-Intro-image2.png)
 
 <https://towardsdatascience.com/log-compacted-topics-in-apache-kafka-b1aa1e4665a7>
 

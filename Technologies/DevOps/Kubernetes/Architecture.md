@@ -31,13 +31,13 @@ GoogleCloud / ECR
 
 ![haha only kidding](../../media/DevOps-Kubernetes-Architecture-image1.png)
 
-![that one is more like the real thing](../../media/DevOps-Kubernetes-Architecture-image2.png)
+![image](../../media/DevOps-Kubernetes-Architecture-image2.png)
 
-![One of the best Kubernetes architecture diagrams available](../../media/DevOps-Kubernetes-Architecture-image3.png)
+![image](../../media/DevOps-Kubernetes-Architecture-image3.png)
 
-![--- Cnh%Z- Kgs API g Wbfkr PIR PIC Pl K2 ](../../media/DevOps-Kubernetes-Architecture-image4.png)
+![image](../../media/DevOps-Kubernetes-Architecture-image4.png)
 
-![What is Kubernetes? The components that make up Kubernetes under the hood](../../media/DevOps-Kubernetes-Architecture-image5.png)
+![image](../../media/DevOps-Kubernetes-Architecture-image5.png)
 
 # Nodes
 

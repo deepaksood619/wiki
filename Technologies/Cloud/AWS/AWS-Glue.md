@@ -34,7 +34,7 @@ Note: you may only add new files, or append to existing files. Overwriting data 
 
 ## AWS Glue Concepts
 
-![The basic concepts populating your Data Catalog and processing ETL dataflow in AWS Glue.](../../media/Cloud-AWS-AWS-Glue-image2.png)
+![image](../../media/Cloud-AWS-AWS-Glue-image2.png)
 
 You definejobsin AWS Glue to accomplish the work that's required to extract, transform, and load (ETL) data from a data source to a data target. You typically perform the following actions:
 
@@ -114,7 +114,7 @@ The AWS Glue Data Catalog contains references to data that is used as sources an
 
 The following workflow diagram shows how AWS Glue crawlers interact with data stores and other elements to populate the Data Catalog.
 
-![Workflow showing how AWS Glue crawler populates the Data Catalog in 5 basic steps.](../../media/Cloud-AWS-AWS-Glue-image3.png)
+![image](../../media/Cloud-AWS-AWS-Glue-image3.png)
 
 The following is the general workflow for how a crawler populates the AWS Glue Data Catalog:
 

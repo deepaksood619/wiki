@@ -36,6 +36,6 @@ sidecar.istio.io/proxyMemory: "50Mi"
 
 sidecar.istio.io/inject: "false"
 
-![Troubleshooting Guide Step 1 Oistioctl analyze' step 2 *istioctl proxy-status* step 3 "istiod• logs Access logs Resp flags Step 5 Envoy config dump Step 6 "istiod" metrics Step 7 Odebug• logging step 8 Profiling ](../../../media/DevOps-Monitoring-Commands-image1.png)
+![image](../../../media/DevOps-Monitoring-Commands-image1.png)
 
 <https://istio.io/latest/docs/reference/commands/istioctl>

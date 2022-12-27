@@ -10,7 +10,7 @@ Modified: 2020-03-15 00:59:35 +0500
 
 When Spark translates an operation in the execution plan as a Sort Merge Join it enables anall-to-all communication strategy among the nodes: the Driver Node will orchestrate the Executors, each of which will hold a particular set of joining keys.Before running the actual operation, the partitions are first sorted(this operation is obviously heavy itself). As you can imagine this kind of strategy can be expensive: nodes need to use the network to share data;note that Sort Merge Joins tend to minimize data movements in the cluster, especially compared to Shuffle Hash Joins.
 
-![Simplified version on how Sort Merge Joins are performed in Apache Spark](../../../media/Technologies-Apache-Joins-image1.png)
+![image](../../../media/Technologies-Apache-Joins-image1.png)
 
 In a Sort Merge Join partitions are sorted on the join key prior to the join operation.
 
@@ -18,7 +18,7 @@ In a Sort Merge Join partitions are sorted on the join key prior to the join ope
 
 Broadcast joins happen when Spark decides to senda copy of a table to all the executor nodes. The intuition here is that, if we broadcast one of the datasets, Spark no longer needs an all-to-all communication strategy andeach Executor will be self-sufficient in joining the big dataset records in each node, with the small (broadcasted) table. We'll see that this simple idea improves performance... usually.
 
-![Simplified version on how Broadcast Joins are performed in Apache Spark](../../../media/Technologies-Apache-Joins-image2.png)
+![image](../../../media/Technologies-Apache-Joins-image2.png)
 
 In a Broadcast Join a copy of the small table is sent to all the Executors. Each executor will then perform the join without the need of network communication
 

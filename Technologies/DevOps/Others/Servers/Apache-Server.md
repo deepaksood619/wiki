@@ -112,7 +112,7 @@ The self-regulating MPM Prefork derives its namesake from how it forks or copies
 
 Each idle child process joins a queue to listen for incoming requests. This MPM uses a method called [accept mutex](https://httpd.apache.org/docs/2.4/mod/core.html#mutex) to ensure that only one process listens for and accepts the next TCP request (mutex stands for MUTual EXclusion mechanism). The first idle worker process in the queue acquires the mutex and listens for the next incoming connection. After receiving a connection, it releases the accept mutex by passing it to the next idle process in the queue, and processes the request (during which time it is considered a busy worker). After it finishes processing the request, it joins the queue once again.
 
-![RESPONSE REQUEST Client Child Process (BUSY) ACCEPT MUTEX Child Process (IDLE) Apache FORK() Parent Process FORK() ](../../../media/DevOps-Others-Apache-Server-image1.png)
+![image](../../../media/DevOps-Others-Apache-Server-image1.png)
 
 Because this MPM needs a higher number of processes to handle any given number of requests, it is generally more memory-hungry than multi-threaded MPMs like worker and event. For this reason, if you are using mod_php you should consider switching over to [PHP-FPM](https://wiki.apache.org/httpd/PHP-FPM) so that you can use the worker or event MPM instead.
 
@@ -132,7 +132,7 @@ Like the prefork MPM, the worker MPM usesaccept mutexto designate which thread w
 
 The listener thread that accepts the mutex will listen for the next incoming request, accept the connection, and release the accept mutex so that another listener thread can shepherd the next incoming request. The listener thread then passes the socket to an idle worker thread within its process.
 
-![REQUEST Client RESPONSE Listener Thread Worker Thread (BUSY) Worker Thread (IDLE) Listener Thread ACCEPT MUTEX Worker Thread (IDLE) Worker Thread (IDLE) Apache Child Process Child Process Parent Process ](../../../media/DevOps-Others-Apache-Server-image2.png)
+![image](../../../media/DevOps-Others-Apache-Server-image2.png)
 
 Unlike the prefork MPM, the worker MPM enables each child process to serve more than one request at a time, by utilizing multiple threads. Because you only need one thread per connection, instead of forking one process per connection, this MPM tends to be more memory-efficient than the prefork MPM.
 
@@ -158,7 +158,7 @@ In the event MPM, a worker thread can write a request to the client, and then pa
 
 If theKeepAliveTimeoutis reached before any activity occurs on the socket, the listener thread will close the connection. Also, if any listener thread detects that all worker threads within its process are busy, it will close keep-alive connections, forcing clients to create new connections that can be processed more quickly by other processes' worker threads (although, for the sake of simplicity, we do not show this in the example below). Because the dedicated listener thread helps monitor the lifetime of each keep-alive connection, worker threads that would otherwise have been blocked (waiting for further activity) are instead free to address other active requests.
 
-![(KEEP-ALIVE CONNECTION) SOCKET A Client A Client B Parent Process Worker Thread Apache ](../../../media/DevOps-Others-Apache-Server-image3.png)
+![image](../../../media/DevOps-Others-Apache-Server-image3.png)
 
 4. There are a number of other experimental MPMs such as Threadpool, Perchild, and Leader.
 

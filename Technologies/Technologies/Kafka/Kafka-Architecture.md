@@ -12,7 +12,7 @@ Kafka relies heavily on the OS kernel to move data around quickly. It relies on 
 
 Zero-copy means that Kafka sends messages from the file (or more likely, the Linux filesystem cache) directly to the network channel without any intermediate buffers.
 
-![Apache Producers Zookeeper (Core Dependency) Kafka Consumers Input Systems Log aggregation Metrics • KPls Batch imports Audit trail User activity logs • Web logs ache Core KAFK Not part of core Schema Registry Avro Kafka REST Proxy Kafka Connect Kafka Streams Apache Kafka Core • Server/Broker Scripts to start libs • Script to start up Zookeeper Utils to create topics Utils to monitor stats Output Systems Analytics Databases Machine Learning Dashboards Indexed for Search Business Intelligene ](../../media/Technologies-Kafka-Kafka-Architecture-image1.png)
+![image](../../media/Technologies-Kafka-Kafka-Architecture-image1.png)
 
 ## Zero-copy
 
@@ -24,11 +24,11 @@ Ideally, the data written to the log segment is written in protocol format. That
 
 When you read messages from the log, the kernel will attempt to pull the data from the page cache. If it's not there, it will be read from disk. The data is copied from disk to page cache, which all happens in kernel space. Next, the data is copied into the application (i.e. user space). This all happens with thereadsystem call. Now the application writes the data out to a socket usingsend, which is going to copy it back into kernel space to a socket buffer before it's copiedone last timeto the NIC. All in all, we havefourcopies (including one from page cache) andtwosystem calls.
 
-![application read user space kernel space page cache disk send socket NIC ](../../media/Technologies-Kafka-Kafka-Architecture-image2.png)
+![image](../../media/Technologies-Kafka-Kafka-Architecture-image2.png)
 
 However, if the data is already in wire format, we can bypass user space entirely using thesendfilesystem call, which will copy the data directly from the page cache to the NIC buffer - twocopies (including one from page cache) andonesystem call. This turns out to be an important optimization, especially in garbage-collected languages since we're bringing less data into application memory. Zero-copy also reduces CPU cycles and memory bandwidth.
 
-![user space kernel space page cache disk sendfile NIC ](../../media/Technologies-Kafka-Kafka-Architecture-image3.png)
+![image](../../media/Technologies-Kafka-Kafka-Architecture-image3.png)
 
 ## Other Optimizations - Messages batching & Compression
 

@@ -31,9 +31,9 @@ only a single branch (called trunk) everyone commits to it. Making sure they com
 
 A source-control branching model, where developers collaborate on code in a single branch called 'trunk' *, resist any pressure to create other long-lived development branches by employing documented techniques. They therefore avoid merge hell, do not break the build, and live happily ever after.
 
-![Release 12.1 The team developing up here is a nearly always a disaster for multiple reasons ](../../media/Technologies-Git-Branching-Strategies-image1.png)
+![image](../../media/Technologies-Git-Branching-Strategies-image1.png)
 
-![Release 12.1 Developers don't commit to release branches Whole dev-team shared branch called Trunk (or ...YE...J ](../../media/Technologies-Git-Branching-Strategies-image2.png)
+![image](../../media/Technologies-Git-Branching-Strategies-image2.png)
 
 ## Git Flow - feature branches (can cause long running branches which can be hard to merge)
 
@@ -69,7 +69,7 @@ The idea is that work on new features can continue as usual while, at the same t
 
 Hotfix branches should be created from master since that branch reflects the last desirable state of the application in production. While the fix is done and ready to go, the branch should be merged to master. But don't just merge it to master: it's also vital that it's merged to "develop" because the feature releases will need those corrections as well.
 
-![feature branches Major feature for Feature next release for future release From this point on, "next release" means the release after 1.0 develop release branches hotfixes Severe bug fixed for production: hotfix 0.2 Incorporate bugfix in develop Start of release branch for 1.0 Only bugfixes! Bug fixes from rel. branch may be continuously merged back into develop master Tag 0.1 Tag 0.2 Tag 1.0 ](../../media/Technologies-Git-Branching-Strategies-image3.png)
+![image](../../media/Technologies-Git-Branching-Strategies-image3.png)
 
 ## Enhanced Git Flow
 

@@ -64,7 +64,7 @@ Each consumer in a consumer group processes records and only one consumer in tha
 
 The partitions of any topics subscribed to by consumers in a consumer group are guaranteed to be assigned to at most one individual consumer in that group at any time. The messages from each topic partition are delivered to the assigned consumer strictly in the order they are stored in the log.
 
-![Kafka Architecture: Kafka Consumer Groups](../../media/Technologies-Kafka-Kafka-Consumers-image1.png)
+![image](../../media/Technologies-Kafka-Kafka-Consumers-image1.png)
 
 Consumers remember offset where they left off reading. Consumers groups each have their own offset per partition.
 
@@ -106,7 +106,7 @@ A consumer can see a record after the record gets fully replicated to all follow
 
 Only a single consumer from the same consumer group can access a single partition. If consumer group count exceeds the partition count, then the extra consumers remain idle. Kafka can use the idle consumers for failover. If there are more partitions than consumer group, then some consumers will read from more than one partition.
 
-![Kafka Architecture: Consumer Group Consumers to Partitions](../../media/Technologies-Kafka-Kafka-Consumers-image3.png)
+![image](../../media/Technologies-Kafka-Kafka-Consumers-image3.png)
 
 Notice that server 1 has topic partition P2, P3, and P4, while server 2 has partition P0, P1, and P5. Notice that Consumer C0 from Consumer Group A is processing records from P0 and P2. Notice that no single partition is shared by any consumer from any consumer group. Notice that each partition gets its fair share of partitions for the topics.
 
@@ -126,7 +126,7 @@ If you need to run multiple consumers, then run each consumer in their own threa
 
 Each thread manages a share of partitions for that consumer group.
 
-![Figure 2: The Consumer's Position in the Log](../../media/Technologies-Kafka-Kafka-Consumers-image4.png)
+![image](../../media/Technologies-Kafka-Kafka-Consumers-image4.png)
 
 When a partition gets reassigned to another consumer in the group, the initial position is set to the last committed offset. If the consumer in the example above suddenly crashed, then the group member taking over the partition would begin consumption from offset 1. In that case, it would have to reprocess the messages up to the crashed consumer's position of 6.
 

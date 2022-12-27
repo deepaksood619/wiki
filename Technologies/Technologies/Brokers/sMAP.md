@@ -65,7 +65,7 @@ The sMAP architecture consists of several components which may be used together 
 
 - Archiver
 
-![Archiver RDBMS TSDB ](../../media/Technologies-Brokers-sMAP-image3.png)
+![image](../../media/Technologies-Brokers-sMAP-image3.png)
 
 - Front-Ends
 

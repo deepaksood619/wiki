@@ -131,9 +131,9 @@ a - AMD CPUs
 - Reserved instances (discount upto 75%)
   - Ex - m5a.4xlarge
 
-![STANDARD I-YEAR TERM Payment Option No Upfront Partial Upfront All Upfront Upfront $0 $1,168 $2,289 Monthly* $204.40 $97.09 $0.00 Effective Hourly** Savings over On-Demand 37% 40% 41% On-Demand Hourly $0.4440 ](../../../media/Cloud-AWS-EC2-Instance-types-image1.png)
+![image](../../../media/Cloud-AWS-EC2-Instance-types-image1.png)
 
-![STANDARD 3-YEAR TERM Payment Option No Upfront Partial Upfront All Upfront Upfront $0 $2,336 $4,391 Monthly* $140.16 $64.97 $0.00 Effective Hourly** Savings over On-Demand 57% 60% 62% On-Demand Hourly $0.4440 ](../../../media/Cloud-AWS-EC2-Instance-types-image2.png)
+![image](../../../media/Cloud-AWS-EC2-Instance-types-image2.png)
 
 <https://aws.amazon.com/ec2/pricing/reserved-instances/pricing>
 

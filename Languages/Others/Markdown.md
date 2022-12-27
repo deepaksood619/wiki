@@ -246,9 +246,9 @@ Markdown | Less | Pretty
 
 ## Badges
 
-![Rank](https://img.shields.io/badge/Rank-87%20out%20of%2039586-brightgreen.svg "And Working")
+![Rank](https://img.shields.io/badge/Rank-87%20out%20of%2039586-brightgreen.svg)
 
-![Number of puzzles solved](https://img.shields.io/badge/Puzzles%20Solved-234-orange.svg "And Working")
+![Number of puzzles solved](https://img.shields.io/badge/Puzzles%20Solved-234-orange.svg)
 
 Level | Name | Solution
 :----:|:----:|:--------:

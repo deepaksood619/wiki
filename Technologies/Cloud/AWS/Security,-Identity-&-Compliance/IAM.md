@@ -60,7 +60,7 @@ AWS Identity and Access Management (IAM) enables you to manage access to AWS ser
     - The conditions under the access defined is valid
 - IAM policy evaluation rules
 
-![IAM policy evaluation Decision rts at De 2 Evaluate all applicable policies 3 there a explicit Yes inal decision ="De (explicit Deny) 4 No s there a Allow? nal decision z" 5 NO nal decision -"De (default Deny) Policy enforcement ](../../../media/Cloud-AWS-IAM-image1.png)
+![image](../../../media/Cloud-AWS-IAM-image1.png)
 
 - ![Context and policies - a new way to think about evaluation Context of Your Request The unique components of each AWS request. anvent Allowed Denied e 201 R. Your Defined Policies The policies you define on identities, resources, and organizations. aws ](../../../media/Cloud-AWS-IAM-image2.png)
 
@@ -82,7 +82,7 @@ Grant granular permissions on IAM principals (users and roles) and control the m
 
 Scale and delegate permission management to developers safely. Contol the maximum permissions employees can grant
 
-![Permissions boundary: Defined by the administrator Effective permissions for IAM principals that are created by the employee permissions policy: nee by the employee ](../../../media/Cloud-AWS-IAM-image3.png)
+![image](../../../media/Cloud-AWS-IAM-image3.png)
 
 - AWS Security Token Service (AWS STS)
 
@@ -104,7 +104,7 @@ Controls access to the service with a VPC endpoint
 
 - ![How policies work together within an account Service control policies AND If you are using Permission Boundary Permission Policy Scope-down Policy IAM OR Policies Resource- based Policies AND Managed OR Inline AND ](../../../media/Cloud-AWS-IAM-image4.png)
 
-![Become an IAM Policy Master in 60 Minutes or Less Brigid Johnson Senior Mana#r Of Product Management AWS Identity aws ](../../../media/Cloud-AWS-IAM-image5.jpg)
+![image](../../../media/Cloud-AWS-IAM-image5.jpg)
 
 ## Policies
 

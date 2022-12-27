@@ -6,13 +6,13 @@ Modified: 2020-06-07 12:45:20 +0500
 
 ---
 
-![Various possible Deployment upgrade strategies instances The built-in Deployméfif¯ behavior The other strategies can be implemented fairly easily by talking to the API. instances Rolling Deployment time Blue-Green Release time 2x capacity instances instances Recreate Deployment time O 1 capacity Canary Release time ](../../media/DevOps-DevOps-Deployment-Strategies-image1.png)
+![image](../../media/DevOps-DevOps-Deployment-Strategies-image1.png)
 
 1. **Blue/Green Deployment**
 
 [Blue-green deployments](https://www.gocd.org/2017/07/25/blue-green-deployments/) are similar, where you have a new footprint of your new service, and then you do some testing and route some traffic through it. If everything is fine, you switch over all of your traffic to the new instance of services, otherwise, you keep the old footprint going.
 
-![Blue green deployments](../../media/DevOps-DevOps-Deployment-Strategies-image2.jpg)
+![image](../../media/DevOps-DevOps-Deployment-Strategies-image2.jpg)
 
 2. **Canary Deployment**
 

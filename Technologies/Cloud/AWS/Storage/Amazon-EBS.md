@@ -31,7 +31,7 @@ Amazon EBS cloud service is designed to be highly available and reliable. As men
 
 IAM service enables access to EBS volumes, allowing you to specify who can access which EBS volumes. EBS encryption enables data-at-rest and data-in-motion security. It offers seamless encryption of both EBS boot volumes and data volumes as well as snapshots. Access control plus encryption offers a strong defense-in-depth security strategy for your data.
 
-![Amazon EC2 Instance /dev/sdal /dev/sdh /dev/sdj /dev/sdb ephemerall ephemerat3 Instance store Host Computer vol-xxxxxxxx Root device volume vol-xxxxxxxx vol•xxxxxxxx Amazon EBS Volume: ](../../../media/Cloud-AWS-Amazon-EBS-image1.png)
+![image](../../../media/Cloud-AWS-Amazon-EBS-image1.png)
 
 <table>
 <colgroup>

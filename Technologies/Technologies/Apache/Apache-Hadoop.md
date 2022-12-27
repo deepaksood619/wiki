@@ -94,29 +94,29 @@ Hadoop MapReduceis the data processing layer. It is the framework for writing ap
 - Map --It is the first phase of processing. In which we specify all the complex logic/business rules/costly code. The map takes a set of data and converts it into another set of data. It also breaks individual elements into tuples (key-value pairs).
 - Reduce --It is the second phase of processing. In which we specify light-weight processing like aggregation/summation. The output from the map is the input to Reducer. Then, reducer combines tuples (key-value) based on the key. And then, modifies the value of the key accordingly.
 
-![HIVE PIG M a p Reduce YARN _ Higher Levels: Interactivity Lower Levels: Stor ge & Scheduling One Possible layer grarn for Hadoop Systern 50 l.Had op Distributed File System: HI)FS 3.MapReduce: ogramming model that simplifies parallel programming a.Scaling out of H/W resources b.fiIfTöFrant 2.YARN: Flexible scheduling & Resource management-Q.ye.LHDFS a.Yahoo uses YARN to schedule jobs over 40,000 servers Big Data Computing V Map-> apply() .Reduce-> summarize() / c.Google used MR for Indexing websites V4.P)g & Hive: Augment MapReduceV U a Pig: DataflQ.L based script programming SQL-like-gug:jes (Greated at Facebook) Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image1.png)
+![image](../../media/Technologies-Apache-Apache-Hadoop-image1.png)
 
-![HIVE M a p Reduce YARN HDFS Higher Levels: Interactivity Lower Levels: Storage & Scheduling One Possible layer diagrarn for Hadoop Systern 5.Giraph: Specialized models for graph 5.Cassandra/MongoDB/HBase: NO QL database processing a.HBase is used for Fa book's Messaging a. Used by Facebook to analyze social grgphs Platform 6.Storm/Spark/Flink: Real time, in- v' memory processing of data on top of YARN/HDFS, IOO times faster than regular processing Big Data Computing b.Sparse table 6.Zookeeper: reated by YAHOO to perform the duties of centralized management system for synchronization, configuration and to ensure high availability Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image2.png)
+![image](../../media/Technologies-Apache-Apache-Hadoop-image2.png)
 
 Map Reduce
 
 - MapReduce is a programming model and an associated implmentation for processing and generating large data sets
 - Users specify a map function that processs a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key
 
-![Map Reduce HDFSSplit Input value) pairs Map (Keyl. valuel) (Keyk, valuek) (Keyl , internediate values) (Final Keyl. value) Big Data Computing HOES Split Input (key, value) pairs Map (Keyl, valuel) (Keyk, valuek) Shuffle & Sort: Aggregate values by key HDFSWit Input (key, value) pairs Map (Keyl. vallÆ1) (Keyk, valA) (Keyk, intermediate values) (Final final value) Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image3.png)
+![image](../../media/Technologies-Apache-Apache-Hadoop-image3.png)
 
-![Hadoop Ecosystem Big Data Computing PIG H Ive Query HCatalog etadataSemces MapReduce Distributed Processi YARN v/ Resource Scheduling and NegcRjation HDFS U Distributed Storage Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image4.png)
+![image](../../media/Technologies-Apache-Apache-Hadoop-image4.png)
 
-![Hadoop Ecosystem MAPREDUCE (Processing using different languages) SPARK (In-Memory. Data Flow Engine) Södr Resource Management Storage HIVE & DRILL (Ana Iytical SQL-on-Hadoop) DRILL KAFKA & STORM (Streaming) STORM Flume n s tructured/ MAHOUT & SPARK ML1ib (Machine learning) MLlib PIG (Scripting) SOLR & LUCENE (Sea r chi & Indexing) Solr YARN J (NoSQL Database) OOZIE (Sched u ling) Sqoop Structured Data ZOOKEEPER & AMBARI (Management & Coordination) Apache Ambari Semi-structured Data Big Data Computing Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image5.png)
+![image](../../media/Technologies-Apache-Apache-Hadoop-image5.png)
 
-![home/foo/data, 3, Bloc ops Datanodes Replication VYite ien Rack 2 Basic architecture of Hadoop distributed file system (HDFS) Big Data Computing Big Data Enabling Technologies](../../media/Technologies-Apache-Apache-Hadoop-image6.png)
+![image](../../media/Technologies-Apache-Apache-Hadoop-image6.png)
 
 ## YARN - Yet Another Resource Manager
 
 - Apache Hadoop YARN is the resource management and job scheduling technology in the open source Hadoop distributed processing framework
 - YARN is responsible for allocating system resources to the various applications running in a Hadoop cluster and scheduling tasks to be executed on different cluster nodes
 
-![seßopuqoel 1qeu3!Su elea g!8 *f (a.u!eiuo Sunndwoo elea 8!8 .Vtjau'muo euإلادرأ lV.'"!3.1111031 ÅNUV ](../../media/Technologies-Apache-Apache-Hadoop-image7.png)
+![image](../../media/Technologies-Apache-Apache-Hadoop-image7.png)
 
 ## References
 

@@ -66,7 +66,7 @@ Dkron is inspired by the google whitepaper [Reliable Cron across the Planet](htt
 
 ## Airflow + Genie on AWS Platform
 
-![mnamic cluster abstraction. central Con fi 8 tion management Regis ter big dota (Apache Vlorkflow authcging. and to Genie others) Airflow Platfvym admin scheduling Airtlo Data sto rage S3 among Others) then in A Data engineers Jobs Big data pæing platform Aæn EMR ClÆteß ](../../../media/Technologies-Apache-Others-image1.png)
+![image](../../../media/Technologies-Apache-Others-image1.png)
 
 <https://aws.amazon.com/blogs/big-data/orchestrate-big-data-workflows-with-apache-airflow-genie-and-amazon-emr-part-1>
 

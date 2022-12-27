@@ -40,7 +40,7 @@ KubeEdge is composed of the following components:
 
 ## Architecture
 
-![KubeEdge Containers docker Pod/VoIume/.. cloud part edge part Volume Configmap Pod Prober Event Edged Data Store MetaManager Devices Devi ceTwin Edge Controller Cloud Hub EdgeHub EventBus App ](../../media/DevOps-Kubernetes-KubeEdge-image1.png)
+![image](../../media/DevOps-Kubernetes-KubeEdge-image1.png)
 
 ## References
 

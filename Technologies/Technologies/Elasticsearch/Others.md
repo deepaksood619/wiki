@@ -42,7 +42,7 @@ Fluentd is written in a combination of C language and Ruby, and requires very li
 
 Fluentd supports memory- and file-based buffering to prevent inter-node data loss. Fluentd also supports robust failover and can be set up for high availability.[2,000+ data-driven companies](https://www.fluentd.org/testimonials) rely on Fluentd to differentiate their products and services through a better use and understanding of their log data.
 
-![Access logs Apache App logs Frontend Backend System logs syslogd Databases fluentd Alerting Nagios Analysis MongoDB MySQL Hadoop Archiving filter / buffer / routing Amazon S3 ](../../media/Technologies-Elasticsearch-Others-image1.png)
+![image](../../media/Technologies-Elasticsearch-Others-image1.png)
 
 An event consists of *tag*,*time*and*record*. Tag is a string separated with '.' (e.g. myapp.access). It is used to categorize events. Time is a UNIX time recorded at occurrence of an event. Record is a JSON object.
 

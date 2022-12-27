@@ -6,9 +6,9 @@ Modified: 2020-02-12 13:20:28 +0500
 
 ---
 
-![Architecture (High Level) 10T Gateway Device Edge Streaming Platform Data Center / Cloud Device Tracking (Real Time) Predictive Maintenance Near Real Time Log Analytics (Batch) ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image1.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image1.png)
 
-![Kafka-Native Integration Options between MQTT and Apache Kafka Kafka Connect MQTT Proxy REST Proxy ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image2.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image2.png)
 
 1. **Integration with Kafka Connect (Source and Sink), using MQTT Broker**
 
@@ -16,7 +16,7 @@ Modified: 2020-02-12 13:20:28 +0500
 
 In this approach, you pull the data from the MQTT Broker via Kafka Connect to the Kafka Broker. You can leverage any features of Kafka Connect, such as built-in fault tolerance, load balancing, Converters, and Simple Message Transformations (SMT) for routing/filtering/etc., scaling different connectors in one Connect worker instance and other Kafka Connect related benefits.
 
-![deviceidl/car MOTT Server 1 MQTT Server 2 MOTT Server 3 MOTT Server 4 Kafka Integration Kafka Cluster Sensor Data Stream processing](../../media/Technologies-Apache-Data-Pipeline-Architecture-image4.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image4.png)
 
 ## MQTT Broker
 
@@ -29,11 +29,11 @@ In this approach, you pull the data from the MQTT Broker via Kafka Connect to th
 - Pull-based (at own pace, without overwhelming the source or getting overwhelmed by the source)
 - Out-of-the-box scalability and integration features (like connectors, converters, SMTs)
 
-![Kafka Connect components ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image5.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image5.png)
 
 ![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image6.png)
 
-![Kafka Connect - Converters JSON Connect data Message API format MOTT Source MOTT Connector Broker Connect data byte(l (Avro) API format kafka AvroConverter AvroConverter S3 Sink Connector (Avro) AmazonS3 Object kafka Object Storage ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image7.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image7.png)
 
 2. **Using confluent MQTT Proxy**
 
@@ -113,19 +113,19 @@ In this approach, you push the data directly to the Kafka broker via the Conflue
 
 # IoT Data Processing
 
-![Processing Options for MQTT Data with Apache Kafka kafka Streams Sport! Streaming Apache Flink (or others, you name it Kafka native vs. additional big data cluster and technology ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image11.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image11.png)
 
-![Example: Anomaly Detection System to Predict Defects in Car Engine Kafka Ecosystem Other Components Sens«s KSOL Kafka Cluster Kafka Connect All Real Time Emetoency System Elast.c seæch Gtafana (X: Kubernetes Confluent Opetatot ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image12.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image12.png)
 
 ## Kafka Streaming Architecture
 
 Kafka gets used most often for real-time streaming of data into other systems. Kafka is a middle layer to decouple your real-time data pipelines. Kafka core is not good for direct computations such as data aggregations, or CEP.***Kafka Streaming***which is part of the Kafka ecosystem does provide the ability to do real-time analytics. Kafka can be used to feed fast lane systems (real-time, and operational data systems) like Storm, Flink, Spark Streaming and your services and CEP systems. Kafka is also used to stream data for batch data analysis. Kafka feeds Hadoop. It streams data into your BigData platform or into RDBMS, Cassandra, Spark, or even S3 for some future data analysis. These data stores often support data analysis, reporting, data science crunching, compliance auditing, and backups.
 
-![what is kafka - Kafka Streaming Architecture Diagram](../../media/Technologies-Apache-Data-Pipeline-Architecture-image13.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image13.png)
 
 # Example Architecture
 
-![Streaming with Apache Kafka and Apache NiFi Sources REST JDBC Twitter MQTT JMS Sensors Images PDF Word AWS servicei_ii Data API PostgreSQL books Subscribers REST Web Kafka JMS Slack Email Websockets : docker Python Browser Any Data, Any Time, Any Where, Any Workload Ingestion Filtering Messages Ranger Ambari I Message Bus I kafka Images Weather Stocks [Request] , SCHEMA REGISTRY Authentication Authorization APACHE NIH • registry Processing APACHE Spark Real-time Event Processing Data Access Hive Monitoring / Alerts HDFS Data Storage I Advanced Analytics I Ø Superset Deployed Operational Analytics A PAC HE Spork -9 druid Real-time Store Security & Governance Audit Administration Data Export Data Lineage (via NiFi) Atlas Data Encryption Platform Operations Operational Framework Cluster Management High Availability SmartSense Monitoring ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image14.jpeg)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image14.jpeg)
 
 So to plan out what we are going to do, I have a high-level architecture diagram. We are going to ingest a number of sources including REST feeds, Social Feeds, Messages, Images, Documents, and Relational Data.
 
@@ -143,7 +143,7 @@ Real-time free stock data is available from IEX with no license key. The data st
 
 ## example Streaming Architecture
 
-![MOTT Connector groker MOTT Devices Broker Consumer ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image15.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image15.png)
 
 ## Push vs Pull based architecture
 

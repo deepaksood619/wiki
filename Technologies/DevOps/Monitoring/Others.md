@@ -204,7 +204,7 @@ Send error logs (record exception) - <https://docs.newrelic.com/docs/agents/pyth
 
 ## Sensu
 
-![Sensu architecture (push via queue) PG Sensu Machin Sensu plugins Sensu Server ES / Influx (Alerts) Elastic Kubernetes Kubernetes Master Machine Kubernetes API Server Node machines CloudWatch Storage External Machine Ext. Service Sensu plugin ](../../media/DevOps-Monitoring-Others-image1.png)
+![image](../../media/DevOps-Monitoring-Others-image1.png)
 
 ## syslog
 

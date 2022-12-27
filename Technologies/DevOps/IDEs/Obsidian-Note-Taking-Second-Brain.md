@@ -196,7 +196,7 @@ Personal knowledge management(PKM) is a process of collecting information that a
 - **Level 2: Understanding something (Revelation)**--- this is being able to recall something without having to look it up. At this level, you've internalized the information and are starting to make connections, but it hasn't necessarily changed how you act.
 - **Level 3: Doing something (Application)**--- this is where you start to see the result of the information you've collected. You don't just have it or understand it, it's changing your day-to-day actions. This is the first level where there is actual, visible output from the information that you've collected.
 
-![So, how should we finally call it? PKM, KMS, KOS, SKOS, PKS, ZK...? - Knowledge management - Obsidian Forum](../../media/DevOps-IDEs-Obsidian-Note-Taking-Second-Brain-image1.jpeg)
+![image](../../media/DevOps-IDEs-Obsidian-Note-Taking-Second-Brain-image1.jpeg)
 
 - Root folder must contain 7 folders +- 3
 - Links / Folders / Tags

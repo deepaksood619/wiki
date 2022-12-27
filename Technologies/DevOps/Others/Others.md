@@ -24,7 +24,7 @@ sudo systemctl restart docker.service
 
 Is a comprehensive enterprise-grade application platform, built for containers with Kubernetes.
 
-![OpenShift Marketecture](../../media/DevOps-Others-Others-image1.png)
+![image](../../media/DevOps-Others-Others-image1.png)
 
 <https://www.openshift.com/learn/what-is-openshift>
 

@@ -16,7 +16,7 @@ Here is the sequenceof steps necessary to successfully create, index, or delete 
 
 By the time the client receives a successful response, the document change has been executed on the primary shard and on all replica shards. Your change is safe.
 
-![Creating, indexing or deleting a single document](../../media/Technologies-Elasticsearch-Internal-Working-image1.png)
+![image](../../media/Technologies-Elasticsearch-Internal-Working-image1.png)
 
 Here is the sequence of steps to retrieve a document from either a primary or replica shard:
 
@@ -26,7 +26,7 @@ Here is the sequence of steps to retrieve a document from either a primary or re
 
 3. Node 2returns the document toNode 1, which returns the document to the client.
 
-![Retrieving a single document](../../media/Technologies-Elasticsearch-Internal-Working-image2.png)
+![image](../../media/Technologies-Elasticsearch-Internal-Working-image2.png)
 
 Here is the sequence of steps used to perform a partial update on a document:
 
@@ -38,7 +38,7 @@ Here is the sequence of steps used to perform a partial update on a document:
 
 4. IfNode 3has managed to update the document successfully, it forwards the new version of the document in parallel to the replica shards onNode 1andNode 2to be reindexed. Once all replica shards report success, Node 3reports success to the coordinating node, which reports success to the client.
 
-![Partial updates to a document](../../media/Technologies-Elasticsearch-Internal-Working-image3.png)
+![image](../../media/Technologies-Elasticsearch-Internal-Working-image3.png)
 
 Here is the sequence of steps necessary to retrieve multiple documents with a singlemgetrequest:
 
@@ -46,7 +46,7 @@ Here is the sequence of steps necessary to retrieve multiple documents with a si
 
 2. Node 1builds a multi-get request per shard, and forwards these requests in parallel to the nodes hosting each required primary or replica shard. Once all replies have been received, Node 1builds the response and returns it to the client.
 
-![Retrieving multiple documents with mget](../../media/Technologies-Elasticsearch-Internal-Working-image4.png)
+![image](../../media/Technologies-Elasticsearch-Internal-Working-image4.png)
 
 The sequence of stepsfollowed by thebulkAPI are as follows:
 
@@ -56,7 +56,7 @@ The sequence of stepsfollowed by thebulkAPI are as follows:
 
 3. The primary shard executes each action serially, one after another. As each action succeeds, the primary forwards the new document (or deletion) to its replica shards in parallel, and then moves on to the next action. Once all replica shards report success for all actions, the node reports success to the coordinating node, which collates the responses and returns them to the client.
 
-![Multiple document changes with bulk](../../media/Technologies-Elasticsearch-Internal-Working-image5.png)
+![image](../../media/Technologies-Elasticsearch-Internal-Working-image5.png)
 
 See Also
 

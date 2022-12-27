@@ -34,7 +34,7 @@ Once you have a running Kubernetes cluster, you can deploy your containerized ap
 
 Once the application instances are created, a Kubernetes Deployment Controller continuously monitors those instances. If the Node hosting an instance goes down or is deleted, the Deployment controller replaces it.This provides a **self-healing mechanism to address machine failure or maintenance.**
 
-![Node containerized app Deployment Master node processes Kubernetes Cluster ](../../../media/DevOps-Kubernetes-Controllers-image1.png)
+![image](../../../media/DevOps-Kubernetes-Controllers-image1.png)
 
 <https://learnk8s.io/kubernetes-rollbacks>
 

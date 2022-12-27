@@ -18,7 +18,7 @@ Building a highly avialable multi-node PostgreSQL cluster, using freely availabl
 
 Three node HotStandby HA cluster
 
-![)еадџеен Aqpuels-l0H алви 831svw јеадџеен ](../../media/DevOps-Others-CoreSync,-Pacemaker-image1.png)
+![image](../../media/DevOps-Others-CoreSync,-Pacemaker-image1.png)
 
 <https://github.com/smbambling/pgsql_ha_cluster/wiki/Tutorial:-Building-A-Highly-Available-Multi-Node-PostgreSQL-Cluster>
 

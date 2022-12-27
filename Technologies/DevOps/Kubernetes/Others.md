@@ -153,7 +153,7 @@ Virtual Kubelet is an open source [Kubernetes kubelet](https://kubernetes.io/doc
 
 Virtual Kubelet features a pluggable architecture and direct use of Kubernetes primitives, making it much easier to build on.
 
-![kubelet node kubelet node Kubernetes API k ubelet node kubelet node v i rtual kubelet Typical kubelets implement the pod and container operations for each node as usual. Virtual kubelet registers itself as a "node" and allows developers to deploy pods and containers with their own APIs. Capacity OperatingSystem CreatePod UpdatePod virtual kubelet NodeConditions GetPods GetPodStatus GetPod Figure 1. Standard vs. Virtual Kubelets ](../../media/DevOps-Kubernetes-Others-image1.png)
+![image](../../media/DevOps-Kubernetes-Others-image1.png)
 
 [https://virtual-kubelet.io](https://virtual-kubelet.io/)
 

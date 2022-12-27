@@ -26,7 +26,7 @@ A realm in Keycloak is the equivalent of a tenant. It allows creating isolated g
 - Customizable and Extensible
 - Easy setup and integration
 
-![Main Concepts User Identity- Prov»der • Clients Realm Roles Keys SAML Keycloak- OpenlDC User Federation LDAP (inkl. LDS) GitHub Twitter Google Linkedln Mtcrosott Stackoverflow ](../../media/DevOps-Others-KeyCloak-image1.png)
+![image](../../media/DevOps-Others-KeyCloak-image1.png)
 
 ![image](../../media/DevOps-Others-KeyCloak-image2.png)
 
@@ -42,7 +42,7 @@ A realm in Keycloak is the equivalent of a tenant. It allows creating isolated g
   - Logouts can be propagated to applications
   - Applications can opt-in
 
-![Web SSO with OIDC*. • Unauthenticated User Keycloak sso.acme.io logged in Code Tokens (Access I Refresh I ID) Token ?code=. ?redirect uri= Browser App 1 app.acme.io logged in O User O Unauthenticated User accesses App App redirects to Keycloak for Login User submits Credentials to Keycloak Credentials OK? Keycloak creates SSO Session and emits Cookies Generates Code and redirects User back to App App exchanges Code to Tokens with Keycloak via separate Channel App verifies received Tokens and associates it with a session User is now logged-in to App ](../../media/DevOps-Others-KeyCloak-image3.png)
+![image](../../media/DevOps-Others-KeyCloak-image3.png)
 
 ## Keycloak Tokens
 
@@ -100,4 +100,4 @@ A realm in Keycloak is the equivalent of a tenant. It allows creating isolated g
 
 [Bilding an effective identity and access management architecture with Keycloak](https://www.youtube.com/watch?v=RupQWmYhrLA)
 
-![VOAEDDAYS ID Token WNSK Access Token MAR MBHCK Token Refresh Token epam ](../../media/DevOps-Others-KeyCloak-image7.jpg)
+![image](../../media/DevOps-Others-KeyCloak-image7.jpg)

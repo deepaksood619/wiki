@@ -252,7 +252,7 @@ git log --oneline --graph
 [A DOG] git log --all --decorate --oneline --graph
 ```
 
-![enter image description here](../../media/Technologies-Git-Commands-image2.jpg)
+![image](../../media/Technologies-Git-Commands-image2.jpg)
 
 ## Move the last commit to a new branch
 

@@ -40,7 +40,7 @@ Apache Arrow is a cross-language development platform for in-memory data. It spe
 - No overhead for cross-system communication
 - Projects can share functionality (eg, Parquet-to-Arrow reader)
 
-![Arrow C++ development platform Allocators and Buffers Binary IPC Protocol CUDA Interop Columnar Data Structures and Builders Plasma: Shared Mem Object Store Gandiva: LLVM Ex r Com iler Compute Kernels Flight RPC Data Frame Interface Datasets Framework File Format Interfaces 10 1 Filesystem Platform Embeddable Query Engine Multithreading Runtime Compressor Interfaces ... and much more csv JSON ORC AWS S3 HDFS GCP Red means planned / under construction work ](../../media/Technologies-Apache-Apache-Projects-image3.png)
+![image](../../media/Technologies-Apache-Apache-Projects-image3.png)
 
 ## Apache Arrow Flight
 

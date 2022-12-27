@@ -48,7 +48,7 @@ The term "**deployment**" refers to the act of deploying a change to application
 
 ## CI/CD on kubernetes
 
-![CI/CD Pipeline Workflow with Kubernetes Commit code, push to git GIT REPO CI Server notices new code in Git repo & starts running through its pipeline. Source: ReactiveOps SERVER Build new Docker image Run tests Push new Docker image Update Kubernetes deployment KUBERNETES Pull new Docker image DOCKER REPOSITORY Kubernetes receives request to use new image Create new pod Check pod health New pod is healthy Delete old pod Restart new pod Let old pod continue running New pod is not healthy THENEWSTACK ](../../media/DevOps-DevOps-Intro-image3.png)
+![image](../../media/DevOps-DevOps-Intro-image3.png)
 
 ## Monitoring
 

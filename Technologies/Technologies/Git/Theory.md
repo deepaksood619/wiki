@@ -40,7 +40,7 @@ While atreeis the goto analogy when visualizing Git commands, I findvideo editin
 
 In the case of bringing astalebranch up to date, let's consider the following tree progression.
 
-![Visual of commit tree during git rebase](../../media/Technologies-Git-Theory-image1.png)
+![image](../../media/Technologies-Git-Theory-image1.png)
 
 Starting with the full tree, we have astalebranch (in red) off amasterbranch. If we zoom in, we see the branch isstalebecause it's missing the recent commits frommaster(in blue).
 

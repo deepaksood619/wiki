@@ -42,7 +42,7 @@ It builds upon the basic Kubernetes **resource** and **controller** concepts but
 
 An Operator is nothing more than a set of application-specific custom controllers. So, why is it a game-changer? Well, controllers have direct access to Kubernetes API, which means that they can monitor the cluster, change pods/services, scale up/down, and call endpoints of the running applications, all according to custom rules written inside those controllers.
 
-![Observe Analyze Act Couchbase Cluster is running 2 pods: CB-OOOI , version 5.0.1 CB-0002, version 5.0.1 Differences from desired config: 3 Pods should be running instead of just 2 How to get to desired config: Start new Pod Add new node to the cluster Trigger data rebalancing ](../../media/DevOps-Kubernetes-Operators-image1.png)
+![image](../../media/DevOps-Kubernetes-Operators-image1.png)
 
 As you can see in the figure above, the Operator monitors and analyzes the cluster, and based on a set of parameters, trigger a series of actions to achieve the desired state. This reconciliation process is all over the place in K8s. But not all actions are equal. In our example, we have two distinct categories:
 

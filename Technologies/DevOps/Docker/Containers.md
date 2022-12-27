@@ -66,15 +66,15 @@ If your containerized microservice needs to address multiple concerns, it can us
 
 - High observability principle (HOP)
 
-![process health readiness liveness CONTAINER metrics tracing logs Figure 2. A container with multiple observability APIs (containers have multiple APIs to enable observability) ](../../media/DevOps-Docker-Containers-image1.png)
+![image](../../media/DevOps-Docker-Containers-image1.png)
 
 - Life-cycle conformance principle (LCP)
 
-![CONTAINER SIGTERM SIGKILL Figure 3. A container providing APIs and conforming to platform events PreStop PostStart ](../../media/DevOps-Docker-Containers-image2.png)
+![image](../../media/DevOps-Docker-Containers-image2.png)
 
 - Image immutability principle (IIP)
 
-![Dev CONTAINER app.jar JavaTM Test prod Figure 4. Immutable container images are used across all environments ](../../media/DevOps-Docker-Containers-image3.png)
+![image](../../media/DevOps-Docker-Containers-image3.png)
 
 - Process disposability principle (PDP)
 
@@ -84,11 +84,11 @@ This means that containerized applications must keep their state externalized or
 
 - Self-containment principle (S-CP)
 
-![Configs CONTAINER app.jar Java Storage Figure 6. Containers should have baked in all dependencies at build time except environment-specific ones. ](../../media/DevOps-Docker-Containers-image4.png)
+![image](../../media/DevOps-Docker-Containers-image4.png)
 
 - Runtime confinement principle (RCP)
 
-![CPU (R) CONTAINER Python glibc Memory (R) Figure 7. A container that declares its runtime resource requirements and respects them at runtime ](../../media/DevOps-Docker-Containers-image5.png)
+![image](../../media/DevOps-Docker-Containers-image5.png)
 
 RCP principle suggests that every container declare its resource requirements and pass that information to the platform. It should share the resource profile of a container in terms of CPU, memory, networking, disk influence on how the platform performs scheduling, auto-scaling, capacity management, and the general service-level agreements (SLAs) of the container.
 

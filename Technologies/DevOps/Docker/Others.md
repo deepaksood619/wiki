@@ -128,7 +128,7 @@ When a processreadsa file, the overlayfs filesystem driver looks in the upper di
 
 When a processwritesa file, overlayfs will just write it to the upper directory.
 
-![overlag fi(esys+ems Docker imaaeS Can be big 000 Anaconh i maae i s I.S 68, *here mus+ be a of Py+hon packages ins+alled in container needs "copy" of i} s image T tm in neo programs on Fop of c or-hi,' e ( is U bun+u I b.oq conåainer Soluå ion : overlags* corhiner-'s changes mecqed resu(+ (e+c/ap+/ sources .1 isi- /$iles/ i .+xf- (bin /bask /bin/ca+ base OS / bin /bin/Qx-f le+c /sources . I ist¯ sources. 'Giles/ some+hing . how +0 overlad Linux has an driver you can use 40 overlay directories like this: $ mount -t overlay overlay -o , workdir=/work /merged base direcåocg, Will be read onl 5 ik o u F.r -r +ls reall eas where changes Will 60 mus$1 - $2e empå5 can use sam base image Wi+hov+ Wastins disk space on copies! how Docker runs conhine IS O unpack 4 he base image ir*o a directors @make an emp+b directors changes O over lag new direcåocy on kop +he base +he con+ainer- ](../../media/DevOps-Docker-Others-image1.jpg)
+![image](../../media/DevOps-Docker-Others-image1.jpg)
 
 <https://jvns.ca/blog/2019/11/18/how-containers-work--overlayfs>
 

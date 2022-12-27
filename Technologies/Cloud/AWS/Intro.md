@@ -30,11 +30,11 @@ Each **Region** is a separate geographic area. Each Region has multiple, isolate
 
 Each Region is completely independent. Each Availability Zone is isolated, but the Availability Zones in a Region are connected through low-latency links. A Local Zone is an AWS infrastructure deployment that places select services closer to your end users. A Local Zone is an extension of a Region that is in a different location from your Region. It provides a high-bandwidth backbone to the AWS infrastructure and is ideal for latency-sensitive applications, for example machine learning.
 
-![Regions, Availability Zones, and Local Zones](../../media/Cloud-AWS-Intro-image1.png)
+![image](../../media/Cloud-AWS-Intro-image1.png)
 
 <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html>
 
-![Large Scale Architectural Diagram Region ypc aws Amazon Amazon CloudFront A azon Ro te 53 Static assets Internet Gateway NAT Gateway Public Subnet Application Load Balancer Public Subnet NAT Gateway Amazon EC2 Instance App Subnet Auto Scaling App Subnet Amazon EC2 Instance Amazon RDS EFS Mount Memcached Data Subnet Data Subnet Memcached Standby ---l Amazon Target Amazon training and certification o Amazon EFS o EFS Mount RDS Master Target ](../../media/Cloud-AWS-Intro-image2.png)
+![image](../../media/Cloud-AWS-Intro-image2.png)
 
 ## Amazon Machine Images (AMI)
 

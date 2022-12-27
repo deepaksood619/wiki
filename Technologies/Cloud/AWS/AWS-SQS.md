@@ -267,10 +267,10 @@ i += 1
 
 <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html>
 
-![Yes No No Send Message Message Queued in SQS Delivery Delay? No Message Available to ALL Consumers essage Time to Live Expired? No essage Received Limi Exceeded No ea essage eques s Received from multiple Consumers...X1, X2....Xn. Lets say Xm has now read the message Consumer-Xm Yes Message is being read and potentially processed by Consumer Xm Message processed? Yes Request by Consumer Xm elete Reques Succeeded? Yes Messaged Deleted Yes Yes No Hide Message for N seconds from ALL consumers Message Automatically Deleted by SQS Message moved to Dead Letter Queue Message State = Inflight for Visibility Timeout period ](../../media/Cloud-AWS-AWS-SQS-image1.jpg)
+![image](../../media/Cloud-AWS-AWS-SQS-image1.jpg)
 
 [**http://pragmaticnotes.com/2017/12/19/lifecycle-of-a-message-in-amazon-sqs-a-detailed-coverage/**](http://pragmaticnotes.com/2017/12/19/lifecycle-of-a-message-in-amazon-sqs-a-detailed-coverage/)
 
 <https://blog.contactsunny.com/tech/emulating-apache-kafka-with-amazon-sns-and-sqs>
 
-![Kafka_Emulation_With_SNS_SQS](../../media/Cloud-AWS-AWS-SQS-image2.png)
+![image](../../media/Cloud-AWS-AWS-SQS-image2.png)

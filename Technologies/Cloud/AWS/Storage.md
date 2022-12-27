@@ -28,9 +28,9 @@ Modified: 2022-01-08 23:04:57 +0500
 
 11. Amazon CloudFront
 
-![Storage Need File System Highly durable storage Archival data Rapidly changing data Temporary storage Integration with on-premses software appliance Large-scale data transfer Content Delivery Network (CDN) Description Storage services which can be utilized as a File System Storage services which are highly durable and provides instant access to data Storage services which requires archival storage with infrequent read access with a long recovery time Storage services where data is updated very frequently Services which can be utilized as temporary storage like scratch disks, buffers, queues, and caches etc. Storage services which needs to be integrated with on-premises software appliance and cloud storage Services which can transport large amounts of data to and from the cloud Services which provide a global content delivery network (CDN) AWS Services Amazon EFS Amazon S3 Amazon EFS Amazon Glacier Amazon EBS Amazon EFS Amazon EC2 Instance Storage AWS Storage I Gateway AWS Snowball Amazon CloudFront ](../../media/Cloud-AWS-Storage-image1.png)
+![image](../../media/Cloud-AWS-Storage-image1.png)
 
-![Amazon S3 AWS EBS AWS EFS Performance Supports 100 PUT/LIST/DELETE requests per second Scalable to 300 requests per second Provisioned 'OPS delivers 4000 input/output operations per second up to 7000 file system operations per second Cost First 50 TB/month $00245 per GB Next 450 TB/month: $00235 per GB Over 500 TB/month: $00225 per GB Use-based cost structure that varies between regions $030, $0.33, or $0.36 per GB-month depending on region Availability and Accessibility 9989 percent available Accessible via internet using APIs 99.99 percent available Accessible via single EC2 instance No publicly available SLA Accessible from multiple Availability Zones in the same region Access Control Access is based on IAM Uses bucket policies and user policies Security groups Use-based authentication (IAM) IAM user-based authentication Security groups Storage and File Size Limits No limit on quantity of objects Individual objects up to 5TB Max storage size of 16 TB No file size limit on disk No limits on size of the system 52 TB maximum for individual files ](../../media/Cloud-AWS-Storage-image2.png)
+![image](../../media/Cloud-AWS-Storage-image2.png)
 
 - [Amazon S3](https://dzone.com/articles/five-things-you-probably-didnt-know-about-amazon-s) is cheapest for data storage alone. However, there are various other pricing parameters in S3, including cost per number of requests made, S3 Analytics, and data transfer out of S3 per gigabyte. EFS has the simplest cost structure.
 - Amazon S3 can be accessed from anywhere. AWS EBS is only available in a particular region, while you can share files between regions on multiple EFS instances.
@@ -134,7 +134,7 @@ Storage Gateway durably stores your on-premises application data by uploading it
 
 Similar to most AWS storage services all data transferred through AWS Storage Gateway is secure and encrypted when at rest. IAM services provide security in controlling access to AWS Storage Gateway and when integrating with other storage services, access control can be used in combination with other services.
 
-![Files Volumes Tapes so AWS Storage Gateway Amazon S3 Amazon Glacier Amazon EBS u snapshots ](../../media/Cloud-AWS-Storage-image3.png)
+![image](../../media/Cloud-AWS-Storage-image3.png)
 
 7. **AWS Snowball**
 

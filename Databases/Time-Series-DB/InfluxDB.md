@@ -65,65 +65,56 @@ InfluxDB is a time series database. Optimizing for this use case entails some tr
 Every InfluxDB use case is special and your [schema](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#schema) will reflect that uniqueness. There are, however, general guidelines to follow and pitfalls to avoid when designing your schema.
 
 1. General Recommendations
-
 2. Encouraged Schema Design
-
 3. Discouraged Schema Design
-
 4. Shard Group Duration Management
+
 <https://docs.influxdata.com/influxdb/v1.7/concepts/schema_and_data_layout>
 
 ## Basic Concepts
 
 1. Measurement
 
-A measurement is loosely equivalent to the concept of a table in relational databases. Measurement is inside which a data is stored and a database can have multiple measurements. A measurement primarily consists of 3 types of columns Time, Tags and Fields
+    A measurement is loosely equivalent to the concept of a table in relational databases. Measurement is inside which a data is stored and a database can have multiple measurements. A measurement primarily consists of 3 types of columns Time, Tags and Fields
 
 2. Time
 
-A time is nothing but a column tracking timestamp to perform time series operations in a better way. The default is the Influxdb time which is in nanoseconds, however, it can be replaced with event time.
+    A time is nothing but a column tracking timestamp to perform time series operations in a better way. The default is the Influxdb time which is in nanoseconds, however, it can be replaced with event time.
 
 3. Tags
 
-A tag is similar to an indexed column in a relational database.An important point to remember is that relational operations like WHERE, GROUP BY etc, can be performed on a column only if it is marked as a Tag
+    A tag is similar to an indexed column in a relational database.An important point to remember is that relational operations like WHERE, GROUP BY etc, can be performed on a column only if it is marked as a Tag
 
 4. Fields
 
-Fields are the columns on whichmathematical operations such as sum, mean, non-negative derivative etc can be performed.However, in recent versions string values can also be stored as a field.
+    Fields are the columns on whichmathematical operations such as sum, mean, non-negative derivative etc can be performed.However, in recent versions string values can also be stored as a field.
 
 5. Series
 
-A series is the most important concept of Influxdb.A series is a combination of tags, measurement, and retention policy (default of Influxdb).An Influxdb database performance is highly dependent on the number of unique series it contains, which in turn is the cardinality of tags x no. of measurement x retention policy
+    A series is the most important concept of Influxdb.A series is a combination of tags, measurement, and retention policy (default of Influxdb).An Influxdb database performance is highly dependent on the number of unique series it contains, which in turn is the cardinality of tags x no. of measurement x retention policy
 
 ## Glossary of Terms
 
 1. Replication factor
-
 2. Retention policy
-
 3. Schema
-
 4. Series cardanility
-
 5. Shard
-
 6. Shard duration
-
 7. Shard group
-
 8. Subscription
-
 9. tsm (Time Structured Merge tree)
-
 10. wal (Write Ahead Log)
-![image](media/InfluxDB-image1.png)[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
+
+![image](media/InfluxDB-image1.png)
+
+[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
+
 TICK Stack (<https://www.influxdata.com/time-series-platform>)
 
 - Telegraf
-
 - InfluxDB
-
 - Choronograf
-
 - Kapacitor
+
 ![image](media/InfluxDB-image2.png)

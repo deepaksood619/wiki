@@ -58,19 +58,19 @@ Amazon Mechanical Turk(MTurk) is a [crowdsourcing](https://en.wikipedia.org/wiki
 
 The WSO2 Integration Agile Platform is a broad framework to develop, reuse, run and manage integrations. It's architected around a common code base of fully open source integration technologies. Components can be used individually, or as a cohesive integration-agile platform.
 
-![WS02 INTEGRATION AGILE PLATFORM ws02 ENTERPRISE Methodology INTEGRATION for Agility Maturity model and delivery approach that transforms any organization to be integration agile. IDENTITY & ACCESS MANAGEMENT API MANAGEMENT ANALYTICS & STREAM PROCESSING DEVELOP REUSE RUN MANAGE WS02 MATURITY MODEL FOR AGILITY ws02 Architecture for Agility Reference architecture and best practices for digital-native organizations. Monolithic Fast Waterfall -+ API-Driven -+ Early Agility -+ Integration Agile ](../../media/Technologies-Others-Others-image1.png)
+![image](../../media/Technologies-Others-Others-image1.png)
 
 ## WSO2 Stream Processor
 
 WSO2 Stream Processor is an open source, cloud native and lightweight stream processing platform that understands streaming SQL queries in order to capture, analyze, process and act on events in real time. This facilitates real-time streaming data integration and analytics. With the product's powerful streaming SQL, simple deployment, and ability to adapt to changes rapidly, enterprises can go to market faster and achieve greater ROI. Unlike other offerings, it provides a simple two-node deployment for high availability and scales beyond with its distributed deployment to cater to extremely high workloads.
 
-![COLLECT Apps Services Sensors Devices Apply Lightweight Adaptable Streaming SQL ANALYZE Streaming SQL Stream Processor Stream Analytics Stream Data Integration Filtering & Transformation Complex Event Processing Real-time ETC ML Model Serving Streaming ML Anomaly Detection Incremental Aggregation Event to Action within Millisecond 100K+ throughput with just two nodes, scale to millions with Kafka ACT APIs Actions Visualizations PERSIST Analytics Stores {API} ](../../media/Technologies-Others-Others-image2.png)
+![image](../../media/Technologies-Others-Others-image2.png)
 
 ## WSO2 API Manager
 
 WSO2 API Manager is an open source enterprise-class solution that supports API publishing, lifecycle management, application development, access control, rate limiting and analytics in one cleanly integrated system.
 
-![API Consumers (App Users) API Developers and Product Managers Application Developers MANAGEMENT PLANE API Marketplace API Publisher Developer Portal Business Insights DATA PLANE Microgateway Business Services Microservices API Gateway Legacy Services Istio Cloud Services O Kubernetes Serverless Workloads CONTROL PLANE Key Manager (STS) Traffic Manager Anomaly Detection ](../../media/Technologies-Others-Others-image3.png)
+![image](../../media/Technologies-Others-Others-image3.png)
 
 ## WSO2 Identity Server
 

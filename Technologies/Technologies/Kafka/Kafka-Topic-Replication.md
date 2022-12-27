@@ -45,7 +45,7 @@ Only committed messages are exposed to consumers. However, producers can configu
 
 The graphic below shows how this replication process works for a cluster of three brokers:b1,b2, andb3. Followers are effectively special consumers of the leader's log.
 
-![HW: 3 012345 writes bl (leader) ISR: {bl, b2, b3} HW: 3 01234 b2 (follower) HW: 3 0123 b3 (follower) ](../../media/Technologies-Kafka-Kafka-Topic-Replication-image1.png)
+![image](../../media/Technologies-Kafka-Kafka-Topic-Replication-image1.png)
 
 Now let's look at a few failure modes and how Kafka handles them.
 
@@ -53,35 +53,35 @@ Now let's look at a few failure modes and how Kafka handles them.
 
 Kafka relies on [Apache ZooKeeper](https://zookeeper.apache.org/) for certain cluster coordination tasks, such as leader election, though this is not actually how the log leader is elected. A Kafka cluster has a single controller broker whose election is handled by ZooKeeper. This controller is responsible for performing administrative tasks on the cluster. One of these tasks is selecting a new log leader (actuallypartitionleader, but this will be described later in the series) from the ISR when the current leader dies. ZooKeeper is also used to detect these broker failures and signal them to the controller.
 
-![oo writes bl (leader) ISR: {bl, b2, b3} HW: 3 01234 b2 (follower) HW: 3 0123 b3 (follower) zoo ](../../media/Technologies-Kafka-Kafka-Topic-Replication-image2.png)
+![image](../../media/Technologies-Kafka-Kafka-Topic-Replication-image2.png)
 
 Thus, when the leader crashes, the cluster controller is notified by ZooKeeper and it selects a new leader from the ISR and announces this to the followers. This gives us automatic failover of the leader.All committed messages up to the HW are preserved and uncommitted messages may be lost during the failover. In this case,b1fails andb2steps up as leader.
 
-![writes ISR: {b2, b3} HW: 3 0123 b2 (leader) HW: 3 0123 b3 (follower) zoo ](../../media/Technologies-Kafka-Kafka-Topic-Replication-image3.png)
+![image](../../media/Technologies-Kafka-Kafka-Topic-Replication-image3.png)
 
 ## Follower Fails
 
 The leader tracks information on how "caught up" each replica is. Before Kafka 0.9, this included both how many messages a replica was behind,replica.lag.max.messages, and the amount of time since the replica last fetched messages from the leader,replica.lag.time.max.ms. Since 0.9,replica.lag.max.messageswas removed andreplica.lag.time.max.msnow refers to both the time since the last fetch requestandthe amount of time since the replica last caught up.
 
-![HW: 3 012345 writes bl (leader) ISR: {bl, b2, b3} b2 (follower) HW: 3 0123 b3 (follower) ](../../media/Technologies-Kafka-Kafka-Topic-Replication-image4.png)
+![image](../../media/Technologies-Kafka-Kafka-Topic-Replication-image4.png)
 
 Thus, when a follower fails (or stops fetching messages for whatever reason), the leader will detect this based onreplica.lag.time.max.ms. After that time expires, the leader will consider the replica out of sync and remove it from the ISR. In this scenario, the cluster enters an "under-replicated" state since the ISR has shrunk. Specifically,b2fails and is removed from the ISR.
 
-![writes HW: 3 012345 bl (leader) replica.lag.time.max.ms HW: 3 0123 b3 (follower) ](../../media/Technologies-Kafka-Kafka-Topic-Replication-image5.png)
+![image](../../media/Technologies-Kafka-Kafka-Topic-Replication-image5.png)
 
 ## Follower Temporarily Partitioned
 
 The case of a follower being temporarily partitioned, e.g. due to a transient network failure, is handled in a similar fashion to the follower itself failing. These two failure modes can really be combined since the latter is just the former with an arbitrarily long partition, i.e. it's the difference between crash-stop and crash-recovery models.
 
-![HW: 3 012345 writes bl (leader) ISR: {bl, b2, b3} HW: 3 01234 b2 (follower) HW: 3 0123 b3 (follower) ](../../media/Technologies-Kafka-Kafka-Topic-Replication-image6.png)
+![image](../../media/Technologies-Kafka-Kafka-Topic-Replication-image6.png)
 
 In this case,b3is partitioned from the leader. As before,replica.lag.time.max.msacts as our failure detector and causesb3to be removed from the ISR. We enter an under-replicated state and the remaining two brokers continue committing messages 4 and 5. Accordingly, the HW is updated to 5 on these brokers.
 
-![writes ISR: {bl, b2} 012345 bl (leader) 012345 b2 (follower) HW: 3 0123 b3 (follower) ](../../media/Technologies-Kafka-Kafka-Topic-Replication-image7.png)
+![image](../../media/Technologies-Kafka-Kafka-Topic-Replication-image7.png)
 
 When the partition heals,b3continues reading from the leader and catching up. Once it is fully caught up with the leader, it's added back into the ISR and the cluster resumes its fully replicated state.
 
-![012345 writes bl (leader) ISR: {bl, b2, b3} 012345 b2 (follower) 012345 b3 (follower) ](../../media/Technologies-Kafka-Kafka-Topic-Replication-image8.png)
+![image](../../media/Technologies-Kafka-Kafka-Topic-Replication-image8.png)
 
 We can generalize this to the crash-recovery model. For example, instead of a network partition, the follower could crash and be restarted later. When the failed replica is restarted, it recovers the HW from disk and truncates its log up to the HW. This preserves the invariant that messages after the HW are not guaranteed to be committed. At this point, it can begin catching up from the leader and will end up with a log consistent with the leader's once fully caught up.
 

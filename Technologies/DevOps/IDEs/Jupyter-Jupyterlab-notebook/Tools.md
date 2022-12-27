@@ -16,7 +16,7 @@ Modified: 2022-01-03 13:59:29 +0500
 
 [Titus](https://netflix.github.io/titus/) is a container management platform that provides scalable and reliable container execution and cloud-native integration with Amazon AWS. Titus was built internally at Netflix and is used in production to power Netflix streaming, recommendation, and content systems.
 
-![Commuter notebook UI nteract configure view & share notebooks ad hoc execution interactive compute Jupyter Jupyter PySpark kernel job execution job execution Python Titus container Spark interactive notebook Legend ad hoc execution scheduled execution store & view notebook output notebook store read write read storage AWS scheduler Meson data warehouse services Meson Meson Template Parameterized Notebook scheduled execution scheduled compute PySpark Papermill kernel parameterized notebook Metacat Python Genie Titus container Spark Amazon Amazon store output notebook ](../../../media/DevOps-IDEs-Tools-image1.jpeg)
+![image](../../../media/DevOps-IDEs-Tools-image1.jpeg)
 
 ## Rshiny
 

@@ -63,7 +63,7 @@ Distributed tracing, a form of event-driven observability useful in debugging di
 
 ## Zipkin
 
-![Web interface screenshot](../../media/DevOps-DevOps-Distributed-Tracing-image1.png)
+![image](../../media/DevOps-DevOps-Distributed-Tracing-image1.png)
 
 Zipkin is a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. It manages both the collection and lookup of this data. Zipkin's design is based on the [Google Dapper](http://research.google.com/pubs/pub36356.html) paper.
 

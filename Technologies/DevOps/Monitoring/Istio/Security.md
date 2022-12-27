@@ -18,7 +18,7 @@ The Istio security features provide strong identity, powerful policy, transparen
 
 Why zero trust network because if there is a single compromised node in the VPC then the whole network is compromised
 
-![CORP internet VPN Istio Ingress/Egress Perimeter Istio sidecar PROD Istio Security Overview Secure by default Defense in depth Zero-trust network Identity Policy Encryption Endpoints Communication Platform Data ](../../../media/DevOps-Monitoring-Security-image1.png)
+![image](../../../media/DevOps-Monitoring-Security-image1.png)
 
 ## High-level architecture
 
@@ -68,7 +68,7 @@ Istio's authorization feature provides mesh-level, namespace-level, and workload
 
 ## Authorization Architecture
 
-![Pilot Policies for Workload A O Proxy Workload A Administrators Authz policies Istio Config (K8s API server) Policies for Workload B O Proxy Workload B Istio Authorization Architecture ](../../../media/DevOps-Monitoring-Security-image3.png)
+![image](../../../media/DevOps-Monitoring-Security-image3.png)
 
 - Implicit enablement
 - Authorization policy

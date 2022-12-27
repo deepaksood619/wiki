@@ -22,7 +22,7 @@ Inside [Apache Airflow](https://airflow.apache.org/), tasks are carried out by a
 
 4. **Workers:** These are the processes that actually execute the logic of tasks, and are determined by the Executor being used.
 
-![Airflow's General Architecture Scheduler/Executor Metadata Database Webserver Task Execution Logs ](../../../media/Technologies-Apache-Airflow-Architecture-image1.png)
+![image](../../../media/Technologies-Apache-Airflow-Architecture-image1.png)
 
 Airflow's General Architecture.Airflow's operation is built atop a Metadata Database which stores the state of tasks and workflows (i.e. DAGs). The Scheduler and Executor send tasks to a queue for Worker processes to perform. The Webserver runs (often-times running on the same machine as the Scheduler) and communicates with the database to render task state and Task Execution Logs in the Web UI. Each colored box indicates that each component can exist in isolation from the other components, depending on the type of deployment configuration.
 
@@ -73,7 +73,7 @@ The single-node architecture is widely used by the users in case they have a mod
 
 In a multi node architecture daemons are spread in different machines. We decided to colocate the webserver and the scheduler. To use this architecture, Airflow has to be configure with the Celery Executor mode.
 
-![Queuing Master Node Node 3 Scheduler Airflow ](../../../media/Technologies-Apache-Airflow-Architecture-image4.png)
+![image](../../../media/Technologies-Apache-Airflow-Architecture-image4.png)
 
 In this mode, a Celery backend has to be set (Redis in our case). Celery is an asynchronous queue based on distributed message passing. Airflow uses it to execute several tasks concurrently on several workers server using multiprocessing. This mode allows to scale up the Airflow cluster really easily by adding new workers.
 

@@ -46,7 +46,7 @@ The name of the actual ranking function is BM25. To set the right context, howev
 
 BM25 and its newer variants, e.g. BM25F (a version of BM25 that can take document structure and anchor text into account), represent state-of-the-art [TF-IDF](https://en.wikipedia.org/wiki/TF-IDF)-like retrieval functions used in document retrieval.
 
-![Score( idf(t) • ( tf(t in •l l/ avgdl ) t in Where: term; tf(t in idf(t) = t in avgdl document; query; i = index numTermOccurrenceslnDocument % 1 + log (numDocs / (docFreq + 1 ini in k = Free parameter. Usually ---1.2 to 2.0. Increases term frequency saturation point b Free parameter. Usually -0.75. Increases impact of document normalization. ](../../media/Technologies-Elasticsearch-Information-Retrieval-image1.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image1.jpeg)
 
 ## Knowledge graph, Keyword Search
 
@@ -57,15 +57,15 @@ BM25 and its newer variants, e.g. BM25F (a version of BM25 that can take documen
   - Paragraph embeddings
   - Document embeddings
 
-![Thought Vectors VI'ord/Phrase Embeddings: Sentence Embeddings: Paragraph Embeddings: Document Embedding: ](../../media/Technologies-Elasticsearch-Information-Retrieval-image2.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image2.jpeg)
 
-![Single Term Searches (as a Vector) query apple caffeine cappuccino apple juice cheese pizza donut green tea bread sticks exact term lookup in inverted index cheese coffee drink donut food juice pizza tea water ... term ](../../media/Technologies-Elasticsearch-Information-Retrieval-image3.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image3.jpeg)
 
 - One hot encoding
 
-![Multi-term Searches query apple latte cappuccino apple juice cheese pizza donut soda green tea water cheese bread sticks cinnamon sticks caffeine exact term lookup in inverted index cheese coffee drink donut food Juice pizza tea water ... term N ](../../media/Technologies-Elasticsearch-Information-Retrieval-image4.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image4.jpeg)
 
-![So far, these look almost identical... Keyword Search Tam &c3. Ooc4. Ooc2. Oocl. Øc3. doc? , apple doct doc3 doc4 doc? docs Thought Vectors vs •teas O ](../../media/Technologies-Elasticsearch-Information-Retrieval-image5.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image5.jpeg)
 
 - Dimensionality reduction
 - Vector similarity scoring
@@ -76,17 +76,17 @@ Solr
 
 2. Vectors fields/functions in solr
 
-![Vector Encoders Word2Vec 2013-01 Glove 2014-01 •o k Lng queen FastText 2016-07 ULMfiT 2018-05 ELMo 2018-02 Transformer-XL 2019-01 ERNIE 2019-04 RoBERTa 2019-07 Transformer BERT 2017-06 2018-10 Universal CTRL 2019-09 AIBERT 201909 GPT-3 2020-06 Big Bird 2019-10 XLNet Sentence Encoder 2019-06 20180 GPT-2 2019Q ](../../media/Technologies-Elasticsearch-Information-Retrieval-image6.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image6.jpeg)
 
-![Performance Considerations for Real-time Search Problem: Vector Scoring is Slow • Unlike keyword search, which looks up pre-indexed answers to queries, Vector Search must instead calculate similarities between the query vector and every document's vectors to determine best matches, which is slow at scale. Solution: Quantized Vectors / Approximate Nearest Neighbors • "Quantization" is the process for mapping vector features to discrete values. • Creating "tokens" which map to a similar vector space, enables matching on those tokens to perform an ANN (Approximate Nearest Neighbor) search This enables converting vector scoring into a search problem (term lookup and scoring), which is fast again, at the expense of some recall and scoring accuracy Recommended Approach: ANN Search + Vector Similarity Reranking Combine the best of both worlds by running an initial ANN search on a quantized vector representation, and then re-rank the top-N results using full Vector similarity scoring. ](../../media/Technologies-Elasticsearch-Information-Retrieval-image7.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image7.jpeg)
 
-![Keyword Search vs. Vector Search Likely Outcome Query Type Obscure keyword combinations Q. (software OR hardware) AND enginee* Specific identifiers and attributes Q. PROD12345 Q color:red Natural Language Queries Q. Can my spouse drive on my insurance? Fuzzy Language Queries Q. famous french tower Structured Relationship Queries Q. popular near haystack Keyword search succeeds Vector Search fails Keyword search succeeds, filtering down Vector Search likely fails, depending on how trained and whether overfitting Keyword sear, may get lucky, but probably fails Vector Search succeeds mismatch yields poor results Vector Search succeeds h fails Keyword Vector search fails Need a Knowledge Graph! ](../../media/Technologies-Elasticsearch-Information-Retrieval-image8.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image8.jpeg)
 
-![Thoughts on Semantic Vector Spaces Thought Vectors (Embeddings), Knowledge Graphs, and Keyword Search ultimately resolve to the same overlapping (semantic) vector spaces. They are really just different ways of looking at the same relationships that exist within our content. • Likewise, it is also possible to model user behavior (signals) into either numerical vectors, tokens on documents, nodes and edges in a graph. or as • Certain types of attributes are much easier to represent as numerical - such as image features. This makes multi-modal leaming (joint- vectors learning) much easier to accomplish than in the past with just keywords and knowledge graphs. ](../../media/Technologies-Elasticsearch-Information-Retrieval-image9.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image9.jpeg)
 
-![Dimensions of User Intent Recorvmc 'dations Content Understanding Domain s Semantic User Understanding wledge Gr Understanding Techniques: • Inverted Index • Dense Vector Search • Hybrid ](../../media/Technologies-Elasticsearch-Information-Retrieval-image10.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image10.jpeg)
 
-![Takeaways Thought Vectors (Embeddings) Work very well for natural language queries and questions, or for modeling non-textual data like image features and user signals. Dense vectors also make it much easier to enable joint learning - modeling text content, user behavioral signals, images, and so on to a shared vector space. Only used for ---10% of Google Queries. Knowledge Graphs work best for relational queries, including reasoning about known entities, dealing with hierarchies, and multi-level inference Keyword search is NOT dead! It works best for long-tail keywords, specific item or attribute search (nameTld), obscure keywords, Boolean-type query needs, and is the safest catch-all for most queries. Finally, it should be possible to enable "explainable Al" on trained dense vector representations by mapping similar documents back to overlapping (semantic) vector spaces at the keyword and attribute level (such as through semantic knowledge graphs). The best systems will likely use a combination of all approaches blended together. ](../../media/Technologies-Elasticsearch-Information-Retrieval-image11.jpeg)
+![image](../../media/Technologies-Elasticsearch-Information-Retrieval-image11.jpeg)
 
 [Thought Vectors, Knowledge Graphs, and Curious Death(?) of Keyword Search](https://www.youtube.com/watch?v=JrORpCkuK3g)
 

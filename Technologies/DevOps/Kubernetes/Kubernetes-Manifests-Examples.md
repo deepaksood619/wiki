@@ -13,7 +13,7 @@ Modified: 2021-11-17 22:39:59 +0500
 - Spec
 - Status (only controllers fills it out)
 
-![GVK aka T peMeta Metadata aka Ob•ectMeta Spec Status apiVersion : extens /vlbetal kind: ReplicaSet name: namespace : myproject spec : selector : ma tchLabeIs : app : nginx replicas : 5 tetQ1ate : metadata : labels : app : nginx spec : containers : --- name: nginx image : nginx status : availableRep1icas : 1 fullyLabeIedRepIicas : 1 observedGeneration: 1 readyRepIicas : 1 replicas: 1 ](../../media/DevOps-Kubernetes-Kubernetes-Manifests-Examples-image1.png)
+![image](../../media/DevOps-Kubernetes-Kubernetes-Manifests-Examples-image1.png)
 
 apiVersion: v1
 

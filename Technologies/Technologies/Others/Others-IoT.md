@@ -23,7 +23,7 @@ Internet of Things Solutions and deployment of Intelligent products.
 
 Eclipse Hono provides remote service interfaces for connecting large numbers of IoT devices to a back end and interacting with them in a uniform way regardless of the device communication protocol.
 
-![Telemetry MQTT Solutions AMQP 1.0 CoAP Things AMQP 1.0 Command &Control Custom ](../../media/Technologies-Others-Others-IoT-image1.png)
+![image](../../media/Technologies-Others-Others-IoT-image1.png)
 
 Hono specifically supports scalable and secure ingestion of large volumes of sensor data by means of its Telemetry and Event APIs. Hono's Command & Control API allows for sending commands (request messages) to devices and receive a reply to such a command from a device in an asynchronous way.
 

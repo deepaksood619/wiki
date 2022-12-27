@@ -30,7 +30,7 @@ Option B. Use synchronous database master-slave replication between two availabi
 
 Option C. Take hourly DB backups to EC2 instance store volumes with transaction logs stored in S3 every 5 minutes.
 
-![Backup & Restore RPO / RTO: Hours • Lower priority use cases • Provision all AWS resources after event • Restore backups after event • Cost $ Figure 1. DR strategies active/passive Pilot Light RPO / RTO: IOS of minutes • Data live • Services idle • Provision some AWS resources and scale after event • Cost: $$ Warm standby RPO / RTO: Minutes • Always running, but smaller • Business critical • Scale AWS resources after event • cost $$$ Multi-site active/active RPO / RTO: Real-time • Zero downtime • Near zero data loss • Mission Critical Services • cost $$$$ ](../../media/DevOps-DevOps-Disaster-Recovery-image1.jpeg)
+![image](../../media/DevOps-DevOps-Disaster-Recovery-image1.jpeg)
 
 <https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby>
 
@@ -48,7 +48,7 @@ Cons - Restore of DB must be performed and during that time events can get lost.
 
 For High Availability Option 2 can be used. A master-slave replication between two availability zones, or even further master-less database like Cassandra can be used so that hosts can join and leave a cluster without downtime of service, and Consistency can be configured according to SLA.
 
-![Nodes Availability Options Highest RTO and RPO Lowest RTO and RPO RTO&RPO Back up and Restore Availability Zones Multiple Clusters In Region Multiple Clusters Across Regi ons Lowest Cost and Complexity Highest Cost and Complexity Cost & Complexity ](../../media/DevOps-DevOps-Disaster-Recovery-image2.png)
+![image](../../media/DevOps-DevOps-Disaster-Recovery-image2.png)
 
 ## Pilot Light
 

@@ -105,9 +105,9 @@ Kafka consists of brokers that take messages from the producers and add to a par
   - Each message is consumed by any one of the available consumers
   - Messages are consumed in the same order that they are received
 
-![Example: Queue System Broker Producer Big Data Computing Broker Topic: simple Partition 0 Consumer Group Consumer I Consumer 2 Consumer 3 Introduction to Kafka ](../../media/Technologies-Kafka-Intro-to-Kafka-image1.png)
+![image](../../media/Technologies-Kafka-Intro-to-Kafka-image1.png)
 
-![Example: Publish-Subscribe System Producer Broker Topic: simple Partition 0 Big Data Computing Broker Consumer Group 1 Consumer I Cmsumer Group 2 Consumer 2 Consumer Group 3 Consumer 3 Introduction to Kafka ](../../media/Technologies-Kafka-Intro-to-Kafka-image2.png)
+![image](../../media/Technologies-Kafka-Intro-to-Kafka-image2.png)
 
 ## Brokers
 

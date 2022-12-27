@@ -63,7 +63,7 @@ The front-end isstableandreliable. This means thename, IPandport numberare guara
 
 The back-end is highly dynamic and will load-balance traffic to all Pods in the cluster that match the set oflabelsthe Service is configured to look for.
 
-![Stable name Stable IP Stable port Front-end svc Pods that match label selector Back-end ](../../../media/DevOps-Kubernetes-Services-image1.jpg)
+![image](../../../media/DevOps-Kubernetes-Services-image1.jpg)
 
 Load-balancingin this situation is simple L4 round-robin load-balancing. This works at the "connection" level where all requests over the sameconnectiongo to the same Pod. This means two things:
 

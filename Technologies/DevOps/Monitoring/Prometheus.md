@@ -30,9 +30,9 @@ A CNCF (Cloud Native Computing Foundation) project, is a systems and service mon
 
 ## Architecture Overview
 
-![Short-lived jobs Pushgateway pull metrics Jobs / Exporters Prometheus Server Service Discovery • DNS Kubernetes • Consul • Custom integration find targets Prometheus Server PagerDuty Email notify Alertmanager push alerts PromQL Retrieval Node Storage Web UI Grafana API clients HDD / SSD ](../../media/DevOps-Monitoring-Prometheus-image1.png)
+![image](../../media/DevOps-Monitoring-Prometheus-image1.png)
 
-![Prometheus architecture (pull) Storage PG Elastic Prometheus Exporters Prometheus DB &Server Prom Alert Kubernetes Kubernetes Master Machine Kubernetes API Server Node machines Node Exporter CloudWatch External Machine Ext. Service + Prom SDK Node Exporter (Daemon-Set) ](../../media/DevOps-Monitoring-Prometheus-image2.png)
+![image](../../media/DevOps-Monitoring-Prometheus-image2.png)
 
 ## Concepts
 

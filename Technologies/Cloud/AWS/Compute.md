@@ -127,7 +127,7 @@ Build a Hybrid Cloud without Custom Hardware
 
 13. AWS ECS (Elastic Container Service)
 
-![Container definition Task definition Service Cluster ](../../media/Cloud-AWS-Compute-image1.png)
+![image](../../media/Cloud-AWS-Compute-image1.png)
 
 14. AWS EKS (Elastic Kubernetes Service)
 

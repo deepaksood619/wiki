@@ -205,7 +205,7 @@ Don't be surprised if you don't find this acronym, it is mostly known as Grafana
 
 ### Promtailis an agent that ships the logs from the local system to the Loki cluster.Grafanais the visualization tool which consumes data from Loki data sources
 
-![OGrafana Grafana Loki Prom tail Logs ](../../media/DevOps-Monitoring-Grafana-image1.png)
+![image](../../media/DevOps-Monitoring-Grafana-image1.png)
 
 <https://grafana.com/docs/loki/latest/clients/promtail>
 
@@ -221,11 +221,11 @@ Loki is designed in a way that it can be used as a single monolith or can be use
 
 Let's look into its logging architecture at high level with below diagram.
 
-![Logging architecture!](../../media/DevOps-Monitoring-Grafana-image3.png)
+![image](../../media/DevOps-Monitoring-Grafana-image3.png)
 
 Below is the breakdown of the Loki (Microservice model).
 
-![Logging architecture!](../../media/DevOps-Monitoring-Grafana-image4.png)
+![image](../../media/DevOps-Monitoring-Grafana-image4.png)
 
 ## Components
 

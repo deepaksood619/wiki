@@ -60,7 +60,7 @@ kubectl create quota myrq --hard=cpu=1, memory=1G, pods=2 --dry-run -o yaml
 - How you can secure your Pods more tightly using **security contexts and pod security policies**, which are full-fledged API objects in Kubernetes.
 - **Network policies**. By default, we tend not to turn on network policies, which letany traffic flow through all of our pods, in all the different namespaces. Using network policies, we can actually define Ingress rules so that we can restrict the Ingress traffic between the different namespaces. The network tool in use, such as Flannel or Calico will determine if a network policy can be implemented.
 
-![Human User Pod (Kubernetes Service Account) Authentication Authorization Ku bernetes Api Server Admission Control ](../../../media/DevOps-Kubernetes-Policies-image1.png)
+![image](../../../media/DevOps-Kubernetes-Policies-image1.png)
 
 <https://kubernetes.io/docs/reference/access-authn-authz/controlling-access>
 

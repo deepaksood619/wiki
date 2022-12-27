@@ -11,7 +11,7 @@ Modified: 2021-06-14 17:46:26 +0500
 - Apache spark is a fast and general-purpose cluster computing system for large scale data processing
 - High-level APIs in Java, Scala, Python and R
 
-![Spark SQL Spark MLlib Streaming (machine learning) Apache Spark GraphX (graph) ](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image1.jpg)
+![image](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image1.jpg)
 
 ## Standard library for Big Data
 
@@ -35,7 +35,7 @@ Modified: 2021-06-14 17:46:26 +0500
 
 ## GraphX
 
-![Pre rocessi Raw Data Initial Graph Slice Subgraph Com ute GraphLab Compute PageRank Repeat Post Proc. Analyze Top Users ](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image2.jpeg)
+![image](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image2.jpeg)
 
 ## GraphX
 
@@ -79,7 +79,7 @@ Modified: 2021-06-14 17:46:26 +0500
 - Ensure exactly one semantics
 - Integrated with Spark -> unifies batch, interactive, and streaming computations
 
-![live data stream spark Streamin batches of X seconds processed results Spark ](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image3.jpeg)
+![image](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image3.jpeg)
 
 ## Spark SQL
 

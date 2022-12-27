@@ -59,7 +59,7 @@ For context, [NATS](https://nats.io/) and [NATS Streaming](https://nats.io/docum
 
 The key point here is that NATS and NATS Streaming are distinct systems with distinct protocols, distinct APIs, and distinct client libraries. In fact, NATS Streaming was designed to essentially act as aclientto NATS. As such, clients don't talk to NATS Streaming directly, rather all communication goes through NATS. However, the NATS Streaming binary can be configured to either embed NATS or point to a standalone deployment.
 
-![Application Code NATS Streaming Client API NATS Client NATS Streaming Server NATS Streaming NATS Server ](../../media/Technologies-Others-Others-Brokers-image1.png)
+![image](../../media/Technologies-Others-Others-Brokers-image1.png)
 
 <https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-5-sketching-a-new-system>
 

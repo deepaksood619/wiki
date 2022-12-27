@@ -347,17 +347,17 @@ Load balancers need to be configured. In large deployments, this can become a su
 
 - Middle proxy
 
-![Client Load balancer Backend ](../../media/DevOps-DevOps-Load-Balancer-Proxy-image1.png)
+![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image1.png)
 
 In Proxy load balancing, the client issues RPCs to the a Load Balancer (LB) proxy. The LB distributes the RPC call to one of the available backend servers that implement the actual logic for serving the call. The LB keeps track of load on each backend and implements algorithms for distributing load fairly. The clients themselves do not know about the backend servers. Clients can be untrusted. This architecture is typically used for user facing services where clients from open internet can connect to servers in a data cente
 
 - Edge proxy
 
-![Load balancer Client Internet Backend ](../../media/DevOps-DevOps-Load-Balancer-Proxy-image2.png)
+![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image2.png)
 
 - Embedded client library / Client-side load balancing
 
-![Service Client library Backend ](../../media/DevOps-DevOps-Load-Balancer-Proxy-image3.png)
+![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image3.png)
 
 In Client side load balancing, the client is aware of multiple backend servers and chooses one to use for each RPC. The client gets load reports from backend servers and the client implements the load balancing algorithms. In simpler configurations server load is not considered and client can just round-robin between available servers.
 
@@ -373,7 +373,7 @@ A thick client approach means the load balancing smarts are implemented in the c
 
 [Client Side Load Balancing | Microservices Architecture Pattern | Tech Primers](https://www.youtube.com/watch?v=-PbnWGddmcM)
 
-![Tech_ Shots CLIENT SIDE LOAD BALANCING MICROSERVICE ARCHITECTURE PATTERN ](../../media/DevOps-DevOps-Load-Balancer-Proxy-image4.jpg)
+![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image4.jpg)
 
 ## Lookaside Load Balancing
 
@@ -487,7 +487,7 @@ The picture below illustrates this approach. The client gets at least one addres
 
 - Sidecar proxy
 
-![Service Backend Sidecar proxy ](../../media/DevOps-DevOps-Load-Balancer-Proxy-image6.png)
+![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image6.png)
 
 ## Direct Server Return (DSR)
 
@@ -497,11 +497,11 @@ DSR is an optimization in which only**ingress/request**packets traverse the load
 
 ## Fault tolerance via high availability pairs
 
-![Primary edge router (BGP weight 1) Client Backup edge router (BGP weight 0) Primary L4 LB (BGP weight 1) Backup L4 LB (BGP weight 0) Backend ](../../media/DevOps-DevOps-Load-Balancer-Proxy-image8.png)
+![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image8.png)
 
 ## Global load balancing and the centralized control plane
 
-![Global Load balancer Service Sidecar proxy 5% Backend zone A 5% Backend zone B Backend zone C ](../../media/DevOps-DevOps-Load-Balancer-Proxy-image9.png)
+![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image9.png)
 
 ## References
 

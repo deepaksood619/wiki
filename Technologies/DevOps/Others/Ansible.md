@@ -38,13 +38,13 @@ In contrast with popular configuration management software - such as [Chef](http
 
 Logical grouping of servers which are to be managed by a sysadmin
 
-![Logical Grouping of Servers Ansible Inventory](../../media/DevOps-Others-Ansible-image1.png)
+![image](../../media/DevOps-Others-Ansible-image1.png)
 
 - Ansible Playbooks
 
 Collection of commands that a sysadmin would run on servers mentioned in Ansible Inventory
 
-![Ansible Playbook plays tasks Ansible Playbooks](../../media/DevOps-Others-Ansible-image2.png)
+![image](../../media/DevOps-Others-Ansible-image2.png)
 
 - Ansible Modules
 
