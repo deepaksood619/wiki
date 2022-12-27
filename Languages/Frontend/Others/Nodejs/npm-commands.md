@@ -18,6 +18,7 @@ npm init # for creating package.json
 npm init -y
 npm i express
 npm i --save-dev nodemon
+npm i --save-prod nodemon
 npm i jsonwebtoken dotenv
 ```
 
@@ -37,9 +38,7 @@ npm i jsonwebtoken dotenv
 
 ```bash
 npm outdated
-
 npm update
-
 npm update "react" "react-dom"
 ```
 
