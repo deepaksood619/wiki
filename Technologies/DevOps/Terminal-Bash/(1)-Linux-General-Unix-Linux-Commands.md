@@ -20,6 +20,10 @@ less ( spacebar - forward, b - backward, q - quit)
 # Copy / Move
 cp "file1" "file2" //copy file1 and call it file2
 mv "file1" "file2" //move or rename file1 to file2
+
+# rename file, replace --- with -
+# brew install rename
+find . -name "*---*.md" -exec rename 's/---/-/' {} ";"
 ```
 
 ## ssh to server
