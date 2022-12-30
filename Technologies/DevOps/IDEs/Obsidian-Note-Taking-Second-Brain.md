@@ -146,7 +146,12 @@ Extensions that helps make obsidian better
 
 <https://github.com/Jekyll-Garden/jekyll-garden.github.io> - 191
 
+**<https://github.com/codebushi/gatsby-theme-document> - 124**
+
 <https://github.com/theowenyoung/gatsby-theme-primer-wiki> - 73
+
+**<https://github.com/theowenyoung/obsidian-template-gatsby-theme-primer-wiki>**
+    - <https://thomassajot.github.io/brain-dam/>
 
 <https://github.com/flowershow/flowershow> - 156
 
@@ -177,6 +182,8 @@ Extensions that helps make obsidian better
 <https://filipedonadio.com/a-curated-list-of-obsidian-public-vaults>
 
 <https://forum.obsidian.md/t/the-all-obsidian-publish-s-collection-by-leo-latest-update-20210324/7248>
+
+<https://hiran.in/notes>
 
 ### Blogs example templates
 

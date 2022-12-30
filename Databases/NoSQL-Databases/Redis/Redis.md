@@ -110,7 +110,7 @@ Proxy based Redis cluster solution supporting pipeline and scaling dynamically
 | resharding without restarting cluster | Yes         | No          | Yes                                                                         |
 | pipeline                              | Yes         | Yes         | No                                                                          |
 | hash tags for multi-key operations    | Yes         | Yes         | Yes                                                                         |
-| multi-key operations while resharding | Yes         | -         | No([details](http://redis.io/topics/cluster-spec#multiple-keys-operations)) |
+| multi-key operations while resharding | Yes         | -       | No([details](http://redis.io/topics/cluster-spec#multiple-keys-operations)) |
 | Redis clients supporting              | Any clients | Any clients | Clients have to support cluster protocol                                    |
 
 ## Other in-memory database

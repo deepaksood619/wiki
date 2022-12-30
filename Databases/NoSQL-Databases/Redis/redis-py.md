@@ -122,10 +122,10 @@ redis-py can be used together with [Redis Sentinel](https://redis.io/topics/sent
 ### purge queue
 
 ```python
-z = redis_client.xpending_range('send:offer_sms', 'offer_sms_consumer', "-", "+", 10000)
+z = redis_client.xpending_range('send:whatsapp_offer_sms', 'offer_whatsapp_consumer', "-", "+", 100000)
 
 for i in z:
-   redis_client.xack('send:offer_sms', 'offer_sms_consumer', i['message_id'])
+   redis_client.xack('send:whatsapp_offer_sms', 'offer_whatsapp_consumer', i['message_id'])
 ```
 
 ### Redis-OM

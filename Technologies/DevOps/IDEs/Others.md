@@ -51,8 +51,8 @@ videos [i].playbackRate = 2;
 
 ## Google Search
 
-- Use thesite:search operator, Google will only show you the results from a specific website
-- a country-specific search using thesite:search operator plus the TLD for that country. For example, if you want to look for naan recipes and get the information only from sites in India, the search would benaan recipes site:.in
+- Use the site:search operator, Google will only show you the results from a specific website
+- a country-specific search using the site:search operator plus the TLD for that country. For example, if you want to look for naan recipes and get the information only from sites in India, the search would benaan recipes site:.in
 - Following a hyphen-directly with a word is another Google Search operator, and this one tells Google to **exclude** whatever follows that hyphen from the search results.
 - If you want to find results that use a very specific phrase, surround your search term in quotation marks to tell Google you only want to see results that use that exact phrase.
 - **search for anything after:2020**

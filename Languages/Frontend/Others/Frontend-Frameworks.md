@@ -146,13 +146,31 @@ Gatsby is a modern web framework for blazing fast websites.
 - Load Data From Anywhere.Gatsby pulls in data from any data source, whether it's Markdown files, a headless CMS like Contentful or WordPress, or a REST or GraphQL API. Use source plugins to load your data, then develop using Gatsby's uniform GraphQL interface.
 - Performance Is Baked In.Ace your performance audits by default. Gatsby automates code splitting, image optimization, inlining critical styles, lazy-loading, prefetching resources, and more to ensure your site is fast - no manual tuning required.
 
+```bash
 npm init gatsby
-
 npm run develop
+```
 
 <https://www.gatsbyjs.org>
 
 <https://github.com/gatsbyjs/gatsby>
+
+<https://www.gatsbyjs.com/plugins>
+
+### Themes
+
+<https://gatsby-theme-document.netlify.app>
+<https://github.com/codebushi/gatsby-theme-document>
+
+```bash
+gatsby new document-site https://github.com/codebushi/gatsby-theme-document-example
+cd document-site
+npm install --force
+npm outdated
+gatsby develop
+```
+
+<https://rocketdocs.gatsbyjs.io/usage/using-yaml-files>
 
 ## jekyll
 

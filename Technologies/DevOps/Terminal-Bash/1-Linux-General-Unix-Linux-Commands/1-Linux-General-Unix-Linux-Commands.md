@@ -20,10 +20,6 @@ less ( spacebar - forward, b - backward, q - quit)
 # Copy / Move
 cp "file1" "file2" //copy file1 and call it file2
 mv "file1" "file2" //move or rename file1 to file2
-
-# rename file, replace - with -
-# brew install rename
-find . -name "*---*.md" -exec rename 's/---/-/' {} ";"
 ```
 
 ## ssh to server
@@ -236,7 +232,7 @@ display or set date and time
  ls -alst
  ls -R #Show contents of directory recursively
  ls -l # long listing format
-  -rwxrw-r--    1    root   root 2048    Jan 13 07:11 afile.exe
+  -rwxrw-r--  1    root   root 2048    Jan 13 07:11 afile.exe
    • file permissions,
    • number of links,
    • owner name,
@@ -454,6 +450,19 @@ find . -type f -mtime +30 -exec -f {} \;
 
 # find and replace in shole directory except 'config.yaml'
 find ./ ! -name 'config.yaml' -type f -exec sed -i "s~${ecr_name}.*$~${ecr_name}\\/${app_name}\\/${env_name}:${app_name}-${env_name}-${timestamp}-${build_no}~" {} \;
+
+find -E . -regex '.*hello[^/]*' -type f
+find AI -regex '.*/[^a-zA-Z].*' 
+find . -regex '.*/[^a-zA-Z0-9.].*' -not -path "*/node_modules/*"
+
+# rename file, replace - with -
+# brew install rename
+find . -name "*---*.md" -exec rename 's/---/-/' {} ";"
+
+find . -name '*.md' -exec rename .md .mdx {} +
+
+# rename file extension recursively
+find content -type f -name '*.md' -print0 | xargs -0 rename 's/.md$/.mdx/'
 ```
 
 ### hostname

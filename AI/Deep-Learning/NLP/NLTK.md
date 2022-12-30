@@ -137,3 +137,11 @@ nltk.corpus.udhr.fileids() #univeral declaration of human rights in 300 language
 | readme()                    | if the path to the root of locally installed corpus the contents of the README file of the corpus |
 
 <https://github.com/nltk/nltk>
+
+## Others
+
+### python - indian-namematch 1.3.0
+
+<https://pypi.org/project/indian-namematch>
+
+<https://towardsdatascience.com/surprisingly-effective-way-to-name-matching-in-python-1a67328e670e>

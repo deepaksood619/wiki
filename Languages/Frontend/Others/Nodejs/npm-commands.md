@@ -78,6 +78,8 @@ Fast, reliable, and secure dependency management
 yarn # install all dependencies
 yarn start # start local server
 yarn build # build a production ready deployment
+
+yarn outdated
 ```
 
 - **pnpm**

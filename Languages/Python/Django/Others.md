@@ -137,20 +137,62 @@ for c in ContentType.objects.all():
 
 ## Managers
 
-AManageris the interface through which database query operations are provided to Django models. At least oneManagerexists for every model in a Django application.
+A Manager is the interface through which database query operations are provided to Django models. At least one Manager exists for every model in a Django application.
 
-## Manager names
+### Manager names
 
-By default, Django adds aManagerwith the nameobjectsto every Django model class. However, if you want to useobjectsas a field name, or if you want to use a name other thanobjectsfor theManager, you can rename it on a per-model basis. To rename theManagerfor a given class, define a class attribute of typemodels.Manager()on that model. For example:
+By default, Django adds a Manager with the name objects to every Django model class. However, if you want to use objects as a field name, or if you want to use a name other than objects for the Manager, you can rename it on a per-model basis. To rename the Manager for a given class, define a class attribute of type `models.Manager()` on that model. For example:
 
 ```python
 from django.db import models
+
 class Person(models.Model):
-#...
+    #...
+
 people = models.Manager()
 ```
 
-Using this example model, Person.objectswill generate anAttributeErrorexception, butPerson.people.all()will provide a list of allPersonobjects.
+Using this example model, Person.objects will generate an AttributeError exception, but Person.people.all()will provide a list of all Person objects.
+
+```python
+from django.db import models
+from django.db.models import Sum
+from django.db.models.functions import Coalesce
+
+class AuthorManager(models.Manager):
+    def get_queryset(self):
+        return AuthorQuerySet(self.model, using=self._db)
+    
+    def annotate_with_copies_sold(self):
+        return self.get_queryset().annotate_with_copies_sold()
+
+class AuthorQuerySet(models.QuerySet):
+    def annotate_with_copies_sold(self):
+        # Write your solution here
+        return self.annotate(copies_sold=Coalesce(Sum('books__copies_sold'), 0))
+
+
+class Author(models.Model):
+    # Make sure this manager is available.
+    objects = AuthorManager()
+    # objects = models.Manager.from_queryset(AuthorQuerySet)()
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+
+
+class Book(models.Model):
+    title = models.CharField(max_length=30)
+    copies_sold = models.PositiveIntegerField()
+    author = models.ForeignKey(Author, on_delete=models.CASCADE, related_name='books')
+
+author = Author.objects.create(first_name='Mark', last_name='Twain')
+Book.objects.create(author=author, title='Adventures of Huckleberry Finn', copies_sold=7)
+Book.objects.create(author=author, title='The Adventures of Tom Sawyer', copies_sold=4)
+
+author = Author.objects.annotate_with_copies_sold().first()
+>>> author.copies_sold
+11
+```
 
 <https://docs.djangoproject.com/en/2.2/topics/db/managers>
 

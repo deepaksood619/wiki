@@ -243,11 +243,11 @@ The table below gives numbers for all for permissions types.
 |--------|-----------------------|--------|
 | 0      | No Permission         | --- |
 | 1      | Execute               | --x   |
-| 2      | Write                 | -w-   |
+| 2      | Write                 | -w- |
 | 3      | Execute + Write       | -wx    |
 | 4      | Read                  | r--  |
 | 5      | Read + Execute        | r-x    |
-| 6      | Read + Write          | rw-   |
+| 6      | Read + Write          | rw- |
 | 7      | Read + Write +Execute | rwx    |
 Let's see the chmod command in action.
 
@@ -274,7 +274,7 @@ In the Absolute mode, you change permissions for all 3 owners. In the symbolic m
 | Operator | Description                                                    |
 |-------------|-----------------------------------------------------------|
 | +       | Adds a permission to a file or directory                       |
-| -      | Removes the permission                                         |
+| -    | Removes the permission                                         |
 | =        | Sets the permission and overrides the permissions set earlier. |
 
 The various owners are represented as -

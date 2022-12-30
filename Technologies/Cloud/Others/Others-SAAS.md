@@ -209,11 +209,11 @@ Backward chaining is implemented in [logic programming](https://en.wikipedia.org
 
 ## Rules Engine
 
-## Rule
+### Rule
 
 A rule is a business policy. Within the technical domain of the rules engine, it is a collection of a set of triggers, conditions, and effects that are applied by the rules engine.
 
-## Trigger
+### Trigger
 
 The trigger is the thing that determines whether the engine should attempt to run through a rule or not. In most cases, it is contextual.
 
@@ -221,7 +221,7 @@ In simple systems, it could be a simple string check or even hard-coded, such as
 
 In more complex systems, it could be a full context check that looks at things like whether the user is logged in or the kind of record being worked on.
 
-## Condition
+### Condition
 
 The Condition determines if the Rule should be applied in that particular circumstance and on that particular record.
 
@@ -239,7 +239,7 @@ The Effect is what happens once a Rule is triggered and its Conditions pass. It 
 
 Like the Condition, it will likely have some sort of reference to actual code that applies the Effect itself.
 
-## Engine
+### Engine
 
 Finally, you have the engine itself. This is the thing that will actually perform the bulk of the work. It'll accept records, load a list of rules, check whether those rules should be applied based on specific triggers and conditions, and then apply the effects of the rules.
 
@@ -321,6 +321,12 @@ Open-source low-code framework for building React-based web applications and int
 
 <https://hate2wait.io>
 
+## Google Photos Alternative
+
+<https://github.com/photoprism/photoprism>
+
+<https://docs.photoprism.app/getting-started>
+
 ## Others
 
 <https://www.nylas.com>
@@ -328,3 +334,4 @@ Open-source low-code framework for building React-based web applications and int
 <https://temp-mail.org/en>
 
 <https://trends.google.com/trends>
+

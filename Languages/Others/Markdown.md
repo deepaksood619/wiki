@@ -264,8 +264,10 @@ Level | Name | Solution
 
 ## MDX
 
-You write markdown with embedded components through JSX
-It gets compiled to JavaScript that you can use in any framework that supports JSX
+You write markdown with embedded components through JSX. It gets compiled to JavaScript that you can use in any framework that supports JSX.
+
+MDX allows you to use JSX in your markdown content. You can import components, such as interactive charts or alerts, and embed them within your content. This makes writing long-form content with components a blast.
+
 <https://mdxjs.com>
 
 ## Others
