@@ -7,10 +7,10 @@
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
-    // "build": "gatsby build --prefix-paths",
+    "build-old": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
-    // "serve": "gatsby serve --prefix-paths",
+    "serve-old": "gatsby serve --prefix-paths",
     "test": "echo test"
   },
   "dependencies": {
