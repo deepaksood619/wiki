@@ -14,13 +14,15 @@ services:
             - DEBUG=True
         ports:
             - 8000:8000
+            - 4000:4000
         entrypoint:
             - /bin/bash
             - -c
             - |
                 sleep infinity
+                # cd .layouts && npm run develop
                 # npm i -f
                 # npm run develop
                 # npm run build
-        volumes:
-            - .:/app/
+        # volumes:
+        #     - .:/app/

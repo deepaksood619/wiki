@@ -6,9 +6,11 @@
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop -H 0.0.0.0",
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build",
+    // "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
-    "serve": "gatsby serve --prefix-paths",
+    "serve": "gatsby serve",
+    // "serve": "gatsby serve --prefix-paths",
     "test": "echo test"
   },
   "dependencies": {
@@ -17,15 +19,9 @@
     "gatsby-plugin-manifest": "^4.11.1",
     "gatsby-plugin-robots-txt": "^1.7.0",
     "gatsby-plugin-sitemap": "^5.11.1",
-    "gatsby-remark-mermaid": "^2.1.0",
     "gatsby-source-filesystem": "^4.11.1",
     "gatsby-theme-primer-wiki": "^2.0.5",
-    "gatsby-transformer-remark": "^5.15.0",
-    "puppeteer": "^14.1.1",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-is": "^18.2.0",
-    "rehype-katex": "^3.0.0",
-    "remark-math": "^3.0.0"
+    "react-dom": "^17.0.0"
   }
 }

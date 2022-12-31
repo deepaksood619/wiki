@@ -1,15 +1,13 @@
-//  See website from https://github.com/dfeng/notes/
-
 const path = require("path");
-
 const pathPrefix = "/wiki/";
 const siteMetadata = {
   title: "Everything that I know",
-  shortName: "Deepak's Wiki",
+  shortName: "Deepak Wiki",
   description:
-    "Accumulating thoughts, knowledge, tips and anything that is worth keeping a not of. These notes are build using the obsidian tool and deployed here as well for easy access.",
-  imageUrl: "/hoover_dam.jpg",
-  siteUrl: "https://deepaksood619.github.io/wiki/"
+  "Accumulating thoughts, knowledge, tips and anything that is worth keeping a not of. These notes are build using the obsidian tool and deployed here as well for easy access.",
+  twitterName: "deepaksood619",
+  imageUrl: "/graph-visualisation.jpg",
+  siteUrl: "https://deepaksood619.github.io/wiki/",
 };
 module.exports = {
   siteMetadata,
@@ -29,19 +27,15 @@ module.exports = {
     {
       resolve: "gatsby-theme-primer-wiki",
       options: {
-        icon: "./static/logo.png",
-        remarkPlugins: [require("remark-math")],
-        rehypePlugins: [require("rehype-katex")],
-        gatsbyRemarkPlugins: [{resolve: "gatsby-remark-mermaid"}],
         nav: [
           {
             title: "Github",
             url: "https://github.com/deepaksood619/wiki/",
-          }
-          // {
-          //   title: "Twitter",
-          //   url: "https://twitter.com/theowenyoung",
-          // },
+          },
+          {
+            title: "Twitter",
+            url: "https://twitter.com/deepaksood619",
+          },
         ],
         editUrl:
           "https://github.com/deepaksood619/wiki/tree/main/",
@@ -75,6 +69,6 @@ module.exports = {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [],
       },
-    }
+    },
   ],
 };
