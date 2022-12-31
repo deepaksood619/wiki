@@ -94,7 +94,7 @@ There are three parts to this, each essential:
 
 1. Deliver business impact
 
-Fundamentally, you are responsible for delivering business impact. If your team drives positive impact - hitting important goals, reducing costs, shipping an important project, etc.---you're doing your job.
+Fundamentally, you are responsible for delivering business impact. If your team drives positive impact - hitting important goals, reducing costs, shipping an important project, etc. - you're doing your job.
 
 2. Marshaling the resources of your team
 

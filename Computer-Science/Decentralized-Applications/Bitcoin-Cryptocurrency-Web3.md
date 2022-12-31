@@ -159,3 +159,5 @@ USDC is the world's fastest-growing, fully regulated dollar digital stablecoin.
   - [The Money Flower and why Bitcoin is a ponzi scheme | Morten Bech | TEDxBasel](https://www.youtube.com/watch?v=UK0ATammdRo)-  **References**
 
 whiteboardcrypto
+
+<https://www.youtube.com/playlist?list=PLU52pNodXIGdM6XDgHVG7DsPytlsrR_6b>

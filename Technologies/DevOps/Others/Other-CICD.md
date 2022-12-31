@@ -34,6 +34,14 @@ Sign up for beta - <https://github.com/features/actions>
 
 [Continuous Delivery: GitHub Actions (Developer Workflow Automation with GitHub Actions CICD)](https://www.youtube.com/watch?v=cKMO0aeh8GI&ab_channel=CodingTech)
 
+**Run github actions locally**
+
+```bash
+brew install act
+```
+
+<https://github.com/nektos/act>
+
 ## Spinnaker
 
 <https://www.spinnaker.io/concepts>

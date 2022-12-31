@@ -145,9 +145,8 @@ Backfill refactoring
 - Data Virtualization
 - Event Sourcing
 - Change Data Capture
-The biggest issue in changing a monolith to a microservice lies in changing the communication pattern
 
----Martin Fowler
+The biggest issue in changing a monolith to a microservice lies in changing the communication pattern ---Martin Fowler
 
 ## References
 

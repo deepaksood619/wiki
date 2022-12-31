@@ -84,7 +84,7 @@ The Git flow process addresses these fundamental scenarios by separating "main" 
 But even with projects well-suited to the classic Git flow model, I've suffered the typical problems it can bring:
 
 - Git flow is complex, with two long-lived branches, three types of temporary branches, and strict rules on how branches deal with each other. Such complexity makes mistakes more likely and increases the effort required to fix them.
-- Release and hotfix branches require "double merging"---once into main, then into develop. At times you can forget to do both. You can make Git flow branching easier with scripts or VCS GUI client plugins, but you have to set them up first for every machine of every developer involved in a given project.
+- Release and hotfix branches require "double merging"-once into main, then into develop. At times you can forget to do both. You can make Git flow branching easier with scripts or VCS GUI client plugins, but you have to set them up first for every machine of every developer involved in a given project.
 - In CI/CD workflows, you usually end up with two final builds for a release - one from the latest commit of the release branch itself and another one from the merge commit to main. Strictly speaking, you should use the one from the main, but the two are usually identical, creating the potential for confusion.
 
 <https://www.toptal.com/gitflow/enhanced-git-flow-explained>

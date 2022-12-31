@@ -288,7 +288,7 @@ Keep your eye on the price
 
 Do everything like it is the last thing you do. There is nothing to hold back, nothing to save for later. -- Sadhguru
 
-Success is a few simple disciplines, practiced every day; while failure is simply a few errors in judgment, repeated every day. ---Jim Rohn
+Success is a few simple disciplines, practiced every day; while failure is simply a few errors in judgment, repeated every day. -Jim Rohn
 
 It's more important to start, than to succeed
 
@@ -440,7 +440,7 @@ To achieve great things, two things are needed: a plan, and not quite enough tim
 
 Patience and perseverance, if we have them, overcome mountains of difficulties -- Mahatma Gandhi
 
-"Someday" is a disease that will take your dreams to the grave with you."---Tim Ferriss
+"Someday" is a disease that will take your dreams to the grave with you."-Tim Ferriss
 
 "If the only reason you're not pursuing a dream is because of the length of time it will take to achieve it, you should start right now. Think long-term."
 

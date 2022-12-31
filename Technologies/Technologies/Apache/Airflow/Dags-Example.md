@@ -8,11 +8,11 @@ Modified: 2021-11-22 14:48:38 +0500
 
 <https://airflow.apache.org/docs/apache-airflow/1.10.12/_api/airflow/contrib/operators/kubernetes_pod_operator/index.html>
 
-## execution_timeout(datetime.timedelta) -- max time allowed for the execution of this task instance, if it goes beyond it will raise and fail
+- execution_timeout(datetime.timedelta) -- max time allowed for the execution of this task instance, if it goes beyond it will raise and fail (used of instance)
 
-## dagrun_timeout(datetime.timedelta) -- specify how long a DagRun should be up before timing out / failing, so that new DagRuns can be created
+- dagrun_timeout(datetime.timedelta) -- specify how long a Dag Run should be up before timing out / failing, so that new DagRuns can be created (used for whole dag)
 
-## Weekly cron - days_ago(1) start date can't keep in the memory the actual start date and we need to actually have more than one week difference from start date to trigger job
+- Weekly cron - days_ago(1) start date can't keep in the memory the actual start date and we need to actually have more than one week difference from start date to trigger job
 
 schedule_interval="@daily"
 

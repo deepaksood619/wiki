@@ -214,7 +214,7 @@ def test_is_credit_card_fraud_monkeypatch(monkeypatch):
     assert is_fraud == True
 ```
 
-The question when you should use `unittest.mock.patch` and - if necessary ---unittest.mock.Mockor pytestsmonkeypatchboils pretty much down to personal taste nowadays. The core Pythons patch / Mock only exist since Python 3.3 which, I guess, is a big part of the reason whymonkeypatchexists in the first place.
+The question when you should use `unittest.mock.patch` and - if necessary -unittest.mock.Mockor pytestsmonkeypatchboils pretty much down to personal taste nowadays. The core Pythons patch / Mock only exist since Python 3.3 which, I guess, is a big part of the reason whymonkeypatchexists in the first place.
 
 ## External Packages
 

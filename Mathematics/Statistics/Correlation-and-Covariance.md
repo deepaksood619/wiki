@@ -81,15 +81,15 @@ For the Pearsonrcorrelation, both variables should be normally distributed (norm
 
 ## Key Terms
 
-## Effect size:Cohen's standard may be used to evaluate the correlation coefficient to determine the strength of the relationship, or the effect size. Correlation coefficients between .10 and .29 represent a small association, coefficients between .30 and .49 represent a medium association, and coefficients of .50 and above represent a large association or relationship
+**Effect size:** Cohen's standard may be used to evaluate the correlation coefficient to determine the strength of the relationship, or the effect size. Correlation coefficients between .10 and .29 represent a small association, coefficients between .30 and .49 represent a medium association, and coefficients of .50 and above represent a large association or relationship
 
-## Continuous data:Data that is interval or ratio level. This type of data possesses the properties of magnitude and equal intervals between adjacent units. Equal intervals between adjacent units means that there are equal amounts of the variable being measured between adjacent units on the scale. An example would be age. An increase in age from 21 to 22 would be the same as an increase in age from 60 to 61
+**Continuous data:** Data that is interval or ratio level. This type of data possesses the properties of magnitude and equal intervals between adjacent units. Equal intervals between adjacent units means that there are equal amounts of the variable being measured between adjacent units on the scale. An example would be age. An increase in age from 21 to 22 would be the same as an increase in age from 60 to 61
 
 ## Kendall rank correlation
 
 Kendall rank correlation is a non-parametric test that measures the strength of dependence between two variables. If we consider two samples, a and b, where each sample size isn, we know that the total number of pairings with a b isn(n-1)/2. The following formula is used to calculate the value of Kendall rank correlation:
 
-![---n(n - 1) ](media/Correlation-and-Covariance-image3.jpg)
+![image](media/Correlation-and-Covariance-image3.jpg)
 
 Nc= number of concordant
 
@@ -97,9 +97,8 @@ Nd= Number of discordant
 
 ## Key Terms
 
-## Concordant:Ordered in the same way
-
-## Discordant:Ordered differently
+- Concordant:Ordered in the same way
+- Discordant:Ordered differently
 
 ## Spearman rank correlation
 
@@ -113,24 +112,25 @@ di= the difference between the ranks of corresponding variables
 
 n= number of observations
 
-## Types of research questions a Spearman Correlation can examine
+### Types of research questions a Spearman Correlation can examine
 
 - Is there a statistically significant relationship between participants' level of education (high school, bachelor's, or graduate degree) and their starting salary?
 - Is there a statistically significant relationship between horse's finishing position a race and horse's age?
 
-## Assumptions
+### Assumptions
 
 The assumptions of the Spearman correlation are that data must be at least ordinal and the scores on one variable must be monotonically related to the other variable.
 
 ## Key Terms
 
-## Effect size
+### Effect size
 
 Cohen's standard may be used to evaluate the correlation coefficient to determine the strength of the relationship, or the effect size. Correlation coefficients between .10 and .29 represent a small association, coefficients between .30 and .49 represent a medium association, and coefficients of .50 and above represent a large association or relationship.
 
-## Ordinal data
+### Ordinal data
 
 In an ordinal scale, the levels of a variable are ordered such that one level can be considered higher/lower than another. However, the magnitude of the difference between levels is not necessarily known. An example would be rank ordering levels of education. A graduate degree is higher than a bachelor's degree, and a bachelor's degree is higher than a high school diploma. However, we cannot quantify how much higher a graduate degree is compared to a bachelor's degree. We also cannot say that the difference in education between a graduate degree and a bachelor's degree is the same as the difference between a bachelor's degree and a high school diploma.
+
 <http://www.statisticssolutions.com/correlation-pearson-kendall-spearman>
 
 <https://machinelearningmastery.com/how-to-calculate-nonparametric-rank-correlation-in-python>
@@ -150,15 +150,10 @@ Like the correlation, a positive covariance indicates that two variables move to
 ## Correlation doesn't equal Causation
 
 - Scatterplot
-
 - Bivariate data
-
 - Regression line
-
 - Correlation
-
 - Positive correlation
-
 - Negative correlation
 
 - We use standard deviations to scale our correlations so that it always stays between -1 and 1. This is our correlation coefficient, r.

@@ -247,7 +247,7 @@ To help you increase your control, practice going to quiet and screen-free space
 
 It's impossible not to be affected by those around us - it's easy to "catch" their emotions and our brains tend to synch up when we associate with other people.
 
-We should set boundaries with difficult people, disentangle yourself from negative online interactions, and be more conscious of how you might be vulnerable to "groupthink"---pressures to behave or think in ways that are contrary to your values.
+We should set boundaries with difficult people, disentangle yourself from negative online interactions, and be more conscious of how you might be vulnerable to "groupthink"-pressures to behave or think in ways that are contrary to your values.
 
 2. [**Move**](https://deepstash.com/idea/13068/move)
 

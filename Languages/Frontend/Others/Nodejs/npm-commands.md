@@ -60,9 +60,29 @@ Nodemon is a utility that will monitor for any changes in your source and automa
 - <https://www.npmjs.com/package/redis>
 - npm install gray-matter
 
+## nvm (Node Version Manager)
+
+nvm allows you to quickly install and use different versions of node via the command line.
+
+### Installation
+
+Install using zsh instead of homebrew on macos
+
+<https://github.com/nvm-sh/nvm#troubleshooting-on-macos>
+
+<https://github.com/nvm-sh/nvm>
+
+### Commands
+
+```bash
+nvm install 14
+
+nvm use 14
+```
+
 ## Others
 
-- Yarn package manager
+### Yarn package manager
 
 Fast, reliable, and secure dependency management
 
@@ -72,7 +92,7 @@ Fast, reliable, and secure dependency management
 - Network Resilience.A single request that fails will not cause the entire installation to fail. Requests are automatically retried upon failure.
 - Flat Mode.Yarn resolves mismatched versions of dependencies to a single version to avoid creating duplicates.
 
-## Commands
+### Commands
 
 ```bash
 yarn # install all dependencies
@@ -82,7 +102,7 @@ yarn build # build a production ready deployment
 yarn outdated
 ```
 
-- **pnpm**
+### pnpm
 
 Fast, disk space efficient package manager
 
@@ -90,7 +110,7 @@ Fast, disk space efficient package manager
 
 <https://github.com/pnpm/pnpm>
 
-- **pnpx (npx for pnpm)**
+### pnpx (npx for pnpm)
 
 <https://pnpm.io/pnpx-cli>
 

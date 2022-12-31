@@ -444,7 +444,7 @@ What happens first always appears better and more original than what comes after
 
 42. **Strike the shepherd and the sheep will scatter**
 
-Trouble can often be traced to a single strong individual ---the stirrer, the arrogant underling, the poisoner of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them - they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter.
+Trouble can often be traced to a single strong individual -the stirrer, the arrogant underling, the poisoner of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them - they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter.
 
 - In every group, power is concentrated in the hands of one or two people.
 - When troubles arise, find the source, and isolate them - physically, politically or psychologically. Separate them from their power base.

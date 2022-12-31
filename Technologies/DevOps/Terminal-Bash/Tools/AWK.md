@@ -40,7 +40,7 @@ Let's take another look at that AWK program. This time, I'll format it a bit mor
 print $1 ": featuring " $3;
 }
 
-The first part of this program ---/oatmeal/ ---is theeventthat you're looking for. Events can be specified in a few different ways: you can use a C-style conditional expression, or a special event like BEGIN that is triggered before the first line is read. However, the most common kind of event to see is a regular expression event, which is what /oatmeal/ is. If "oatmeal" appears in a line of text, then our event will be triggered.
+The first part of this program ---/oatmeal/ -is theeventthat you're looking for. Events can be specified in a few different ways: you can use a C-style conditional expression, or a special event like BEGIN that is triggered before the first line is read. However, the most common kind of event to see is a regular expression event, which is what /oatmeal/ is. If "oatmeal" appears in a line of text, then our event will be triggered.
 
 The action is the second part of this program, the part between the braces. This part is a procedural set of instructions to perform when your event occurs. Here, you have a small C-like programming language at your disposal, with for/while loops, if statements, and global variables at your disposal.
 

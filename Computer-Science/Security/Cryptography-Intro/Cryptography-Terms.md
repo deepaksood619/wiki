@@ -106,7 +106,7 @@ The only secret in a properly designed crypto system is the key (and obviously t
 
 ## MAC (Message Authentication Code)
 
-In [cryptography](https://en.wikipedia.org/wiki/Cryptography), a**message authentication code**(**MAC**), sometimes known as a*tag*, is a short piece of information used to [authenticate a message](https://en.wikipedia.org/wiki/Message_authentication)---in other words, to confirm that the message came from the stated sender (its authenticity) and has not been changed. The MAC value protects both a message's [data integrity](https://en.wikipedia.org/wiki/Data_integrity) as well as its [authenticity](https://en.wikipedia.org/wiki/Message_authentication), by allowing verifiers (who also possess the secret key) to detect any changes to the message content.
+In [cryptography](https://en.wikipedia.org/wiki/Cryptography), a**message authentication code**(**MAC**), sometimes known as a*tag*, is a short piece of information used to [authenticate a message](https://en.wikipedia.org/wiki/Message_authentication) - in other words, to confirm that the message came from the stated sender (its authenticity) and has not been changed. The MAC value protects both a message's [data integrity](https://en.wikipedia.org/wiki/Data_integrity) as well as its [authenticity](https://en.wikipedia.org/wiki/Message_authentication), by allowing verifiers (who also possess the secret key) to detect any changes to the message content.
 Informally, a message authentication code consists of three algorithms:
 
 - A key generation algorithm selects a key from the key space uniformly at random.

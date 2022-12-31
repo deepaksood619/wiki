@@ -181,7 +181,7 @@ Locust is completely event-based, and therefore it's possible to support thousan
 
 ## Running Locust Distributed
 
-You start one instance of Locust in master mode using the--masterflag. This is the instance that will be running Locust's web interface where you start the test and see live statistics. The master node doesn't simulate any users itself. Instead you have to start one or ---most likely - multiple slave Locust nodes using the--slaveflag, together with the--master-host(to specify the IP/hostname of the master node).
+You start one instance of Locust in master mode using the--masterflag. This is the instance that will be running Locust's web interface where you start the test and see live statistics. The master node doesn't simulate any users itself. Instead you have to start one or -most likely - multiple slave Locust nodes using the--slaveflag, together with the--master-host(to specify the IP/hostname of the master node).
 
 ## Commands
 

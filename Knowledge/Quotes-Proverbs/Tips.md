@@ -62,7 +62,7 @@ Yes, results do matter. But if you optimize for the outcome, you win one time.
 
 If you optimize for a process that leads to great outcomes, you can win again and again.
 
-Major life changes - moving to a new city, starting a new job, ending a relationship, getting married, having kids, etc.---will often make life harder for the first 100 days before improving.
+Major life changes - moving to a new city, starting a new job, ending a relationship, getting married, having kids, etc.-will often make life harder for the first 100 days before improving.
 
 This is not always true, but it's a nice reminder that experiencing early struggle doesn't mean it was a bad choice.
 

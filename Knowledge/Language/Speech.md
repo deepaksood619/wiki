@@ -99,7 +99,7 @@ Example - "Where did you put my cookies?" (Non-rhetorical. I would like an answe
 
 ## Common examples
 
-Common expressions such as "falling in love," "racking our brains," and "climbing the ladder of success" are all [metaphors](https://www.thoughtco.com/metaphor-figure-of-speech-and-thought-1691385)---the most pervasive figure of all. Likewise, we rely on [similes](https://www.thoughtco.com/simile-figure-of-speech-1692098) when making explicit comparisons ("light as a feather") and [hyperbole](https://www.thoughtco.com/hyperbole-figure-of-speech-1690941) to emphasize a point ("I'm starving!").
+Common expressions such as "falling in love," "racking our brains," and "climbing the ladder of success" are all [metaphors](https://www.thoughtco.com/metaphor-figure-of-speech-and-thought-1691385) - the most pervasive figure of all. Likewise, we rely on [similes](https://www.thoughtco.com/simile-figure-of-speech-1692098) when making explicit comparisons ("light as a feather") and [hyperbole](https://www.thoughtco.com/hyperbole-figure-of-speech-1690941) to emphasize a point ("I'm starving!").
 
 ## Figures of Speech
 

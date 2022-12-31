@@ -138,7 +138,7 @@ The following command shows how to create a unique key index in MySQL:
 ## Composite Index
 
 MySQL lets you define indices on multiple columns, up to 16 columns. This index is called a Multi-column / Composite / Compound index.
-Let's say we have an index defined on 4 columns ---col1,col2,col3,col4. With a composite index, we have search capability oncol1,(col1, col2),(col1, col2, col3),(col1, col2, col3, col4). So we can use any left side prefix of the indexed columns, but we can't omit a column from the middle & use that like ---(col1, col3)or(col1, col2, col4)orcol3orcol4etc. These are invalid combinations.
+Let's say we have an index defined on 4 columns -col1,col2,col3,col4. With a composite index, we have search capability oncol1,(col1, col2),(col1, col2, col3),(col1, col2, col3, col4). So we can use any left side prefix of the indexed columns, but we can't omit a column from the middle & use that like ---(col1, col3)or(col1, col2, col4)orcol3orcol4etc. These are invalid combinations.
 The following commands create 2 composite indexes in our table:
 
 `CREATE INDEX composite_index_1 ON index_demo (phone_no, name, age);`
@@ -180,7 +180,7 @@ SELECT age FROM index_demo WHERE pan_no = 'HJKXS9086W' AND name = 'kousik'
 The columns mentioned in theSELECT&WHEREclauses are part of the composite index. So in this case, we can actually get the value of theagecolumn from the composite index itself. Let's see what theEXPLAINcommand shows for this query:
 
 EXPLAIN FORMAT=JSON SELECT age FROM index_demo WHERE pan_no = 'HJKXS9086W' AND name = '111kousik1';
-In the response, note that there is a key ---using_indexwhich is set totruewhich signifies that the covering index has been used to answer the query.
+In the response, note that there is a key -using_indexwhich is set totruewhich signifies that the covering index has been used to answer the query.
 If your secondary index holds all the data needed to satisfy your query (it 'covers' it) then you don't need to follow the Primary Key values to fetch any additional data!
 
 ## Partial Index
@@ -196,7 +196,7 @@ Let's run theSHOW EXTENDEDcommand again:
 
 SHOW EXTENDED INDEXES FROM index_demo;
 We definedsecondary_index_1onname, but MySQL has created a composite index on (name,phone_no) wherephone_nois the primary key column. We createdsecondary_index_2onage& MySQL created a composite index on (age,phone_no). We createdcomposite_index_2on (pan_no,name,age) & MySQL has created a composite index on (pan_no,name,age,phone_no). The composite indexcomposite_index_1already hasphone_noas part of it.
-So whatever index we create, MySQL in the background creates a backing composite index which in-turn points to the primary key. This means that the primary key is a first class citizen in the MySQL indexing world. It also proves that all the indexes are backed by a copy of the primary index ---but I am not sure whether a single copy of the primary index is shared or different copies are used for different indexes.
+So whatever index we create, MySQL in the background creates a backing composite index which in-turn points to the primary key. This means that the primary key is a first class citizen in the MySQL indexing world. It also proves that all the indexes are backed by a copy of the primary index -but I am not sure whether a single copy of the primary index is shared or different copies are used for different indexes.
 There are many other indices as well like Spatial index and Full Text Search index offered by MySQL. I have not yet experimented with those indices, so I'm not discussing them in this post.
 
 ## How Indexes Affect `ORDER and GROUP BY`

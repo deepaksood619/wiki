@@ -148,3 +148,7 @@ Thescale cubeis a technology model that indicates three methods (or approaches) 
 
 <https://microservices.io/articles/scalecube.html>
 ![image](media/Intro-image2.jpeg)
+
+### LLD (Low Level Design)
+
+<https://www.youtube.com/playlist?list=PLAC2AM9O1C5KioUMeH9qIjbAV_RMmX8rd>

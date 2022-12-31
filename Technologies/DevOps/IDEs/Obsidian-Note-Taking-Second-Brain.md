@@ -8,6 +8,12 @@ Modified: 2022-12-11 22:10:12 +0500
 
 Your brain is for having ideas not holding them
 
+## Learning
+
+<https://demo-obsidian.owenyoung.com/>
+
+<https://demo-wiki.owenyoung.com/#how-do-i-use-foam>
+
 ### Extensions
 
 Extensions that helps make obsidian better
@@ -36,7 +42,7 @@ Extensions that helps make obsidian better
 
 ## Obsidian Shortcuts
 
-| **Todo**                        | **Shortcut**        |
+| **Todo**                    | **Shortcut**    |
 | --------------------------- | --------------- |
 | Search in all files         | `Cmd+Shift+F`   |
 | Toggle edit/preview mode    | `Ctrl/Cmd E`    |
@@ -45,7 +51,7 @@ Extensions that helps make obsidian better
 | Unindent                    | `Cmd-[`         |
 | Jump into selected backlink | `Alt/Opt-Enter` |
 | Navigate forward            | `cmd+ctrl + ->` |
-| Naviagte back               | `cmd+ctrl + <-`                |
+| Naviagte back               | `cmd+ctrl + <-` |
 
 ### Some basics
 
@@ -151,7 +157,9 @@ Extensions that helps make obsidian better
 <https://github.com/theowenyoung/gatsby-theme-primer-wiki> - 73
 
 **<https://github.com/theowenyoung/obsidian-template-gatsby-theme-primer-wiki>**
-    - <https://thomassajot.github.io/brain-dam/>
+    - <https://thomassajot.github.io/brain-dam>
+    - <https://demo-gatsby-starter-primer-wiki.owenyoung.com>
+    - <https://demo-obsidian.owenyoung.com/>
 
 <https://github.com/flowershow/flowershow> - 156
 
@@ -271,3 +279,8 @@ Fast networked note-taking
 
 - AppFlowy - Open-source alternative to Notion
 - <https://anytype.io/en>
+
+## Others
+
+- <https://dev.to/joeholmes/creating-a-diy-digital-garden-with-obsidian-and-gatsby-378e>
+- <https://foambubble.github.io/foam/user/recipes/recipes>

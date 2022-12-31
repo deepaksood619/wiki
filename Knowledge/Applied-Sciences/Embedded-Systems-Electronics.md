@@ -93,7 +93,7 @@ Bluetooth is a reasonable choice for interfacing between different types of hard
 
 There are also custom radio-based communication devices and protocols which work on the same frequencies as WiFi and Bluetooth (around 2.4 GHz), but with simpler protocols that are incompatible with the standard ones. They are usually cheaper than Bluetooth and simpler to implement.
 
-There are also transceivers operating at low frequencies such as 433 MHz. While they offer very low bitrates over short distances - up to 10 yards (~9 meters)---they are extremely cheap and easy to implement. If larger distances are required and a small bitrate is acceptable, which is often the case in IoT devices, solutions like LoRa, SigFox, and NB-IoT can be used.
+There are also transceivers operating at low frequencies such as 433 MHz. While they offer very low bitrates over short distances - up to 10 yards (~9 meters)-they are extremely cheap and easy to implement. If larger distances are required and a small bitrate is acceptable, which is often the case in IoT devices, solutions like LoRa, SigFox, and NB-IoT can be used.
 
 Finally, infrared communication over very short distances (a couple of yards) can also be an efficient choice.
 

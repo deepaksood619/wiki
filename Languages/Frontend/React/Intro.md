@@ -58,9 +58,7 @@ Components/views are snippets of code that produce html.
 package.json file is a list of the the dependencies that our application use.
 
 1. Exporting modules
-
 2. Classes
-
 3. State
 
 ## Advantages of React

@@ -558,7 +558,7 @@ A Joyful Face is always a Beautiful Face. -- Sadhguru
 
 Most topics are not worth having an opinion about.
 
-"The greatest enemy of a good plan is the dream of a perfect plan. Stick to the good plan."---John Bogle, founder of The Vanguard Group
+"The greatest enemy of a good plan is the dream of a perfect plan. Stick to the good plan."-John Bogle, founder of The Vanguard Group
 
 I know that I am intelligent, because I know that I know nothing -- Socrates
 

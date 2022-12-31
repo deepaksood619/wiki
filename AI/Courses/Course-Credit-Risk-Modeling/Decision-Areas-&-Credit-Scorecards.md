@@ -85,5 +85,5 @@ Technically, to determine the credit scorecard points, start out by selecting a 
 ![image](media/Course-Credit-Risk-Modeling_Decision-Areas-&-Credit-Scorecards-image4.png)
 
 - For the score range 245--250, the expected **marginal bad rate** is 1.2%. That is, 1.2% of applicants with a score between 245 and 250 will likely be "bad."
-- The **cumulative bad rate**---that is, the bad rate of all applicants above 245 - is 0.84%
+- The **cumulative bad rate** - that is, the bad rate of all applicants above 245 - is 0.84%
 - The **acceptance rate** at 245 is 17.44%, that is, 17.44% of all applicants score above 245

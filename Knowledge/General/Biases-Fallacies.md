@@ -251,7 +251,7 @@ Most people are terrible planners. In fact, people are so bad at planning that p
 
 Is the tendency, when evaluating the impact of a technology, to confine your attention to comparing the technical features of the new technology to what it replaced.
 
-For example:No one argues that it's better to send an email than a fax. But the modern knowledge worker now sends 125 business emails a day, which works out to one every 3.85 minutes ---more back-and-forth communication than what was common in the pre-email era. This new behavior is not "better" in any useful sense.
+For example:No one argues that it's better to send an email than a fax. But the modern knowledge worker now sends 125 business emails a day, which works out to one every 3.85 minutes - more back-and-forth communication than what was common in the pre-email era. This new behavior is not "better" in any useful sense.
 
 ## Predictably Irrational by Dan Ariely
 

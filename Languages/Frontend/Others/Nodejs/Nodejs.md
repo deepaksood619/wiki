@@ -6,7 +6,7 @@ Modified: 2022-01-08 14:12:42 +0500
 
 ---
 
-Node.jsis an [open-source](https://en.wikipedia.org/wiki/Open-source_software), [cross-platform](https://en.wikipedia.org/wiki/Cross-platform)[JavaScript](https://en.wikipedia.org/wiki/JavaScript)[run-time environment](https://en.wikipedia.org/wiki/Runtime_system) that executes JavaScript code outside of a browser. JavaScript is used primarily for [client-side scripting](https://en.wikipedia.org/wiki/Client-side_scripting), in which scripts written in JavaScript are embedded in a webpage's HTML and run client-side by a JavaScript engine in the user's web browser. Node.js lets developers use JavaScript to write command line tools and for [server-side scripting](https://en.wikipedia.org/wiki/Server-side_scripting)---running scripts server-side to produce [dynamic web page](https://en.wikipedia.org/wiki/Dynamic_web_page) contentbeforethe page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying [web application](https://en.wikipedia.org/wiki/Web_application) development around a single programming language, rather than different languages for server side and client side scripts.
+Node.js is an [open-source](https://en.wikipedia.org/wiki/Open-source_software), [cross-platform](https://en.wikipedia.org/wiki/Cross-platform)[JavaScript](https://en.wikipedia.org/wiki/JavaScript)[run-time environment](https://en.wikipedia.org/wiki/Runtime_system) that executes JavaScript code outside of a browser. JavaScript is used primarily for [client-side scripting](https://en.wikipedia.org/wiki/Client-side_scripting), in which scripts written in JavaScript are embedded in a webpage's HTML and run client-side by a JavaScript engine in the user's web browser. Node.js lets developers use JavaScript to write command line tools and for [server-side scripting](https://en.wikipedia.org/wiki/Server-side_scripting)-running scripts server-side to produce [dynamic web page](https://en.wikipedia.org/wiki/Dynamic_web_page) contentbeforethe page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying [web application](https://en.wikipedia.org/wiki/Web_application) development around a single programming language, rather than different languages for server side and client side scripts.
 
 Both your browser JavaScript and Node.js run on the V8 JavaScript runtime engine. This engine takes your JavaScript code and converts it into a faster machine code. Machine code is low-level code which the computer can run without needing to first interpret it.
 
@@ -49,6 +49,16 @@ PM2 is daemon process manager that will help you manage and keep your applicatio
 NPM is the default package manager for JavaScript development. It helps you find and install packages (programs) that you can use in your programs.
 
 You can add npm to a project simply by using the "npm init" command. When you run this command it creates a "package.json" file in the current directory. This is the file where your dependencies are listed, and npm views it as the ID card of the project.
+
+### package.json vs package-lock.json
+
+| **package.json** | **package.lock.json** |
+|---|---|
+| It contains basic information about the project. | It describes the exact tree that was generated to allow subsequent installs to have the identical tree. |
+| It is mandatory for every project. | It is automatically generated for those operations where npm modifies either node\_modules tree or package.json. |
+| It records important metadata about the project. | It allows future devs to install the same dependencies in the project. |
+| It contains information such as name, description, author, script, and dependencies. | It contains the name, dependencies, and locked version of the project. |
+
 
 ## References
 

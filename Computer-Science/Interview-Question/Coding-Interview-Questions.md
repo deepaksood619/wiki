@@ -267,7 +267,7 @@ get_max_profit(stock_prices)
 # Returns 6 (buying for $5 and selling for $11)
 ```
 
-No "shorting"---you need to buy before you can sell. Also, you can't buyandsell in the same time step - at least 1 minute has to pass.
+No "shorting" - you need to buy before you can sell. Also, you can't buyandsell in the same time step - at least 1 minute has to pass.
 
 #### Gotchas
 

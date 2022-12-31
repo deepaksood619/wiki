@@ -231,3 +231,5 @@ Monthly → Bank Model Monitoring
 Monthly → BB Collections
 
 Monthly → 90+ Recovery
+
+<https://www.youtube.com/playlist?list=PLhViQpMavSBgxcLV34bRrJY-rwHqeml2i>
