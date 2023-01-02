@@ -71,10 +71,10 @@ Many methods for concurrency control exist. Most of them can be implemented with
 2. **Serialization [graph checking](https://en.wikipedia.org/wiki/Serializability#Testing_conflict_serializability)**(also called Serializability, or Conflict, or Precedence graph checking)
 
 Checking for [cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory)) in the schedule's [graph](https://en.wikipedia.org/wiki/Directed_graph) and breaking them by aborts.
-3.  **[Timestamp ordering](https://en.wikipedia.org/wiki/Timestamp-based_concurrency_control)(TO)**
+3. **[Timestamp ordering](https://en.wikipedia.org/wiki/Timestamp-based_concurrency_control)(TO)**
     -  Assigning timestamps to transactions, and controlling or checking access to data by timestamp order.
     -  **Assume that conflicts are rare so transactions do not need to first acquire locks on database objects and instead check for conflicts at commit time.**
-4.  **[Commitment ordering](https://en.wikipedia.org/wiki/Commitment_ordering)(or Commit ordering; CO)**
+4. **[Commitment ordering](https://en.wikipedia.org/wiki/Commitment_ordering)(or Commit ordering; CO)**
 
 Controlling or checking transactions' chronological order of commit events to be compatible with their respective [precedence order](https://en.wikipedia.org/wiki/Serializability#Testing_conflict_serializability).
 Other major concurrency control types that are utilized in conjunction with the methods above include:
@@ -112,7 +112,7 @@ The protocol puts transactions through three phases during its execution:
 1. **Read Phase**
 
 Transaction's copy tuples accessed to private work space to ensure repeatable reads, and keep track of read/write sets.
-2.  **Validation Phase**
+2. **Validation Phase**
 
 When the transaction invokes COMMIT, the DBMS checks if it conflicts with other transactions. Parallel validation means that each transaction must check the read/write set of other transactions that are trying to validate at the same time. Each transaction has to acquire locks for its write set records in some global order. Original OCC uses serial validation.
 The DBMS can proceed with the validation in two directions:

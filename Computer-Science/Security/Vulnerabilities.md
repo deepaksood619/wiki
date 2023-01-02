@@ -156,7 +156,7 @@ The threats are:
 2. **PASTA**
 
 Process for Attack Simulation and Threat Analysis (PASTA) is a seven-step, risk-centric methodology.
-3.  **Trike
+3. **Trike
     **
 
 <https://www.wikiwand.com/en/Threat_model>-  [Transaction Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html)

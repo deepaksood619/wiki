@@ -9,11 +9,8 @@ Modified: 2020-12-14 23:50:05 +0500
 1. ACID (SQL)
 
    - A - Atomic, Everything in a transaction succeeds or the entire transaction is rolled back
-
    - C - Consistent - A transtion cannot leave the database in an inconsistent state.
-
    - I - Isolated - Transaction cannot interfere with each other
-
    - D - Durable - Completed Transaction persist, even when the server restarts.
 
 2. BASE - Basically Available, Soft-state Eventual consistency (NoSQL)
@@ -24,11 +21,17 @@ In partitioned databases, trading some consistency for availability can lead to 
 
 ## BASE in terms of NoSQL Databases
 
-## Basic Availability. The NoSQL database approach focuses on the availability of data even in the presence of multiple failures. It achieves this by using a highly distributed approach to database management. Instead of maintaining a single large data store and focusing on the fault tolerance of that store, NoSQL databases spread data across many storage systems with a high degree of replication. In the unlikely event that a failure disrupts access to a segment of data, this does not necessarily result in a complete database outage
+### Basic Availability
 
-## Soft State. BASE databases abandon the consistency requirements of the ACID model pretty much completely. One of the basic concepts behind BASE is that data consistency is the developer's problem and should not be handled by the database
+The NoSQL database approach focuses on the availability of data even in the presence of multiple failures. It achieves this by using a highly distributed approach to database management. Instead of maintaining a single large data store and focusing on the fault tolerance of that store, NoSQL databases spread data across many storage systems with a high degree of replication. In the unlikely event that a failure disrupts access to a segment of data, this does not necessarily result in a complete database outage
 
-## Eventual Consistency. The only requirement that NoSQL databases have regarding consistency is to require that at some point in the future, data will converge to a consistent state. No guarantees are made, however, about when this will occur. That is a complete departure from the immediate consistency requirement of ACID that prohibits a transaction from executing until the prior transaction has completed and the database has converged to a consistent state
+### Soft State
+
+BASE databases abandon the consistency requirements of the ACID model pretty much completely. One of the basic concepts behind BASE is that data consistency is the developer's problem and should not be handled by the database
+
+### Eventual Consistency
+
+The only requirement that NoSQL databases have regarding consistency is to require that at some point in the future, data will converge to a consistent state. No guarantees are made, however, about when this will occur. That is a complete departure from the immediate consistency requirement of ACID that prohibits a transaction from executing until the prior transaction has completed and the database has converged to a consistent state
 
 ## References
 

@@ -78,8 +78,8 @@ A common optimization (so common in fact, that it is almost to be considered a p
 
 ![image](media/Hashing-Techniques-image5.png)
 <https://programming.guide/coalesced-hashing.html>
-4.  **Robin hood hashing**
-5.  **Cuckoo Hashing**
+4. **Robin hood hashing**
+5. **Cuckoo Hashing**
 
 Cuckoo Hashing is a technique for implementing a hash table. As opposed to most other hash tables, it achieves**constant time worst-case complexity for lookups**.
 Collisions are handled by evicting existing keys and moving them from one array to the other. This resembles the way a cuckoo chick [pushes out an egg from the nest](https://www.youtube.com/watch?v=SO1WccH2_YM) to make room for itself, hence the name Cuckoo Hashing.

@@ -452,7 +452,7 @@ find . -type f -mtime +30 -exec -f {} \;
 find ./ ! -name 'config.yaml' -type f -exec sed -i "s~${ecr_name}.*$~${ecr_name}\\/${app_name}\\/${env_name}:${app_name}-${env_name}-${timestamp}-${build_no}~" {} \;
 
 find -E . -regex '.*hello[^/]*' -type f
-find AI -regex '.*/[^a-zA-Z].*' 
+find AI -regex '.*/[^a-zA-Z].*'
 find . -regex '.*/[^a-zA-Z0-9.].*' -not -path "*/node_modules/*"
 
 # rename file, replace - with -

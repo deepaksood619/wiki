@@ -50,7 +50,7 @@ Modified: 2021-03-27 01:05:55 +0500
 ![image](media/Essence-of-Calculus-3Blue1Brown-image9.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image10.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image11.png)
-3.  **Derivative formulas through geometry**
+3. **Derivative formulas through geometry**
     -  **The Power Rule**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image12.png)
@@ -59,24 +59,24 @@ Modified: 2021-03-27 01:05:55 +0500
 ![image](media/Essence-of-Calculus-3Blue1Brown-image15.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image16.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image17.png)
-4.  **Visualizing the chain rule and product rule**
+4. **Visualizing the chain rule and product rule**
 
-    1.  **Sum Rule**
+    1. **Sum Rule**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image18.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image19.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image20.png)
-2.  **Product Rule**
+2. **Product Rule**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image21.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image22.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image23.png)
-3.  **Function composition / Chain Rule**
+3. **Function composition / Chain Rule**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image24.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image25.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image26.png)
-5.  **Derivatives of exponentials**
+5. **Derivatives of exponentials**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image27.png)
 For smaller and smaller choices of dt value 2^0.000001^ -1 / 0.000001 approaches a specific number. Unlike other functions all the values of dt is separate from the value of t itself
@@ -91,7 +91,7 @@ For smaller and smaller choices of dt value 2^0.000001^ -1 / 0.000001 approaches
 ![image](media/Essence-of-Calculus-3Blue1Brown-image35.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image36.png)
 We write some contant times t, as e to some constants time t, because rate of change of some thing (like population) is dependent on the size of that thing (i.e. the size of population). Other example, if we put a cup of water in a cool room, the rate at which water cools is proportional to difference in temperature of room and water, or otherwise **the rate at which that difference changes is proportional to itself.** If we invest our money the amount of interest depends on the amount of money invested.
-6.  **Implicit differentiation, what going on here?**
+6. **Implicit differentiation, what going on here?**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image37.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image38.png)
@@ -99,7 +99,7 @@ We write some contant times t, as e to some constants time t, because rate of ch
 ![image](media/Essence-of-Calculus-3Blue1Brown-image40.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image41.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image42.png)-  Multivariate Calculus
-7.  **Limits**
+7. **Limits**
     -  **Formal definition of a derivative**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image43.png)
@@ -117,7 +117,7 @@ We write some contant times t, as e to some constants time t, because rate of ch
 ![image](media/Essence-of-Calculus-3Blue1Brown-image51.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image52.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image53.png)
-8.  **Integration and the fundamental theorem of calculus**
+8. **Integration and the fundamental theorem of calculus**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image54.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image55.png)
@@ -126,7 +126,7 @@ We write some contant times t, as e to some constants time t, because rate of ch
 ![image](media/Essence-of-Calculus-3Blue1Brown-image58.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image59.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image60.png)
-9.  **What does area have to do with slope?**
+9. **What does area have to do with slope?**
 
 ![image](media/Essence-of-Calculus-3Blue1Brown-image61.png)
 ![image](media/Essence-of-Calculus-3Blue1Brown-image62.png)

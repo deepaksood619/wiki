@@ -166,7 +166,6 @@ npm run develop
 gatsby new document-site https://github.com/codebushi/gatsby-theme-document-example
 cd document-site
 npm install --force
-npm outdated
 gatsby develop
 ```
 

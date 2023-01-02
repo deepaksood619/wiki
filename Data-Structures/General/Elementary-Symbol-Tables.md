@@ -45,7 +45,7 @@ Key type:
 
 ## Implementation
 
-- Using Linked List (Unordered)b.  Using Ordered Array
+- Using Linked List (Unordered)b. Using Ordered Array
 
 - Using Binary Search
 
@@ -113,7 +113,7 @@ Solution: Key = query string; value = set of files containing that string
 - Concordance (with the search result give context of the word, like few texts before the search word and few texts after)
 
 Goal: Preprocess a text corpus to support concordance queries: given a word, find all occurrences with their immediate contexts.
-4.  **Sparse Vectors**
+4. **Sparse Vectors**
 
 Sparse Matrix-vector multiplication
 

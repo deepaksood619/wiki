@@ -190,6 +190,7 @@ brew services cleanup
 - rename
 
 - <https://fig.io>
+
 ```bash
 brew install --cask fig
 # <https://github.com/withfig/autocomplete>

@@ -82,12 +82,12 @@ The write-around policy is good for applications that don't frequently re-read r
 
 A HTTP Cache is mostly used in browsers. This kind of cache keeps information about the last modification date of a resource or a content hash to identify changes to its content. Web servers are expected to deliver useful information about the state of an element to prevent retrieval of an already cached element from the server.
 This kind of cache is used to reduce network traffic, minimize cost and offer the user an instant experience for multiple visits.
-2.  **Fragment Cache**
+2. **Fragment Cache**
 
 A Fragment Cache caches parts of a response or result. This could be a database query outcome or a part of an HTML page. Whatever it is, it should not change often.
 A common use case for a Fragment Cache is a web page known to contain user specific and user unspecific content. The user-independent content can be cached as a fragment and augmented with user specific content on retrieval. This process is called **Content Enrichment.**
 This caching type is used to reduce operation cost and hardware by providing the same throughput with less computational overhead.
-3.  **Object Cache**
+3. **Object Cache**
 
 An Object Cache stores any sort of objects that otherwise need to be read from other data representations. A cache of this type can be used in front of a database to speed up queries and store the resulting objects (e.g. Object Relational Mapping, ORM), or store un-marshalled results of XML, JSON or other general data representations transformed into objects.
 These caches often act as a proxy between some external resource, like a database or webservice, and they speed up transformation processes or prevent additional network round-trips between the consumer and producer systems.

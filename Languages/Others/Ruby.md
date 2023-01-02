@@ -80,7 +80,7 @@ attr_accessor :names
   def initialize(names = "World")
     @names = names
   end
-		# Say hi to everybody
+  # Say hi to everybody
   def say_hi
     if @names.nil?
       puts "..."
@@ -93,7 +93,7 @@ attr_accessor :names
       puts "Hello #{@names}!"
     end
   end
-		# Say bye to everybody
+  # Say bye to everybody
   def say_bye
     if @names.nil?
       puts "..."
@@ -110,21 +110,21 @@ if __FILE__ == $0
   mg = MegaGreeter.new
   mg.say_hi
   mg.say_bye
-		# Change name to be "Zeke"
+  # Change name to be "Zeke"
   mg.names = "Zeke"
   mg.say_hi
   mg.say_bye
-		# Change the name to an array of names
+  # Change the name to an array of names
   mg.names = ["Albert", "Brenda", "Charles",
               "Dave", "Engelbert"]
   mg.say_hi
   mg.say_bye
-		# Change to nil
+  # Change to nil
   mg.names = nil
   mg.say_hi
   mg.say_bye
 end
-		
+
 # Run - ruby test.rb
 ```
 

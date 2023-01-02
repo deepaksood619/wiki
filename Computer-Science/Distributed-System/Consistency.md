@@ -54,10 +54,10 @@ One special case for eventual consistency is when you have your data distributed
 If we are able to add a synchronized timestamp or counter to all of our updates, the last update always wins the conflict.
 
 A last write wins (or all other writes lose) strategy is one way to converge on a single version for all copies of a value in a distributed system. But what are you losing by dropping those other versions? Ignoring clock skew for a moment, you can't even be sure the last write saw earlier writes from other clients. This is data loss.
-2.  **Semantic Resolution**
+2. **Semantic Resolution**
 
 Another strategy is storing multiple versions of the datum and using semantic resolution. Use the semantics of the domain to define a path to a single value. An example being union operation that takes two divergent copies of a value and creates a single consistent version. But this passes the pain to the developer to build ad-hoc resolution strategies for the use case at hand.
-3.  **CRDTs**
+3. **CRDTs**
 
 What if someone built a series of reusable data types for you? Convergent Replicated Data Types are those data types, and offer a principled approach to eventually consistent data modelling. Some very cool maths ensures these defined data types always converge to a single correct value.
 

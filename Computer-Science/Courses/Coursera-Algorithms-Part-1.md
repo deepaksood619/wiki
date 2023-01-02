@@ -143,19 +143,12 @@ Collinear Points
 ## Elementary Symbol Tables
 
 1. Symbol Table API
-
 2. Elementary Implementations
-
-Sorted array (Binary Search)
-
-Unordered List (Sequential Search)
-
+   - Sorted array (Binary Search)
+   - Unordered List (Sequential Search)
 3. Ordered Operations
-
 4. Binary Search Trees
-
 5. Ordered Operations in BSTs
-
 6. Deletion in BSTs
 
 ## Week - 5
@@ -163,9 +156,7 @@ Unordered List (Sequential Search)
 ## Balanced Search Trees
 
 1. 2-3 Search Trees
-
 2. Red-Black BSTs
-
 3. B-Trees
 
 ## Geometric Application of BSTs
@@ -189,23 +180,16 @@ Kd-Trees
 ## Hash Tables
 
 1. Hash Tables
-
-Uniform Hashing Assumption
-
+   - Uniform Hashing Assumption
 2. Separate Chaining
-
 3. Linear Probing
-
 4. Hash Table Context
 
 ## Symbol Table Applications
 
 1. Sets
-
 2. Dictionary Clients
-
 3. Indexing Clients
-
 4. Sparse Vectors
 
 # Interview Questions
@@ -249,14 +233,14 @@ design a data type so that all operations (except construction) take logarithmic
 
 1. **Intersection of two sets.**Given two arrays𝚊[]and𝚋[], each containingndistinct 2D points in the plane, design a subquadratic algorithm to count the number of points that are contained both in array𝚊[]and array𝚋[].
 
-2. **Permutation.**Given two integer arrays of sizen, design a subquadratic algorithm to determine whether one is a permutation of the other. That is, do they contain exactly the same entries but, possibly, in a different order.3.  **Dutch national flag (3-way partitioning).**Given an array ofnbuckets, each containing a red, white, or blue pebble, sort them by color. The allowed operations are:
+2. **Permutation.**Given two integer arrays of sizen, design a subquadratic algorithm to determine whether one is a permutation of the other. That is, do they contain exactly the same entries but, possibly, in a different order.3. **Dutch national flag (3-way partitioning).**Given an array ofnbuckets, each containing a red, white, or blue pebble, sort them by color. The allowed operations are:
     - **swap(i,j): swap the pebble in bucketiwith the pebble in bucketj.**
     - **color(i): determine the color of the pebble in bucketi.**
 
 The performance requirements are as follows:
 
-- At mostncalls tocolor().
-- At mostncalls toswap().
+- At most n calls tocolor().
+- At most n calls toswap().
 - Constant extra space.
 
 ## 3.1 Merge Sort
@@ -280,11 +264,11 @@ Solution -
 Suppose we choose a nut and partition all bolts in {1...n}, by comparing with this nut, into three intervals : {1...i-1}, {i}, {i+1, n} such that each bolt in {1, i-1} is smaller, bolt i matches and each bolt in {i+1, n} is larger than the chosen nut. This procedure is similar to the partition procedure used in quicksort and can be implemented in O(n). Now, we can use the matching bolt to partition all nuts in three intervals in a similar manner so that the nut i and bolt i match. We have reduced the problem of finding matchings in the interval {1...n} into two smaller subproblems: finding matchings in the intervals {1...i-1} and {i+1...n}.
 
 If at each step, we choose the nut (to partition the bolts) randomly, we will get similar performance guarantees as quicksort i.e., randomized**O(n log n)**time.
-2.  **Selection in two sorted arrays.**Given two sorted arraysa[]andb[], of sizesn1andn2, respectively, design an algorithm to find thekthlargest key. The order of growth of the worst case running time of your algorithm should belogn, wheren=n1+n2.
+2. **Selection in two sorted arrays.**Given two sorted arraysa[]andb[], of sizesn1andn2, respectively, design an algorithm to find thekthlargest key. The order of growth of the worst case running time of your algorithm should belogn, wheren=n1+n2.
     -  **Version 1:n1=n2andk=n/2**
     -  **Version 2:k=n/2**
     -  **Version 3: no restrictions**
-3.  **Decimal dominants.**Given an array withnkeys, design an algorithm to find all values that occur more thann/10times. The expected running time of your algorithm should be linear.
+3. **Decimal dominants.**Given an array withnkeys, design an algorithm to find all values that occur more thann/10times. The expected running time of your algorithm should be linear.
 
 ## 4.1. Priority Queues
 

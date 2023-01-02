@@ -131,7 +131,7 @@ This is the default content type. Forms submitted with this content type must be
 
 1. Control names and values are escaped. Space characters are replaced by`+', and then reserved characters are escaped as described in [[RFC1738]](https://www.w3.org/TR/html401/references.html#ref-RFC1738), section 2.2: Non-alphanumeric characters are replaced by`%HH', a percent sign and two hexadecimal digits representing the ASCII code of the character. Line breaks are represented as "CR LF" pairs (i.e.,`%0D%0A').
 
-2. The control names/values are listed in the order they appear in the document. The name is separated from the value by`='and name/value pairs are separated from each other by`&'.2.  **multipart/form-data**
+2. The control names/values are listed in the order they appear in the document. The name is separated from the value by`='and name/value pairs are separated from each other by`&'.2. **multipart/form-data**
 
 The content type "application/x-www-form-urlencoded" is inefficient for sending large quantities of binary data or text containing non-ASCII characters. The content type "multipart/form-data" should be used for submitting forms that contain files, non-ASCII data, and binary data.-  If you want to send simple text/ ASCII data, thenx-www-form-urlencodedwill work. This is the default.
 

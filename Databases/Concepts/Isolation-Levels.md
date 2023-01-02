@@ -59,15 +59,15 @@ The isolation levels defined by the [ANSI](https://en.wikipedia.org/wiki/America
 This is the *highest*isolation level.
 With a lock-based [concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) DBMS implementation, [serializability](https://en.wikipedia.org/wiki/Serializability) requires read and write locks (acquired on selected data) to be released at the end of the transaction. Alsorange-locks must be acquired when a [SELECT](https://en.wikipedia.org/wiki/Select_(SQL)) query uses a rangedWHEREclause, especially to avoid the [phantom reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Phantom_reads) phenomenon.
 When using non-lock based concurrency control, no locks are acquired; however, if the system detects awrite collisionamong several concurrent transactions, only one of them is allowed to commit. See [snapshot isolation](https://en.wikipedia.org/wiki/Snapshot_isolation) for more details on this topic.
-2.  **Repeatable reads**
+2. **Repeatable reads**
 
 In this isolation level, a lock-based [concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) DBMS implementation keeps read and write locks (acquired on selected data) until the end of the transaction. However, range-locksare not managed, so [phantom reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Phantom_reads) can occur.
 Write skew is possible at this isolation level, a phenomenon where two writes are allowed to the same column(s) in a table by two different writers (who have previously read the columns they are updating), resulting in the column having data that is a mix of the two transactions
-3.  **Read committed**
+3. **Read committed**
 
 In this isolation level, a lock-based [concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) DBMS implementation keeps write locks (acquired on selected data) until the end of the transaction, but read locks are released as soon as the [SELECT](https://en.wikipedia.org/wiki/Select_(SQL)) operation is performed (so the [non-repeatable reads phenomenon](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Non-repeatable_reads) can occur in this isolation level). As in the previous level, range-locksare not managed.
 Putting it in simpler words, **read committed is an isolation level that guarantees that any data read is committed at the moment it is read**. It simply restricts the reader from seeing any intermediate, uncommitted, 'dirty' read. It makes no promise whatsoever that if the transaction re-issues the read, it will find the same data; data is free to change after it is read.
-4.  **Read uncommitted**
+4. **Read uncommitted**
 
 This is the *lowest*isolation level. In this level, [dirty reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Dirty_reads) are allowed, so one transaction may see*not-yet-committed*changes made by other transactions.
 

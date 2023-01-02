@@ -34,7 +34,7 @@ There are 6 file types in Unix systems -
 
 This is the most common type of a file in Unix. Being a plain collection of bytes with arbitrary data. There's nothing mysterious about this type. Most of the files you will ever work with are regular.
 In long-format output of ls, this type of file is specified by the "-" symbol.
-2.  **Directory**
+2. **Directory**
 
 This is a special type of a file in Unix, which only contains a list of other files (the contents of a directory). You don't work with directories directly, instead you manage them with standard commands provided with your OS. The whole directory structure of your Unix system is made of such special files with directory content in each of them.
 In long-format output of ls, this type of file is specified by the "d" symbol:
@@ -42,7 +42,7 @@ In long-format output of ls, this type of file is specified by the "d" symbol:
 $ ls -ld *
 -rw-r--r-- 1 greys greys1024 Mar 29 06:31 text
 drwxr-xr-x 2 greys greys4096 Aug 21 11:00 mydir
-3.  **Special Device file**
+3. **Special Device file**
 
 This type of files in Unix allows access to various devices known to your system. Literally, almost every device has a special file associated with it. This simplifies the way Unix interacts with different devices -- to the OS and most commands each device is still a file, so it can be read from and written to using various commands. Most special device files are owned by root, and regular users cannot create them,
 
@@ -56,21 +56,21 @@ Here's how the different types of special device files look in your ls output:
 $ ls -al /dev/loop0 /dev/ttys0
 brw-rw---- 1 root disk 7, 0 Sep 7 05:03 /dev/loop0
 crw-rw-rw- 1 root tty 3, 48 Sep 7 05:04 /dev/ttys0
-4.  **Named Pipe**
+4. **Named Pipe**
 
 Pipes represent one of simpler forms of Unix interprocess communication. Their purpose is to connect I/O of two Unix processes accessing the pipe. One of the processes uses this pipe for output of data, while another process uses the very same named pipe file for input.
 In long-format output of ls, named pipes are marked by the "p" symbol:
 
 $ ls -al /dev/xconsole
 prw-r----- 1 root adm 0 Sep 25 08:58 /dev/xconsole
-5.  **Symbolic Link**
+5. **Symbolic Link**
 
 This is yet another file type in Unix, used for referencing some other file of the filesystem. Symbolic link contains a text form of the path to the file it references. To an end user, symlink (sort for symbolic link) will appear to have its own name, but when you try reading or writing data to this file, it will instead reference these operations to the file it points to.
 In long-format output of ls, symlinks are marked by the "l" symbol (that's a lower case L). It also show the path to the referenced file:
 
 $ ls -al hosts
 lrwxrwxrwx 1 greys www-data 10 Sep 25 09:06 hosts -> /etc/hosts
-6.  **Socket**
+6. **Socket**
 
 AUnix socket(sometimes also calledIPC socket --inter-process communication socket) is a special file which allows for advanced inter-process communication. In essence, it is a stream of data, very similar to network stream (and network sockets), but all the transactions are local to the filesystem.
 In long-format output of ls, Unix sockets are marked by "s" symbol:

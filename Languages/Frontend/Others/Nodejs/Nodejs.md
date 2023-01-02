@@ -59,7 +59,6 @@ You can add npm to a project simply by using the "npm init" command. When you ru
 | It records important metadata about the project. | It allows future devs to install the same dependencies in the project. |
 | It contains information such as name, description, author, script, and dependencies. | It contains the name, dependencies, and locked version of the project. |
 
-
 ## References
 
 <https://en.wikipedia.org/wiki/Node.js>

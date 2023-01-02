@@ -11,7 +11,7 @@ The **cast** term here signifies some data(stream of packets) is being transmitt
 1. **Unicast**
 
 This type of information transfer is useful when there is a participation of single sender and single recipient. So, in short you can term it as a one-to-one transmission. For example, a device having IP address 10.1.2.0 in a network wants to send the traffic stream(data packets) to the device with IP address 20.12.4.2 in the other network, then unicast comes into picture. This is the most common form of data transfer over the networks.
-2.  **Broadcast**
+2. **Broadcast**
 
 Broadcasting transfer (one-to-all) techniques can be classified into two types :
 
@@ -38,7 +38,7 @@ In multicasting, one/more senders and one/more recipients participate in data tr
 
 Anycastis a network [addressing](https://en.wikipedia.org/wiki/Addressing) and [routing](https://en.wikipedia.org/wiki/Routing) methodology in which a single destination address has multiple routing paths to two or more endpoint destinations. Routers will select the desired path on the basis of number of hops, distance, lowest cost, latency measurements or based on the least congested route. Anycast networks are widely used for [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network)(CDN) products to bring their content closer to the end user.
 <https://en.wikipedia.org/wiki/Anycast>
-5.  **Geocast**
+5. **Geocast**
 
 Refers to the delivery of information to a group of destinations in a network identified by their geographical locations. It is a specialized form of multicast addressing used by some routing protocols for mobile ad hoc networks.![image](media/Addressing-Methods-cast-protocols-image4.png)
 

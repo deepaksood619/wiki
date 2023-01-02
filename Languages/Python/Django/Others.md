@@ -162,7 +162,7 @@ from django.db.models.functions import Coalesce
 class AuthorManager(models.Manager):
     def get_queryset(self):
         return AuthorQuerySet(self.model, using=self._db)
-    
+
     def annotate_with_copies_sold(self):
         return self.get_queryset().annotate_with_copies_sold()
 

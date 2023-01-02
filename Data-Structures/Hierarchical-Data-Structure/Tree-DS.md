@@ -8,7 +8,7 @@ Modified: 2021-06-11 22:06:50 +0500
 
 1. A Tree with N vertices has N-1 Edges
 
-2. For a tree withnvertices andn -- 1edges, sum of all degrees should be2 * (n -- 1).3.  ***In a k-ary tree where every node has either 0 or k children, following property is always true.***
+2. For a tree withnvertices andn -- 1edges, sum of all degrees should be2 * (n -- 1).3. ***In a k-ary tree where every node has either 0 or k children, following property is always true.***
 
 L = (k - 1)*I + 1
 Where L = Number of leaf nodes

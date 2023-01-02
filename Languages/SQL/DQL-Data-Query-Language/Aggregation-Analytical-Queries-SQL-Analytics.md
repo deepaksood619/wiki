@@ -167,7 +167,7 @@ GROUP BY cl.id
 -- average temperature by hour and month
 -- output hours in rows and months in columns
 -- transform row as column using CASE
-SELECT 
+SELECT
     DAY(exam_date),
     AVG(marks),
     round(AVG(CASE WHEN MONTH(exam_date) = 1 THEN marks ELSE 0 END),2) jan,
@@ -187,12 +187,12 @@ FROM
 GROUP BY MONTH(exam_date) , DAY(exam_date);
 
 -- count vowels in names in a table
-select d_name, sum( 
-    if (d_name like '%a%', 1, 0) 
-    + if( d_name like '%e%', 1, 0) 
-    + if( d_name like '%i%', 1, 0) 
-    + if( d_name like '%o%', 1, 0) 
-    + if( d_name like '%u%', 1, 0) 
+select d_name, sum(
+    if (d_name like '%a%', 1, 0)
+    + if( d_name like '%e%', 1, 0)
+    + if( d_name like '%i%', 1, 0)
+    + if( d_name like '%o%', 1, 0)
+    + if( d_name like '%u%', 1, 0)
 ) as vowel_count from (select distinct name as d_name
-from demo_table) a group by a.d_name; 
+from demo_table) a group by a.d_name;
 ```

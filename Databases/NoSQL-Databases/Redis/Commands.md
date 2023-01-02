@@ -25,7 +25,7 @@ redis:
     restart: "no"
     image: bitnami/redis:5.0.8
     container_name: redis
-    env_file: 
+    env_file:
         - decision_engine.env
     ports:
         - 6379:6379
@@ -61,15 +61,15 @@ redis:
 ```bash
 redis-cli ping
 
-# staging decision-engine 
+# staging decision-engine
 redis-cli -h localhost -p 6379 -a 'a6ad92769ef04b711eea18dccfff85ea' ping
 
 redis-cli -h redis -p 6379 -a a6ad92769ef04b711eea18dccfff85ea ping
 redis-cli -h redis-dashboard -p 6379 -a a6ad92769ef04b711eea18dccfff85ea
 
-# decision engine 
+# decision engine
 redis-cli -h localhost -p 6379 -a a6ad92769ef04b711eea18dccfff85ea
-# streams 
+# streams
 redis-cli -h localhost -p 6379 -a y2Tb8FaxGyk6qm1s
 
 # find out all keys with no ttl set
@@ -96,7 +96,7 @@ https://www.oreilly.com/library/view/redis-4x-cookbook/9781783988167/64284aa9-a3
 # -n for setting database
 redis-cli -h redis-dashboard -p 6379 -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -n 1
 
-redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379.  FLUSHALL
+redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 
 >>> redis-cli
 >>> subscribe <channel_name>

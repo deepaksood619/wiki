@@ -15,7 +15,7 @@ Structured data is data whose elements are addressable for effective analysis. I
 
 2. **Semi-Structured data**
 
-Semi-structured data is information that does not reside in a relational database but that have some organizational properties that make it easier to analyze. With some process, you can store them in the relation database (it could be very hard for some kind of semi-structured data), but Semi-structured exist to ease space.Example: XML data.3.  **Unstructured data**
+Semi-structured data is information that does not reside in a relational database but that have some organizational properties that make it easier to analyze. With some process, you can store them in the relation database (it could be very hard for some kind of semi-structured data), but Semi-structured exist to ease space.Example: XML data.3. **Unstructured data**
 
 Unstructured data is a data which is not organized in a predefined manner or does not have a predefined data model, thus it is not a good fit for a mainstream relational database. So for Unstructured data, there are alternative platforms for storing and managing, it is increasingly prevalent in IT systems and is used by organizations in a variety of business intelligence and analytics applications.Example: Word, PDF, Text, Media logs.**Differences between Structured, Semi-structured and Unstructured data**
 

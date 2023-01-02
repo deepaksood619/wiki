@@ -90,7 +90,7 @@ Linwood_Cole\' OR 1=1;#
 ![image](media/Attacks-image4.jpeg)
 
 ![image](media/Attacks-image5.jpeg)
-6.  **Time-based Blind SQLi**
+6. **Time-based Blind SQLi**
     -  **Time-based SQLi is a blind SQLi technique that relies on the database pausing for a specified amount of time, then returning the results, indicating a successful SQL query execution**
     -  **Example Query**
 

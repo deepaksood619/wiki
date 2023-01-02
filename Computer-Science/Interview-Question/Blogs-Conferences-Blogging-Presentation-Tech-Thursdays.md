@@ -72,7 +72,7 @@ Curious vs Non-curious headlines
 
 8. API Gateway
 
-   - Kong9.  **Deploy everything**
+   - Kong9. **Deploy everything**
 
 ## Brokers
 

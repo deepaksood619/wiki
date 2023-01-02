@@ -18,7 +18,7 @@ A random variable has a [probability distribution](https://en.wikipedia.org/wiki
 
 3. Transforming random variables
 
-4. Combining random variables5.  **Binomial random variables**
+4. Combining random variables5. **Binomial random variables**
 
 Binomial mean and standard deviation formulas
 

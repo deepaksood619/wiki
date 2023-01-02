@@ -117,10 +117,10 @@ These are allocated toserver servicesby theInternet Assigned Numbers Authority(I
 </tr>
 </tbody>
 </table>
-2.  **Registered Ports (1024-49151)**
+2. **Registered Ports (1024-49151)**
 
 These can be registered for services with theIANAand should be treated assemi-reserved.User written programs should not use these ports.
-3.  **Ephermeral Ports (49152-65535)**
+3. **Ephermeral Ports (49152-65535)**
 
 These are used byclient programsand you are free to use these in client programs. When a Web browser connects to a web server the browser will allocate itself a port in this range. Also known asephemeral ports.
 <https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers>

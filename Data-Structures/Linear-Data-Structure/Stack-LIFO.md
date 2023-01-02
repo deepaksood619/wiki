@@ -15,7 +15,7 @@ Stack is an abstract data type with a bounded(predefined) capacity. It is a simp
 
 1. Stack is an ordered list of similar data type.
 
-2. Stack is a**LIFO** structure. (Last in First out).3.  **push()**function is used to insert new elements into the Stack and**pop()**function is used to delete an element from the stack. Both insertion and deletion are allowed at only one end of Stack called **Top**.4. Stack is said to be in **Overflow** state when it is completely full and is said to be in **Underflow** state if it is completely empty.
+2. Stack is a**LIFO** structure. (Last in First out).3. **push()**function is used to insert new elements into the Stack and**pop()**function is used to delete an element from the stack. Both insertion and deletion are allowed at only one end of Stack called **Top**.4. Stack is said to be in **Overflow** state when it is completely full and is said to be in **Underflow** state if it is completely empty.
 
 5. Loitering (don't keep the reference of the object when an element is popped)
 
@@ -79,7 +79,7 @@ When an array fills up, create a new array twice the size of the previous array 
 2. Thrashing
 
 If the client happens to do push-pop-push-pop alternating when the array is full, then it's going to be doubling, halving, doubling, halving, doubling, halving. Creating new arrays on every operation. Take time proportional to N for every operation, and therefore quadratic time for everything.
-2.  **Array Implementation (With resizing array)**
+2. **Array Implementation (With resizing array)**
 
 - Push: Double the size of array when array is full (Repeated doubling)
 

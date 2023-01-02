@@ -43,7 +43,7 @@ In [real-time](https://en.wikipedia.org/wiki/Real-time_computing) environments, 
 1. **Process schedulers**
 
 The process scheduler is a part of the operating system that decides which process runs at a certain point in time. It usually has the ability to pause a running process, move it to the back of the running queue and start a new process; such a scheduler is known as*[preemptive](https://en.wikipedia.org/wiki/Preemption_(computing)) scheduler*, otherwise it is a*[cooperative](https://en.wikipedia.org/wiki/Nonpreemptive_multitasking) scheduler*
-2.  **Network schedulers**
+2. **Network schedulers**
 
 3. **I/O schedulers**
 

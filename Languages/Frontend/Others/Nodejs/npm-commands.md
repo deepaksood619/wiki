@@ -24,22 +24,29 @@ npm i jsonwebtoken dotenv
 
 ## Run server
 
-`node .`
+```bash
+node .
 
-## Compile all ES6 and babel packages and run server
+# Compile all ES6 and babel packages and run server
+npm start (from the project root directory)
 
-`npm start (from the project root directory)`
-
-## To install and save to package json file from npm
-
-`npm install --save youtube-api-search`
+# To install and save to package json file from npm
+npm install --save youtube-api-search
+```
 
 ## Others
 
+### Updating packages
+
 ```bash
 npm outdated
-npm update
-npm update "react" "react-dom"
+npm update # to update all the packages
+npm update "react" "react-dom" # to update specific packages
+
+npm i -g npm-check-updates
+ncu -u
+npm install
+ncu --interactive --format group
 ```
 
 ## Packages

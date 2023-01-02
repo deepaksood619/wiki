@@ -81,7 +81,7 @@ It was designed to be a reference model for describing the functions of a commun
 </tr>
 </tbody>
 </table>
-1.  **Physical Layer (Layer 1)**
+1. **Physical Layer (Layer 1)**
 
 The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form ofbits. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.
 
@@ -128,7 +128,7 @@ The functions of the data Link layer are :
 ** Data Link layer is handled by the NIC (Network Interface Card) and device drivers of host machines.
 
 *** Switch & Bridge are Data Link Layer devices.
-3.  **Network Layer (Layer 3)**
+3. **Network Layer (Layer 3)**
 
 Network layer works for the transmission of data from one host to the other located in different networks. It also takes care of packet routing i.e. selection of shortest path to transmit the packet, from the number of routes available. **The sender & receiver's IP address are placed in the header by network layer.**
 
@@ -178,7 +178,7 @@ The services provided by transport layer :
 ** Transport layer is operated by the Operating System. It is a part of the OS and communicates with the Application Layer by making system calls.
 
 Transport Layer is called asHeart of OSImodel.
-5.  **Session Layer (Layer 5)**
+5. **Session Layer (Layer 5)**
 
 This layer is responsible for establishment of connection, maintenance of sessions, authentication and also ensures security.
 
@@ -199,7 +199,7 @@ SCENARIO:
 Let's consider a scenario where a user wants to send a message through some Messenger application running in his browser. The "Messenger" here acts as the application layer which provides the user with an interface to create the data. This message or so called Data is compressed, encrypted (if any secure data) and converted into bits (0's and 1's) so that it can be transmitted.
 
 ![image](media/OSI-Layers-image3.png)
-6.  **Presentation Layer (Layer 6)**
+6. **Presentation Layer (Layer 6)**
 
 Presentation layer is also called theTranslation layer.The data from the application layer is extracted here and manipulated as per the required format to transmit over the network.
 

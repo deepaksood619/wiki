@@ -188,6 +188,9 @@ Timeline world history documentaries
 - Math riddles
 - History Timeline
 - Discovery+
+- 12min
+- Blinkist
+- Math workout
 
 ## Documentaries
 

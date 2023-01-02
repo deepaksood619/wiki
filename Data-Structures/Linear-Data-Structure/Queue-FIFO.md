@@ -19,7 +19,7 @@ The process to add an element into queue is called **Enqueue** and the process o
 
 2. Queue is a FIFO( First in First Out ) structure.
 
-3. Once a new element is inserted into the Queue, all the elements inserted before the new element in the queue must be removed, to remove the new element.4.  **peek( )**function is oftenly used to return the value of first element without dequeuing it.
+3. Once a new element is inserted into the Queue, all the elements inserted before the new element in the queue must be removed, to remove the new element.4. **peek( )**function is oftenly used to return the value of first element without dequeuing it.
 
 ## Applications
 

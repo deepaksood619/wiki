@@ -12,7 +12,7 @@ Protection against Buffer Overflow attacks / Stash smashing attacks
 
 2. Canaries
 
-3. SSP (Stack Smashing Protector)4.  **ASLR (Address Space Layout Randomization)**5. Non-Executable Stacks
+3. SSP (Stack Smashing Protector)4. **ASLR (Address Space Layout Randomization)**5. Non-Executable Stacks
 
 6. OS hardening
 

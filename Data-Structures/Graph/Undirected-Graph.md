@@ -27,7 +27,7 @@ In every finite undirected graph number of vertices with odd degree is always ev
 L = (k - 1)*I + 1
 Where L = Number of leaf nodes
 I = Number of internal nodes
-2.  **In Binary tree, number of leaf nodes is always one more than nodes with two children.**
+2. **In Binary tree, number of leaf nodes is always one more than nodes with two children.**
 
 L = T + 1
 Where L = Number of leaf nodes

@@ -65,16 +65,16 @@ There are 5 confidentiality modes for block ciphers. Some of these modes require
 1. **Electronic Code Book Mode (ECB)**
 
 There is a fixed mapping between input blocks of plaintext and output blocks of ciphertext (essentially like an actual code book where ciphertext words directly relate to plaintext words).
-2.  **Cipher Block Chaining Mode (CBC)**
+2. **Cipher Block Chaining Mode (CBC)**
 
 This mode 'chains' or combines new plaintext blocks with the previous ciphertext block when encrypting them which requires an IV for the first block. The IV doesn't need to be secret, but it needs to be unpredictable.
-3.  **Cipher Feedback Mode (CFB)**
+3. **Cipher Feedback Mode (CFB)**
 
 CFB is similar to CBC, but instead of using the entire previous ciphertext block to compute the next block, CFB uses a fraction of the previous block.
-4.  **Output Feedback (OFB)**
+4. **Output Feedback (OFB)**
 
 OFB is similar to CFB, but instead of processing s < b bits into a b-bits to b-bits transformation, it processes s bits directly. Similarly to CFB, OFB can be functionally used as a stream cipher.
-5.  **Counter (CTR)**
+5. **Counter (CTR)**
 
 CTR applies the encryption algorithm to a set of unique input blocks (counters) in order to produce outputs which are XORed with the plaintext to produce ciphertext.
 

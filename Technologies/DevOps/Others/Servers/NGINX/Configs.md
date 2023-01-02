@@ -124,11 +124,11 @@ proxy_pass http://api;
 # test.con
 # Start writing your nginx.conf here
 events { }
-http { 
+http {
     server {
         server_name corporate.app.com;
         listen 80;
-        
+
         location / {
             proxy_pass  http://frontend/;
         }

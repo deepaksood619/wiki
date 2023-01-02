@@ -6,7 +6,6 @@ Modified: 2022-03-14 20:48:37 +0500
 
 ---
 
-
 ## Decentralized Finance - DeFi
 
 - Allow most operations traditional financial instruments, but on The Blockchain
@@ -18,19 +17,18 @@ Modified: 2022-03-14 20:48:37 +0500
 ## Concepts
 
 - DeFi is eating Finance
-    - Operating Costs
-        - Deutsche Bank: $10B/yr general & administrative expenses
-        - Lending Club: $325M product, generall & administrative expenses
-    - Volume & Capital Efficiency
-        - Ethereum payments volume exceeds PayPal ($1.6T vs $0.9T) with 64 vs 26k employees
-    - Ecosystem Transparency
+  - Operating Costs
+    - Deutsche Bank: $10B/yr general & administrative expenses
+    - Lending Club: $325M product, generall & administrative expenses
+  - Volume & Capital Efficiency
+    - Ethereum payments volume exceeds PayPal ($1.6T vs $0.9T) with 64 vs 26k employees
+  - Ecosystem Transparency
 
 ## Others
+
 - DEX Aggregators
 
     DEX aggregators are the financial protocols which give traders/investors — an easy access to various trading pools using a single dashboard.
-
-
 
 ## References
 

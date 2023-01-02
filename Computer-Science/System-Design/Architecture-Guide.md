@@ -13,7 +13,7 @@ Modified: 2020-08-20 01:58:00 +0500
 [Big Data](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data) and [Big Compute](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-compute) are specialized architecture styles for workloads that fit certain specific profiles. Big data divides a very large dataset into chunks, performing parallel processing across the entire set, for analysis and reporting. Big compute, also called high-performance computing (HPC), makes parallel computations across a large number (thousands) of cores. Domains include simulations, modeling, and 3-D rendering.
 
 - Event-driven architecture
-- Microservicesv.  **N-tier application**
+- Microservicesv. **N-tier application**
 - **Web-queue-worker**
 For a purely PaaS solution, consider a [Web-Queue-Worker](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/web-queue-worker) architecture. In this style, the application has a web front end that handles HTTP requests and a back-end worker that performs CPU-intensive tasks or long-running operations. The front end communicates to the worker through an asynchronous message queue.
 Web-queue-worker is suitable for relatively simple domains with some resource-intensive tasks. Like N-tier, the architecture is easy to understand. The use of managed services simplifies deployment and operations. But with complex domains, it can be hard to manage dependencies. The front end and the worker can easily become large, monolithic components that are hard to maintain and update. As with N-tier, this can reduce the frequency of updates and limit innovation.

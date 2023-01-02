@@ -6,7 +6,6 @@ Modified: 2022-03-14 20:48:37 +0500
 
 ---
 
-
 ## Proof of Authority (PoA)
 
 - Blocks must be signed by a sufficient quorum of "authoritative" nodes

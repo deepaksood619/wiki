@@ -81,6 +81,7 @@ codeanywhere
 - `cmd + K + cmd + S` = show all shortcuts
 
 ## Changed commands
+
 - `cmd+y` = toggle sidebar (because `cmd+b` conflicts with markdown-all-in-one bold shortcut)
 
 ## Navigation
