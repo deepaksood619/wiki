@@ -280,6 +280,10 @@ Fast networked note-taking
 - AppFlowy - Open-source alternative to Notion
 - <https://anytype.io/en>
 
+### Sync
+
+- Use DriveSync to sync using Google Drive
+
 ## Others
 
 - <https://dev.to/joeholmes/creating-a-diy-digital-garden-with-obsidian-and-gatsby-378e>

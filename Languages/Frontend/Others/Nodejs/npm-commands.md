@@ -20,6 +20,19 @@ npm i express
 npm i --save-dev nodemon
 npm i --save-prod nodemon
 npm i jsonwebtoken dotenv
+
+# troubleshooting if error
+--legacy-peer-deps: ignore all peerDependencies when installing, in the style of npm version 4 through version 6.
+
+--strict-peer-deps: fail and abort the install process for any conflicting peerDependencies when encountered. By default, npm will only crash for peerDependencies conflicts caused by the direct dependencies of the root project.
+
+--force: will force npm to fetch remote resources even if a local copy exists on disk.
+
+which is safer, the answer is --force
+--legacy-peer-deps ignores peer dependencies entirely, which can screw up your dependency resolution.
+--force on the other hand simply sets a different peer dependency version for conflicting dependencies
+
+Using force isn't always ideal though because each dependency version takes up extra space. Using force with many dependencies will increase your total space requirement a decent amount.
 ```
 
 ## Run server

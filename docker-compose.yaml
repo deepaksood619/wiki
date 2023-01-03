@@ -1,20 +1,19 @@
 version: "3.7"
 
 services:
-    onenote:
+    wiki:
         stdin_open: true
         tty: true
         build:
             context: .
             dockerfile: Dockerfile
         restart: always
-        image: onenote:latest
-        container_name: onenote
+        image: wiki:latest
+        container_name: wiki
         environment:
             - DEBUG=True
         ports:
             - 8000:8000
-            - 4000:4000
         entrypoint:
             - /bin/bash
             - -c
@@ -24,5 +23,5 @@ services:
                 # npm i -f
                 # npm run develop
                 # npm run build
-        # volumes:
-        #     - .:/app/
+        volumes:
+            - .:/app/

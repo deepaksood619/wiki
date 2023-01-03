@@ -13,23 +13,17 @@ Docker is a tool for deploying isolated, or containerized, applications. Docker 
 ## Core components
 
 1. Docker Engine (docker daemon)
-
 2. REST API
-
 3. Client (docker CLI)
 
 ![container manages manages image manages C" ent docker CLI data volumes REST API manages daemn ](../../media/DevOps-Docker-Intro-image1.png)
 
-# Optimizations
+## Optimizations
 
 1. Fat image
-
 2. Alpine (base image)
-
 3. Layer caching
-
 4. Cached dependencies
-
 5. Multistage builds
 
 ## Difference between docker and docker-compose
@@ -62,6 +56,22 @@ In addition, volumes are often a better choice than persisting data in a contain
 ## Docker Containers vs Images
 
 An instance of an image is called a container. You have an image, which is a set of layers as you describe. If you start this image, you have a running container of this image. You can have many running containers of the same image.
+
+## Images
+
+1. Full official image
+
+    ```bash
+    python:3.8.3
+    node:14.1.1
+    ```
+
+2. stretch/buster/jessie - debian releases
+3. -slim - paired down version of the full image
+4. -alpine - Alpine images are based on the Alpine Linux Project, which is an operating system that was built specifically for use inside of containers.
+5. -windowsservercore
+
+<https://medium.com/swlh/alpine-slim-stretch-buster-jessie-bullseye-bookworm-what-are-the-differences-in-docker-62171ed4531d>
 
 ## Docker-compose
 

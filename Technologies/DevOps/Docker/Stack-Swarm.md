@@ -81,7 +81,7 @@ docker service update --force --update-parallelism 1 --update-delay 30s <service
 
 ## Kubernetes vs Docker Swarm
 
-| ****Kubernetes**** | ****Docker Swarm**** |
+| **Kubernetes** | **Docker Swarm** |
 |---|---|
 | Developed by Google | Developed by Docker Swarm |
 | Has a vast Open source community | Has a smaller community compared to Kubernetes |

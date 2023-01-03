@@ -14,7 +14,9 @@ Is there a universal problem-solving model to which all problems that we would l
 
 ![image](media/Intractability-image3.png)
 
-## Church-Turing Thesis (Computability Thesis) is a hypothesis about the nature of computable functions. It states that a function on the natural numbers is computable by a human being following an algorithm, ignoring resource limitation, if and only if it is computable by a Turing machine
+## Church-Turing Thesis (Computability Thesis)
+
+Church-Turing Thesis is a hypothesis about the nature of computable functions. It states that a function on the natural numbers is computable by a human being following an algorithm, ignoring resource limitation, if and only if it is computable by a Turing machine
 
 ![image](media/Intractability-image4.png)
 
@@ -30,7 +32,7 @@ Intractable - hard to control or deal with (difficult or stubborn)
 
 ![image](media/Intractability-image9.png)
 
-# Search Problems
+## Search Problems
 
 ![image](media/Intractability-image10.png)
 
@@ -62,7 +64,7 @@ If some decision variables are not discrete the problem is known as amixed-integ
 
 ![image](media/Intractability-image18.png)
 
-# P vs NP
+## P vs NP
 
 NP - Non Deterministic Polynomial Time (The complexity class NPcontains all of the problems inP - it is often incorrectly ascribed to mean "not polynomial time.")
 
@@ -82,7 +84,7 @@ NP - Non Deterministic Polynomial Time (The complexity class NPcontains all of t
 
 ![image](media/Intractability-image26.png)
 
-# Classifying Problems
+## Classifying Problems
 
 ![image](media/Intractability-image27.png)
 
@@ -100,7 +102,7 @@ NP - Non Deterministic Polynomial Time (The complexity class NPcontains all of t
 
 <https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html>
 
-# NP-completeness
+## NP-completeness
 
 ![image](media/Intractability-image34.png)
 
@@ -122,7 +124,7 @@ An important consequence of this theorem is that if there exists a deterministic
 
 ![image](media/Intractability-image40.png)
 
-# Coping with intractability
+## Coping with intractability
 
 ![image](media/Intractability-image41.png)
 
