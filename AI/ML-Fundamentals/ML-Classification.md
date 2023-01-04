@@ -304,7 +304,7 @@ Support vector machines (SVMs) are a set of related [supervised learning](https:
 
 7. **Clustering**
 
-Cluster analysis is the assignment of a set of observations into subsets (called *clusters*) so that observations within the same cluster are similar according to some predesignated criteria, while observations drawn from different clusters are dissimilar. Different clustering techniques make different assumptions on the structure of the data, often defined by some*similarity metric*and evaluated for example by*internal compactness*(similarity between members of the same cluster) and *separation*between different clusters. Other methods are based on*estimated density*and*graph connectivity*. Clustering is a method of [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning), and a common technique for [statistical](https://en.wikipedia.org/wiki/Statistics)[data analysis](https://en.wikipedia.org/wiki/Data_analysis).
+Cluster analysis is the assignment of a set of observations into subsets (called *clusters*) so that observations within the same cluster are similar according to some predesignated criteria, while observations drawn from different clusters are dissimilar. Different clustering techniques make different assumptions on the structure of the data, often defined by some *similarity metric* and evaluated for example by *internal compactness* (similarity between members of the same cluster) and *separation* between different clusters. Other methods are based on *estimated density* and *graph connectivity*. Clustering is a method of [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning), and a common technique for [statistical](https://en.wikipedia.org/wiki/Statistics)[data analysis](https://en.wikipedia.org/wiki/Data_analysis).
 
 8. **Bayesian networks**
 
@@ -315,15 +315,10 @@ A Bayesian network, belief network or directed acyclic graphical model is a [pro
 Reinforcement learning is concerned with how an *agent*ought to take *actions*in an *environment*so as to maximize some notion of long-term *reward*. Reinforcement learning algorithms attempt to find a *policy* that maps *states*of the world to the actions the agent ought to take in those states. Reinforcement learning differs from the [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) problem in that correct input/output pairs are never presented, nor sub-optimal actions explicitly corrected.
 
 10. **Representation learning**
-
 11. **Similarity and metric learning**
-
 12. **Sparse dictionary learning**
-
 13. **Genetic algorithms**
-
 14. **Rule-based machine learning**
-
 15. **Learning classifier systems**
 
 ## Techniques

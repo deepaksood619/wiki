@@ -6,9 +6,9 @@ Modified: 2019-09-17 00:03:42 +0500
 
 ---
 
-Finding the index of first element in*A*which is not less than*x*is called lower_bound query in C++ STL. The answer of our first query isn-lower_bound(x)
+Finding the index of first element in *A* which is not less than *x* is called lower_bound query in C++ STL. The answer of our first query isn-lower_bound(x)
 
-Similarly, finding the index of first element in*A*which is greater than*x*is called upper_bound query in C++ STL. The answer of our second query isn-upper_bound(x).
+Similarly, finding the index of first element in *A* which is greater than *x* is called upper_bound query in C++ STL. The answer of our second query isn-upper_bound(x).
 
 int lower_bound(int start,int end,int item)
 {

@@ -60,7 +60,7 @@ The only difference is that theupdateAPI achieves this through a single client r
 
 Index (noun)
 
-As explained previously, an *index*is like a*database*in a traditional relational database. It is the place to store related documents. The plural of *index*is *indices*or *indexes*.
+As explained previously, an *index* is like a *database* in a traditional relational database. It is the place to store related documents. The plural of *index*is *indices*or *indexes*.
 
 Index (verb)
 
@@ -104,7 +104,7 @@ Elasticsearch tries hard to hide the complexity of distributed systems. Here are
 
 ## Search
 
-A*search*can be any of the following:
+A *search* can be any of the following:
 
 - A structured query on concrete fieldslikegenderorage, sorted by a field likejoin_date, similar to the type of query that you could construct in SQL
 - A full-text query, which finds all documents matching the search keywords, and returns them sorted by *relevance*

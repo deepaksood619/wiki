@@ -77,9 +77,9 @@ It is the problem of confirming if every computational problem whose solution ca
 
 In [computer science](https://en.wikipedia.org/wiki/Computer_science), a**polynomial-time approximation scheme**(**PTAS**) is a type of [approximation algorithm](https://en.wikipedia.org/wiki/Approximation_algorithm) for [optimization problems](https://en.wikipedia.org/wiki/Optimization_problem)(most often, [NP-hard](https://en.wikipedia.org/wiki/NP-hard) optimization problems).
 
-A PTAS is an algorithm which takes an instance of an optimization problem and a parameter ε>0 and, in polynomial time, produces a solution that is within a factor 1 + ε of being optimal (or 1 − ε for maximization problems). For example, for the Euclidean [traveling salesman problem](https://en.wikipedia.org/wiki/Traveling_salesman_problem), a PTAS would produce a tour with length at most (1+ε)*L*, with*L*being the length of the shortest tour.There exists also PTAS for the class of all dense constraint satisfaction problems (CSPs)
+A PTAS is an algorithm which takes an instance of an optimization problem and a parameter ε>0 and, in polynomial time, produces a solution that is within a factor 1 + ε of being optimal (or 1 − ε for maximization problems). For example, for the Euclidean [traveling salesman problem](https://en.wikipedia.org/wiki/Traveling_salesman_problem), a PTAS would produce a tour with length at most (1+ε)*L*, with *L* being the length of the shortest tour.There exists also PTAS for the class of all dense constraint satisfaction problems (CSPs)
 
-The running time of a PTAS is required to be polynomial in*n*for every fixed ε but can be different for different ε. Thus an algorithm running in time [*O*](https://en.wikipedia.org/wiki/Big_O_notation)(*n*^1/ε^) or even*O*(*n*^exp(1/ε)^) counts as a PTAS.
+The running time of a PTAS is required to be polynomial in *n* for every fixed ε but can be different for different ε. Thus an algorithm running in time [*O*](https://en.wikipedia.org/wiki/Big_O_notation)(*n*^1/ε^) or even*O*(*n*^exp(1/ε)^) counts as a PTAS.
 
 <https://en.wikipedia.org/wiki/Polynomial-time_approximation_scheme>
 

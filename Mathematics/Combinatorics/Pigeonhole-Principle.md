@@ -6,7 +6,7 @@ Modified: 2018-05-16 21:05:16 +0500
 
 ---
 
-In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the **pigeonhole principle** states that if*n*items are put into*m*containers, with `n>m`, then at least one container must contain more than one item.
+In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the **pigeonhole principle** states that if *n* items are put into *m* containers, with `n>m`, then at least one container must contain more than one item.
 
 ### Example
 

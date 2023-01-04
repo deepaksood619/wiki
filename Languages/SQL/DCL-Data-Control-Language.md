@@ -106,9 +106,11 @@ The GRANT command has two basic variants: one that grants privileges on a databa
 
 ## Processes
 
-#### `show full processlist`
+```sql
+show full processlist
 
-#### `SELECT * FROM INFORMATION_SCHEMA.PROCESSLIST`
+SELECT * FROM INFORMATION_SCHEMA.PROCESSLIST
+```
 
 Mysql show processlist lists many processes sleep and info = null?
 

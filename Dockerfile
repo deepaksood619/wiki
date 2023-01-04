@@ -13,6 +13,6 @@ WORKDIR /app
 
 COPY . /app/
 
-RUN cd .layouts && npm i
+# RUN cd .layouts && npm i
 
 EXPOSE 8000

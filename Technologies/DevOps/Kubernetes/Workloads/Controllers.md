@@ -18,7 +18,7 @@ The **endpoints, namespace, andserviceaccounts** controllers each manage the epo
 
 ## ReplicaSet
 
-ReplicaSet is the next-generation Replication Controller. The only difference between a*ReplicaSet*and a [*Replication Controller*](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/) right now is the selector support. ReplicaSet supports the new set-based selector requirements as described in the [labels user guide](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors) whereas a Replication Controller only supports equality-based selector requirements.
+ReplicaSet is the next-generation Replication Controller. The only difference between a *ReplicaSet* and a [*Replication Controller*](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/) right now is the selector support. ReplicaSet supports the new set-based selector requirements as described in the [labels user guide](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors) whereas a Replication Controller only supports equality-based selector requirements.
 
 A ReplicaSet ensures that a specified number of Pod replicas are running at any given time. A ReplicaSet is a management wrapper around a Pod. If a Pod, that is managed by a ReplicaSet, dies, the ReplicaSet brings up a new Pod instance.
 

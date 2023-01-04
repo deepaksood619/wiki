@@ -24,7 +24,7 @@ In its canonical textual representation, the 16 [octets](https://en.wikipedia.or
 
 xxxxxxxx-xxxx-Mxxx-Nxxx-xxxxxxxxxxxx
 
-The 4 bits of digitMindicate the UUID version, and the 1--3 most significant bits of digitNindicate the UUID variant. In the example,*M*is1, and*N*isa(10xx~2~), meaning that the UUID is a variant-1, version-1 UUID; that is, a time-based DCE/RFC 4122 UUID.
+The 4 bits of digitMindicate the UUID version, and the 1--3 most significant bits of digitNindicate the UUID variant. In the example,*M* is 1, and *N* isa(10xx~2~), meaning that the UUID is a variant-1, version-1 UUID; that is, a time-based DCE/RFC 4122 UUID.
 
 The canonical 8-4-4-4-12 format string is based on the "record layout" for the 16 bytes of the UUID:
 

@@ -137,7 +137,7 @@ Three main quantifier metacharacters
 
 6. ?? - lazy question mark
 
-7. **{n} -** The preceding item is matched exactly*n*times.
+7. **{n} -** The preceding item is matched exactly *n* times.
 
 8. **{min,} -** The preceding item is matched *min*or more times.
 

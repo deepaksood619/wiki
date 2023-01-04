@@ -22,7 +22,7 @@ The concept of graphemes is an abstract one and similar to the notion in [comput
 
 ## Phoneme
 
-Any of the perceptually distinct units of sound in a specified language that distinguish one word from another, for example*p*,*b*,*d*, and*t*in the English words *pad*,*pat*,*bad*, and *bat*.
+Any of the perceptually distinct units of sound in a specified language that distinguish one word from another, for example*p*,*b*,*d*, and *t* in the English words *pad*,*pat*,*bad*, and *bat*.
 
 Despite there being just 26 letters in the English language there are approximately 44 unique sounds, also known as [phonemes](https://www.dyslexia-reading-well.com/phonemes.html). The 44 sounds help distinguish one word or meaning from another. Various letters and letter combinations known as graphemes are used to represent the sounds.
 

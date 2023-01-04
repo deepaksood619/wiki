@@ -60,10 +60,10 @@ Thetoken bucketis an [algorithm](https://en.wikipedia.org/wiki/Algorithm) used i
 The token bucket algorithm can be conceptually understood as follows
 
 - A token is added to the bucket every*1/r* seconds.
-- The bucket can hold at the most*b*tokens. If a token arrives when the bucket is full, it is discarded.
-- When a packet (network layer [PDU](https://en.wikipedia.org/wiki/Protocol_data_unit)) of*n*bytes arrives,
-- If at least*n*tokens are in the bucket,*n*tokens are removed from the bucket, and the packet is sent to the network.
-- If fewer than*n*tokens are available, no tokens are removed from the bucket, and the packet is considered to benon-conformant.
+- The bucket can hold at the most *b* tokens. If a token arrives when the bucket is full, it is discarded.
+- When a packet (network layer [PDU](https://en.wikipedia.org/wiki/Protocol_data_unit)) of *n* bytes arrives,
+- If at least *n* tokens are in the bucket,*n*tokens are removed from the bucket, and the packet is sent to the network.
+- If fewer than *n* tokens are available, no tokens are removed from the bucket, and the packet is considered to benon-conformant.
 This solution can have problem in a distributed environment where each user can come at a different server. Can cause a race condition too.
 ![image](media/Rate-Limiting-image1.png)
 

@@ -66,7 +66,7 @@ In [graph theory](https://en.wikipedia.org/wiki/Graph_theory), a**planar graph**
 
 ## Euler's Formula
 
-## Euler's formulastates that if a finite, [connected](https://en.wikipedia.org/wiki/Connectivity_(graph_theory)), planar graph is drawn in the plane without any edge intersections, and*v*is the number of vertices,*e*is the number of edges and*f*is the number of faces (regions bounded by edges, including the outer, infinitely large region), then
+Euler's formula states that if a finite, [connected](https://en.wikipedia.org/wiki/Connectivity_(graph_theory)), planar graph is drawn in the plane without any edge intersections, and *v* is the number of vertices,*e*is the number of edges and *f* is the number of faces (regions bounded by edges, including the outer, infinitely large region), then
 
 ## v - e + f = 2
 

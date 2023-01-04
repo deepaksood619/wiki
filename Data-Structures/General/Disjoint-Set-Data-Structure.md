@@ -32,7 +32,7 @@ x.parent := x
 x.rank := 0
 2. Find
 
-*Find(x)*follows the chain of parent pointers from*x*upwards through the tree until an element is reached whose parent is itself. This element is the root of the tree and is the representative member of the set to which*x*belongs, and may be*x*itself.
+*Find(x)*follows the chain of parent pointers from *x* upwards through the tree until an element is reached whose parent is itself. This element is the root of the tree and is the representative member of the set to which *x* belongs, and may be *x* itself.
 
 *Path compression*, is a way of flattening the structure of the tree whenever *Find*is used on it. Since each element visited on the way to a root is part of the same set, all of these visited elements can be reattached directly to the root. The resulting tree is much flatter, speeding up future operations not only on these elements, but also on those referencing them.
 
@@ -45,7 +45,7 @@ x.parent := *Find*(x.parent)
 return x.parent
 3. Union
 
-*Union(x, y)*uses *Find*to determine the roots of the trees*x*and*y*belong to. If the roots are distinct, the trees are combined by attaching the root of one to the root of the other. If this is done naively, such as by always making*x*a child of*y*, the height of the trees can grow as
+*Union(x, y)*uses *Find*to determine the roots of the trees *x* and *y* belong to. If the roots are distinct, the trees are combined by attaching the root of one to the root of the other. If this is done naively, such as by always making *x* a child of*y*, the height of the trees can grow as
 
 . To prevent this*union by rank*is used.
 

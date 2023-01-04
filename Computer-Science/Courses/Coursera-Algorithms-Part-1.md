@@ -274,7 +274,7 @@ If at each step, we choose the nut (to partition the bolts) randomly, we will ge
 
 1. **Dynamic median.**Design a data type that supports insert in logarithmic time, find-the-median in constant time, and remove-the-median in logarithmic time.
 2. **Randomized priority queue.**Describe how to add the methods𝚜𝚊𝚖𝚙𝚕𝚎()and𝚍𝚎𝚕𝚁𝚊𝚗𝚍𝚘𝚖()to our binary heap implementation. The two methods return a key that is chosen uniformly at random among the remaining keys, with the latter method also removing that key. The𝚜𝚊𝚖𝚙𝚕𝚎()method should take constant time; the𝚍𝚎𝚕𝚁𝚊𝚗𝚍𝚘𝚖()method should take logarithmic time. Do not worry about resizing the underlying array.
-3. **Taxicab numbers.**A*taxicab*number is an integer that can be expressed as the sum of two cubes of positive integers in two different ways:a3+b3=c3+d3. For example,1729is the smallest taxicab number:93+103=13+123. Design an algorithm to find all taxicab numbers less thann.
+3. **Taxicab numbers.** A *taxicab* number is an integer that can be expressed as the sum of two cubes of positive integers in two different ways:a3+b3=c3+d3. For example,1729is the smallest taxicab number:93+103=13+123. Design an algorithm to find all taxicab numbers less thann.
     - **Version 1: Use time proportional ton2lognand space proportional ton2.**
     - **Version 2: Use time proportional ton2lognand space proportional ton.**
 
