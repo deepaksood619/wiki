@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Others",
+      "path": "Office/Personality/Master-Resume/Others.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "Office/HR-Interviews/Interviews-Others/Archive.md"
+    },
+    {
       "basename": "Obsidian---Note-Taking---Second-Brain",
       "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "product-terms-tools",
       "path": "Knowledge/Management/Product-Management/product-terms-tools.md"
-    },
-    {
-      "basename": "Others",
-      "path": "Technologies/Technologies/Others/Others.md"
-    },
-    {
-      "basename": "Others---SAAS",
-      "path": "Technologies/Cloud/Others/Others---SAAS.md"
     }
   ],
   "omittedPaths": [],

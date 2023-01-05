@@ -6,11 +6,9 @@
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop -H 0.0.0.0",
-    "build": "gatsby build",
-    "build-old": "gatsby build --prefix-paths",
+    "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
-    "serve": "gatsby serve",
-    "serve-old": "gatsby serve --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
     "test": "echo test"
   },
   "dependencies": {

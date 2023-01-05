@@ -1,4 +1,4 @@
-\# Priority Queue
+# Priority Queue
 
 Created: 2018-02-03 14:42:20 +0500
 
@@ -10,7 +10,7 @@ A **priority queue** is an [abstract data type](https://en.wikipedia.org/wiki/Ab
 While priority queues are often implemented with [heaps](https://en.wikipedia.org/wiki/Heap_(data_structure)), they are conceptually distinct from heaps. A priority queue is an abstract concept like "a [list](https://en.wikipedia.org/wiki/List_(abstract_data_type))" or "a [map](https://en.wikipedia.org/wiki/Associative_array)"; just as a list can be implemented with a [linked list](https://en.wikipedia.org/wiki/Linked_list) or an [array](https://en.wikipedia.org/wiki/Array_data_structure), a priority queue can be implemented with a heap or a variety of other methods such as an unordered array.
 Many applications require that we process items having keys in order, but not necessarily in full sorted order and not necessarily all at once. Often, we collect a set of items, then process the one with the largest key, then perhaps collect more items, then process the one with the current largest key, and so forth. An appropriate data type in such an environment supports two operations: *remove the maximum* and *insert*. Such a data type is called a *priority queue*.
 
-## Goal: Remove the largest (or smallest) item
+**Goal: Remove the largest (or smallest) item**
 
 ## Implementation of Priority Queue
 
@@ -18,9 +18,8 @@ Many applications require that we process items having keys in order, but not ne
 
 ## Python 3
 
-## Python > Documentation > Concurrent Execution
-
-## Python > Documentation > Data Types
+- Python > Documentation > Concurrent Execution
+- Python > Documentation > Data Types
 
 ## Applications
 

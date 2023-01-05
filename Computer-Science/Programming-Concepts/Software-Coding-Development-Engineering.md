@@ -256,7 +256,7 @@ Safety-critical elements are systems or components that are designed to prevent,
 
 ## Concurrent Engineering
 
-Concurrent engineering(**CE**) is a work methodology emphasizing the parallelisation of tasks (i.e. performing tasks concurrently), which is sometimes called**simultaneous engineering**or**integrated product development**(**IPD) using an [integrated product team](https://en.wikipedia.org/wiki/Integrated_product_team) approach. It refers to an approach used in [product development](https://en.wikipedia.org/wiki/Product_development) in which functions of design engineering, manufacturing engineering, and other functions are integrated to reduce the time required to bring a new product to market
+Concurrent engineering(**CE**) is a work methodology emphasizing the parallelisation of tasks (i.e. performing tasks concurrently), which is sometimes called **simultaneous engineering** or **integrated product development** (IPD) using an [integrated product team](https://en.wikipedia.org/wiki/Integrated_product_team) approach. It refers to an approach used in [product development](https://en.wikipedia.org/wiki/Product_development) in which functions of design engineering, manufacturing engineering, and other functions are integrated to reduce the time required to bring a new product to market
 
 ## The Four Keys To Rapid Response Software Development
 

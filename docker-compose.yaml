@@ -8,7 +8,7 @@ services:
             context: .
             dockerfile: Dockerfile
         restart: always
-        image: wiki:latest
+        image: deepaksood619/wiki:latest
         container_name: wiki
         environment:
             - DEBUG=True
@@ -23,5 +23,5 @@ services:
                 # npm i -f
                 # npm run develop
                 # npm run build
-        volumes:
-            - .:/app/
+        # volumes:
+        #     - .:/app/

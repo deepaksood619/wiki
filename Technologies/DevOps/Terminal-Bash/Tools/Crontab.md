@@ -56,7 +56,7 @@ Display the last time you edited your crontab file. (This option is only availab
 |-------------|-----------------|
 | @yearly    | 0 0 1 1 *      |
 | @daily     | 0 0 ** *    |
-| @hourly    | 0 * * * *   |
+| @hourly    | 0 ** **   |
 | @reboot    | Run at startup. |
 
 ## Examples

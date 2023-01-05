@@ -115,13 +115,14 @@ A command-line tool that makes git easier to use with GitHub.
 
 ## GUI Clients
 
-gitup
+- gitup
+- github desktop
+- gitkraken
+- sourcetree
 
-github desktop
+## Github Marketplace
 
-gitkraken
-
-sourcetree
+- <https://github.com/marketplace>
 
 ## Language Clients
 
