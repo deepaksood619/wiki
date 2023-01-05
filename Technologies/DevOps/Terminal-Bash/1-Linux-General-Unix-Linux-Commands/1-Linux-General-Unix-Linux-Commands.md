@@ -528,6 +528,9 @@ Programs can't ignore SIGKILL.
 ```bash
 killall kubectl
 killall -v kubectl
+
+# forcefully terminate all running processes except login shell, init, and kernel-specific processes.
+killall5 -9
 ```
 
 ## openssl

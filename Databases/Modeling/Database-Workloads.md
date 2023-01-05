@@ -8,9 +8,9 @@ Modified: 2020-03-01 00:04:42 +0500
 
 ## OLTP (On-line Transaction Processing)
 
-## Transactions
+Transactions
 
-## groups of read and write requests that occur together as atomic units
+groups of read and write requests that occur together as atomic units
 
 OLTP is characterized by a large number of short on-line transactions (INSERT, UPDATE, DELETE). The main emphasis for OLTP systems is put on very fast query processing, maintaining data integrity in multi-access environments and an effectiveness measured by number of transactions per second. In OLTP database there is detailed and current data, and schema used to store transactional databases is the entity model (usually 3NF).-  Most likely to have data from the past hour
 

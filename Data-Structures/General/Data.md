@@ -6,7 +6,7 @@ Modified: 2021-04-05 23:39:21 +0500
 
 ---
 
-## Big Dataincludes huge volume, high velocity, and extensible variety of data. These are 3 types: Structured data, Semi-structured data, and Unstructured data
+Big Data includes huge volume, high velocity, and extensible variety of data. These are 3 types: Structured data, Semi-structured data, and Unstructured data
 
 1. **Structured data**
 

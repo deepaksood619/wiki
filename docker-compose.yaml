@@ -23,5 +23,6 @@ services:
                 # npm i -f
                 # npm run develop
                 # npm run build
+                # git subtree push --prefix .layouts/public origin pages
         # volumes:
         #     - .:/app/

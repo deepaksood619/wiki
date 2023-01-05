@@ -213,10 +213,6 @@ git reset HEAD~ --hard (Revert a last commit with all changes removed)
 
 `git reset 'HEAD@{1}'`
 
-## git submodule reset
-
-`git submodule update -f --recursive`
-
 ## Git Merge
 
 ```bash
@@ -358,6 +354,9 @@ git pull --recurse-submodules
 
 # Adding submodule to a repository
     git submodule add http://github.com/submodule
+
+# git submodule reset
+git submodule update -f --recursive
 ```
 
 ## Find a string in git repo
