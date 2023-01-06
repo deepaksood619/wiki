@@ -31,8 +31,6 @@ Past performance is no guarantee for future performance
 
 <https://freefincal.com/hdfc-corporate-bond-fund>
 
-~~Trading 2 Lakh~~
-
 Parag Parikh Flexi Cap
 
 VPF - <https://cleartax.in/s/pf-vs-vpf>
@@ -49,8 +47,6 @@ VPF - <https://cleartax.in/s/pf-vs-vpf>
 - Employee Provident Fund (EPF)
 
 <https://www.youtube.com/watch?v=lBagn--KERk>
-
-Increase EPF - 20K 12% pm - Deepak
 
 - 1 lakh LTCG
 - Every year buy 10 grm of physical gold
@@ -77,7 +73,7 @@ Increase EPF - 20K 12% pm - Deepak
 
 My Portfolio - <https://docs.google.com/spreadsheets/d/1C1c24a7Qn3LySXz7_IgvLwMi3jEGvVqUmHCc2IVHcMA/edit?usp=sharing>
 
-## Sequence of Returns - [This is crucial for investing success! Be sure to understand what sequence of returns risk is!](https://www.youtube.com/watch?v=GruEpZFBvQg&ab_channel=freefincal-PrudentDIYInvesting)
+## Sequence of Returns - [what sequence of returns risk](https://www.youtube.com/watch?v=GruEpZFBvQg&ab_channel=freefincal-PrudentDIYInvesting)
 
 [Do not make these 15 investing mistakes!!](https://www.youtube.com/watch?v=BDDrd98WYL8)
 
@@ -93,7 +89,7 @@ My Portfolio - <https://docs.google.com/spreadsheets/d/1C1c24a7Qn3LySXz7_IgvLwMi
 
 Alternative investments are of many types: There are hedge funds, private equity, commodities like agricultural produce, energy and metals, etc. Then there is real estate, venture capital, private debt placement, peer-to-peer lending, investing in start-ups, arts & antiques, vintage coins, stamps, etc. In addition to the higher returns most alternative investments are not linked to the stock markets or even the bond markets which then acts as an asset hedge and can be used by investors to diversify one's portfolio.
 
-## P2P LENDING(Peer to peer lending)
+## P2P LENDING (Peer to peer lending)
 
 In P2P lending programs depositors or lenders earn more interest on their money and likewise, more borrowers can get access to finance with customized approval procedures. In essence, P2P lending platforms like Faircent, Lendbox, LiquiLoans, RupeeCircle etc. act more as facilitators and risk mitigators. In the process, they provide a range of facilities which includes on-boarding, credit evaluation, agreement signing, disbursement of loans and collection services. Individual lenders can now select borrowers per their preferred loan criteria, location, profile, reason for loan loan tenure which is typically between 3 to 36 months and their desired rate of interest which ranges from 12 to 35%.
 
@@ -127,9 +123,9 @@ Masterworksis the first platform for buying and selling shares representing an i
 
 ## Quotes / Tips / Philosophy
 
-## counter cyclical fiscal policy
+**counter cyclical fiscal policy**
 
-## Malinvestment - the action or fact of investing money in an ill-judged or wasteful way
+**Malinvestment - the action or fact of investing money in an ill-judged or wasteful way**
 
 A **consumer spendsmoney andfollowstrends** while an**investor puts capital to work**andtakes advantageof trends.
 
@@ -270,13 +266,13 @@ Finance for Everyone
 
 <https://www.moneycontrol.com/mutual-funds/amc-details/RC>
 
-## Since Nifty50 companies form over 75% of the free-float market capitalisation of Nifty100, the allocation of Nifty50 and Nifty Next50 could be 75:25 in the portfolio
+Since Nifty50 companies form over 75% of the free-float market capitalisation of Nifty100, the allocation of Nifty50 and Nifty Next50 could be 75:25 in the portfolio
 
 It is prudent to keep a third of the equity portfolio in mutual funds that invest in **foreign stocks.**
 
 For foreign equity allocation, the ideal option would a fund like Vanguard Global Stock Index Fund that holds the biggest companies in developed countries in the proportion of their free-float market capitalisation. Since this option is not available for Indian investors, we can allocate up to 20% of the total equity portfolio in funds like Motilal Oswal Nasdaq 100 Fund of Fund. For taxation, these funds are treated like debt mutual funds; but that is fine since we diversify the portfolio to reduce risk not to increase the return.
 
-## A better approach, therefore, is to take the middle path. Invest half the Indian equity investment in index funds (Nifty50 and Nifty Next50 with 75:25 allocation) and the remaining equally in 3 to 4 multicap funds managed by fund managers with a proven track record of over ten years. Up to 20% of the equity portfolio can be kept in foreign equity index funds
+A better approach, therefore, is to take the middle path. Invest half the Indian equity investment in index funds (Nifty50 and Nifty Next50 with 75:25 allocation) and the remaining equally in 3 to 4 multicap funds managed by fund managers with a proven track record of over ten years. Up to 20% of the equity portfolio can be kept in foreign equity index funds
 
 <https://freefincal.com/build-equity-mutual-fund-portfolio>
 

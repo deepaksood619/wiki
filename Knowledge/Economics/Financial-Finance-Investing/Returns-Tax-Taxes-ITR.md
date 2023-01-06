@@ -21,24 +21,6 @@ Modified: 2022-10-26 21:30:50 +0500
 
 F&O - 2.5 lakh profit exemption per financial year
 
-Driver allowance
-
-<http://www.gnr8tr.online/driver_salary_receipt_india>
-
-Vehicle registration no - CG18N0950
-
-<https://billgenerator.in>
-
-- Share driver receipt 10K
-- Fuel receipts 15K
-- LTA 191330
-- Telephone 3K
-- Periodicals 2K
-
-- Consultant - 194J instead 192
-- Donation to NGO for tax savings
-- Donation to political party for tax savings
-
 [Tax on Stocks, Mutual Funds, Gold and Real Estate | STCG and LTCG | ETMONEY](https://www.youtube.com/watch?v=sYtnOVgdH_I)
 
 [7 Questions to Ask Before Selling Equity Mutual Funds or Stocks | ETMONEY](https://www.youtube.com/watch?v=KJ4kinqOW6c)
@@ -204,28 +186,14 @@ Loss from business and profession cannot be set off against income chargeable to
 
 <https://www.youtube.com/watch?v=nfX-esge_3o>
 
-## CTC Breakup
+## ITR
 
-Basic Pay (27,500)
+1. If you have an income from just salary, one house property and bank deposits (Savings, FD, RD, Flexi RD), it is ITR1 (total income up to 50 L).
 
-House Rent Allowance (13,750)
+2. If you have income specified in a) and income from selling Real Estate, Stocks, Mutual fund units, derivatives, gold etc, or you have withdrawn EPF/PPF, it is ITR2 (individual or HUF with no business income)
 
-City Compensation Allowance (23,108)
+3. If in addition to the above, you (or HUF) have income from a business or proprietorship, ITR3
 
-Special Allowance (23,108)
+4. For people having a presumptive business it is ITR4 (no capital gains allowed). This form is for Individuals, HUFs and Firms having income up to Rs 50 lakh and having business income from Business or profession which is computed under the presumptive taxation schemes (sections 44AD, 44ADA or 44AE). Income from Salary, one house property and bank deposits can also be filled in ITR 4.
 
-Food Coupons (1,100)
-
-Transport Allowance (1,600)
-
-Medical Allowance (1,500)
-
-## example
-
-Telephone Reimbursement 3000.00
-
-Fuel Reimbursement 15000.00
-
-Periodicals 2000.00
-
-Driver Salary 10000.00
+<https://freefincal.com/which-itr-form-should-i-use>

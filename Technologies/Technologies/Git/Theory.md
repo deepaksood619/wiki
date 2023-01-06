@@ -17,6 +17,8 @@ A submodule is a repository embedded inside another repository. The submodule ha
 Git subtree is the most common replacement for Git submodule. A Git subtree is a replica of a Git repository that has been dragged into the main repository. A Git submodule is a reference to a particular commit in a different repository. Git subtrees, which were first introduced in Git 1.7.11, help you make a copy of any repo into a subdirectory of another.
 
 ```bash
+git add .layouts/public -f
+git commit -m "added docs"
 git subtree push --prefix .layouts/public origin pages
 ```
 

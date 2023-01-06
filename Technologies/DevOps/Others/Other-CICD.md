@@ -44,6 +44,10 @@ brew install act
 
 <https://github.com/nektos/act>
 
+**Run github actions on K8s cluster**
+
+<https://medium.com/nerd-for-tech/github-actions-self-hosted-runner-on-kubernetes-55d077520a31>
+
 ## Spinnaker
 
 <https://www.spinnaker.io/concepts>

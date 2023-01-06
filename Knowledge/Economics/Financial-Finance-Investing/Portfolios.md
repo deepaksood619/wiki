@@ -6,7 +6,7 @@ Modified: 2022-07-18 09:27:25 +0500
 
 ---
 
-## My Portfolio - Yearly (10,00,000)
+## Portfolio
 
 - **Stocks**
   - **Equity**
@@ -51,7 +51,7 @@ Modified: 2022-07-18 09:27:25 +0500
 - **Gold**(25%) during inflation
 - **Long Term Bonds**(25%) during deflation and prosperity
 
-## Invest half the Indian equity investment in index funds (Nifty50 and Nifty Next50 with 75:25 allocation) and the remaining equally in 3 to 4 multicap funds managed by fund managers with a proven track record of over ten years. Up to 20% of the equity portfolio can be kept in foreign equity index funds
+Invest half the Indian equity investment in index funds (Nifty50 and Nifty Next50 with 75:25 allocation) and the remaining equally in 3 to 4 multicap funds managed by fund managers with a proven track record of over ten years. Up to 20% of the equity portfolio can be kept in foreign equity index funds
 
 Young professional investors should allocate around 70% of their investable amount in Equity, 20% in Precious metals, and the rest in Fixed income investments. A retired person could invest 80 percent of his saving in fixed income, 10 percent in equity markets and 10 percent in precious metals.
 
@@ -76,63 +76,20 @@ How to choose a financial product?
 - Invisible risk must be appreciated
 - Risk: reward; taxation; liquidity
 
-![ΑΙιαιηΌη »ςιΗ ](media/TODO-Financial-Finance-Investing_Portfolios-image2.png)
+![media](media/TODO-Financial-Finance-Investing_Portfolios-image2.png)
 
-<table>
-<colgroup>
-<col style="width: 74%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Why am I investing</th>
-<th>Child's future</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>When do I need the money? (years)</td>
-<td>15</td>
-</tr>
-<tr>
-<td>What is the current cost if I need the money now?</td>
-<td>5,00,000</td>
-</tr>
-<tr>
-<td>By what rate will this cost increase each year?</td>
-<td>12%</td>
-</tr>
-<tr>
-<td>What would be this cost after 25 years?</td>
-<td>27,36,783</td>
-</tr>
-<tr>
-<td>What return can I expect from equity after tax?</td>
-<td>9%</td>
-</tr>
-<tr>
-<td>How much equity should I initially have in my portfolio?</td>
-<td>50%</td>
-</tr>
-<tr>
-<td>What return can I expect from fixed income (after tax)?</td>
-<td>6% PPF / Gilt MF?</td>
-</tr>
-<tr>
-<td>What return can I initially expect from the full portfolio?</td>
-<td>7.5%</td>
-</tr>
-<tr>
-<td><p>For the above annualised portfolio return how much</p>
-<p>should I invest each year?</p></td>
-<td>1,14,862</td>
-</tr>
-<tr>
-<td>Where should I invest in equity?</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| **Why am I investing** | **Child's future** |
+|:---:|:---:|
+| When do I need the money? (years) | 15 |
+| What is the current cost if I need the money now? | 5,00,000 |
+| By what rate will this cost increase each year? | 12% |
+| What would be this cost after 25 years? | 27,36,783 |
+| What return can I expect from equity after tax? | 9% |
+| How much equity should I initially have in my portfolio? | 50% |
+| What return can I expect from fixed income (after tax)? | 6% PPF / Gilt MF? |
+| What return can I initially expect from the full portfolio? | 7.5% |
+| For the above annualised portfolio return how much should I invest each year? | 1,14,862 |
+| Where should I invest in equity? |
 
 ![image](media/TODO-Financial-Finance-Investing_Portfolios-image3.png)
 
@@ -211,7 +168,7 @@ Let us say, a market participant has a corpus of Rs.500,000/-. This corpus can b
 
 The balance 40% of the amount, which is Rs.200,000/- can be utilized for active short term trading using Technical Analysis technique on equity, futures, and options. The Satellite portfolio can be expected to yield at least 10% to 12% absolute return on a yearly basis.
 
-## Term life insurance (after new job)
+## Term life insurance
 
 - Only one exclusion
   - Suicide in 1 year or 2 years

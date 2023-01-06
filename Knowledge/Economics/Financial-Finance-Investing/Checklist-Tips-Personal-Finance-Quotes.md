@@ -250,11 +250,11 @@ This is arguably the most important, and the most overlooked, pillar. It encapsu
 
 - Seek wealth, not money or status
 
-## Wealth is having assets that earn while you sleep
+**Wealth is having assets that earn while you sleep**
 
-## Money is how we transfer time and wealth
+**Money is how we transfer time and wealth**
 
-## Status is your place in the social hierarchy
+**Status is your place in the social hierarchy**
 
 - Undestand **ethical wealth creation** is possible
 
