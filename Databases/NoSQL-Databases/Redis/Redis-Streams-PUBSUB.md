@@ -1,9 +1,5 @@
 # Redis Streams / PUBSUB
 
-Created: 2020-03-21 17:39:59 +0500
-
-Modified: 2022-05-30 14:45:55 +0500
-
 ---
 
 ## Messaging

@@ -1,9 +1,5 @@
 # CPU | GPU | TPU
 
-Created: 2018-10-07 14:50:15 +0500
-
-Modified: 2022-08-10 21:55:49 +0500
-
 ---
 
 MAC - Multiplier, Adder, Accumulator

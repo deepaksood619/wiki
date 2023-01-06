@@ -1,9 +1,5 @@
 # Outline of Knowledge
 
-Created: 2018-11-13 23:30:29 +0500
-
-Modified: 2022-07-25 13:48:47 +0500
-
 ---
 
 Knowledge is making the right choice with all the information.

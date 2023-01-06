@@ -1,9 +1,5 @@
 # Terms
 
-Created: 2020-03-01 22:57:02 +0500
-
-Modified: 2021-06-14 18:29:35 +0500
-
 ---
 
 ## RDDs, DataFrames, DataSets, Oh My

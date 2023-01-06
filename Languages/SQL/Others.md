@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-10-26 00:22:24 +0500
-
-Modified: 2021-12-01 16:12:34 +0500
-
 ---
 
 ## SQL CTEs (Common Table Expressions)

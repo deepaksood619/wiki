@@ -1,9 +1,5 @@
 # Book - Computer Networks
 
-Created: 2020-01-01 21:59:23 +0500
-
-Modified: 2020-01-01 22:24:49 +0500
-
 ---
 
 ## Andrew S Tanenbaum and DAVID J. WETHERALL - 5th Edition

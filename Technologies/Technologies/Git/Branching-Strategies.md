@@ -1,9 +1,5 @@
 # Branching Strategies
 
-Created: 2020-07-02 18:28:36 +0500
-
-Modified: 2021-03-09 20:20:53 +0500
-
 ---
 
 ## Note: Up until the first public release of a product, it absolutely makes sense to commit all changes directly to the main branch - even if you are a Git flow advocate - for the sake of the speed and simplicity of the development workflow. Since there's no production yet, there's no possibility of a production bug that the team needs to fix ASAP. Doing all the branching magic that classic Git flow implies is therefore overkill at this stage

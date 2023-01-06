@@ -1,9 +1,5 @@
 # Distributed Logging
 
-Created: 2018-09-13 18:44:15 +0500
-
-Modified: 2019-10-14 11:32:39 +0500
-
 ---
 
 ## Logs

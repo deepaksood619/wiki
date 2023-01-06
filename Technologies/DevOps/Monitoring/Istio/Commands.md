@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2019-12-17 14:31:05 +0500
-
-Modified: 2021-09-19 01:04:39 +0500
-
 ---
 
 curl -L <https://istio.io/downloadIstio> | sh - #installing istioctl

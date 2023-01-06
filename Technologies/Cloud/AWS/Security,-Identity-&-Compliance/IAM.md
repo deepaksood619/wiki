@@ -1,9 +1,5 @@
 # IAM
 
-Created: 2020-02-21 01:05:51 +0500
-
-Modified: 2022-11-23 23:14:40 +0500
-
 ---
 
 permission guardrails

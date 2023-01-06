@@ -1,9 +1,5 @@
 # Course - Data Storage and Processing - edX
 
-Created: 2020-03-24 13:21:46 +0500
-
-Modified: 2020-04-19 12:31:05 +0500
-
 ---
 
 Master the culture of data representation, interpretation and outcomes evaluation. Learn the fundamentals of relational and NoSQL database management systems.

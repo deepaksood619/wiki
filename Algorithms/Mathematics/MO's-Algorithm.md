@@ -1,9 +1,5 @@
 # MO's Algorithm
 
-Created: 2018-04-10 22:59:56 +0500
-
-Modified: 2020-09-18 09:55:57 +0500
-
 ---
 
 ## Query Square Root Decomposition

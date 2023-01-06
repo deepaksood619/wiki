@@ -1,9 +1,5 @@
 # Postman
 
-Created: 2020-04-08 23:59:58 +0500
-
-Modified: 2022-08-10 10:47:14 +0500
-
 ---
 
 ## Fake API REST Mocks Server Tests

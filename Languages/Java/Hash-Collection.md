@@ -1,9 +1,5 @@
 # Hash Collection
 
-Created: 2018-02-16 19:52:54 +0500
-
-Modified: 2018-10-14 08:58:52 +0500
-
 ---
 
 SparseArray

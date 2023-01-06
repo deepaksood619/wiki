@@ -1,9 +1,5 @@
 # CNCF
 
-Created: 2019-12-23 01:31:25 +0500
-
-Modified: 2019-12-23 01:31:52 +0500
-
 ---
 
 ## CNCF Landscape

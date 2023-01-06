@@ -1,9 +1,5 @@
 # Big Data Hadoop Stack
 
-Created: 2019-03-01 21:42:13 +0500
-
-Modified: 2022-01-07 12:24:48 +0500
-
 ---
 
 ## Hadoop

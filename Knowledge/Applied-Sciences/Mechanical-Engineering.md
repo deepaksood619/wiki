@@ -1,9 +1,5 @@
 # Mechanical Engineering
 
-Created: 2018-11-14 00:51:58 +0500
-
-Modified: 2022-12-07 08:01:44 +0500
-
 ---
 
 ## Outline

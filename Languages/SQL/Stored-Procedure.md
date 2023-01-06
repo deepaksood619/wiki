@@ -1,9 +1,5 @@
 # Stored Procedure
 
-Created: 2020-03-24 23:51:48 +0500
-
-Modified: 2022-01-15 21:33:49 +0500
-
 ---
 
 A **stored procedure** (also termed **proc, storp, sproc, StoPro, StoredProc, StoreProc, sp, or SP**) is a [subroutine](https://en.wikipedia.org/wiki/Subroutine) available to applications that access a [relational database management system](https://en.wikipedia.org/wiki/Relational_database_management_system)(RDBMS). Such procedures are stored in the database [data dictionary](https://en.wikipedia.org/wiki/Data_dictionary).

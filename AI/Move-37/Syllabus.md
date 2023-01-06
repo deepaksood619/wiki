@@ -1,9 +1,5 @@
 # Syllabus
 
-Created: 2018-09-04 12:08:56 +0500
-
-Modified: 2018-09-04 12:11:40 +0500
-
 ---
 
 1. Markov Decision Processes

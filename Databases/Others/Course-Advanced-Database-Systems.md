@@ -1,9 +1,5 @@
 # Course - Advanced Database Systems
 
-Created: 2020-04-19 23:43:01 +0500
-
-Modified: 2020-04-26 00:23:08 +0500
-
 ---
 
 1. Course Introduction and History of Databases

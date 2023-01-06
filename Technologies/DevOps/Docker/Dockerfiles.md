@@ -1,9 +1,5 @@
 # Dockerfiles
 
-Created: 2018-10-25 17:31:23 +0500
-
-Modified: 2021-03-14 16:08:40 +0500
-
 ---
 
 Creating portable images

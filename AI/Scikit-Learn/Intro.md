@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-08-17 11:54:36 +0500
-
-Modified: 2021-06-06 16:39:27 +0500
-
 ---
 
 - Simple and efficient tools for data mining and data analysis

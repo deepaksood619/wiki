@@ -1,9 +1,5 @@
 # DML - Data Manipulation Language
 
-Created: 2020-03-05 22:32:12 +0500
-
-Modified: 2021-10-16 00:46:32 +0500
-
 ---
 
 DML (Data Manipulation Language) commands [need to be](http://www.dba-oracle.com/t_dml_statements.htm) **commited/rolled back**

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-09-14 00:09:03 +0500
-
-Modified: 2020-01-02 21:13:19 +0500
-
 ---
 
 MCMC - Markov Chain Monte Carlo

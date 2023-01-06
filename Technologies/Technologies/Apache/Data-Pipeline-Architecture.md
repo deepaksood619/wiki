@@ -1,9 +1,5 @@
 # Data Pipeline Architecture
 
-Created: 2018-11-18 17:22:25 +0500
-
-Modified: 2020-02-12 13:20:28 +0500
-
 ---
 
 ![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image1.png)

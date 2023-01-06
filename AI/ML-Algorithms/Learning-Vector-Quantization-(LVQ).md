@@ -1,9 +1,5 @@
 # Learning Vector Quantization (LVQ)
 
-Created: 2018-06-29 11:10:35 +0500
-
-Modified: 2018-06-29 11:11:55 +0500
-
 ---
 
 Hi, adownside of K-Nearest Neighbors is that you need to hang on to your entire training dataset.

@@ -1,9 +1,5 @@
 # Apache Projects
 
-Created: 2018-10-03 17:14:07 +0500
-
-Modified: 2022-04-06 15:50:57 +0500
-
 ---
 
 - [HTTP Server](http://httpd.apache.org/)

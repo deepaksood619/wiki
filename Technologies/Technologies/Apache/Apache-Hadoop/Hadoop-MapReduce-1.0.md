@@ -1,9 +1,5 @@
 # Hadoop MapReduce 1.0
 
-Created: 2019-03-08 22:18:21 +0500
-
-Modified: 2021-04-28 16:28:15 +0500
-
 ---
 
 ## What is Map Reduce

@@ -1,9 +1,5 @@
 # Amazon S3
 
-Created: 2020-02-19 00:16:28 +0500
-
-Modified: 2022-07-06 19:23:57 +0500
-
 ---
 
 S3: More than 235 distributed microservices

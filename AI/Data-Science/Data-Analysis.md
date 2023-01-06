@@ -1,9 +1,5 @@
 # Data Analysis
 
-Created: 2020-03-26 17:40:07 +0500
-
-Modified: 2021-09-28 22:26:30 +0500
-
 ---
 
 <https://www.freecodecamp.org/learn/data-analysis-with-python>

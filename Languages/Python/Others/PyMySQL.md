@@ -1,9 +1,5 @@
 # PyMySQL
 
-Created: 2020-02-18 13:44:08 +0500
-
-Modified: 2021-03-20 13:29:38 +0500
-
 ---
 
 <https://github.com/PyMySQL/PyMySQL>

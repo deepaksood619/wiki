@@ -1,9 +1,5 @@
 # Indian States and UTs
 
-Created: 2020-01-05 17:16:34 +0500
-
-Modified: 2022-01-30 11:58:21 +0500
-
 ---
 
 [India](https://en.wikipedia.org/wiki/India) is a [federal](https://en.wikipedia.org/wiki/Federalism) union comprising 28 [states](https://en.wikipedia.org/wiki/Federated_state) and 9 [union territories](https://en.wikipedia.org/wiki/Union_territory), for a total of 37 entities. The states and union territories are further subdivided into [districts](https://en.wikipedia.org/wiki/List_of_districts_in_India) and smaller [administrative divisions](https://en.wikipedia.org/wiki/Administrative_divisions_of_India).

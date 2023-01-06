@@ -1,9 +1,5 @@
 # iOS
 
-Created: 2020-05-27 16:00:05 +0500
-
-Modified: 2020-06-08 15:25:30 +0500
-
 ---
 
 - Swift, Objective-C

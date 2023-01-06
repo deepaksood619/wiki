@@ -1,9 +1,5 @@
 # 365 Data Science Program
 
-Created: 2020-04-05 01:22:40 +0500
-
-Modified: 2022-12-11 19:24:37 +0500
-
 ---
 
 1. Intro to Data and Data Science

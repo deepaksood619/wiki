@@ -1,9 +1,5 @@
 # Mosh
 
-Created: 2018-12-29 10:07:04 +0500
-
-Modified: 2019-01-21 12:26:41 +0500
-
 ---
 
 Remote terminal application that allowsroaming, supportsintermittent connectivity, and provides intelligentlocal echoand line editing of user keystrokes.

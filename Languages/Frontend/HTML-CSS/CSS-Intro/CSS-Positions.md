@@ -1,9 +1,5 @@
 # CSS Positions
 
-Created: 2017-12-16 15:42:22 +0500
-
-Modified: 2021-11-29 13:46:55 +0500
-
 ---
 
 CSS Positions allow you to manipulate how elements are positioned to achieve many different visual effects.

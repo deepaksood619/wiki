@@ -1,9 +1,5 @@
 # Project Management
 
-Created: 2020-04-28 13:09:14 +0500
-
-Modified: 2022-05-05 23:51:21 +0500
-
 ---
 
 <https://blog.trello.com/project-management-methodologies>

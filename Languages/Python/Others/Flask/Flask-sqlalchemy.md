@@ -1,9 +1,5 @@
 # Flask-sqlalchemy
 
-Created: 2020-07-07 12:52:13 +0500
-
-Modified: 2020-08-19 16:25:43 +0500
-
 ---
 
 <https://github.com/pallets/flask-sqlalchemy>

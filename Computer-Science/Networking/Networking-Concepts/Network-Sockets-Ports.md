@@ -1,9 +1,5 @@
 # Network Sockets/Ports
 
-Created: 2019-09-28 13:27:16 +0500
-
-Modified: 2020-05-11 23:51:24 +0500
-
 ---
 
 # Network Sockets

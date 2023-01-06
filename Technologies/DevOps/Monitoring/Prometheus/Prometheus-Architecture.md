@@ -1,9 +1,5 @@
 # Prometheus Architecture
 
-Created: 2019-03-30 15:28:57 +0500
-
-Modified: 2019-07-03 12:44:42 +0500
-
 ---
 
 ## Components

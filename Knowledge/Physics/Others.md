@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-11-12 22:02:06 +0500
-
-Modified: 2022-02-26 13:16:27 +0500
-
 ---
 
 # Wave-particle duality

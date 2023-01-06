@@ -1,9 +1,5 @@
 # iperf3 Testing
 
-Created: 2020-07-18 00:11:49 +0500
-
-Modified: 2020-08-23 01:11:43 +0500
-
 ---
 
 ## iperf (Network throughput)

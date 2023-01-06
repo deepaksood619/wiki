@@ -1,9 +1,5 @@
 # Airflow Architecture
 
-Created: 2019-07-04 23:40:54 +0500
-
-Modified: 2021-03-24 22:18:17 +0500
-
 ---
 
 At its core, Airflow is simply a queuing system built on top of a metadata database. The database stores the state of queued tasks and a scheduler uses these states to prioritize how other tasks are added to the queue. This functionality is orchestrated by four primary components

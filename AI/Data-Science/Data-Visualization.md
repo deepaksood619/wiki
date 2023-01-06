@@ -1,9 +1,5 @@
 # Data Visualization
 
-Created: 2018-10-23 17:26:39 +0500
-
-Modified: 2021-09-14 23:12:00 +0500
-
 ---
 
 ## Exploratory and Explanatory visualization

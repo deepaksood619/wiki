@@ -1,9 +1,5 @@
 # Personality
 
-Created: 2020-04-28 21:08:10 +0500
-
-Modified: 2022-11-30 14:34:56 +0500
-
 ---
 
 MBTI - Myers-Briggs Type Indicator for personality test

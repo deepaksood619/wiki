@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-01-20 12:30:30 +0500
-
-Modified: 2022-03-13 16:54:15 +0500
-
 ---
 
 ## IPFS (InterPlanatery File System)

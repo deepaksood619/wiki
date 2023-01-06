@@ -1,9 +1,5 @@
 # Operations
 
-Created: 2020-06-03 13:25:08 +0500
-
-Modified: 2020-06-09 11:31:36 +0500
-
 ---
 
 ## Load Balancer

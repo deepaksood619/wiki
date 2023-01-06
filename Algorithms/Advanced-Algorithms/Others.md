@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-11-03 22:27:53 +0500
-
-Modified: 2021-12-18 13:58:43 +0500
-
 ---
 
 ## Streaming and Sketching Algorithms

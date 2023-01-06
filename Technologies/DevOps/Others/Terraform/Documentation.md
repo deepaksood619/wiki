@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2020-02-11 17:46:58 +0500
-
-Modified: 2020-02-11 19:03:05 +0500
-
 ---
 
 ## Providers

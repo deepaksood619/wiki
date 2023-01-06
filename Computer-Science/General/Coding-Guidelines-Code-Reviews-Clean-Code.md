@@ -1,9 +1,5 @@
 # Coding Guidelines / Code Reviews / Clean Code
 
-Created: 2020-10-10 18:58:58 +0500
-
-Modified: 2022-12-09 23:51:56 +0500
-
 ---
 
 Code reviews are fundamental to the software development process, even when there's only one engineer.

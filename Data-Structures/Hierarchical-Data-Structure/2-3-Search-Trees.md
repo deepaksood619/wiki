@@ -1,9 +1,5 @@
 # 2-3 Search Trees
 
-Created: 2018-02-05 19:33:10 +0500
-
-Modified: 2018-05-21 23:01:07 +0500
-
 ---
 
 ## Properties

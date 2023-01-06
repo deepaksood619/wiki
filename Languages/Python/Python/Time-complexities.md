@@ -1,9 +1,5 @@
 # Time complexities
 
-Created: 2019-10-01 17:05:42 +0500
-
-Modified: 2020-01-01 22:52:01 +0500
-
 ---
 
 ## list

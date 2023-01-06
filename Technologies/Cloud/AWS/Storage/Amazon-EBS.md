@@ -1,9 +1,5 @@
 # Amazon EBS
 
-Created: 2020-08-12 15:13:40 +0500
-
-Modified: 2020-12-24 15:53:49 +0500
-
 ---
 
 ## Amazon EBS Snapshot

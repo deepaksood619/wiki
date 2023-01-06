@@ -1,9 +1,5 @@
 # Mistakes
 
-Created: 2019-01-02 20:08:59 +0500
-
-Modified: 2019-09-30 10:34:30 +0500
-
 ---
 
 ## Usage Mistakes

@@ -1,9 +1,5 @@
 # Shell Sort
 
-Created: 2018-02-02 10:09:54 +0500
-
-Modified: 2019-12-23 00:02:40 +0500
-
 ---
 
 - In-place comparison sort

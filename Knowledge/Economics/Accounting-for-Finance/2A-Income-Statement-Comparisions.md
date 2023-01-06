@@ -1,9 +1,5 @@
 # 2A Income Statement Comparisions
 
-Created: 2020-09-06 02:06:33 +0500
-
-Modified: 2021-12-22 21:19:51 +0500
-
 ---
 
 ## Income Statement: A Life Cycle Perspective

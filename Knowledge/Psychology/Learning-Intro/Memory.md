@@ -1,9 +1,5 @@
 # Memory
 
-Created: 2018-04-07 00:01:15 +0500
-
-Modified: 2022-05-17 12:24:27 +0500
-
 ---
 
 Brain have a visual spatial center - Therefore images are stored very efficiently.

@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2017-09-10 23:39:56 +0500
-
-Modified: 2021-11-19 17:52:17 +0500
-
 ---
 
 Dynamic Programming is an algorithmic paradigm that solves a given complex problem by breaking it into subproblems and stores the results of subproblems to avoid computing the same results again.

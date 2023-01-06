@@ -1,9 +1,5 @@
 # AMQP
 
-Created: 2018-04-24 11:34:42 +0500
-
-Modified: 2019-12-22 16:48:01 +0500
-
 ---
 
 ## Advanced Message Queuing Protocol (AMQP)

@@ -1,9 +1,5 @@
 # (2) System Calls
 
-Created: 2019-06-27 12:16:54 +0500
-
-Modified: 2019-11-17 23:17:01 +0500
-
 ---
 
 ## man syscalls

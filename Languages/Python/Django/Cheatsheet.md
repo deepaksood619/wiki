@@ -1,9 +1,5 @@
 # Cheatsheet
 
-Created: 2018-03-16 22:40:34 +0500
-
-Modified: 2021-10-02 12:54:48 +0500
-
 ---
 
 ![image](media/Cheatsheet-image1.png)

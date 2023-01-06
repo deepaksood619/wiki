@@ -1,9 +1,5 @@
 # Feature Toggles / Flags
 
-Created: 2019-09-03 22:06:56 +0500
-
-Modified: 2019-09-04 10:15:32 +0500
-
 ---
 
 Afeature toggle(alsofeature switch, feature flag, feature flipper, conditional feature, etc.) is a technique in [software development](https://en.wikipedia.org/wiki/Software_development) that attempts to provide an alternative to maintaining multiple [source-code](https://en.wikipedia.org/wiki/Source_code) branches (known as feature branches), such that a feature can be tested even before it is completed and ready for release. Feature toggle is used to hide, enable or disable the feature during run time. For example, during the development process, a developer can enable the feature for testing and disable it for other users.

@@ -1,9 +1,5 @@
 # Exponential Smoothing
 
-Created: 2019-06-08 16:09:45 +0500
-
-Modified: 2021-09-14 23:14:52 +0500
-
 ---
 
 Exponential smoothingis a [rule of thumb](https://en.wikipedia.org/wiki/Rule_of_thumb) technique for smoothing [time series](https://en.wikipedia.org/wiki/Time_series) data using the exponential [window function](https://en.wikipedia.org/wiki/Window_function). Whereas in the [simple moving average](https://en.wikipedia.org/wiki/Simple_moving_average) the past observations are weighted equally, exponential functions are used to assign exponentially decreasing weights over time. It is an easily learned and easily applied procedure for making some determination based on prior assumptions by the user, such as seasonality. Exponential smoothing is often used for analysis of time-series data.

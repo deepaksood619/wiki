@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-03-27 01:07:52 +0500
-
-Modified: 2022-01-27 18:29:02 +0500
-
 ---
 
 ## Interface Definition Languages

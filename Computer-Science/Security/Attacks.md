@@ -1,9 +1,5 @@
 # Attacks
 
-Created: 2018-04-26 23:52:19 +0500
-
-Modified: 2022-04-23 12:01:26 +0500
-
 ---
 
 ## Types of Security Attacks

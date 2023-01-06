@@ -1,9 +1,5 @@
 # N-Tier Application Architecture
 
-Created: 2020-08-17 19:59:42 +0500
-
-Modified: 2020-08-31 01:27:07 +0500
-
 ---
 
 An N-tier architecture divides an application intological layersandphysical tiers.

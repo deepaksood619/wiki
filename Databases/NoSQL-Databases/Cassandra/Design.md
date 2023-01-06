@@ -1,9 +1,5 @@
 # Design
 
-Created: 2019-04-21 13:14:47 +0500
-
-Modified: 2020-01-04 11:38:21 +0500
-
 ---
 
 ## Partitioner

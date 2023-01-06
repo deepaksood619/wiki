@@ -1,9 +1,5 @@
 # Internals
 
-Created: 2020-03-22 21:22:08 +0500
-
-Modified: 2020-03-22 21:27:06 +0500
-
 ---
 
 ## Why is NumPy Faster?

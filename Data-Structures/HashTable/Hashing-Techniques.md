@@ -1,9 +1,5 @@
 # Hashing Techniques
 
-Created: 2020-01-20 18:15:29 +0500
-
-Modified: 2020-12-27 15:51:16 +0500
-
 ---
 
 1. **Separate chaining (open hashing)**

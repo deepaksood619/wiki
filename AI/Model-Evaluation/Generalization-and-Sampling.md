@@ -1,9 +1,5 @@
 # Generalization and Sampling
 
-Created: 2018-07-02 02:31:51 +0500
-
-Modified: 2021-06-19 14:19:55 +0500
-
 ---
 
 ## Learn how to

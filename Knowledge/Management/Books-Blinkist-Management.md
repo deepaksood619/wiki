@@ -1,9 +1,5 @@
 # Books / Blinkist Management
 
-Created: 2018-12-23 15:00:06 +0500
-
-Modified: 2022-11-07 23:05:10 +0500
-
 ---
 
 ## Books

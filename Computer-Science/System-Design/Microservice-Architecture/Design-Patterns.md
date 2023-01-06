@@ -1,9 +1,5 @@
 # Design Patterns
 
-Created: 2020-07-23 16:30:51 +0500
-
-Modified: 2021-12-28 21:45:09 +0500
-
 ---
 
 ## Design Patterns of Microservices

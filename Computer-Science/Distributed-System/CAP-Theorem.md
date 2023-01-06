@@ -1,9 +1,5 @@
 # CAP Theorem
 
-Created: 2019-04-21 13:20:23 +0500
-
-Modified: 2021-09-05 15:32:05 +0500
-
 ---
 
 ## Proposed by Eric Brewer (Berkeley)

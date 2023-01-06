@@ -1,9 +1,5 @@
 # Telegraf
 
-Created: 2018-05-17 17:03:08 +0500
-
-Modified: 2019-12-27 12:08:41 +0500
-
 ---
 
 Telegraf is an agent written in Go for collecting, processing, aggregating, and writing metrics.

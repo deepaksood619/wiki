@@ -1,9 +1,5 @@
 # Regular Expressions
 
-Created: 2017-11-25 00:04:27 +0500
-
-Modified: 2018-03-30 16:54:31 +0500
-
 ---
 
 ## Pythons Metacharacters

@@ -1,9 +1,5 @@
 # Airflow
 
-Created: 2019-07-02 18:28:30 +0500
-
-Modified: 2022-12-07 16:16:55 +0500
-
 ---
 
 Airflow is a platform to programmatically author, schedule and monitor workflows.

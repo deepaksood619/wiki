@@ -1,9 +1,5 @@
 # Other Topics
 
-Created: 2018-05-16 16:26:41 +0500
-
-Modified: 2022-11-12 18:59:18 +0500
-
 ---
 
 ## The model layer

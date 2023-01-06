@@ -1,9 +1,5 @@
 # Undirected Graph
 
-Created: 2018-02-08 16:57:53 +0500
-
-Modified: 2018-05-21 23:25:33 +0500
-
 ---
 
 ## Undirected Graphs

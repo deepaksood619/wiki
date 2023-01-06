@@ -1,9 +1,5 @@
 # Examples
 
-Created: 2019-01-01 23:13:21 +0500
-
-Modified: 2019-01-01 23:32:49 +0500
-
 ---
 
 1. Check if a number is power of two

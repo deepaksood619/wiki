@@ -1,9 +1,5 @@
 # DeFi Decentralized Finance
 
-Created: 2018-04-01 21:58:10 +0500
-
-Modified: 2022-03-14 20:48:37 +0500
-
 ---
 
 ## Decentralized Finance - DeFi

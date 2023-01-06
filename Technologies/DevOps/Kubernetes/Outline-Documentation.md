@@ -1,9 +1,5 @@
 # Outline Documentation
 
-Created: 2019-01-29 11:24:47 +0500
-
-Modified: 2020-09-01 23:41:05 +0500
-
 ---
 
 1. Overview

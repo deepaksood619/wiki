@@ -1,9 +1,5 @@
 # Vulnerabilities
 
-Created: 2019-06-09 01:49:38 +0500
-
-Modified: 2022-08-27 01:09:01 +0500
-
 ---
 
 1. Spectre

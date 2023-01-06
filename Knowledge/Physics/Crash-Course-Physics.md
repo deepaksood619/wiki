@@ -1,9 +1,5 @@
 # Crash Course Physics
 
-Created: 2018-09-26 23:05:37 +0500
-
-Modified: 2018-09-26 23:33:44 +0500
-
 ---
 
 1. Motion in a Straight Line

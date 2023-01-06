@@ -1,9 +1,5 @@
 # Defining Constants
 
-Created: 2017-10-24 16:30:38 +0500
-
-Modified: 2018-12-04 13:27:08 +0500
-
 ---
 
 ```java

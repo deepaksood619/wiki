@@ -1,9 +1,5 @@
 # Insertion Sort
 
-Created: 2018-02-02 10:00:56 +0500
-
-Modified: 2020-06-18 10:48:30 +0500
-
 ---
 
 Insertion sorttakes elements of the array sequentially, and maintains a sorted subarray to the left of the current point. It does this by taking an element, finding its correct position in the sorted array, and shifting all following elements by 1, leaving a space for the element to be inserted.

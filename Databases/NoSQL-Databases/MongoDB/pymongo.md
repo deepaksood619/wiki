@@ -1,9 +1,5 @@
 # pymongo
 
-Created: 2020-07-26 13:11:52 +0500
-
-Modified: 2021-06-22 17:14:44 +0500
-
 ---
 
 <https://github.com/mongodb/mongo-python-driver>

@@ -1,9 +1,5 @@
 # Exercise / Stretching
 
-Created: 2019-09-19 08:22:46 +0500
-
-Modified: 2022-04-13 23:33:08 +0500
-
 ---
 
 Your entire life happens inside your body. It's the one home you will always occupy and can never sell.

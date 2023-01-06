@@ -1,9 +1,5 @@
 # Fraud Features
 
-Created: 2022-07-27 11:42:33 +0500
-
-Modified: 2022-07-27 11:45:26 +0500
-
 ---
 
 | Data Features |                                       |

@@ -1,9 +1,5 @@
 # How to find DP
 
-Created: 2018-02-15 09:39:09 +0500
-
-Modified: 2018-02-15 20:01:38 +0500
-
 ---
 
 ## Steps to solve a DP

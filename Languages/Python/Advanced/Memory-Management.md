@@ -1,9 +1,5 @@
 # Memory Management
 
-Created: 2019-08-11 19:00:33 +0500
-
-Modified: 2020-10-22 21:51:36 +0500
-
 ---
 
 Everything in Python is an object. Some objects can hold other objects, such as lists, tuples, dicts, classes, etc. Because of dynamic Python's nature, such approach requires a lot of small memory allocations. To speed-up memory operations and reduce fragmentation Python uses a special manager on top of the general-purpose allocator, called PyMalloc.

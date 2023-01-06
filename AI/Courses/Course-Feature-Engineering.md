@@ -1,9 +1,5 @@
 # Course - Feature Engineering
 
-Created: 2018-07-04 01:55:46 +0500
-
-Modified: 2021-06-19 14:21:49 +0500
-
 ---
 
 Introduction

@@ -1,9 +1,5 @@
 # Firebase Analytics
 
-Created: 2020-10-20 16:18:05 +0500
-
-Modified: 2021-11-09 19:29:59 +0500
-
 ---
 
 ## Jan 8 2020 <https://medium.com/firebase-developers/google-analytics-vs-firebase-analytics-vs-google-analytics-97ca645a8aff>

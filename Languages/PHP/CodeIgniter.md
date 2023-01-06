@@ -1,9 +1,5 @@
 # CodeIgniter
 
-Created: 2020-02-08 19:42:21 +0500
-
-Modified: 2020-11-02 15:25:24 +0500
-
 ---
 
 CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications. CodeIgniter was created by EllisLab, and is now a project of the British Columbia Institute of Technology.

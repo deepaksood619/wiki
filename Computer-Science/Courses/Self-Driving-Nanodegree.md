@@ -1,9 +1,5 @@
 # Self-Driving Nanodegree
 
-Created: 2019-03-05 19:53:27 +0500
-
-Modified: 2022-01-29 18:45:02 +0500
-
 ---
 
 ## Part - 1

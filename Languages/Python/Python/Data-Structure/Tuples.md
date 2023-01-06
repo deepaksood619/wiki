@@ -1,9 +1,5 @@
 # Tuples
 
-Created: 2017-11-14 12:28:23 +0500
-
-Modified: 2018-04-08 11:54:10 +0500
-
 ---
 
 ## Properties

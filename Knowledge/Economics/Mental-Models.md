@@ -1,9 +1,5 @@
 # Mental Models
 
-Created: 2019-03-16 18:24:42 +0500
-
-Modified: 2022-09-04 15:05:18 +0500
-
 ---
 
 ## To read

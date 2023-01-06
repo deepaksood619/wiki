@@ -1,9 +1,5 @@
 # Concentration / Mindfulness / Attention / Focus / Hard Work
 
-Created: 2018-06-28 01:13:46 +0500
-
-Modified: 2022-10-17 23:17:58 +0500
-
 ---
 
 I think, therefore I am distracted.

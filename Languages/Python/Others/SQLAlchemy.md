@@ -1,9 +1,5 @@
 # SQLAlchemy
 
-Created: 2021-03-20 13:29:22 +0500
-
-Modified: 2022-03-15 22:11:33 +0500
-
 ---
 
 ## Alchemist

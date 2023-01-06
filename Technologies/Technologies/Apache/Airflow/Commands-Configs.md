@@ -1,9 +1,5 @@
 # Commands / Configs
 
-Created: 2019-08-02 10:37:41 +0500
-
-Modified: 2020-09-26 15:24:39 +0500
-
 ---
 
 ```python

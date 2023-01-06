@@ -1,9 +1,5 @@
 # Installing Kafka
 
-Created: 2019-04-03 16:18:15 +0500
-
-Modified: 2019-04-03 16:19:26 +0500
-
 ---
 
 - A Zookeeper cluster is called an *ensemble*, it is recommended that ensembles contain an odd number of servers

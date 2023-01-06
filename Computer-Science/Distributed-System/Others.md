@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-06-27 17:04:54 +0500
-
-Modified: 2020-03-26 00:33:29 +0500
-
 ---
 
 ## CRDTs (Conflict-free Replicated Data Types)

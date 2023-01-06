@@ -1,9 +1,5 @@
 # General
 
-Created: 2020-11-08 21:57:46 +0500
-
-Modified: 2021-10-17 20:04:32 +0500
-
 ---
 
 ## Subject Object Verbs

@@ -1,9 +1,5 @@
 # Dash
 
-Created: 2018-11-30 12:52:16 +0500
-
-Modified: 2018-11-30 12:52:39 +0500
-
 ---
 
 Dash is a productive Python framework for building web applications.

@@ -1,9 +1,5 @@
 # Community Building
 
-Created: 2021-12-13 19:08:31 +0500
-
-Modified: 2022-02-19 22:56:55 +0500
-
 ---
 
 Companies like Atlassian, Glossier, Datadog, Twitch, dbt, Salesforce, Peloton, and many others have succeeded in large part due to the passionate community they built around their early products. A thriving community creates a sticky and evangelical user base, becomes a great source of ideas, and can even become a clever way to scale customer support (e.g. Airbnb):

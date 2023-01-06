@@ -1,9 +1,5 @@
 # Right Triangles and Geometry
 
-Created: 2018-05-24 16:04:43 +0500
-
-Modified: 2018-05-26 00:40:01 +0500
-
 ---
 
 1. [Pythagorean theorem](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-pyth-theorem)

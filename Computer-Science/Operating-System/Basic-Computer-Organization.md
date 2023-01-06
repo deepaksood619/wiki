@@ -1,9 +1,5 @@
 # Basic Computer Organization
 
-Created: 2019-08-04 17:06:01 +0500
-
-Modified: 2022-03-02 20:32:11 +0500
-
 ---
 
 ## Instruction Execution Cycle

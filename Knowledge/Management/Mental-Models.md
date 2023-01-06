@@ -1,9 +1,5 @@
 # Mental Models
 
-Created: 2020-06-20 02:09:32 +0500
-
-Modified: 2022-05-13 15:32:06 +0500
-
 ---
 
 - (1)[Weekly 1--1s](https://www.quora.com/What-are-some-good-tips-for-1-1s-with-your-employees)--- "1--1's can add a whole new level of speed and agility to your company."

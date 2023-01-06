@@ -1,9 +1,5 @@
 # Topological Sort Algorithm
 
-Created: 2018-03-12 22:34:02 +0500
-
-Modified: 2018-05-22 19:25:10 +0500
-
 ---
 
 ## Acyclic Edge Weighted Digraphs

@@ -1,9 +1,5 @@
 # Wordpress
 
-Created: 2022-01-27 22:27:00 +0500
-
-Modified: 2022-07-31 12:20:16 +0500
-
 ---
 
 <https://wordpress.com/home/deepaksood619.wordpress.com>

@@ -1,9 +1,5 @@
 # Merkle Trees
 
-Created: 2018-09-08 17:33:06 +0500
-
-Modified: 2021-12-29 00:11:04 +0500
-
 ---
 
 A merkle tree, also known as a binary hash tree, is a data structure used for efficiently summarizing and verifying the integrity of large sets of data.

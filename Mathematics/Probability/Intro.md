@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-08-06 16:05:35 +0500
-
-Modified: 2021-10-24 18:17:43 +0500
-
 ---
 
 ## Two types of probability

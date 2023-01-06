@@ -1,9 +1,5 @@
 # File IO
 
-Created: 2018-02-14 11:05:12 +0500
-
-Modified: 2020-08-24 00:14:44 +0500
-
 ---
 
 <https://towardsdatascience.com/knowing-these-you-can-cover-99-of-file-operations-in-python-84725d82c2df>

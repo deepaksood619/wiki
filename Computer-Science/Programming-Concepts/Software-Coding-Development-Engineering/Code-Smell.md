@@ -1,9 +1,5 @@
 # Code Smell
 
-Created: 2020-10-25 23:52:00 +0500
-
-Modified: 2020-10-25 23:53:18 +0500
-
 ---
 
 In [computer programming](https://www.wikiwand.com/en/Computer_programming), acode smellis any characteristic in the [source code](https://www.wikiwand.com/en/Source_code) of a [program](https://www.wikiwand.com/en/Computer_program) that possibly indicates a deeper problem.Determining what is and is not a code smell is subjective, and varies by language, developer, and development methodology.

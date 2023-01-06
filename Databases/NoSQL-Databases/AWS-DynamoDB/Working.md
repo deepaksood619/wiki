@@ -1,9 +1,5 @@
 # Working
 
-Created: 2020-02-16 23:31:05 +0500
-
-Modified: 2022-01-08 22:57:30 +0500
-
 ---
 
 ## DynamoDB Item Sizes

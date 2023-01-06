@@ -1,9 +1,5 @@
 # Types of algorithms
 
-Created: 2017-09-07 17:14:15 +0500
-
-Modified: 2021-09-14 22:52:18 +0500
-
 ---
 
 1. Simple recursive algorithms

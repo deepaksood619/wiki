@@ -1,9 +1,5 @@
 # DS Intro
 
-Created: 2018-01-12 08:56:09 +0500
-
-Modified: 2021-06-06 16:40:07 +0500
-
 ---
 
 1. **Implicit Data Structure -**

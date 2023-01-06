@@ -1,9 +1,5 @@
 # History
 
-Created: 2020-04-19 16:40:35 +0500
-
-Modified: 2020-08-18 23:26:22 +0500
-
 ---
 
 ![image](media/History-image1.png)

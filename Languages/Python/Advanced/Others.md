@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-05-21 13:16:55 +0500
-
-Modified: 2022-01-06 10:11:02 +0500
-
 ---
 
 ## The priority of how methods are resolved is from left to right

@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2019-12-22 16:17:04 +0500
-
-Modified: 2021-06-06 16:39:41 +0500
-
 ---
 
 ## Installation

@@ -1,9 +1,5 @@
 # Mental Models
 
-Created: 2019-03-02 17:46:34 +0500
-
-Modified: 2022-09-10 13:30:47 +0500
-
 ---
 
 ## Mental Models in Science

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-03-30 02:32:04 +0500
-
-Modified: 2021-06-14 17:21:47 +0500
-
 ---
 
 ## Optimization

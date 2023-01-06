@@ -1,9 +1,5 @@
 # NumPy Reference
 
-Created: 2018-05-14 16:25:58 +0500
-
-Modified: 2021-04-01 23:39:44 +0500
-
 ---
 
 - [**Array objects**](https://docs.scipy.org/doc/numpy/reference/arrays.html)

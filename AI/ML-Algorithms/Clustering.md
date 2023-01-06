@@ -1,9 +1,5 @@
 # Clustering
 
-Created: 2019-04-21 13:08:10 +0500
-
-Modified: 2022-09-09 12:20:13 +0500
-
 ---
 
 <https://www.toptal.com/clustering/clustering-metrics-for-comparison>

@@ -1,9 +1,5 @@
 # Valuation Metrics
 
-Created: 2022-03-11 11:51:35 +0500
-
-Modified: 2022-03-11 12:38:21 +0500
-
 ---
 
 [4 Most Popular Valuation Metrics That Every Investor Must Know | ET Money](https://www.youtube.com/watch?v=kqNaY3woTeE)

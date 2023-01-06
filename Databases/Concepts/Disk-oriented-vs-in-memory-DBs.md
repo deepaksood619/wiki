@@ -1,9 +1,5 @@
 # Disk oriented vs in-memory DBs
 
-Created: 2019-12-24 16:00:43 +0500
-
-Modified: 2020-04-19 19:36:21 +0500
-
 ---
 
 ## Background

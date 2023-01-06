@@ -1,9 +1,5 @@
 # Redux
 
-Created: 2018-03-24 11:38:34 +0500
-
-Modified: 2022-07-31 12:18:12 +0500
-
 ---
 
 Redux is a library which controls the state of your JavaScript application. It provides a "unidirectional data flow" that helps to manage and organise data better and makes debugging a lot easier.

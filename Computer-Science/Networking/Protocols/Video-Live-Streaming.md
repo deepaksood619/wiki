@@ -1,9 +1,5 @@
 # Video / Live Streaming
 
-Created: 2018-06-25 01:09:35 +0500
-
-Modified: 2022-08-18 15:27:11 +0500
-
 ---
 
 ## Tools

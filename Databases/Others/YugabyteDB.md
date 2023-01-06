@@ -1,9 +1,5 @@
 # YugabyteDB
 
-Created: 2020-07-25 17:13:10 +0500
-
-Modified: 2020-07-25 17:26:19 +0500
-
 ---
 
 YugabyteDB is a high-performance, cloud-native distributed SQL database that aims to support all PostgreSQL features. It is best fit for cloud-native OLTP (i.e. real-time, business critical) applications that need absolute data correctness and require at least one of the following: scalability, high tolerance to failures, globally-distributed deployments.

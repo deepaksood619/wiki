@@ -1,9 +1,5 @@
 # 365 DS - Mathematics
 
-Created: 2020-04-14 03:32:19 +0500
-
-Modified: 2020-04-14 03:32:34 +0500
-
 ---
 
 ## Introduction to Linear Algebra

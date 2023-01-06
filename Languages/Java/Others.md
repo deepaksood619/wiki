@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-02-17 14:09:46 +0500
-
-Modified: 2019-12-22 16:09:25 +0500
-
 ---
 
 Jshell for java REPL (Read-Eval-Print Loop, interactive toplevel or language shell)

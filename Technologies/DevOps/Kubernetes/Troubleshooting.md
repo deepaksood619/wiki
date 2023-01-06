@@ -1,9 +1,5 @@
 # Troubleshooting
 
-Created: 2019-12-07 04:55:28 +0500
-
-Modified: 2020-06-29 03:23:46 +0500
-
 ---
 
 [Linux BPF CPU Profiling with kubectl on Microsoft Azure Kubernetes (AKS)](https://www.youtube.com/watch?v=TMwHWofbMtY)

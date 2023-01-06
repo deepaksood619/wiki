@@ -1,9 +1,5 @@
 # Knowledge
 
-Created: 2018-07-18 19:38:31 +0500
-
-Modified: 2018-07-18 19:45:25 +0500
-
 ---
 
 - Parent class can hold child class reference but not vice-versa

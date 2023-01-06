@@ -1,9 +1,5 @@
 # Tips
 
-Created: 2019-05-02 12:15:27 +0500
-
-Modified: 2021-12-18 12:35:49 +0500
-
 ---
 
 <https://en.wikipedia.org/wiki/List_of_mnemonics>

@@ -1,9 +1,5 @@
 # Redis
 
-Created: 2019-05-08 16:24:51 +0500
-
-Modified: 2022-12-11 13:47:19 +0500
-
 ---
 
 ## Redis (Remote Dictionary Service)

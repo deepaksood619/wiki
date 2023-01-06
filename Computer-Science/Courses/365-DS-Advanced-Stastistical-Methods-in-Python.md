@@ -1,9 +1,5 @@
 # 365 DS - Advanced Stastistical Methods in Python
 
-Created: 2020-04-14 03:20:46 +0500
-
-Modified: 2020-04-14 03:26:25 +0500
-
 ---
 
 ## Linear regression

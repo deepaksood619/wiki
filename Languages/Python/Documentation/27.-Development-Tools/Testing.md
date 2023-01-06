@@ -1,9 +1,5 @@
 # Testing
 
-Created: 2020-08-23 01:04:32 +0500
-
-Modified: 2021-03-20 13:31:05 +0500
-
 ---
 
 1. Create your inputs

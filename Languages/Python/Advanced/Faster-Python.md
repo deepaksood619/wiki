@@ -1,9 +1,5 @@
 # Faster Python
 
-Created: 2018-05-27 11:57:48 +0500
-
-Modified: 2022-02-01 14:55:17 +0500
-
 ---
 
 1. Line Profiling

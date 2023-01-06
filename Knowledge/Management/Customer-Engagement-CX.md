@@ -1,9 +1,5 @@
 # Customer Engagement / CX
 
-Created: 2020-05-05 00:12:42 +0500
-
-Modified: 2022-12-08 12:48:19 +0500
-
 ---
 
 When it comes to payments and finances, customers are anxious and impatient when they encounter issues.

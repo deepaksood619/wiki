@@ -1,9 +1,5 @@
 # Networking
 
-Created: 2018-12-19 20:43:36 +0500
-
-Modified: 2021-07-07 01:23:17 +0500
-
 ---
 
 # Container Networking Model CNM

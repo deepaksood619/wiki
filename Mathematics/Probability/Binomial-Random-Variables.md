@@ -1,9 +1,5 @@
 # Binomial Random Variables
 
-Created: 2018-05-14 19:49:19 +0500
-
-Modified: 2021-10-20 20:45:05 +0500
-
 ---
 
 1. Binomial Random Variables

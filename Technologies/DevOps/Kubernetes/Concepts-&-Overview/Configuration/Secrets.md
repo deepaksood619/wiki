@@ -1,9 +1,5 @@
 # Secrets
 
-Created: 2020-07-09 16:08:22 +0500
-
-Modified: 2020-08-05 14:27:40 +0500
-
 ---
 
 Kubernetes Secrets let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. Storing confidential information in a Secret is safer and more flexible than putting it verbatim in a [Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) definition or in a [container image](https://kubernetes.io/docs/reference/glossary/?all=true#term-image).

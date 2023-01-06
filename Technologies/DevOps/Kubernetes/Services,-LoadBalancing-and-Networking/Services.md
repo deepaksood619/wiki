@@ -1,9 +1,5 @@
 # Services
 
-Created: 2019-03-20 12:47:40 +0500
-
-Modified: 2020-05-11 13:04:19 +0500
-
 ---
 
 A Kubernetes **Service** is an abstraction which defines a logical set of **Pods** and a policy by which to access them - sometimes called a micro-service.

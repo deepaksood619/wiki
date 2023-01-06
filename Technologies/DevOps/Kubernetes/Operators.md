@@ -1,9 +1,5 @@
 # Operators
 
-Created: 2019-01-15 20:38:29 +0500
-
-Modified: 2020-06-06 23:14:40 +0500
-
 ---
 
 <https://operatorhub.io>

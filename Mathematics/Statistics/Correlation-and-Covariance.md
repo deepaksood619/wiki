@@ -1,9 +1,5 @@
 # Correlation and Covariance
 
-Created: 2018-07-31 23:53:24 +0500
-
-Modified: 2021-10-19 20:39:43 +0500
-
 ---
 
 ## Data Relationships

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-07-22 22:21:29 +0500
-
-Modified: 2022-12-11 14:20:19 +0500
-
 ---
 
 <https://github.com/pallets/flask/tree/1.1.2/examples/tutorial>

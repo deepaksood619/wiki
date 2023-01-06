@@ -1,9 +1,5 @@
 # Apache Zookeeper
 
-Created: 2018-10-04 18:09:50 +0500
-
-Modified: 2021-01-29 02:25:12 +0500
-
 ---
 
 Apache Zookeeper is a distributed, open-source configuration, synchronization service along with naming registry for distributed applications.

@@ -1,9 +1,5 @@
 # Alternate Coordinate systems (bases)
 
-Created: 2018-05-24 02:27:07 +0500
-
-Modified: 2018-05-24 15:19:46 +0500
-
 ---
 
 1. [Orthogonal complements](https://www.khanacademy.org/math/linear-algebra/alternate-bases#othogonal-complements)

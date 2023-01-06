@@ -1,9 +1,5 @@
 # Predictive Analytics 1
 
-Created: 2019-04-21 13:04:22 +0500
-
-Modified: 2021-10-10 19:16:26 +0500
-
 ---
 
 ## Preface

@@ -1,9 +1,5 @@
 # Database Workloads
 
-Created: 2018-02-06 10:56:25 +0500
-
-Modified: 2020-03-01 00:04:42 +0500
-
 ---
 
 ## OLTP (On-line Transaction Processing)

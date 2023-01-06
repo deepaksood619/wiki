@@ -1,9 +1,5 @@
 # Databases
 
-Created: 2020-12-15 22:39:11 +0500
-
-Modified: 2020-12-15 22:45:01 +0500
-
 ---
 
 1. SnowFlake

@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2018-12-09 22:16:15 +0500
-
-Modified: 2019-03-13 11:04:51 +0500
-
 ---
 
 `git clone -b master <https://github.com/emqx/emqx-docker.git>`

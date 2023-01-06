@@ -1,9 +1,5 @@
 # Libraries
 
-Created: 2019-12-22 16:09:28 +0500
-
-Modified: 2020-02-14 11:39:01 +0500
-
 ---
 
 ## jvisualvm

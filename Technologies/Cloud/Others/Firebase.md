@@ -1,9 +1,5 @@
 # Firebase
 
-Created: 2020-10-05 18:03:21 +0500
-
-Modified: 2022-02-15 15:36:51 +0500
-
 ---
 
 ## Google Signals

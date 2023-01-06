@@ -1,9 +1,5 @@
 # Array
 
-Created: 2018-01-30 21:40:03 +0500
-
-Modified: 2020-01-21 16:14:25 +0500
-
 ---
 
 ## Points to remember

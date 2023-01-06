@@ -1,9 +1,5 @@
 # DateTime
 
-Created: 2017-11-18 17:34:35 +0500
-
-Modified: 2021-05-07 11:23:41 +0500
-
 ---
 
 ## Concepts

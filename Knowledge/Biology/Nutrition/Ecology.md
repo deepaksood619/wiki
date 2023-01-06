@@ -1,9 +1,5 @@
 # Ecology
 
-Created: 2018-09-24 09:37:57 +0500
-
-Modified: 2022-02-07 20:19:55 +0500
-
 ---
 
 Troglobites - animals that live in cave

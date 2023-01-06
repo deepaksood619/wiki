@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2019-03-21 19:51:38 +0500
-
-Modified: 2021-12-31 13:16:14 +0500
-
 ---
 
 CRUD - Create, Read, Update, Delete

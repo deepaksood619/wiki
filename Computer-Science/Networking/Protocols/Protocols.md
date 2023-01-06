@@ -1,9 +1,5 @@
 # Protocols
 
-Created: 2019-04-25 10:48:54 +0500
-
-Modified: 2021-06-04 10:28:47 +0500
-
 ---
 
 1. Application Layer

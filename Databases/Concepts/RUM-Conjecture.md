@@ -1,9 +1,5 @@
 # RUM Conjecture
 
-Created: 2019-06-27 16:31:44 +0500
-
-Modified: 2020-12-07 00:37:46 +0500
-
 ---
 
 RUM - Read Update Memory

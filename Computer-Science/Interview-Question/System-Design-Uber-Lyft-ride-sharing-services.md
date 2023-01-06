@@ -1,9 +1,5 @@
 # System Design - Uber Lyft ride sharing services
 
-Created: 2018-04-05 11:53:32 +0500
-
-Modified: 2021-08-27 20:00:12 +0500
-
 ---
 
 [System Design: Uber Lyft ride sharing services - Interview question](https://www.youtube.com/watch?v=J3DY3Te3A_A)

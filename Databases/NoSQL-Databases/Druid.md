@@ -1,9 +1,5 @@
 # Druid
 
-Created: 2019-02-06 11:04:11 +0500
-
-Modified: 2021-01-29 02:06:32 +0500
-
 ---
 
 Apache Druid (incubating) is a real-time analytics database designed for fast slice-and-dice analytics ("[OLAP](http://en.wikipedia.org/wiki/Online_analytical_processing)" queries) on large data sets. Druid is most often used as a database for powering use cases where real-time ingest, fast query performance, and high uptime are important. As such, Druid is commonly used for powering GUIs of analytical applications, or as a backend for highly-concurrent APIs that need fast aggregations. Druid works best with event-oriented data.-  **High performance, column oriented, distributed data store**

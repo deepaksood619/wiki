@@ -1,9 +1,5 @@
 # SQL Joins
 
-Created: 2018-07-01 16:33:47 +0500
-
-Modified: 2022-05-20 19:46:42 +0500
-
 ---
 
 The SQLJoinsclause is used to combine records from two or more tables in a database. A JOIN is a means for combining fields from two tables by using values common to each.

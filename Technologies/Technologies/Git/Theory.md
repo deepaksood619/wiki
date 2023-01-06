@@ -1,9 +1,5 @@
 # Theory
 
-Created: 2017-10-03 21:33:41 +0500
-
-Modified: 2021-10-05 16:19:48 +0500
-
 ---
 
 ## git submodule

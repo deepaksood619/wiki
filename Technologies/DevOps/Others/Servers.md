@@ -1,9 +1,5 @@
 # Servers
 
-Created: 2018-04-22 15:09:10 +0500
-
-Modified: 2022-01-07 15:13:41 +0500
-
 ---
 
 ## HTTPD (HTTP Daemon)

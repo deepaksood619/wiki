@@ -1,9 +1,5 @@
 # Lambda Expressions
 
-Created: 2017-09-20 10:22:17 +0500
-
-Modified: 2019-12-22 16:17:04 +0500
-
 ---
 
 A lambda expression is an unnamed function with parameters and a body.

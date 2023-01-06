@@ -1,9 +1,5 @@
 # kafka-rest proxy
 
-Created: 2019-02-27 15:30:12 +0500
-
-Modified: 2019-02-27 18:02:42 +0500
-
 ---
 
 curl -s -X GET <http://104.211.229.18:8082/topics>

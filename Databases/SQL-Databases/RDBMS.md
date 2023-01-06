@@ -1,9 +1,5 @@
 # RDBMS
 
-Created: 2019-12-18 19:47:23 +0500
-
-Modified: 2021-12-28 13:54:11 +0500
-
 ---
 
 Arelational databaseis a database that organizes information into one or more tables. Here, the relational database contains one table.

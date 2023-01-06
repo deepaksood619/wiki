@@ -1,9 +1,5 @@
 # Company's Management
 
-Created: 2022-07-30 23:35:25 +0500
-
-Modified: 2022-07-30 23:40:58 +0500
-
 ---
 
 [Evaluating Company's Management For Stock Buying | ET Money](https://youtu.be/kiYqad1gz5c)

@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2018-04-27 01:08:04 +0500
-
-Modified: 2022-04-03 19:33:20 +0500
-
 ---
 
 ## Security Services

@@ -1,9 +1,5 @@
 # Electrical Engineering
 
-Created: 2019-06-15 22:13:35 +0500
-
-Modified: 2019-10-13 22:57:12 +0500
-
 ---
 
 ## Electrical Engineering

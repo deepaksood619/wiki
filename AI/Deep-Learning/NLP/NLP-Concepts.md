@@ -1,9 +1,5 @@
 # NLP Concepts
 
-Created: 2021-05-20 10:50:47 +0500
-
-Modified: 2021-07-02 00:12:04 +0500
-
 ---
 
 A **token** is the technical name for a sequence of characters - such as hairy, his, or :) --- that we want to treat as a group. When we count the number of tokens in a text, say, the phrase *to be or not to be*, we are counting occurrences of these sequences

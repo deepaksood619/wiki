@@ -1,9 +1,5 @@
 # Clocks
 
-Created: 2020-03-17 09:29:04 +0500
-
-Modified: 2020-03-18 18:49:53 +0500
-
 ---
 
 ## Atomic Broadcast

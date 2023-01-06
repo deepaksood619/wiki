@@ -1,9 +1,5 @@
 # Rule generation & Pattern Evaluation
 
-Created: 2019-03-10 13:27:38 +0500
-
-Modified: 2021-11-14 21:17:37 +0500
-
 ---
 
 monotone - a continuing sound, especially of a person's voice, that is unchanging in pitch and without intonation.

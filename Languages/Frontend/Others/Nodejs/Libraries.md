@@ -1,9 +1,5 @@
 # Libraries
 
-Created: 2020-11-07 01:39:33 +0500
-
-Modified: 2022-01-07 21:10:20 +0500
-
 ---
 
 ## Frontends

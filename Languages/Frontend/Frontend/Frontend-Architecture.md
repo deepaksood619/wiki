@@ -1,9 +1,5 @@
 # Frontend Architecture
 
-Created: 2020-04-09 00:56:10 +0500
-
-Modified: 2022-04-04 12:54:11 +0500
-
 ---
 
 <https://dev.to/kevtiq/how-to-create-a-scalable-and-maintainable-front-end-architecture-4f47>

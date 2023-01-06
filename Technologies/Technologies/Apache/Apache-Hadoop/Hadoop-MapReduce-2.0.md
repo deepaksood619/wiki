@@ -1,9 +1,5 @@
 # Hadoop MapReduce 2.0
 
-Created: 2019-03-08 22:18:27 +0500
-
-Modified: 2020-08-15 23:39:23 +0500
-
 ---
 
 ## Introduction

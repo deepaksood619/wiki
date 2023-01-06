@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-02-22 23:45:09 +0500
-
-Modified: 2021-04-03 21:00:54 +0500
-
 ---
 
 ## What is a Slowly Changing Dimension?

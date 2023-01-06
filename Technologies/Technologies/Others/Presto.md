@@ -1,9 +1,5 @@
 # Presto
 
-Created: 2020-03-02 22:35:48 +0500
-
-Modified: 2020-03-19 18:07:52 +0500
-
 ---
 
 ## Distributed SQL Query Engine forBigData

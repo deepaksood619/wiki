@@ -1,9 +1,5 @@
 # Amazon Pinpoint
 
-Created: 2020-06-19 17:50:47 +0500
-
-Modified: 2022-02-03 10:17:07 +0500
-
 ---
 
 Understand and engage your customers by sending them personalized, timely, and relevant communications through multiple channels.

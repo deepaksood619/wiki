@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-12-23 14:58:06 +0500
-
-Modified: 2019-06-09 17:44:33 +0500
-
 ---
 
 ## Blinkist - The future is history

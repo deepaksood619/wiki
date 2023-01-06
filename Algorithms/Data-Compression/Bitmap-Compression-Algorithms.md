@@ -1,9 +1,5 @@
 # Bitmap Compression Algorithms
 
-Created: 2019-07-13 21:04:02 +0500
-
-Modified: 2020-09-05 01:51:27 +0500
-
 ---
 
 1. Byte-aligned Bitmap Code

@@ -1,9 +1,5 @@
 # Nutanix Hybrid Cloud
 
-Created: 2020-06-23 20:57:11 +0500
-
-Modified: 2021-02-28 22:22:29 +0500
-
 ---
 
 Udacity - Hybrid Cloud Scholarship Foundation Course Nanodegree Program (23 June 2020)

@@ -1,9 +1,5 @@
 # Powerset
 
-Created: 2018-03-10 11:34:43 +0500
-
-Modified: 2019-01-22 10:19:28 +0500
-
 ---
 
 ### Power Set

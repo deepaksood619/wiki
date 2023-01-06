@@ -1,9 +1,5 @@
 # Technical Analysis
 
-Created: 2020-04-21 03:38:15 +0500
-
-Modified: 2021-12-11 22:38:11 +0500
-
 ---
 
 Technical Analysis helps identify trading opportunities using actions of Market Participants through charts, patterns, and indicators.

@@ -1,9 +1,5 @@
 # DRAM
 
-Created: 2020-02-11 17:32:54 +0500
-
-Modified: 2020-02-11 17:40:43 +0500
-
 ---
 
 Dynamic random-access memory(DRAM) is a type of [random access](https://en.wikipedia.org/wiki/Random-access_memory)[semiconductor memory](https://en.wikipedia.org/wiki/Semiconductor_memory) that stores each [bit](https://en.wikipedia.org/wiki/Bit) of data in a [memory cell](https://en.wikipedia.org/wiki/Memory_cell_(computing)) consisting of a tiny [capacitor](https://en.wikipedia.org/wiki/Capacitor) and a [transistor](https://en.wikipedia.org/wiki/Transistor), both typically based on [metal-oxide-semiconductor](https://en.wikipedia.org/wiki/Metal-oxide-semiconductor)(MOS) technology. The capacitor can either be charged or discharged; these two states are taken to represent the two values of a bit, conventionally called 0 and 1. The [electric charge](https://en.wikipedia.org/wiki/Electric_charge) on the capacitors slowly leaks off, so without intervention the data on the chip would soon be lost. To prevent this, DRAM requires an external [memory refresh](https://en.wikipedia.org/wiki/Memory_refresh) circuit which periodically rewrites the data in the capacitors, restoring them to their original charge. This refresh process is the defining characteristic of dynamic random-access memory, in contrast to [static random-access memory](https://en.wikipedia.org/wiki/Static_random-access_memory)(SRAM) which does not require data to be refreshed. Unlike [flash memory](https://en.wikipedia.org/wiki/Flash_memory), DRAM is [volatile memory](https://en.wikipedia.org/wiki/Volatile_memory)(vs.[non-volatile memory](https://en.wikipedia.org/wiki/Non-volatile_memory)), since it loses its data quickly when power is removed. However, DRAM does exhibit limited [data remanence](https://en.wikipedia.org/wiki/Data_remanence).

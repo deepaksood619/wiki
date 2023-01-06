@@ -1,9 +1,5 @@
 # Generative Adversarial Networks (GANs)
 
-Created: 2017-11-16 13:00:49 +0500
-
-Modified: 2021-06-11 00:14:15 +0500
-
 ---
 
 <https://www.toptal.com/machine-learning/generative-adversarial-networks>

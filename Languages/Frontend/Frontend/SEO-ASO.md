@@ -1,9 +1,5 @@
 # SEO / ASO
 
-Created: 2017-11-01 14:21:44 +0500
-
-Modified: 2022-12-05 12:20:24 +0500
-
 ---
 
 ### SEO - Search Engine Optimization

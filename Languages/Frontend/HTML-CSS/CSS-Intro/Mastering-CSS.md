@@ -1,9 +1,5 @@
 # Mastering CSS
 
-Created: 2017-11-16 14:20:05 +0500
-
-Modified: 2021-11-17 23:27:04 +0500
-
 ---
 
 ## The Anatomy of a Rule Set and three types of Style Sheets

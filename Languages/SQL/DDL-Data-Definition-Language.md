@@ -1,9 +1,5 @@
 # DDL - Data Definition Language
 
-Created: 2020-02-28 14:26:55 +0500
-
-Modified: 2021-10-23 11:15:06 +0500
-
 ---
 
 ## DDL (Data Definition Language)

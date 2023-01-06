@@ -1,9 +1,5 @@
 # Tools
 
-Created: 2019-01-01 11:45:22 +0500
-
-Modified: 2022-01-03 13:59:29 +0500
-
 ---
 
 <https://sqlnotebook.com>

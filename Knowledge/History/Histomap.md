@@ -1,9 +1,5 @@
 # Histomap
 
-Created: 2018-10-27 18:01:55 +0500
-
-Modified: 2022-05-24 00:08:59 +0500
-
 ---
 
 [Timeline of World History | Major Time Periods & Ages](https://www.youtube.com/watch?v=__BaaMfiD0Q)

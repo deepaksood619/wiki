@@ -1,9 +1,5 @@
 # MiniMax Algorithm
 
-Created: 2017-10-25 19:48:40 +0500
-
-Modified: 2018-03-20 23:58:45 +0500
-
 ---
 
 <https://en.wikipedia.org/wiki/Minimax>

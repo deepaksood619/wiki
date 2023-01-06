@@ -1,9 +1,5 @@
 # LZW Compression
 
-Created: 2018-05-29 13:11:47 +0500
-
-Modified: 2021-11-01 21:54:02 +0500
-
 ---
 
 LZF belongs to a family of compression codecs called "simple Lempel-Ziv" codecs. Since LZ compression is also the first part ofdeflatecompression (which is used, along with simple framing, forgzip), it can be viewed as "first-part of gzip" (second part being Huffman-encoding of compressed content).

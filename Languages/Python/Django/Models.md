@@ -1,9 +1,5 @@
 # Models
 
-Created: 2017-11-08 17:39:13 +0500
-
-Modified: 2021-10-02 13:02:51 +0500
-
 ---
 
 A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you're storing. Generally, each model maps to a single database table.

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2021-10-25 20:48:24 +0500
-
-Modified: 2021-11-25 19:34:09 +0500
-
 ---
 
 ## Debouncing in JavaScript

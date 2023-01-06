@@ -1,9 +1,5 @@
 # Queue FIFO
 
-Created: 2018-01-30 21:30:42 +0500
-
-Modified: 2018-08-04 12:23:44 +0500
-
 ---
 
 ## Points to remember

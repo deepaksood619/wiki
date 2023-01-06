@@ -1,9 +1,5 @@
 # Suffix Tree
 
-Created: 2018-04-10 22:48:56 +0500
-
-Modified: 2019-12-10 00:10:20 +0500
-
 ---
 
 In [computer science](https://en.wikipedia.org/wiki/Computer_science), a suffix tree (also called PAT tree or, in an earlier form, position tree) is a compressed [trie](https://en.wikipedia.org/wiki/Trie) containing all the [suffixes](https://en.wikipedia.org/wiki/Suffix_(computer_science)) of the given text as their keys and positions in the text as their values. Suffix trees allow particularly fast implementations of many important string operations.

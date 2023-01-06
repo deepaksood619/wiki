@@ -1,9 +1,5 @@
 # Threading in JavaFX
 
-Created: 2018-01-12 22:17:11 +0500
-
-Modified: 2018-12-04 13:33:48 +0500
-
 ---
 
 JavaFX Scene Graph

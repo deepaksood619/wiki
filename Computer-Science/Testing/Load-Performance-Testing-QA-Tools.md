@@ -1,9 +1,5 @@
 # Load / Performance Testing/QA Tools
 
-Created: 2019-01-15 16:37:11 +0500
-
-Modified: 2022-01-05 23:09:26 +0500
-
 ---
 
 ## Website Performance Testing Tools

@@ -1,9 +1,5 @@
 # System Design - Parking Lot
 
-Created: 2018-04-07 12:47:36 +0500
-
-Modified: 2021-08-27 19:59:20 +0500
-
 ---
 
 [System Design Interview Question: DESIGN A PARKING LOT - asked at Google, Facebook](https://www.youtube.com/watch?v=DSGsa0pu8-k)

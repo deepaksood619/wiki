@@ -1,9 +1,5 @@
 # Speaking / Story / Speech / Talking / Writing / Conversation / Presentation / Phrases / Leadership / Management / Communication / Body Language
 
-Created: 2019-11-04 20:45:36 +0500
-
-Modified: 2022-12-05 22:51:06 +0500
-
 ---
 
 Use english - Indians have a bias towards English

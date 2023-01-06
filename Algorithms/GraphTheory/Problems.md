@@ -1,9 +1,5 @@
 # Problems
 
-Created: 2018-05-22 20:29:53 +0500
-
-Modified: 2020-07-14 23:25:31 +0500
-
 ---
 
 ## Knight's Tour Problem

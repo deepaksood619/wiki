@@ -1,9 +1,5 @@
 # Sets
 
-Created: 2018-02-07 18:00:42 +0500
-
-Modified: 2018-02-07 18:12:42 +0500
-
 ---
 
 Application of Symbol table.

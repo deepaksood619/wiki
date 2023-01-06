@@ -1,9 +1,5 @@
 # Docker Commands
 
-Created: 2018-10-25 17:26:33 +0500
-
-Modified: 2022-05-25 17:09:09 +0500
-
 ---
 
 ## Installation

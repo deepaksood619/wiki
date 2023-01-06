@@ -1,9 +1,5 @@
 # Questions
 
-Created: 2021-02-13 23:15:37 +0500
-
-Modified: 2021-09-01 00:23:12 +0500
-
 ---
 
 ## Differentiate between univariate, bivariate, and multivariate analysis

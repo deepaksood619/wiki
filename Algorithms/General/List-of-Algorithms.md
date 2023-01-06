@@ -1,9 +1,5 @@
 # List of Algorithms
 
-Created: 2018-02-24 13:19:49 +0500
-
-Modified: 2019-11-22 19:29:14 +0500
-
 ---
 
 1. **Automated Planning**

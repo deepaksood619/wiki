@@ -1,9 +1,5 @@
 # Prometheus
 
-Created: 2018-12-22 09:35:34 +0500
-
-Modified: 2022-02-04 23:47:13 +0500
-
 ---
 
 A CNCF (Cloud Native Computing Foundation) project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.

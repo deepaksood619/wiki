@@ -1,9 +1,5 @@
 # JAMstack / CMS
 
-Created: 2017-11-01 15:25:51 +0500
-
-Modified: 2022-08-29 17:12:22 +0500
-
 ---
 
 Modern Web-development architecture based on Client-side JavaScript, resuable APIs and prebuild Markup

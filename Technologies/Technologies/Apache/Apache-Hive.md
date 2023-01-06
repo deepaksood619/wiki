@@ -1,9 +1,5 @@
 # Apache Hive
 
-Created: 2018-10-25 23:11:06 +0500
-
-Modified: 2020-03-09 17:53:55 +0500
-
 ---
 
 - Hive is a distributed data management for Hadoop

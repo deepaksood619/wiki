@@ -1,9 +1,5 @@
 # Corporate Actions
 
-Created: 2020-04-21 03:03:07 +0500
-
-Modified: 2021-11-20 22:22:33 +0500
-
 ---
 
 ## Corporate actions

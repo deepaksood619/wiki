@@ -1,9 +1,5 @@
 # Configuration
 
-Created: 2019-08-27 23:41:00 +0500
-
-Modified: 2020-06-20 15:13:11 +0500
-
 ---
 
 ## Pod Priority and Preemtion

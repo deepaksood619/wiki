@@ -1,9 +1,5 @@
 # Certificates
 
-Created: 2020-01-22 18:09:33 +0500
-
-Modified: 2022-03-12 17:48:50 +0500
-
 ---
 
 ## Types of certificates

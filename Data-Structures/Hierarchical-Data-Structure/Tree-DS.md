@@ -1,9 +1,5 @@
 # Tree DS
 
-Created: 2017-11-29 21:16:37 +0500
-
-Modified: 2021-06-11 22:06:50 +0500
-
 ---
 
 1. A Tree with N vertices has N-1 Edges

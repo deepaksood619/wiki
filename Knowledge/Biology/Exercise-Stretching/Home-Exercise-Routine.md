@@ -1,9 +1,5 @@
 # Home Exercise Routine
 
-Created: 2019-09-19 08:23:20 +0500
-
-Modified: 2021-10-27 22:06:14 +0500
-
 ---
 
 Youtube - Athlean X

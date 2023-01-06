@@ -1,9 +1,5 @@
 # Notifications
 
-Created: 2021-03-06 18:04:47 +0500
-
-Modified: 2021-03-06 18:04:52 +0500
-
 ---
 
 curl -X POST

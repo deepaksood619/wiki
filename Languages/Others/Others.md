@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-11-30 15:07:12 +0500
-
-Modified: 2022-05-04 20:50:24 +0500
-
 ---
 
 <https://dev.to/raygun/top-43-programming-languages-when-and-how-to-use-them-515n>

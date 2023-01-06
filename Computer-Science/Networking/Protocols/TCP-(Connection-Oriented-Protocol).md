@@ -1,9 +1,5 @@
 # TCP (Connection Oriented Protocol)
 
-Created: 2019-06-19 16:46:08 +0500
-
-Modified: 2020-07-14 23:58:54 +0500
-
 ---
 
 TCP stands for transmission control protocol. It is implemented in the transport layer of the IP/TCP model and is used to establish reliable connections.

@@ -1,9 +1,5 @@
 # Web Vitals
 
-Created: 2021-03-26 00:37:36 +0500
-
-Modified: 2021-05-08 16:13:07 +0500
-
 ---
 
 <https://web.dev/vitals>

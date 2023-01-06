@@ -1,9 +1,5 @@
 # Computational Complexity Theory
 
-Created: 2017-10-31 13:48:39 +0500
-
-Modified: 2019-11-17 15:54:49 +0500
-
 ---
 
 Computational complexity theoryfocuses on classifying computational problems according to their inherent difficulty, and relating these classes to each other. A computational problem is a task solved by a computer. A computation problem is solvable by mechanical application of mathematical steps, such as an [algorithm](https://en.wikipedia.org/wiki/Algorithm).

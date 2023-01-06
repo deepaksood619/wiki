@@ -1,9 +1,5 @@
 # Count-min Sketch
 
-Created: 2018-04-10 00:29:00 +0500
-
-Modified: 2022-04-24 11:38:42 +0500
-
 ---
 
 Space efficient probabilistic based data structure.

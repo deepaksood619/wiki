@@ -1,9 +1,5 @@
 # Sorting
 
-Created: 2018-03-12 00:19:53 +0500
-
-Modified: 2020-01-21 00:14:04 +0500
-
 ---
 
 Sort items in a list in alphabetical order, or reverse alphabetical order.

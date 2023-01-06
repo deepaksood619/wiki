@@ -1,9 +1,5 @@
 # STL Containers
 
-Created: 2019-08-01 21:47:11 +0500
-
-Modified: 2019-08-21 21:48:25 +0500
-
 ---
 
 1. Sequences

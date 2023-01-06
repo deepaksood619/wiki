@@ -1,9 +1,5 @@
 # Pods
 
-Created: 2019-03-18 23:08:19 +0500
-
-Modified: 2020-08-05 11:48:24 +0500
-
 ---
 
 APodis the basic building block of Kubernetes--the smallest and simplest unit in the Kubernetes object model that you create or deploy. A Pod represents a running process on your cluster.

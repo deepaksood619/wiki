@@ -1,9 +1,5 @@
 # Data Types
 
-Created: 2019-05-06 23:00:05 +0500
-
-Modified: 2020-07-22 14:00:04 +0500
-
 ---
 
 MongoDB supports many datatypes. Some of them are −

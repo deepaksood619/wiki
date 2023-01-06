@@ -1,9 +1,5 @@
 # Structural - Proxy
 
-Created: 2018-05-09 19:36:25 +0500
-
-Modified: 2019-04-19 11:01:32 +0500
-
 ---
 
 Example -

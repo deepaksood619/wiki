@@ -1,9 +1,5 @@
 # Querying
 
-Created: 2019-06-08 16:02:22 +0500
-
-Modified: 2020-12-03 13:52:29 +0500
-
 ---
 
 ## Functions

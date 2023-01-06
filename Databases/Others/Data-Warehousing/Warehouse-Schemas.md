@@ -1,9 +1,5 @@
 # Warehouse Schemas
 
-Created: 2020-02-22 23:36:06 +0500
-
-Modified: 2021-12-08 21:00:46 +0500
-
 ---
 
 Multidimensional schema is especially designed to model data warehouse systems. The schemas are designed to address the unique needs of very large databases designed for the analytical purpose (OLAP).

@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2020-02-17 23:01:55 +0500
-
-Modified: 2021-12-08 21:55:36 +0500
-
 ---
 
 ## Designing Tables > Choosing a column compression type > Compression Encoding

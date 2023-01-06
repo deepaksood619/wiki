@@ -1,9 +1,5 @@
 # Algo + DS
 
-Created: 2018-05-23 18:48:49 +0500
-
-Modified: 2022-12-10 01:19:31 +0500
-
 ---
 
 ## Algorithms

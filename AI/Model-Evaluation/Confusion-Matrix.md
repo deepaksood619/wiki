@@ -1,9 +1,5 @@
 # Confusion Matrix
 
-Created: 2021-05-17 16:20:27 +0500
-
-Modified: 2021-09-03 21:16:15 +0500
-
 ---
 
 ## The confusion matrix shows - The observations broken down by actual classes and predicted classes

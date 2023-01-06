@@ -1,9 +1,5 @@
 # Ticketing / TMS
 
-Created: 2022-03-07 22:14:52 +0500
-
-Modified: 2022-10-27 12:18:20 +0500
-
 ---
 
 ## Ticketing Management System (TMS)

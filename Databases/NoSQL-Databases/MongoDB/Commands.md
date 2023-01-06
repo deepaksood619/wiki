@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2019-05-06 22:44:15 +0500
-
-Modified: 2020-07-27 12:38:44 +0500
-
 ---
 
 services:

@@ -1,9 +1,5 @@
 # Debt Mutual Funds
 
-Created: 2021-08-23 17:07:35 +0500
-
-Modified: 2022-04-19 22:18:31 +0500
-
 ---
 
 <https://zerodha.com/varsity/chapter/the-debt-funds-part-1>

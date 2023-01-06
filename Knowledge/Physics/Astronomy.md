@@ -1,9 +1,5 @@
 # Astronomy
 
-Created: 2018-12-30 12:36:38 +0500
-
-Modified: 2022-03-06 21:37:41 +0500
-
 ---
 
 [Earth's motion around the Sun, not as simple as I thought](https://youtu.be/82p-DYgGFjI)

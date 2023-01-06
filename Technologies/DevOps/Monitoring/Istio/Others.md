@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-06-05 13:10:37 +0500
-
-Modified: 2021-07-22 10:02:34 +0500
-
 ---
 
 ## Istio Ingress vs Kubernetes Ingress

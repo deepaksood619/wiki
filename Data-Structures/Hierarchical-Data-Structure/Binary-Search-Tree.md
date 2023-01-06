@@ -1,9 +1,5 @@
 # Binary Search Tree
 
-Created: 2018-02-03 22:26:46 +0500
-
-Modified: 2019-09-15 15:07:52 +0500
-
 ---
 
 Properties -

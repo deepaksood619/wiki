@@ -1,9 +1,5 @@
 # Knuth-Morris-Pratt
 
-Created: 2018-04-16 22:00:24 +0500
-
-Modified: 2018-04-16 22:03:17 +0500
-
 ---
 
 ![image](media/Knuth-Morris-Pratt-image1.png)

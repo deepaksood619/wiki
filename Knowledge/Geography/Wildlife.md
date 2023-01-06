@@ -1,9 +1,5 @@
 # Wildlife
 
-Created: 2020-08-08 10:56:31 +0500
-
-Modified: 2022-01-30 23:03:33 +0500
-
 ---
 
 ## IUCN Red List of Threatened Species

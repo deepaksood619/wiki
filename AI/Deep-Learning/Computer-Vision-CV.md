@@ -1,9 +1,5 @@
 # Computer Vision / CV
 
-Created: 2018-01-11 09:18:01 +0500
-
-Modified: 2022-03-01 23:54:56 +0500
-
 ---
 
 [13.1. Image Augmentation](https://d2l.ai/chapter_computer-vision/image-augmentation.html)

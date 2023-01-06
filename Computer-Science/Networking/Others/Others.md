@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-04-25 11:29:11 +0500
-
-Modified: 2021-04-26 10:26:33 +0500
-
 ---
 
 ## OpenConnect

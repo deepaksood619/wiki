@@ -1,9 +1,5 @@
 # Disk Scheduling Algorithms
 
-Created: 2019-12-05 17:19:46 +0500
-
-Modified: 2019-12-05 17:29:54 +0500
-
 ---
 
 ## Elevator algorithm / SCAN

@@ -1,9 +1,5 @@
 # Ternary Search Tries (TST)
 
-Created: 2018-04-10 23:10:17 +0500
-
-Modified: 2018-04-11 20:03:16 +0500
-
 ---
 
 Solve the problem of using large amount of data by R-way tries.

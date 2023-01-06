@@ -1,9 +1,5 @@
 # Project Contraints
 
-Created: 2020-07-21 22:23:11 +0500
-
-Modified: 2021-09-21 09:28:15 +0500
-
 ---
 
 ## Project Contraints

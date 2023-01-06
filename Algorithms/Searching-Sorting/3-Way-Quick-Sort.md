@@ -1,9 +1,5 @@
 # 3-Way Quick Sort
 
-Created: 2018-02-03 13:06:54 +0500
-
-Modified: 2018-05-12 11:24:26 +0500
-
 ---
 
 Properties -

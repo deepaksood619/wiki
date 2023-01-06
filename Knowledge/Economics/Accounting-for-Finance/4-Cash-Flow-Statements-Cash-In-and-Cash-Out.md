@@ -1,9 +1,5 @@
 # 4: Cash Flow Statements - Cash In and Cash Out
 
-Created: 2020-09-06 14:15:48 +0500
-
-Modified: 2022-05-23 00:02:39 +0500
-
 ---
 
 ## The End Game with Cash Flows

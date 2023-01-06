@@ -1,9 +1,5 @@
 # API Gateway
 
-Created: 2019-04-14 20:11:23 +0500
-
-Modified: 2022-02-05 01:13:53 +0500
-
 ---
 
 ## API Design

@@ -1,9 +1,5 @@
 # Mocking
 
-Created: 2020-08-23 02:32:39 +0500
-
-Modified: 2021-05-29 21:57:41 +0500
-
 ---
 
 ## The Abstract Pattern of the Problem

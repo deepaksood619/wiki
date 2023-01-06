@@ -1,9 +1,5 @@
 # Tech Books
 
-Created: 2019-08-11 18:50:30 +0500
-
-Modified: 2022-03-06 18:41:25 +0500
-
 ---
 
 Networks, Crowds, and Markets: Reasoning about a Highly Connected World

@@ -1,9 +1,5 @@
 # Microeconomics
 
-Created: 2021-02-11 00:20:44 +0500
-
-Modified: 2022-02-11 01:12:59 +0500
-
 ---
 
 Microeconomics(from Greek prefixmikro-meaning "small" +economics) is a branch of [economics](https://en.wikipedia.org/wiki/Economics) that studies the behaviour of individuals and [firms](https://en.wikipedia.org/wiki/Theory_of_the_firm) in making decisions regarding the allocation of [scarce resources](https://en.wikipedia.org/wiki/Scarcity) and the interactions among these individuals and firms.

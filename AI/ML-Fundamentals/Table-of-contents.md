@@ -1,9 +1,5 @@
 # Table of contents
 
-Created: 2021-06-11 00:49:04 +0500
-
-Modified: 2021-11-19 18:01:52 +0500
-
 ---
 
 ## Preface - <https://d2l.ai/chapter_preface/index.html>

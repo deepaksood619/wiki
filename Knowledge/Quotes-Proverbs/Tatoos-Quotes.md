@@ -1,9 +1,5 @@
 # Tatoos Quotes
 
-Created: 2019-02-12 18:39:09 +0500
-
-Modified: 2022-05-03 17:24:19 +0500
-
 ---
 
 ||||| (number of jobs you changed, getting new line when get a new job)

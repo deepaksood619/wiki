@@ -1,9 +1,5 @@
 # ML Process
 
-Created: 2021-06-19 14:28:45 +0500
-
-Modified: 2022-03-06 11:58:22 +0500
-
 ---
 
 ML Process

@@ -1,9 +1,5 @@
 # R-way Tries
 
-Created: 2018-04-10 23:06:14 +0500
-
-Modified: 2018-05-03 23:28:29 +0500
-
 ---
 
 ![Tries Tries](media/R-way-Tries-image1.png)

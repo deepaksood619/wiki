@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-10-05 23:29:06 +0500
-
-Modified: 2020-02-13 23:33:49 +0500
-
 ---
 
 ## MQTT vs HTTP

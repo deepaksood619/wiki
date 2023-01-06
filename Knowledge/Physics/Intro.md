@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-09-02 23:03:03 +0500
-
-Modified: 2021-12-31 14:19:38 +0500
-
 ---
 
 1. Retrocausality - That future can effect the past. Ex - if i spill the coffee tomorrow then i can see the stain today.

@@ -1,9 +1,5 @@
 # Strimzi
 
-Created: 2020-04-28 11:19:39 +0500
-
-Modified: 2020-04-28 20:03:58 +0500
-
 ---
 
 ## Strimzi HTTP Bridge for Apache Kafka

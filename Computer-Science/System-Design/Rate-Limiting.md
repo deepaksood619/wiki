@@ -1,9 +1,5 @@
 # Rate Limiting
 
-Created: 2020-01-03 00:31:54 +0500
-
-Modified: 2022-04-24 11:42:17 +0500
-
 ---
 
 ## Endpoint Protection

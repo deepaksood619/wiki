@@ -1,9 +1,5 @@
 # Hash Functions
 
-Created: 2020-01-07 12:52:07 +0500
-
-Modified: 2020-01-20 18:16:29 +0500
-
 ---
 
 ## Bad Hash Functions

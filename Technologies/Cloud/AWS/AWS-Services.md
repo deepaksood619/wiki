@@ -1,9 +1,5 @@
 # AWS Services
 
-Created: 2020-02-16 16:12:15 +0500
-
-Modified: 2022-11-16 12:36:18 +0500
-
 ---
 
 1. **Migration**

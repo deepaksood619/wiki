@@ -1,9 +1,5 @@
 # Kafka Architecture
 
-Created: 2018-11-28 15:37:06 +0500
-
-Modified: 2020-05-31 20:47:52 +0500
-
 ---
 
 ## Why is Kafka so Fast?

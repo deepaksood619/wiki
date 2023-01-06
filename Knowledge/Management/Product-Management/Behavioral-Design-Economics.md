@@ -1,9 +1,5 @@
 # Behavioral Design / Economics
 
-Created: 2022-01-03 22:42:24 +0500
-
-Modified: 2022-10-31 21:04:05 +0500
-
 ---
 
 <https://www.lennysnewsletter.com/p/how-to-use-behavioral-science-to>

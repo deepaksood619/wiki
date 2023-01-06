@@ -1,9 +1,5 @@
 # HTML Intro
 
-Created: 2017-12-17 20:59:25 +0500
-
-Modified: 2022-01-11 12:29:35 +0500
-
 ---
 
 DOM (Document Object Model) [parent, child, siblings] (description of the relationship that all of the HTML elements have with each other ) (It takes html tags as input and browser converts it to DOM that is rendered in the webpage)

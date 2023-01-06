@@ -1,9 +1,5 @@
 # Outline
 
-Created: 2018-11-14 00:27:40 +0500
-
-Modified: 2021-10-23 20:34:22 +0500
-
 ---
 
 Anatomy and Physiology - <https://www.youtube.com/playlist?list=PL8dPuuaLjXtOAKed_MxxWBNaPno5h3Zs8>

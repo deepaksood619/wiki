@@ -1,9 +1,5 @@
 # OpenThread
 
-Created: 2019-03-09 11:36:33 +0500
-
-Modified: 2019-03-16 15:41:00 +0500
-
 ---
 
 ## Thread

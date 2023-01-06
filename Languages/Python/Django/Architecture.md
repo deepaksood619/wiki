@@ -1,9 +1,5 @@
 # Architecture
 
-Created: 2017-11-06 16:20:39 +0500
-
-Modified: 2020-07-06 12:50:51 +0500
-
 ---
 
 Follows **Model-View-Template (MVT)** architectural pattern.

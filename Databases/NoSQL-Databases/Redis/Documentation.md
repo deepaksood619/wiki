@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2020-03-28 00:36:27 +0500
-
-Modified: 2020-08-19 01:15:52 +0500
-
 ---
 
 ## Programming with Redis

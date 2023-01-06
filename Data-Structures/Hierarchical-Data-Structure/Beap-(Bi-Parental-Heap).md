@@ -1,9 +1,5 @@
 # Beap (Bi-Parental Heap)
 
-Created: 2018-02-04 19:49:19 +0500
-
-Modified: 2018-02-04 19:52:44 +0500
-
 ---
 
 Beap, short for bi-parental heap, introduced by Ian Munro and Hendra Suwanda. In this data structure a node usually has two parents (unless it is the first or last on a level) and two children (unless it is on the last level). What separates the beap from Williams' heap is that beap allows sublinear search

@@ -1,9 +1,5 @@
 # Shortest Path Algorithms
 
-Created: 2018-02-22 23:40:37 +0500
-
-Modified: 2019-10-06 16:46:42 +0500
-
 ---
 
 ## Shortest path variants

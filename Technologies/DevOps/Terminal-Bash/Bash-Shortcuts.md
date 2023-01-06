@@ -1,9 +1,5 @@
 # Bash Shortcuts
 
-Created: 2017-10-08 21:55:06 +0500
-
-Modified: 2018-09-25 15:50:26 +0500
-
 ---
 
 ## Controlling the Screen

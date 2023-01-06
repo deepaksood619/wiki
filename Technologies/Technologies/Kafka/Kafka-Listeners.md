@@ -1,9 +1,5 @@
 # Kafka Listeners
 
-Created: 2018-12-07 02:23:13 +0500
-
-Modified: 2018-12-06 20:54:44 +0500
-
 ---
 
 ## tl;dr : You need to set advertised.listeners (or KAFKA_ADVERTISED_LISTENERS if you're using Docker images) to the external address (host/IP) so that clients can correctly connect to it. Otherwise they'll try to connect to the internal host address--and if that's not reachable then problems ensue

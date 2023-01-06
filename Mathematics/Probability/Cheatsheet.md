@@ -1,9 +1,5 @@
 # Cheatsheet
 
-Created: 2019-03-13 20:31:39 +0500
-
-Modified: 2021-10-20 20:44:42 +0500
-
 ---
 
 MVN - MultiVariate Normal Distribution

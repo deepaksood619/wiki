@@ -1,9 +1,5 @@
 # Basic
 
-Created: 2018-02-12 11:05:07 +0500
-
-Modified: 2022-05-06 16:02:22 +0500
-
 ---
 
 Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness is endangered. --- Guido van Rossum, Creator of the Python programming language

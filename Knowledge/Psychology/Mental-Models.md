@@ -1,9 +1,5 @@
 # Mental Models
 
-Created: 2022-09-17 13:48:42 +0500
-
-Modified: 2022-11-30 14:01:41 +0500
-
 ---
 
 ## 80/20 Rule / Pareto Principle

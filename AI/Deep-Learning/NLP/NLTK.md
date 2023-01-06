@@ -1,9 +1,5 @@
 # NLTK
 
-Created: 2021-07-02 00:20:22 +0500
-
-Modified: 2021-07-02 00:20:24 +0500
-
 ---
 
 NLTK -- the Natural Language Toolkit -- is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing.

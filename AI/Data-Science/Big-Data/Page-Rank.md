@@ -1,9 +1,5 @@
 # Page Rank
 
-Created: 2019-04-21 13:04:45 +0500
-
-Modified: 2020-12-27 22:23:44 +0500
-
 ---
 
 <https://towardsdatascience.com/pagerank-algorithm-fully-explained-dc794184b4af>

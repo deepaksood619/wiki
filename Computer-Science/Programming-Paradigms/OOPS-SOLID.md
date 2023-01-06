@@ -1,9 +1,5 @@
 # OOPS / SOLID
 
-Created: 2018-04-04 15:36:10 +0500
-
-Modified: 2022-03-10 12:30:13 +0500
-
 ---
 
 ## AEIP - Abstraction, Encapsulation, Inheritance and Polymorphism

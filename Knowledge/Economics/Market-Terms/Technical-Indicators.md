@@ -1,9 +1,5 @@
 # Technical Indicators
 
-Created: 2020-04-24 01:49:48 +0500
-
-Modified: 2022-01-29 17:47:27 +0500
-
 ---
 
 - Relative strength index (RSI)**(14)**

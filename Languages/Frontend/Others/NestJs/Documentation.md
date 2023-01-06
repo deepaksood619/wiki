@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2020-04-07 01:38:03 +0500
-
-Modified: 2020-04-08 18:53:59 +0500
-
 ---
 
 [**INTRODUCTION**](https://docs.nestjs.com/)

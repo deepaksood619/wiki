@@ -1,9 +1,5 @@
 # Hashing
 
-Created: 2017-09-12 08:22:41 +0500
-
-Modified: 2021-10-25 22:56:10 +0500
-
 ---
 
 <https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial>

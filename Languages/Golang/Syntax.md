@@ -1,9 +1,5 @@
 # Syntax
 
-Created: 2019-04-20 14:59:15 +0500
-
-Modified: 2020-01-21 19:47:30 +0500
-
 ---
 
 ## Reserved Words

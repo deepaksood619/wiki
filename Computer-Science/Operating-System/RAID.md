@@ -1,9 +1,5 @@
 # RAID
 
-Created: 2019-12-05 16:42:17 +0500
-
-Modified: 2019-12-08 16:28:41 +0500
-
 ---
 
 RAID(Redundant Array of Inexpensive Disksor Drives, orRedundant Array of Independent Disks) is a data [storage virtualization](https://en.wikipedia.org/wiki/Storage_virtualization) technology that combines multiple physical [disk drive](https://en.wikipedia.org/wiki/Disk_drive) components into one or more logical units for the purposes of [data redundancy](https://en.wikipedia.org/wiki/Data_redundancy), performance improvement, or both. This was in contrast to the previous concept of highly reliable mainframe disk drives referred to as "single large expensive disk" (SLED).

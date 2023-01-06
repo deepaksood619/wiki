@@ -1,9 +1,5 @@
 # Storage classes
 
-Created: 2017-10-05 21:54:41 +0500
-
-Modified: 2020-01-29 20:19:40 +0500
-
 ---
 
 <https://www.tutorialspoint.com/cplusplus/cpp_storage_classes.htm>

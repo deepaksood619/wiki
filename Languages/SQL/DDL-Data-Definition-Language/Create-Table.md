@@ -1,9 +1,5 @@
 # Create Table
 
-Created: 2020-02-28 16:56:03 +0500
-
-Modified: 2022-08-19 16:40:48 +0500
-
 ---
 
 ## CREATE TABLE

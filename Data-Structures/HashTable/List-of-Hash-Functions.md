@@ -1,9 +1,5 @@
 # List of Hash Functions
 
-Created: 2020-01-07 12:53:09 +0500
-
-Modified: 2020-01-07 22:37:19 +0500
-
 ---
 
 ## Cyclic redundancy checks

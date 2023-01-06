@@ -1,9 +1,5 @@
 # docker-compose example
 
-Created: 2019-11-12 14:18:09 +0500
-
-Modified: 2022-07-08 23:20:26 +0500
-
 ---
 
 ```yaml

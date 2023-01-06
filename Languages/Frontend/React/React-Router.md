@@ -1,9 +1,5 @@
 # React Router
 
-Created: 2018-03-24 11:39:48 +0500
-
-Modified: 2022-05-06 16:08:43 +0500
-
 ---
 
 This is of high significance as it's anentry point of your application. There can be several routes in your application and you would need functionalities like validation, authentication, redirection, etc. depending upon the requirement.

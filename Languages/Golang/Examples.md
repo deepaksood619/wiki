@@ -1,9 +1,5 @@
 # Examples
 
-Created: 2020-08-07 00:52:54 +0500
-
-Modified: 2020-08-07 00:53:13 +0500
-
 ---
 
 <https://github.com/marcel-dempers/docker-development-youtube-series/blob/master/messaging/rabbitmq/applications/publisher/publisher.go>

@@ -1,9 +1,5 @@
 # Discriminant Analysis
 
-Created: 2018-09-04 23:11:39 +0500
-
-Modified: 2021-10-04 23:25:45 +0500
-
 ---
 
 During a study, there are often questions that strike the researcher that must be answered. These questions include questions like 'are the groups different?', 'on what variables, are the groups most different?', 'can one predict which group a person belongs to using such variables?' etc. In answering such questions, discriminant analysis is quite helpful.

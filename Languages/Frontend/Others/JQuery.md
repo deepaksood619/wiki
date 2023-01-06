@@ -1,9 +1,5 @@
 # JQuery
 
-Created: 2019-02-27 22:26:27 +0500
-
-Modified: 2022-01-07 21:21:29 +0500
-
 ---
 
 ## Introduction

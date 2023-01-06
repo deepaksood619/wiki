@@ -1,9 +1,5 @@
 # TypeScript
 
-Created: 2018-01-15 17:47:14 +0500
-
-Modified: 2022-06-01 23:53:42 +0500
-
 ---
 
 TypeScript is an open source syntactic superset of javascript that compiles to JS. Allows to use optional static typing as well as support for the latest evolving features of ES2015.

@@ -1,9 +1,5 @@
 # CSS Intro
 
-Created: 2018-02-27 14:16:22 +0500
-
-Modified: 2022-01-02 22:41:07 +0500
-
 ---
 
 Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.

@@ -1,9 +1,5 @@
 # Tools
 
-Created: 2021-11-13 00:31:28 +0500
-
-Modified: 2022-04-19 22:44:41 +0500
-
 ---
 
 [**https://medium.com/dubizzletechblog/setting-up-prettier-and-eslint-for-js-and-react-apps-bbc779d29062**](https://medium.com/dubizzletechblog/setting-up-prettier-and-eslint-for-js-and-react-apps-bbc779d29062)
@@ -22,11 +18,15 @@ Rollup is a module bundler for JavaScript which compiles small pieces of code in
 
 <https://stackblitz.com>
 
-<https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en>
-
 <https://lisperator.net/uglifyjs>
 
 <https://github.com/reactjs/react-codemod>
+
+## React Developer Tools
+
+<https://www.toptal.com/react/debugging-react-developer-tools>
+
+<https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en>
 
 ## Build tools
 
@@ -39,15 +39,10 @@ Rollup is a module bundler for JavaScript which compiles small pieces of code in
 Next Generation Frontend Tooling
 
 1. Instant Server Start
-
 2. Lightning Fast HMR
-
 3. Rich Features
-
 4. Optimized Build
-
 5. Universal Plugin Interface
-
 6. Fully Typed APIs
 
 ## Webpack

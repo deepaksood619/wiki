@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-09-03 17:19:36 +0500
-
-Modified: 2021-05-31 01:20:17 +0500
-
 ---
 
 ## SWOT Analysis

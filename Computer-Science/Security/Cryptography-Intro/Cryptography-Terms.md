@@ -1,9 +1,5 @@
 # Cryptography Terms
 
-Created: 2021-05-28 23:58:12 +0500
-
-Modified: 2021-10-25 23:02:01 +0500
-
 ---
 
 ## Cryptographic Techniques

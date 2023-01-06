@@ -1,9 +1,5 @@
 # Parameter Servers
 
-Created: 2019-04-21 13:04:38 +0500
-
-Modified: 2021-09-28 22:28:30 +0500
-
 ---
 
 ## Parameter Servers and Stale Synchronous Parallel Model

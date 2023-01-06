@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-03-15 11:48:49 +0500
-
-Modified: 2022-04-12 18:43:23 +0500
-
 ---
 
 Docker is a tool for deploying isolated, or containerized, applications. Docker containers are similar to virtual machines in a sense, but much more lightweight both in size and resource consumption.

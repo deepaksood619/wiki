@@ -1,9 +1,5 @@
 # Summary - Unit 6
 
-Created: 2018-08-17 20:26:07 +0500
-
-Modified: 2018-08-17 20:26:59 +0500
-
 ---
 
 ![image](media/Intro-Syllabus_Summary-Unit-6-image1.png)

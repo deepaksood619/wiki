@@ -1,9 +1,5 @@
 # Centering
 
-Created: 2018-02-26 13:20:30 +0500
-
-Modified: 2022-07-22 20:09:36 +0500
-
 ---
 
 1. **Centering a div in a page, Basic**

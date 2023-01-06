@@ -1,9 +1,5 @@
 # Guides
 
-Created: 2020-05-03 15:31:06 +0500
-
-Modified: 2020-05-07 16:01:40 +0500
-
 ---
 
 - [Authentication](https://grpc.io/docs/guides/auth/)

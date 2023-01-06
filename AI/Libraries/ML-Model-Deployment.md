@@ -1,9 +1,5 @@
 # ML Model Deployment
 
-Created: 2021-05-12 14:56:54 +0500
-
-Modified: 2021-08-05 23:55:30 +0500
-
 ---
 
 ![image](media/ML-Model-Deployment-image1.jpg)

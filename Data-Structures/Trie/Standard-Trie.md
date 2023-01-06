@@ -1,9 +1,5 @@
 # Standard Trie
 
-Created: 2017-12-10 18:53:32 +0500
-
-Modified: 2021-09-05 16:20:45 +0500
-
 ---
 
 Radix Tree / Prefix Tree (Because pre-order traversal would give the nodes in lexicographical order)

@@ -1,9 +1,5 @@
 # Deep dive / Best practices
 
-Created: 2020-02-24 23:43:56 +0500
-
-Modified: 2022-12-02 09:41:04 +0500
-
 ---
 
 ## Insert performance

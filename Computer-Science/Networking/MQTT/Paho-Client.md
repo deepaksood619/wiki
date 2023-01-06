@@ -1,9 +1,5 @@
 # Paho Client
 
-Created: 2018-12-11 17:52:02 +0500
-
-Modified: 2020-01-07 19:08:39 +0500
-
 ---
 
 ```python

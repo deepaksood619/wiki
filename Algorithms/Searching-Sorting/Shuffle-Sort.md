@@ -1,9 +1,5 @@
 # Shuffle Sort
 
-Created: 2018-02-02 17:47:51 +0500
-
-Modified: 2018-02-02 17:53:32 +0500
-
 ---
 
 Goal: Rearrange array so that result is a uniformly random permutation

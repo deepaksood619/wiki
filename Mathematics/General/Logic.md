@@ -1,9 +1,5 @@
 # Logic
 
-Created: 2018-09-27 08:57:59 +0500
-
-Modified: 2018-12-04 23:37:57 +0500
-
 ---
 
 # Conceptions of logic

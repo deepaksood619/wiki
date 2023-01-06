@@ -1,9 +1,5 @@
 # Motivation
 
-Created: 2018-09-17 12:36:01 +0500
-
-Modified: 2022-11-13 02:00:46 +0500
-
 ---
 
 ## War Cry - Give up nahi karna hai

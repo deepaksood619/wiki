@@ -1,9 +1,5 @@
 # Transformations
 
-Created: 2018-05-24 16:04:04 +0500
-
-Modified: 2018-05-24 16:04:09 +0500
-
 ---
 
 [Introduction to rigid transformations:Transformations](https://www.khanacademy.org/math/geometry/hs-geo-transformations#hs-geo-transformations-intro)

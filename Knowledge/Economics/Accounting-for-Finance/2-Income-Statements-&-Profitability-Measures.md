@@ -1,9 +1,5 @@
 # 2 Income Statements & Profitability Measures
 
-Created: 2020-09-06 01:29:59 +0500
-
-Modified: 2021-12-22 21:21:15 +0500
-
 ---
 
 ## Measuring Income: Accrual versus Cash Accounting

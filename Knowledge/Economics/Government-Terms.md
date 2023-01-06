@@ -1,9 +1,5 @@
 # Government Terms
 
-Created: 2019-12-26 22:13:19 +0500
-
-Modified: 2022-08-07 23:49:45 +0500
-
 ---
 
 ## Equitable Distribution

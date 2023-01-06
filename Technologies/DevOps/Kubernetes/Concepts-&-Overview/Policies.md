@@ -1,9 +1,5 @@
 # Policies
 
-Created: 2019-09-24 11:29:46 +0500
-
-Modified: 2020-12-17 23:28:17 +0500
-
 ---
 
 ## Limit Ranges

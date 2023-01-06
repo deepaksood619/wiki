@@ -1,9 +1,5 @@
 # Types of programming paradigm
 
-Created: 2018-04-01 22:55:19 +0500
-
-Modified: 2018-06-23 23:17:21 +0500
-
 ---
 
 ## Imperative (allows side effect)

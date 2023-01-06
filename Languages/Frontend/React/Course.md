@@ -1,9 +1,5 @@
 # Course
 
-Created: 2020-07-05 13:49:16 +0500
-
-Modified: 2022-05-20 20:32:46 +0500
-
 ---
 
 Roadmap - <https://www.youtube.com/watch?v=Ip_jOSpThSg>

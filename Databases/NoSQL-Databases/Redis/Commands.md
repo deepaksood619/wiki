@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2020-03-20 23:41:17 +0500
-
-Modified: 2022-11-21 15:35:38 +0500
-
 ---
 
 ## Installation

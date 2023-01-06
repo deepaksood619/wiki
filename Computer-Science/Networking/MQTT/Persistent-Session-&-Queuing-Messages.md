@@ -1,9 +1,5 @@
 # Persistent Session & Queuing Messages
 
-Created: 2019-03-12 22:32:58 +0500
-
-Modified: 2019-03-12 23:39:39 +0500
-
 ---
 
 To receive messages from an MQTT broker, a client connects to the broker and creates [subscriptions to the topics](https://www.hivemq.com/blog/mqtt-essentials-part-5-mqtt-topics-best-practices/) in which it is interested. If the connection between the client and broker is interrupted during a non-persistent session, these topics are lost and the client needs to subscribe again on reconnect. Re-subscribing every time the connection is interrupted is a burden for constrained clients with limited resources. To avoid this problem, the client can request a persistent session when it connects to the broker. Persistent sessions save all information that is relevant for the client on the broker. TheclientIdthat the client provides when it establishes connection to the broker identifies the session

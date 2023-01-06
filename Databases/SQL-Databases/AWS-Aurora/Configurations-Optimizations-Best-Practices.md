@@ -1,9 +1,5 @@
 # Configurations / Optimizations / Best Practices
 
-Created: 2020-02-20 00:39:21 +0500
-
-Modified: 2022-12-11 19:59:49 +0500
-
 ---
 
 ### Database Configuration

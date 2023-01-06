@@ -1,9 +1,5 @@
 # Creational - Object Pool
 
-Created: 2021-03-20 16:43:36 +0500
-
-Modified: 2021-03-20 16:49:23 +0500
-
 ---
 
 ## Intent

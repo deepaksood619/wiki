@@ -1,9 +1,5 @@
 # Mordern React with Redux
 
-Created: 2018-03-25 17:18:48 +0500
-
-Modified: 2018-03-25 17:30:03 +0500
-
 ---
 
 ## An Intro to React

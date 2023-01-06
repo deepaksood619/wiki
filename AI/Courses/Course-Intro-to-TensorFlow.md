@@ -1,9 +1,5 @@
 # Course - Intro to TensorFlow
 
-Created: 2018-07-04 01:52:32 +0500
-
-Modified: 2021-06-19 14:14:03 +0500
-
 ---
 
 <https://www.youtube.com/watch?v=tPYj3fFJGjk>

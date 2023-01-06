@@ -1,9 +1,5 @@
 # Vocabulary
 
-Created: 2019-11-16 00:13:39 +0500
-
-Modified: 2020-03-17 13:46:32 +0500
-
 ---
 
 Harvest and Yield

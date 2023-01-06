@@ -1,9 +1,5 @@
 # confluent-kafka
 
-Created: 2020-05-03 03:17:00 +0500
-
-Modified: 2020-05-30 18:50:42 +0500
-
 ---
 
 ## Confluent kafka-python

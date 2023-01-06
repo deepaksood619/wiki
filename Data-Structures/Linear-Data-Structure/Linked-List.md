@@ -1,9 +1,5 @@
 # Linked List
 
-Created: 2018-01-30 19:03:53 +0500
-
-Modified: 2020-01-07 22:36:30 +0500
-
 ---
 
 ## Points to remember

@@ -1,9 +1,5 @@
 # Apache Hadoop
 
-Created: 2018-09-08 18:58:23 +0500
-
-Modified: 2020-08-01 14:38:28 +0500
-
 ---
 
 - MapReduce API (Processing large parallel data)

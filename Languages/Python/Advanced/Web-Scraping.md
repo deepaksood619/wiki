@@ -1,9 +1,5 @@
 # Web Scraping
 
-Created: 2018-05-16 18:57:16 +0500
-
-Modified: 2022-02-05 01:00:58 +0500
-
 ---
 
 Web Scraping is a technique in which a computer program extracts data from human-readable output coming from websites.

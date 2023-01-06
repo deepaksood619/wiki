@@ -1,9 +1,5 @@
 # MCAT
 
-Created: 2019-02-04 22:42:48 +0500
-
-Modified: 2019-07-15 19:32:47 +0500
-
 ---
 
 ## CARS - Critical Analysis and Reasoning Skills

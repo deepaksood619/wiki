@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-04-19 17:48:38 +0500
-
-Modified: 2021-06-11 00:18:38 +0500
-
 ---
 
 Andrew S. Tanenbaum - A Collection of independent computers that appears to its users as one computer.

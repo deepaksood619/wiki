@@ -1,9 +1,5 @@
 # Python HowTos
 
-Created: 2019-02-07 10:53:01 +0500
-
-Modified: 2020-04-02 16:55:11 +0500
-
 ---
 
 - [Porting Python 2 Code to Python 3](https://docs.python.org/3/howto/pyporting.html)

@@ -1,9 +1,5 @@
 # Authentication
 
-Created: 2018-12-04 12:24:07 +0500
-
-Modified: 2022-10-01 10:16:58 +0500
-
 ---
 
 ## Methods of Authentication

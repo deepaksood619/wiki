@@ -1,9 +1,5 @@
 # Rsocket
 
-Created: 2019-07-03 12:46:30 +0500
-
-Modified: 2019-07-03 12:50:32 +0500
-
 ---
 
 RSocket is a binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron.

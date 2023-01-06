@@ -1,9 +1,5 @@
 # ElastAlert
 
-Created: 2019-05-22 18:14:55 +0500
-
-Modified: 2021-08-29 16:14:32 +0500
-
 ---
 
 ElastAlert is a simple framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch.

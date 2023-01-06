@@ -1,9 +1,5 @@
 # Constitution of India
 
-Created: 2021-07-11 23:35:19 +0500
-
-Modified: 2022-02-13 22:40:15 +0500
-
 ---
 
 ## Original

@@ -1,9 +1,5 @@
 # Operators
 
-Created: 2017-11-14 13:20:54 +0500
-
-Modified: 2021-03-24 13:18:46 +0500
-
 ---
 
 Types of Operator

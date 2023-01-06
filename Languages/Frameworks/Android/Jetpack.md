@@ -1,9 +1,5 @@
 # Jetpack
 
-Created: 2020-10-10 15:10:15 +0500
-
-Modified: 2021-06-23 00:01:27 +0500
-
 ---
 
 Jetpack is a set of libraries, tools and architectural guidance to help make it quick and easy to build great Android apps. It provides common infrastructure code so you can focus on what makes your app unique.

@@ -1,9 +1,5 @@
 # Others / Power / Energy
 
-Created: 2019-06-27 12:00:06 +0500
-
-Modified: 2022-11-13 01:36:01 +0500
-
 ---
 
 ## Core Catcher

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-11-24 13:56:53 +0500
-
-Modified: 2021-06-04 00:44:53 +0500
-
 ---
 
 ## Some Classifiers in scikit-learn

@@ -1,9 +1,5 @@
 # Diseases / Tests
 
-Created: 2019-05-19 23:25:27 +0500
-
-Modified: 2021-08-14 10:17:41 +0500
-
 ---
 
 ## Lifestyle related disease

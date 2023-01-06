@@ -1,9 +1,5 @@
 # Administration
 
-Created: 2019-01-11 15:51:58 +0500
-
-Modified: 2019-01-11 15:52:08 +0500
-
 ---
 
 1. [Configuring InfluxDB](https://docs.influxdata.com/influxdb/v1.7/administration/config/)

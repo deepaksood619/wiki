@@ -1,9 +1,5 @@
 # CheatSheet
 
-Created: 2018-11-15 15:42:25 +0500
-
-Modified: 2020-03-31 00:40:20 +0500
-
 ---
 
 <https://www.kaggle.com/grroverpr/pandas-cheatsheet>

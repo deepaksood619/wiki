@@ -1,9 +1,5 @@
 # Time-Series Modeling
 
-Created: 2020-04-09 21:59:48 +0500
-
-Modified: 2021-12-04 21:15:41 +0500
-
 ---
 
 ## Endogenous variable - The variable we are estimating

@@ -1,9 +1,5 @@
 # Kademlia
 
-Created: 2019-03-17 19:01:12 +0500
-
-Modified: 2019-03-17 19:07:04 +0500
-
 ---
 
 Kademliais a [distributed hash table](https://en.wikipedia.org/wiki/Distributed_hash_table) for decentralized [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer)[computer networks](https://en.wikipedia.org/wiki/Computer_network) designed by Petar Maymounkov and David Mazières in 2002. It specifies the structure of the network and the exchange of information through [node](https://en.wikipedia.org/wiki/Node_(networking)) lookups. Kademlia nodes communicate among themselves using [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol). A virtual or [overlay network](https://en.wikipedia.org/wiki/Overlay_network) is formed by the participant nodes. Each node is identified by a number ornode ID. Thenode IDserves not only as identification, but the Kademlia algorithm uses thenode IDto locate values (usually file [hashes](https://en.wikipedia.org/wiki/Hash_function) or keywords). In fact, thenode IDprovides a direct map to file hashes and that node stores information on where to obtain the file or resource.

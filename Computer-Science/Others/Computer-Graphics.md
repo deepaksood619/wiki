@@ -1,9 +1,5 @@
 # Computer Graphics
 
-Created: 2018-08-21 14:32:26 +0500
-
-Modified: 2022-04-03 14:22:24 +0500
-
 ---
 
 1. Rasterization

@@ -1,9 +1,5 @@
 # Outline
 
-Created: 2018-11-14 00:33:39 +0500
-
-Modified: 2022-09-23 13:06:51 +0500
-
 ---
 
 - [Administrative law](https://en.wikipedia.org/wiki/Administrative_law)

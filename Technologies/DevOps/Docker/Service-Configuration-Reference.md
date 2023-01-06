@@ -1,9 +1,5 @@
 # Service Configuration Reference
 
-Created: 2018-12-21 23:37:33 +0500
-
-Modified: 2020-07-08 22:46:04 +0500
-
 ---
 
 1. build

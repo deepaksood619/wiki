@@ -1,9 +1,5 @@
 # Habits
 
-Created: 2019-03-23 11:32:25 +0500
-
-Modified: 2022-06-01 21:28:34 +0500
-
 ---
 
 ## Self-Control

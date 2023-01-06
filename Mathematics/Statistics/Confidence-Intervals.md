@@ -1,9 +1,5 @@
 # Confidence Intervals
 
-Created: 2021-09-15 23:22:16 +0500
-
-Modified: 2021-09-15 23:22:31 +0500
-
 ---
 
 Definition of confidence intervals

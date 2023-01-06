@@ -1,9 +1,5 @@
 # Estimator API
 
-Created: 2018-07-05 01:27:04 +0500
-
-Modified: 2021-06-19 14:15:13 +0500
-
 ---
 
 - Estimator API - Wrapping a model in a common set of APIs

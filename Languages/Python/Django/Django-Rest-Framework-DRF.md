@@ -1,9 +1,5 @@
 # Django Rest Framework DRF
 
-Created: 2017-11-08 12:04:51 +0500
-
-Modified: 2021-12-31 13:18:04 +0500
-
 ---
 
 Django REST framework is a powerful and flexible toolkit for building Web APIs.

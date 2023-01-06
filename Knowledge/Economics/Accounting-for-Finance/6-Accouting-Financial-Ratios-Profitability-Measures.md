@@ -1,9 +1,5 @@
 # 6: Accouting Financial Ratios - Profitability Measures
 
-Created: 2020-09-06 16:09:33 +0500
-
-Modified: 2022-01-10 21:59:08 +0500
-
 ---
 
 ## From Absolutes to Ratios

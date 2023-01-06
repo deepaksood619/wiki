@@ -1,9 +1,5 @@
 # Mordern Algorithm Design
 
-Created: 2018-05-03 23:59:05 +0500
-
-Modified: 2020-02-10 11:07:10 +0500
-
 ---
 
 1. Randomization

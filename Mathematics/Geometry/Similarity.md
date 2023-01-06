@@ -1,9 +1,5 @@
 # Similarity
 
-Created: 2018-05-24 16:04:26 +0500
-
-Modified: 2018-05-24 16:04:36 +0500
-
 ---
 
 [Definitions of similarity:Similarity](https://www.khanacademy.org/math/geometry/hs-geo-similarity#hs-geo-similarity-definitions)

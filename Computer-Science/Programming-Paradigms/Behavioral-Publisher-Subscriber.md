@@ -1,9 +1,5 @@
 # Behavioral - Publisher Subscriber
 
-Created: 2018-05-09 21:15:49 +0500
-
-Modified: 2018-08-20 15:55:11 +0500
-
 ---
 
 In 'Publisher-Subscriber' pattern, senders of messages, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers.

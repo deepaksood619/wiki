@@ -1,9 +1,5 @@
 # Caches / Caching
 
-Created: 2019-01-09 12:33:37 +0500
-
-Modified: 2021-11-07 17:15:50 +0500
-
 ---
 
 ## Points to remeber about cache

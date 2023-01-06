@@ -1,9 +1,5 @@
 # Google Cloud Platform - Managed Services
 
-Created: 2018-06-14 00:50:11 +0500
-
-Modified: 2020-11-05 15:23:19 +0500
-
 ---
 
 ## Compute

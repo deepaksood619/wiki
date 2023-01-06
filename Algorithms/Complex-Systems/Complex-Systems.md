@@ -1,9 +1,5 @@
 # Complex Systems
 
-Created: 2018-08-16 11:58:44 +0500
-
-Modified: 2021-12-16 23:38:48 +0500
-
 ---
 
 ![image](media/Complex-Systems-image1.jpg)

@@ -1,9 +1,5 @@
 # People / Team Management / Culture
 
-Created: 2020-07-03 13:56:44 +0500
-
-Modified: 2022-12-09 23:57:21 +0500
-
 ---
 
 I am available anytime, I can mentor, Any help you need you can always come to me. -- Deepak

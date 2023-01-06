@@ -1,9 +1,5 @@
 # Architecting on AWS
 
-Created: 2020-08-03 12:55:33 +0500
-
-Modified: 2022-01-08 23:05:17 +0500
-
 ---
 
 12thAugust to 14thAugust 2020

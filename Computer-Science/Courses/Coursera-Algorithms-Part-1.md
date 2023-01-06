@@ -1,9 +1,5 @@
 # Coursera - Algorithms Part - 1
 
-Created: 2018-06-02 14:02:02 +0500
-
-Modified: 2022-12-11 19:27:35 +0500
-
 ---
 
 # Syllabus

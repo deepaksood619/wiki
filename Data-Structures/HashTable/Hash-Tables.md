@@ -1,9 +1,5 @@
 # Hash Tables
 
-Created: 2018-02-07 09:20:14 +0500
-
-Modified: 2021-04-21 20:28:39 +0500
-
 ---
 
 *hash tables, a data structure that achieves constant-time performance for core symbol table operations, provided that search keys are standard data types or simply defined.*

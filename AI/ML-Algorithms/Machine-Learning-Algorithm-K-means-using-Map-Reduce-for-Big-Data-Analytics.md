@@ -1,9 +1,5 @@
 # Machine Learning Algorithm K-means using Map Reduce for Big Data Analytics
 
-Created: 2019-04-01 20:38:21 +0500
-
-Modified: 2021-06-13 20:20:17 +0500
-
 ---
 
 ## Preface

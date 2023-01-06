@@ -1,9 +1,5 @@
 # MongoDB
 
-Created: 2019-05-06 22:11:22 +0500
-
-Modified: 2022-02-05 01:24:21 +0500
-
 ---
 
 ## MongoDB / CouchBase

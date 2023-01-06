@@ -1,9 +1,5 @@
 # UDP
 
-Created: 2019-09-28 13:50:40 +0500
-
-Modified: 2019-09-28 14:20:46 +0500
-
 ---
 
 In [computer networking](https://en.wikipedia.org/wiki/Computer_network), theUser Datagram Protocol(UDP) is one of the core members of the [Internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite). The protocol was designed by [David P. Reed](https://en.wikipedia.org/wiki/David_P._Reed) in 1980 and formally defined in [RFC](https://en.wikipedia.org/wiki/Request_for_Comments_(identifier)) [768](https://tools.ietf.org/html/rfc768). With UDP, computer applications can send messages, in this case referred to as [datagrams](https://en.wikipedia.org/wiki/Datagram), to other hosts on an [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)(IP) network. Prior communications are not required in order to set up [communication channels](https://en.wikipedia.org/wiki/Communication_channel) or data paths.

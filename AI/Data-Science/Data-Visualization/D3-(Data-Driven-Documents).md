@@ -1,9 +1,5 @@
 # D3 (Data Driven Documents)
 
-Created: 2021-06-28 13:00:12 +0500
-
-Modified: 2021-06-28 17:02:38 +0500
-
 ---
 
 <https://www.freecodecamp.org/learn/data-visualization>

@@ -1,9 +1,5 @@
 # Root
 
-Created: 2018-04-02 00:06:21 +0500
-
-Modified: 2018-04-02 00:07:33 +0500
-
 ---
 
 Roots get back the base number from the solution of an exponential equation.

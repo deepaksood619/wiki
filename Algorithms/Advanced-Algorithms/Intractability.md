@@ -1,9 +1,5 @@
 # Intractability
 
-Created: 2018-04-19 00:02:30 +0500
-
-Modified: 2019-09-08 11:56:52 +0500
-
 ---
 
 Is there a universal problem-solving model to which all problems that we would like to solve reduce and for which we know an efficient algorithm? You may be surprised to learn that we do not know the answer to this question. In this lecture we introduce the complexity classes P, NP, and NP-complete, pose the famous P = NP question, and consider implications in the context of algorithms that we have treated in this course.

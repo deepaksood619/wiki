@@ -1,9 +1,5 @@
 # Digital Circuits
 
-Created: 2019-09-03 08:29:30 +0500
-
-Modified: 2019-09-03 08:31:42 +0500
-
 ---
 
 ## Karnaugh Maps

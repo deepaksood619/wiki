@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-04-17 12:08:40 +0500
-
-Modified: 2022-05-18 21:00:42 +0500
-
 ---
 
 ## AWS services to avoid

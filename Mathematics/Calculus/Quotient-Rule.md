@@ -1,9 +1,5 @@
 # Quotient Rule
 
-Created: 2018-12-05 00:30:46 +0500
-
-Modified: 2018-12-05 00:51:08 +0500
-
 ---
 
 ![image](media/Quotient-Rule-image1.png)

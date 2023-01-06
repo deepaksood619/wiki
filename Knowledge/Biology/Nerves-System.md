@@ -1,9 +1,5 @@
 # Nerves System
 
-Created: 2020-08-05 01:00:04 +0500
-
-Modified: 2020-08-05 01:01:13 +0500
-
 ---
 
 Your cranial nerves are pairs of nerves that connect your [brain](https://www.healthline.com/human-body-maps/brain) to different parts of your head, neck, and trunk. There are 12 of them, each named for their function or structure.

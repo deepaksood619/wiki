@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2020-04-10 01:42:33 +0500
-
-Modified: 2021-12-20 23:59:34 +0500
-
 ---
 
 ## Fundamental marketing theory

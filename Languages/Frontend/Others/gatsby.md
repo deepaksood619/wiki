@@ -1,9 +1,5 @@
 # Gatsby
 
-Created: 2020-02-06 13:30:12 +0500
-
-Modified: 2022-12-11 12:42:40 +0500
-
 ---
 
 Gatsby is a free and open source framework based on React that helps developers build blazing fastwebsitesandapps
@@ -101,3 +97,7 @@ gatsby develop
 ```
 
 <https://rocketdocs.gatsbyjs.io/usage/using-yaml-files>
+
+## Optimizations
+
+<https://www.gatsbyjs.com/docs/how-to/performance/improving-build-performance/#query-only-needed-fields-in-createpages>

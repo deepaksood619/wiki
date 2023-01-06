@@ -1,9 +1,5 @@
 # Mixin
 
-Created: 2018-05-15 14:45:02 +0500
-
-Modified: 2018-09-17 18:25:42 +0500
-
 ---
 
 A mixin is a special kind of multiple inheritance. There are two main situations where mixins are used:

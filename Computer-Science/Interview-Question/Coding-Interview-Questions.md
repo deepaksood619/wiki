@@ -1,9 +1,5 @@
 # Coding Interview Questions
 
-Created: 2018-06-23 23:39:22 +0500
-
-Modified: 2022-05-24 23:10:04 +0500
-
 ---
 
 Platforms

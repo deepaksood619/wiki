@@ -1,9 +1,5 @@
 # Postgres Commands
 
-Created: 2019-12-26 01:15:16 +0500
-
-Modified: 2022-05-23 11:42:22 +0500
-
 ---
 
 `brew install postgresql`

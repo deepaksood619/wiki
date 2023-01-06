@@ -1,9 +1,5 @@
 # Course - Launching into ML
 
-Created: 2018-07-01 23:01:27 +0500
-
-Modified: 2021-06-19 14:16:53 +0500
-
 ---
 
 ## Objectives

@@ -1,9 +1,5 @@
 # RPC
 
-Created: 2017-12-04 21:16:13 +0500
-
-Modified: 2020-05-12 01:12:57 +0500
-
 ---
 
 <https://sbdevel.wordpress.com/2009/12/17/the-case-rpc-vs-messaging>

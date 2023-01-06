@@ -1,9 +1,5 @@
 # Rivers
 
-Created: 2021-11-19 11:58:37 +0500
-
-Modified: 2022-08-27 17:44:08 +0500
-
 ---
 
 [Important Geographical Terms Features Landforms Of Earth](https://youtu.be/8McizDCj6qE)

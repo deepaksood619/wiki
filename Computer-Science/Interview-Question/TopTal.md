@@ -1,9 +1,5 @@
 # TopTal
 
-Created: 2017-11-19 17:57:20 +0500
-
-Modified: 2020-01-17 19:39:00 +0500
-
 ---
 
 Algorithm and Coding Round (Online - Codility)

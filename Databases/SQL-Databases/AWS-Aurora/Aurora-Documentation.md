@@ -1,9 +1,5 @@
 # Aurora Documentation
 
-Created: 2020-02-17 15:28:28 +0500
-
-Modified: 2021-03-15 10:49:56 +0500
-
 ---
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html>

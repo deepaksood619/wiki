@@ -1,9 +1,5 @@
 # Course - Learning How to Learn
 
-Created: 2018-04-14 17:10:54 +0500
-
-Modified: 2022-05-22 23:29:12 +0500
-
 ---
 
 ## Key Chunks discussed in the course from which you can recall whole course

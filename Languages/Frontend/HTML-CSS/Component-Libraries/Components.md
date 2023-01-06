@@ -1,9 +1,5 @@
 # Components
 
-Created: 2021-11-12 23:23:50 +0500
-
-Modified: 2021-11-14 10:06:33 +0500
-
 ---
 
 <https://material.io/components>

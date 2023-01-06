@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-06-02 21:26:40 +0500
-
-Modified: 2022-01-02 22:42:00 +0500
-
 ---
 
 ## CSS Keyframe Animation

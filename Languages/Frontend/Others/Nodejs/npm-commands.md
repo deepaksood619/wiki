@@ -1,9 +1,5 @@
 # npm commands
 
-Created: 2018-03-24 20:15:52 +0500
-
-Modified: 2021-11-24 07:02:48 +0500
-
 ---
 
 npx - npm package runner

@@ -1,9 +1,5 @@
 # Learning - Intro
 
-Created: 2019-05-02 12:04:11 +0500
-
-Modified: 2022-11-13 01:53:21 +0500
-
 ---
 
 <https://guides.lib.uoguelph.ca/c.php?g=697430&p=4949569>

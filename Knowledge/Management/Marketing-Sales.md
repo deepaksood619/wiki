@@ -1,9 +1,5 @@
 # Marketing / Sales
 
-Created: 2019-07-03 11:43:20 +0500
-
-Modified: 2022-12-05 12:30:11 +0500
-
 ---
 
 ## Consumer Immersion Exercise

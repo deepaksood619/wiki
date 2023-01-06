@@ -1,9 +1,5 @@
 # Automatic Collected Events
 
-Created: 2020-11-10 16:33:53 +0500
-
-Modified: 2020-11-10 16:42:41 +0500
-
 ---
 
 Automatically collected events are triggered by basic interactions with your app. As long as you use the Firebase SDK, you don't need to write any additional code to collect these events.

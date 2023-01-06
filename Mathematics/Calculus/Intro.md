@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-05-17 19:59:55 +0500
-
-Modified: 2021-07-11 03:32:57 +0500
-
 ---
 
 The word Calculus comes from Latin meaning "small stone", Because it is like understanding something by looking at small pieces.

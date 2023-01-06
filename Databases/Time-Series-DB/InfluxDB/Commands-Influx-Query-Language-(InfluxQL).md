@@ -1,9 +1,5 @@
 # Commands / Influx Query Language (InfluxQL)
 
-Created: 2019-01-11 15:52:41 +0500
-
-Modified: 2019-12-28 23:48:57 +0500
-
 ---
 
 1. [Sample data](https://docs.influxdata.com/influxdb/v1.7/query_language/data_download/)

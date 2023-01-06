@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-03-17 23:27:01 +0500
-
-Modified: 2021-11-25 13:31:50 +0500
-
 ---
 
 ## Testing Vocabulary

@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2019-01-15 23:35:37 +0500
-
-Modified: 2020-02-11 18:41:03 +0500
-
 ---
 
 `Usage: terraform [-version] [-help] <command> [args]`

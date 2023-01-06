@@ -1,9 +1,5 @@
 # sMAP
 
-Created: 2018-02-14 13:33:24 +0500
-
-Modified: 2018-10-05 17:51:28 +0500
-
 ---
 
 # sMAP: the Simple Measurement and Actuation Profile

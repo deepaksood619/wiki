@@ -1,9 +1,5 @@
 # Kruskal's Algorithm for MST
 
-Created: 2018-02-19 10:37:00 +0500
-
-Modified: 2018-05-22 19:29:34 +0500
-
 ---
 
 ![image](media/Kruskal's-Algorithm-for-MST-image1.png)

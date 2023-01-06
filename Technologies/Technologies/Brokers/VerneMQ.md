@@ -1,9 +1,5 @@
 # VerneMQ
 
-Created: 2019-01-11 17:12:41 +0500
-
-Modified: 2019-09-30 10:54:55 +0500
-
 ---
 
 VerneMQ is first and foremost a MQTT publish/subscribe message broker which implements the OASIS industry standard [MQTT protocol](https://vernemq.com/intro/mqtt-primer/). But VerneMQ is also built to take messaging and IoT applications to the next level by providing a unique set of features related to scalability, reliability and high-performance as well as operational simplicity.

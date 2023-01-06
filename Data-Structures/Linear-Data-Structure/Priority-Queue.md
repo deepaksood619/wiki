@@ -1,9 +1,5 @@
 # Priority Queue
 
-Created: 2018-02-03 14:42:20 +0500
-
-Modified: 2022-03-15 14:50:44 +0500
-
 ---
 
 A **priority queue** is an [abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type) which is like a regular [queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) or [stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) data structure, but where additionally each element has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.

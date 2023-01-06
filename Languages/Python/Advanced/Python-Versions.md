@@ -1,9 +1,5 @@
 # Python Versions
 
-Created: 2018-12-20 21:10:28 +0500
-
-Modified: 2021-10-02 22:35:16 +0500
-
 ---
 
 ## Python2 vs Python3

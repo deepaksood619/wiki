@@ -1,9 +1,5 @@
 # Random Variables
 
-Created: 2018-08-09 00:14:23 +0500
-
-Modified: 2021-10-03 19:53:34 +0500
-
 ---
 
 In [probability and statistics](https://en.wikipedia.org/wiki/Probability_and_statistics), a**random variable**, **random quantity**, **aleatory variable**, or**stochastic variable** is a variable whose possible values are [outcomes](https://en.wikipedia.org/wiki/Outcome_(probability)) of a [random](https://en.wikipedia.org/wiki/Randomness) phenomenon.As a function, a random variable is required to be [measurable](https://en.wikipedia.org/wiki/Measurable_function), which rules out certain [pathological](https://en.wikipedia.org/wiki/Pathological_(mathematics)) cases where the quantity which the random variable returns is infinitely sensitive to small changes in the outcome.

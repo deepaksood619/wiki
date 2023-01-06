@@ -1,9 +1,5 @@
 # HyperLogLog
 
-Created: 2018-05-17 22:17:36 +0500
-
-Modified: 2020-01-08 23:25:26 +0500
-
 ---
 
 HyperLogLog is a streaming algorithm used for estimating the number of distinct elements (the cardinality) of very large data sets. HyperLogLog counter can count one billion distinct items with an accuracy of 2% using only 1.5 KB of memory. It is based on the bit pattern observation that for a stream of randomly distributed numbers, if there is a number x with the maximum of leading 0 bits k, the cardinality of the stream is very likely equal to 2^k.

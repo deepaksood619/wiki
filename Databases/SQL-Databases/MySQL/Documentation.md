@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2020-02-10 12:42:49 +0500
-
-Modified: 2022-11-18 15:53:59 +0500
-
 ---
 
 1.3 Overview of the MySQL Database Management System

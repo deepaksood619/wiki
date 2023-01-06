@@ -1,9 +1,5 @@
 # Merge Sort
 
-Created: 2018-02-03 11:23:00 +0500
-
-Modified: 2020-06-18 10:49:10 +0500
-
 ---
 
 Merge sortrecursively halves the given array. Once the subarrays reach trivial length, merging begins. Merging takes the smallest element between two adjacent subarrays and repeats that step until all elements are taken, resulting in a sorted subarray. The process is repeated on pairs of adjacent subarrays until we arrive at the starting array, but sorted.

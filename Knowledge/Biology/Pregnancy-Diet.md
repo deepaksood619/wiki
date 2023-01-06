@@ -1,9 +1,5 @@
 # Pregnancy Diet
 
-Created: 2021-02-11 01:05:52 +0500
-
-Modified: 2021-02-11 01:06:32 +0500
-
 ---
 
 ![image](media/Pregnancy-Diet-image1.png)

@@ -1,9 +1,5 @@
 # Coursera - PM
 
-Created: 2020-09-16 20:38:31 +0500
-
-Modified: 2021-11-07 13:57:10 +0500
-
 ---
 
 <https://www.coursera.org/specializations/real-world-product-management>

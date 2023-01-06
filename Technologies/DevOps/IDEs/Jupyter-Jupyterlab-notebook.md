@@ -1,9 +1,5 @@
 # Jupyter / Jupyterlab / notebook
 
-Created: 2017-12-14 16:45:43 +0500
-
-Modified: 2022-04-27 16:02:23 +0500
-
 ---
 
 # Overview

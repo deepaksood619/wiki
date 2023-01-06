@@ -1,9 +1,5 @@
 # Others - Data
 
-Created: 2020-01-07 18:50:04 +0500
-
-Modified: 2020-07-17 12:47:48 +0500
-
 ---
 
 ## Data Hub

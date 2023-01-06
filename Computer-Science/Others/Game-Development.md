@@ -1,9 +1,5 @@
 # Game Development
 
-Created: 2021-03-31 20:04:40 +0500
-
-Modified: 2022-11-23 22:57:58 +0500
-
 ---
 
 <https://docs.microsoft.com/en-us/archive/msdn-magazine/2015/march/game-development-a-web-game-in-an-hour>

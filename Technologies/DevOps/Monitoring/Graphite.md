@@ -1,9 +1,5 @@
 # Graphite
 
-Created: 2019-06-26 20:43:32 +0500
-
-Modified: 2021-11-17 22:37:01 +0500
-
 ---
 
 ## Graphite does two things

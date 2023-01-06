@@ -1,9 +1,5 @@
 # Time Series Databases
 
-Created: 2018-09-08 17:06:57 +0500
-
-Modified: 2020-04-04 01:20:20 +0500
-
 ---
 
 - Optimized for time-stamped or time series data

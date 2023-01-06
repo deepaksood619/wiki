@@ -1,9 +1,5 @@
 # Functions
 
-Created: 2019-12-01 15:07:57 +0500
-
-Modified: 2021-01-30 01:13:06 +0500
-
 ---
 
 ## MySQL String Functions

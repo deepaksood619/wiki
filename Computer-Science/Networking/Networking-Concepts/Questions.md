@@ -1,9 +1,5 @@
 # Questions
 
-Created: 2019-10-15 20:09:14 +0500
-
-Modified: 2020-01-03 19:27:43 +0500
-
 ---
 
 1. Where would you use exact-match packet forwarding? Where would you use longest-prefix? Whyis 2-choice better than standard hashing?

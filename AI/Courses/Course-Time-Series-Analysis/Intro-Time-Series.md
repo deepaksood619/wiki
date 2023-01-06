@@ -1,9 +1,5 @@
 # Intro - Time Series
 
-Created: 2020-04-05 01:42:01 +0500
-
-Modified: 2021-12-04 21:16:23 +0500
-
 ---
 
 - QQ-Plot (Quantile-Quantile Plot)

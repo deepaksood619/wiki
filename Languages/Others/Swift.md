@@ -1,9 +1,5 @@
 # Swift
 
-Created: 2018-01-11 19:34:42 +0500
-
-Modified: 2020-05-27 16:35:54 +0500
-
 ---
 
 Basic Syntax -

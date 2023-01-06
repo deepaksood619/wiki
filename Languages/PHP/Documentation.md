@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2020-09-04 14:24:05 +0500
-
-Modified: 2020-12-04 23:37:41 +0500
-
 ---
 
 - [**Language Reference**](https://www.php.net/manual/en/langref.php)

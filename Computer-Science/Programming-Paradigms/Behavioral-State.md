@@ -1,9 +1,5 @@
 # Behavioral - State
 
-Created: 2018-08-20 16:41:15 +0500
-
-Modified: 2018-08-21 08:28:43 +0500
-
 ---
 
 The**state pattern** is a [behavioral](https://en.wikipedia.org/wiki/Behavioral_pattern)[software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) that implements a [state machine](https://en.wikipedia.org/wiki/State_machine) in an [object-oriented](https://en.wikipedia.org/wiki/Object-oriented) way. With the state pattern, a state machine is implemented by implementing each individual state as a derived class of the state pattern interface, and implementing state transitions by invoking [methods](https://en.wikipedia.org/wiki/Method_(computer_programming)) defined by the pattern's superclass.

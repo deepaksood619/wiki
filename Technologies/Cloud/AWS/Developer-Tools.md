@@ -1,9 +1,5 @@
 # Developer Tools
 
-Created: 2020-02-16 16:09:49 +0500
-
-Modified: 2022-01-02 23:14:03 +0500
-
 ---
 
 1. AWS CodeStar

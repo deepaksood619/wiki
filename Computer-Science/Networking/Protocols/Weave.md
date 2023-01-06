@@ -1,9 +1,5 @@
 # Weave
 
-Created: 2019-03-16 15:42:51 +0500
-
-Modified: 2019-03-16 15:54:44 +0500
-
 ---
 
 Weave is a set of application-level networking protocols built around a common addressing and naming architecture with low overhead serialization protocols and modern security.

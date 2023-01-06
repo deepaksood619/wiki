@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-02-22 23:43:56 +0500
-
-Modified: 2021-06-06 16:49:43 +0500
-
 ---
 
 ## Combinatoricsis an area of [mathematics](https://en.wikipedia.org/wiki/Mathematics) primarily concerned with counting, both as a means and an end in obtaining results, and certain properties of [finite](https://en.wikipedia.org/wiki/Finite_set)[structures](https://en.wikipedia.org/wiki/Mathematical_structure). It is closely related to many other areas of mathematics and has many applications ranging from [logic](https://en.wikipedia.org/wiki/Logic) to [statistical physics](https://en.wikipedia.org/wiki/Statistical_physics), from [evolutionary biology](https://en.wikipedia.org/wiki/Evolutionary_biology) to [computer science](https://en.wikipedia.org/wiki/Computer_science), etc

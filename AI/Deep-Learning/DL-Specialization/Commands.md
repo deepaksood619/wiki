@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2021-04-03 20:03:22 +0500
-
-Modified: 2021-04-03 23:36:31 +0500
-
 ---
 
 ## Libraries

@@ -1,9 +1,5 @@
 # Multi Armed Bandit (MAB)
 
-Created: 2019-11-20 00:05:04 +0500
-
-Modified: 2019-11-20 00:06:23 +0500
-
 ---
 
 The multi-armed bandit (MAB) is a classic problem in decision sciences. Effectively, it is one of optimal resource allocation under uncertainty.

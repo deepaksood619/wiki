@@ -1,9 +1,5 @@
 # Embeddings & Estimators
 
-Created: 2018-07-13 01:44:49 +0500
-
-Modified: 2021-07-05 09:43:41 +0500
-
 ---
 
 - Embeddings

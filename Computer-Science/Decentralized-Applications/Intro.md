@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-09-20 18:13:12 +0500
-
-Modified: 2022-04-07 20:49:34 +0500
-
 ---
 
 1. Centralized

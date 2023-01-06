@@ -1,9 +1,5 @@
 # Continents
 
-Created: 2020-01-05 18:45:31 +0500
-
-Modified: 2022-01-28 23:23:41 +0500
-
 ---
 
 <table style="width:100%;">

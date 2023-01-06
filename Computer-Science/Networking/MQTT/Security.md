@@ -1,9 +1,5 @@
 # Security
 
-Created: 2019-03-12 23:47:37 +0500
-
-Modified: 2020-11-17 23:18:04 +0500
-
 ---
 
 Security is a very important part of any communication. MQTT itself keeps everything as simple as possible and relies on other proven technologies for safeguards instead of reinventing the wheel.

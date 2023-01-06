@@ -1,9 +1,5 @@
 # Investment Terms
 
-Created: 2022-05-11 13:49:06 +0500
-
-Modified: 2022-07-30 22:36:13 +0500
-
 ---
 
 [Annual vs Trailing vs Rolling Returns Explained | ET Money](https://youtu.be/ncMwF6HQ92Y)

@@ -1,9 +1,5 @@
 # Quick Select
 
-Created: 2018-02-03 13:01:59 +0500
-
-Modified: 2018-05-12 11:24:07 +0500
-
 ---
 
 Randomized quickselect, a quicksort variant which finds the kth smallest item in linear time.

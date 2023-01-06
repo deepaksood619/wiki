@@ -1,9 +1,5 @@
 # Type Introspection and Reflection
 
-Created: 2017-11-06 16:26:14 +0500
-
-Modified: 2018-11-30 12:07:17 +0500
-
 ---
 
 ## Type Introspection

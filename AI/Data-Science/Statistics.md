@@ -1,9 +1,5 @@
 # Statistics
 
-Created: 2018-08-23 19:42:01 +0500
-
-Modified: 2021-09-28 22:29:09 +0500
-
 ---
 
 1. **Statistics in Data Preparation**

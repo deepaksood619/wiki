@@ -1,9 +1,5 @@
 # Prim's Algorithm for MST
 
-Created: 2018-02-22 23:39:31 +0500
-
-Modified: 2018-05-21 22:51:16 +0500
-
 ---
 
 ## Properties

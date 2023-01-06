@@ -1,9 +1,5 @@
 # Decision Making
 
-Created: 2021-01-09 15:49:56 +0500
-
-Modified: 2022-12-08 23:58:48 +0500
-
 ---
 
 Ensure that decisions are made at the level where the best information is available

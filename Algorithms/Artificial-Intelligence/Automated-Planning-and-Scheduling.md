@@ -1,9 +1,5 @@
 # Automated Planning and Scheduling
 
-Created: 2018-02-22 00:26:02 +0500
-
-Modified: 2018-02-22 00:27:04 +0500
-
 ---
 
 Automated planning and scheduling, sometimes denoted as simply AI Planning,  is a branch of [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) that concerns the realization of [strategies](https://en.wikipedia.org/wiki/Strategy) or action sequences, typically for execution by [intelligent agents](https://en.wikipedia.org/wiki/Intelligent_agent), [autonomous robots](https://en.wikipedia.org/wiki/Autonomous_robot) and [unmanned vehicles](https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle). Unlike classical [control](https://en.wikipedia.org/wiki/Control_system) and [classification](https://en.wikipedia.org/wiki/Statistical_classification) problems, the solutions are complex and must be discovered and optimized in multidimensional space. Planning is also related to [decision theory](https://en.wikipedia.org/wiki/Decision_theory)

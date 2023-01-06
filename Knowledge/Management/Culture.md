@@ -1,9 +1,5 @@
 # Culture
 
-Created: 2022-04-03 20:09:26 +0500
-
-Modified: 2022-05-24 14:31:26 +0500
-
 ---
 
 Culture eats strategy for breakfast - Peter Drucker

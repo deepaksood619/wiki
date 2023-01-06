@@ -1,9 +1,5 @@
 # Deployment Strategies
 
-Created: 2018-07-04 17:42:38 +0500
-
-Modified: 2020-06-07 12:45:20 +0500
-
 ---
 
 ![image](../../media/DevOps-DevOps-Deployment-Strategies-image1.png)

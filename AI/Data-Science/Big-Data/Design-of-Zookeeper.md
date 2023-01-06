@@ -1,9 +1,5 @@
 # Design of Zookeeper
 
-Created: 2019-03-17 17:51:15 +0500
-
-Modified: 2021-09-04 21:18:02 +0500
-
 ---
 
 Zookeeper - Service for coordinating processes of distributed applications

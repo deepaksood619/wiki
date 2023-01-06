@@ -1,9 +1,5 @@
 # Reinforcement Learning
 
-Created: 2018-09-14 00:10:28 +0500
-
-Modified: 2022-05-04 20:50:36 +0500
-
 ---
 
 ## Reinforcement learning

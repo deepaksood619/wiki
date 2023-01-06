@@ -1,9 +1,5 @@
 # EC2 Instance types
 
-Created: 2020-02-06 11:33:07 +0500
-
-Modified: 2021-06-09 23:27:02 +0500
-
 ---
 
 <https://aws.amazon.com/blogs/compute/it-just-got-easier-to-discover-and-compare-ec2-instance-types>

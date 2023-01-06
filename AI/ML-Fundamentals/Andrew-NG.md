@@ -1,9 +1,5 @@
 # Andrew NG
 
-Created: 2017-11-16 14:18:32 +0500
-
-Modified: 2021-07-05 09:50:57 +0500
-
 ---
 
 ## Model and cost function

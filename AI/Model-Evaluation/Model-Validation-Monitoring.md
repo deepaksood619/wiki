@@ -1,9 +1,5 @@
 # Model Validation / Monitoring
 
-Created: 2020-12-22 09:52:16 +0500
-
-Modified: 2020-12-22 09:59:50 +0500
-
 ---
 
 1. **Poor model performance on unseen data**

@@ -1,9 +1,5 @@
 # Questions
 
-Created: 2019-12-27 13:39:39 +0500
-
-Modified: 2020-01-07 23:12:53 +0500
-
 ---
 
 <https://www.edureka.co/blog/interview-questions/cassandra-interview-questions>

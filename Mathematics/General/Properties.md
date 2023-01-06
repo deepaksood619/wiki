@@ -1,9 +1,5 @@
 # Properties
 
-Created: 2018-05-23 23:33:59 +0500
-
-Modified: 2018-05-23 23:40:00 +0500
-
 ---
 
 1. [The Commutative Property of Addition](http://www.coolmath.com/prealgebra/06-properties/01-properties-commutative-addition-01) ( x + y = y + x )

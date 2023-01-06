@@ -1,9 +1,5 @@
 # Design
 
-Created: 2018-12-12 20:54:43 +0500
-
-Modified: 2020-06-11 17:19:01 +0500
-
 ---
 
 ## How do you design a self-healing distributed service?

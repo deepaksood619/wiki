@@ -1,9 +1,5 @@
 # Organ Systems
 
-Created: 2018-08-15 11:35:53 +0500
-
-Modified: 2019-10-02 13:44:55 +0500
-
 ---
 
 1. [Circulatory system](https://en.wikipedia.org/wiki/Circulatory_system):

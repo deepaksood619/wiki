@@ -1,9 +1,5 @@
 # Public-key cryptography
 
-Created: 2018-04-24 10:56:15 +0500
-
-Modified: 2020-06-20 21:27:47 +0500
-
 ---
 
 ## Public key cryptography, orasymmetrical cryptography, is any cryptographic system that uses pairs of [keys](https://en.wikipedia.org/wiki/Cryptographic_key):public keyswhich may be disseminated widely, andprivate keyswhich are known only to the owner. This accomplishes two functions:[authentication](https://en.wikipedia.org/wiki/Authentication_protocol), where the public key verifies that a holder of the paired private key sent the message, and [encryption](https://en.wikipedia.org/wiki/Encryption), where only the paired private key holder can decrypt the message encrypted with the public key

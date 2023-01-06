@@ -1,9 +1,5 @@
 # Essentiality
 
-Created: 2018-10-21 00:16:46 +0500
-
-Modified: 2021-09-01 21:44:28 +0500
-
 ---
 
 ## Essential nutrients

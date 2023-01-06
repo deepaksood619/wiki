@@ -1,9 +1,5 @@
 # Graph Search
 
-Created: 2018-02-08 16:55:57 +0500
-
-Modified: 2018-07-16 23:30:49 +0500
-
 ---
 
 Graph search algorithms like A* are often used to find the shortest path from one point to another point. You can use this for each enemy to find a path to the goal. There are lots of different graph search algorithms we could use in this type of game. These are the classics:

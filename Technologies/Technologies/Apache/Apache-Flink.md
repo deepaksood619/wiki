@@ -1,9 +1,5 @@
 # Apache Flink
 
-Created: 2020-03-01 22:41:54 +0500
-
-Modified: 2020-03-01 22:42:10 +0500
-
 ---
 
 Apache Flink is a stream processing framework that can also handle batch tasks. It considers batches to simply be data streams with finite boundaries, and thus treats batch processing as a subset of stream processing. This stream-first approach to all processing has a number of interesting side effects.

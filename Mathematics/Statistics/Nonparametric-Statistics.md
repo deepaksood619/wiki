@@ -1,9 +1,5 @@
 # Nonparametric Statistics
 
-Created: 2020-03-25 01:06:36 +0500
-
-Modified: 2021-06-28 13:08:01 +0500
-
 ---
 
 Nonparametric statisticsis the branch of [statistics](https://en.wikipedia.org/wiki/Statistics) that is not based solely on [parametrized](https://en.wikipedia.org/wiki/Statistical_parameter) families of [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution)(common examples of parameters are the mean and variance). Nonparametric statistics is based on either being distribution-free or having a specified distribution but with the distribution's parameters unspecified. Nonparametric statistics includes both [descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics) and [statistical inference](https://en.wikipedia.org/wiki/Statistical_inference).

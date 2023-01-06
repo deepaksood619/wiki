@@ -1,9 +1,5 @@
 # KeyCloak
 
-Created: 2020-06-19 00:26:20 +0500
-
-Modified: 2021-02-22 00:38:19 +0500
-
 ---
 
 Add authentication to applications and secure services with minimum fuss.

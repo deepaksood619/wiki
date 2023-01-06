@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2020-04-11 15:23:13 +0500
-
-Modified: 2021-06-06 16:48:16 +0500
-
 ---
 
 Apache Hadoop is a processing framework that exclusively provides batch processing. Hadoop was the first big data framework to gain significant traction in the open-source community. Based on several papers and presentations by Google about how they were dealing with tremendous amounts of data at the time, Hadoop reimplemented the algorithms and component stack to make large scale batch processing more accessible.

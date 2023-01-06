@@ -1,9 +1,5 @@
 # Analysis and Analyzers
 
-Created: 2019-04-20 13:29:32 +0500
-
-Modified: 2021-08-29 16:14:02 +0500
-
 ---
 
 Analysisis aprocess that consists of the following:

@@ -1,9 +1,5 @@
 # Regular Expressions / Regex
 
-Created: 2017-11-01 18:13:38 +0500
-
-Modified: 2021-11-29 21:14:19 +0500
-
 ---
 
 Its different from wildcards (Wildcards have very few metacharacters than Regular Expressions)

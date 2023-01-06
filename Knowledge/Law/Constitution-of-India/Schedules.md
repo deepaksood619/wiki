@@ -1,9 +1,5 @@
 # Schedules
 
-Created: 2021-07-11 23:50:23 +0500
-
-Modified: 2022-02-13 22:42:25 +0500
-
 ---
 
 Schedules - Additional details (like languages list)

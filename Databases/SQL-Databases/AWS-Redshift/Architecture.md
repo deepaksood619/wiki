@@ -1,9 +1,5 @@
 # Architecture
 
-Created: 2020-02-18 11:41:39 +0500
-
-Modified: 2022-06-02 19:21:01 +0500
-
 ---
 
 ![image](media/AWS-Redshift_Architecture-image1.png)

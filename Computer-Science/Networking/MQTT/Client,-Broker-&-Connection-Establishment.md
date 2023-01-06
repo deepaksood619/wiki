@@ -1,9 +1,5 @@
 # Client, Broker & Connection Establishment
 
-Created: 2019-03-12 17:24:21 +0500
-
-Modified: 2019-03-12 18:20:07 +0500
-
 ---
 
 ## Client

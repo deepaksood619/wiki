@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-06-17 12:40:34 +0500
-
-Modified: 2021-06-14 17:59:59 +0500
-
 ---
 
 ## SciPy provides a large menu of libraries for scientific computation, such as integration, interpolation, signal processing, linear algebra, statistics, etc. It is built upon the infrastructure of Numpy

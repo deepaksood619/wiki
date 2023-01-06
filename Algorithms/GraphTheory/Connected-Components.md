@@ -1,9 +1,5 @@
 # Connected Components
 
-Created: 2018-02-08 22:22:04 +0500
-
-Modified: 2018-02-08 22:35:56 +0500
-
 ---
 
 ## Connected Components

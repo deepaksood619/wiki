@@ -1,9 +1,5 @@
 # Ethereum
 
-Created: 2018-09-20 23:50:23 +0500
-
-Modified: 2022-03-13 15:42:41 +0500
-
 ---
 
 Ethereum is a**decentralized platform** that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.

@@ -1,9 +1,5 @@
 # Outline
 
-Created: 2018-11-14 00:36:17 +0500
-
-Modified: 2022-12-11 19:31:00 +0500
-
 ---
 
 [**Pure mathematics**](https://en.wikipedia.org/wiki/Pure_mathematics)

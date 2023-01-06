@@ -1,9 +1,5 @@
 # Circles
 
-Created: 2018-05-24 16:05:21 +0500
-
-Modified: 2018-05-24 16:05:25 +0500
-
 ---
 
 [Circle basics:Circles](https://www.khanacademy.org/math/geometry/hs-geo-circles#hs-geo-circle-basics)

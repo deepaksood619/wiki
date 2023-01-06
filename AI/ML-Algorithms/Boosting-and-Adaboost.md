@@ -1,9 +1,5 @@
 # Boosting and Adaboost
 
-Created: 2018-07-04 11:32:08 +0500
-
-Modified: 2018-07-04 11:32:18 +0500
-
 ---
 
 Boosting is an ensemble technique that attempts to create a strong classifier from a number of weak classifiers.

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-02-25 16:01:20 +0500
-
-Modified: 2021-12-19 11:03:23 +0500
-
 ---
 
 RPAD (Registered Post with Acknowledgement Due)

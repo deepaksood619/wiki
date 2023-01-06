@@ -1,9 +1,5 @@
 # Python Tricks
 
-Created: 2018-05-25 13:03:24 +0500
-
-Modified: 2021-08-29 13:28:37 +0500
-
 ---
 
 # Patterns for Cleaner Python

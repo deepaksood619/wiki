@@ -1,9 +1,5 @@
 # Futures / Options / Trading
 
-Created: 2021-11-20 22:27:48 +0500
-
-Modified: 2022-12-07 08:04:34 +0500
-
 ---
 
 ## Trading

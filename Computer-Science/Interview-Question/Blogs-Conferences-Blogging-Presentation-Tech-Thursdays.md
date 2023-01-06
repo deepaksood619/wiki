@@ -1,9 +1,5 @@
 # Blogs / Conferences / Blogging / Presentation / Tech Thursdays
 
-Created: 2019-04-17 20:37:48 +0500
-
-Modified: 2022-09-16 00:32:48 +0500
-
 ---
 
 ## Startup onboarding series

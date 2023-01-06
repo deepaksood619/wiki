@@ -1,9 +1,5 @@
 # Game Theory
 
-Created: 2021-12-16 23:37:08 +0500
-
-Modified: 2022-07-18 09:23:09 +0500
-
 ---
 
 A Game is any interaction between multiple people in which each person's payoff is affected by the decisions made by others.

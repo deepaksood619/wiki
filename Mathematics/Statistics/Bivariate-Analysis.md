@@ -1,9 +1,5 @@
 # Bivariate Analysis
 
-Created: 2018-07-31 23:49:59 +0500
-
-Modified: 2021-10-06 21:55:20 +0500
-
 ---
 
 ## Bivariate analysisis one of the simplest forms of [quantitative (statistical) analysis](https://en.wikipedia.org/wiki/Statistics).It involves the analysis of two [variables](https://en.wikipedia.org/wiki/Dependent_and_independent_variables)(often denoted as*X*,*Y*), for the purpose of determining the empirical relationship between them

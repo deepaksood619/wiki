@@ -1,9 +1,5 @@
 # Space-partitioning trees
 
-Created: 2018-02-06 19:23:03 +0500
-
-Modified: 2022-12-02 23:57:46 +0500
-
 ---
 
 Use a tree to represent a recursive subdivision of 2d space

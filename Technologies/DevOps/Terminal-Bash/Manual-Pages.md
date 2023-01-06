@@ -1,9 +1,5 @@
 # Manual Pages
 
-Created: 2019-04-25 10:20:54 +0500
-
-Modified: 2020-02-10 16:51:34 +0500
-
 ---
 
 A **man page(short formanual page)** is a form of [software documentation](https://en.wikipedia.org/wiki/Software_documentation) usually found on a [Unix](https://en.wikipedia.org/wiki/Unix) or [Unix-like](https://en.wikipedia.org/wiki/Unix-like)[operating system](https://en.wikipedia.org/wiki/Operating_System). Topics covered include [computer programs](https://en.wikipedia.org/wiki/Computer_program)(including [library](https://en.wikipedia.org/wiki/Library_(computing)) and [system calls](https://en.wikipedia.org/wiki/System_call)), formal standards and conventions, and even abstract concepts. A [user](https://en.wikipedia.org/wiki/User_(computing)) may invoke a man page by issuing theman [command](https://en.wikipedia.org/wiki/Command_(computing)).

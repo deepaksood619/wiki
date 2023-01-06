@@ -1,9 +1,5 @@
 # Mathematics
 
-Created: 2018-03-14 00:44:12 +0500
-
-Modified: 2018-05-24 11:56:35 +0500
-
 ---
 
 ## Finding nCr for given numbers

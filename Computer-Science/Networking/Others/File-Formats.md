@@ -1,9 +1,5 @@
 # File Formats
 
-Created: 2018-10-04 13:25:36 +0500
-
-Modified: 2021-05-07 23:41:15 +0500
-
 ---
 
 CSV, TSV, JSON, and Avro, are traditional row-based file formats. Parquet, and ORC file are columnar file formats.

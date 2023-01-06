@@ -1,9 +1,5 @@
 # My Quotes
 
-Created: 2018-09-28 07:57:28 +0500
-
-Modified: 2022-06-09 16:56:49 +0500
-
 ---
 
 Pros outweight the cons

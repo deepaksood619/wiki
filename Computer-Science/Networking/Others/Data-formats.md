@@ -1,9 +1,5 @@
 # Data formats
 
-Created: 2018-09-30 19:28:01 +0500
-
-Modified: 2021-05-29 00:06:03 +0500
-
 ---
 
 ## Hierarchical Data Format

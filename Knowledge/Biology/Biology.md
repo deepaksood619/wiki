@@ -1,9 +1,5 @@
 # Biology
 
-Created: 2018-07-01 19:59:48 +0500
-
-Modified: 2021-11-29 01:14:07 +0500
-
 ---
 
 ## Live longer

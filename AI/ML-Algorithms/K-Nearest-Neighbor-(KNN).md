@@ -1,9 +1,5 @@
 # K-Nearest Neighbor (KNN)
 
-Created: 2019-03-16 08:56:03 +0500
-
-Modified: 2021-11-14 21:18:37 +0500
-
 ---
 
 The model representation for KNN is the entire training dataset. Simple right?

@@ -1,9 +1,5 @@
 # OAuth
 
-Created: 2020-06-20 00:08:39 +0500
-
-Modified: 2021-07-08 01:08:01 +0500
-
 ---
 
 - OAuth is an open standard for access delegation

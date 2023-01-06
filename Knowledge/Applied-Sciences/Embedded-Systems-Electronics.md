@@ -1,9 +1,5 @@
 # Embedded Systems / Electronics
 
-Created: 2019-01-25 22:17:07 +0500
-
-Modified: 2021-06-27 20:38:26 +0500
-
 ---
 
 ## Network Processors

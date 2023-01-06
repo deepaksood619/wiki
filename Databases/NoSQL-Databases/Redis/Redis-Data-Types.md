@@ -1,9 +1,5 @@
 # Redis Data Types
 
-Created: 2020-03-20 23:18:22 +0500
-
-Modified: 2021-01-09 04:26:53 +0500
-
 ---
 
 Redis is not aplainkey-value store, it is actually adata structures server, supporting different kinds of values. What this means is that, while in traditional key-value stores you associate string keys to string values, in Redis the value is not limited to a simple string, but can also hold more complex data structures. The following is the list of all the data structures supported by Redis

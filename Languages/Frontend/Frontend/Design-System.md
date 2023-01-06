@@ -1,9 +1,5 @@
 # Design System
 
-Created: 2020-10-24 14:28:55 +0500
-
-Modified: 2022-02-14 23:51:02 +0500
-
 ---
 
 The complete set of design standards, documentation, UI patterns, and components. Design systems allow you to manage design at scale

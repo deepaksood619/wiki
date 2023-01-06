@@ -1,9 +1,5 @@
 # General
 
-Created: 2017-09-10 23:41:08 +0500
-
-Modified: 2017-11-07 10:31:52 +0500
-
 ---
 
 Algorithms

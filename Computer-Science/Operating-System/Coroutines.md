@@ -1,9 +1,5 @@
 # Coroutines
 
-Created: 2019-04-21 20:42:57 +0500
-
-Modified: 2019-04-21 23:20:12 +0500
-
 ---
 
 [Coroutines](https://www.geeksforgeeks.org/coroutine-in-python/) are general control structures where flow control is cooperatively passed between two different routines without returning.

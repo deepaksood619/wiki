@@ -1,9 +1,5 @@
 # Hooks
 
-Created: 2021-11-12 22:46:40 +0500
-
-Modified: 2022-04-24 16:29:10 +0500
-
 ---
 
 - [1. Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)

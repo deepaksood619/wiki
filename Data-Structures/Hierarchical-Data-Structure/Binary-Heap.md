@@ -1,9 +1,5 @@
 # Binary Heap
 
-Created: 2018-02-03 17:30:38 +0500
-
-Modified: 2021-02-21 21:38:45 +0500
-
 ---
 
 ## Points to remember

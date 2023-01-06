@@ -1,9 +1,5 @@
 # Structural - Facade
 
-Created: 2018-05-09 20:45:01 +0500
-
-Modified: 2020-10-25 23:16:37 +0500
-
 ---
 
 According to [Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns) definition, facade provides a simplified interface for a set of interfaces of a subsystem. It defines a convenient higher-level interface to interact with.

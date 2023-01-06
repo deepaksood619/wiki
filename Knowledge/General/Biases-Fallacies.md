@@ -1,9 +1,5 @@
 # Biases / Fallacies
 
-Created: 2019-03-23 11:36:54 +0500
-
-Modified: 2022-11-29 15:28:05 +0500
-
 ---
 
 There are two major types of **logical fallacies**

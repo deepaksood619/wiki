@@ -1,9 +1,5 @@
 # Union-Find Algorithm
 
-Created: 2018-01-30 17:30:44 +0500
-
-Modified: 2018-04-26 19:40:12 +0500
-
 ---
 
 A union-find algorithm is an algorithm that performs two operations on a disjoint-set data structure -

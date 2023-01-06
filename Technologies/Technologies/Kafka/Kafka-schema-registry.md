@@ -1,9 +1,5 @@
 # Kafka schema-registry
 
-Created: 2018-11-28 15:59:09 +0500
-
-Modified: 2020-03-15 23:35:22 +0500
-
 ---
 
 <https://www.confluent.io/blog/schemas-contracts-compatibility>

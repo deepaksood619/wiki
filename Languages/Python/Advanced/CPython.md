@@ -1,9 +1,5 @@
 # CPython
 
-Created: 2018-07-16 02:10:17 +0500
-
-Modified: 2018-07-16 02:13:49 +0500
-
 ---
 
 CPython is a stack-oriented virtual machine

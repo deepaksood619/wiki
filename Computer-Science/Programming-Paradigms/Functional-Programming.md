@@ -1,9 +1,5 @@
 # Functional Programming
 
-Created: 2017-11-15 11:58:23 +0500
-
-Modified: 2021-11-12 21:46:46 +0500
-
 ---
 
 ## Everything is immutable

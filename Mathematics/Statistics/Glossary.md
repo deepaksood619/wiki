@@ -1,9 +1,5 @@
 # Glossary
 
-Created: 2020-04-15 00:37:54 +0500
-
-Modified: 2021-09-21 22:16:17 +0500
-
 ---
 
 | **Word**                        | **Definition**                                                                                                                                                                                                                                                 |

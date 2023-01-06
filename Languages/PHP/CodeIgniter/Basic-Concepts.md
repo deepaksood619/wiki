@@ -1,9 +1,5 @@
 # Basic Concepts
 
-Created: 2020-02-09 12:58:32 +0500
-
-Modified: 2020-09-03 13:09:59 +0500
-
 ---
 
 ## Routing

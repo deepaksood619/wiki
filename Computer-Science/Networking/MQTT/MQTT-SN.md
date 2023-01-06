@@ -1,9 +1,5 @@
 # MQTT - SN
 
-Created: 2018-12-11 12:45:38 +0500
-
-Modified: 2019-04-25 11:27:29 +0500
-
 ---
 
 MQTT for Sensor Networks

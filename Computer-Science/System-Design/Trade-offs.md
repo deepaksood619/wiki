@@ -1,9 +1,5 @@
 # Trade offs
 
-Created: 2019-12-30 13:29:20 +0500
-
-Modified: 2019-12-30 13:47:22 +0500
-
 ---
 
 ## Tradeoffs

@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-05-29 20:26:23 +0500
-
-Modified: 2022-03-06 15:34:36 +0500
-
 ---
 
 Machine learningis a subset of artificial intelligence in the field of [computer science](https://en.wikipedia.org/wiki/Computer_science) that often uses statistical techniques to give [computers](https://en.wikipedia.org/wiki/Computer) the ability to "learn" (i.e., progressively improve performance on a specific task) with [data](https://en.wikipedia.org/wiki/Data), without being explicitly programmed.

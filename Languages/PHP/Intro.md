@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2020-02-07 23:01:23 +0500
-
-Modified: 2022-01-27 22:46:25 +0500
-
 ---
 
 PHPis a [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language) originally designed for [web development](https://en.wikipedia.org/wiki/Web_development). It was originally created by [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf) in 1994;the PHP [reference implementation](https://en.wikipedia.org/wiki/Reference_implementation) is now produced by The PHP Group.PHP originally stood forPersonal Home Page, but it now stands for the [recursive initialism](https://en.wikipedia.org/wiki/Recursive_initialism) PHP: Hypertext Preprocessor.

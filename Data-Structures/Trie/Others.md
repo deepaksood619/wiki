@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-12-14 16:17:07 +0500
-
-Modified: 2019-12-14 16:17:43 +0500
-
 ---
 
 ## Hash Array Mapped Tries (HAMT)

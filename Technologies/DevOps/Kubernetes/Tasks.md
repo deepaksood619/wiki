@@ -1,9 +1,5 @@
 # Tasks
 
-Created: 2019-12-04 22:53:38 +0500
-
-Modified: 2022-01-19 13:35:32 +0500
-
 ---
 
 ## Monitoring, Logging and Debugging

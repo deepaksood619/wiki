@@ -1,9 +1,5 @@
 # Checklist / Tips / Personal Finance / Quotes
 
-Created: 2020-04-30 01:18:06 +0500
-
-Modified: 2022-11-13 02:16:04 +0500
-
 ---
 
 Markets discount everything

@@ -1,9 +1,5 @@
 # Security
 
-Created: 2019-12-17 15:04:31 +0500
-
-Modified: 2020-06-21 23:16:05 +0500
-
 ---
 
 Istio's security capabilities free developers to focus on security at the application level. Istio provides the underlying secure communication channel, and manages authentication, authorization, and encryption of service communication at scale. With Istio, service communications are secured by default, letting you enforce policies consistently across diverse protocols and runtimes -- all with little or no application changes.

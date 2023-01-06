@@ -1,9 +1,5 @@
 # Flocking Boids Algorithm
 
-Created: 2018-02-06 19:44:24 +0500
-
-Modified: 2018-02-06 19:44:39 +0500
-
 ---
 
 Boids: Three simple rules lead to complex emergent flocking behavior in birds:

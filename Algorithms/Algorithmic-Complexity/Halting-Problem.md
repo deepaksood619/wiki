@@ -1,9 +1,5 @@
 # Halting Problem
 
-Created: 2018-07-04 01:24:25 +0500
-
-Modified: 2018-07-04 01:24:37 +0500
-
 ---
 
 In [computability theory](https://en.wikipedia.org/wiki/Computability_theory_(computer_science)), the**halting problem** is the problem of determining, from a description of an arbitrary [computer program](https://en.wikipedia.org/wiki/Computer_program) and an input, whether the program will finish running (i.e., halt) or continue to run forever.

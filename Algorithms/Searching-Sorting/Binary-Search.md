@@ -1,9 +1,5 @@
 # Binary Search
 
-Created: 2019-09-16 21:46:46 +0500
-
-Modified: 2019-09-17 00:03:42 +0500
-
 ---
 
 Finding the index of first element in *A* which is not less than *x* is called lower_bound query in C++ STL. The answer of our first query isn-lower_bound(x)

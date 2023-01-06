@@ -1,9 +1,5 @@
 # Programming Styles
 
-Created: 2018-03-26 19:47:24 +0500
-
-Modified: 2022-07-18 09:32:08 +0500
-
 ---
 
 ## duck-typing

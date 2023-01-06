@@ -1,9 +1,5 @@
 # TOML
 
-Created: 2019-06-07 14:53:25 +0500
-
-Modified: 2019-06-07 14:59:10 +0500
-
 ---
 
 Tom's Obvious, Minimal Language

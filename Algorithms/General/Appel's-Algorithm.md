@@ -1,9 +1,5 @@
 # Appel's Algorithm
 
-Created: 2018-02-06 19:45:03 +0500
-
-Modified: 2018-02-06 19:45:10 +0500
-
 ---
 
 ## Appel's algorithm for N-body simulation

@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2020-06-01 16:02:27 +0500
-
-Modified: 2021-09-06 23:49:34 +0500
-
 ---
 
 ## There are three key elements of an operating system

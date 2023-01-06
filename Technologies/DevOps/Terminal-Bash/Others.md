@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-12-27 10:16:04 +0500
-
-Modified: 2022-02-05 01:27:44 +0500
-
 ---
 
 ## systemd / initd

@@ -1,9 +1,5 @@
 # Scheduling
 
-Created: 2019-10-02 12:21:43 +0500
-
-Modified: 2020-06-01 16:34:20 +0500
-
 ---
 
 In [computing](https://en.wikipedia.org/wiki/Computing), schedulingis the method by which work is assigned to resources that complete the work. The work may be virtual computation elements such as [threads](https://en.wikipedia.org/wiki/Thread_(computer_science)), [processes](https://en.wikipedia.org/wiki/Process_(computing)) or data [flows](https://en.wikipedia.org/wiki/Flow_(computer_networking)), which are in turn scheduled onto hardware resources such as [processors](https://en.wikipedia.org/wiki/Central_processing_unit), [network links](https://en.wikipedia.org/wiki/Telecommunications_link) or [expansion cards](https://en.wikipedia.org/wiki/Expansion_card).

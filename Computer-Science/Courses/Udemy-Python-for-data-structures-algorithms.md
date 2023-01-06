@@ -1,9 +1,5 @@
 # Udemy - Python for data structures algorithms
 
-Created: 2018-04-03 23:16:15 +0500
-
-Modified: 2019-06-23 20:19:26 +0500
-
 ---
 
 1. Array Sequences

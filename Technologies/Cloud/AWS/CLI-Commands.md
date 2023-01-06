@@ -1,9 +1,5 @@
 # CLI Commands
 
-Created: 2020-02-11 12:48:19 +0500
-
-Modified: 2022-08-12 12:42:37 +0500
-
 ---
 
 ## AWS cli (brew install awscli)

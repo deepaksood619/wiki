@@ -1,9 +1,5 @@
 # Obsidian + VS Code
 
-Created: 2022-02-07 23:19:47 +0500
-
-Modified: 2022-12-11 22:10:12 +0500
-
 ---
 
 ## Extension - Foam

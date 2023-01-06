@@ -1,9 +1,5 @@
 # PowerBI
 
-Created: 2021-08-12 22:01:48 +0500
-
-Modified: 2021-08-20 00:38:59 +0500
-
 ---
 
 ## Questions

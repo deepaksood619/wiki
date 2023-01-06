@@ -1,9 +1,5 @@
 # Mutable/Immutable Data Structures
 
-Created: 2019-06-27 15:46:39 +0500
-
-Modified: 2019-06-27 16:06:25 +0500
-
 ---
 
 ## Immutable Data Structure

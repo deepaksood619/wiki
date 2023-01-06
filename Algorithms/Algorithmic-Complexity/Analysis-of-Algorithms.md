@@ -1,9 +1,5 @@
 # Analysis of Algorithms
 
-Created: 2018-03-13 22:56:09 +0500
-
-Modified: 2021-05-29 20:34:20 +0500
-
 ---
 
 ## Discrete Fourier Transform (FTT - Fast Fourier Transform)

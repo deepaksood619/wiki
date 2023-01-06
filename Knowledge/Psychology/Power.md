@@ -1,9 +1,5 @@
 # Power
 
-Created: 2020-09-20 10:43:37 +0500
-
-Modified: 2022-04-09 13:06:12 +0500
-
 ---
 
 It is not power that corrupts but fear. Fear of losing power corrupts those who wield it and fear of the scourge of power corrupts those who are subject to it.

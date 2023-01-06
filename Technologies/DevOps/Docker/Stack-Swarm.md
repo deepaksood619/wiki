@@ -1,9 +1,5 @@
 # Stack / Swarm
 
-Created: 2018-10-25 17:32:16 +0500
-
-Modified: 2020-06-17 22:28:26 +0500
-
 ---
 
 Defines the interactions of all the services.

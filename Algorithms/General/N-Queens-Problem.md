@@ -1,9 +1,5 @@
 # N Queens Problem
 
-Created: 2018-05-02 23:16:22 +0500
-
-Modified: 2018-05-03 00:00:31 +0500
-
 ---
 
 The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other. For example, following is a solution for 4 Queen problem.

@@ -1,9 +1,5 @@
 # Protocols Intro
 
-Created: 2019-04-25 11:20:23 +0500
-
-Modified: 2021-06-06 16:47:25 +0500
-
 ---
 
 ## Media Access Control (MAC Address)

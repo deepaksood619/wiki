@@ -1,9 +1,5 @@
 # Kafka Topic/Replication
 
-Created: 2020-01-29 23:57:00 +0500
-
-Modified: 2020-05-21 01:38:33 +0500
-
 ---
 
 ## Kafka Topics

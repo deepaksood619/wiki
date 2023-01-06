@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-01-11 15:53:28 +0500
-
-Modified: 2020-01-17 19:40:28 +0500
-
 ---
 
 # Supported Protocols

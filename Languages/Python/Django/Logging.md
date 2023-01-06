@@ -1,9 +1,5 @@
 # Logging
 
-Created: 2018-05-16 12:18:52 +0500
-
-Modified: 2020-07-21 21:10:28 +0500
-
 ---
 
 Django uses Python's builtin logging module to perform system logging.

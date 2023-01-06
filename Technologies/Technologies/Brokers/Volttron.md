@@ -1,9 +1,5 @@
 # Volttron
 
-Created: 2018-09-19 12:33:47 +0500
-
-Modified: 2020-10-14 23:18:06 +0500
-
 ---
 
 VOLTTRON is an open source platform for distributed sensing and control. The platform provides services for collecting and storing data from buildings and devices and provides an environment for developing applications which interact with that data.

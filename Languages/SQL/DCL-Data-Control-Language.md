@@ -1,9 +1,5 @@
 # DCL - Data Control Language
 
-Created: 2020-02-10 15:48:58 +0500
-
-Modified: 2022-12-11 18:38:46 +0500
-
 ---
 
 ## Data Control Language (DCL) / Data Management Language (DML)

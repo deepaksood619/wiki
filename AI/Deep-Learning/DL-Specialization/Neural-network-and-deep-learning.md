@@ -1,9 +1,5 @@
 # Neural network and deep learning
 
-Created: 2021-03-26 23:31:55 +0500
-
-Modified: 2021-04-03 20:20:34 +0500
-
 ---
 
 # Logistic Regression as a Neural Network

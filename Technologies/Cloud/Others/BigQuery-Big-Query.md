@@ -1,9 +1,5 @@
 # BigQuery / Big Query
 
-Created: 2018-06-16 19:40:51 +0500
-
-Modified: 2021-07-05 23:33:11 +0500
-
 ---
 
 ## Architecture

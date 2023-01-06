@@ -1,9 +1,5 @@
 # Birthday Paradox
 
-Created: 2017-11-14 11:46:58 +0500
-
-Modified: 2018-05-15 10:48:49 +0500
-
 ---
 
 ## Problem - Exponents aren't intuitive

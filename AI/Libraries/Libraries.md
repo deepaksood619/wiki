@@ -1,9 +1,5 @@
 # Libraries
 
-Created: 2021-06-11 00:10:52 +0500
-
-Modified: 2022-12-06 20:26:00 +0500
-
 ---
 
 ## Deep Learning Frameworks

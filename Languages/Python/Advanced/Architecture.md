@@ -1,9 +1,5 @@
 # Architecture
 
-Created: 2018-12-14 23:18:43 +0500
-
-Modified: 2020-10-22 21:52:49 +0500
-
 ---
 
 ## Working

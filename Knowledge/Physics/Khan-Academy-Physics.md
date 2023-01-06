@@ -1,9 +1,5 @@
 # Khan Academy Physics
 
-Created: 2018-09-27 00:02:46 +0500
-
-Modified: 2018-09-27 00:04:52 +0500
-
 ---
 
 1. One-dimensional motion

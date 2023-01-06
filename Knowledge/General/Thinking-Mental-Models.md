@@ -1,9 +1,5 @@
 # Thinking Mental Models
 
-Created: 2020-06-20 11:15:43 +0500
-
-Modified: 2022-04-12 23:26:12 +0500
-
 ---
 
 - [The Scientific Method](https://en.wikipedia.org/wiki/Scientific_method)

@@ -1,9 +1,5 @@
 # Best Practices
 
-Created: 2020-03-24 12:09:39 +0500
-
-Modified: 2021-10-14 20:59:54 +0500
-
 ---
 
 - [Introduction](https://redislabs.com/redis-best-practices/introduction/)

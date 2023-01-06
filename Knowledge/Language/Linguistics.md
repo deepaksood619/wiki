@@ -1,9 +1,5 @@
 # Linguistics
 
-Created: 2019-07-14 14:26:41 +0500
-
-Modified: 2021-12-16 11:58:50 +0500
-
 ---
 
 [Writing Systems of the World | Abjads, Alphabets, Abugidas, Syllabaries & Logosyllabaries](https://youtu.be/Mmz42awTRsA)

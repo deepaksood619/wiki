@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-05-11 23:48:26 +0500
-
-Modified: 2022-10-12 11:11:42 +0500
-
 ---
 
 ## Relationships

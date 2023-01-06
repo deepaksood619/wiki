@@ -1,9 +1,5 @@
 # Publish, Subscribe & Unsubscribe
 
-Created: 2019-03-12 18:05:41 +0500
-
-Modified: 2019-03-12 18:19:41 +0500
-
 ---
 
 ## Publish

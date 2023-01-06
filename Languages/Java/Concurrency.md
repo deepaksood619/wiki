@@ -1,9 +1,5 @@
 # Concurrency
 
-Created: 2017-12-04 22:27:00 +0500
-
-Modified: 2021-09-06 00:56:33 +0500
-
 ---
 
 ## Concurrent Modification

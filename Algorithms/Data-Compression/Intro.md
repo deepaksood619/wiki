@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-05-29 13:09:13 +0500
-
-Modified: 2022-01-16 15:12:55 +0500
-
 ---
 
 <https://quixdb.github.io/squash-benchmark>

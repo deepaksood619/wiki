@@ -1,9 +1,5 @@
 # ID3, C4.5 and CHAID
 
-Created: 2019-03-10 16:21:51 +0500
-
-Modified: 2021-11-12 21:41:16 +0500
-
 ---
 
 CHAID - Chi-Squared Automatic Interaction Detection

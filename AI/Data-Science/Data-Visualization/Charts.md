@@ -1,9 +1,5 @@
 # Charts
 
-Created: 2019-12-18 23:00:25 +0500
-
-Modified: 2021-10-04 19:36:03 +0500
-
 ---
 
 ## Graphic Types

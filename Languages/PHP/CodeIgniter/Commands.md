@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2020-09-01 14:40:09 +0500
-
-Modified: 2020-09-01 16:50:45 +0500
-
 ---
 
 ## # Dockerfile

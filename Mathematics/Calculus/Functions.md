@@ -1,9 +1,5 @@
 # Functions
 
-Created: 2018-06-29 11:01:03 +0500
-
-Modified: 2018-06-29 11:03:27 +0500
-
 ---
 
 # Elementary Functions

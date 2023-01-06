@@ -1,9 +1,5 @@
 # Sweep Line Algorithm
 
-Created: 2018-02-06 11:31:54 +0500
-
-Modified: 2018-02-06 11:32:29 +0500
-
 ---
 
 ## Orthogonal Line Segment Intersection

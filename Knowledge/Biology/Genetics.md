@@ -1,9 +1,5 @@
 # Genetics
 
-Created: 2019-09-03 07:36:21 +0500
-
-Modified: 2019-09-18 00:45:37 +0500
-
 ---
 
 ## Phenotype

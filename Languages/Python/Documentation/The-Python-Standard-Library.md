@@ -1,9 +1,5 @@
 # The Python Standard Library
 
-Created: 2018-04-10 19:35:47 +0500
-
-Modified: 2021-07-07 23:15:04 +0500
-
 ---
 
 ## Documentation

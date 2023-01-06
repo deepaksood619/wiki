@@ -1,9 +1,5 @@
 # Algorithms
 
-Created: 2018-09-29 16:42:31 +0500
-
-Modified: 2018-09-30 15:16:24 +0500
-
 ---
 
 1. Brute force algorithm

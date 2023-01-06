@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2018-07-03 22:43:39 +0500
-
-Modified: 2021-06-19 22:43:30 +0500
-
 ---
 
 ## DataFrame.describe(percentiles=None, include=None, exclude=None)

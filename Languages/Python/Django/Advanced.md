@@ -1,9 +1,5 @@
 # Advanced
 
-Created: 2018-06-19 01:45:54 +0500
-
-Modified: 2021-12-09 21:04:45 +0500
-
 ---
 
 1. Atomic Transactions

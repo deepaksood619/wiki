@@ -1,9 +1,5 @@
 # Product Management
 
-Created: 2020-03-16 08:47:52 +0500
-
-Modified: 2022-12-09 23:56:28 +0500
-
 ---
 
 At the end of the day, everything is a **toaster,** i.e. no matter how wonderful your product, if it is successful then others will copy it and sooner rather than later your product will be as easy to make as a toaster. -- Prof Bruce Greenwald

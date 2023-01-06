@@ -1,9 +1,5 @@
 # Networking Fabric
 
-Created: 2019-12-02 23:50:51 +0500
-
-Modified: 2019-12-02 23:52:21 +0500
-
 ---
 
 The networking switch fabric is the basic topology of how a network is laid out and connected to switch traffic on a data or circuit-switched network.

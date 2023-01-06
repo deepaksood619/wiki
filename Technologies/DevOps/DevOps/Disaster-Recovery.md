@@ -1,9 +1,5 @@
 # Disaster Recovery
 
-Created: 2019-05-02 22:54:26 +0500
-
-Modified: 2022-01-08 22:59:18 +0500
-
 ---
 
 ## RTO - Recovery Time Objective

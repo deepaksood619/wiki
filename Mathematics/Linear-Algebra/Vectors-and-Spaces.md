@@ -1,9 +1,5 @@
 # Vectors and Spaces
 
-Created: 2018-05-24 02:25:25 +0500
-
-Modified: 2018-05-26 12:51:30 +0500
-
 ---
 
 1. [Vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces#vectors)

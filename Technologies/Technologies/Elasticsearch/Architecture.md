@@ -1,9 +1,5 @@
 # Architecture
 
-Created: 2019-04-19 11:26:21 +0500
-
-Modified: 2021-08-29 16:12:47 +0500
-
 ---
 
 ## Cluster and Node

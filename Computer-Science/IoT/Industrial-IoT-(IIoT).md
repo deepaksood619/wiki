@@ -1,9 +1,5 @@
 # Industrial IoT (IIoT)
 
-Created: 2018-11-20 15:12:57 +0500
-
-Modified: 2018-11-20 15:19:13 +0500
-
 ---
 
 ## Reference Architecure

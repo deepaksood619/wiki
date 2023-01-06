@@ -1,9 +1,5 @@
 # Data Mining
 
-Created: 2019-01-22 10:54:08 +0500
-
-Modified: 2021-06-19 15:21:37 +0500
-
 ---
 
 ## Why data Mining

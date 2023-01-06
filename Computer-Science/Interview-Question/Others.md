@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-06-24 06:18:49 +0500
-
-Modified: 2021-05-31 17:13:01 +0500
-
 ---
 
 <https://dev.to/fahimulhaq/top-10-system-design-interview-questions-for-software-engineers>

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-05-04 14:08:09 +0500
-
-Modified: 2022-02-23 22:34:20 +0500
-
 ---
 
 ## Google Meet

@@ -1,9 +1,5 @@
 # Outline
 
-Created: 2018-11-14 00:26:14 +0500
-
-Modified: 2022-11-13 01:27:59 +0500
-
 ---
 
 Those who don't study history are doomed to repeat it.

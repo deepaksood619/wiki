@@ -1,9 +1,5 @@
 # Science
 
-Created: 2018-11-14 00:48:28 +0500
-
-Modified: 2022-10-06 19:37:29 +0500
-
 ---
 
 Science(from [Latin](https://en.wikipedia.org/wiki/Latin_language) scientia, meaning "knowledge") is a systematic enterprise that builds and organizes [knowledge](https://en.wikipedia.org/wiki/Knowledge) in the form of testable [explanations](https://en.wikipedia.org/wiki/Explanation) and [predictions](https://en.wikipedia.org/wiki/Predictions) about the [universe](https://en.wikipedia.org/wiki/Universe).

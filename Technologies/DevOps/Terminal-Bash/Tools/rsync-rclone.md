@@ -1,9 +1,5 @@
 # rsync / rclone
 
-Created: 2018-04-16 14:31:01 +0500
-
-Modified: 2022-04-24 11:47:09 +0500
-
 ---
 
 ## Rsync Algorithm

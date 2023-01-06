@@ -1,9 +1,5 @@
 # Support Vector Machine (SVM)
 
-Created: 2019-03-23 10:36:13 +0500
-
-Modified: 2021-11-14 21:19:05 +0500
-
 ---
 
 A hyperplane is a line that splits the input variable space. In SVM, a hyperplane is selected to best separate the points in the input variable space by their class, either class 0 or class 1.

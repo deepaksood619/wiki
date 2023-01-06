@@ -1,9 +1,5 @@
 # Distributed Training
 
-Created: 2018-06-24 18:32:34 +0500
-
-Modified: 2021-06-19 15:09:35 +0500
-
 ---
 
 # Architecture of Distributed Training

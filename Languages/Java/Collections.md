@@ -1,9 +1,5 @@
 # Collections
 
-Created: 2017-10-03 18:07:23 +0500
-
-Modified: 2018-12-04 13:29:08 +0500
-
 ---
 
 A*collection*--- sometimes called a container - is simply an object that groups multiple elements into a single unit. Collections are used to store, retrieve, manipulate, and communicate aggregate data.

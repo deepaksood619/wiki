@@ -1,9 +1,5 @@
 # Information Retrieval
 
-Created: 2018-05-10 22:56:08 +0500
-
-Modified: 2021-09-01 00:42:03 +0500
-
 ---
 
 ## Link Analysis and Web Search

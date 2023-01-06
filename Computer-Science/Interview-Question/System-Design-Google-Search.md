@@ -1,9 +1,5 @@
 # System Design - Google Search
 
-Created: 2018-05-07 19:43:06 +0500
-
-Modified: 2022-05-30 21:41:09 +0500
-
 ---
 
 [How does Google Search work?](https://www.youtube.com/watch?v=KyCYyoGusqs)-  Can crawl according to page ranks (high reputation, links from other sites to yours)

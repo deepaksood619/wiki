@@ -1,9 +1,5 @@
 # Numbers
 
-Created: 2018-04-03 00:32:25 +0500
-
-Modified: 2021-03-27 11:31:57 +0500
-
 ---
 
 ![image](media/Numbers-image1.png)

@@ -1,9 +1,5 @@
 # Unix / Linux File System
 
-Created: 2018-05-20 12:10:58 +0500
-
-Modified: 2022-01-20 20:49:58 +0500
-
 ---
 
 Command - man hier (layout of filesystems)

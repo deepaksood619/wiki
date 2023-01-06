@@ -1,9 +1,5 @@
 # Dockerfile example
 
-Created: 2019-12-19 22:40:26 +0500
-
-Modified: 2020-08-07 00:49:37 +0500
-
 ---
 
 ## Example 1

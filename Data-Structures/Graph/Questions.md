@@ -1,9 +1,5 @@
 # Questions
 
-Created: 2018-08-04 12:24:36 +0500
-
-Modified: 2019-12-02 14:01:58 +0500
-
 ---
 
 - Implement Breadth and Depth First Search

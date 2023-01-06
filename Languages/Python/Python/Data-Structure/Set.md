@@ -1,9 +1,5 @@
 # Set
 
-Created: 2017-11-14 16:52:37 +0500
-
-Modified: 2020-01-20 20:36:23 +0500
-
 ---
 
 - Set doesn't support indexing/slicing

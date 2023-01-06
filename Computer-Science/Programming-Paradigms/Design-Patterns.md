@@ -1,9 +1,5 @@
 # Design Patterns
 
-Created: 2018-04-04 15:39:14 +0500
-
-Modified: 2021-09-10 20:59:55 +0500
-
 ---
 
 ## Gang of Four (GOF)

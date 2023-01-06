@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-01-05 17:12:25 +0500
-
-Modified: 2022-08-11 09:59:14 +0500
-
 ---
 
 Summer Solstice - 21 June, 22 June

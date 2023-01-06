@@ -1,9 +1,5 @@
 # Intro to Kafka
 
-Created: 2019-03-24 14:03:55 +0500
-
-Modified: 2020-05-05 21:28:03 +0500
-
 ---
 
 ## Kafka: a streaming data platform, Unix Pipelines Analogy

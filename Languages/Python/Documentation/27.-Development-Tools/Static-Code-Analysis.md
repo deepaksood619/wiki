@@ -1,9 +1,5 @@
 # Static Code Analysis
 
-Created: 2020-08-21 12:42:57 +0500
-
-Modified: 2021-02-09 23:38:35 +0500
-
 ---
 
 ## black / autopep8 / yapf (Auto formatters)

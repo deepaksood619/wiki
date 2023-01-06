@@ -1,9 +1,5 @@
 # Plotly
 
-Created: 2019-12-18 22:59:18 +0500
-
-Modified: 2021-06-28 12:58:06 +0500
-
 ---
 
 similar to matplotlib

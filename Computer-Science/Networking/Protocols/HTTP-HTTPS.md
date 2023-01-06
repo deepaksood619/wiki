@@ -1,9 +1,5 @@
 # HTTP / HTTPS
 
-Created: 2017-11-18 19:26:42 +0500
-
-Modified: 2022-06-09 17:11:27 +0500
-
 ---
 
 URL - Uniform Resource Locator

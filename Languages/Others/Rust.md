@@ -1,9 +1,5 @@
 # Rust
 
-Created: 2020-01-30 13:24:18 +0500
-
-Modified: 2022-01-03 13:43:10 +0500
-
 ---
 
 Rustis a [multi-paradigm](https://en.wikipedia.org/wiki/Multi-paradigm_programming_language)[system programming language](https://en.wikipedia.org/wiki/System_programming_language) focused on safety, especially safe [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)).Rust is [syntactically](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) similar to [C++](https://en.wikipedia.org/wiki/C%2B%2B), but is designed to provide better [memory safety](https://en.wikipedia.org/wiki/Memory_safety) while maintaining high [performance](https://en.wikipedia.org/wiki/Performance_(Computer)).

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2021-09-05 23:35:48 +0500
-
-Modified: 2021-11-29 12:12:09 +0500
-
 ---
 
 ## Performance

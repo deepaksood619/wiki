@@ -1,9 +1,5 @@
 # Obsidian / Note Taking / Second Brain
 
-Created: 2022-02-07 23:19:47 +0500
-
-Modified: 2022-12-11 22:10:12 +0500
-
 ---
 
 Your brain is for having ideas not holding them
@@ -192,6 +188,8 @@ Extensions that helps make obsidian better
 <https://forum.obsidian.md/t/the-all-obsidian-publish-s-collection-by-leo-latest-update-20210324/7248>
 
 <https://hiran.in/notes>
+
+<https://vinzent03.github.io/obsidian-advanced-uri>
 
 ### Blogs example templates
 

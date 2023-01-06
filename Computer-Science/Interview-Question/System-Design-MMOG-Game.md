@@ -1,9 +1,5 @@
 # System Design - MMOG - Game
 
-Created: 2020-08-10 15:54:07 +0500
-
-Modified: 2021-12-04 17:52:01 +0500
-
 ---
 
 [System design: Design Multiplayer game](https://www.youtube.com/playlist?list=PLkQkbY7JNJuCoOw3epgKcNIU6rFri4iQk)

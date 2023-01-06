@@ -1,9 +1,5 @@
 # SSTables, Sorted String Tables
 
-Created: 2019-06-27 15:52:53 +0500
-
-Modified: 2019-06-27 16:02:27 +0500
-
 ---
 
 The advantage of the [Sorted String Tables](https://static.googleusercontent.com/media/research.google.com/en/archive/bigtable-osdi06.pdf) is their simplicity: they are easy to write, search and read. SSTables are a persistent ordered immutable map from keys to values, where both keys and values are arbitrary byte strings. They have some nice properties like, for example, the random point-queries (i.e. finding a value by key) can be done quickly by looking up the primary index, sequential scans (i.e. iterating over all key/value pairs in a specified key range) can be done efficiently by just reading the records one after the other.

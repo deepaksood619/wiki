@@ -1,9 +1,5 @@
 # 365 DS - Probability
 
-Created: 2020-04-14 03:28:00 +0500
-
-Modified: 2021-10-24 18:09:32 +0500
-
 ---
 
 ## The Basics of Probability

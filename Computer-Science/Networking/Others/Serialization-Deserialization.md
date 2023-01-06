@@ -1,9 +1,5 @@
 # Serialization/Deserialization
 
-Created: 2020-05-02 23:14:51 +0500
-
-Modified: 2020-05-03 02:06:51 +0500
-
 ---
 
 Serialization is the process of turning structured in-memory objects into a byte stream for transmission over a network or for writing to persistent storage

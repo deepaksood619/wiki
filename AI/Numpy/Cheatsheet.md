@@ -1,9 +1,5 @@
 # Cheatsheet
 
-Created: 2018-11-17 14:31:08 +0500
-
-Modified: 2021-04-11 18:37:52 +0500
-
 ---
 
 ```python

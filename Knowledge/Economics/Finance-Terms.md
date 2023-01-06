@@ -1,9 +1,5 @@
 # Finance Terms
 
-Created: 2021-11-20 21:51:36 +0500
-
-Modified: 2022-11-29 15:55:50 +0500
-
 ---
 
 ## Asset Classes

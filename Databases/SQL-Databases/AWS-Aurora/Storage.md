@@ -1,9 +1,5 @@
 # Storage
 
-Created: 2020-02-25 17:47:33 +0500
-
-Modified: 2022-11-18 16:12:39 +0500
-
 ---
 
 [AWS re:Invent 2019: [REPEAT 1] Amazon Aurora storage demystified: How it all works (DAT309-R1)](https://www.youtube.com/watch?v=DrtwAOND1Pc)

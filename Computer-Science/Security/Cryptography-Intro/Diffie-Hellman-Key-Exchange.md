@@ -1,9 +1,5 @@
 # Diffie-Hellman Key Exchange
 
-Created: 2018-04-24 10:45:28 +0500
-
-Modified: 2018-04-27 00:29:01 +0500
-
 ---
 
 Diffie--Hellman key exchange (DH)is a method of securely exchanging [cryptographic keys](https://en.wikipedia.org/wiki/Key_(cryptography)) over a public channel and was one of the first [public-key protocols](https://en.wikipedia.org/wiki/Public-key_cryptography) as originally conceptualized by [Ralph Merkle](https://en.wikipedia.org/wiki/Ralph_Merkle) and named after [Whitfield Diffie](https://en.wikipedia.org/wiki/Whitfield_Diffie) and [Martin Hellman](https://en.wikipedia.org/wiki/Martin_Hellman)

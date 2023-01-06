@@ -1,9 +1,5 @@
 # Sliding Window Analytics
 
-Created: 2019-03-24 14:03:17 +0500
-
-Modified: 2021-11-09 21:14:15 +0500
-
 ---
 
 ## Conclusion

@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2019-08-21 19:00:35 +0500
-
-Modified: 2022-11-03 00:10:15 +0500
-
 ---
 
 [**https://en.wikipedia.org/wiki/Outline_of_economics**](https://en.wikipedia.org/wiki/Outline_of_economics)

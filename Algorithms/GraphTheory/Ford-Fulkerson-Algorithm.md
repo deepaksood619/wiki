@@ -1,9 +1,5 @@
 # Ford-Fulkerson Algorithm
 
-Created: 2018-03-21 19:45:24 +0500
-
-Modified: 2018-05-21 22:57:20 +0500
-
 ---
 
 # Maximum Flow (Max-Flow Min-Cut Theorem)

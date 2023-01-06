@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-01-14 15:04:47 +0500
-
-Modified: 2021-10-24 16:03:56 +0500
-
 ---
 
 ISO 3103 - How to brew tea?

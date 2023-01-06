@@ -1,9 +1,5 @@
 # Flask
 
-Created: 2018-05-20 23:56:20 +0500
-
-Modified: 2021-10-13 12:04:30 +0500
-
 ---
 
 Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine.

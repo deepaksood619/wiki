@@ -1,9 +1,5 @@
 # Admin site
 
-Created: 2018-02-15 11:46:01 +0500
-
-Modified: 2021-12-27 20:08:20 +0500
-
 ---
 
 ## Overview

@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2018-11-14 16:07:37 +0500
-
-Modified: 2020-02-04 22:57:11 +0500
-
 ---
 
 ## Final Commands

@@ -1,9 +1,5 @@
 # Food
 
-Created: 2018-08-11 18:15:52 +0500
-
-Modified: 2022-09-16 12:47:58 +0500
-
 ---
 
 The way you eat not only decides your physical health, but the very way you think, feel, and experience life. -- Sadhguru

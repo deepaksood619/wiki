@@ -1,9 +1,5 @@
 # Journaling File System
 
-Created: 2019-12-03 21:36:20 +0500
-
-Modified: 2019-12-05 17:13:23 +0500
-
 ---
 
 Ajournaling file systemis a [file system](https://en.wikipedia.org/wiki/File_system) that keeps track of changes not yet committed to the file system's main part by recording the intentions of such changes in a data structure known as a "[journal](https://en.wikipedia.org/wiki/Journal_(computing))", which is usually a [circular log](https://en.wikipedia.org/wiki/Circular_log). In the event of a system crash or power failure, such file systems can be brought back online more quickly with a lower likelihood of becoming corrupted.

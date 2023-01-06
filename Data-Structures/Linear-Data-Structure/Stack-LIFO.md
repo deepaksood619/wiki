@@ -1,9 +1,5 @@
 # Stack LIFO
 
-Created: 2018-01-30 21:19:26 +0500
-
-Modified: 2018-08-04 12:23:07 +0500
-
 ---
 
 ## Points to remember

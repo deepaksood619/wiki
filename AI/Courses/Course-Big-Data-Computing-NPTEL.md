@@ -1,9 +1,5 @@
 # Course - Big Data Computing - NPTEL
 
-Created: 2019-03-08 22:15:04 +0500
-
-Modified: 2021-06-19 14:07:34 +0500
-
 ---
 
 - Dr. Rajiv Mishra

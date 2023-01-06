@@ -1,9 +1,5 @@
 # Bitmap
 
-Created: 2019-07-14 15:34:08 +0500
-
-Modified: 2020-09-05 01:46:52 +0500
-
 ---
 
 ## Bitmap / Bit Array / Bit Vector / Bitmap index / Bit set / Bit string

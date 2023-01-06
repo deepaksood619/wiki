@@ -1,9 +1,5 @@
 # EdgeXFoundary
 
-Created: 2019-02-07 19:43:15 +0500
-
-Modified: 2019-02-07 19:48:58 +0500
-
 ---
 
 Founded in 2017, EdgeX Foundry acts as a vendor-neutral interoperabilityframework. It is hostedin a hardware and OS agnostic referenceplatform and seeks toenablean ecosystem of plug-and-playcomponents, unitingthe marketplace and acceleratingIoT deployment. The project wants to enable collaborators tofreely work onopen and interoperable IoT solutionswith existing and self-created connectivity standards.

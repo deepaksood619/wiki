@@ -1,9 +1,5 @@
 # Research
 
-Created: 2018-10-18 09:58:11 +0500
-
-Modified: 2022-09-10 17:34:19 +0500
-
 ---
 
 The main point of science is **to ask the right questions.**

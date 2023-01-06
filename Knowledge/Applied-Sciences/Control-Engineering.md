@@ -1,9 +1,5 @@
 # Control Engineering
 
-Created: 2019-08-10 16:04:04 +0500
-
-Modified: 2021-11-19 18:11:11 +0500
-
 ---
 
 ## Control engineeringorcontrol systems engineeringis an [engineering](https://en.wikipedia.org/wiki/Engineering) discipline that applies [automatic control](https://en.wikipedia.org/wiki/Automatic_control) theory to design systems with desired behaviors in [control](https://en.wikipedia.org/wiki/Control_theory) environments.The discipline of controls overlaps and is usually taught along with [electrical engineering](https://en.wikipedia.org/wiki/Electrical_engineering) at many institutions around the world

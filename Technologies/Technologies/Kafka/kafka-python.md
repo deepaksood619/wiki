@@ -1,9 +1,5 @@
 # kafka-python
 
-Created: 2018-10-16 17:43:32 +0500
-
-Modified: 2020-05-30 18:50:44 +0500
-
 ---
 
 Python client for the Apache Kafka distributed stream processing system. (consumer iterators)

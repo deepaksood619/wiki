@@ -1,9 +1,5 @@
 # Getting Started
 
-Created: 2019-04-18 22:02:41 +0500
-
-Modified: 2019-07-15 10:59:51 +0500
-
 ---
 
 ## Points

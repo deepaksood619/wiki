@@ -1,9 +1,5 @@
 # Resources
 
-Created: 2018-04-04 14:52:26 +0500
-
-Modified: 2020-07-14 23:24:59 +0500
-
 ---
 
 ![image](media/Resources-image1.png)

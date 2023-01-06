@@ -1,9 +1,5 @@
 # Business Case Studies
 
-Created: 2022-02-13 22:49:15 +0500
-
-Modified: 2022-05-25 15:09:27 +0500
-
 ---
 
 <https://www.youtube.com/c/AdityaSaini1505/videos>

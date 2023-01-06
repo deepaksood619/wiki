@@ -1,9 +1,5 @@
 # Events
 
-Created: 2021-10-25 23:11:01 +0500
-
-Modified: 2021-10-25 23:11:45 +0500
-
 ---
 
 Your event handlers will be passed instances ofSyntheticEvent, a cross-browser wrapper around the browser's native event. It has the same interface as the browser's native event, includingstopPropagation()andpreventDefault(), except the events work identically across all browsers.

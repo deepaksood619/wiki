@@ -1,9 +1,5 @@
 # AngularJS
 
-Created: 2019-02-27 22:28:27 +0500
-
-Modified: 2022-09-14 20:50:47 +0500
-
 ---
 
 <https://www.toptal.com/angular/angular-9-tutorial-angular-ivy>

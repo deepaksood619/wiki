@@ -1,9 +1,5 @@
 # Unit 3 - Solved Problems
 
-Created: 2018-06-09 13:28:06 +0500
-
-Modified: 2018-06-09 14:38:22 +0500
-
 ---
 
 ## The birthday problem

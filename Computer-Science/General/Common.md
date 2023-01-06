@@ -1,9 +1,5 @@
 # Common
 
-Created: 2017-11-01 12:17:26 +0500
-
-Modified: 2022-07-18 09:31:51 +0500
-
 ---
 
 CAPTCHA - Completely Automated Public Turing test to tell Computers and Humans Apart

@@ -1,9 +1,5 @@
 # Services
 
-Created: 2019-12-29 01:32:47 +0500
-
-Modified: 2019-12-29 01:38:52 +0500
-
 ---
 
 ## AI + Machine Learning

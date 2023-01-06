@@ -1,9 +1,5 @@
 # Linear regression
 
-Created: 2018-06-21 19:17:07 +0500
-
-Modified: 2021-10-06 21:32:24 +0500
-
 ---
 
 ## Linear regressionis a method for finding the straight line or hyperplane that best fits a set of points

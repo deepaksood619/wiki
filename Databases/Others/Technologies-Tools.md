@@ -1,9 +1,5 @@
 # Technologies / Tools
 
-Created: 2019-04-23 12:36:18 +0500
-
-Modified: 2022-02-08 18:52:13 +0500
-
 ---
 
 ## Vitess

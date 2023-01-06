@@ -1,9 +1,5 @@
 # QuerySet & Query Expressions
 
-Created: 2017-11-04 13:19:05 +0500
-
-Modified: 2019-12-06 00:17:22 +0500
-
 ---
 
 A QuerySet is, in essence, a list of objects of a given Model. QuerySets allow you to read the data from the database, filter it and order it. Internally, a **QuerySet** can be constructed, filtered, sliced, and generally passed around without actually hitting the database. No database activity actually occurs until you do something to evaluate the queryset.

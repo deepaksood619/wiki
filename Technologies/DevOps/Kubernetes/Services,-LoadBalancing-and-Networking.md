@@ -1,9 +1,5 @@
 # Services, LoadBalancing and Networking
 
-Created: 2019-01-30 15:44:07 +0500
-
-Modified: 2020-08-26 11:59:46 +0500
-
 ---
 
 1. Services

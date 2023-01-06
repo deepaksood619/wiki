@@ -1,9 +1,5 @@
 # Returns / Tax / Taxes / ITR
 
-Created: 2019-09-04 23:28:02 +0500
-
-Modified: 2022-10-26 21:30:50 +0500
-
 ---
 
 <https://taxbuddy.com>

@@ -1,9 +1,5 @@
 # Maximum Flow and Minimum Cut
 
-Created: 2018-03-20 22:07:52 +0500
-
-Modified: 2021-06-16 19:48:11 +0500
-
 ---
 
 1. Introduction to Maxflow

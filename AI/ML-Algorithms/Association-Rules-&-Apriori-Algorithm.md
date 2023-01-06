@@ -1,9 +1,5 @@
 # Association Rules & Apriori Algorithm
 
-Created: 2019-01-22 10:48:20 +0500
-
-Modified: 2021-06-19 15:47:05 +0500
-
 ---
 
 ## Association Rule Mining

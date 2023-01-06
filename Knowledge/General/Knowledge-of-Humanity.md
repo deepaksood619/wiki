@@ -1,9 +1,5 @@
 # Knowledge of Humanity
 
-Created: 2018-11-13 23:36:02 +0500
-
-Modified: 2021-12-31 21:25:18 +0500
-
 ---
 
 # Humanities

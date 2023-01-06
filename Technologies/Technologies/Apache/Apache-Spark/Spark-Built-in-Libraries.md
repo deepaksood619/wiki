@@ -1,9 +1,5 @@
 # Spark Built-in Libraries
 
-Created: 2019-03-11 20:44:04 +0500
-
-Modified: 2021-06-14 17:46:26 +0500
-
 ---
 
 ## Intro

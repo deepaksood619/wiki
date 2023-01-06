@@ -1,9 +1,5 @@
 # CV - Libraries / Tools
 
-Created: 2021-06-14 20:26:55 +0500
-
-Modified: 2021-07-05 23:45:04 +0500
-
 ---
 
 ## YOLO - You Only Look Once

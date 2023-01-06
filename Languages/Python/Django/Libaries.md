@@ -1,9 +1,5 @@
 # Libaries
 
-Created: 2019-12-09 16:08:41 +0500
-
-Modified: 2022-01-05 23:50:55 +0500
-
 ---
 
 <https://dev.to/sm0ke/django-framework-popular-extensions-a-short-list-130>

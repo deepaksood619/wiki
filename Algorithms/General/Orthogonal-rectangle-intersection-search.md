@@ -1,9 +1,5 @@
 # Orthogonal rectangle intersection search
 
-Created: 2018-02-07 08:21:32 +0500
-
-Modified: 2018-02-07 09:10:14 +0500
-
 ---
 
 Goal: find all intersections among a set of N orthogonal rectangles

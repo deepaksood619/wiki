@@ -1,9 +1,5 @@
 # Hello World
 
-Created: 2019-04-20 14:52:52 +0500
-
-Modified: 2020-05-08 01:46:12 +0500
-
 ---
 
 ## hello.go

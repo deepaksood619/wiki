@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-08-23 11:19:24 +0500
-
-Modified: 2022-03-01 23:55:17 +0500
-
 ---
 
 Locally Linear Embedding

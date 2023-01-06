@@ -1,9 +1,5 @@
 # Cryptography Intro
 
-Created: 2021-06-06 16:37:06 +0500
-
-Modified: 2022-04-16 22:40:36 +0500
-
 ---
 
 Dance like no one is watching; encrypt like everyone is. Encrypt everything."

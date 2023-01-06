@@ -1,9 +1,5 @@
 # Grammer / Vocabulary
 
-Created: 2019-07-14 14:08:08 +0500
-
-Modified: 2022-10-31 20:47:20 +0500
-
 ---
 
 In [linguistics]$1 $2) is the set of [structural](https://en.wikipedia.org/wiki/Structural) rules governing the composition of [clauses](https://en.wikipedia.org/wiki/Clause_(linguistics)), [phrases](https://en.wikipedia.org/wiki/Phrase) and [words](https://en.wikipedia.org/wiki/Words) in a [natural language](https://en.wikipedia.org/wiki/Natural_language). The term refers also to the study of such rules and this field includes [phonology](https://en.wikipedia.org/wiki/Phonology), [morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)) and [syntax](https://en.wikipedia.org/wiki/Syntax), often complemented by [phonetics](https://en.wikipedia.org/wiki/Phonetics), [semantics](https://en.wikipedia.org/wiki/Semantics) and [pragmatics](https://en.wikipedia.org/wiki/Pragmatics).

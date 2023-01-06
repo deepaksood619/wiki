@@ -1,9 +1,5 @@
 # Newsletter / Learning Resources
 
-Created: 2020-10-10 00:43:31 +0500
-
-Modified: 2022-05-30 23:23:24 +0500
-
 ---
 
 <https://www.freecodecamp.org/news/how-to-create-an-email-newsletter-design-layout-send>

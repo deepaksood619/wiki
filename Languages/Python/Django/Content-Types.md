@@ -1,9 +1,5 @@
 # Content Types
 
-Created: 2018-05-16 17:28:47 +0500
-
-Modified: 2019-12-06 00:28:29 +0500
-
 ---
 
 ## Content Types

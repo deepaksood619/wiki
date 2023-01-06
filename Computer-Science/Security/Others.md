@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-01-19 21:05:50 +0500
-
-Modified: 2022-02-08 21:37:47 +0500
-
 ---
 
 ## SE Radio - 321: End to End Encryption - Kim Carter with Peter Budai

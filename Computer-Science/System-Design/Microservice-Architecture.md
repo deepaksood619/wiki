@@ -1,9 +1,5 @@
 # Microservice Architecture
 
-Created: 2017-11-02 23:06:25 +0500
-
-Modified: 2022-03-02 20:22:31 +0500
-
 ---
 
 ## What is microservices architecture?

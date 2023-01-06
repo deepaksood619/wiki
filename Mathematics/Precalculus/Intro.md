@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-05-15 11:45:07 +0500
-
-Modified: 2021-06-06 16:54:11 +0500
-
 ---
 
 1. Trigonometry

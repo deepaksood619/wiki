@@ -1,9 +1,5 @@
 # Spanish
 
-Created: 2019-07-03 00:39:02 +0500
-
-Modified: 2021-10-23 12:25:28 +0500
-
 ---
 
 ## Duolingo Spanish Podcast

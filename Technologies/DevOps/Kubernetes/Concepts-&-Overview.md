@@ -1,9 +1,5 @@
 # Concepts & Overview
 
-Created: 2019-01-28 22:04:52 +0500
-
-Modified: 2020-09-05 00:37:58 +0500
-
 ---
 
 # Kubernetes Objects

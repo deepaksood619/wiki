@@ -1,9 +1,5 @@
 # Data Lake
 
-Created: 2018-10-13 16:12:14 +0500
-
-Modified: 2020-10-18 14:07:51 +0500
-
 ---
 
 Also called Data Swamp

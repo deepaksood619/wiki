@@ -1,9 +1,5 @@
 # Self Control / Will Power
 
-Created: 2019-10-06 19:01:51 +0500
-
-Modified: 2022-10-31 21:21:12 +0500
-
 ---
 
 Before you try to increase your willpower, try to decrease the friction in your environment.

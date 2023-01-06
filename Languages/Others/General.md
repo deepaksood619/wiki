@@ -1,9 +1,5 @@
 # General
 
-Created: 2017-09-20 10:29:16 +0500
-
-Modified: 2022-05-04 20:49:35 +0500
-
 ---
 
 ## Domain Specific Languages (DSLs)

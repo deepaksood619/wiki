@@ -1,9 +1,5 @@
 # sysctl
 
-Created: 2020-07-08 19:47:59 +0500
-
-Modified: 2020-07-08 20:05:23 +0500
-
 ---
 
 sysctl -- get or set kernel state

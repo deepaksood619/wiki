@@ -1,9 +1,5 @@
 # Psychology
 
-Created: 2018-08-26 22:21:15 +0500
-
-Modified: 2022-09-17 13:49:19 +0500
-
 ---
 
 ## Maslow's hierarchy of needs

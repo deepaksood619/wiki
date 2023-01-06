@@ -1,9 +1,5 @@
 # CQL (Cassandra Query Language)
 
-Created: 2019-03-17 17:50:35 +0500
-
-Modified: 2020-01-03 17:00:20 +0500
-
 ---
 
 ## CQL

@@ -1,9 +1,5 @@
 # Types
 
-Created: 2020-03-24 23:53:36 +0500
-
-Modified: 2020-03-25 00:02:35 +0500
-
 ---
 
 - **SQL** is a query language to operate on sets.

@@ -1,9 +1,5 @@
 # AWS Lambda
 
-Created: 2021-06-11 19:46:33 +0500
-
-Modified: 2022-03-02 20:22:16 +0500
-
 ---
 
 <https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html>

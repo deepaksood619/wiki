@@ -1,9 +1,5 @@
 # SQL Commands
 
-Created: 2018-03-13 18:58:43 +0500
-
-Modified: 2021-12-01 16:17:51 +0500
-
 ---
 
 ## Types

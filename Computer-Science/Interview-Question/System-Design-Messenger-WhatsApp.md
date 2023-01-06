@@ -1,9 +1,5 @@
 # System Design - Messenger / WhatsApp
 
-Created: 2018-04-06 22:30:44 +0500
-
-Modified: 2021-08-27 19:59:58 +0500
-
 ---
 
 [System Design : Design messaging/chat service like Facebook Messenger or Whatsapp](https://www.youtube.com/watch?v=zKPNUMkwOJE)

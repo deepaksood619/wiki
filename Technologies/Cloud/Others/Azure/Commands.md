@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2019-11-06 16:35:26 +0500
-
-Modified: 2019-12-02 21:30:35 +0500
-
 ---
 
 Use `az --version` to display the current version.

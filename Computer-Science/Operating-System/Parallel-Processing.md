@@ -1,9 +1,5 @@
 # Parallel Processing
 
-Created: 2019-03-21 22:38:19 +0500
-
-Modified: 2020-03-16 22:46:23 +0500
-
 ---
 
 ## Parallel Processing, MPP (Massive Parallel Processing)

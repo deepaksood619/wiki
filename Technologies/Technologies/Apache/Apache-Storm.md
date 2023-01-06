@@ -1,9 +1,5 @@
 # Apache Storm
 
-Created: 2020-03-01 21:42:09 +0500
-
-Modified: 2020-03-01 21:42:13 +0500
-
 ---
 
 Apache Storm

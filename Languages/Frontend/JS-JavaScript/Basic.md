@@ -1,9 +1,5 @@
 # Basic
 
-Created: 2017-10-11 04:17:36 +0500
-
-Modified: 2022-04-19 23:22:28 +0500
-
 ---
 
 <https://medium.freecodecamp.org/the-definitive-javascript-handbook-for-a-developer-interview-44ffc6aeb54e>

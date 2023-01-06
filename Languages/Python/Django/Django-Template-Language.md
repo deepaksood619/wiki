@@ -1,9 +1,5 @@
 # Django Template Language
 
-Created: 2017-12-28 15:08:03 +0500
-
-Modified: 2021-09-21 09:33:40 +0500
-
 ---
 
 {{ foo }}- this is a placeholder in the template, for the variable *foo*that is passed to the template from a view.

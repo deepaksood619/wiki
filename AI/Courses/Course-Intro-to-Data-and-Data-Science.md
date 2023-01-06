@@ -1,9 +1,5 @@
 # Course - Intro to Data and Data Science
 
-Created: 2020-03-26 21:38:47 +0500
-
-Modified: 2021-06-19 14:07:27 +0500
-
 ---
 
 <https://365datascience.com>

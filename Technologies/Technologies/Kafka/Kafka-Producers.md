@@ -1,9 +1,5 @@
 # Kafka Producers
 
-Created: 2019-04-03 16:12:01 +0500
-
-Modified: 2020-07-24 16:54:05 +0500
-
 ---
 
 # Kafka Producers: Writing Messages to Kafka (Definitive Guide)

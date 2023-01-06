@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-04-18 01:20:59 +0500
-
-Modified: 2022-11-10 18:04:38 +0500
-
 ---
 
 ## Opensource Free Stuff

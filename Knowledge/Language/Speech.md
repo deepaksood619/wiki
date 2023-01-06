@@ -1,9 +1,5 @@
 # Speech
 
-Created: 2019-07-14 14:13:40 +0500
-
-Modified: 2021-10-17 20:07:43 +0500
-
 ---
 
 # Parts of Speech

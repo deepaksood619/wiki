@@ -1,9 +1,5 @@
 # SE Radio
 
-Created: 2018-06-15 10:47:34 +0500
-
-Modified: 2021-10-24 15:38:11 +0500
-
 ---
 
 ## 346: Streaming Architecture

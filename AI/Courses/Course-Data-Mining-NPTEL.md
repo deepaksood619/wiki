@@ -1,9 +1,5 @@
 # Course - Data Mining NPTEL
 
-Created: 2019-01-22 10:45:54 +0500
-
-Modified: 2021-06-19 14:06:55 +0500
-
 ---
 
 Data mining is study of algorithms for finding patterns in large data sets. It is an integral part of modern industry, where data from its operations and customers are mined for gaining business insight. It is also important in modern scientific endeavors. Data mining is an interdisciplinary topic involving, databases, machine learning and algorithms.

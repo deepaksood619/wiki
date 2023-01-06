@@ -1,9 +1,5 @@
 # Neural Networks
 
-Created: 2021-06-19 15:25:21 +0500
-
-Modified: 2022-03-06 12:01:38 +0500
-
 ---
 
 In computer programming, humans instruct a computer to solve a problem by specifying each step using many lines of code. With machine learning and neural networks, you instead get the computer to solve the problem through examples.

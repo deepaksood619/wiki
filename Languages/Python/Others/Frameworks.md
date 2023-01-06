@@ -1,9 +1,5 @@
 # Frameworks
 
-Created: 2019-11-10 12:00:38 +0500
-
-Modified: 2021-08-29 15:33:52 +0500
-
 ---
 
 ## Tornado

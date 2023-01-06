@@ -1,9 +1,5 @@
 # Internal working
 
-Created: 2021-04-27 16:50:04 +0500
-
-Modified: 2021-04-27 16:54:05 +0500
-
 ---
 
 ## Concurrency

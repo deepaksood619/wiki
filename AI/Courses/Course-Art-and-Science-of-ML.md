@@ -1,9 +1,5 @@
 # Course - Art and Science of ML
 
-Created: 2018-07-04 01:58:08 +0500
-
-Modified: 2021-07-05 09:38:48 +0500
-
 ---
 
 ## Introduction

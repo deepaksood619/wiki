@@ -1,9 +1,5 @@
 # Analytics
 
-Created: 2020-02-16 13:54:30 +0500
-
-Modified: 2021-12-27 00:01:26 +0500
-
 ---
 
 1. Amazon Athena

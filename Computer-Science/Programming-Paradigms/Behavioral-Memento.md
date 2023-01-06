@@ -1,9 +1,5 @@
 # Behavioral - Memento
 
-Created: 2018-08-20 15:54:27 +0500
-
-Modified: 2018-08-20 16:25:32 +0500
-
 ---
 
 ## Mementois a behavioral design pattern that allows you to save and restore the past states of the objects without revealing the details of their implementation

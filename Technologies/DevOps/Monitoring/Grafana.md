@@ -1,9 +1,5 @@
 # Grafana
 
-Created: 2018-12-28 13:34:31 +0500
-
-Modified: 2021-12-30 17:22:46 +0500
-
 ---
 
 The open platform for beautiful analytics and monitoring (open source software for time series analytics) (Expression browser)

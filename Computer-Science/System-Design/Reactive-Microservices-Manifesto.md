@@ -1,9 +1,5 @@
 # Reactive Microservices / Manifesto
 
-Created: 2018-11-29 00:55:23 +0500
-
-Modified: 2021-11-12 21:57:21 +0500
-
 ---
 
 A reactive microservices architecture is an architectural style that strives to provide the highest levels of responsiveness, resiliency, and elasticity, and accomplish this by adopting strong decoupling, isolation, non-blocking, event-driven architecture, and asynchronous messaging, among other techniques.

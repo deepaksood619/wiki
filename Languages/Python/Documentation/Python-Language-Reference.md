@@ -1,9 +1,5 @@
 # Python Language Reference
 
-Created: 2018-05-24 11:42:49 +0500
-
-Modified: 2018-05-24 11:43:40 +0500
-
 ---
 
 Describes the syntax and "core semantics" of the language.

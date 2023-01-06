@@ -1,9 +1,5 @@
 # Cloud Native
 
-Created: 2019-04-07 10:24:34 +0500
-
-Modified: 2020-12-16 00:11:35 +0500
-
 ---
 
 Cloud native is a term used to describe **container-based environments.** Cloud-native technologies are used to develop applications built with services packaged in containers, deployed as microservices and managed on elastic infrastructure through agile DevOps processes and continuous delivery workflows.

@@ -1,9 +1,5 @@
 # Funny
 
-Created: 2019-09-17 00:07:36 +0500
-
-Modified: 2022-01-10 00:08:59 +0500
-
 ---
 
 Once i was travelling by train from Mumbai to Delhi!

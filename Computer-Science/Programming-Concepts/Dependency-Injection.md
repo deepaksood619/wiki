@@ -1,9 +1,5 @@
 # Dependency Injection
 
-Created: 2018-04-30 16:14:08 +0500
-
-Modified: 2021-04-15 11:20:24 +0500
-
 ---
 
 In [software engineering](https://en.m.wikipedia.org/wiki/Software_engineering), dependency injection is a technique whereby one object (or static method) supplies the dependencies of another object. A dependency is an object that can be used (a [service](https://en.m.wikipedia.org/wiki/Service_(systems_architecture))). An injection is the passing of a dependency to a dependent object (a [client](https://en.m.wikipedia.org/wiki/Client_(computing))) that would use it. The service is made part of the client's [state](https://en.m.wikipedia.org/wiki/State_(computer_science)).Passing the service to the client, rather than allowing a client to build or [find the service](https://en.m.wikipedia.org/wiki/Service_locator_pattern), is the fundamental requirement of the pattern.

@@ -1,9 +1,5 @@
 # Tools
 
-Created: 2019-01-31 11:46:36 +0500
-
-Modified: 2022-04-27 16:01:58 +0500
-
 ---
 
 ## AutoML (Automated Machine Learning)

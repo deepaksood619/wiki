@@ -1,9 +1,5 @@
 # Kafka Consumers
 
-Created: 2018-10-05 18:11:36 +0500
-
-Modified: 2020-01-23 15:17:57 +0500
-
 ---
 
 # Kafka Consumers: Reading Data from Kafka (Definitive Guide)

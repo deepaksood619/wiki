@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2018-11-22 16:43:00 +0500
-
-Modified: 2020-06-11 22:43:54 +0500
-
 ---
 
 ## Container Orchestration Systems - to provide a higher level of deployment infrastructure abstraction, and evolution of continuous delivery systems such as [GoCD](https://www.gocd.org/kubernetes/?gclid=EAIaIQobChMIwu-o1_3E2gIVjcVkCh3XUAkoEAAYASAAEgJPQ_D_BwE) to build, test and deploy microservices as containers

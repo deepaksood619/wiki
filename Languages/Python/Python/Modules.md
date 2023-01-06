@@ -1,9 +1,5 @@
 # Modules
 
-Created: 2018-02-14 14:13:58 +0500
-
-Modified: 2018-04-08 17:20:52 +0500
-
 ---
 
 A module is a file containing Python definitions and statements. The file name is the module name with the suffix.pyappended. Within a module, the module's name (as a string) is available as the value of the global variable `__name__`.

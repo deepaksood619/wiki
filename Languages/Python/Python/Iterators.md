@@ -1,9 +1,5 @@
 # Iterators
 
-Created: 2017-12-09 11:43:21 +0500
-
-Modified: 2018-05-31 15:43:53 +0500
-
 ---
 
 An [iterator](https://en.wikipedia.org/wiki/Iterator) is an object that can be iterated (looped) upon. It is used to abstract a container of data to make it behave like an iterable object. You probably already use a few iterable objects every day: strings, lists, and dictionaries to name a few.

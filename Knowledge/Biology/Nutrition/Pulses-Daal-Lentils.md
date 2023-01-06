@@ -1,9 +1,5 @@
 # Pulses / Daal / Lentils
 
-Created: 2019-01-03 00:46:46 +0500
-
-Modified: 2022-02-07 20:39:51 +0500
-
 ---
 
 1. Masoor daal

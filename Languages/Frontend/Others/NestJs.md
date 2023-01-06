@@ -1,9 +1,5 @@
 # NestJs
 
-Created: 2020-04-06 17:13:04 +0500
-
-Modified: 2022-02-26 13:58:02 +0500
-
 ---
 
 ## A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications on top of TypeScript & JavaScript (ES6, ES7, ES8)

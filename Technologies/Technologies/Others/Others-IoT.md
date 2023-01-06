@@ -1,9 +1,5 @@
 # Others - IoT
 
-Created: 2018-10-04 11:42:38 +0500
-
-Modified: 2019-12-11 23:17:27 +0500
-
 ---
 
 ## MainFlux

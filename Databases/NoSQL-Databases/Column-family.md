@@ -1,9 +1,5 @@
 # Column family
 
-Created: 2019-12-22 20:42:20 +0500
-
-Modified: 2020-03-01 00:11:00 +0500
-
 ---
 
 Column-family databases, also called non-relational column stores, wide-column databases, or simply column databases, are perhaps the NoSQL type that, on the surface, looks most similar to relational databases. Like relational databases, wide-column databases store data using concepts like rows and columns. However, in wide-column databases, the association between these elements is very different from how relational databases use them.

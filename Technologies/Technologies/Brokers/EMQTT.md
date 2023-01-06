@@ -1,9 +1,5 @@
 # EMQTT
 
-Created: 2018-11-26 11:37:40 +0500
-
-Modified: 2019-01-10 15:25:34 +0500
-
 ---
 
 *EMQ X*broker is a fully open source, distributed, highly scalable, highly extensible, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.

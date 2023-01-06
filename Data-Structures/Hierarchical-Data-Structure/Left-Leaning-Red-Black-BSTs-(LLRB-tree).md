@@ -1,9 +1,5 @@
 # Left Leaning Red-Black BSTs (LLRB tree)
 
-Created: 2018-02-05 22:05:48 +0500
-
-Modified: 2018-02-06 09:44:20 +0500
-
 ---
 
 ## Red-Black Tree

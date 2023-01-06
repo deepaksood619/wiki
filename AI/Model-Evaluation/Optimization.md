@@ -1,9 +1,5 @@
 # Optimization
 
-Created: 2018-07-02 02:31:48 +0500
-
-Modified: 2021-06-19 14:47:58 +0500
-
 ---
 
 ## Learn how to

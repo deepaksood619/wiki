@@ -1,9 +1,5 @@
 # Analytic Geometry
 
-Created: 2018-05-24 16:05:10 +0500
-
-Modified: 2018-05-24 16:05:15 +0500
-
 ---
 
 [Distance and midpoints:Analytic geometry](https://www.khanacademy.org/math/geometry/hs-geo-analytic-geometry#hs-geo-distance-and-midpoints)

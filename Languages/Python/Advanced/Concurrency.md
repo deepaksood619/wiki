@@ -1,9 +1,5 @@
 # Concurrency
 
-Created: 2018-05-21 13:44:24 +0500
-
-Modified: 2022-05-13 15:19:51 +0500
-
 ---
 
 ## Global Interpreter Lock (GIL)

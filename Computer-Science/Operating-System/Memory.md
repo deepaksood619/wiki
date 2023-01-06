@@ -1,9 +1,5 @@
 # Memory
 
-Created: 2019-07-01 15:44:42 +0500
-
-Modified: 2020-12-25 18:05:27 +0500
-
 ---
 
 ## Stack Allocation

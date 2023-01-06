@@ -1,9 +1,5 @@
 # Conditional Probability
 
-Created: 2017-09-15 09:48:42 +0500
-
-Modified: 2017-09-15 09:50:19 +0500
-
 ---
 
 Conditional probability is calculating the probability of an event given that another event has already occured .

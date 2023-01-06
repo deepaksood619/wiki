@@ -1,9 +1,5 @@
 # Concurrency Control
 
-Created: 2019-11-04 00:04:37 +0500
-
-Modified: 2021-07-27 23:34:15 +0500
-
 ---
 
 The protocol to allow transactions to access a database in a multi-programmed fashion while preserving the illusion that each of them is executing alone on a dedicated system

@@ -1,9 +1,5 @@
 # Additional Theoretical Material
 
-Created: 2018-06-26 23:35:45 +0500
-
-Modified: 2018-06-27 00:38:25 +0500
-
 ---
 
 # Functions

@@ -1,9 +1,5 @@
 # Azure
 
-Created: 2019-02-18 17:17:22 +0500
-
-Modified: 2021-08-13 19:49:56 +0500
-
 ---
 
 [Azure Portal "How To" Series](https://www.youtube.com/playlist?list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR)

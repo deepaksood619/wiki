@@ -1,9 +1,5 @@
 # Recipe
 
-Created: 2018-08-20 14:36:17 +0500
-
-Modified: 2021-11-13 18:43:49 +0500
-
 ---
 
 ## Grilled Chicken + Paneer

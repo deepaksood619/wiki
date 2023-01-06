@@ -1,9 +1,5 @@
 # Templates
 
-Created: 2017-10-08 11:56:29 +0500
-
-Modified: 2017-10-08 12:21:21 +0500
-
 ---
 
 <http://www.geeksforgeeks.org/templates-cpp>

@@ -1,9 +1,5 @@
 # Endianness
 
-Created: 2019-07-30 21:24:25 +0500
-
-Modified: 2019-12-26 01:24:21 +0500
-
 ---
 
 ## endian

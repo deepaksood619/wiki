@@ -1,9 +1,5 @@
 # Yaml
 
-Created: 2019-01-25 14:33:27 +0500
-
-Modified: 2021-03-24 00:40:52 +0500
-
 ---
 
 YAML Ain't Markup Language is a data serialization language that matches user's expectations about data. It designed to be human friendly and works perfectly with other programming languages. It is useful to manage data and includes Unicode printable characters. This chapter will give you an introduction to YAML and gives you an idea about its features.

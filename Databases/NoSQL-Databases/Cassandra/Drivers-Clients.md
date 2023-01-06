@@ -1,9 +1,5 @@
 # Drivers / Clients
 
-Created: 2019-12-29 12:51:28 +0500
-
-Modified: 2019-12-29 16:25:34 +0500
-
 ---
 
 ```python

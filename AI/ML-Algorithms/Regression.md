@@ -1,9 +1,5 @@
 # Regression
 
-Created: 2019-04-21 13:08:14 +0500
-
-Modified: 2021-10-19 21:27:12 +0500
-
 ---
 
 Regression is a technique used to predict the value of a response (dependent) variables, from one or more predictor (independent) variables, where the variable are numeric. There are various forms of regression such as linear, multiple, logistic, polynomial, non-parametric, etc.

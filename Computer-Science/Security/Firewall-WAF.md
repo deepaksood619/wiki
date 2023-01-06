@@ -1,9 +1,5 @@
 # Firewall WAF
 
-Created: 2020-01-25 13:05:43 +0500
-
-Modified: 2021-08-15 23:00:46 +0500
-
 ---
 
 ## Web Application Firewall (WAF)

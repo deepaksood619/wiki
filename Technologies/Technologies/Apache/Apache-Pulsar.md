@@ -1,9 +1,5 @@
 # Apache Pulsar
 
-Created: 2018-10-03 12:13:03 +0500
-
-Modified: 2020-06-01 15:17:50 +0500
-
 ---
 
 Apache Pulsar is an open-source distributed pub-sub messaging system originally created at Yahoo and now part of the Apache Software Foundation

@@ -1,9 +1,5 @@
 # Scaling / Optimizations
 
-Created: 2020-10-12 01:27:01 +0500
-
-Modified: 2022-07-13 14:51:02 +0500
-
 ---
 
 ## What exactly needs to Scale?

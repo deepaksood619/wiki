@@ -1,9 +1,5 @@
 # CoreSync, Pacemaker
 
-Created: 2019-06-30 10:13:31 +0500
-
-Modified: 2019-06-30 10:21:26 +0500
-
 ---
 
 Corosync is an open source program that provides cluster membership and messaging capabilities, often referred to as themessaginglayer, to client servers. Pacemaker is an open source cluster resource manager (CRM), a system that coordinates resources and services that are managed and made highly available by a cluster. In essence, Corosync enables servers to communicate as a cluster, while Pacemaker provides the ability to control how the cluster behaves.

@@ -1,9 +1,5 @@
 # AWS Sagemaker
 
-Created: 2021-06-09 23:42:33 +0500
-
-Modified: 2022-03-30 21:50:58 +0500
-
 ---
 
 ![media](media/AWS-Sagemaker-image1.jpg)

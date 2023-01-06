@@ -1,9 +1,5 @@
 # OpenAPI
 
-Created: 2020-04-08 21:37:47 +0500
-
-Modified: 2022-02-05 00:21:12 +0500
-
 ---
 
 1. [What Is OpenAPI?](https://swagger.io/docs/specification/about/)

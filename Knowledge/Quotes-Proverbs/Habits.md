@@ -1,9 +1,5 @@
 # Habits
 
-Created: 2020-03-12 20:52:38 +0500
-
-Modified: 2022-03-11 12:54:41 +0500
-
 ---
 
 When in doubt do

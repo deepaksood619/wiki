@@ -1,9 +1,5 @@
 # React Native
 
-Created: 2020-04-01 14:25:52 +0500
-
-Modified: 2021-11-16 21:15:59 +0500
-
 ---
 
 ## Interaction Manager

@@ -1,9 +1,5 @@
 # Compilers
 
-Created: 2018-05-24 11:08:23 +0500
-
-Modified: 2022-01-16 20:10:22 +0500
-
 ---
 
 LLVM - The **LLVM** compiler infrastructure project is a "collection of modular and reusable [compiler](https://en.wikipedia.org/wiki/Compiler) and [toolchain](https://en.wikipedia.org/wiki/Toolchain) technologies" used to develop compiler [front ends](https://en.wikipedia.org/wiki/Compiler#Front_end) and [back ends](https://en.wikipedia.org/wiki/Compiler#Back_end).

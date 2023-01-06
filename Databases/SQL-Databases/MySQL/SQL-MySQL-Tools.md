@@ -1,9 +1,5 @@
 # SQL / MySQL Tools
 
-Created: 2020-12-02 23:07:43 +0500
-
-Modified: 2021-11-25 19:26:25 +0500
-
 ---
 
 ## Monitoring

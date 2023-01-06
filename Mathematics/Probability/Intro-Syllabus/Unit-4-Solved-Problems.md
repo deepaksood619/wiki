@@ -1,9 +1,5 @@
 # Unit 4 - Solved Problems
 
-Created: 2018-06-13 23:26:05 +0500
-
-Modified: 2018-06-13 23:54:53 +0500
-
 ---
 
 ![image](media/Intro-Syllabus_Unit-4-Solved-Problems-image1.png)

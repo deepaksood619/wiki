@@ -1,9 +1,5 @@
 # Implementation
 
-Created: 2018-04-04 15:28:54 +0500
-
-Modified: 2018-04-04 15:28:58 +0500
-
 ---
 
 ## Python

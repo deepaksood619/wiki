@@ -1,9 +1,5 @@
 # Open Tracing
 
-Created: 2018-10-27 13:54:29 +0500
-
-Modified: 2018-10-27 14:01:55 +0500
-
 ---
 
 ## What is OpenTracing?

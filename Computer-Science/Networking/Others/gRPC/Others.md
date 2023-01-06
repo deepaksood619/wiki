@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-05-06 09:13:38 +0500
-
-Modified: 2020-11-02 23:16:07 +0500
-
 ---
 
 ## How to automate grpc generation using git hooks, why grpc over REST + JSON

@@ -1,9 +1,5 @@
 # NP Hardness
 
-Created: 2019-11-03 20:02:26 +0500
-
-Modified: 2021-07-27 00:36:29 +0500
-
 ---
 
 | [**P**](https://en.wikipedia.org/wiki/P_(complexity))     | The [complexity class](https://en.wikipedia.org/wiki/Complexity_class) of [decision problems](https://en.wikipedia.org/wiki/Decision_problem) that can be solved on a [deterministic Turing machine](https://en.wikipedia.org/wiki/Deterministic_Turing_machine) in polynomial time |

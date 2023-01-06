@@ -1,9 +1,5 @@
 # GYM Nutrition
 
-Created: 2019-06-15 11:43:18 +0500
-
-Modified: 2021-09-30 22:36:53 +0500
-
 ---
 
 ## Proteins

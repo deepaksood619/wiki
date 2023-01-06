@@ -1,9 +1,5 @@
 # Memory Allocation
 
-Created: 2019-12-02 13:29:36 +0500
-
-Modified: 2019-12-02 13:32:14 +0500
-
 ---
 
 ## Dynamic memory allocation

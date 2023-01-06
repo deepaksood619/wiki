@@ -1,9 +1,5 @@
 # Pod Lifecycle
 
-Created: 2019-09-22 14:14:39 +0500
-
-Modified: 2020-09-02 13:27:29 +0500
-
 ---
 
 - [Pod phase](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-phase)

@@ -1,9 +1,5 @@
 # FastAPI
 
-Created: 2021-04-22 17:34:27 +0500
-
-Modified: 2022-04-05 13:16:33 +0500
-
 ---
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.

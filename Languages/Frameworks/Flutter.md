@@ -1,9 +1,5 @@
 # Flutter
 
-Created: 2018-03-19 19:26:25 +0500
-
-Modified: 2022-02-26 13:58:52 +0500
-
 ---
 
 Flutter is used to develop apps that run on Android and iOS and deliver the same user experience. Flutter will also be able to target Fuchsia, the upcoming OS from Google

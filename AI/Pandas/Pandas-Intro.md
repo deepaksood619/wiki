@@ -1,9 +1,5 @@
 # Pandas Intro
 
-Created: 2018-05-13 23:09:14 +0500
-
-Modified: 2021-06-06 16:47:52 +0500
-
 ---
 
 Pandas is an open-source, BSD-licensed Python library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.

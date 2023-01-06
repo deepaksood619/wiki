@@ -1,9 +1,5 @@
 # Models
 
-Created: 2022-03-14 22:56:56 +0500
-
-Modified: 2022-03-14 22:58:42 +0500
-
 ---
 
 <https://docs.sqlalchemy.org/en/14/orm/quickstart.html>

@@ -1,9 +1,5 @@
 # Crash Course History of Science
 
-Created: 2019-06-16 12:55:19 +0500
-
-Modified: 2019-07-14 22:29:56 +0500
-
 ---
 
 Nullius in verba - in no one words

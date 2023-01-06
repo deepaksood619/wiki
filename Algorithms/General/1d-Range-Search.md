@@ -1,9 +1,5 @@
 # 1d Range Search
 
-Created: 2018-02-06 11:29:16 +0500
-
-Modified: 2018-02-06 11:29:52 +0500
-
 ---
 
 ## 1 d range search

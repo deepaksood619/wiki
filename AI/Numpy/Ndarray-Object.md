@@ -1,9 +1,5 @@
 # Ndarray Object
 
-Created: 2018-05-14 10:38:30 +0500
-
-Modified: 2022-04-15 13:29:40 +0500
-
 ---
 
 The most important object defined in NumPy is an N-dimensional array type calledndarray. It describes the collection of items of the same type. Items in the collection can be accessed using a zero-based index.

@@ -1,9 +1,5 @@
 # (8) Linux System Administration
 
-Created: 2019-04-25 10:30:17 +0500
-
-Modified: 2021-03-24 13:44:11 +0500
-
 ---
 
 ## sudo

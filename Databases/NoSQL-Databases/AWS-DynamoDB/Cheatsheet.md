@@ -1,9 +1,5 @@
 # Cheatsheet
 
-Created: 2020-03-14 13:39:48 +0500
-
-Modified: 2020-07-22 13:39:47 +0500
-
 ---
 
 ## The Basics of DynamoDB

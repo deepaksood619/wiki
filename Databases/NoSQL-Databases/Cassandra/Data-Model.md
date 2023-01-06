@@ -1,9 +1,5 @@
 # Data Model
 
-Created: 2019-12-27 19:18:38 +0500
-
-Modified: 2020-01-07 22:00:50 +0500
-
 ---
 
 - **Partition Key**

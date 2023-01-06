@@ -1,9 +1,5 @@
 # OneNote
 
-Created: 2017-11-15 15:13:36 +0500
-
-Modified: 2022-02-08 15:39:32 +0500
-
 ---
 
 ## Shortcut Mac

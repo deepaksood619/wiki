@@ -1,9 +1,5 @@
 # Greek Letters / Latin
 
-Created: 2018-05-24 11:31:28 +0500
-
-Modified: 2021-10-03 20:19:20 +0500
-
 ---
 
 | **Name**                                                                                                                    | **Symbol** | **Name**                                                                                                                    | **Symbol** | **Name**                                                                                                                  | **Symbol** | **Name**                                                                                                                    | **Symbol** | **Name**                                                                                                                    | **Symbol** |

@@ -1,9 +1,5 @@
 # Architecture
 
-Created: 2020-02-22 23:56:00 +0500
-
-Modified: 2020-02-23 00:03:31 +0500
-
 ---
 
 There are mainly three types of Datawarehouse Architectures: -

@@ -1,9 +1,5 @@
 # A* Search Algorithm
 
-Created: 2018-01-18 09:50:50 +0500
-
-Modified: 2018-01-19 22:17:56 +0500
-
 ---
 
 The process of plotting an efficiently directed path between multiple points, called nodes.

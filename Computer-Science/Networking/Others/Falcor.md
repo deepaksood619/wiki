@@ -1,9 +1,5 @@
 # Falcor
 
-Created: 2018-12-04 00:44:49 +0500
-
-Modified: 2018-12-04 00:48:23 +0500
-
 ---
 
 A JavaScript library for efficient data fetching

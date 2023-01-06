@@ -1,9 +1,5 @@
 # Mutual Funds
 
-Created: 2020-08-04 19:25:32 +0500
-
-Modified: 2022-12-06 21:29:24 +0500
-
 ---
 
 [Index Investing Options In India:](https://www.youtube.com/watch?v=IIV1Xt_rB3Y)

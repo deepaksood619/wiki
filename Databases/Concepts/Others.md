@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-02-24 21:44:07 +0500
-
-Modified: 2022-01-10 16:33:38 +0500
-
 ---
 
 ## Datastructures > Others > Database Index

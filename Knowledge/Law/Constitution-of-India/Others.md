@@ -1,9 +1,5 @@
 # Others
 
-Created: 2021-07-12 00:08:34 +0500
-
-Modified: 2021-07-12 00:45:28 +0500
-
 ---
 
 ## 9 Dec 1946 - Started writing

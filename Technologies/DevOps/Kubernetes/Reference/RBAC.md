@@ -1,9 +1,5 @@
 # RBAC
 
-Created: 2019-09-22 14:38:23 +0500
-
-Modified: 2020-09-14 10:29:16 +0500
-
 ---
 
 ![image](../../../media/DevOps-Kubernetes-RBAC-image1.png)

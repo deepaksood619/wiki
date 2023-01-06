@@ -1,9 +1,5 @@
 # Development Approaches
 
-Created: 2018-05-01 20:28:03 +0500
-
-Modified: 2022-09-29 00:05:52 +0500
-
 ---
 
 Asshole Driven development (ADD) - Any team where the biggest jerk makes all the big decisions is asshole driven development. All wisdom, logic or process goes out the window when Mr. Asshole is in the room, doing whatever idiotic, selfish thing he thinks is best. There may rules and processes, but Mr. A breaks them and people follow anyway.

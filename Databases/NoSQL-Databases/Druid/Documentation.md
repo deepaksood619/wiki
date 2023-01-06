@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2019-02-06 16:16:54 +0500
-
-Modified: 2019-02-06 16:19:45 +0500
-
 ---
 
 Getting Started

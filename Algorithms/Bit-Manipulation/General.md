@@ -1,9 +1,5 @@
 # General
 
-Created: 2017-09-12 19:46:04 +0500
-
-Modified: 2020-09-05 23:49:55 +0500
-
 ---
 
 Bitwise Operators ( a = 60, b = 13)

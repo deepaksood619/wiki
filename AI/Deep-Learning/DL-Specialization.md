@@ -1,9 +1,5 @@
 # DL Specialization
 
-Created: 2021-01-02 23:11:13 +0500
-
-Modified: 2021-03-26 23:20:21 +0500
-
 ---
 
 [**https://www.coursera.org/specializations/deep-learning**](https://www.coursera.org/specializations/deep-learning)

@@ -1,9 +1,5 @@
 # Others - Distributed Systems
 
-Created: 2018-10-23 14:20:50 +0500
-
-Modified: 2020-07-16 13:12:43 +0500
-
 ---
 
 ## Orbit

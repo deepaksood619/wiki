@@ -1,9 +1,5 @@
 # Run Length Encoding
 
-Created: 2018-05-29 13:10:46 +0500
-
-Modified: 2021-10-28 21:15:06 +0500
-
 ---
 
 ![image](media/Run-Length-Encoding-image1.jpeg)

@@ -1,9 +1,5 @@
 # Plants / Gardening
 
-Created: 2022-11-13 02:15:20 +0500
-
-Modified: 2022-11-14 21:45:03 +0500
-
 ---
 
 Aloe vera, English ivy air purifying plants

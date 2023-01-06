@@ -1,9 +1,5 @@
 # Kafka Connect
 
-Created: 2018-10-13 11:25:30 +0500
-
-Modified: 2019-06-11 22:03:28 +0500
-
 ---
 
 ## Kafka Connect (Definitive Guide)

@@ -1,9 +1,5 @@
 # React DOM
 
-Created: 2021-11-16 21:17:02 +0500
-
-Modified: 2021-11-16 21:20:18 +0500
-
 ---
 
 ## What is DOM?

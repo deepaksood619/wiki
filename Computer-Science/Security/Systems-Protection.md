@@ -1,9 +1,5 @@
 # Systems Protection
 
-Created: 2018-04-27 00:13:49 +0500
-
-Modified: 2021-04-13 14:28:08 +0500
-
 ---
 
 Protection against Buffer Overflow attacks / Stash smashing attacks

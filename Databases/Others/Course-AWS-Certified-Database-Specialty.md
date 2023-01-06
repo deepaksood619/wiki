@@ -1,9 +1,5 @@
 # Course - AWS Certified Database - Specialty
 
-Created: 2020-03-11 18:00:26 +0500
-
-Modified: 2022-12-10 22:04:10 +0500
-
 ---
 
 1. Workload-specific database design

@@ -1,9 +1,5 @@
 # Combinatorial Optimization
 
-Created: 2019-01-21 22:56:23 +0500
-
-Modified: 2019-06-26 23:48:59 +0500
-
 ---
 
 In [Operations Research](https://en.wikipedia.org/wiki/Operations_Research), [applied mathematics](https://en.wikipedia.org/wiki/Applied_mathematics) and [theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science), combinatorial optimizationis a topic that consists of finding an optimal object from a [finite set](https://en.wikipedia.org/wiki/Finite_set) of objects.In many such problems, [exhaustive search](https://en.wikipedia.org/wiki/Exhaustive_search) is not tractable. It operates on the domain of those optimization problems, in which the set of [feasible solutions](https://en.wikipedia.org/wiki/Candidate_solution) is [discrete](https://en.wikipedia.org/wiki/Discrete_set) or can be reduced to discrete, and in which the goal is to find the best solution. Some common problems involving combinatorial optimization are the [travelling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem)("TSP") and the [minimum spanning tree problem](https://en.wikipedia.org/wiki/Minimum_spanning_tree)("MST").

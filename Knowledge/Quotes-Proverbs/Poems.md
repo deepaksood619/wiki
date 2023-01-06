@@ -1,9 +1,5 @@
 # Poems
 
-Created: 2019-01-28 21:58:00 +0500
-
-Modified: 2020-12-07 00:29:46 +0500
-
 ---
 
 ## The Cookie Thief by Valerie Cox

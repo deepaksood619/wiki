@@ -1,9 +1,5 @@
 # Essence of Calculus - 3Blue1Brown
 
-Created: 2018-05-28 16:14:32 +0500
-
-Modified: 2021-03-27 01:05:55 +0500
-
 ---
 
 1. Introduction

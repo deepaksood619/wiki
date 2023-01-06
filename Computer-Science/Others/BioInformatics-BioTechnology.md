@@ -1,9 +1,5 @@
 # BioInformatics/BioTechnology
 
-Created: 2018-08-09 00:57:24 +0500
-
-Modified: 2021-12-13 15:08:42 +0500
-
 ---
 
 ## PDB - Protein Data Bank

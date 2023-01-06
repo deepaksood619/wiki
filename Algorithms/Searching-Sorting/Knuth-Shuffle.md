@@ -1,9 +1,5 @@
 # Knuth Shuffle
 
-Created: 2018-05-11 23:59:37 +0500
-
-Modified: 2018-05-12 00:00:11 +0500
-
 ---
 
 ## Knuth Shuffle

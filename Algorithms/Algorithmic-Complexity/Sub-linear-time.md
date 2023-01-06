@@ -1,9 +1,5 @@
 # Sub-linear time
 
-Created: 2018-02-04 19:41:51 +0500
-
-Modified: 2018-03-21 23:51:30 +0500
-
 ---
 
 An algorithm is said to run in**sub-linear time**(often spelled**sublinear time**) if*T*(*n*) = o(*n*) (small oh)

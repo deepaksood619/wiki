@@ -1,9 +1,5 @@
 # Optimizations
 
-Created: 2020-07-08 20:19:19 +0500
-
-Modified: 2020-07-08 20:26:01 +0500
-
 ---
 
 ## Reserving Resources For The System and Kubelet

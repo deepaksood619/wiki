@@ -1,9 +1,5 @@
 # InfluxDB
 
-Created: 2018-05-18 14:46:16 +0500
-
-Modified: 2020-01-17 19:40:33 +0500
-
 ---
 
 Tag sets are indexed, field sets are not. InfluxDB's speed is based on the fact that tag sets are stored in-memory, whereas the field sets are stored on-disk.

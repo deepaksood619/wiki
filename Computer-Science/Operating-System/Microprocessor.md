@@ -1,9 +1,5 @@
 # Microprocessor
 
-Created: 2018-12-08 19:27:10 +0500
-
-Modified: 2021-06-06 16:49:19 +0500
-
 ---
 
 ## Course - NPTEL - IIT-Guwahati, by Dr. John Jose

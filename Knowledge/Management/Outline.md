@@ -1,9 +1,5 @@
 # Outline
 
-Created: 2019-03-23 20:09:32 +0500
-
-Modified: 2022-04-05 00:25:40 +0500
-
 ---
 
 ## Management Basics

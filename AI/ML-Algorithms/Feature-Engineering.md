@@ -1,9 +1,5 @@
 # Feature Engineering
 
-Created: 2018-07-06 02:56:35 +0500
-
-Modified: 2021-06-19 14:21:55 +0500
-
 ---
 
 - Scale to large datasets

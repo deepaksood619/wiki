@@ -1,9 +1,5 @@
 # Descriptive Statistics
 
-Created: 2021-09-15 23:20:16 +0500
-
-Modified: 2021-10-04 22:38:47 +0500
-
 ---
 
 Levels of measurement

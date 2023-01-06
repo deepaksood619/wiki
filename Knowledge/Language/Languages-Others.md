@@ -1,9 +1,5 @@
 # Languages Others
 
-Created: 2019-12-29 14:18:53 +0500
-
-Modified: 2021-10-17 20:06:10 +0500
-
 ---
 
 It is tradition for Sherpa to name their children after the day of the week on which they were born.

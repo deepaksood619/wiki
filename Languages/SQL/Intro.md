@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-03-13 11:09:49 +0500
-
-Modified: 2021-11-29 20:06:48 +0500
-
 ---
 
 SQL, 'Structured Query Language', is a programming language designed to manage data stored in relational databases. SQL operates through simple, declarative statements. This keeps data accurate and secure, and helps maintain the integrity of databases, regardless of size.

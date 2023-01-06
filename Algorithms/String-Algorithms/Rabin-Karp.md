@@ -1,9 +1,5 @@
 # Rabin Karp
 
-Created: 2018-12-23 22:44:57 +0500
-
-Modified: 2018-12-23 22:45:07 +0500
-
 ---
 
 ![image](media/Rabin-Karp-image1.png)

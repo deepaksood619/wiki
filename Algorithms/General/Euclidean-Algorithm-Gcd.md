@@ -1,9 +1,5 @@
 # Euclidean Algorithm - Gcd
 
-Created: 2018-01-31 10:30:48 +0500
-
-Modified: 2018-05-11 23:47:01 +0500
-
 ---
 
 ## Synonyms

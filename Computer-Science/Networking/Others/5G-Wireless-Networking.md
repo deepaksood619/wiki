@@ -1,9 +1,5 @@
 # 5G Wireless Networking
 
-Created: 2019-04-07 08:35:22 +0500
-
-Modified: 2019-04-07 08:48:53 +0500
-
 ---
 
 ## Wireless Network Design

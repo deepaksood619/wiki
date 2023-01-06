@@ -1,9 +1,5 @@
 # GraphQL
 
-Created: 2018-06-19 18:21:26 +0500
-
-Modified: 2021-12-31 13:16:53 +0500
-
 ---
 
 GraphQL will do to REST what JSON did to XML.

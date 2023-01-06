@@ -1,9 +1,5 @@
 # (1) Linux General / Unix / Linux Commands
 
-Created: 2018-05-03 22:39:47 +0500
-
-Modified: 2022-10-14 15:19:26 +0500
-
 ---
 
 ## Display

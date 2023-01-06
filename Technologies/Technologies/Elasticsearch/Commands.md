@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2019-04-18 22:19:14 +0500
-
-Modified: 2021-08-29 16:14:36 +0500
-
 ---
 
 List indices

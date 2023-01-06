@@ -1,9 +1,5 @@
 # Constructor
 
-Created: 2018-07-17 23:22:52 +0500
-
-Modified: 2018-07-17 23:24:00 +0500
-
 ---
 
 1. Default Constructor

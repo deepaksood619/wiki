@@ -1,9 +1,5 @@
 # Consensus Protocols
 
-Created: 2019-06-24 06:31:57 +0500
-
-Modified: 2022-03-09 22:19:23 +0500
-
 ---
 
 There are a number of ways we can go about replicating the log data. Broadly speaking, we can group the techniques into two different categories:

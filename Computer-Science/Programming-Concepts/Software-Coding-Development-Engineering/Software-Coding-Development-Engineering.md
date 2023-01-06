@@ -1,9 +1,5 @@
 # Software/Coding / Development/Engineering
 
-Created: 2018-05-01 20:28:03 +0500
-
-Modified: 2022-09-29 00:05:52 +0500
-
 ---
 
 - **Learning and Discovery -** Iteration, Feedback, Incrementalism, Experimentation and Empiricism

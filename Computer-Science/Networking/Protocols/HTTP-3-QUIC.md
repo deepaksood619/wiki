@@ -1,9 +1,5 @@
 # HTTP/3 QUIC
 
-Created: 2019-10-06 13:58:23 +0500
-
-Modified: 2019-11-06 00:21:35 +0500
-
 ---
 
 QUIC - Quick UDP Internet Connections

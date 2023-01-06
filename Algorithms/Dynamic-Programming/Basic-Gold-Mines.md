@@ -1,9 +1,5 @@
 # Basic Gold Mines
 
-Created: 2018-02-15 00:45:42 +0500
-
-Modified: 2018-02-16 12:58:12 +0500
-
 ---
 
 <https://www.hackerearth.com/practice/algorithms/dynamic-programming/2-dimensional/practice-problems/algorithm/gold-mines-10>

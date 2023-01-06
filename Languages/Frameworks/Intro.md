@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-04-01 21:39:04 +0500
-
-Modified: 2021-06-06 16:39:53 +0500
-
 ---
 
 ## Web Framework

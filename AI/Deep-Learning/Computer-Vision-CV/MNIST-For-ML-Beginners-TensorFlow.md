@@ -1,9 +1,5 @@
 # MNIST For ML Beginners | TensorFlow
 
-Created: 2017-11-23 00:18:26 +0500
-
-Modified: 2021-06-13 20:10:55 +0500
-
 ---
 
 When one learns how to program, there's a tradition that the first thing you do is print "Hello World." Just like programming has Hello World, machine learning has MNIST.

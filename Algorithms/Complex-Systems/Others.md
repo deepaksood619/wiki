@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-08-15 22:51:06 +0500
-
-Modified: 2022-01-02 22:48:42 +0500
-
 ---
 
 ## Braess's Paradox

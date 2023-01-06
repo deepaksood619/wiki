@@ -1,9 +1,5 @@
 # Product - Terms - Tools
 
-Created: 2021-11-26 12:38:02 +0500
-
-Modified: 2022-03-12 23:20:00 +0500
-
 ---
 
 ## Ecommerce

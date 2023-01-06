@@ -1,9 +1,5 @@
 # Evaluation
 
-Created: 2019-04-01 20:38:04 +0500
-
-Modified: 2021-10-08 22:06:13 +0500
-
 ---
 
 - Generalization and overfitting

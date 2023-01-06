@@ -1,9 +1,5 @@
 # Promises
 
-Created: 2017-10-11 04:16:50 +0500
-
-Modified: 2021-11-29 13:57:45 +0500
-
 ---
 
 1. Is single threaded

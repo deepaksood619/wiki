@@ -1,9 +1,5 @@
 # Q-Learning Algorithms
 
-Created: 2018-09-15 10:26:27 +0500
-
-Modified: 2018-10-03 23:08:32 +0500
-
 ---
 
 Q-Learning algorithms are a family of Reinforcement Learning algorithms.

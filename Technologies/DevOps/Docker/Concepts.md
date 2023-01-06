@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2018-12-12 12:48:28 +0500
-
-Modified: 2020-05-18 01:45:06 +0500
-
 ---
 
 ## Namespaces

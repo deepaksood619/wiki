@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-08-18 02:25:04 +0500
-
-Modified: 2020-08-18 02:27:19 +0500
-
 ---
 
 ## Resource Estimation/Capacity Planning

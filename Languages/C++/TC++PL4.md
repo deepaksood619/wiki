@@ -1,9 +1,5 @@
 # TC++PL4
 
-Created: 2019-07-22 22:48:43 +0500
-
-Modified: 2019-08-12 22:10:47 +0500
-
 ---
 
 ## Part I: Introductory Material

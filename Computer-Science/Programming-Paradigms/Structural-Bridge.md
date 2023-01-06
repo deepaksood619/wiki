@@ -1,9 +1,5 @@
 # Structural - Bridge
 
-Created: 2018-08-20 16:24:26 +0500
-
-Modified: 2018-08-20 16:37:33 +0500
-
 ---
 
 ## Bridgeis a structural design pattern that divides one or more classes into two separate hierarchies - abstraction and implementation, allowing them to be changed independently of each other

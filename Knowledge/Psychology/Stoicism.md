@@ -1,9 +1,5 @@
 # Stoicism
 
-Created: 2019-04-22 20:29:50 +0500
-
-Modified: 2022-04-09 18:34:42 +0500
-
 ---
 
 ## Blinkist - How to be a Stoic by Massimo Pigliucci (29 Aug 2018)

@@ -1,9 +1,5 @@
 # Forward Error Correction
 
-Created: 2019-12-07 23:08:13 +0500
-
-Modified: 2021-07-30 23:47:50 +0500
-
 ---
 
 ## Error Detection and Correction Codes

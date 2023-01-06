@@ -1,9 +1,5 @@
 # Tags
 
-Created: 2018-03-26 15:16:34 +0500
-
-Modified: 2021-11-14 09:59:25 +0500
-
 ---
 
 ## Semantic Elements in HTML5

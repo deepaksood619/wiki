@@ -1,9 +1,5 @@
 # Concurrency Models - Async
 
-Created: 2018-10-13 10:42:25 +0500
-
-Modified: 2018-12-19 00:10:10 +0500
-
 ---
 
 ## Single-threaded synchronous model

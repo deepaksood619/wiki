@@ -1,9 +1,5 @@
 # Datasets
 
-Created: 2021-06-14 19:41:34 +0500
-
-Modified: 2021-06-14 19:41:37 +0500
-
 ---
 
 <https://www.kaggle.com/dalpozz/creditcardfraud>

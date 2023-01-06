@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-01-26 13:53:05 +0500
-
-Modified: 2021-01-05 20:36:05 +0500
-
 ---
 
 <https://en.wikipedia.org/wiki/Math_Kernel_Library>

@@ -1,9 +1,5 @@
 # Helpers / Functions
 
-Created: 2020-02-09 13:11:29 +0500
-
-Modified: 2020-09-04 00:36:07 +0500
-
 ---
 
 As the name suggests, it will help you build your system. It is divided into small functions to serve different functionality. A number of helpers are available in CodeIgniter, which are listed in the table below. We can build our own helpers too.

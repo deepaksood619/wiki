@@ -1,9 +1,5 @@
 # MVCC, MultiVersion Concurrency Control
 
-Created: 2019-06-26 23:35:49 +0500
-
-Modified: 2021-07-26 16:55:00 +0500
-
 ---
 
 The DBMS maintans physical versions of a single logical object in the database:

@@ -1,9 +1,5 @@
 # OpenID
 
-Created: 2020-06-20 00:07:35 +0500
-
-Modified: 2020-06-20 15:32:03 +0500
-
 ---
 
 OpenIdis HTTP based protocol that uses identity provider to validate a user. The user password is secured with one identity provider, this allows other service providers a way to achieve Single SignOn(SSO) without requiring password from user. There are many OpenId enabled account on the internet and organizations such as Google, Facebook, Wordpress, Yahoo, PayPal etc., uses OpenId to authenticate users. The latest version of OpenId is OpenId Connect (OIDC), which provides OpenId(authentication) on top of OAuth 2.0 (authorization) for complete security solution.

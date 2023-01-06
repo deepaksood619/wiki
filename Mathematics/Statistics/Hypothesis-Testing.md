@@ -1,9 +1,5 @@
 # Hypothesis Testing
 
-Created: 2021-09-15 23:22:40 +0500
-
-Modified: 2021-09-15 23:57:09 +0500
-
 ---
 
 Null vs Alternative

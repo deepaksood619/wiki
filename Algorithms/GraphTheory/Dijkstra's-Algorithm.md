@@ -1,9 +1,5 @@
 # Dijkstra's Algorithm
 
-Created: 2018-03-11 13:53:49 +0500
-
-Modified: 2019-12-12 00:07:19 +0500
-
 ---
 
 ## Properties

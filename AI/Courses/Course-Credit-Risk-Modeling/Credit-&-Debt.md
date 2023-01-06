@@ -1,9 +1,5 @@
 # Credit & Debt
 
-Created: 2020-02-14 13:24:27 +0500
-
-Modified: 2021-11-01 23:44:31 +0500
-
 ---
 
 ## Credit Risk

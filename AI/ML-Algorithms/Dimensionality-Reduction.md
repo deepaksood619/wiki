@@ -1,9 +1,5 @@
 # Dimensionality Reduction
 
-Created: 2021-06-19 15:19:58 +0500
-
-Modified: 2021-09-28 22:23:17 +0500
-
 ---
 
 ## Dimensionality Reduction

@@ -1,9 +1,5 @@
 # Monte Carlo Simulation
 
-Created: 2018-06-22 20:17:46 +0500
-
-Modified: 2021-10-20 20:46:20 +0500
-
 ---
 
 Monte Carlo simulation(also known as the Monte Carlo Method) lets you see all the possible outcomes of your decisions and assess the impact of risk, allowing for better decision making under uncertainty.

@@ -1,9 +1,5 @@
 # AWK
 
-Created: 2018-09-24 13:16:54 +0500
-
-Modified: 2020-05-11 17:55:32 +0500
-
 ---
 
 ## man awk - pattern-directed scanning and processing language

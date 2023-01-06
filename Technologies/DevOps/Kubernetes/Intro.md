@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-03-17 10:58:05 +0500
-
-Modified: 2022-02-05 01:05:44 +0500
-
 ---
 
 ## One liner - Kubernetes/Mesos - software tools to manage and coordinate containers

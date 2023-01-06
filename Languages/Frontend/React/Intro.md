@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2019-02-27 22:29:38 +0500
-
-Modified: 2022-11-28 16:07:03 +0500
-
 ---
 
 ![image](media/Intro-image1.png)

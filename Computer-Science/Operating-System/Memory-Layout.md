@@ -1,9 +1,5 @@
 # Memory Layout
 
-Created: 2019-07-14 17:07:02 +0500
-
-Modified: 2019-12-02 13:29:28 +0500
-
 ---
 
 A typical memory representation of C program consists of following sections.

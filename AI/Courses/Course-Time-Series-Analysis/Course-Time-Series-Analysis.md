@@ -1,9 +1,5 @@
 # Course - Time Series Analysis
 
-Created: 2020-04-05 01:34:21 +0500
-
-Modified: 2022-01-30 23:28:21 +0500
-
 ---
 
 <https://365datascience.teachable.com/p/time-series-analysis-in-python>

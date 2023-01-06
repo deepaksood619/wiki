@@ -1,9 +1,5 @@
 # Fibonacci Heap
 
-Created: 2018-03-11 16:58:21 +0500
-
-Modified: 2018-03-11 22:33:55 +0500
-
 ---
 
 ## Key Points

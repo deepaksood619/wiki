@@ -1,9 +1,5 @@
 # Comparision
 
-Created: 2021-03-26 00:25:30 +0500
-
-Modified: 2021-03-26 00:25:32 +0500
-
 ---
 
 ## Python vs Nodejs

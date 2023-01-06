@@ -1,9 +1,5 @@
 # DNS Domain Name System
 
-Created: 2019-11-13 21:43:58 +0500
-
-Modified: 2022-03-08 21:55:31 +0500
-
 ---
 
 <https://dnschecker.org>

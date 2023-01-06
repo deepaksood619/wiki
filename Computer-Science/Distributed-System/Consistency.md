@@ -1,9 +1,5 @@
 # Consistency
 
-Created: 2018-07-05 17:05:50 +0500
-
-Modified: 2019-12-31 21:33:04 +0500
-
 ---
 
 When we're talking about *consistency* in distributed systems, we are referring to the concept that you will have some data distributed in different nodes of your system, and each one of those might have a copy of your data. If it's a read-only dataset, any client connecting to any of the nodes will always receive the same data, so there is no consistency problem. When it comes to read-write datasets, some conflicts can arise. Each one of the nodes can update its own copy of the data, so if a client connects to different nodes in your system, it might receive different values for the same data.

@@ -1,9 +1,5 @@
 # Addressing Methods / cast protocols
 
-Created: 2018-12-11 12:37:01 +0500
-
-Modified: 2021-06-08 00:30:14 +0500
-
 ---
 
 The **cast** term here signifies some data(stream of packets) is being transmitted to the recipient(s) from client(s) side over the communication channel that help them to communicate. Let's see some of the "cast" concepts that are prevailing in the computer networks field.

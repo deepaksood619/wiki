@@ -1,9 +1,5 @@
 # Data Structures
 
-Created: 2018-05-20 17:40:28 +0500
-
-Modified: 2020-03-28 16:55:43 +0500
-
 ---
 
 *class* pandas. **DataFrame** (*data=None*,*index=None*, *columns=None*, *dtype=None*, *copy=False*)

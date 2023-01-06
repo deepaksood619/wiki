@@ -1,9 +1,5 @@
 # Binary Tree
 
-Created: 2018-02-03 17:31:27 +0500
-
-Modified: 2021-11-07 20:59:16 +0500
-
 ---
 
 ## Properties

@@ -1,9 +1,5 @@
 # Chatbot / chatops
 
-Created: 2022-01-14 23:47:57 +0500
-
-Modified: 2022-10-21 22:38:45 +0500
-
 ---
 
 <https://www.freecodecamp.org/news/how-to-build-an-ai-chatbot-with-redis-python-and-gpt>

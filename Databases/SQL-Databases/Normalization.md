@@ -1,9 +1,5 @@
 # Normalization
 
-Created: 2020-01-27 19:22:52 +0500
-
-Modified: 2021-04-27 23:59:44 +0500
-
 ---
 
 - Normalization is the process of organizing the data in the database.

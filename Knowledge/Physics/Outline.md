@@ -1,9 +1,5 @@
 # Outline
 
-Created: 2018-11-14 00:30:49 +0500
-
-Modified: 2022-03-12 13:26:08 +0500
-
 ---
 
 - [Acoustics](https://en.wikipedia.org/wiki/Acoustics)

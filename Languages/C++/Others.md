@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-07-31 19:56:28 +0500
-
-Modified: 2019-08-06 22:59:33 +0500
-
 ---
 
 ## RAII (Resource Acquisition Is Initialization)

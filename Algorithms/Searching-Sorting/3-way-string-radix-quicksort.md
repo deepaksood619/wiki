@@ -1,9 +1,5 @@
 # 3-way string radix quicksort
 
-Created: 2018-04-10 22:16:48 +0500
-
-Modified: 2018-04-10 22:17:36 +0500
-
 ---
 
 ![image](media/3-way-string-radix-quicksort-image1.png)

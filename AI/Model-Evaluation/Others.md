@@ -1,9 +1,5 @@
 # Others
 
-Created: 2021-06-14 19:23:38 +0500
-
-Modified: 2021-08-26 23:07:03 +0500
-
 ---
 
 ## K-S Model Evaluation

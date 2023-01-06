@@ -1,9 +1,5 @@
 # System Design - Twitter
 
-Created: 2018-04-25 18:50:48 +0500
-
-Modified: 2022-03-01 17:10:45 +0500
-
 ---
 
 [System Design: How to design Twitter? Interview question at Facebook, Google, Microsoft](https://www.youtube.com/watch?v=KmAyPUv9gOY)

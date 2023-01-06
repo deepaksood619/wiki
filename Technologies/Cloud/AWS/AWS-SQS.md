@@ -1,9 +1,5 @@
 # AWS SQS
 
-Created: 2020-10-26 19:56:56 +0500
-
-Modified: 2020-10-29 21:58:29 +0500
-
 ---
 
 Managed Message Queues

@@ -1,9 +1,5 @@
 # Data Preprocessing
 
-Created: 2021-06-19 14:00:22 +0500
-
-Modified: 2021-10-02 14:33:44 +0500
-
 ---
 
 ## Data Quality

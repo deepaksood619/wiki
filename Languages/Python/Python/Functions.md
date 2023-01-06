@@ -1,9 +1,5 @@
 # Functions
 
-Created: 2018-03-12 19:12:13 +0500
-
-Modified: 2018-04-18 12:34:23 +0500
-
 ---
 
 Functions are named blocks of code, designed to do one specific job.

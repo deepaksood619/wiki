@@ -1,9 +1,5 @@
 # Elementary Symbol Tables
 
-Created: 2018-05-12 19:55:30 +0500
-
-Modified: 2018-12-23 22:42:43 +0500
-
 ---
 
 ## Symbol Tables (Associative Arrays, Maps and Dictionaries)

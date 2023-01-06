@@ -1,9 +1,5 @@
 # ORM
 
-Created: 2022-03-15 00:05:13 +0500
-
-Modified: 2022-03-15 00:05:20 +0500
-
 ---
 
 ## ORM (Object Relational Mapper)

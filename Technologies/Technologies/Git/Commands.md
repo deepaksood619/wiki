@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2017-11-06 11:42:36 +0500
-
-Modified: 2022-10-20 00:10:40 +0500
-
 ---
 
 ## Shortcuts

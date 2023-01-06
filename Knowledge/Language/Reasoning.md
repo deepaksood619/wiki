@@ -1,9 +1,5 @@
 # Reasoning
 
-Created: 2019-04-23 23:58:38 +0500
-
-Modified: 2022-10-17 23:30:42 +0500
-
 ---
 
 [Reason](https://en.wikipedia.org/wiki/Reasoning) is the capacity for [consciously](https://en.wikipedia.org/wiki/Consciousness) making sense of things, applying [logic](https://en.wikipedia.org/wiki/Logic), for establishing and verifying [facts](https://en.wikipedia.org/wiki/Fact), and changing or justifying practices, institutions, and [beliefs](https://en.wikipedia.org/wiki/Beliefs) based on new or existing information. It is closely associated with such characteristically [human](https://en.wikipedia.org/wiki/Human) activities as [philosophy](https://en.wikipedia.org/wiki/Philosophy), [science](https://en.wikipedia.org/wiki/Science), [language](https://en.wikipedia.org/wiki/Language), [mathematics](https://en.wikipedia.org/wiki/Mathematics), and [art](https://en.wikipedia.org/wiki/Art), and is normally considered to be a definitive characteristic of [human nature](https://en.wikipedia.org/wiki/Human_nature).

@@ -1,9 +1,5 @@
 # Commands & Configs
 
-Created: 2019-12-27 12:05:18 +0500
-
-Modified: 2019-12-28 23:49:10 +0500
-
 ---
 
 ## Telegraf

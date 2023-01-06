@@ -1,9 +1,5 @@
 # Commands / Tools
 
-Created: 2021-08-08 22:24:52 +0500
-
-Modified: 2022-03-10 22:53:17 +0500
-
 ---
 
 ```bash

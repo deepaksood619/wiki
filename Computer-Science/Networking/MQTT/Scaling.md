@@ -1,9 +1,5 @@
 # Scaling
 
-Created: 2019-03-12 23:48:02 +0500
-
-Modified: 2019-04-06 16:21:12 +0500
-
 ---
 
 In a brokered architecture it's critical to avoid a single point of failure and to think about scaling out, since typically only one broker node is used. In the context of MQTT there are two different popular strategies applicable:

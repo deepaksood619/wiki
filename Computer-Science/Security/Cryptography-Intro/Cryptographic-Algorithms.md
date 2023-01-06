@@ -1,9 +1,5 @@
 # Cryptographic Algorithms
 
-Created: 2018-04-26 23:57:41 +0500
-
-Modified: 2022-02-16 18:25:11 +0500
-
 ---
 
 ## Stream Ciphers (OTP)

@@ -1,9 +1,5 @@
 # Aggregation / Analytical Queries / SQL Analytics
 
-Created: 2021-04-29 11:05:40 +0500
-
-Modified: 2022-08-16 15:42:02 +0500
-
 ---
 
 ## Aggregate functions perform calculations based on sets of rows

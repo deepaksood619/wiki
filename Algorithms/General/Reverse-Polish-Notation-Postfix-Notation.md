@@ -1,9 +1,5 @@
 # Reverse Polish Notation / Postfix Notation
 
-Created: 2018-02-11 17:32:16 +0500
-
-Modified: 2018-02-11 17:36:03 +0500
-
 ---
 
 Infix - (2+5)*3

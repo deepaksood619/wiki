@@ -1,9 +1,5 @@
 # System Design - TinyURL
 
-Created: 2018-04-17 20:09:23 +0500
-
-Modified: 2021-10-01 22:15:00 +0500
-
 ---
 
 [System Design : Design a service like TinyUrl](https://www.youtube.com/watch?v=fMZMm_0ZhK4)

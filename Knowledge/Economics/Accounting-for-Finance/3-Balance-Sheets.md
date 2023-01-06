@@ -1,9 +1,5 @@
 # 3 Balance Sheets
 
-Created: 2020-09-06 02:20:23 +0500
-
-Modified: 2021-12-22 21:22:08 +0500
-
 ---
 
 ## Balance Sheets - Assets Owned & Money Owed

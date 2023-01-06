@@ -1,9 +1,5 @@
 # Deployment and Installation
 
-Created: 2018-12-09 23:20:40 +0500
-
-Modified: 2018-12-10 12:00:18 +0500
-
 ---
 
 ![image](../../../media/Technologies-Brokers-Deployment-and-Installation-image1.png)

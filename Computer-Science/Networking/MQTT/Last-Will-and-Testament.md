@@ -1,9 +1,5 @@
 # Last Will and Testament
 
-Created: 2019-03-12 22:53:14 +0500
-
-Modified: 2019-03-12 22:56:53 +0500
-
 ---
 
 Because MQTT is often used in scenarios that include unreliable networks, it's reasonable to assume that some of the MQTT clients in these scenarios will occasionally disconnect ungracefully. An ungraceful disconnect can occur due to loss of connection, empty batteries, or many other reasons. Knowing whether a client disconnected gracefully (with an MQTTDISCONNECTmessage) or ungracefully (without a disconnect message), helps you respond correctly. The Last Will and Testament feature provides a way for clients to respond to ungraceful disconnects in an appropriate way.

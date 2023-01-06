@@ -1,9 +1,5 @@
 # REST Representational State Transfer / RESTFul
 
-Created: 2018-02-10 12:21:12 +0500
-
-Modified: 2022-02-05 00:20:48 +0500
-
 ---
 
 REST + JSON over HTTP

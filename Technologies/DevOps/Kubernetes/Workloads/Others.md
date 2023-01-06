@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-04-05 12:48:01 +0500
-
-Modified: 2019-04-05 12:50:07 +0500
-
 ---
 
 ## Disruptions

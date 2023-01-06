@@ -1,9 +1,5 @@
 # Types of Databases
 
-Created: 2018-04-01 23:05:17 +0500
-
-Modified: 2022-04-23 00:53:12 +0500
-
 ---
 
 ## Types of databases

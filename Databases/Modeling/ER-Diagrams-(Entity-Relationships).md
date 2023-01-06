@@ -1,9 +1,5 @@
 # ER Diagrams (Entity Relationships)
 
-Created: 2020-02-04 17:41:30 +0500
-
-Modified: 2021-12-02 23:32:42 +0500
-
 ---
 
 An**entity--relationship model**(or**ER model**) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between [entities](https://en.wiktionary.org/wiki/entity)(instances of those entity types).

@@ -1,9 +1,5 @@
 # Databases - Others
 
-Created: 2018-08-31 18:45:14 +0500
-
-Modified: 2022-12-11 13:53:23 +0500
-
 ---
 
 ## Flat file database

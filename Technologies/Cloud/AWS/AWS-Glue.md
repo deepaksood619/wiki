@@ -1,9 +1,5 @@
 # AWS Glue
 
-Created: 2020-02-21 18:22:57 +0500
-
-Modified: 2020-03-17 16:53:06 +0500
-
 ---
 
 Simple, flexible, and cost-effective ETL

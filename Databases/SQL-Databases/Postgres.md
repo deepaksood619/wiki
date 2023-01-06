@@ -1,9 +1,5 @@
 # Postgres
 
-Created: 2018-12-15 00:10:32 +0500
-
-Modified: 2022-03-12 12:05:00 +0500
-
 ---
 
 ## Introduction

@@ -1,9 +1,5 @@
 # JIRA
 
-Created: 2020-09-24 09:48:34 +0500
-
-Modified: 2020-10-03 09:47:44 +0500
-
 ---
 
 ## Atlassian - JIRA Confluence Trello Bitbucket

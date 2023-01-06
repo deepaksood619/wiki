@@ -1,9 +1,5 @@
 # Digestive System
 
-Created: 2019-08-23 21:50:54 +0500
-
-Modified: 2022-10-30 23:38:07 +0500
-
 ---
 
 ## Metabolic chart of the Human Body

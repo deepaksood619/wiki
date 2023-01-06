@@ -1,9 +1,5 @@
 # Productivity / Productive / Time Management / TODO
 
-Created: 2020-04-21 23:28:38 +0500
-
-Modified: 2022-09-10 11:49:44 +0500
-
 ---
 
 <https://www.scotthyoung.com/blog/2020/10/26/foundation-practices>

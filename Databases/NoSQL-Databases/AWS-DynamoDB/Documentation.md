@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2020-02-17 11:04:04 +0500
-
-Modified: 2020-03-12 23:30:03 +0500
-
 ---
 
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html>

@@ -1,9 +1,5 @@
 # 4A: Cash Flow Statement Comparisions
 
-Created: 2020-09-06 14:23:19 +0500
-
-Modified: 2022-01-23 19:59:57 +0500
-
 ---
 
 ## Cash Flows: A Life Cycle Perspective

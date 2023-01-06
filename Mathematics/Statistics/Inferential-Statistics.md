@@ -1,9 +1,5 @@
 # Inferential Statistics
 
-Created: 2021-09-15 23:20:49 +0500
-
-Modified: 2021-09-15 23:42:48 +0500
-
 ---
 
 Introduction

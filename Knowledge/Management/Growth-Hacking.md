@@ -1,9 +1,5 @@
 # Growth Hacking
 
-Created: 2021-05-26 23:31:07 +0500
-
-Modified: 2022-03-30 20:12:58 +0500
-
 ---
 
 A growth hacker is not a replacement for a marketer. A growth hacker is not better than marketer. A growth hacker is just different than a marketer. To use the most succinct definition from Sean's post,"A growth hacker is a person whose true north is growth."

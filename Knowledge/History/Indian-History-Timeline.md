@@ -1,9 +1,5 @@
 # Indian History Timeline
 
-Created: 2019-12-28 01:29:20 +0500
-
-Modified: 2022-11-30 13:28:49 +0500
-
 ---
 
 ## Books

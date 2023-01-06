@@ -1,9 +1,5 @@
 # Internal Working
 
-Created: 2019-04-19 16:27:41 +0500
-
-Modified: 2021-08-29 16:13:14 +0500
-
 ---
 
 Here is the sequenceof steps necessary to successfully create, index, or delete a document on both the primary and any replica shards:

@@ -1,9 +1,5 @@
 # System Design - Autocomplete or TypeAhead
 
-Created: 2018-04-24 19:12:46 +0500
-
-Modified: 2021-12-04 17:36:03 +0500
-
 ---
 
 [System design : Design Autocomplete or Typeahead Suggestions for Google search](https://www.youtube.com/watch?v=us0qySiUsGU)

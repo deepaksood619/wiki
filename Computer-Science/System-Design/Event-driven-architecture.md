@@ -1,9 +1,5 @@
 # Event driven architecture
 
-Created: 2018-06-09 22:08:20 +0500
-
-Modified: 2022-07-22 17:23:27 +0500
-
 ---
 
 ## Event Driven Architecture / Event Sourcing

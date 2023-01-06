@@ -1,9 +1,5 @@
 # Bitcoin / Cryptocurrency / Web3
 
-Created: 2019-04-07 09:57:52 +0500
-
-Modified: 2022-08-06 12:17:15 +0500
-
 ---
 
 ## Web3

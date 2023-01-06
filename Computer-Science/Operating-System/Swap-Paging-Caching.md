@@ -1,9 +1,5 @@
 # Swap / Paging / Caching
 
-Created: 2018-03-29 13:05:32 +0500
-
-Modified: 2021-09-16 23:37:45 +0500
-
 ---
 
 ## Paging

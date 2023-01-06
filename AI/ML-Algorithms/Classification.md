@@ -1,9 +1,5 @@
 # Classification
 
-Created: 2018-06-26 23:06:31 +0500
-
-Modified: 2021-08-26 22:55:28 +0500
-
 ---
 
 <https://neptune.ml/blog/evaluation-metrics-binary-classification>

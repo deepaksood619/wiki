@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-05-29 11:13:48 +0500
-
-Modified: 2022-04-03 20:17:27 +0500
-
 ---
 
 Go language is a programming language initially developed at Google in the year 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a statically-typed language having syntax similar to that of C.

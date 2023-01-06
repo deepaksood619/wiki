@@ -1,9 +1,5 @@
 # Edge Computing
 
-Created: 2018-04-13 14:00:24 +0500
-
-Modified: 2020-04-10 22:53:52 +0500
-
 ---
 
 Edge computingis a method of optimizing [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) systems by performing data processing at the edge of the network, near the source of the data.

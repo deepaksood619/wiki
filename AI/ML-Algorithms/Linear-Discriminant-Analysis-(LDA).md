@@ -1,9 +1,5 @@
 # Linear Discriminant Analysis (LDA)
 
-Created: 2018-06-26 23:04:00 +0500
-
-Modified: 2018-07-12 11:09:10 +0500
-
 ---
 
 Hi, Logistic Regression is a classification algorithm traditionally limited to only two-class classification problems.

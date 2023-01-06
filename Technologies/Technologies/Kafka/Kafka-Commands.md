@@ -1,9 +1,5 @@
 # Kafka Commands
 
-Created: 2018-10-24 12:22:10 +0500
-
-Modified: 2020-07-14 20:32:06 +0500
-
 ---
 
 ## Configuration

@@ -1,9 +1,5 @@
 # Regularization
 
-Created: 2018-07-13 01:44:47 +0500
-
-Modified: 2021-07-05 09:41:19 +0500
-
 ---
 
 ## Regularization - Techniques used to generalize a model

@@ -1,9 +1,5 @@
 # MemSQL
 
-Created: 2020-04-26 00:31:37 +0500
-
-Modified: 2020-04-26 00:33:51 +0500
-
 ---
 
 MemSQLis a [distributed](https://en.wikipedia.org/wiki/Distributed_database), [in-memory](https://en.wikipedia.org/wiki/In-memory_database), [SQL](https://en.wikipedia.org/wiki/Structured_Query_Language)[database](https://en.wikipedia.org/wiki/Database) management system.

@@ -1,9 +1,5 @@
 # Quizzes
 
-Created: 2018-09-30 15:21:08 +0500
-
-Modified: 2018-09-30 15:31:01 +0500
-
 ---
 
 ![image](media/Quizzes-image1.png)

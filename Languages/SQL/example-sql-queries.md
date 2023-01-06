@@ -1,9 +1,5 @@
 # Example SQL Query
 
-Created: 2020-02-13 15:34:08 +0500
-
-Modified: 2022-11-19 18:47:56 +0500
-
 ---
 
 ```sql

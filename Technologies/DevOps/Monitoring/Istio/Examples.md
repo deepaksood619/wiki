@@ -1,9 +1,5 @@
 # Examples
 
-Created: 2019-12-13 16:27:03 +0500
-
-Modified: 2019-12-13 16:27:16 +0500
-
 ---
 
 apiVersion: networking.istio.io/v1alpha3

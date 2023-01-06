@@ -1,9 +1,5 @@
 # Complexity Zoo
 
-Created: 2018-04-22 19:51:56 +0500
-
-Modified: 2018-04-22 19:53:46 +0500
-
 ---
 
 ![image](media/Complexity-Zoo-image1.png)

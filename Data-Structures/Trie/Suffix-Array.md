@@ -1,9 +1,5 @@
 # Suffix Array
 
-Created: 2018-04-10 22:51:14 +0500
-
-Modified: 2021-06-12 09:00:01 +0500
-
 ---
 
 ## *A suffix array is a sorted array of all suffixes of a given string*. The definition is similar to [Suffix Tree which is compressed trie of all suffixes of the given text](https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/). Any suffix tree based algorithm can be replaced with an algorithm that uses a suffix array enhanced with additional information and solves the same problem in the same time complexity

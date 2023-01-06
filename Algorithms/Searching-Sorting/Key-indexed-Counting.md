@@ -1,9 +1,5 @@
 # Key-indexed Counting
 
-Created: 2018-03-26 23:18:45 +0500
-
-Modified: 2018-06-02 14:30:11 +0500
-
 ---
 
 ## Proporties

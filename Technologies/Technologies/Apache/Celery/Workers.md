@@ -1,9 +1,5 @@
 # Workers
 
-Created: 2020-04-20 14:40:13 +0500
-
-Modified: 2020-09-23 21:06:51 +0500
-
 ---
 
 ## The Celery worker

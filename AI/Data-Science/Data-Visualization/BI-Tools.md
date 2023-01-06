@@ -1,9 +1,5 @@
 # BI Tools
 
-Created: 2020-06-10 19:59:18 +0500
-
-Modified: 2022-01-29 18:44:41 +0500
-
 ---
 
 <https://www.toptal.com/business-intelligence/interview-questions>

@@ -1,9 +1,5 @@
 # ACID and BASE
 
-Created: 2018-04-10 00:20:26 +0500
-
-Modified: 2020-12-14 23:50:05 +0500
-
 ---
 
 1. ACID (SQL)

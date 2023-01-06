@@ -1,9 +1,5 @@
 # Data Structure
 
-Created: 2018-03-11 22:43:48 +0500
-
-Modified: 2020-12-07 23:44:44 +0500
-
 ---
 
 ## Built-in data structures

@@ -1,9 +1,5 @@
 # Tools
 
-Created: 2019-01-11 15:52:26 +0500
-
-Modified: 2019-01-11 15:52:34 +0500
-
 ---
 
 1. [InfluxDB command line interface (CLI/shell)](https://docs.influxdata.com/influxdb/v1.7/tools/shell/)

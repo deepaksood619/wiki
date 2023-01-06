@@ -1,9 +1,5 @@
 # Cluster Administration
 
-Created: 2019-03-18 23:11:03 +0500
-
-Modified: 2019-11-20 13:49:53 +0500
-
 ---
 
 1. Cluster Administration Overview

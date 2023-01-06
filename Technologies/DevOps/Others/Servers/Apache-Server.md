@@ -1,9 +1,5 @@
 # Apache Server
 
-Created: 2020-07-07 17:52:59 +0500
-
-Modified: 2020-09-04 23:19:34 +0500
-
 ---
 
 ## Apache HTTP Server

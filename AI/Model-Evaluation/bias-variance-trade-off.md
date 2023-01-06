@@ -1,9 +1,5 @@
 # bias-variance trade-off
 
-Created: 2018-06-20 12:28:00 +0500
-
-Modified: 2021-06-19 14:37:49 +0500
-
 ---
 
 Machine learning algorithms can best be understood through the lens of the **bias-variance trade-off.**

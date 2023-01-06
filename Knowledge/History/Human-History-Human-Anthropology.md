@@ -1,9 +1,5 @@
 # Human History / Human Anthropology
 
-Created: 2018-11-15 19:43:46 +0500
-
-Modified: 2022-09-21 00:06:59 +0500
-
 ---
 
 <https://www.youtube.com/watch?v=ehV-MmuvVMU&ab_channel=NationalGeographic>

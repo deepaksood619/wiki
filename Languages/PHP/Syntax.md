@@ -1,9 +1,5 @@
 # Syntax
 
-Created: 2020-02-07 23:20:04 +0500
-
-Modified: 2020-12-23 12:16:34 +0500
-
 ---
 
 ## Compile-time constants

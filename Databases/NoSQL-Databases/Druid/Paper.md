@@ -1,9 +1,5 @@
 # Paper
 
-Created: 2019-07-18 22:58:49 +0500
-
-Modified: 2019-07-19 20:04:10 +0500
-
 ---
 
 1. Realtime Node

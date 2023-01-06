@@ -1,9 +1,5 @@
 # Frameworks
 
-Created: 2019-10-08 20:10:26 +0500
-
-Modified: 2019-12-23 10:38:24 +0500
-
 ---
 
 ## Qt (pronounced cute)

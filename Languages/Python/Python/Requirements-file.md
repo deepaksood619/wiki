@@ -1,9 +1,5 @@
 # Requirements file
 
-Created: 2018-02-15 12:06:04 +0500
-
-Modified: 2020-08-03 13:36:38 +0500
-
 ---
 
 pip supports installing from [PyPI](http://pypi.python.org/pypi), version control, local projects, and directly from distribution files.

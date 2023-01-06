@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2020-04-08 02:46:11 +0500
-
-Modified: 2020-08-03 14:46:09 +0500
-
 ---
 
 Flask depends on the [Jinja](https://www.palletsprojects.com/p/jinja/) template engine and the [Werkzeug](https://www.palletsprojects.com/p/werkzeug/) WSGI toolkit. The documentation for these libraries can be found at:

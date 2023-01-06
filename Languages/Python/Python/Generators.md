@@ -1,9 +1,5 @@
 # Generators
 
-Created: 2017-12-09 11:42:36 +0500
-
-Modified: 2018-06-06 01:36:18 +0500
-
 ---
 
 - Generator functions allow you to declare a function that behaves like an iterator.

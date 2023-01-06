@@ -1,9 +1,5 @@
 # HTML Entities / Attributes
 
-Created: 2018-03-23 14:27:03 +0500
-
-Modified: 2021-12-14 20:22:00 +0500
-
 ---
 
 Reserved characters in HTML must be replaced with character entities.

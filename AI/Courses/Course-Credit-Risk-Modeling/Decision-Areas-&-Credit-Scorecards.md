@@ -1,9 +1,5 @@
 # Decision Areas & Credit Scorecards
 
-Created: 2020-03-18 00:57:41 +0500
-
-Modified: 2021-11-01 20:29:07 +0500
-
 ---
 
 ## Decision Areas

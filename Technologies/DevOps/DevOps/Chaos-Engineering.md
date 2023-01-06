@@ -1,9 +1,5 @@
 # Chaos Engineering
 
-Created: 2019-04-21 07:43:35 +0500
-
-Modified: 2021-03-20 11:51:26 +0500
-
 ---
 
 Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions in production.

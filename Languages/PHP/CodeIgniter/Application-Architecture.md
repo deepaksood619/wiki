@@ -1,9 +1,5 @@
 # Application Architecture
 
-Created: 2020-02-08 19:42:49 +0500
-
-Modified: 2020-09-03 00:10:16 +0500
-
 ---
 
 ## Application Architecture

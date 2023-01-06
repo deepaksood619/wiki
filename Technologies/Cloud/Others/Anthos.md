@@ -1,9 +1,5 @@
 # Anthos
 
-Created: 2019-04-19 10:55:08 +0500
-
-Modified: 2019-04-19 10:56:25 +0500
-
 ---
 
 Google has built Anthos (formerly known as Cloud Services Platform or CSP) to accelerate application modernization for SaaS providers, developers, IT operators and their end users. In order to balance developer agility, operational efficiency and platform governance, the Anthos framework enables decoupling across critical components:

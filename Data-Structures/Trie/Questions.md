@@ -1,9 +1,5 @@
 # Questions
 
-Created: 2018-08-04 12:27:45 +0500
-
-Modified: 2019-12-02 14:01:40 +0500
-
 ---
 
 - Count total number of words in Trie

@@ -1,9 +1,5 @@
 # Matrix Transformations
 
-Created: 2018-05-24 02:26:55 +0500
-
-Modified: 2018-05-24 15:19:36 +0500
-
 ---
 
 1. [Functions and linear transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations#linear-transformations)

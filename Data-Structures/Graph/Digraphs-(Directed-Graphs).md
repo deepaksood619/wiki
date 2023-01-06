@@ -1,9 +1,5 @@
 # Digraphs (Directed Graphs)
 
-Created: 2018-02-10 19:50:27 +0500
-
-Modified: 2018-05-22 19:28:12 +0500
-
 ---
 
 ![image](media/Digraphs-(Directed-Graphs)-image1.png)

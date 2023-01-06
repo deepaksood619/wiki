@@ -1,9 +1,5 @@
 # Artificial Neural Networks
 
-Created: 2019-04-21 13:07:44 +0500
-
-Modified: 2021-05-11 23:37:05 +0500
-
 ---
 
 ![image](media/Artificial-Neural-Networks-image1.png)

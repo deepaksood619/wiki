@@ -1,9 +1,5 @@
 # Input Output Template
 
-Created: 2017-11-07 22:50:43 +0500
-
-Modified: 2020-03-23 14:40:07 +0500
-
 ---
 
 ```python

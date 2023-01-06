@@ -1,9 +1,5 @@
 # Behavioral - Strategy
 
-Created: 2018-04-05 00:18:31 +0500
-
-Modified: 2018-08-20 15:55:15 +0500
-
 ---
 
 ![image](media/Behavioral-Strategy-image1.png)

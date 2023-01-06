@@ -1,9 +1,5 @@
 # Stories
 
-Created: 2018-03-19 20:48:57 +0500
-
-Modified: 2021-10-04 16:54:50 +0500
-
 ---
 
 Two men were sent to Africa on reporting if shoes can be a viable business.

@@ -1,9 +1,5 @@
 # Networking tools
 
-Created: 2020-02-13 20:03:01 +0500
-
-Modified: 2022-01-07 15:29:44 +0500
-
 ---
 
 ![image](../../../media/DevOps-Terminal-Bash-Networking-tools-image1.jpg)

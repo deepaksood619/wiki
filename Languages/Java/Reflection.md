@@ -1,9 +1,5 @@
 # Reflection
 
-Created: 2017-09-28 11:53:48 +0500
-
-Modified: 2017-12-11 11:56:10 +0500
-
 ---
 
 Reflection is an api used to examine or modify the behavior of methods, classes or interfaces at runtime.

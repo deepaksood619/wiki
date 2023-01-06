@@ -1,9 +1,5 @@
 # PERT & CPM
 
-Created: 2018-03-11 07:41:34 +0500
-
-Modified: 2020-02-16 17:59:32 +0500
-
 ---
 
 ## PERT - Program Evaluation and Review Technique

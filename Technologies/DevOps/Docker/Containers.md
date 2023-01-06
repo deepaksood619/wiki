@@ -1,9 +1,5 @@
 # Containers
 
-Created: 2019-09-22 11:50:02 +0500
-
-Modified: 2022-01-07 12:35:32 +0500
-
 ---
 
 A container runtime is the component which runs the containerized application upon request. Docker Engine remains the default for Kubernetes, though CRI-O and others are gaining community support.

@@ -1,9 +1,5 @@
 # Segment Tree
 
-Created: 2020-12-06 23:49:38 +0500
-
-Modified: 2020-12-06 23:56:10 +0500
-
 ---
 
 In [computer science](https://www.wikiwand.com/en/Computer_science), asegment tree, also known as a statistic tree, is a [tree](https://www.wikiwand.com/en/Tree_(data_structure))[data structure](https://www.wikiwand.com/en/Data_structure) used for storing information about [intervals](https://www.wikiwand.com/en/Interval_(mathematics)), or segments. It allows querying which of the stored segments contain a given point. It is, in principle, a static structure; that is, it's a structure that cannot be modified once it's built. A similar data structure is the [interval tree](https://www.wikiwand.com/en/Interval_tree).

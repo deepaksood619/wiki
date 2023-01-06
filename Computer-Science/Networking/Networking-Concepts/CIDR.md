@@ -1,9 +1,5 @@
 # CIDR
 
-Created: 2018-06-19 13:05:35 +0500
-
-Modified: 2018-06-19 13:07:24 +0500
-
 ---
 
 ## Classless Inter-Domain Routing

@@ -1,9 +1,5 @@
 # Metrics
 
-Created: 2019-06-19 12:33:54 +0500
-
-Modified: 2022-02-04 23:46:45 +0500
-
 ---
 
 ## Monitoring Introduction

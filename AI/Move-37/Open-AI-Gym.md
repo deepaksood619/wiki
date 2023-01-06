@@ -1,9 +1,5 @@
 # Open AI Gym
 
-Created: 2018-09-13 23:46:47 +0500
-
-Modified: 2018-10-23 08:45:35 +0500
-
 ---
 
 ## FronzenLake-v0

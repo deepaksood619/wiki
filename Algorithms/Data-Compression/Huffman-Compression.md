@@ -1,9 +1,5 @@
 # Huffman Compression
 
-Created: 2018-05-29 13:11:24 +0500
-
-Modified: 2021-11-01 21:39:47 +0500
-
 ---
 
 ## Variable-length codes

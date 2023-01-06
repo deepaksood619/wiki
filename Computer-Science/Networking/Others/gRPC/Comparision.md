@@ -1,9 +1,5 @@
 # Comparision
 
-Created: 2020-05-04 01:08:59 +0500
-
-Modified: 2020-05-04 01:12:16 +0500
-
 ---
 
 ## Performance benchmarks

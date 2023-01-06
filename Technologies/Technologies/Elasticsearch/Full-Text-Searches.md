@@ -1,9 +1,5 @@
 # Full Text Searches
 
-Created: 2018-05-07 16:48:59 +0500
-
-Modified: 2022-01-06 21:23:27 +0500
-
 ---
 
 - Ignoring "stop words" such as "a", 'the', 'and'

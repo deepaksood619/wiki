@@ -1,9 +1,5 @@
 # Chart
 
-Created: 2018-10-21 01:08:36 +0500
-
-Modified: 2021-08-14 10:17:18 +0500
-
 ---
 
 # Vitamins and minerals

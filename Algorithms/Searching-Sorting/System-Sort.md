@@ -1,9 +1,5 @@
 # System Sort
 
-Created: 2018-05-12 11:27:05 +0500
-
-Modified: 2018-05-12 11:27:15 +0500
-
 ---
 
 Java System Sort - Arrays.sort()

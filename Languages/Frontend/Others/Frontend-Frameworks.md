@@ -1,9 +1,5 @@
 # Frontend Frameworks
 
-Created: 2020-02-06 13:30:12 +0500
-
-Modified: 2022-12-11 12:42:40 +0500
-
 ---
 
 ## Frontend Frameworks

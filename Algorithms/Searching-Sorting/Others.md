@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-11-03 20:16:31 +0500
-
-Modified: 2019-11-03 20:16:43 +0500
-
 ---
 
 ## Beating sorting lower bounds

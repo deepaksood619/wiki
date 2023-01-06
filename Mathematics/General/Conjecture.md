@@ -1,9 +1,5 @@
 # Conjecture
 
-Created: 2017-10-10 08:34:09 +0500
-
-Modified: 2019-09-20 08:14:38 +0500
-
 ---
 
 Conjecture - Is a conclusion or proposition based on incomplete information, for which no proof has been found.

@@ -1,9 +1,5 @@
 # Tangent Line and the Derivative
 
-Created: 2018-12-04 23:51:45 +0500
-
-Modified: 2018-12-05 00:14:13 +0500
-
 ---
 
 1. Tangent Line

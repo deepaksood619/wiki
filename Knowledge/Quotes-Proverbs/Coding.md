@@ -1,9 +1,5 @@
 # Coding
 
-Created: 2017-10-08 21:25:55 +0500
-
-Modified: 2022-11-23 22:57:29 +0500
-
 --
 
 **Only ~0.3% of the world's population today can code, and this small group has built all of the world's ~6.3 million mobile apps. Which means that 99.7% of the world fully depends on 0.3%, which is huge**

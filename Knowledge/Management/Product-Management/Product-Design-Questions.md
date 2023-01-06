@@ -1,9 +1,5 @@
 # Product Design / Questions
 
-Created: 2021-08-07 16:49:22 +0500
-
-Modified: 2022-03-14 15:13:16 +0500
-
 ---
 
 <https://www.toptal.com/designers/product-design/interview-questions>

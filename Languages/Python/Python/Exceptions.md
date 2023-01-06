@@ -1,9 +1,5 @@
 # Exceptions
 
-Created: 2018-03-07 10:26:36 +0500
-
-Modified: 2020-06-17 23:34:12 +0500
-
 ---
 
 ## Should I Use Exceptions of Conditional Handling?

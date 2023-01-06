@@ -1,9 +1,5 @@
 # Data Warehousing
 
-Created: 2018-02-18 23:43:07 +0500
-
-Modified: 2021-12-08 23:23:20 +0500
-
 ---
 
 ## Lifecycle Data

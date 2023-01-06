@@ -1,9 +1,5 @@
 # Daily Requirements
 
-Created: 2018-10-21 00:23:54 +0500
-
-Modified: 2021-09-11 13:35:20 +0500
-
 ---
 
 ## Macronutrients

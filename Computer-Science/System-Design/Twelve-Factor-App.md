@@ -1,9 +1,5 @@
 # Twelve-Factor App
 
-Created: 2018-06-24 19:25:58 +0500
-
-Modified: 2020-08-18 02:20:28 +0500
-
 ---
 
 In the modern era, software is commonly delivered as a service: calledweb apps, orsoftware-as-a-service. The twelve-factor app is a methodology for building software-as-a-service apps that:

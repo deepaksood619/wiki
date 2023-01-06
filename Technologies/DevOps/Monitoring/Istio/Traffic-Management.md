@@ -1,9 +1,5 @@
 # Traffic Management
 
-Created: 2019-12-17 12:46:21 +0500
-
-Modified: 2020-09-01 22:50:48 +0500
-
 ---
 
 Istio's easy rules configuration and traffic routing lets you control the flow of traffic and API calls between services. Istio simplifies configuration of service-level properties like circuit breakers, timeouts, and retries, and makes it a breeze to set up important tasks like A/B testing, canary rollouts, and staged rollouts with percentage-based traffic splits.

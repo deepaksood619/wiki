@@ -1,9 +1,5 @@
 # Libraries
 
-Created: 2018-02-19 00:20:46 +0500
-
-Modified: 2022-02-10 22:28:02 +0500
-
 ---
 
 nose packages

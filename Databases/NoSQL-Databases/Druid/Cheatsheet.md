@@ -1,9 +1,5 @@
 # Cheatsheet
 
-Created: 2019-11-20 00:28:15 +0500
-
-Modified: 2019-11-20 00:28:52 +0500
-
 ---
 
 | Common                                          |                                                                                                                        |

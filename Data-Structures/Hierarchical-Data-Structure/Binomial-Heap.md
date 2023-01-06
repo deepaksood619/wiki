@@ -1,9 +1,5 @@
 # Binomial Heap
 
-Created: 2018-03-11 14:39:17 +0500
-
-Modified: 2018-03-11 16:53:18 +0500
-
 ---
 
 ## Key Points

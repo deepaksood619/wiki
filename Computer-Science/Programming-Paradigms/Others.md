@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-02-16 18:00:14 +0500
-
-Modified: 2020-07-23 16:19:31 +0500
-
 ---
 
 ## Behavior-driven development

@@ -1,9 +1,5 @@
 # STL Iterators Algorithms
 
-Created: 2019-08-12 22:23:11 +0500
-
-Modified: 2021-07-11 03:37:52 +0500
-
 ---
 
 ## C++ Iterators

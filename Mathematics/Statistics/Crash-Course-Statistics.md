@@ -1,9 +1,5 @@
 # Crash Course Statistics
 
-Created: 2018-08-04 14:23:55 +0500
-
-Modified: 2022-05-03 19:42:27 +0500
-
 ---
 
 [Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)

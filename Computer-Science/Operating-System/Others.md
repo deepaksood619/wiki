@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-07-13 02:47:32 +0500
-
-Modified: 2021-09-10 21:41:23 +0500
-
 ---
 
 ## Interrupt Coelesing

@@ -1,9 +1,5 @@
 # Graph Neural Networks (GNN)
 
-Created: 2021-06-11 00:21:58 +0500
-
-Modified: 2021-06-11 00:39:53 +0500
-
 ---
 
 ## Why Is a Graph Difficult To Analyze?

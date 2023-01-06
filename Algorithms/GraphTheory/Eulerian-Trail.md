@@ -1,9 +1,5 @@
 # Eulerian Trail
 
-Created: 2017-09-09 11:02:50 +0500
-
-Modified: 2017-11-07 10:30:57 +0500
-
 ---
 
 In [graph theory](https://en.wikipedia.org/wiki/Graph_theory), an **Eulerian trail** (or **Eulerian path**) is a [trail](https://en.wikipedia.org/wiki/Trail_(graph_theory)) in a finite graph which visits every [edge](https://en.wikipedia.org/wiki/Edge_(graph_theory)) exactly once. Similarly, an **Eulerian circuit** or **Eulerian cycle** is an Eulerian trail which starts and ends on the same [vertex](https://en.wikipedia.org/wiki/Vertex_(graph_theory)). They were first discussed by [Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler) while solving the famous [Seven Bridges of Königsberg](https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg) problem in 1736. The problem can be stated mathematically like this:

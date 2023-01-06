@@ -1,9 +1,5 @@
 # Matplotlib
 
-Created: 2017-12-14 23:40:20 +0500
-
-Modified: 2022-10-07 23:32:43 +0500
-
 ---
 
 Matplotlib

@@ -1,9 +1,5 @@
 # Kotlin
 
-Created: 2020-12-23 15:43:04 +0500
-
-Modified: 2021-06-03 14:00:11 +0500
-
 ---
 
 <https://proandroiddev.com/android-unidirectional-state-flow-without-rx-596f2f7637bb>

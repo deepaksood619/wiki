@@ -1,9 +1,5 @@
 # Key points
 
-Created: 2020-02-29 20:37:10 +0500
-
-Modified: 2020-03-01 22:46:39 +0500
-
 ---
 
 ## Spark Dataframes

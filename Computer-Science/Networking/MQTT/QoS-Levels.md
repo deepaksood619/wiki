@@ -1,9 +1,5 @@
 # QoS Levels
 
-Created: 2019-03-12 18:21:07 +0500
-
-Modified: 2019-09-23 10:48:16 +0500
-
 ---
 
 ## What is Quality of Service?

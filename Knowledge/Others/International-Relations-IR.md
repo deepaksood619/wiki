@@ -1,9 +1,5 @@
 # International Relations IR
 
-Created: 2022-04-09 11:58:43 +0500
-
-Modified: 2022-06-09 16:14:28 +0500
-
 ---
 
 In international relations there are no permanent friends or enemies only permanent interests

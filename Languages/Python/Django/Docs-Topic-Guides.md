@@ -1,9 +1,5 @@
 # Docs - Topic Guides
 
-Created: 2018-05-09 11:52:26 +0500
-
-Modified: 2021-10-02 13:00:26 +0500
-
 ---
 
 - [How to install Django](https://docs.djangoproject.com/en/2.0/topics/install/)

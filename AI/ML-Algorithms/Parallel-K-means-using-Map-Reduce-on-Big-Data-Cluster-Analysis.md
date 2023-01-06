@@ -1,9 +1,5 @@
 # Parallel K-means using Map Reduce on Big Data Cluster Analysis
 
-Created: 2019-04-01 20:38:29 +0500
-
-Modified: 2021-06-30 11:28:00 +0500
-
 ---
 
 ![image](media/Parallel-K-means-using-Map-Reduce-on-Big-Data-Cluster-Analysis-image1.png)

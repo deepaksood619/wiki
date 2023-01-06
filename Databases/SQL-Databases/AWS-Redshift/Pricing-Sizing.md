@@ -1,9 +1,5 @@
 # Pricing / Sizing
 
-Created: 2020-12-23 02:00:47 +0500
-
-Modified: 2021-12-08 23:39:19 +0500
-
 ---
 
 ## Node Types

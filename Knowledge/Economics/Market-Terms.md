@@ -1,9 +1,5 @@
 # Market Terms
 
-Created: 2020-04-21 02:05:56 +0500
-
-Modified: 2022-03-03 23:58:02 +0500
-
 ---
 
 ## Market timings

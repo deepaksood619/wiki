@@ -1,9 +1,5 @@
 # Editors
 
-Created: 2019-04-17 23:36:53 +0500
-
-Modified: 2022-03-12 11:50:20 +0500
-
 ---
 
 ## Commenting multiple using the terminal

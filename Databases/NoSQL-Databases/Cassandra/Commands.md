@@ -1,9 +1,5 @@
 # Commands
 
-Created: 2019-12-29 16:32:42 +0500
-
-Modified: 2020-01-04 11:51:35 +0500
-
 ---
 
 docker run --name cas1 -p 9042:9042 -e CASSANDRA_CLUSTER_NAME=MyCluster -e CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch -e CASSANDRA_DC=datacenter1 -d cassandra

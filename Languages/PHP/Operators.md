@@ -1,9 +1,5 @@
 # Operators
 
-Created: 2020-02-08 12:18:04 +0500
-
-Modified: 2020-02-08 12:20:53 +0500
-
 ---
 
 - Arithmetic Operators

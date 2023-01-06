@@ -1,9 +1,5 @@
 # Unicode
 
-Created: 2018-04-26 14:48:54 +0500
-
-Modified: 2019-12-06 00:20:25 +0500
-
 ---
 
 There are 3 built-in methods for string conversion -

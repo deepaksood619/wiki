@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-12-17 20:57:33 +0500
-
-Modified: 2022-01-16 15:12:39 +0500
-
 ---
 
 ![Image for post](media/Others-image1.png)

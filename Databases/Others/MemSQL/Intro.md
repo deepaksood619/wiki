@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2020-04-26 00:34:47 +0500
-
-Modified: 2021-06-06 16:47:55 +0500
-
 ---
 
 MemSQL is a distributed in-memory relational database designed for both transactional and analytical workloads.

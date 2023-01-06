@@ -1,9 +1,5 @@
 # Component Libraries
 
-Created: 2021-11-12 22:56:57 +0500
-
-Modified: 2022-12-10 00:49:02 +0500
-
 ---
 
 <https://lwc.dev>

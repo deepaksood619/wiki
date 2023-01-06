@@ -1,9 +1,5 @@
 # OSI Layers
 
-Created: 2018-05-07 20:32:26 +0500
-
-Modified: 2022-10-30 23:59:24 +0500
-
 ---
 
 Mnemonic - All people seem to need data processing

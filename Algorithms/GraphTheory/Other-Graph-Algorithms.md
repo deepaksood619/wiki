@@ -1,9 +1,5 @@
 # Other Graph Algorithms
 
-Created: 2019-06-06 12:16:13 +0500
-
-Modified: 2022-02-23 09:21:30 +0500
-
 ---
 
 ## Dominating Set

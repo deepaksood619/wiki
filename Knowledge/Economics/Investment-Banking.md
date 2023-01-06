@@ -1,9 +1,5 @@
 # Investment Banking
 
-Created: 2022-01-30 19:02:27 +0500
-
-Modified: 2022-08-11 13:39:13 +0500
-
 ---
 
 ## Investment banking

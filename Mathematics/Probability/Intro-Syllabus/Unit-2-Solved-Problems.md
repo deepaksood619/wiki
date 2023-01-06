@@ -1,9 +1,5 @@
 # Unit 2 - Solved Problems
 
-Created: 2018-06-05 01:37:56 +0500
-
-Modified: 2018-06-06 00:26:42 +0500
-
 ---
 
 # Conditional probability example

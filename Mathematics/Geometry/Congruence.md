@@ -1,9 +1,5 @@
 # Congruence
 
-Created: 2018-05-24 16:04:16 +0500
-
-Modified: 2018-05-24 16:04:23 +0500
-
 ---
 
 [Transformations & congruence:Congruence](https://www.khanacademy.org/math/geometry/hs-geo-congruence#hs-geo-trans-and-congruence)

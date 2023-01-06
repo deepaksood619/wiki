@@ -1,9 +1,5 @@
 # Example
 
-Created: 2020-11-01 12:20:51 +0500
-
-Modified: 2020-11-01 15:51:15 +0500
-
 ---
 
 <https://thenewstack.io/how-redis-simplifies-microservices-design-patterns>

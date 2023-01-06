@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2020-05-22 12:44:50 +0500
-
-Modified: 2020-05-22 12:47:00 +0500
-
 ---
 
 ## Flow Control

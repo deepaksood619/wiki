@@ -1,9 +1,5 @@
 # Self Awareness
 
-Created: 2019-04-21 21:18:25 +0500
-
-Modified: 2019-10-08 22:02:09 +0500
-
 ---
 
 ## It is the ability to see ourselves clearly, to understand who we are, how other see us, and how we fit into the world

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-02-18 11:31:40 +0500
-
-Modified: 2022-01-03 13:20:24 +0500
-
 ---
 
 ## Column level access controls

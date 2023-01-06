@@ -1,9 +1,5 @@
 # Kong
 
-Created: 2019-03-26 14:35:03 +0500
-
-Modified: 2019-09-23 15:44:46 +0500
-
 ---
 
 Kong is a cloud-native, fast, scalable, and distributed Microservice Abstraction Layer *(also known as an API Gateway, API Middleware or in some cases Service Mesh)*. Made available as an open-source project in 2015, its core values are high performance and extensibility.

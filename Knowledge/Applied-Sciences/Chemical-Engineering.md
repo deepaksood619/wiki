@@ -1,9 +1,5 @@
 # Chemical Engineering
 
-Created: 2019-06-15 22:13:47 +0500
-
-Modified: 2019-06-15 22:13:51 +0500
-
 ---
 
 ## Chemical Engineering

@@ -1,9 +1,5 @@
 # Brain
 
-Created: 2018-06-18 01:15:13 +0500
-
-Modified: 2022-05-13 15:25:11 +0500
-
 ---
 
 Left side of brain - Logic, Language, Linear (Analytical / Logical)

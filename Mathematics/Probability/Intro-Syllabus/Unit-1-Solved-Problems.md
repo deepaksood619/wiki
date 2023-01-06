@@ -1,9 +1,5 @@
 # Unit 1 - Solved Problems
 
-Created: 2018-06-02 17:17:28 +0500
-
-Modified: 2022-04-07 21:19:04 +0500
-
 ---
 
 ## The probability of difference of two sets

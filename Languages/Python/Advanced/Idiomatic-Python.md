@@ -1,9 +1,5 @@
 # Idiomatic Python
 
-Created: 2017-11-14 17:46:58 +0500
-
-Modified: 2020-02-09 23:15:59 +0500
-
 ---
 
 ## Idiomatic Python

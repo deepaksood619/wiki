@@ -1,9 +1,5 @@
 # Libraries
 
-Created: 2019-03-12 23:41:55 +0500
-
-Modified: 2019-03-12 23:42:03 +0500
-
 ---
 
 ## MQTT BROKER IMPLEMENTATIONS

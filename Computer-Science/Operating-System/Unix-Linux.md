@@ -1,9 +1,5 @@
 # Unix / Linux
 
-Created: 2018-05-09 18:04:32 +0500
-
-Modified: 2022-12-10 00:48:32 +0500
-
 ---
 
 ## A UNIX OS is made up of three parts

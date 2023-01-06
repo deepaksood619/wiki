@@ -1,9 +1,5 @@
 # Bellman Ford Algorithm
 
-Created: 2018-03-19 08:38:58 +0500
-
-Modified: 2018-05-22 20:14:26 +0500
-
 ---
 
 ![image](media/Bellman-Ford-Algorithm-image1.png)

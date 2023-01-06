@@ -1,9 +1,5 @@
 # Course - Mindshift
 
-Created: 2018-10-15 19:47:24 +0500
-
-Modified: 2021-05-12 13:18:11 +0500
-
 ---
 
 1. **Change is Possible**

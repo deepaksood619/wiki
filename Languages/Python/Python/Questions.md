@@ -1,9 +1,5 @@
 # Questions
 
-Created: 2017-11-14 11:09:32 +0500
-
-Modified: 2021-07-28 14:58:22 +0500
-
 ---
 
 ## What is the difference between the__str__and__repr__methods of a Python object

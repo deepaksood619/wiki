@@ -1,9 +1,5 @@
 # Finite-State Machine
 
-Created: 2019-07-23 18:51:54 +0500
-
-Modified: 2021-07-27 00:37:11 +0500
-
 ---
 
 DFA - Deterministic Finite Automata

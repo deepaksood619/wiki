@@ -1,9 +1,5 @@
 # Crash Course Engineering
 
-Created: 2019-04-10 04:11:12 +0500
-
-Modified: 2019-06-15 22:14:10 +0500
-
 ---
 
 1. What is engineering

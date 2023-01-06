@@ -1,9 +1,5 @@
 # ML Classification
 
-Created: 2021-06-14 22:46:44 +0500
-
-Modified: 2021-09-14 23:13:58 +0500
-
 ---
 
 ## Types of ML Algorithms

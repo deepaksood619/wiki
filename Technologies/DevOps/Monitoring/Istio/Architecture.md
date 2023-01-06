@@ -1,9 +1,5 @@
 # Architecture
 
-Created: 2019-12-17 12:34:00 +0500
-
-Modified: 2020-06-05 20:38:56 +0500
-
 ---
 
 Istio works by having a small network proxy sit alongside each microservice. This so-called "sidecar" intercepts all of the service's traffic, and handles it more intelligently than a simple layer 3 network can. Istio uses the [Envoy](https://www.envoyproxy.io/) proxy as its sidecar. Envoy was originally written at Lyft and is now a [CNCF project](https://landscape.cncf.io/). The whole set of sidecars, one per microservice, is called the*data plane*. The work of the sidecars is coordinated by a small number of central components called the*control plane*. Control and data plane architectures are very common in distributed systems, from network switches to compute farms.

@@ -1,9 +1,5 @@
 # kubectl Commands
 
-Created: 2018-12-31 16:59:16 +0500
-
-Modified: 2022-02-05 15:19:21 +0500
-
 ---
 
 ```bash

@@ -1,9 +1,5 @@
 # Twisted
 
-Created: 2018-10-13 22:08:32 +0500
-
-Modified: 2019-10-14 16:06:40 +0500
-
 ---
 
 Twisted is an event-driven networking engine written in Python

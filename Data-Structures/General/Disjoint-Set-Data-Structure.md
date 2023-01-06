@@ -1,9 +1,5 @@
 # Disjoint-Set Data Structure
 
-Created: 2018-01-30 17:31:56 +0500
-
-Modified: 2018-02-08 21:39:47 +0500
-
 ---
 
 Also called as union-find data structure or merge-find set, is a DS that keeps track of set of elements partitioned into a number of disjoint (non-overlapping) subset. It provides near constant time operation (bounded by inverse- Ackermann function) to add new sets, to merge existing sets and to determine whether elements are in the same set.

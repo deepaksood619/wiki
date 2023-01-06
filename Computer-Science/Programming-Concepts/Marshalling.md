@@ -1,9 +1,5 @@
 # Marshalling
 
-Created: 2018-04-10 00:34:22 +0500
-
-Modified: 2018-04-30 22:43:24 +0500
-
 ---
 
 ## Marshallingis the process of transforming the memory representation of an [object](https://en.wikipedia.org/wiki/Object_(computer_science)) to a data format suitable for storage or transmission, and it is typically used when data must be moved between different parts of a computer program or from one program to another. Marshalling is similar to [serialization](https://en.wikipedia.org/wiki/Serialization) and is used to communicate to remote objects with an object, in this case a serialized object. It simplifies complex communication, using composite objects in order to communicate instead of *primitives*. The inverse, of marshalling is called [*unmarshallin*](https://en.wikipedia.org/wiki/Unmarshalling) g (or *demarshalling*, similar to *deserialization*)

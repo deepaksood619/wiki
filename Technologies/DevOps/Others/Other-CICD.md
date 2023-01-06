@@ -1,9 +1,5 @@
 # Other - CICD
 
-Created: 2020-06-26 15:37:07 +0500
-
-Modified: 2022-03-08 17:21:18 +0500
-
 ---
 
 CI - Continuous Integration

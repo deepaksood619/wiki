@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-05-14 19:32:20 +0500
-
-Modified: 2022-09-23 12:54:52 +0500
-
 ---
 
 Statistics is a subfield of mathematics. It refers to a collection of methods for working with data and using data to answer questions.

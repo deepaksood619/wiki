@@ -1,9 +1,5 @@
 # Concurrency Problems
 
-Created: 2018-05-24 00:37:05 +0500
-
-Modified: 2020-06-01 16:41:09 +0500
-
 ---
 
 # Problems

@@ -1,9 +1,5 @@
 # Influx
 
-Created: 2018-05-17 17:06:10 +0500
-
-Modified: 2018-12-24 15:30:58 +0500
-
 ---
 
 The complete time series platform.

@@ -1,9 +1,5 @@
 # Pie
 
-Created: 2018-05-28 20:21:23 +0500
-
-Modified: 2018-05-28 20:23:56 +0500
-
 ---
 
 Pie is the ratio of circumference of a circle to its diameter

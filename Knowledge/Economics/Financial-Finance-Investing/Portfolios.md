@@ -1,9 +1,5 @@
 # Portfolios
 
-Created: 2020-07-14 17:48:37 +0500
-
-Modified: 2022-07-18 09:27:25 +0500
-
 ---
 
 ## Portfolio

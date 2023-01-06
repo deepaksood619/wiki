@@ -1,9 +1,5 @@
 # Tmux Iterm
 
-Created: 2017-11-09 14:42:48 +0500
-
-Modified: 2021-06-25 23:47:57 +0500
-
 ---
 
 Tmux is a terminal multiplexer.

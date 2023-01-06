@@ -1,9 +1,5 @@
 # Design of HBase
 
-Created: 2019-03-24 14:00:37 +0500
-
-Modified: 2022-04-05 21:18:03 +0500
-
 ---
 
 1. What is HBase

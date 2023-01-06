@@ -1,9 +1,5 @@
 # NextJS
 
-Created: 2021-03-16 00:55:30 +0500
-
-Modified: 2022-01-28 00:54:09 +0500
-
 ---
 
 ## NextJS - The React Framework

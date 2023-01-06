@@ -1,9 +1,5 @@
 # Monitoring
 
-Created: 2018-10-26 12:10:06 +0500
-
-Modified: 2019-12-09 12:41:22 +0500
-
 ---
 
 # Confluent Control Center

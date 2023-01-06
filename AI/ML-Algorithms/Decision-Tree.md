@@ -1,9 +1,5 @@
 # Decision Tree
 
-Created: 2019-04-21 13:03:15 +0500
-
-Modified: 2022-08-06 22:36:24 +0500
-
 ---
 
 ## Decision Tree for Big Data Analytics

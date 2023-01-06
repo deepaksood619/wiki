@@ -1,9 +1,5 @@
 # Crash Course World History
 
-Created: 2018-11-02 13:03:05 +0500
-
-Modified: 2021-11-28 00:06:34 +0500
-
 ---
 
 ## Crash Course World History 1

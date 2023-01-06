@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-02-08 12:37:53 +0500
-
-Modified: 2021-08-05 12:10:06 +0500
-
 ---
 
 ## PHP Package Manager

@@ -1,9 +1,5 @@
 # System Design - Others
 
-Created: 2020-01-03 23:44:06 +0500
-
-Modified: 2022-07-15 17:39:32 +0500
-
 ---
 
 ## CricInfo

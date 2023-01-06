@@ -1,9 +1,5 @@
 # Dags Example
 
-Created: 2019-12-19 22:43:00 +0500
-
-Modified: 2021-11-22 14:48:38 +0500
-
 ---
 
 <https://airflow.apache.org/docs/apache-airflow/1.10.12/_api/airflow/contrib/operators/kubernetes_pod_operator/index.html>

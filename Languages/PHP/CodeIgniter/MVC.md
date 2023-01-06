@@ -1,9 +1,5 @@
 # MVC
 
-Created: 2020-09-03 13:08:05 +0500
-
-Modified: 2020-10-30 00:29:19 +0500
-
 ---
 
 ![Flow Chart](media/CodeIgniter_MVC-image1.png)

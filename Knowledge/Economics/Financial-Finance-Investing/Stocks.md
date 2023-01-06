@@ -1,9 +1,5 @@
 # Stocks
 
-Created: 2022-01-30 11:49:58 +0500
-
-Modified: 2022-09-04 23:04:48 +0500
-
 ---
 
 The stock market is a device for transferring money from the impatient to the patient -- Warren Buffet

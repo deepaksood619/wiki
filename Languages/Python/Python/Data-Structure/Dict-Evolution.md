@@ -1,9 +1,5 @@
 # Dict Evolution
 
-Created: 2018-05-04 18:53:22 +0500
-
-Modified: 2020-01-07 12:42:48 +0500
-
 ---
 
 Python2.7 - Scambled(dict_size = 280)

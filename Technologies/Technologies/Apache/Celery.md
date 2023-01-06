@@ -1,9 +1,5 @@
 # Celery
 
-Created: 2018-05-10 11:53:46 +0500
-
-Modified: 2022-02-02 17:58:29 +0500
-
 ---
 
 Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.

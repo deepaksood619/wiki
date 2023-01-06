@@ -1,9 +1,5 @@
 # Interval Search Tree
 
-Created: 2018-02-06 20:08:03 +0500
-
-Modified: 2018-02-07 08:20:57 +0500
-
 ---
 
 Operations

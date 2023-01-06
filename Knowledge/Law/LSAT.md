@@ -1,9 +1,5 @@
 # LSAT
 
-Created: 2018-09-08 23:51:03 +0500
-
-Modified: 2021-03-29 19:28:36 +0500
-
 ---
 
 LSAT (Law School Admission Test) (Score - 120 to 180, above 160 is good)

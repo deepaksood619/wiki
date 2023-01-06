@@ -1,9 +1,5 @@
 # Science
 
-Created: 2020-05-27 14:12:56 +0500
-
-Modified: 2022-11-13 02:17:22 +0500
-
 ---
 
 Science is a 6 decimal approximation to real knowledge

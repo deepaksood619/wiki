@@ -1,9 +1,5 @@
 # Design Patterns
 
-Created: 2019-01-11 16:13:23 +0500
-
-Modified: 2020-08-05 00:06:11 +0500
-
 ---
 
 ## Foundational Patterns

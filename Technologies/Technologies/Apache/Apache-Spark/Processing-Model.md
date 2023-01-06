@@ -1,9 +1,5 @@
 # Processing Model
 
-Created: 2020-03-01 22:41:20 +0500
-
-Modified: 2021-06-14 17:15:33 +0500
-
 ---
 
 Apache Spark is a next generation batch processing framework with stream processing capabilities. Built using many of the same principles of Hadoop's MapReduce engine, Spark focuses primarily on speeding up batch processing workloads by offering full in-memory computation and processing optimization.

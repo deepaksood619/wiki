@@ -1,9 +1,5 @@
 # Jenkins
 
-Created: 2019-09-23 15:03:25 +0500
-
-Modified: 2022-10-15 11:46:34 +0500
-
 ---
 
 ## What can you do with Jenkins?

@@ -1,9 +1,5 @@
 # Configuration
 
-Created: 2019-09-23 22:03:33 +0500
-
-Modified: 2021-09-21 19:05:12 +0500
-
 ---
 
 [**Configuration Best Practices**](https://kubernetes.io/docs/concepts/configuration/overview/)

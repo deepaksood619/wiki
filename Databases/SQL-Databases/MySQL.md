@@ -1,9 +1,5 @@
 # MySQL
 
-Created: 2020-02-08 10:39:01 +0500
-
-Modified: 2022-11-09 19:08:52 +0500
-
 ---
 
 ## MySQL gotchas

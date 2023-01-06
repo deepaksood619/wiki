@@ -1,9 +1,5 @@
 # Inclusion-Exclusion Principle
 
-Created: 2018-03-10 11:56:44 +0500
-
-Modified: 2018-03-10 11:59:01 +0500
-
 ---
 
 In [combinatorics](https://en.wikipedia.org/wiki/Combinatorics)(combinatorial mathematics), the**inclusion--exclusion principle**is a counting technique which generalizes the familiar method of obtaining the number of elements in the [union](https://en.wikipedia.org/wiki/Union_(set_theory)) of two finite [sets](https://en.wikipedia.org/wiki/Set_(mathematics)); symbolically expressed as

@@ -1,9 +1,5 @@
 # redis-py
 
-Created: 2019-11-05 12:51:49 +0500
-
-Modified: 2022-09-23 16:02:11 +0500
-
 ---
 
 ### check pending list in redis

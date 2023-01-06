@@ -1,9 +1,5 @@
 # Linkerd
 
-Created: 2019-03-23 13:41:26 +0500
-
-Modified: 2020-12-16 00:47:29 +0500
-
 ---
 
 ## Ultralight service mesh for Kubernetes

@@ -1,9 +1,5 @@
 # 6A: Ratio Analysis
 
-Created: 2020-09-06 16:09:35 +0500
-
-Modified: 2022-04-07 21:08:00 +0500
-
 ---
 
 ## Financial Ratios: A Life Cycle Perspective

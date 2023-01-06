@@ -1,9 +1,5 @@
 # Static Code Analysis
 
-Created: 2020-08-23 01:10:34 +0500
-
-Modified: 2022-02-05 00:27:10 +0500
-
 ---
 
 Static code analysis looks at the code without executing it. It is usually extremely fast to execute, requires little effort to add to your workflow, and can uncover common mistakes. The only downside is that it is not tailored towards your code.

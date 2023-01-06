@@ -1,9 +1,5 @@
 # Resources
 
-Created: 2017-11-07 12:56:24 +0500
-
-Modified: 2021-08-27 18:36:53 +0500
-
 ---
 
 ## Getting started

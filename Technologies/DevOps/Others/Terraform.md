@@ -1,9 +1,5 @@
 # Terraform
 
-Created: 2019-01-15 23:25:59 +0500
-
-Modified: 2020-07-14 20:34:03 +0500
-
 ---
 
 Declarative Programming tool for automating infrastructure resource creation

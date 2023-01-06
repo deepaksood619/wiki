@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-11-29 14:43:14 +0500
-
-Modified: 2021-08-29 18:10:20 +0500
-
 ---
 
 DRI - Designated Response Individuals

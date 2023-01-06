@@ -1,9 +1,5 @@
 # Ingress
 
-Created: 2019-03-20 12:48:21 +0500
-
-Modified: 2020-06-20 23:08:58 +0500
-
 ---
 
 An API object that manages external access to the services in a cluster, typically HTTP.

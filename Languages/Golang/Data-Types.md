@@ -1,9 +1,5 @@
 # Data Types
 
-Created: 2019-04-20 15:07:07 +0500
-
-Modified: 2020-07-23 22:17:34 +0500
-
 ---
 
 1. Boolean types

@@ -1,9 +1,5 @@
 # Scala
 
-Created: 2019-03-14 19:52:46 +0500
-
-Modified: 2021-04-12 23:50:20 +0500
-
 ---
 
 Scalais a [general-purpose](https://en.wikipedia.org/wiki/General-purpose_programming_language)[programming language](https://en.wikipedia.org/wiki/Programming_language) providing support for [functional programming](https://en.wikipedia.org/wiki/Functional_programming) and a strong [static](https://en.wikipedia.org/wiki/Static_typing)[type system](https://en.wikipedia.org/wiki/Type_system). Designed to be concise, many of Scala's design decisions aimed to address [criticisms of Java](https://en.wikipedia.org/wiki/Criticism_of_Java).

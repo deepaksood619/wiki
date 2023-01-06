@@ -1,9 +1,5 @@
 # Classes
 
-Created: 2017-11-14 11:07:59 +0500
-
-Modified: 2018-06-30 18:14:53 +0500
-
 ---
 
 ## Creating a class

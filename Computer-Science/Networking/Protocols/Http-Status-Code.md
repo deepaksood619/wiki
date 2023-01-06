@@ -1,9 +1,5 @@
 # Http Status Code
 
-Created: 2017-10-04 19:16:27 +0500
-
-Modified: 2020-11-20 21:12:35 +0500
-
 ---
 
 1xx - Informational

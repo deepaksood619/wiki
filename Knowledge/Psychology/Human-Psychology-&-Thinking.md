@@ -1,9 +1,5 @@
 # Human Psychology & Thinking
 
-Created: 2022-04-29 23:09:28 +0500
-
-Modified: 2022-11-13 01:41:04 +0500
-
 ---
 
 We all crave attention - Therefore if you even know everything, still you ask questions, just for attention

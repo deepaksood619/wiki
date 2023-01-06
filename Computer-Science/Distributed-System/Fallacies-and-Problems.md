@@ -1,9 +1,5 @@
 # Fallacies and Problems
 
-Created: 2019-06-27 17:04:31 +0500
-
-Modified: 2020-03-26 01:22:03 +0500
-
 ---
 
 ## Fallacies of distributed computing

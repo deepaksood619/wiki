@@ -1,9 +1,5 @@
 # printf
 
-Created: 2018-07-30 21:16:12 +0500
-
-Modified: 2018-07-30 21:23:28 +0500
-
 ---
 
 A *format specifier* follows this prototype:

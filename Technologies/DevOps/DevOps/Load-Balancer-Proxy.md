@@ -1,9 +1,5 @@
 # Load Balancer / Proxy
 
-Created: 2018-12-23 19:13:09 +0500
-
-Modified: 2020-12-16 01:08:21 +0500
-
 ---
 
 In computing, load balancing improves the distribution of workloads across multiple computing resources, such as computers, a computer cluster, network links, central processing units, or disk drives. Load balancing aims to optimize resource use, maximize throughput, minimize response time, and avoid overload of any single resource. Using multiple components with load balancing instead of a single component may increase reliability and availability through redundancy. Load balancing usually involves dedicated software or hardware, such as a multilayer switch or a Domain Name System server process.

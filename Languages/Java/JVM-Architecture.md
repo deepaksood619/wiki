@@ -1,9 +1,5 @@
 # JVM Architecture
 
-Created: 2018-12-04 22:05:15 +0500
-
-Modified: 2019-12-29 01:57:36 +0500
-
 ---
 
 ![image](media/JVM-Architecture-image1.png)

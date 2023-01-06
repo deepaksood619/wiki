@@ -1,9 +1,5 @@
 # Core Tensorflow
 
-Created: 2018-07-04 20:14:50 +0500
-
-Modified: 2021-06-19 14:14:15 +0500
-
 ---
 
 tf_estimator to create, train and evaluate an ML model

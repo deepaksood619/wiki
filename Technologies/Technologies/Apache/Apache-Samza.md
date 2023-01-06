@@ -1,9 +1,5 @@
 # Apache Samza
 
-Created: 2020-03-01 21:42:24 +0500
-
-Modified: 2020-03-01 21:42:28 +0500
-
 ---
 
 Apache Samza

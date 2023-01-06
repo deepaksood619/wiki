@@ -1,9 +1,5 @@
 # Coursera - How Google does ML
 
-Created: 2018-06-15 00:12:17 +0500
-
-Modified: 2021-05-26 20:21:12 +0500
-
 ---
 
 ## Mathematical Models used in ML

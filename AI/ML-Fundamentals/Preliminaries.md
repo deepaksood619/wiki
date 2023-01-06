@@ -1,9 +1,5 @@
 # Preliminaries
 
-Created: 2021-06-15 19:51:33 +0500
-
-Modified: 2021-06-15 19:51:54 +0500
-
 ---
 
 [2. Preliminaries](https://d2l.ai/chapter_preliminaries/index.html)

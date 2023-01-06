@@ -1,9 +1,5 @@
 # HTTP
 
-Created: 2020-09-03 13:24:29 +0500
-
-Modified: 2020-09-04 16:52:58 +0500
-
 ---
 
 ## Working with Requests and Responses

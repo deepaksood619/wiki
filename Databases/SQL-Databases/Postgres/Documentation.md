@@ -1,9 +1,5 @@
 # Documentation
 
-Created: 2019-12-19 20:38:05 +0500
-
-Modified: 2020-02-09 23:55:13 +0500
-
 ---
 
 [Preface](https://www.postgresql.org/docs/12/preface.html)

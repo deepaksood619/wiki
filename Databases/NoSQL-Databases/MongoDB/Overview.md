@@ -1,9 +1,5 @@
 # Overview
 
-Created: 2019-05-06 22:21:37 +0500
-
-Modified: 2020-07-22 13:54:11 +0500
-
 ---
 
 ## Database

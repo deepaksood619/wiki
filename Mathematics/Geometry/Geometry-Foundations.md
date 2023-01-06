@@ -1,9 +1,5 @@
 # Geometry Foundations
 
-Created: 2018-05-24 16:03:18 +0500
-
-Modified: 2021-05-08 16:15:38 +0500
-
 ---
 
 [Intro to Euclidean geometry](https://www.khanacademy.org/math/geometry/hs-geo-foundations#hs-geo-intro-euclid)

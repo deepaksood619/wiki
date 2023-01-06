@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2020-02-22 23:59:16 +0500
-
-Modified: 2021-12-08 21:03:26 +0500
-
 ---
 
 ![image](media/Data-Warehousing_Concepts-image1.png)

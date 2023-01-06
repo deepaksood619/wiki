@@ -1,9 +1,5 @@
 # UI / UX / IxD / Design / Frontend
 
-Created: 2019-06-10 13:08:23 +0500
-
-Modified: 2022-10-30 23:58:08 +0500
-
 ---
 
 "Design is not just what it looks like and feels like. Design is how it works."---[Steve Jobs, 2003](https://www.lukew.com/quotes/)

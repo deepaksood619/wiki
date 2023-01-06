@@ -1,9 +1,5 @@
 # State
 
-Created: 2021-11-08 23:46:38 +0500
-
-Modified: 2021-11-25 23:11:46 +0500
-
 ---
 
 ## Props vs State

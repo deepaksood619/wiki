@@ -1,9 +1,5 @@
 # gRPC
 
-Created: 2018-05-26 01:15:07 +0500
-
-Modified: 2022-04-18 18:28:52 +0500
-
 ---
 
 - RPC - Remote Procedure Call framework that uses HTTP 2.0 and Protocol Buffers

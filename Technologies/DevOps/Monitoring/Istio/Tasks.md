@@ -1,9 +1,5 @@
 # Tasks
 
-Created: 2019-12-17 12:33:45 +0500
-
-Modified: 2020-06-09 16:40:53 +0500
-
 ---
 
 ## Traffic Management

@@ -1,9 +1,5 @@
 # Spring
 
-Created: 2020-02-12 16:04:59 +0500
-
-Modified: 2020-04-07 03:17:00 +0500
-
 ---
 
 ## Spring Boot

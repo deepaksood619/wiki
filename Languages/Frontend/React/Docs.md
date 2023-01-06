@@ -1,9 +1,5 @@
 # Docs
 
-Created: 2021-10-27 00:44:51 +0500
-
-Modified: 2021-11-28 18:42:19 +0500
-
 ---
 
 ## MAIN CONCEPTS

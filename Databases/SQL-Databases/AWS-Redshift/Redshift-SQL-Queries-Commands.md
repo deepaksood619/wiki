@@ -1,9 +1,5 @@
 # Redshift SQL Queries / Commands
 
-Created: 2021-12-05 14:04:40 +0500
-
-Modified: 2022-12-11 14:27:30 +0500
-
 ---
 
 <https://docs.aws.amazon.com/redshift/latest/dg/c_designing-queries-best-practices.html>

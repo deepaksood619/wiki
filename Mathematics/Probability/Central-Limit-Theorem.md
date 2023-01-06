@@ -1,9 +1,5 @@
 # Central Limit Theorem
 
-Created: 2018-07-02 00:57:48 +0500
-
-Modified: 2021-10-02 15:13:14 +0500
-
 ---
 
 In [probability theory](https://en.wikipedia.org/wiki/Probability_theory), thecentral limit theorem(CLT) establishes that, in some situations, when [independent random variables](https://en.wikipedia.org/wiki/Statistical_independence) are added, their properly normalized sum tends toward a [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)(informally a "bell curve") even if the original variables themselves are not normally distributed. The theorem is a key concept in probability theory because it implies that probabilistic and statistical methods that work for normal distributions can be applicable to many problems involving other types of distributions.

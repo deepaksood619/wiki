@@ -1,9 +1,5 @@
 # user_guide
 
-Created: 2020-03-09 15:36:24 +0500
-
-Modified: 2020-03-09 15:36:44 +0500
-
 ---
 
 <https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html>

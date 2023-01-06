@@ -1,9 +1,5 @@
 # Mentoring / Teaching / Coaching / Leading / Leader / Leadership
 
-Created: 2020-12-03 00:06:15 +0500
-
-Modified: 2022-11-13 01:55:31 +0500
-
 ---
 
 Leadership is the ability to guide, support, and nurture others. Leaders are adept at finding ways for others to be at their best.

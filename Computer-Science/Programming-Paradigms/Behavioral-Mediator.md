@@ -1,9 +1,5 @@
 # Behavioral - Mediator
 
-Created: 2018-06-29 23:42:21 +0500
-
-Modified: 2018-08-20 15:55:03 +0500
-
 ---
 
 A mediator is a behavioral design pattern that allows you to reduce the connectivity of multiple classes with each other, by moving these connections to the one mediation class.

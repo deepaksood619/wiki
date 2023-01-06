@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2020-03-01 14:46:21 +0500
-
-Modified: 2021-07-24 17:22:38 +0500
-
 ---
 
 ## Transactions

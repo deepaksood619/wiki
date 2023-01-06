@@ -1,9 +1,5 @@
 # Questions
 
-Created: 2018-03-30 11:07:51 +0500
-
-Modified: 2020-06-07 14:21:48 +0500
-
 ---
 
 ### Event Delegation

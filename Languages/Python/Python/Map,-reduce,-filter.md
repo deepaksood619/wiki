@@ -1,9 +1,5 @@
 # Map, reduce, filter
 
-Created: 2017-12-05 13:34:48 +0500
-
-Modified: 2017-12-05 13:41:50 +0500
-
 ---
 
 ## Map

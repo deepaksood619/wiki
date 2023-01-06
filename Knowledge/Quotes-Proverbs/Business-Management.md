@@ -1,9 +1,5 @@
 # Business / Management
 
-Created: 2018-01-25 14:40:40 +0500
-
-Modified: 2022-11-29 16:22:31 +0500
-
 ---
 
 ## 97.42% is a fictional number that figuratively conveys the idea of a significant percentage

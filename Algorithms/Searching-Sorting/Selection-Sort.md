@@ -1,9 +1,5 @@
 # Selection Sort
 
-Created: 2018-02-02 09:56:20 +0500
-
-Modified: 2018-05-11 23:55:30 +0500
-
 ---
 
 Not stable

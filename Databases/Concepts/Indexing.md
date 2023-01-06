@@ -1,9 +1,5 @@
 # Indexing
 
-Created: 2020-03-14 13:02:08 +0500
-
-Modified: 2021-01-04 23:48:37 +0500
-
 ---
 
 Indexing is a data structure technique to efficiently retrieve records from the database files based on some attributes on which the indexing has been done. Indexing in database systems is similar to what we see in books - Table of contents.

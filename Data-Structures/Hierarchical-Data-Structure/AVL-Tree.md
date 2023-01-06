@@ -1,9 +1,5 @@
 # AVL Tree
 
-Created: 2018-08-03 00:10:03 +0500
-
-Modified: 2018-08-03 00:14:06 +0500
-
 ---
 
 AVL tree (named after inventors**A** delson-**V** elsky and**L** andis) is a self-balancing Binary Search Tree (BST) where the difference between heights of left and right subtrees cannot be more than one for all nodes.

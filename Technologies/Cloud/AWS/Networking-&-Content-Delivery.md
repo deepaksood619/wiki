@@ -1,9 +1,5 @@
 # Networking & Content Delivery
 
-Created: 2020-02-16 16:09:25 +0500
-
-Modified: 2020-08-12 12:42:38 +0500
-
 ---
 
 1. Amazon VPC

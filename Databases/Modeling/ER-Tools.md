@@ -1,9 +1,5 @@
 # ER - Tools
 
-Created: 2021-12-02 23:32:44 +0500
-
-Modified: 2022-01-27 23:19:24 +0500
-
 ---
 
 ## <https://drawsql.app> (Great)

@@ -1,9 +1,5 @@
 # Keywords
 
-Created: 2017-11-27 14:32:37 +0500
-
-Modified: 2021-05-16 16:59:12 +0500
-
 ---
 
 ## Keywords

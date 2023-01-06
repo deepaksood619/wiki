@@ -1,9 +1,5 @@
 # Comparable Interface
 
-Created: 2018-02-01 16:19:54 +0500
-
-Modified: 2018-02-14 20:22:31 +0500
-
 ---
 
 ![image](media/Comparable-Interface-image1.png)

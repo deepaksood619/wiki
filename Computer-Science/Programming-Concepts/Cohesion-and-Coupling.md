@@ -1,9 +1,5 @@
 # Cohesion and Coupling
 
-Created: 2018-08-02 23:52:40 +0500
-
-Modified: 2021-10-24 15:35:34 +0500
-
 ---
 
 ## COUPLING

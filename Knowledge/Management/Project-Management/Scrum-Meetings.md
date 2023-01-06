@@ -1,9 +1,5 @@
 # Scrum / Meetings
 
-Created: 2018-02-16 14:06:56 +0500
-
-Modified: 2022-03-31 22:34:57 +0500
-
 ---
 
 - Video Calls

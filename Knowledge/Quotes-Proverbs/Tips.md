@@ -1,9 +1,5 @@
 # Tips
 
-Created: 2019-09-19 22:50:22 +0500
-
-Modified: 2021-02-14 00:34:18 +0500
-
 ---
 
 To improve, compare little things.

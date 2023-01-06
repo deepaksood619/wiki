@@ -1,9 +1,5 @@
 # Customer Analytics in Python
 
-Created: 2020-04-10 01:38:28 +0500
-
-Modified: 2022-04-13 22:13:14 +0500
-
 ---
 
 <https://365datascience.teachable.com/p/customer-analytics-in-python>

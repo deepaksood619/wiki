@@ -1,9 +1,5 @@
 # Predictive Analytics 2
 
-Created: 2019-04-21 13:04:28 +0500
-
-Modified: 2021-10-12 21:14:23 +0500
-
 ---
 
 ## Gradient Boosted Decision Trees - Regression

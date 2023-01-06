@@ -1,9 +1,5 @@
 # 3A: Balance Sheet Comparisions
 
-Created: 2020-09-06 13:28:46 +0500
-
-Modified: 2021-12-22 21:26:10 +0500
-
 ---
 
 ## Balance Sheet: A Life Cycle Perspective

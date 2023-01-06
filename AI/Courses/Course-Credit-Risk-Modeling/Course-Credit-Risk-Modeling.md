@@ -1,9 +1,5 @@
 # Course - Credit Risk Modeling
 
-Created: 2020-03-27 18:02:08 +0500
-
-Modified: 2022-05-31 12:52:34 +0500
-
 ---
 
 <https://365datascience.teachable.com/p/credit-risk-modeling-in-python>

@@ -1,9 +1,5 @@
 # Keep Alive & Client Take-Over
 
-Created: 2019-03-12 22:57:11 +0500
-
-Modified: 2019-04-16 12:43:12 +0500
-
 ---
 
 ## The problem of half-open TCP connections

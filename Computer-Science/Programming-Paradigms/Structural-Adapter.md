@@ -1,9 +1,5 @@
 # Structural - Adapter
 
-Created: 2020-02-10 22:35:02 +0500
-
-Modified: 2020-02-10 22:38:31 +0500
-
 ---
 
 If there are 3 languages that need to be typed and you know a 4th language than you will not write the same thing 3 times everytime you have to write something, what we do it to create an adapter for the three languages that sit infront of 3 classes that will translate from 4th language to their specific language. All the translations will be handled by the adapter.

@@ -1,9 +1,5 @@
 # Others
 
-Created: 2022-05-04 12:20:31 +0500
-
-Modified: 2022-07-15 17:10:34 +0500
-
 ---
 
 ## Free Speech

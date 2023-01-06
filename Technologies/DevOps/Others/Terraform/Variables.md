@@ -1,9 +1,5 @@
 # Variables
 
-Created: 2020-02-11 18:52:25 +0500
-
-Modified: 2020-02-11 18:57:52 +0500
-
 ---
 
 ## Defining Variables

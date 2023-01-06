@@ -1,9 +1,5 @@
 # DQL - Data Query Language
 
-Created: 2020-03-05 22:30:36 +0500
-
-Modified: 2022-04-19 15:43:24 +0500
-
 ---
 
 ```sql

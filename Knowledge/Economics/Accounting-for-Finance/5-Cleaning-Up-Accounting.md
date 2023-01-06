@@ -1,9 +1,5 @@
 # 5: Cleaning Up Accounting
 
-Created: 2020-09-06 15:54:12 +0500
-
-Modified: 2021-10-18 22:03:41 +0500
-
 ---
 
 ## The Accountant's Role

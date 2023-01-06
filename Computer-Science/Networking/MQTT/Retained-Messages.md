@@ -1,9 +1,5 @@
 # Retained Messages
 
-Created: 2019-03-12 22:47:13 +0500
-
-Modified: 2019-03-12 23:36:44 +0500
-
 ---
 
 In MQTT, the client that publishes a message has no guarantee that a subscribing client actually receives the message. The publishing client can only make sure that the message gets delivered safely to the broker. Basically, the same is true for a subscribing client. The client that connects and subscribes to topics has no guarantee on when the publishing client will publish a message in one of their topics of interest. It can take a few seconds, minutes, or hours for the publisher to send a new message in one of the subscribed topics. Until the next message is published, the subscribing client is totally in the dark about the current status of the topic. This situation is where retained messages come into play.

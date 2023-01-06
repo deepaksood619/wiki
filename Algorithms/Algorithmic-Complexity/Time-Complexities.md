@@ -1,9 +1,5 @@
 # Time Complexities
 
-Created: 2017-12-13 23:04:13 +0500
-
-Modified: 2021-08-07 10:51:41 +0500
-
 ---
 
 Big O notation (with a capital letter O, not a zero), also called **Landau's symbol,** is a symbolism used in complexity theory, computer science, and mathematics to describe the asymptotic behavior of functions. Basically, it tells you how fast a function grows or declines. It describes how the runtime or space requirement of a function grows as the input grows.

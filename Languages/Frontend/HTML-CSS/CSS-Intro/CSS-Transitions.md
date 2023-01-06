@@ -1,9 +1,5 @@
 # CSS Transitions
 
-Created: 2017-12-13 23:20:56 +0500
-
-Modified: 2020-04-07 03:21:41 +0500
-
 ---
 
 The simplest (and most straightforward) way to animate your components is through CSS Transitions. In this article, you'll learn how CSS Transitions work, and how to make animations with it.

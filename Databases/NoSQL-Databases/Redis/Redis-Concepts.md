@@ -1,9 +1,5 @@
 # Redis Concepts
 
-Created: 2020-03-20 23:56:32 +0500
-
-Modified: 2021-04-07 21:05:55 +0500
-
 ---
 
 ## Redis keys

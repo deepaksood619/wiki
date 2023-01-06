@@ -1,9 +1,5 @@
 # Questions
 
-Created: 2018-08-04 12:29:27 +0500
-
-Modified: 2019-12-16 12:11:32 +0500
-
 ---
 
 ## Hash Table

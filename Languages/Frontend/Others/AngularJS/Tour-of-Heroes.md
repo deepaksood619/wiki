@@ -1,9 +1,5 @@
 # Tour of Heroes
 
-Created: 2018-01-29 15:47:55 +0500
-
-Modified: 2018-12-23 18:57:53 +0500
-
 ---
 
 ## Directives

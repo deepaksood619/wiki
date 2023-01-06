@@ -1,9 +1,5 @@
 # Architecture
 
-Created: 2019-01-30 10:50:43 +0500
-
-Modified: 2020-06-05 20:29:17 +0500
-
 ---
 
 ## Kubernetes Architecture

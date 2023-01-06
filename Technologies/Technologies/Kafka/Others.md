@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-10-08 14:19:30 +0500
-
-Modified: 2022-02-02 23:32:55 +0500
-
 ---
 
 ## Monitoring / Management Tools

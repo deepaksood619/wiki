@@ -1,9 +1,5 @@
 # Partitioning / Sharding
 
-Created: 2018-04-10 00:20:45 +0500
-
-Modified: 2020-10-25 22:31:09 +0500
-
 ---
 
 ## Partitioning/Sharding Data

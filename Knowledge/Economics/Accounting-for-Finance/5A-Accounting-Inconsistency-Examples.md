@@ -1,9 +1,5 @@
 # 5A: Accounting Inconsistency Examples
 
-Created: 2020-09-06 16:02:20 +0500
-
-Modified: 2021-11-20 21:36:00 +0500
-
 ---
 
 ## Tax Rates

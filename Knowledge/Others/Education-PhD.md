@@ -1,9 +1,5 @@
 # Education / PhD
 
-Created: 2019-09-07 13:46:00 +0500
-
-Modified: 2020-06-15 10:16:14 +0500
-
 ---
 
 Education is not preparation for life; education is life itself.

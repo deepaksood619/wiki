@@ -1,9 +1,5 @@
 # Addressing Failures
 
-Created: 2018-05-04 20:32:12 +0500
-
-Modified: 2021-08-06 00:50:55 +0500
-
 ---
 
 ## Cascading Failures

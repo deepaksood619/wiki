@@ -1,9 +1,5 @@
 # TLA+
 
-Created: 2019-07-23 18:54:13 +0500
-
-Modified: 2021-08-13 19:53:14 +0500
-
 ---
 
 TLA+([pronounced](https://en.wikipedia.org/wiki/English_alphabet#Letter_names) astee ell a plus, [/ˈtiːɛleɪplʌs/](https://en.wikipedia.org/wiki/Help:IPA/English)) is a [formal specification](https://en.wikipedia.org/wiki/Formal_specification) language developed by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport). It is used to design, model, document, and verify [concurrent systems](https://en.wikipedia.org/wiki/Concurrent_systems). TLA+has been described as exhaustively-testable [pseudocode](https://en.wikipedia.org/wiki/Pseudocode), and its use likened to [drawing blueprints](https://en.wikipedia.org/wiki/Technical_drawing) for software systems;TLAis an [acronym](https://en.wikipedia.org/wiki/Acronym) for [Temporal Logic of Actions](https://en.wikipedia.org/wiki/Temporal_Logic_of_Actions).

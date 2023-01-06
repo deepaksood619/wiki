@@ -1,9 +1,5 @@
 # Web API
 
-Created: 2020-04-20 07:53:54 +0500
-
-Modified: 2021-10-05 16:27:55 +0500
-
 ---
 
 Application Programming Interfaces (APIs) are constructs made available in programming languages to allow developers to create complex functionality more easily. They abstract more complex code away from you, providing some easier syntax to use in its place.

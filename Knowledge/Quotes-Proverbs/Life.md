@@ -1,9 +1,5 @@
 # Life
 
-Created: 2017-10-03 09:36:21 +0500
-
-Modified: 2022-10-20 22:34:05 +0500
-
 ---
 
 In is the only way out.

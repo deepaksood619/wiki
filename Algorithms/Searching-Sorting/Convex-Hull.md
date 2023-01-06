@@ -1,9 +1,5 @@
 # Convex Hull
 
-Created: 2018-05-12 00:00:47 +0500
-
-Modified: 2018-05-12 00:01:03 +0500
-
 ---
 
 - Smallest polygon that encloses all the points

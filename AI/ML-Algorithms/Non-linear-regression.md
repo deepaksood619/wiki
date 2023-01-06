@@ -1,9 +1,5 @@
 # Non linear regression
 
-Created: 2021-06-19 15:22:44 +0500
-
-Modified: 2021-11-09 21:31:41 +0500
-
 ---
 
 ## Non-linear Regression

@@ -1,9 +1,5 @@
 # Architecture Guide
 
-Created: 2019-09-18 00:09:55 +0500
-
-Modified: 2020-08-20 01:58:00 +0500
-
 ---
 
 1. Application Architecture Guide

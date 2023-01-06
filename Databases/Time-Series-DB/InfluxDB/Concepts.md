@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2019-07-01 23:36:24 +0500
-
-Modified: 2019-07-02 14:53:17 +0500
-
 ---
 
 ## In-memory indexing and the Time-Structured Merge Tree (TSM)

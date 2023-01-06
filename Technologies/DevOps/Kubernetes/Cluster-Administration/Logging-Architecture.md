@@ -1,9 +1,5 @@
 # Logging Architecture
 
-Created: 2018-12-31 17:03:53 +0500
-
-Modified: 2019-10-14 11:31:40 +0500
-
 ---
 
 The easiest and most embraced logging method for containerized applications is to write to the **standard output and standard error streams**.

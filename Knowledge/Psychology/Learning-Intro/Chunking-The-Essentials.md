@@ -1,9 +1,5 @@
 # Chunking - The Essentials
 
-Created: 2018-03-27 20:53:06 +0500
-
-Modified: 2022-11-13 01:51:08 +0500
-
 ---
 
 ## Key points

@@ -19,10 +19,14 @@ services:
             - -c
             - |
                 sleep infinity
-                # cd .layouts && npm run develop
-                # npm i -f
-                # npm run develop
+                # git clean -f
+                # git reset --hard
+                # git pull
+                # cd .layouts
+                # npm i
                 # npm run build
+                # cd ..
+                # git checkout -b docs
                 # git add .layouts/public -f
                 # git commit -m "added docs"
                 # git subtree push --prefix .layouts/public origin docs

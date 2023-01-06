@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2019-07-16 18:51:08 +0500
-
-Modified: 2020-07-01 13:44:26 +0500
-
 ---
 
 ## Goroutines & Channels

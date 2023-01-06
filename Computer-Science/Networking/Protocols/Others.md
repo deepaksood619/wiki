@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-08-13 16:02:43 +0500
-
-Modified: 2021-10-11 00:01:09 +0500
-
 ---
 
 ## LWM2M - Light Weight Machine-to-Machine

@@ -1,9 +1,5 @@
 # Reference
 
-Created: 2019-09-18 12:32:27 +0500
-
-Modified: 2020-11-20 07:56:12 +0500
-
 ---
 
 ## Admission Controllers

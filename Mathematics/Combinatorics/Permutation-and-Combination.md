@@ -1,9 +1,5 @@
 # Permutation and Combination
 
-Created: 2018-04-10 19:30:16 +0500
-
-Modified: 2020-04-26 01:55:05 +0500
-
 ---
 
 Permutation - Order matters

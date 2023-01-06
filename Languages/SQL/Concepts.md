@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2020-03-24 23:52:44 +0500
-
-Modified: 2021-12-31 11:47:23 +0500
-
 ---
 
 ## Predicate

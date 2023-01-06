@@ -1,9 +1,5 @@
 # Move by nature
 
-Created: 2017-10-25 19:53:54 +0500
-
-Modified: 2017-10-25 19:55:03 +0500
-
 ---
 
 <https://en.wikipedia.org/wiki/Move_by_nature>

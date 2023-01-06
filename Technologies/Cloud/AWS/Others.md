@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-02-11 22:36:45 +0500
-
-Modified: 2021-12-05 02:55:13 +0500
-
 ---
 
 ## Creating a new account

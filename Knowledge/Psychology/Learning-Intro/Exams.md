@@ -1,9 +1,5 @@
 # Exams
 
-Created: 2019-05-02 11:58:05 +0500
-
-Modified: 2019-06-23 16:12:17 +0500
-
 ---
 
 ## The strategy to ace Exams

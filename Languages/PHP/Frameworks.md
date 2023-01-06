@@ -1,9 +1,5 @@
 # Frameworks
 
-Created: 2020-02-07 23:24:00 +0500
-
-Modified: 2020-10-12 00:32:56 +0500
-
 ---
 
 <https://kinsta.com/blog/php-frameworks>

@@ -1,9 +1,5 @@
 # Ethical Hacking
 
-Created: 2020-05-25 23:33:40 +0500
-
-Modified: 2022-01-07 22:23:17 +0500
-
 ---
 
 <https://www.shodan.io/host/182.71.91.174>

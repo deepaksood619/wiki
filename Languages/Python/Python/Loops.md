@@ -1,9 +1,5 @@
 # Loops
 
-Created: 2017-11-15 13:19:41 +0500
-
-Modified: 2021-06-07 20:21:06 +0500
-
 ---
 
 <http://www.geeksforgeeks.org/any-all-in-python>

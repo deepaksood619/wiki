@@ -1,9 +1,5 @@
 # Template FastIO
 
-Created: 2018-06-24 00:02:17 +0500
-
-Modified: 2018-06-24 00:03:28 +0500
-
 ---
 
 ```java

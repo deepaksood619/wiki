@@ -1,9 +1,5 @@
 # api-resources
 
-Created: 2019-03-30 23:06:24 +0500
-
-Modified: 2020-12-25 17:09:01 +0500
-
 ---
 
 ### Namespaces

@@ -1,9 +1,5 @@
 # Istio
 
-Created: 2019-01-10 17:34:33 +0500
-
-Modified: 2020-11-08 17:38:14 +0500
-
 ---
 
 ## Circuit Breaker

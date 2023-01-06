@@ -1,9 +1,5 @@
 # Gestalt Principles
 
-Created: 2018-07-04 23:21:36 +0500
-
-Modified: 2021-07-06 01:03:29 +0500
-
 ---
 
 - Human visual system is optimized to see structure and relationships

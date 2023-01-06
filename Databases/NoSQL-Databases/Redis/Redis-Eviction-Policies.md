@@ -1,9 +1,5 @@
 # Redis Eviction Policies
 
-Created: 2020-07-20 20:01:14 +0500
-
-Modified: 2020-11-01 12:20:09 +0500
-
 ---
 
 The exact behavior Redis follows when themaxmemorylimit is reached is configured using themaxmemory-policyconfiguration directive.

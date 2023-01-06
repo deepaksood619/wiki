@@ -1,9 +1,5 @@
 # Super
 
-Created: 2018-04-30 16:47:08 +0500
-
-Modified: 2022-05-23 14:26:41 +0500
-
 ---
 
 Super considered super - pycon 2015

@@ -1,9 +1,5 @@
 # Messaging
 
-Created: 2018-03-26 21:35:41 +0500
-
-Modified: 2019-02-18 16:28:36 +0500
-
 ---
 
 For Messaging consider it like email, not between people but between different apps on different machines. A message is typically some container-like format with some extra metadata naming the sender and the recipent(s), maybe timestamps and serial numbers. All you can do in a messaging system is basically to send a message to a particular address. Whether or when the resident at that address responds is not possible to determine -- just like email in that sense. For a large scale example of a messaging system we have the internet itself. The very much hyped REST interactions of online services is also an example where messaging is starting to show success.

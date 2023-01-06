@@ -1,9 +1,5 @@
 # Product Rule for Derivatives
 
-Created: 2018-12-05 00:20:24 +0500
-
-Modified: 2018-12-05 00:33:06 +0500
-
 ---
 
 ![image](media/Product-Rule-for-Derivatives-image1.png)

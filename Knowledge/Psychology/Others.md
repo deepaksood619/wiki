@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-07-20 22:07:09 +0500
-
-Modified: 2022-07-28 23:33:38 +0500
-
 ---
 
 ## Classical Conditioning

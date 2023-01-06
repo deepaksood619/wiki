@@ -1,9 +1,5 @@
 # Advanced Topics
 
-Created: 2017-09-07 17:01:00 +0500
-
-Modified: 2020-11-22 19:53:52 +0500
-
 ---
 
 Bayes' Theorem and Conditional Probability (<https://brilliant.org/wiki/bayes-theorem>)

@@ -1,9 +1,5 @@
 # Civil Engineering
 
-Created: 2019-06-15 22:12:51 +0500
-
-Modified: 2022-05-18 11:59:04 +0500
-
 ---
 
 ## Civil Engineering

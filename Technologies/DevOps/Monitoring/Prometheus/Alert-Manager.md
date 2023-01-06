@@ -1,9 +1,5 @@
 # Alert Manager
 
-Created: 2019-06-07 17:36:24 +0500
-
-Modified: 2020-05-01 17:44:00 +0500
-
 ---
 
 The [Alertmanager](https://github.com/prometheus/alertmanager) handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integration such as email, PagerDuty, or OpsGenie. It also takes care of silencing and inhibition of alerts.

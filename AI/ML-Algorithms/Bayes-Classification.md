@@ -1,9 +1,5 @@
 # Bayes Classification
 
-Created: 2019-03-10 16:07:42 +0500
-
-Modified: 2021-11-14 21:42:27 +0500
-
 ---
 
 ## Naive Bayes

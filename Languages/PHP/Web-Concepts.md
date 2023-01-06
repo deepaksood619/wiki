@@ -1,9 +1,5 @@
 # Web Concepts
 
-Created: 2020-02-08 12:40:33 +0500
-
-Modified: 2020-02-08 13:07:12 +0500
-
 ---
 
 ## Browser Redirection

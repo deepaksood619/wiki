@@ -1,9 +1,5 @@
 # Speed Reading
 
-Created: 2018-09-02 14:21:24 +0500
-
-Modified: 2022-07-18 09:28:34 +0500
-
 ---
 
 Read to Lead

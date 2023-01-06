@@ -1,9 +1,5 @@
 # Behavioral - Chain of Responsibility
 
-Created: 2018-05-08 20:17:36 +0500
-
-Modified: 2021-05-11 18:39:13 +0500
-
 ---
 
 ## Chain of Responsibilityis a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in thechain

@@ -1,9 +1,5 @@
 # Design of Key-Value Stores
 
-Created: 2019-03-11 20:44:09 +0500
-
-Modified: 2020-10-17 10:44:39 +0500
-
 ---
 
 - We will discuss the design and insight of key-value/NoSQL stores for today's cloud storage systems.

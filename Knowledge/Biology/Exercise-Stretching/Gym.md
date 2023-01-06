@@ -1,9 +1,5 @@
 # Gym
 
-Created: 2019-06-07 09:58:03 +0500
-
-Modified: 2021-09-10 20:43:50 +0500
-
 ---
 
 The best exercise for gaining strength is not missing workouts

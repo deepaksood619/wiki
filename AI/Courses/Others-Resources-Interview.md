@@ -1,9 +1,5 @@
 # Others / Resources / Interview
 
-Created: 2021-06-29 14:57:04 +0500
-
-Modified: 2022-10-01 10:19:14 +0500
-
 ---
 
 [Intro to graph neural networks (ML Tech Talks)](https://www.youtube.com/watch?v=8owQBFAHw7E&ab_channel=TensorFlow)

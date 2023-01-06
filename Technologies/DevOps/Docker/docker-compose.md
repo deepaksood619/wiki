@@ -1,9 +1,5 @@
 # docker-compose
 
-Created: 2018-10-25 18:48:19 +0500
-
-Modified: 2022-12-11 20:01:39 +0500
-
 ---
 
 ## Commands

@@ -1,9 +1,5 @@
 # Bash Metacharacters
 
-Created: 2019-09-06 16:50:11 +0500
-
-Modified: 2019-09-06 16:50:35 +0500
-
 ---
 
 | **Symbol:** | **Meaning and Usage examples:** |

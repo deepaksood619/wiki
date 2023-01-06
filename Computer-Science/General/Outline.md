@@ -1,9 +1,5 @@
 # Outline
 
-Created: 2018-11-14 00:34:53 +0500
-
-Modified: 2022-12-10 01:19:35 +0500
-
 ---
 
 - [Logic in computer science](https://en.wikipedia.org/wiki/Logic_in_computer_science)

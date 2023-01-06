@@ -1,9 +1,5 @@
 # Environmental Sciences
 
-Created: 2019-04-18 11:26:49 +0500
-
-Modified: 2021-08-08 13:43:28 +0500
-
 ---
 
 <https://www.pmfias.com/carbon-nitrogen-phosphorus-sulphur-cycle>

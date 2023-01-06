@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-07-22 13:54:29 +0500
-
-Modified: 2020-07-27 01:24:51 +0500
-
 ---
 
 <https://docs.mongodb.com/manual/core/index-ttl>

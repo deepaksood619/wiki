@@ -1,9 +1,5 @@
 # Kubernetes Manifests Examples
 
-Created: 2019-10-09 16:04:37 +0500
-
-Modified: 2021-11-17 22:39:59 +0500
-
 ---
 
 ## Resource Schema Components (Manifests)

@@ -1,9 +1,5 @@
 # Concepts
 
-Created: 2020-06-02 07:02:32 +0500
-
-Modified: 2020-06-25 22:44:10 +0500
-
 ---
 
 ## Processes and Process Management

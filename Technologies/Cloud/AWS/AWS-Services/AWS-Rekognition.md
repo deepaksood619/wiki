@@ -1,9 +1,5 @@
 # AWS Rekognition
 
-Created: 2021-08-27 18:57:13 +0500
-
-Modified: 2022-03-30 20:10:59 +0500
-
 ---
 
 ## Moderating Content / Content Moderation / Community Moderation

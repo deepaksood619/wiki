@@ -1,9 +1,5 @@
 # boto & boto3
 
-Created: 2018-12-17 16:45:25 +0500
-
-Modified: 2022-08-12 12:39:56 +0500
-
 ---
 
 AWS SDK for python

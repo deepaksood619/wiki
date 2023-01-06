@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-03-22 18:06:02 +0500
-
-Modified: 2020-06-02 23:02:31 +0500
-
 ---
 
 ## Kubernetes Network Model

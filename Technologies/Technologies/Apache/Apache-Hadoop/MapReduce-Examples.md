@@ -1,9 +1,5 @@
 # MapReduce Examples
 
-Created: 2019-03-08 22:20:46 +0500
-
-Modified: 2020-04-11 15:21:28 +0500
-
 ---
 
 ![image](../../../media/Technologies-Apache-MapReduce-Examples-image1.png)

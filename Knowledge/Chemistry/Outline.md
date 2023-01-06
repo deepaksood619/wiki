@@ -1,9 +1,5 @@
 # Outline
 
-Created: 2018-11-14 00:32:05 +0500
-
-Modified: 2022-03-13 18:48:20 +0500
-
 ---
 
 - [Agrochemistry](https://en.wikipedia.org/wiki/Agrochemistry)

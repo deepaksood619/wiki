@@ -1,9 +1,5 @@
 # Agile
 
-Created: 2020-07-29 23:08:10 +0500
-
-Modified: 2022-01-12 11:38:46 +0500
-
 ---
 
 <https://www.atlassian.com/agile>

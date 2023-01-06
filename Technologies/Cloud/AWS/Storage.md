@@ -1,9 +1,5 @@
 # Storage
 
-Created: 2020-02-16 16:08:38 +0500
-
-Modified: 2022-01-08 23:04:57 +0500
-
 ---
 
 1. Amazon S3 (Blob storage)

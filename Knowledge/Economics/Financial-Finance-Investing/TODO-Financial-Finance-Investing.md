@@ -1,9 +1,5 @@
 # TODO Financial/Finance / Investing
 
-Created: 2020-04-09 02:47:27 +0500
-
-Modified: 2022-11-28 13:59:47 +0500
-
 ---
 
 ## I am a Risk Averse Passive Investor and not an Active Investor

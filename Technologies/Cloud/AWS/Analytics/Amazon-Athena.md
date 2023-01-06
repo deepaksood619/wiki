@@ -1,9 +1,5 @@
 # Amazon Athena
 
-Created: 2020-02-17 16:52:42 +0500
-
-Modified: 2022-04-06 15:46:21 +0500
-
 ---
 
 ## Based on Presto

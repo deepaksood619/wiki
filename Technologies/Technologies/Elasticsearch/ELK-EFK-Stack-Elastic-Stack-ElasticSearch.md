@@ -1,9 +1,5 @@
 # ELK/EFK Stack /Elastic Stack / ElasticSearch
 
-Created: 2018-03-15 14:10:15 +0500
-
-Modified: 2020-11-21 16:54:10 +0500
-
 ---
 
 ## ELK stands for Elasticsearch - Logstash - Kibana

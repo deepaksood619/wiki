@@ -1,9 +1,5 @@
 # Capital budgeting
 
-Created: 2019-08-22 22:30:42 +0500
-
-Modified: 2022-02-10 22:37:18 +0500
-
 ---
 
 ## Definition of Capital Budgeting

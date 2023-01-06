@@ -1,9 +1,5 @@
 # Comparisions
 
-Created: 2020-05-03 00:58:23 +0500
-
-Modified: 2020-05-06 10:17:55 +0500
-
 ---
 
 ## Avro vs Protobuf

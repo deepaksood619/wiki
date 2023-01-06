@@ -1,9 +1,5 @@
 # NLP
 
-Created: 2020-12-24 15:12:24 +0500
-
-Modified: 2022-02-10 22:28:24 +0500
-
 ---
 
 [14. Natural Language Processing: Pretraining](https://d2l.ai/chapter_natural-language-processing-pretraining/index.html)

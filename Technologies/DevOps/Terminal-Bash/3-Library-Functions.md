@@ -1,9 +1,5 @@
 # (3) Library Functions
 
-Created: 2019-06-23 12:41:21 +0500
-
-Modified: 2019-09-05 10:33:45 +0500
-
 ---
 
 ## setvbuf

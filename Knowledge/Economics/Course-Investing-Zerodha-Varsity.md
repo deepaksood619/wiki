@@ -1,9 +1,5 @@
 # Course - Investing Zerodha Varsity
 
-Created: 2020-04-21 00:02:04 +0500
-
-Modified: 2021-11-20 22:28:05 +0500
-
 ---
 
 ## Fundamental Analysis

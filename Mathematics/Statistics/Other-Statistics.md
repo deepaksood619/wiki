@@ -1,9 +1,5 @@
 # Other Statistics
 
-Created: 2018-07-02 00:59:00 +0500
-
-Modified: 2021-10-15 11:52:59 +0500
-
 ---
 
 ## Gaussian Noise

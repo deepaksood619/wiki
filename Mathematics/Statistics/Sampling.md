@@ -1,9 +1,5 @@
 # Sampling
 
-Created: 2021-10-02 14:33:50 +0500
-
-Modified: 2022-11-23 23:12:03 +0500
-
 ---
 
 - Sampling is the main technique employed for data selection

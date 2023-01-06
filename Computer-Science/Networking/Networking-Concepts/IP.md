@@ -1,9 +1,5 @@
 # IP
 
-Created: 2019-05-01 10:05:15 +0500
-
-Modified: 2022-01-30 23:30:30 +0500
-
 ---
 
 IP addresses are typically made of two separate components. The first part of the address is used to identify the network that the address is a part of. The part that comes afterwards is used to specify a specific host within that network.

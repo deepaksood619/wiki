@@ -1,9 +1,5 @@
 # Depth First Search (DFS)
 
-Created: 2018-02-05 19:28:59 +0500
-
-Modified: 2021-12-29 00:30:41 +0500
-
 ---
 
 Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.

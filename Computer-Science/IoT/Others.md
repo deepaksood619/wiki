@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-03-13 20:43:49 +0500
-
-Modified: 2022-10-30 23:34:37 +0500
-
 ---
 
 ## CE - Accurate Indoor Location for the IoT (Jan 19)

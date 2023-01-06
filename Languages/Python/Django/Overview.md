@@ -1,9 +1,5 @@
 # Overview
 
-Created: 2017-10-26 17:47:09 +0500
-
-Modified: 2022-05-20 20:29:33 +0500
-
 ---
 
 <https://www.djangoproject.com/start/overview>

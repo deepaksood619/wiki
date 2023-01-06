@@ -1,9 +1,5 @@
 # MBBS / Medicine / Medical / Health
 
-Created: 2018-11-22 23:36:10 +0500
-
-Modified: 2022-05-03 22:48:30 +0500
-
 ---
 
 The MBBS course is divided into 3 phases -

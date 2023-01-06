@@ -1,9 +1,5 @@
 # Security, Identity & Compliance
 
-Created: 2020-02-21 01:05:30 +0500
-
-Modified: 2022-03-12 13:21:46 +0500
-
 ---
 
 1. AWS Identity & Access Management (IAM)

@@ -1,9 +1,5 @@
 # Business
 
-Created: 2020-11-30 23:28:46 +0500
-
-Modified: 2022-05-25 15:09:27 +0500
-
 ---
 
 <https://hbr.org>

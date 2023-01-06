@@ -1,9 +1,5 @@
 # Life / Relationship / People
 
-Created: 2018-07-13 21:47:55 +0500
-
-Modified: 2022-10-02 22:21:39 +0500
-
 ---
 
 When working with people, assume good intentions.

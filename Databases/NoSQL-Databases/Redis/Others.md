@@ -1,9 +1,5 @@
 # Others
 
-Created: 2020-03-24 11:54:17 +0500
-
-Modified: 2021-03-24 15:54:36 +0500
-
 ---
 
 ## Redis Time Series

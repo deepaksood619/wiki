@@ -1,9 +1,5 @@
 # Minimum Spanning Tree
 
-Created: 2018-05-22 19:26:14 +0500
-
-Modified: 2018-05-22 19:28:49 +0500
-
 ---
 
 ## Properties of MST

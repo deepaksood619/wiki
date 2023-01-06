@@ -1,9 +1,5 @@
 # Inverted Index
 
-Created: 2018-04-18 01:38:31 +0500
-
-Modified: 2021-05-16 11:48:52 +0500
-
 ---
 
 In [computer science](https://en.wikipedia.org/wiki/Computer_science), aninverted index(also referred to aspostings fileorinverted file) is an [index data structure](https://en.wikipedia.org/wiki/Index_(database)) storing a mapping from content, such as words or numbers, to its locations in a [database file](https://en.wikipedia.org/wiki/Table_(database)), or in a document or a set of documents (named in contrast to a [forward index](https://en.wikipedia.org/wiki/Forward_index), which maps from documents to content). The purpose of an inverted index is to allow fast [full text searches](https://en.wikipedia.org/wiki/Full_text_search), at a cost of increased processing when a document is added to the database. The inverted file may be the database file itself, rather than its [index](https://en.wikipedia.org/wiki/Index_(database)). It is the most popular data structure used in [document retrieval](https://en.wikipedia.org/wiki/Document_retrieval) systems, used on a large scale for example in [search engines](https://en.wikipedia.org/wiki/Search_engine).

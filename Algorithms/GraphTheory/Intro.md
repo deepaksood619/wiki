@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-01-18 12:45:34 +0500
-
-Modified: 2022-10-30 23:55:10 +0500
-
 ---
 
 ## Origins of Graph Theory

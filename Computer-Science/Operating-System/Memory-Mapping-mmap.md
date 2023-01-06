@@ -1,9 +1,5 @@
 # Memory Mapping mmap
 
-Created: 2019-06-27 12:08:25 +0500
-
-Modified: 2021-07-27 22:26:07 +0500
-
 ---
 
 ## Memory Mapping (mmap)

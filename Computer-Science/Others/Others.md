@@ -1,9 +1,5 @@
 # Others
 
-Created: 2018-05-03 22:40:45 +0500
-
-Modified: 2022-04-09 13:11:28 +0500
-
 ---
 
 ## Gamification

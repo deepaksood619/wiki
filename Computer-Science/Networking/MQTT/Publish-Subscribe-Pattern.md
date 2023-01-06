@@ -1,9 +1,5 @@
 # Publish Subscribe Pattern
 
-Created: 2019-03-12 17:01:50 +0500
-
-Modified: 2019-03-12 18:20:46 +0500
-
 ---
 
 The publish/subscribe pattern (also known as pub/sub) provides an alternative to traditional client-server architecture. In the client-sever model, a client communicates directly with an endpoint.The pub/sub model**decouples the client that sends a message (the publisher) from the client or clients that receive the messages (the subscribers)**. The publishers and subscribers never contact each other directly. In fact, they are not even aware that the other exists.**The connection between them is handled by a third component (the broker)**. The job of the broker is to filter all incoming messages and distribute them correctly to subscribers.

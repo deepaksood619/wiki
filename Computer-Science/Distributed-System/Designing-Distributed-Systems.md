@@ -1,9 +1,5 @@
 # Designing Distributed Systems
 
-Created: 2018-10-11 11:28:16 +0500
-
-Modified: 2020-01-21 16:20:18 +0500
-
 ---
 
 # Designing Distributed Systems

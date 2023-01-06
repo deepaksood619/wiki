@@ -1,9 +1,5 @@
 # Intro - Syllabus
 
-Created: 2018-06-01 21:27:26 +0500
-
-Modified: 2021-10-24 18:08:12 +0500
-
 ---
 
 # Introduction to Probability - The Science of Uncertainty - MITx - 6.041x

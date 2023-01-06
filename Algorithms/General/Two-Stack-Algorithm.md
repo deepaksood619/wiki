@@ -1,9 +1,5 @@
 # Two-Stack Algorithm
 
-Created: 2018-01-31 10:03:16 +0500
-
-Modified: 2018-01-31 10:06:43 +0500
-
 ---
 
 Goal: Evaluate Infix Expressions

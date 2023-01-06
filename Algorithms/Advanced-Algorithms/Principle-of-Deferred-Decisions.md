@@ -1,9 +1,5 @@
 # Principle of Deferred Decisions
 
-Created: 2018-05-17 02:42:43 +0500
-
-Modified: 2018-05-17 02:43:00 +0500
-
 ---
 
 The principle of deferred decisions is the concept that we have two ways to make a random choice both of which are equivalent.

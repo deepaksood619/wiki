@@ -1,9 +1,5 @@
 # JavaScript Templating
 
-Created: 2017-12-26 22:49:58 +0500
-
-Modified: 2022-11-21 19:22:22 +0500
-
 ---
 
 <https://medium.com/@BuildMySite1/javascript-templating-what-is-templating-7ff49d97db6b>

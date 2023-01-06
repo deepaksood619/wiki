@@ -1,9 +1,5 @@
 # Operators / Wildcards
 
-Created: 2019-12-01 13:14:48 +0500
-
-Modified: 2021-12-01 16:15:07 +0500
-
 ---
 
 ## SQL Arithmetic Operators

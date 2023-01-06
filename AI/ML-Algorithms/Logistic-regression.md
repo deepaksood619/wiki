@@ -1,9 +1,5 @@
 # Logistic regression
 
-Created: 2018-06-22 11:04:46 +0500
-
-Modified: 2021-06-19 15:22:59 +0500
-
 ---
 
 Logistic regression is another technique borrowed by machine learning from the field of statistics. It is the go-to method for **binary classification problems** (problems with two class values).

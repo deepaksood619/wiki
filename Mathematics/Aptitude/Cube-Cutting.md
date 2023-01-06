@@ -1,9 +1,5 @@
 # Cube Cutting
 
-Created: 2018-05-26 02:09:13 +0500
-
-Modified: 2018-05-26 02:12:57 +0500
-
 ---
 
 Concepts -

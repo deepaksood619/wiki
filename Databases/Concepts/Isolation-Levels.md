@@ -1,9 +1,5 @@
 # Isolation Levels
 
-Created: 2019-07-02 22:58:00 +0500
-
-Modified: 2022-02-23 15:36:43 +0500
-
 ---
 
 ```sql

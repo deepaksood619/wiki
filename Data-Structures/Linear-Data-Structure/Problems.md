@@ -1,9 +1,5 @@
 # Problems
 
-Created: 2019-06-23 20:31:35 +0500
-
-Modified: 2019-06-24 05:58:16 +0500
-
 ---
 
 ## Anagrams (ABC, CBA are anagrams of each other)

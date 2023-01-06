@@ -1,9 +1,5 @@
 # Server Driven Mobile UIs
 
-Created: 2020-09-29 00:00:50 +0500
-
-Modified: 2022-10-30 23:34:15 +0500
-
 ---
 
 ## Apps

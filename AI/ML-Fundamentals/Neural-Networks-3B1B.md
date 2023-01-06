@@ -1,9 +1,5 @@
 # Neural Networks 3B1B
 
-Created: 2018-07-04 02:08:15 +0500
-
-Modified: 2021-04-03 20:47:25 +0500
-
 ---
 
 Mnemonic - Input, times Weight, add a Bias, Activate

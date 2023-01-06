@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2019-12-22 23:58:13 +0500
-
-Modified: 2021-06-06 16:49:28 +0500
-
 ---
 
 ## Subarray/substring

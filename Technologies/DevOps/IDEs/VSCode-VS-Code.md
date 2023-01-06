@@ -1,9 +1,5 @@
 # VSCode / VS Code
 
-Created: 2017-12-21 12:47:15 +0500
-
-Modified: 2022-12-07 08:48:20 +0500
-
 ---
 
 # Remove empty lines

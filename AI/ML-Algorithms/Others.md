@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-12-10 15:27:16 +0500
-
-Modified: 2021-06-14 19:40:53 +0500
-
 ---
 
 ## Bag Of Words (BOW)

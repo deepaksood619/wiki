@@ -1,9 +1,5 @@
 # virtualenv & pip
 
-Created: 2018-03-14 14:36:15 +0500
-
-Modified: 2022-09-10 11:53:17 +0500
-
 ---
 
 ## VirtualEnv

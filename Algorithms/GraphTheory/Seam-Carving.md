@@ -1,9 +1,5 @@
 # Seam Carving
 
-Created: 2018-03-12 22:56:13 +0500
-
-Modified: 2018-03-13 08:29:18 +0500
-
 ---
 
 ## Seam Carving for Content-Aware Image Resizing

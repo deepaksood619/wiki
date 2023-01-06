@@ -1,9 +1,5 @@
 # TimSort
 
-Created: 2018-08-21 09:44:35 +0500
-
-Modified: 2020-02-10 11:26:29 +0500
-
 ---
 
 - Hybrid algorithm which uses binary insertion sort and improved merge sort by using galloping in a combination.

@@ -1,9 +1,5 @@
 # NoSQL Databases
 
-Created: 2020-04-04 15:18:07 +0500
-
-Modified: 2021-08-08 09:17:03 +0500
-
 ---
 
 ## Aerospike

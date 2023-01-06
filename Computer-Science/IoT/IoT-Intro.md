@@ -1,9 +1,5 @@
 # IoT Intro
 
-Created: 2018-04-24 11:03:42 +0500
-
-Modified: 2021-07-04 22:16:04 +0500
-
 ---
 
 ## Internet of Things (IoT)

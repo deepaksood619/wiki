@@ -1,9 +1,5 @@
 # Photoshop
 
-Created: 2017-12-17 21:00:22 +0500
-
-Modified: 2021-07-29 23:35:03 +0500
-
 ---
 
 | **Photoshop**                                                                                                  |

@@ -1,9 +1,5 @@
 # Reductions
 
-Created: 2018-04-19 00:00:46 +0500
-
-Modified: 2018-12-23 22:47:34 +0500
-
 ---
 
 In this lecture our goal is to develop ways to classify problems according to their computational requirements. We introduce the concept of reduction as a technique for studying the relationship among problems. People use reductions to design algorithms, establish lower bounds, and classify problems in terms of their computational requirements.

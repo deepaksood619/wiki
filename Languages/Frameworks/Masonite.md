@@ -1,9 +1,5 @@
 # Masonite
 
-Created: 2019-06-10 12:35:33 +0500
-
-Modified: 2019-06-10 12:39:13 +0500
-
 ---
 
 The Modern And Developer Centric Python Web Framework.

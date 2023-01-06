@@ -1,9 +1,5 @@
 # AWS Aurora
 
-Created: 2020-02-13 23:20:13 +0500
-
-Modified: 2021-09-03 20:52:33 +0500
-
 ---
 
 For OLTP

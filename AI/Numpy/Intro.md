@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2017-12-15 08:49:07 +0500
-
-Modified: 2022-04-15 13:24:45 +0500
-
 ---
 
 <https://www.tutorialspoint.com/numpy/index.htm>

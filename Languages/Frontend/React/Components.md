@@ -1,9 +1,5 @@
 # Components
 
-Created: 2018-03-24 20:31:17 +0500
-
-Modified: 2021-11-16 00:31:15 +0500
-
 ---
 
 - Always component name should start with Capital letter

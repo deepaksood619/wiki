@@ -1,9 +1,5 @@
 # Concurrency / Threading
 
-Created: 2018-10-12 21:08:49 +0500
-
-Modified: 2020-07-01 13:41:18 +0500
-
 ---
 
 ## Concurrency

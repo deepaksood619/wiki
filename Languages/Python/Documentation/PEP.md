@@ -1,9 +1,5 @@
 # PEP
 
-Created: 2018-04-05 11:10:13 +0500
-
-Modified: 2018-12-20 21:23:27 +0500
-
 ---
 
 PEP-0 - Python Enhancement Proposals

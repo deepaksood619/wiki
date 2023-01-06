@@ -1,9 +1,5 @@
 # Others
 
-Created: 2019-08-10 16:46:51 +0500
-
-Modified: 2020-03-06 15:26:11 +0500
-
 ---
 
 ## Laplace Transform

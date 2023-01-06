@@ -1,9 +1,5 @@
 # Helm
 
-Created: 2019-01-03 13:17:41 +0500
-
-Modified: 2020-11-28 09:29:56 +0500
-
 ---
 
 ## The package manager for Kubernetes

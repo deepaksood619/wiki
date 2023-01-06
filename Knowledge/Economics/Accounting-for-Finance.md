@@ -1,9 +1,5 @@
 # Accounting for Finance
 
-Created: 2020-09-06 00:58:23 +0500
-
-Modified: 2022-11-29 15:51:34 +0500
-
 ---
 
 [Accounting 101 (taught by a non-accountant)](https://www.youtube.com/playlist?list=PLUkh9m2BorqmKaLrNBjKtFDhpdFdi8f7C)

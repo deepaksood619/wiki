@@ -1,9 +1,5 @@
 # Test Pyramid
 
-Created: 2019-03-19 16:01:01 +0500
-
-Modified: 2021-05-15 23:50:40 +0500
-
 ---
 
 ## Typical Test Pyramid

@@ -1,9 +1,5 @@
 # Problems
 
-Created: 2018-04-25 23:21:16 +0500
-
-Modified: 2019-06-23 20:30:19 +0500
-
 ---
 
 ## Tree Traversals

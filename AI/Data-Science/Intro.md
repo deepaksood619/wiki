@@ -1,9 +1,5 @@
 # Intro
 
-Created: 2018-06-29 11:29:35 +0500
-
-Modified: 2022-02-10 22:27:09 +0500
-
 ---
 
 1. Problem Framing

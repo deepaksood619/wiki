@@ -1,9 +1,5 @@
 # MySQL Indexing
 
-Created: 2020-10-12 23:31:27 +0500
-
-Modified: 2022-12-11 14:39:00 +0500
-
 ---
 
 ## Important Points

@@ -1,9 +1,5 @@
 # HTTP Authentication
 
-Created: 2018-12-03 18:23:29 +0500
-
-Modified: 2021-10-16 00:45:16 +0500
-
 ---
 
 [RFC 7235](https://tools.ietf.org/html/rfc7235) defines the HTTP authentication framework which can be used by a server to [challenge](https://developer.mozilla.org/en-US/docs/Glossary/challenge) a client request and by a client to provide authentication information.

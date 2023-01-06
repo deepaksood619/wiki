@@ -1,9 +1,5 @@
 # Characteristics
 
-Created: 2020-02-22 23:56:41 +0500
-
-Modified: 2020-02-22 23:57:55 +0500
-
 ---
 
 ## Characteristics of Data warehouse

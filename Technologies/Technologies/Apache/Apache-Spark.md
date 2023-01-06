@@ -1,9 +1,5 @@
 # Apache Spark
 
-Created: 2018-12-02 23:32:24 +0500
-
-Modified: 2021-11-09 21:18:25 +0500
-
 ---
 
 Spark is a general purpose distributed data processing engine. Or in other words: load big data, do computations on it in a distributed way, and then store it.

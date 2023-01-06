@@ -1,9 +1,5 @@
 # Joins
 
-Created: 2020-03-15 00:58:25 +0500
-
-Modified: 2020-03-15 00:59:35 +0500
-
 ---
 
 ## Sort Merge Joins

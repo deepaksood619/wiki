@@ -1,9 +1,5 @@
 # Image Formats
 
-Created: 2018-03-29 19:36:53 +0500
-
-Modified: 2022-05-23 20:47:10 +0500
-
 ---
 
 ## Exchangeable image file format (EXIF)

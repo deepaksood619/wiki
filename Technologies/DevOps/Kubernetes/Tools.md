@@ -1,9 +1,5 @@
 # Tools
 
-Created: 2019-01-03 12:23:22 +0500
-
-Modified: 2022-02-05 01:34:17 +0500
-
 ---
 
 <https://devops-stack.io>

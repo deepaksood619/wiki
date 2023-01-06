@@ -1,9 +1,5 @@
 # Levenshtein distance or Edit Distance
 
-Created: 2017-11-20 08:16:08 +0500
-
-Modified: 2019-01-21 22:58:11 +0500
-
 ---
 
 The Levenshtein Distance, or Edit Distance, is the amount by which two strings differ.

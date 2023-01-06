@@ -1,9 +1,5 @@
 # Controllers
 
-Created: 2019-03-18 23:09:05 +0500
-
-Modified: 2020-08-05 12:00:11 +0500
-
 ---
 
 ## Controllers / Operators

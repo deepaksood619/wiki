@@ -1,9 +1,5 @@
 # kafkacat
 
-Created: 2019-01-04 18:18:04 +0500
-
-Modified: 2020-08-21 17:49:34 +0500
-
 ---
 
 <https://github.com/edenhill/kafkacat>
