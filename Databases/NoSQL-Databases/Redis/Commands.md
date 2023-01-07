@@ -1,7 +1,5 @@
 # Commands
 
----
-
 ## Installation
 
 ```bash

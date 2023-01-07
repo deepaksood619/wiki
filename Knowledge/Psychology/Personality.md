@@ -1,7 +1,5 @@
 # Personality
 
----
-
 MBTI - Myers-Briggs Type Indicator for personality test
 
 <https://www.16personalities.com/free-personality-test>

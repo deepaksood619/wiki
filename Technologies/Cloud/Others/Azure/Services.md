@@ -1,7 +1,5 @@
 # Services
 
----
-
 ## AI + Machine Learning
 
 Create the next generation of applications using artificial intelligence capabilities for any developer and any scenario

@@ -1,7 +1,5 @@
 # OAuth
 
----
-
 - OAuth is an open standard for access delegation
 - OAuth provides to clients a "secure delegated access" to server resources on behalf of a resource owner
 - OAuth2 is more of a framework than a defined protocol

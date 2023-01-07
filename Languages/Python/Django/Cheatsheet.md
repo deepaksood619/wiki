@@ -1,7 +1,5 @@
 # Cheatsheet
 
----
-
 ![image](media/Cheatsheet-image1.png)
 
 ![image](media/Cheatsheet-image2.png)

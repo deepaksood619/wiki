@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Origins of Graph Theory
 
 The seven bridge of Künigsberg.

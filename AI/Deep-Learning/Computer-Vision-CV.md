@@ -1,7 +1,5 @@
 # Computer Vision / CV
 
----
-
 [13.1. Image Augmentation](https://d2l.ai/chapter_computer-vision/image-augmentation.html)
 
 [13.2. Fine-Tuning](https://d2l.ai/chapter_computer-vision/fine-tuning.html)

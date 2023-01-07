@@ -1,7 +1,5 @@
 # Tools
 
----
-
 ## dex
 
 Dex is an identity service that uses [OpenID Connect](https://openid.net/connect/) to drive authentication for other apps.

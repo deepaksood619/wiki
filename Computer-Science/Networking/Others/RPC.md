@@ -1,7 +1,5 @@
 # RPC
 
----
-
 <https://sbdevel.wordpress.com/2009/12/17/the-case-rpc-vs-messaging>
 
 ## RPC stands for Remote Procedure Call

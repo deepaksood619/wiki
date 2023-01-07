@@ -1,7 +1,5 @@
 # 365 Data Science Program
 
----
-
 1. Intro to Data and Data Science
 
 2. Introduction to Microsoft Excel

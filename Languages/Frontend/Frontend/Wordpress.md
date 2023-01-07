@@ -1,7 +1,5 @@
 # Wordpress
 
----
-
 <https://wordpress.com/home/deepaksood619.wordpress.com>
 
 WordPress is a content management system that powers 34% of all websites on the internet and 60% of websites that run on CMS. The power of WordPress is in the ecosystem - there are a lot of different plugins and themes. Anyone without any special programming knowledge can build a website, but a working knowledge of WordPress intricacies is a boon to any developer or designer resume.

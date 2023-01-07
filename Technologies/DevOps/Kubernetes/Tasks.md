@@ -1,7 +1,5 @@
 # Tasks
 
----
-
 ## Monitoring, Logging and Debugging
 
 ## Auditing

@@ -1,7 +1,5 @@
 # Crash Course World History
 
----
-
 ## Crash Course World History 1
 
 1. **The Agriculture Revolution**

@@ -1,7 +1,5 @@
 # Ethereum
 
----
-
 Ethereum is a**decentralized platform** that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.
 Uses Solidity as a programming language.
 Ethereum's mechanism to choose the most valid chain is called the "GHOST protocol". GHOST stands for "Greedy Heaviest Observed Subtree". Essentially, it picks the path that has had the most computation done on it. The protocol uses the block number of the most recent block, this represents the total number of blocks in the current path. The higher the block number, the longer the path and as such the larger the mining effort that had to have gone into arriving at the most recent block. This allows the network to agree on the correct version of the current state.-  Ethereum Virtual Machine is a decentralized virtual machine that can run crypto economically secured bits of code called smart contract.

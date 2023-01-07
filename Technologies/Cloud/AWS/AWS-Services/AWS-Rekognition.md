@@ -1,7 +1,5 @@
 # AWS Rekognition
 
----
-
 ## Moderating Content / Content Moderation / Community Moderation
 
 You can use Amazon Rekognition to detect content that is inappropriate, unwanted, or offensive. You can use Rekognition moderation APIs in social media, broadcast media, advertising, and e-commerce situations to create a safer user experience, provide brand safety assurances to advertisers, and comply with local and global regulations.

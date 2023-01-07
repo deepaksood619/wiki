@@ -1,7 +1,5 @@
 # Terms
 
----
-
 # A
 
 - [Acceptance Testing](https://www.tutorialspoint.com/software_testing_dictionary/acceptance_testing.htm)

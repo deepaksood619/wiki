@@ -1,7 +1,5 @@
 # Others - Data
 
----
-
 ## Data Hub
 
 Data Discovery and Lineage for Big Data Ecosystem

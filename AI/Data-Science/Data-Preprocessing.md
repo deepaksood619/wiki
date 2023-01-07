@@ -1,7 +1,5 @@
 # Data Preprocessing
 
----
-
 ## Data Quality
 
 - What kinds of data quality problems?

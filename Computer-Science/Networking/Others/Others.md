@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## OpenConnect
 
 ## OpenConnectis an [open-source software](https://en.wikipedia.org/wiki/Open-source_software) application for connecting to [virtual private networks](https://en.wikipedia.org/wiki/Virtual_private_network)(VPN), which implement secure [point-to-point](https://en.wikipedia.org/wiki/Point-to-point_(telecommunications)) connections

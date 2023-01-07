@@ -1,7 +1,5 @@
 # Exercise / Stretching
 
----
-
 Your entire life happens inside your body. It's the one home you will always occupy and can never sell.
 
 But you can renovate it.

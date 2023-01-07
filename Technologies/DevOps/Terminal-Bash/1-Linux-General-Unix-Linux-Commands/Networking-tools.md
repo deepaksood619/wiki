@@ -1,7 +1,5 @@
 # Networking tools
 
----
-
 ![image](../../../media/DevOps-Terminal-Bash-Networking-tools-image1.jpg)
 
 <https://haydenjames.io/linux-networking-commands-scripts>

@@ -1,7 +1,5 @@
 # AWS Aurora
 
----
-
 For OLTP
 High Performance Managed Relational Database
 Amazon Aurora is a relational database offered as a service in Amazon's AWS. Based on the open source version of MySQL, it is a commercial database that claims to be compatible with MySQL and PostgreSQL while providing superior throughput. Being provided as a cloud service, Aurora promises high availability by using distributed replications of backend storage. The system is being actively maintained and updated by Amazon.

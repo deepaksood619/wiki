@@ -1,7 +1,5 @@
 # Monitoring
 
----
-
 # Confluent Control Center
 
 Confluent Control Center is a web-based tool for managing and monitoring Apache Kafka. Control Center provides the functionality for building and monitoring production data pipelines and streaming applications.

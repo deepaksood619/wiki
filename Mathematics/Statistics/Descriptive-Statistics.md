@@ -1,7 +1,5 @@
 # Descriptive Statistics
 
----
-
 Levels of measurement
 
 Categorical variables. Visualization techniques

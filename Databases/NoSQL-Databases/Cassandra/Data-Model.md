@@ -1,7 +1,5 @@
 # Data Model
 
----
-
 - **Partition Key**
 
 - **Clustering Key**

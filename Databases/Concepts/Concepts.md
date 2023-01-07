@@ -1,7 +1,5 @@
 # Concepts
 
----
-
 CRUD - Create, Read, Update, Delete
 
 INSERT, SELECT, UPDATE, DELETE

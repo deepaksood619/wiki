@@ -1,7 +1,5 @@
 # Problems
 
----
-
 ## Tree Traversals
 
 1. Preorder

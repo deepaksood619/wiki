@@ -1,7 +1,5 @@
 # Syntax
 
----
-
 ## Compile-time constants
 
 | **Name**              | **Description**                                                                                                                                                                                                                                 |

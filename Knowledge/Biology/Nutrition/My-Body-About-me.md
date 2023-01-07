@@ -1,7 +1,5 @@
 # My Body / About me
 
----
-
 ## Age - 28
 
 ## Weight - 58 KG / 127 pounds

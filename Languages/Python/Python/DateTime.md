@@ -1,7 +1,5 @@
 # DateTime
 
----
-
 ## Concepts
 
 1. **Tick**

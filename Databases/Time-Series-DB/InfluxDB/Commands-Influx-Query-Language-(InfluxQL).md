@@ -1,7 +1,5 @@
 # Commands / Influx Query Language (InfluxQL)
 
----
-
 1. [Sample data](https://docs.influxdata.com/influxdb/v1.7/query_language/data_download/)
 
 2. [Data exploration](https://docs.influxdata.com/influxdb/v1.7/query_language/data_exploration/)

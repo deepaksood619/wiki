@@ -1,7 +1,5 @@
 # LZW Compression
 
----
-
 LZF belongs to a family of compression codecs called "simple Lempel-Ziv" codecs. Since LZ compression is also the first part ofdeflatecompression (which is used, along with simple framing, forgzip), it can be viewed as "first-part of gzip" (second part being Huffman-encoding of compressed content).
 
 - Used in Druid

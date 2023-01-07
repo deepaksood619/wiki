@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Outline
 
 ## Basic

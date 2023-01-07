@@ -1,7 +1,5 @@
 # Course - Investing Zerodha Varsity
 
----
-
 ## Fundamental Analysis
 
 Fundamental Analysis is the art of evaluating the intrinsic value of a stock to find long-term investing opportunities. Learn stock analysis in this module

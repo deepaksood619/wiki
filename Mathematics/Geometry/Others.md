@@ -1,7 +1,5 @@
 # Others
 
----
-
 1. Law of haversines / Haversine formula
 
 ## References

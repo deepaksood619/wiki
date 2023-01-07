@@ -1,7 +1,5 @@
 # Data Types
 
----
-
 MongoDB supports many datatypes. Some of them are −
 
 - **String−** This is the most commonly used datatype to store the data. String in MongoDB must be UTF-8 valid.

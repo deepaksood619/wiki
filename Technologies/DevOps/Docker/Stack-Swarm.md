@@ -1,7 +1,5 @@
 # Stack / Swarm
 
----
-
 Defines the interactions of all the services.
 
 ## Swarm

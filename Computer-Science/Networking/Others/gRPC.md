@@ -1,7 +1,5 @@
 # gRPC
 
----
-
 - RPC - Remote Procedure Call framework that uses HTTP 2.0 and Protocol Buffers
 - A high performance, open-source universal RPC framework
 

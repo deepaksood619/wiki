@@ -1,7 +1,5 @@
 # The Python Standard Library
 
----
-
 ## Documentation
 
 - The Python Standard Library - standard objects and modules

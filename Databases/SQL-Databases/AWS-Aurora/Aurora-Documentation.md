@@ -1,7 +1,5 @@
 # Aurora Documentation
 
----
-
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html>
 
 ### Integration Aurora MySQL with AWS Services > Saving data into text files in Amazon S3

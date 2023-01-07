@@ -1,7 +1,5 @@
 # File IO
 
----
-
 <https://towardsdatascience.com/knowing-these-you-can-cover-99-of-file-operations-in-python-84725d82c2df>
 
 ![Image for post](media/File-IO-image1.png)

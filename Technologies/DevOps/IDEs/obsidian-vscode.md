@@ -1,7 +1,5 @@
 # Obsidian + VS Code
 
----
-
 ## Extension - Foam
 
 <https://foambubble.github.io/foam>

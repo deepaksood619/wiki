@@ -1,7 +1,5 @@
 # GYM Nutrition
 
----
-
 ## Proteins
 
 Eggs - 3 (breakfast) / 3 (evening snacks)

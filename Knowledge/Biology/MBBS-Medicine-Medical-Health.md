@@ -1,7 +1,5 @@
 # MBBS / Medicine / Medical / Health
 
----
-
 The MBBS course is divided into 3 phases -
 
 1. Pre-clinical (one year August to July)

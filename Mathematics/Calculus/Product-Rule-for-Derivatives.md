@@ -1,7 +1,5 @@
 # Product Rule for Derivatives
 
----
-
 ![image](media/Product-Rule-for-Derivatives-image1.png)
 
 Fifth is *function composition*

@@ -1,7 +1,5 @@
 # Exceptions
 
----
-
 ## Should I Use Exceptions of Conditional Handling?
 
 Python best practice is to use exceptions as a better way to handle "exceptional" cases. Unnecessary use ofif's may slow down your code. Although, keep in mind frequent "except" calls [are even slower](http://stackoverflow.com/questions/2522005/cost-of-exception-handlers-in-python) than plainifconditional handling, so you must use it wisely.

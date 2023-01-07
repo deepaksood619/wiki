@@ -1,7 +1,5 @@
 # OOPS
 
----
-
 In Python, everything is an object, and can be handled as such. This is what is meant when we say, for example, that functions are first-class objects. Functions, classes, strings, and even types are objects in Python: like any object, they have a type, they can be passed as function arguments, and they may have methods and properties. In this understanding, Python is an object-oriented language.
 
 ## The four major principles of object orientation are

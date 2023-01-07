@@ -1,7 +1,5 @@
 # Storage classes
 
----
-
 <https://www.tutorialspoint.com/cplusplus/cpp_storage_classes.htm>
 
 Storage classes defines the scope(visibility) and life-time of the variables and/or functions within a c++ program. These specifiers precede the type that they modify.

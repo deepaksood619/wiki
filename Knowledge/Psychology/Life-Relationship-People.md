@@ -1,7 +1,5 @@
 # Life / Relationship / People
 
----
-
 When working with people, assume good intentions.
 
 When listening to people, interpret their words in a generous way.

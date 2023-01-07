@@ -1,7 +1,5 @@
 # Design
 
----
-
 ## Partitioner
 
 - Token Value Distribution

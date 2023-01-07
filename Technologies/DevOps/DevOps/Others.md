@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Resource Estimation/Capacity Planning
 
 ## Federated Identity

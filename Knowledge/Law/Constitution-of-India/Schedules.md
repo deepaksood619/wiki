@@ -1,7 +1,5 @@
 # Schedules
 
----
-
 Schedules - Additional details (like languages list)
 
 TEARS OF OLD PM

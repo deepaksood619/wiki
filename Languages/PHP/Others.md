@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## PHP Package Manager
 
 ## composer

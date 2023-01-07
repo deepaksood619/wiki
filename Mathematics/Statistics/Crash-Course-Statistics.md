@@ -1,7 +1,5 @@
 # Crash Course Statistics
 
----
-
 [Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
 
 1. **Z-scores and percentiles**

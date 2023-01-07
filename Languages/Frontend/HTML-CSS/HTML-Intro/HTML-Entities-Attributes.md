@@ -1,7 +1,5 @@
 # HTML Entities / Attributes
 
----
-
 Reserved characters in HTML must be replaced with character entities.
 
 Characters that are not present on your keyboard can also be replaced by entities.

@@ -1,7 +1,5 @@
 # Commands
 
----
-
 `git clone -b master <https://github.com/emqx/emqx-docker.git>`
 
 `cd emqx-docker && docker build -t emqx:latest .`

@@ -1,7 +1,5 @@
 # Algorithms Questions
 
----
-
 ## Homework Problems
 
 1. sum from 0 to given number using recursion
@@ -43,19 +41,19 @@ We consider the following (solitary) game: each node of a directed graph contain
 
 import sys
 
-def maxSubArraySum(a,size): 
+def maxSubArraySum(a,size):
  max_so_far = -sys.maxsize - 1
  max_ending_here = 0
 
- for i in range(0, size): 
-  max_ending_here += a[i] 
+ for i in range(0, size):
+  max_ending_here += a[i]
 
-  if max_ending_here < 0: 
+  if max_ending_here < 0:
    max_ending_here = 0
 
   elif max_so_far < max_ending_here:
-   max_so_far = max_ending_here 
- 
+   max_so_far = max_ending_here
+
  return max_so_far
 
 # getting start and end of subarray
@@ -65,20 +63,20 @@ def maxSubArraySum(a,size):
     start = 0
     end = 0
     s = 0
-  
-    for i in range(0,size): 
-  
-        max_ending_here += a[i] 
-  
-        if max_so_far < max_ending_here: 
-            max_so_far = max_ending_here 
+
+    for i in range(0,size):
+
+        max_ending_here += a[i]
+
+        if max_so_far < max_ending_here:
+            max_so_far = max_ending_here
             start = s
             end = i
-  
-        if max_ending_here < 0: 
+
+        if max_ending_here < 0:
             max_ending_here = 0
             s = i+1
-    
+
     print(f'start {start}, end {end}')
     return max_so_far
 ```
@@ -91,7 +89,7 @@ def maxSubArraySum(a,size):
 
 ## Interview Problems
 
-### Reverse a String:
+### Reverse a String
 
 ```python
 if len(s) <= 1:
@@ -114,7 +112,7 @@ def permute(s):
             for each_perm in permute(s[:index] + s[index+1:]):
                 # Add it to output
                 output.append(value + each_perm)
-                
+
     return output
 ```
 
@@ -136,30 +134,30 @@ return fib_rec(n-1) + fib_rec(n-2)
 def rec_coin_dyn(target, coins, known_results):
     # default output to target
     min_coins = target
-    
+
     # base case
     if target in coins:
         known_results[target] = 1
         return 1
-    
+
     # return a known_result if it happens to be greater than 1
     elif known_results[target] > 0:
         return known_results[target]
-    
+
     else:
         # for every coin that is smaller than the target
         for i in [c for c in coins if c <= target]:
-            
+
             # recursive call (add a count coin and subtract from the target)
             num_coins = 1 + rec_coin_dyn(target-i, coins, known_results)
-            
+
             # reset minimum if we have a new minimum
             if num_coins < min_coins:
                 min_coins = num_coins
-                
+
                 # reset the known results
                 known_results[target] = min_coins
-    
+
     return min_coins
 ```
 

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## systemd / initd
 
 systemdis a collection of tools for a range of different tasks.Its primary purpose is initializing, managing and tracking system services and daemons in Fedora, both during startupand while the system is running.

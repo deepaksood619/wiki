@@ -1,7 +1,5 @@
 # MCAT
 
----
-
 ## CARS - Critical Analysis and Reasoning Skills
 
 Questions

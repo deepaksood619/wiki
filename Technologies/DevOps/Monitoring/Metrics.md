@@ -1,7 +1,5 @@
 # Metrics
 
----
-
 ## Monitoring Introduction
 
 - What are your monitoring goals?

@@ -1,7 +1,5 @@
 # Mistakes
 
----
-
 ## Usage Mistakes
 
 ### Affect vs. Effect

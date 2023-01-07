@@ -1,7 +1,5 @@
 # ML Process
 
----
-
 ML Process
 
 1. Acquire data

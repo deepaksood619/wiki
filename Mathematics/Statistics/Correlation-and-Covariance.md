@@ -1,7 +1,5 @@
 # Correlation and Covariance
 
----
-
 ## Data Relationships
 
 In statistics, we can also examine how two or more variables are related to each other

@@ -1,7 +1,5 @@
 # virtualenv & pip
 
----
-
 ## VirtualEnv
 
 virtualenv is a tool to create isolated Python environments. We can create a new Python environment to run a Python/Django/whatever app and install all package dependencies into the virtualenv without affecting your system's site-packages

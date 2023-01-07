@@ -1,7 +1,5 @@
 # Types of Databases
 
----
-
 ## Types of databases
 
 1. Relational database (ACID)

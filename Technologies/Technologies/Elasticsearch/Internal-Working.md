@@ -1,7 +1,5 @@
 # Internal Working
 
----
-
 Here is the sequenceof steps necessary to successfully create, index, or delete a document on both the primary and any replica shards:
 
 1. The client sends a create, index, or delete request toNode 1.

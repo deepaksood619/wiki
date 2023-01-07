@@ -1,7 +1,5 @@
 # QoS Levels
 
----
-
 ## What is Quality of Service?
 
 TheQuality of Service(QoS) level is an agreement between the sender of a message and the receiver of a message that defines the guarantee of delivery for a specific message.

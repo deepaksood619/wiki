@@ -1,7 +1,5 @@
 # Business / Management
 
----
-
 ## 97.42% is a fictional number that figuratively conveys the idea of a significant percentage
 
 ## Vision + Values = Mission

@@ -1,7 +1,5 @@
 # JVM Architecture
 
----
-
 ![image](media/JVM-Architecture-image1.png)
 
 JVM is divided into three main subsystems

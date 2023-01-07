@@ -1,7 +1,5 @@
 # Concurrency Problems
 
----
-
 # Problems
 
 - Deadlock

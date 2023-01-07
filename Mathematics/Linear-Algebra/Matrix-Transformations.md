@@ -1,7 +1,5 @@
 # Matrix Transformations
 
----
-
 1. [Functions and linear transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations#linear-transformations)
 
 2. [Linear transformation examples](https://www.khanacademy.org/math/linear-algebra/matrix-transformations#lin-trans-examples)

@@ -1,7 +1,5 @@
 # Libraries
 
----
-
 ## TODO
 
 - **React Query -** <https://react-query.tanstack.com>

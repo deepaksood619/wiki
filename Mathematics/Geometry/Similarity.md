@@ -1,7 +1,5 @@
 # Similarity
 
----
-
 [Definitions of similarity:Similarity](https://www.khanacademy.org/math/geometry/hs-geo-similarity#hs-geo-similarity-definitions)
 
 [Introduction to triangle similarity:Similarity](https://www.khanacademy.org/math/geometry/hs-geo-similarity#hs-geo-triangle-similarity-intro)

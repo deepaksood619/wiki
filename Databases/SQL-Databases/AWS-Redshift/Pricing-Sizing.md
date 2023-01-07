@@ -1,7 +1,5 @@
 # Pricing / Sizing
 
----
-
 ## Node Types
 
 Amazon Redshift offers different node types to accommodate your workloads, and we recommend choosing RA3 or DC2 depending on the required performance, data size and its growth.

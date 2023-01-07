@@ -1,7 +1,5 @@
 # Resources
 
----
-
 ![image](media/Resources-image1.png)
 
 ![image](media/Resources-image2.png)

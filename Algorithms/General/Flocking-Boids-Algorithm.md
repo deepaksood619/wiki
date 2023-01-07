@@ -1,7 +1,5 @@
 # Flocking Boids Algorithm
 
----
-
 Boids: Three simple rules lead to complex emergent flocking behavior in birds:
 
 - Collision avoidance: point away from k nearest boids

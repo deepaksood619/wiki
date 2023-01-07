@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Creating a new account
 
 1. Signup

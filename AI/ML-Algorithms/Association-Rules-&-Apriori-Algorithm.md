@@ -1,7 +1,5 @@
 # Association Rules & Apriori Algorithm
 
----
-
 ## Association Rule Mining
 
 - Given a set of transactions, find rules that will predict the occurrence of an item based on the occurrences of other items in the transaction

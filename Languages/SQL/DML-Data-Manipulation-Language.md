@@ -1,7 +1,5 @@
 # DML - Data Manipulation Language
 
----
-
 DML (Data Manipulation Language) commands [need to be](http://www.dba-oracle.com/t_dml_statements.htm) **commited/rolled back**
 
 ```sql

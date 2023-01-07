@@ -1,7 +1,5 @@
 # Ingress
 
----
-
 An API object that manages external access to the services in a cluster, typically HTTP.
 
 An ingress controller is a piece of software that provides reverse proxy, configurable traffic routing, and TLS termination for Kubernetes services.

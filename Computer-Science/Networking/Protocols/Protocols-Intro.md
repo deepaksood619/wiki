@@ -1,7 +1,5 @@
 # Protocols Intro
 
----
-
 ## Media Access Control (MAC Address)
 
 Media access control is a communications protocol that is used to distinguish specific devices. Each device is supposed to get a unique MAC address during the manufacturing process that differentiates it from every other device on the internet.

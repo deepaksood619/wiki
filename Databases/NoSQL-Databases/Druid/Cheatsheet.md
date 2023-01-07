@@ -1,7 +1,5 @@
 # Cheatsheet
 
----
-
 | Common                                          |                                                                                                                        |
 |-----------------------|-------------------------------------------------|
 | /status                                         | Returns the Druid version, loaded extens­ions, memory used, total memory and other useful inform­ation about the process. |

@@ -1,7 +1,5 @@
 # Examples
 
----
-
 ```python
 ## Loading a csv in pandas
 

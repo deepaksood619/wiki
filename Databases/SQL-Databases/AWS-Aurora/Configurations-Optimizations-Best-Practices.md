@@ -1,7 +1,5 @@
 # Configurations / Optimizations / Best Practices
 
----
-
 ### Database Configuration
 
 There are two types of Aurora MySQL parameter groups: DB parameter groups and DB cluster parameter groups. Some parameters affect the configuration for an entire DB cluster, like binary log format, time zone, and character set defaults. Others limit their scope to a single DB instance.

@@ -1,7 +1,5 @@
 # user_guide
 
----
-
 <https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html>
 
 - [IO tools (text, CSV, HDF5, ...)](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)

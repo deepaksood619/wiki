@@ -1,7 +1,5 @@
 # D3 (Data Driven Documents)
 
----
-
 <https://www.freecodecamp.org/learn/data-visualization>
 
 D3, or D3.js, stands for Data Driven Documents. It's a JavaScript library for creating dynamic and interactive data visualizations in the browser.

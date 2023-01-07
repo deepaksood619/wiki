@@ -1,7 +1,5 @@
 # Databases
 
----
-
 1. SnowFlake
 
 2. AWS Redshift

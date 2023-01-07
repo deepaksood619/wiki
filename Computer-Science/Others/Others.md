@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Gamification
 
 The use of game elements and game design techniques in non-game contexts

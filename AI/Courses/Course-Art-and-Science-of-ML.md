@@ -1,7 +1,5 @@
 # Course - Art and Science of ML
 
----
-
 ## Introduction
 
 Course overview highlighting the key objectives and modules. First, you will learn about aspects of Machine Learning that require some intuition, good judgment and experimentation. We call it the Art of ML. You will learn the many knobs and levers involved in training a model. You will manually adjust them to see their effects on model performance.

@@ -1,7 +1,5 @@
 # Artificial Neural Networks
 
----
-
 ![image](media/Artificial-Neural-Networks-image1.png)
 
 ![image](media/Artificial-Neural-Networks-image2.png)

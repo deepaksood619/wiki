@@ -1,7 +1,5 @@
 # Quick Select
 
----
-
 Randomized quickselect, a quicksort variant which finds the kth smallest item in linear time.
 
 Goal - Given an array of N items, find a kth smallest item.

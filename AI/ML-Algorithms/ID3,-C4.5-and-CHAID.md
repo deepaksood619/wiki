@@ -1,7 +1,5 @@
 # ID3, C4.5 and CHAID
 
----
-
 CHAID - Chi-Squared Automatic Interaction Detection
 
 ## C4.5 and CHAID Algorithm

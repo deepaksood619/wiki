@@ -1,7 +1,5 @@
 # AWS Sagemaker
 
----
-
 ![media](media/AWS-Sagemaker-image1.jpg)
 
 <https://www.youtube.com/playlist?list=PLhr1KZpdzukcOr_6j_zmSrvYnLUtgqsZz>

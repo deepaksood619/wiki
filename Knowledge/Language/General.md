@@ -1,7 +1,5 @@
 # General
 
----
-
 ## Subject Object Verbs
 
 ![image](media/General-image1.png)

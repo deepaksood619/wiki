@@ -1,7 +1,5 @@
 # Testing
 
----
-
 1. Create your inputs
 
 2. Execute the code, capturing the output

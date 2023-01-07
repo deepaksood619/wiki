@@ -1,7 +1,5 @@
 # Concurrency
 
----
-
 ## Global Interpreter Lock (GIL)
 
 GIL is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at once. This lock is necessary mainly because CPython's memory management is not thread-safe.

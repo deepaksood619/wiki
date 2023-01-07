@@ -1,7 +1,5 @@
 # Jupyter / Jupyterlab / notebook
 
----
-
 # Overview
 
 "Jupyter" is a loose acronym meaning Julia, Python, and R.

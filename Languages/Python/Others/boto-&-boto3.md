@@ -1,7 +1,5 @@
 # boto & boto3
 
----
-
 AWS SDK for python
 
 ## Security

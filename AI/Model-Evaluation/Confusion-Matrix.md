@@ -1,7 +1,5 @@
 # Confusion Matrix
 
----
-
 ## The confusion matrix shows - The observations broken down by actual classes and predicted classes
 
 ## Accuracy - The sum of true positives and true negatives, divided by the total number of observations

@@ -1,7 +1,5 @@
 # 2 Income Statements & Profitability Measures
 
----
-
 ## Measuring Income: Accrual versus Cash Accounting
 
 - In accrual accounting, you record thansactions when they occur, rather than when cash flows occur.

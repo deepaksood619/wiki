@@ -1,7 +1,5 @@
 # Orthogonal rectangle intersection search
 
----
-
 Goal: find all intersections among a set of N orthogonal rectangles
 
 ## Sweep-line algorithm (Sweep vertical line from left to right)

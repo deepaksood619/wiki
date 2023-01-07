@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Fixtures
 
 It's sometimes useful to pre-populate your database with hard-coded data when you're first setting up an app. You can provide initial data with fixtures or migrations.

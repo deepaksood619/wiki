@@ -1,7 +1,5 @@
 # Mathematics
 
----
-
 ## Finding nCr for given numbers
 
 ```python

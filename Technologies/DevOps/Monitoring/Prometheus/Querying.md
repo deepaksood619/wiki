@@ -1,7 +1,5 @@
 # Querying
 
----
-
 ## Functions
 
 - [abs()](https://prometheus.io/docs/prometheus/latest/querying/functions/#abs)

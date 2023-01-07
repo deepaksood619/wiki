@@ -1,7 +1,5 @@
 # Libraries
 
----
-
 ## MQTT BROKER IMPLEMENTATIONS
 
 <table>

@@ -1,7 +1,5 @@
 # Defining Constants
 
----
-
 ```java
 public class Constants{
  /**

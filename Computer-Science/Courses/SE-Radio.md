@@ -1,7 +1,5 @@
 # SE Radio
 
----
-
 ## 346: Streaming Architecture
 
 - Apache Flink

@@ -1,7 +1,5 @@
 # PEP
 
----
-
 PEP-0 - Python Enhancement Proposals
 
 PEP-20 - Zen of Python (import this)

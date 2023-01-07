@@ -1,7 +1,5 @@
 # File Formats
 
----
-
 CSV, TSV, JSON, and Avro, are traditional row-based file formats. Parquet, and ORC file are columnar file formats.
 
 # SequenceFile

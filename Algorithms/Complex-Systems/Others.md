@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Braess's Paradox
 
 Adding more roads can make traffic worse, not better

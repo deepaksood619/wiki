@@ -1,7 +1,5 @@
 # Thinking Mental Models
 
----
-
 - [The Scientific Method](https://en.wikipedia.org/wiki/Scientific_method)
 - **[Inversion](https://jamesclear.com/inversion) / Reframing**
 - Surfing or "Riding the Wave"

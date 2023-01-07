@@ -1,7 +1,5 @@
 # Home + Gym
 
----
-
 <table>
 <colgroup>
 <col style="width: 53%" />

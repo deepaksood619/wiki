@@ -1,7 +1,5 @@
 # Table of contents
 
----
-
 ## Preface - <https://d2l.ai/chapter_preface/index.html>
 
 ## Notation - <https://d2l.ai/chapter_notation/index.html>

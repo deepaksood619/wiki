@@ -1,7 +1,5 @@
 # Practical AI Problems
 
----
-
 ## Netflix AI Problems
 
 - Content Valuation

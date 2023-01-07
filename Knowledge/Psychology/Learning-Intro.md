@@ -1,7 +1,5 @@
 # Learning - Intro
 
----
-
 <https://guides.lib.uoguelph.ca/c.php?g=697430&p=4949569>
 
 ## Autodidactic Learning (Self Learn)

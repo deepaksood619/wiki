@@ -1,7 +1,5 @@
 # Libaries
 
----
-
 <https://dev.to/sm0ke/django-framework-popular-extensions-a-short-list-130>
 
 ## Django Channels

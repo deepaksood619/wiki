@@ -1,7 +1,5 @@
 # VSCode / VS Code
 
----
-
 # Remove empty lines
 
 `Regex - ^(s)*$n`

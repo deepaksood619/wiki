@@ -1,7 +1,5 @@
 # kafka-python
 
----
-
 Python client for the Apache Kafka distributed stream processing system. (consumer iterators)
 
 ## Kafka Consumer

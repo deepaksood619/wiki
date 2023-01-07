@@ -1,7 +1,5 @@
 # System Design - Autocomplete or TypeAhead
 
----
-
 [System design : Design Autocomplete or Typeahead Suggestions for Google search](https://www.youtube.com/watch?v=us0qySiUsGU)
 Use Case
 

@@ -1,7 +1,5 @@
 # Architecture
 
----
-
 ## Cluster and Node
 
 Anodeis a running instance ofElasticsearch, while aclusterconsists of one or more nodes with the samecluster.namethat are working together to share their data and workload. As nodes are added to or removed from the cluster, the cluster reorganizes itself to spread the data evenly.

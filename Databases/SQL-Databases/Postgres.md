@@ -1,7 +1,5 @@
 # Postgres
 
----
-
 ## Introduction
 
 Is a relational database management system with an object-oriented approach, meaning that information can be represented as objects or classes in PostgreSQL schemas.

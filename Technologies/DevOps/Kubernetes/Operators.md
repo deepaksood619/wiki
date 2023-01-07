@@ -1,7 +1,5 @@
 # Operators
 
----
-
 <https://operatorhub.io>
 
 ## Operators

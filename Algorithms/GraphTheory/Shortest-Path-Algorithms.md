@@ -1,7 +1,5 @@
 # Shortest Path Algorithms
 
----
-
 ## Shortest path variants
 
 ## Which vertices?

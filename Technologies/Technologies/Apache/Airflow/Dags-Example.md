@@ -1,7 +1,5 @@
 # Dags Example
 
----
-
 <https://airflow.apache.org/docs/apache-airflow/1.10.12/_api/airflow/contrib/operators/kubernetes_pod_operator/index.html>
 
 - execution_timeout(datetime.timedelta) -- max time allowed for the execution of this task instance, if it goes beyond it will raise and fail (used of instance)

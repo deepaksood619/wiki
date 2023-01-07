@@ -1,7 +1,5 @@
 # Intro
 
----
-
 <https://quixdb.github.io/squash-benchmark>
 
 ## Entropy Encoding

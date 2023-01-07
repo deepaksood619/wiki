@@ -1,7 +1,5 @@
 # Postman
 
----
-
 ## Fake API REST Mocks Server Tests
 
 <https://reqres.in>

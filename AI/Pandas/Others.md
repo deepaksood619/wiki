@@ -1,7 +1,5 @@
 # Others
 
----
-
 <https://en.wikipedia.org/wiki/Math_Kernel_Library>
 
 ## pandas_profiling

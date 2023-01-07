@@ -1,7 +1,5 @@
 # Analytics
 
----
-
 1. Amazon Athena
 
 Query Data in S3 using SQL

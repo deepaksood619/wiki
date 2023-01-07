@@ -1,7 +1,5 @@
 # Others
 
----
-
 Summer Solstice - 21 June, 22 June
 
 Winter Solstice - 21 December, 22 December

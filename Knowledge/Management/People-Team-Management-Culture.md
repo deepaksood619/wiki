@@ -1,7 +1,5 @@
 # People / Team Management / Culture
 
----
-
 I am available anytime, I can mentor, Any help you need you can always come to me. -- Deepak
 
 To not sound arrogant you should tell things with smile with sir, madam

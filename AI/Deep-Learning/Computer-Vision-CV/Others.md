@@ -1,7 +1,5 @@
 # Others
 
----
-
 Locally Linear Embedding
 
 EigenFace

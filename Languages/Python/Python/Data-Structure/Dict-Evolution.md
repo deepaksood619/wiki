@@ -1,7 +1,5 @@
 # Dict Evolution
 
----
-
 Python2.7 - Scambled(dict_size = 280)
 
 Python3.5 - Randomized (Key sharing dictionaries, dict_size = 196)

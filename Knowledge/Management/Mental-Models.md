@@ -1,7 +1,5 @@
 # Mental Models
 
----
-
 - (1)[Weekly 1--1s](https://www.quora.com/What-are-some-good-tips-for-1-1s-with-your-employees)--- "1--1's can add a whole new level of speed and agility to your company."
 - (1)[Forcing Function](https://en.wikipedia.org/wiki/Forcing_function)--- "A forcing function is any task, activity or event that forces you to take action and produce a result."
 - (1)[Directly Responsible Individual](https://www.quora.com/How-well-does-Apples-Directly-Responsible-Individual-DRI-model-work-in-practice)--- A management concept, originally championed by Apple, that good things come if someone is explicitly responsible for something. (related:[diffusion of responsibility](https://en.wikipedia.org/wiki/Diffusion_of_responsibility)--- "a sociopsychological phenomenon whereby a person is less likely to take responsibility for action or inaction when others are present.";[bystander effect](https://en.wikipedia.org/wiki/Bystander_effect)--- "a social psychological phenomenon that refers to cases in which individuals do not offer any means of help to a victim when other people are present.")

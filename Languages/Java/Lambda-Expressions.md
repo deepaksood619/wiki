@@ -1,7 +1,5 @@
 # Lambda Expressions
 
----
-
 A lambda expression is an unnamed function with parameters and a body.
 
 The lambda expression body can be a block statement or an expression.

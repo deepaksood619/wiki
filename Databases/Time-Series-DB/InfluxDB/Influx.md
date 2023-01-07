@@ -1,7 +1,5 @@
 # Influx
 
----
-
 The complete time series platform.
 ![image](media/InfluxDB_Influx-image1.png)
 

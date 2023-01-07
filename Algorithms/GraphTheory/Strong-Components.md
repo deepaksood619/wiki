@@ -1,7 +1,5 @@
 # Strong Components
 
----
-
 ![image](media/Strong-Components-image1.png)
 
 ![image](media/Strong-Components-image2.png)

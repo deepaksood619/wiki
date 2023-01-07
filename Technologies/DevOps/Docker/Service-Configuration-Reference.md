@@ -1,7 +1,5 @@
 # Service Configuration Reference
 
----
-
 1. build
 
 Configuration options that are applied at build time.

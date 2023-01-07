@@ -1,7 +1,5 @@
 # MQTT 5.0
 
----
-
 ## MQTT 5.0
 
 - Enhancements for scalability and large scale systems in respect to setups with 1000s and millions of devices.

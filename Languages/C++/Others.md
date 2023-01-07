@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## RAII (Resource Acquisition Is Initialization)
 
 Resource acquisition is initialization(RAII)is a [programming idiom](https://en.wikipedia.org/wiki/Programming_idiom) used in several [object-oriented languages](https://en.wikipedia.org/wiki/Object-oriented_programming_language) to describe a particular language behavior. In RAII, holding a resource is a [class invariant](https://en.wikipedia.org/wiki/Class_invariant), and is tied to [object lifetime](https://en.wikipedia.org/wiki/Object_lifetime):[resource allocation](https://en.wikipedia.org/wiki/Resource_allocation_(computer))(or acquisition) is done during object creation (specifically initialization), by the [constructor](https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)), while resource deallocation (release) is done during object destruction (specifically finalization), by the [destructor](https://en.wikipedia.org/wiki/Destructor_(computer_programming)). In other words, resource acquisition must succeed for initialization to succeed. Thus the resource is guaranteed to be held between when initialization finishes and finalization starts (holding the resources is a class invariant), and to be held only when the object is alive. Thus if there are no object leaks, there are no [resource leaks](https://en.wikipedia.org/wiki/Resource_leak).

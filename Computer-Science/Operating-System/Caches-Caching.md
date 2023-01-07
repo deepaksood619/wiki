@@ -1,7 +1,5 @@
 # Caches / Caching
 
----
-
 ## Points to remeber about cache
 
 - Cache data cannot be the source of truth

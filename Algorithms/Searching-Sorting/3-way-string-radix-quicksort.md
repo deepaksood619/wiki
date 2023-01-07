@@ -1,7 +1,5 @@
 # 3-way string radix quicksort
 
----
-
 ![image](media/3-way-string-radix-quicksort-image1.png)
 
 ![image](media/3-way-string-radix-quicksort-image2.png)

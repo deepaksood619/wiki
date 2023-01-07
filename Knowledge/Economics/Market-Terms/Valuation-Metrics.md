@@ -1,7 +1,5 @@
 # Valuation Metrics
 
----
-
 [4 Most Popular Valuation Metrics That Every Investor Must Know | ET Money](https://www.youtube.com/watch?v=kqNaY3woTeE)
 
 - **Price to Book Ratio**

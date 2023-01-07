@@ -1,7 +1,5 @@
 # Flow Control
 
----
-
 Flow Control basically means thatTCPwill ensure that a sender is not overwhelming a receiver by sending packets faster than it can consume. It's pretty similar to what's normally called*Back pressure*in the Distributed Systems literature. The idea is that a node receiving data will send some kind of feedback to the node sending the data to let it know about its current condition.
 It's important to understand that this isnotthe same as*Congestion Control*. Although there's some overlap between the mechanismsTCPuses to provide both services, they are distinct features. Congestion control is about preventing a node from overwhelming the network (i.e. the links between two nodes), while Flow Control is about the end-node.
 

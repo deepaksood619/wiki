@@ -1,7 +1,5 @@
 # HTTP
 
----
-
 ## Working with Requests and Responses
 
 While PHP provides ways to interact with the request and response headers, CodeIgniter, like most frameworks, abstracts them so that you have a consistent, simple interface to them.

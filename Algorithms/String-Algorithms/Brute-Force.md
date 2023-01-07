@@ -1,7 +1,5 @@
 # Brute Force
 
----
-
 ![image](media/Brute-Force-image1.png)
 
 ![image](media/Brute-Force-image2.png)

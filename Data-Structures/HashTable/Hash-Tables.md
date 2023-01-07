@@ -1,7 +1,5 @@
 # Hash Tables
 
----
-
 *hash tables, a data structure that achieves constant-time performance for core symbol table operations, provided that search keys are standard data types or simply defined.*
 Hash tables utilize hashing to form a data structure.
 Hash tables use an associative method to store data by using what is known as a key-value lookup system. All that means is that, in a hash table, keys are mapped to unique values.

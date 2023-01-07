@@ -1,7 +1,5 @@
 # bias-variance trade-off
 
----
-
 Machine learning algorithms can best be understood through the lens of the **bias-variance trade-off.**
 
 Bias are the simplifying assumptions made by a model to make the target function easier to learn.

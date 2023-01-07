@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Streaming and Sketching Algorithms
 
 ## Sketching (Compressed data structures)

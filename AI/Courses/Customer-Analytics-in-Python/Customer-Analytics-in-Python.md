@@ -1,7 +1,5 @@
 # Customer Analytics in Python
 
----
-
 <https://365datascience.teachable.com/p/customer-analytics-in-python>
 
 ## A Brief Marketing Introduction

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## CRDTs (Conflict-free Replicated Data Types)
 
 ## A conflict-free replicated data type (CRDT) is an abstract data type, with a well defined interface, designed to be replicated at multiple processes and exhibiting the following properties

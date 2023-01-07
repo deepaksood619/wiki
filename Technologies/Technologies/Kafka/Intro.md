@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ### Intro
 
 - Open-source stream-processing software platform by Apache Software Foundation

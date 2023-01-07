@@ -1,7 +1,5 @@
 # Analysis of Algorithms
 
----
-
 ## Discrete Fourier Transform (FTT - Fast Fourier Transform)
 
 ## Scientific method

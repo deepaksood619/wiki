@@ -1,7 +1,5 @@
 # IP
 
----
-
 IP addresses are typically made of two separate components. The first part of the address is used to identify the network that the address is a part of. The part that comes afterwards is used to specify a specific host within that network.
 Where the network specification ends and the host specification begins depends on how the network is configured. We will discuss this more thoroughly momentarily.
 IPv4 addresses were traditionally divided into five different "classes", named A through E, meant to differentiate segments of the available addressable IPv4 space. These are defined by the first four bits of each address. You can identify what class an IP address belongs to by looking at these bits.

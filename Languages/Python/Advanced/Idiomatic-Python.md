@@ -1,7 +1,5 @@
 # Idiomatic Python
 
----
-
 ## Idiomatic Python
 
 ### Chained Comparison Operator

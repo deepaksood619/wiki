@@ -1,7 +1,5 @@
 # Investment Terms
 
----
-
 [Annual vs Trailing vs Rolling Returns Explained | ET Money](https://youtu.be/ncMwF6HQ92Y)
 
 ## Annual Returns

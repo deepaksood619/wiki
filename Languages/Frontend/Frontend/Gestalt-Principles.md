@@ -1,7 +1,5 @@
 # Gestalt Principles
 
----
-
 - Human visual system is optimized to see structure and relationships
 
 1. Common fate

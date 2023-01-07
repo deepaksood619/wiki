@@ -1,7 +1,5 @@
 # Hash Functions
 
----
-
 ## Bad Hash Functions
 
 - First 3 digits of a phone number

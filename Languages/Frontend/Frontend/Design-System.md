@@ -1,7 +1,5 @@
 # Design System
 
----
-
 The complete set of design standards, documentation, UI patterns, and components. Design systems allow you to manage design at scale
 
 - Typography

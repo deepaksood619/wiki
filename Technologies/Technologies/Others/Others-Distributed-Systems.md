@@ -1,7 +1,5 @@
 # Others - Distributed Systems
 
----
-
 ## Orbit
 
 Orbit - Virtual actor framework for building distributed systems

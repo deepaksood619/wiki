@@ -1,7 +1,5 @@
 # Python Language Reference
 
----
-
 Describes the syntax and "core semantics" of the language.
 
 - [1. Introduction](https://docs.python.org/3/reference/introduction.html)

@@ -1,7 +1,5 @@
 # Sub-linear time
 
----
-
 An algorithm is said to run in**sub-linear time**(often spelled**sublinear time**) if*T*(*n*) = o(*n*) (small oh)
 
 Which of the following expressions is not sublinear?

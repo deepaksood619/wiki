@@ -1,7 +1,5 @@
 # Sliding Window Analytics
 
----
-
 ## Conclusion
 
 Stream processing framework that is

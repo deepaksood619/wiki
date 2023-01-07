@@ -1,7 +1,5 @@
 # Course - Advanced Database Systems
 
----
-
 1. Course Introduction and History of Databases
 
 2. In-Memory Databases

@@ -1,7 +1,5 @@
 # OpenAPI
 
----
-
 1. [What Is OpenAPI?](https://swagger.io/docs/specification/about/)
 
 An**open API**(often referred to as a public API) is a publicly available [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface) that provides developers with programmatic access to a proprietary software application or web service.-  Writing API Specification

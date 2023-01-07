@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## SciPy provides a large menu of libraries for scientific computation, such as integration, interpolation, signal processing, linear algebra, statistics, etc. It is built upon the infrastructure of Numpy
 
 ## Scikit-learn is a collection of advanced machine-learning algorithms for Python. It also is built upon Numpy and SciPy

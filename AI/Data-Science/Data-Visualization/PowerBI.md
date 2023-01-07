@@ -1,7 +1,5 @@
 # PowerBI
 
----
-
 ## Questions
 
 - save daily aggregates powerbi, and delete the underlying data

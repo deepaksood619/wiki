@@ -1,7 +1,5 @@
 # Map, reduce, filter
 
----
-
 ## Map
 
 Fahrenheit = map(lambda x: (float(9)/5)*x + 32, Celsius)

@@ -1,7 +1,5 @@
 # Questions
 
----
-
 ## What is the difference between the__str__and__repr__methods of a Python object
 
 In short__repr__goal is to be unambigous and__str__is to be readable.

@@ -1,7 +1,5 @@
 # List
 
----
-
 ## Properties
 
 - A list stores a series of items in a particular order.

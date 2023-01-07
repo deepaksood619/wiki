@@ -1,7 +1,5 @@
 # Kotlin
 
----
-
 <https://proandroiddev.com/android-unidirectional-state-flow-without-rx-596f2f7637bb>
 
 ## MAD (Modern Android Development)

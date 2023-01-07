@@ -1,7 +1,5 @@
 # Chemical Engineering
 
----
-
 ## Chemical Engineering
 
 - Chemical engineering is one of the broadest of the engineering fields, focused not only on chemicals - which make up everything - but also on developing and designing plants and processes for manufacturing chemicals

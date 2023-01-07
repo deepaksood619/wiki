@@ -1,7 +1,5 @@
 # Concurrency / Threading
 
----
-
 ## Concurrency
 
 - Composition of independently executing functions/processes

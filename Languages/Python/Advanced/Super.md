@@ -1,7 +1,5 @@
 # Super
 
----
-
 Super considered super - pycon 2015
 
 In python - Inheritance is a tool for code reuse.

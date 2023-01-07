@@ -1,7 +1,5 @@
 # Properties
 
----
-
 1. [The Commutative Property of Addition](http://www.coolmath.com/prealgebra/06-properties/01-properties-commutative-addition-01) ( x + y = y + x )
 
 2. [The Commutative Property of Multiplication](http://www.coolmath.com/prealgebra/06-properties/02-properties-commutative-multiplication-01) ( x *y = y* x )

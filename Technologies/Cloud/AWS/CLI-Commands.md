@@ -1,7 +1,5 @@
 # CLI Commands
 
----
-
 ## AWS cli (brew install awscli)
 
 ```bash

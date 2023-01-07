@@ -1,7 +1,5 @@
 # TC++PL4
 
----
-
 ## Part I: Introductory Material
 
 1. Notes to the Reader

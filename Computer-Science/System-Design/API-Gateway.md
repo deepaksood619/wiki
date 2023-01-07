@@ -1,7 +1,5 @@
 # API Gateway
 
----
-
 ## API Design
 
 [Designing APIs: Less Data is More || Damir Svrtan](https://www.youtube.com/watch?v=DC9032_nkyc)

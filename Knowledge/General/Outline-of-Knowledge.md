@@ -1,7 +1,5 @@
 # Outline of Knowledge
 
----
-
 Knowledge is making the right choice with all the information.
 
 Wisdom is making the right choice without all the information.

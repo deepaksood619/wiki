@@ -1,7 +1,5 @@
 # Maximum Flow and Minimum Cut
 
----
-
 1. Introduction to Maxflow
 
 2. Ford-Fulkerson Algorithm using the shortest augmenting path rule

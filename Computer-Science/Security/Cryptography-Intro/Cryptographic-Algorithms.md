@@ -1,7 +1,5 @@
 # Cryptographic Algorithms
 
----
-
 ## Stream Ciphers (OTP)
 
 - RC4

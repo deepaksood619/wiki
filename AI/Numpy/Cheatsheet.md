@@ -1,7 +1,5 @@
 # Cheatsheet
 
----
-
 ```python
 # Creating arrays
  np.array([1,2,3])

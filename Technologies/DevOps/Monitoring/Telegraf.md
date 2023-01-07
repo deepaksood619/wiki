@@ -1,7 +1,5 @@
 # Telegraf
 
----
-
 Telegraf is an agent written in Go for collecting, processing, aggregating, and writing metrics.
 
 Design goals are to have a minimal memory footprint with a plugin system so that developers in the community can easily add support for collecting metrics.

@@ -1,7 +1,5 @@
 # Data Structure
 
----
-
 ## Built-in data structures
 
 1. List

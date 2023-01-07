@@ -1,7 +1,5 @@
 # Data Visualization
 
----
-
 ## Exploratory and Explanatory visualization
 
 Data visualizationis viewed by many disciplines as a modern equivalent of [visual communication](https://en.wikipedia.org/wiki/Visual_communication). It involves the creation and study of the [visual](https://en.wikipedia.org/wiki/Visual_system) representation of [data](https://en.wikipedia.org/wiki/Data).

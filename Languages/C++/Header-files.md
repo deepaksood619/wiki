@@ -1,7 +1,5 @@
 # Header files
 
----
-
 ```c++
 # include <iostream>
 

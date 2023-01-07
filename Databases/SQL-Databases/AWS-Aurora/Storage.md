@@ -1,7 +1,5 @@
 # Storage
 
----
-
 [AWS re:Invent 2019: [REPEAT 1] Amazon Aurora storage demystified: How it all works (DAT309-R1)](https://www.youtube.com/watch?v=DrtwAOND1Pc)
 
 ## Cost

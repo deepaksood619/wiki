@@ -1,7 +1,5 @@
 # Twisted
 
----
-
 Twisted is an event-driven networking engine written in Python
 
 Twisted is a robust, cross-platform implementation of the Reactor Pattern with lots of extras.

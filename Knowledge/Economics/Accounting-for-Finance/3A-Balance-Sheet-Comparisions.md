@@ -1,7 +1,5 @@
 # 3A: Balance Sheet Comparisions
 
----
-
 ## Balance Sheet: A Life Cycle Perspective
 
 ![image](media/Accounting-for-Finance_3A-Balance-Sheet-Comparisions-image1.jpg)

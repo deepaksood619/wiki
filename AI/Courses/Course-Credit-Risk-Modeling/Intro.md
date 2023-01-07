@@ -1,7 +1,5 @@
 # Intro
 
----
-
 - Credit Risk
 
 The likelihood that a borrower would not repay their loan to the lender (not receive owed principal and interest)

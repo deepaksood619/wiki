@@ -1,7 +1,5 @@
 # Market Terms
 
----
-
 ## Market timings
 
 ## Equity

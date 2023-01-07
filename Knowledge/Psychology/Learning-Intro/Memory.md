@@ -1,7 +1,5 @@
 # Memory
 
----
-
 Brain have a visual spatial center - Therefore images are stored very efficiently.
 
 Neuron hooks

@@ -1,7 +1,5 @@
 # Human Skeleton
 
----
-
 Thehuman skeletonis the internal framework of the body. It is composed of around 270 [bones](https://en.wikipedia.org/wiki/Bone) at birth -- this total decreases to around 206 bones by adulthood after some bones get fused together.The bone mass in the skeleton reaches maximum [density](https://en.wikipedia.org/wiki/Bone_density) around age 21. The human skeleton can be divided into the [axial skeleton](https://en.wikipedia.org/wiki/Axial_skeleton) and the [appendicular skeleton](https://en.wikipedia.org/wiki/Appendicular_skeleton). The axial skeleton is formed by the [vertebral column](https://en.wikipedia.org/wiki/Human_vertebral_column), the [rib cage](https://en.wikipedia.org/wiki/Human_rib_cage), the [skull](https://en.wikipedia.org/wiki/Human_skull) and other associated bones. The appendicular skeleton, which is attached to the axial skeleton, is formed by the [shoulder girdle](https://en.wikipedia.org/wiki/Shoulder_girdle), the [pelvic girdle](https://en.wikipedia.org/wiki/Pelvic_girdle) and the bones of the upper and lower limbs.
 
 The human skeleton performs six major functions; support, movement, protection, production of [blood cells](https://en.wikipedia.org/wiki/Blood_cells), storage of minerals, and endocrine regulation.

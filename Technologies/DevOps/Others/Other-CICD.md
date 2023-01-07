@@ -1,7 +1,5 @@
 # Other - CICD
 
----
-
 CI - Continuous Integration
 
 CD - Continuous Delivery (building deployable artifacts / images)

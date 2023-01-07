@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## AWS services to avoid
 
 1. Cognito

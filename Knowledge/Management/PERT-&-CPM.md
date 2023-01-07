@@ -1,7 +1,5 @@
 # PERT & CPM
 
----
-
 ## PERT - Program Evaluation and Review Technique
 
 Theprogram(orproject)evaluation and review technique(PERT) is a statistical tool used in [project management](https://en.wikipedia.org/wiki/Project_management), which was designed to analyze and represent the [tasks](https://en.wikipedia.org/wiki/Task_(project_management)) involved in completing a given [project](https://en.wikipedia.org/wiki/Project).

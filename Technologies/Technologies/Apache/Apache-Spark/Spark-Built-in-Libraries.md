@@ -1,7 +1,5 @@
 # Spark Built-in Libraries
 
----
-
 ## Intro
 
 - Apache spark is a fast and general-purpose cluster computing system for large scale data processing

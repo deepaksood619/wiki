@@ -1,7 +1,5 @@
 # Concurrency Control
 
----
-
 The protocol to allow transactions to access a database in a multi-programmed fashion while preserving the illusion that each of them is executing alone on a dedicated system
 
 - Provides Atomicity + Isolation in ACID

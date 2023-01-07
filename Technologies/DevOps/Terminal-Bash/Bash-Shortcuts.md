@@ -1,7 +1,5 @@
 # Bash Shortcuts
 
----
-
 ## Controlling the Screen
 
 - Ctrl+L: Clear the screen. This is similar to running the "clear" command.

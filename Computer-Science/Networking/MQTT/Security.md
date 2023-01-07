@@ -1,7 +1,5 @@
 # Security
 
----
-
 Security is a very important part of any communication. MQTT itself keeps everything as simple as possible and relies on other proven technologies for safeguards instead of reinventing the wheel.
 
 ## USERNAME / PASSWORD AUTHENTICATION

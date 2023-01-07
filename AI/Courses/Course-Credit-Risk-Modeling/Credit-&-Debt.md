@@ -1,7 +1,5 @@
 # Credit & Debt
 
----
-
 ## Credit Risk
 
 - Credit risk is the possibility of losing a lender takes on due to the possibility of a borrower not paying back a loan.

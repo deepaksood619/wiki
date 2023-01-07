@@ -1,7 +1,5 @@
 # ETL (Extract Transform Load)
 
----
-
 In [computing](https://en.wikipedia.org/wiki/Computing), **extract, transform, load**(**ETL**) refers to a process in [database](https://en.wikipedia.org/wiki/Database) usage and especially in [data warehousing](https://en.wikipedia.org/wiki/Data_warehouse).
 
 - Data extraction is where data is extracted from homogeneous or heterogeneous data sources

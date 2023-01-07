@@ -1,7 +1,5 @@
 # Kafka Producers
 
----
-
 # Kafka Producers: Writing Messages to Kafka (Definitive Guide)
 
 - *KafkaProducer*

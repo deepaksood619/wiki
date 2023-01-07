@@ -1,7 +1,5 @@
 # Books / Blinkist Management
 
----
-
 ## Books
 
 - 97 Things every Engineering Manager should know - Camille Fournier

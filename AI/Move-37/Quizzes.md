@@ -1,7 +1,5 @@
 # Quizzes
 
----
-
 ![image](media/Quizzes-image1.png)
 
 ![image](media/Quizzes-image2.png)

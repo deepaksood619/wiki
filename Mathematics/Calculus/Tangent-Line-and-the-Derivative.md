@@ -1,7 +1,5 @@
 # Tangent Line and the Derivative
 
----
-
 1. Tangent Line
 
 A line that touches the curve at only one point, and is perpendicular to the point it touches.

@@ -1,7 +1,5 @@
 # Analysis and Analyzers
 
----
-
 Analysisis aprocess that consists of the following:
 
 - First, tokenizing a block of text into individualtermssuitable for use in an inverted index,

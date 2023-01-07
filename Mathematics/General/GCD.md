@@ -1,7 +1,5 @@
 # GCD
 
----
-
 ## Synonyms
 
 1. Greatest Common Divisor (GCD)

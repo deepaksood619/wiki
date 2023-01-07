@@ -1,7 +1,5 @@
 # Others
 
----
-
 Jshell for java REPL (Read-Eval-Print Loop, interactive toplevel or language shell)
 
 ## Generics

@@ -1,7 +1,5 @@
 # Dockerfile example
 
----
-
 ## Example 1
 
 ```python

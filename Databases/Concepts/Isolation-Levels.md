@@ -1,7 +1,5 @@
 # Isolation Levels
 
----
-
 ```sql
 SELECT @@TX_ISOLATION;
 -- REPEATABLE-READ

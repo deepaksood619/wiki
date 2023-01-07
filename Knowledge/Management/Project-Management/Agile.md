@@ -1,7 +1,5 @@
 # Agile
 
----
-
 <https://www.atlassian.com/agile>
 
 You cannot predict what happen in next 10 years, but if you are agile enough you can change accordingly

@@ -1,7 +1,5 @@
 # JavaScript Templating
 
----
-
 <https://medium.com/@BuildMySite1/javascript-templating-what-is-templating-7ff49d97db6b>
 
 JavaScript templating refers to the client side data binding method implemented with the JavaScript language.

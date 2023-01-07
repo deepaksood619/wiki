@@ -1,7 +1,5 @@
 # CodeIgniter
 
----
-
 CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications. CodeIgniter was created by EllisLab, and is now a project of the British Columbia Institute of Technology.
 
 ## Features

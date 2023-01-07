@@ -1,7 +1,5 @@
 # Ternary Search Tries (TST)
 
----
-
 Solve the problem of using large amount of data by R-way tries.
 Exactly 3 children.
 Creating associative Symbol table

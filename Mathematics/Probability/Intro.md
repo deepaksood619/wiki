@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Two types of probability
 
 1. Empirical probability

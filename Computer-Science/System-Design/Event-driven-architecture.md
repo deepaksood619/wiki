@@ -1,7 +1,5 @@
 # Event driven architecture
 
----
-
 ## Event Driven Architecture / Event Sourcing
 
 An event records the fact that "something happened" in the world.Conceptually, an event has a key, value, and timestamp. A concrete event could be a plain notification without any additional information, but it could also include the full details of what exactly happened to facilitate subsequent processing. For instance:

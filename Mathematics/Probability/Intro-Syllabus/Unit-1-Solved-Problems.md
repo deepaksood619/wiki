@@ -1,7 +1,5 @@
 # Unit 1 - Solved Problems
 
----
-
 ## The probability of difference of two sets
 
 ![image](media/Intro-Syllabus_Unit-1-Solved-Problems-image1.png)

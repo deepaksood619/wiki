@@ -1,7 +1,5 @@
 # Non linear regression
 
----
-
 ## Non-linear Regression
 
 - We can generalize further to models that are nonlinear:

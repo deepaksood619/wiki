@@ -1,7 +1,5 @@
 # Dictionary
 
----
-
 Each piece of information in a dictionary is stored as a key-value pair. When we provide a key, Python returns the value associated with that key.
 
 ## Representation

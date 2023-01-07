@@ -1,7 +1,5 @@
 # Policies
 
----
-
 ## Limit Ranges
 
 ## Resource Quotas

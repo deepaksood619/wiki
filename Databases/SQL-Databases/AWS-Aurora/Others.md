@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Auditing
 
 <https://aws.amazon.com/premiumsupport/knowledge-center/advanced-audit-aurora-mysql-cloudwatch>

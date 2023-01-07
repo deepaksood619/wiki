@@ -1,7 +1,5 @@
 # Concepts
 
----
-
 ## Processes and Process Management
 
 A process is basically a program in execution. The execution of a process must progress in a sequential fashion. To put it in simple terms, we write our computer programs in a text file, and when we execute this program, it becomes a process which performs all the tasks mentioned in the program.

@@ -1,7 +1,5 @@
 # Others - SAAS
 
----
-
 blogtrottr - RSS Online Feed
 
 Videos - <https://animoto.com>

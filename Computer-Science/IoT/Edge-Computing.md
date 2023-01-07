@@ -1,7 +1,5 @@
 # Edge Computing
 
----
-
 Edge computingis a method of optimizing [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing) systems by performing data processing at the edge of the network, near the source of the data.
 This reduces the communications bandwidth needed between sensors and the central datacenter by performing analytics and knowledge generation at or near the source of the data.
 This approach requires leveraging resources that may not be continuously connected to a network such as laptops, smartphones, tablets and sensors.Edge computing covers a wide range of technologies including [wireless sensor networks](https://en.wikipedia.org/wiki/Wireless_sensor_network), mobile data acquisition, mobile signature analysis, cooperative distributed [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer)[ad hoc networking](https://en.wikipedia.org/wiki/Ad_hoc_networking) and processing also classifiable as local cloud/[fog computing](https://en.wikipedia.org/wiki/Fog_computing) and [grid/mesh computing](https://en.wikipedia.org/wiki/Grid_computing), dew computing, [mobile edge computing](https://en.wikipedia.org/wiki/Mobile_edge_computing), [cloudlet](https://en.wikipedia.org/wiki/Cloudlet), [distributed data storage](https://en.wikipedia.org/wiki/Distributed_data_store) and retrieval, autonomic [self-healing networks](https://en.wikipedia.org/wiki/Self-healing_ring), remote cloud services, [augmented reality](https://en.wikipedia.org/wiki/Augmented_reality), and more.

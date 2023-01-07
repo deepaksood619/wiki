@@ -1,7 +1,5 @@
 # Others - IoT
 
----
-
 ## MainFlux
 
 Mainflux is highly secure, scalable, open-source IoT platform written in Go and deployed in Docker.

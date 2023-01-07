@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Pricing
 
 Pricing table for a 8 node (1 core, 3.5gb) cluster:

@@ -1,7 +1,5 @@
 # Static Code Analysis
 
----
-
 Static code analysis looks at the code without executing it. It is usually extremely fast to execute, requires little effort to add to your workflow, and can uncover common mistakes. The only downside is that it is not tailored towards your code.
 
 ## Code Complexity

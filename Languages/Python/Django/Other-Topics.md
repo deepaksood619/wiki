@@ -1,7 +1,5 @@
 # Other Topics
 
----
-
 ## The model layer
 
 - Models:[Introduction to models](https://docs.djangoproject.com/en/2.0/topics/db/models/)|[Field types](https://docs.djangoproject.com/en/2.0/ref/models/fields/)|[Indexes](https://docs.djangoproject.com/en/2.0/ref/models/indexes/)|[Meta options](https://docs.djangoproject.com/en/2.0/ref/models/options/)|[Model class](https://docs.djangoproject.com/en/2.0/ref/models/class/)

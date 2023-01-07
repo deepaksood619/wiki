@@ -1,7 +1,5 @@
 # Storage
 
----
-
 1. Amazon S3 (Blob storage)
 
 2. Amazon EBS

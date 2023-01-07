@@ -1,7 +1,5 @@
 # TensorFlow
 
----
-
 ## Tools
 
 - Torch

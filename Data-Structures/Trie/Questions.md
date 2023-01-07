@@ -1,7 +1,5 @@
 # Questions
 
----
-
 - Count total number of words in Trie
 - Print all words stored in Trie
 - Sort elements of an array using Trie

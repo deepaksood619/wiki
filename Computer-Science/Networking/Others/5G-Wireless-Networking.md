@@ -1,7 +1,5 @@
 # 5G Wireless Networking
 
----
-
 ## Wireless Network Design
 
 - Rethinking cellular system design

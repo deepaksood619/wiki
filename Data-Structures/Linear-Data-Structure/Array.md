@@ -1,7 +1,5 @@
 # Array
 
----
-
 ## Points to remember
 
 1. Implicit Data Structure

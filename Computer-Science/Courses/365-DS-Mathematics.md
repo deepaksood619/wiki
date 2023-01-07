@@ -1,7 +1,5 @@
 # 365 DS - Mathematics
 
----
-
 ## Introduction to Linear Algebra
 
 What is a Matrix

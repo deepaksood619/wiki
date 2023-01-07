@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Installation
 
 ## brew install java

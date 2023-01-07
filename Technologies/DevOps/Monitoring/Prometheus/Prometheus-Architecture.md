@@ -1,7 +1,5 @@
 # Prometheus Architecture
 
----
-
 ## Components
 
 - **Exporters:** Sidecar containers that collect and expose container and service metrics

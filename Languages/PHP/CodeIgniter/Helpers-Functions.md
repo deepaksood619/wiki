@@ -1,7 +1,5 @@
 # Helpers / Functions
 
----
-
 As the name suggests, it will help you build your system. It is divided into small functions to serve different functionality. A number of helpers are available in CodeIgniter, which are listed in the table below. We can build our own helpers too.
 
 Helpers are typically stored in yoursystem/helpers, orapplication/helpers directory. Custom helpers are stored inapplication/helpersdirectory and systems' helpers are stored insystem/helpersdirectory. CodeIgniter will look first in yourapplication/helpers directory. If the directory does not exist or the specified helper is not located, CodeIgniter will instead, look in your globalsystem/helpers/ directory. Each helper, whether it is custom or system helper, must be loaded before using it.

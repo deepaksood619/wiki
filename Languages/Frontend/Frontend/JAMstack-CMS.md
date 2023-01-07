@@ -1,7 +1,5 @@
 # JAMstack / CMS
 
----
-
 Modern Web-development architecture based on Client-side JavaScript, resuable APIs and prebuild Markup
 
 When we talk about "The Stack," we no longer talk about operating systems, specific web servers, backend programming languages, or databases.

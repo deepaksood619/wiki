@@ -1,7 +1,5 @@
 # Rivers
 
----
-
 [Important Geographical Terms Features Landforms Of Earth](https://youtu.be/8McizDCj6qE)
 
 - Mountain

@@ -1,7 +1,5 @@
 # Certificates
 
----
-
 ## Types of certificates
 
 - Domain-validated certificates

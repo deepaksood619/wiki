@@ -1,7 +1,5 @@
 # AWS Lambda
 
----
-
 <https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html>
 
 <https://aws.amazon.com/blogs/aws/introducing-cloudfront-functions-run-your-code-at-the-edge-with-low-latency-at-any-scale>

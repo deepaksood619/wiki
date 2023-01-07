@@ -1,7 +1,5 @@
 # Course - Learning How to Learn
 
----
-
 ## Key Chunks discussed in the course from which you can recall whole course
 
 1. What is Learning

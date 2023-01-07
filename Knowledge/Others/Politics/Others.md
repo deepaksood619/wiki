@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Free Speech
 
 <https://www.youtube.com/watch?v=OYHhPmmNUEs>

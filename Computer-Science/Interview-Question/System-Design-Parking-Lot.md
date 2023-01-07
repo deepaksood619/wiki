@@ -1,7 +1,5 @@
 # System Design - Parking Lot
 
----
-
 [System Design Interview Question: DESIGN A PARKING LOT - asked at Google, Facebook](https://www.youtube.com/watch?v=DSGsa0pu8-k)
 
 1. System Design

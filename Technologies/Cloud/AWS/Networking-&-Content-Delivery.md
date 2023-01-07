@@ -1,7 +1,5 @@
 # Networking & Content Delivery
 
----
-
 1. Amazon VPC
 
 Isolated Cloud Resources

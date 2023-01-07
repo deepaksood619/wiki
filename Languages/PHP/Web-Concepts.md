@@ -1,7 +1,5 @@
 # Web Concepts
 
----
-
 ## Browser Redirection
 
 The PHPheader()function supplies raw HTTP headers to the browser and can be used to redirect it to another location. The redirection script should be at the very top of the page to prevent any other part of the page from loading.

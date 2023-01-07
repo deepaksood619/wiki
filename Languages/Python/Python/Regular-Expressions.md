@@ -1,7 +1,5 @@
 # Regular Expressions
 
----
-
 ## Pythons Metacharacters
 
 `. ^ $ * + ? { } [ ]  | ( )`

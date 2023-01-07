@@ -1,7 +1,5 @@
 # STL Iterators Algorithms
 
----
-
 ## C++ Iterators
 
 Iterators are used to access members of the container classes, and can be used in a similar manner to pointers. For example, one might use an iterator to step through the elements of a vector. There are several different types of iterators:

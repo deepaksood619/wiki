@@ -1,7 +1,5 @@
 # GraphQL
 
----
-
 GraphQL will do to REST what JSON did to XML.
 
 ## A Data Query Language

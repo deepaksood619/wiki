@@ -1,7 +1,5 @@
 # Questions
 
----
-
 ## Topics
 
 ### Java

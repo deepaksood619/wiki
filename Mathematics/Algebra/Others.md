@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Slope
 
 ## Intercept

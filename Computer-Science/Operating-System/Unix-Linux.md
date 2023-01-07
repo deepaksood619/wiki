@@ -1,7 +1,5 @@
 # Unix / Linux
 
----
-
 ## A UNIX OS is made up of three parts
 
 - **Kernel:** The kernel of UNIX is the hub of the OS: it allocates time and memory to programs and handles the filestore and communications in response to system calls,

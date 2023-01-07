@@ -1,7 +1,5 @@
 # Types
 
----
-
 - **SQL** is a query language to operate on sets.
     It is more or less standardized, and used by almost all relational database management systems: SQL Server, Oracle, MySQL, PostgreSQL, DB2, Informix, etc.
 - **PL/SQL** is a proprietary procedural language used by Oracle

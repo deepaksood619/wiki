@@ -1,7 +1,5 @@
 # Research
 
----
-
 The main point of science is **to ask the right questions.**
 
 ## DIKW Pyramid

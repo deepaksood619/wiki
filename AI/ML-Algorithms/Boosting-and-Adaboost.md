@@ -1,7 +1,5 @@
 # Boosting and Adaboost
 
----
-
 Boosting is an ensemble technique that attempts to create a strong classifier from a number of weak classifiers.
 
 This is done by building a model from the training data, then creating a second model that attempts to correct the errors from the first model. Models are added until the training set is predicted perfectly or a maximum number of models are added.

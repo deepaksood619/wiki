@@ -1,7 +1,5 @@
 # Customer Engagement / CX
 
----
-
 When it comes to payments and finances, customers are anxious and impatient when they encounter issues.
 
 ## CX (Customer Experience)

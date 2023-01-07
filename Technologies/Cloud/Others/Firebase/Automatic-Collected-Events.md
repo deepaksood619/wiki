@@ -1,7 +1,5 @@
 # Automatic Collected Events
 
----
-
 Automatically collected events are triggered by basic interactions with your app. As long as you use the Firebase SDK, you don't need to write any additional code to collect these events.
 
 Analytics collects these events for Android and iOS apps unless otherwise stated.

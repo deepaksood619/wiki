@@ -1,7 +1,5 @@
 # Input Output Template
 
----
-
 ```python
 #Input Template
 def func(lst, n):

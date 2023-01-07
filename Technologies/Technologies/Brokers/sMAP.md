@@ -1,7 +1,5 @@
 # sMAP
 
----
-
 # sMAP: the Simple Measurement and Actuation Profile
 
 An enormous amount of physical information; that is, information from and about the world is available today as the cost of communication and instrumentation has fallen. However, making use of that information is still challenging. The information is frequently siloed into proprietary systems, available only in batch, fragmentary, and disorganized. The sMAP project aims to change this by making it available and usable:

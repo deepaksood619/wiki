@@ -1,7 +1,5 @@
 # Life
 
----
-
 In is the only way out.
 
 It's just an idea. It's not me.

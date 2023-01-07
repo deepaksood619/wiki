@@ -1,7 +1,5 @@
 # Circles
 
----
-
 [Circle basics:Circles](https://www.khanacademy.org/math/geometry/hs-geo-circles#hs-geo-circle-basics)
 
 [Arc measure:Circles](https://www.khanacademy.org/math/geometry/hs-geo-circles#hs-geo-arc-measures)

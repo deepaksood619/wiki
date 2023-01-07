@@ -1,7 +1,5 @@
 # kafkacat
 
----
-
 <https://github.com/edenhill/kafkacat>
 
 kafkacat is a generic non-JVM producer and consumer for Apache Kafka >=0.8, think of it as a netcat for Kafka.

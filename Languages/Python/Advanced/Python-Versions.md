@@ -1,7 +1,5 @@
 # Python Versions
 
----
-
 ## Python2 vs Python3
 
 - Python 2 automatically performs integer arithmetic if both operands are integers

@@ -1,7 +1,5 @@
 # Promises
 
----
-
 1. Is single threaded
 
 2. Run on the same queue as painting, updating styles and handling user actions.

@@ -1,7 +1,5 @@
 # Redux
 
----
-
 Redux is a library which controls the state of your JavaScript application. It provides a "unidirectional data flow" that helps to manage and organise data better and makes debugging a lot easier.
 
 Redux is a layer on top of React which helps in state management. Redux is mainly used in applications which rely on using class-based components. Redux has two tasks and they are

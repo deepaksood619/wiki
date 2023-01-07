@@ -1,7 +1,5 @@
 # Coding Interview Questions
 
----
-
 Platforms
 
 [https://coderpad.io](https://coderpad.io/)

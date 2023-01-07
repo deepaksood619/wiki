@@ -1,7 +1,5 @@
 # Design Patterns
 
----
-
 ## Foundational Patterns
 
 - Distributed Primitives

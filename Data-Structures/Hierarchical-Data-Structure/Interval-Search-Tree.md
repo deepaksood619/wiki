@@ -1,7 +1,5 @@
 # Interval Search Tree
 
----
-
 Operations
 
 - Insert an interval

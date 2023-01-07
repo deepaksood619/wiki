@@ -1,7 +1,5 @@
 # Daily Requirements
 
----
-
 ## Macronutrients
 
 - **Providing energy (Carbs, Protein, Fats)**

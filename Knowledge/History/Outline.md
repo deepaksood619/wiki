@@ -1,7 +1,5 @@
 # Outline
 
----
-
 Those who don't study history are doomed to repeat it.
 
 Those who do study history are doomed to stand by helplessly while everyone else repeats it.

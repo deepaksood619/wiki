@@ -1,7 +1,5 @@
 # Dimensionality Reduction
 
----
-
 ## Dimensionality Reduction
 
 - Purpose

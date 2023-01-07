@@ -1,7 +1,5 @@
 # Design Patterns
 
----
-
 ## Design Patterns of Microservices
 
 1. [Aggregator](https://www.edureka.co/blog/microservices-design-patterns#Aggregator) 2.  [**API Gateway**](https://www.edureka.co/blog/microservices-design-patterns#APIGateway)

@@ -1,7 +1,5 @@
 # Unit 2 - Solved Problems
 
----
-
 # Conditional probability example
 
 We roll two fair 6-sided dice. Each one of the 36 possible outcomes is assumed to be equally likely.

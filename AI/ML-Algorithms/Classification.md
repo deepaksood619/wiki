@@ -1,7 +1,5 @@
 # Classification
 
----
-
 <https://neptune.ml/blog/evaluation-metrics-binary-classification>
 
 ## Classification

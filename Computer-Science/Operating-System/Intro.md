@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## There are three key elements of an operating system
 
 1. Abstractions(process, thread, file, socket, memory)

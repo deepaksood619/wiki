@@ -1,7 +1,5 @@
 # Concurrency Models - Async
 
----
-
 ## Single-threaded synchronous model
 
 ![image](media/Concurrency-Models-Async-image1.png)

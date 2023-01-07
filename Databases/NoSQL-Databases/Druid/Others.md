@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Plywood
 
 Plywood is a JavaScript library that simplifies building interactive visualizations and applications for large data sets. Plywood acts as a middle-layer between data visualizations and data stores.

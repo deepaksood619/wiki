@@ -1,7 +1,5 @@
 # Normalization
 
----
-
 - Normalization is the process of organizing the data in the database.
 - Normalization is used to minimize the redundancy from a relation or set of relations. It is also used to eliminate the undesirable characteristics like Insertion, Update and Deletion Anomalies.
 - Normalization divides the larger table into the smaller table and links them using relationship.

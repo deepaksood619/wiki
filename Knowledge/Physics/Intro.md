@@ -1,7 +1,5 @@
 # Intro
 
----
-
 1. Retrocausality - That future can effect the past. Ex - if i spill the coffee tomorrow then i can see the stain today.
 
 # Momentum

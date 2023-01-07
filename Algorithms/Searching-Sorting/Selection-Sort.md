@@ -1,7 +1,5 @@
 # Selection Sort
 
----
-
 Not stable
 
 For all elements -

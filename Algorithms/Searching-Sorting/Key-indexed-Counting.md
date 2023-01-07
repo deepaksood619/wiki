@@ -1,7 +1,5 @@
 # Key-indexed Counting
 
----
-
 ## Proporties
 
 - Linear time algorithm for sorting

@@ -1,7 +1,5 @@
 # Transformations
 
----
-
 [Introduction to rigid transformations:Transformations](https://www.khanacademy.org/math/geometry/hs-geo-transformations#hs-geo-transformations-intro)
 
 [Translations:Transformations](https://www.khanacademy.org/math/geometry/hs-geo-transformations#hs-geo-translations)

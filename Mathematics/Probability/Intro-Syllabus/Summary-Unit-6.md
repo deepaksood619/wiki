@@ -1,7 +1,5 @@
 # Summary - Unit 6
 
----
-
 ![image](media/Intro-Syllabus_Summary-Unit-6-image1.png)
 
 ![image](media/Intro-Syllabus_Summary-Unit-6-image2.png)

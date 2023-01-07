@@ -1,7 +1,5 @@
 # Big Data Hadoop Stack
 
----
-
 ## Hadoop
 
 - Apache Hadoop is an open source software framework for storage and large scale processing of th data-sets on clusters of commodity hardware

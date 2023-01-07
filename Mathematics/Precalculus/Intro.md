@@ -1,7 +1,5 @@
 # Intro
 
----
-
 1. Trigonometry
 
 2. Conic sections

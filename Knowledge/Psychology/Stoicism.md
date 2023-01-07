@@ -1,7 +1,5 @@
 # Stoicism
 
----
-
 ## Blinkist - How to be a Stoic by Massimo Pigliucci (29 Aug 2018)
 
 - Stoicism offers a practical and sensible guide to tackling life's problems and challenges.

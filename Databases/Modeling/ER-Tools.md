@@ -1,7 +1,5 @@
 # ER - Tools
 
----
-
 ## <https://drawsql.app> (Great)
 
 <https://drawsql.app/templates>

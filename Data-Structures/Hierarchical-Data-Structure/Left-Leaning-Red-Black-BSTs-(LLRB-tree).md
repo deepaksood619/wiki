@@ -1,7 +1,5 @@
 # Left Leaning Red-Black BSTs (LLRB tree)
 
----
-
 ## Red-Black Tree
 
 1. Left-leaning red-black BSTs

@@ -1,7 +1,5 @@
 # Example
 
----
-
 ```php
 <html>
 

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Monitoring / Management Tools
 
 1. Kafka Manager - <https://github.com/yahoo/CMAK>

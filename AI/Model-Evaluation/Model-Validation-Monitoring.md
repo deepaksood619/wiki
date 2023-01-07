@@ -1,7 +1,5 @@
 # Model Validation / Monitoring
 
----
-
 1. **Poor model performance on unseen data**
 
 If the model has not been validated properly then it would not be able to perform well on the unseen data which is the ultimate purpose of a predictive model. There are various model validation techniques, the most important categories would be In time validation and Out of time validation.

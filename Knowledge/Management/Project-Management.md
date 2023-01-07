@@ -1,7 +1,5 @@
 # Project Management
 
----
-
 <https://blog.trello.com/project-management-methodologies>
 
 ## Project Factors

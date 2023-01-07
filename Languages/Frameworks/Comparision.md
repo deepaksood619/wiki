@@ -1,7 +1,5 @@
 # Comparision
 
----
-
 ## Python vs Nodejs
 
 <https://towardsdatascience.com/python-vs-node-js-which-one-is-best-for-your-project-e98f2c63f020>

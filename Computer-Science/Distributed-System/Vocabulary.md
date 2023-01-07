@@ -1,7 +1,5 @@
 # Vocabulary
 
----
-
 Harvest and Yield
 
 CALM - ConsistencyasLogicalMonotonicity

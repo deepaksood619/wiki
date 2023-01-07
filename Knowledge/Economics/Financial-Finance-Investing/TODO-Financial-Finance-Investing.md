@@ -1,7 +1,5 @@
 # TODO Financial/Finance / Investing
 
----
-
 ## I am a Risk Averse Passive Investor and not an Active Investor
 
 ## Always think about Ideal world, as to what will happen in ideal world

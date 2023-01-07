@@ -1,7 +1,5 @@
 # iOS
 
----
-
 - Swift, Objective-C
 - Cocoa and Cocoa touch
 - Foundation and UI kit

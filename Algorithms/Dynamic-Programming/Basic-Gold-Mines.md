@@ -1,7 +1,5 @@
 # Basic Gold Mines
 
----
-
 <https://www.hackerearth.com/practice/algorithms/dynamic-programming/2-dimensional/practice-problems/algorithm/gold-mines-10>
 
 Used Dynamic Programming

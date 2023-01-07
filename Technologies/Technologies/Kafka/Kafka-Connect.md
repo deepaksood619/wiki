@@ -1,7 +1,5 @@
 # Kafka Connect
 
----
-
 ## Kafka Connect (Definitive Guide)
 
 - Connectors and tasks

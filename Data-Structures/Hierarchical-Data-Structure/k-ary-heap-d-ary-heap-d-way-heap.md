@@ -1,7 +1,5 @@
 # k-ary heap / d-ary heap / d-way heap
 
----
-
 K-ary heaps are a generalization of binary heap(K=2) in which each node have K children instead of 2.
 Properties:
 

@@ -1,7 +1,5 @@
 # Disk oriented vs in-memory DBs
 
----
-
 ## Background
 
 The history of DBMSs development is about dealing with the limitations of hardware. The first DBMSs in the 1970s were designed in environment with the following characteristics:

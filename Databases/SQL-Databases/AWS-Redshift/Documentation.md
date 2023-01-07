@@ -1,7 +1,5 @@
 # Documentation
 
----
-
 ## Designing Tables > Choosing a column compression type > Compression Encoding
 
 - [Raw Encoding](https://docs.aws.amazon.com/redshift/latest/dg/c_Raw_encoding.html)

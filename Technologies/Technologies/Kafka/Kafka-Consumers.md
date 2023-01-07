@@ -1,7 +1,5 @@
 # Kafka Consumers
 
----
-
 # Kafka Consumers: Reading Data from Kafka (Definitive Guide)
 
 - Consumer and Consumer Groups

@@ -1,7 +1,5 @@
 # Control Engineering
 
----
-
 ## Control engineeringorcontrol systems engineeringis an [engineering](https://en.wikipedia.org/wiki/Engineering) discipline that applies [automatic control](https://en.wikipedia.org/wiki/Automatic_control) theory to design systems with desired behaviors in [control](https://en.wikipedia.org/wiki/Control_theory) environments.The discipline of controls overlaps and is usually taught along with [electrical engineering](https://en.wikipedia.org/wiki/Electrical_engineering) at many institutions around the world
 
 The practice uses [sensors](https://en.wikipedia.org/wiki/Sensors) and detectors to measure the output performance of the process being controlled; these measurements are used to provide corrective [feedback](https://en.wikipedia.org/wiki/Feedback) helping to achieve the desired performance. Systems designed to perform without requiring human input are called [automatic control](https://en.wikipedia.org/wiki/Automatic_control) systems (such as [cruise control](https://en.wikipedia.org/wiki/Cruise_control) for regulating the speed of a car).[Multi-disciplinary](https://en.wikipedia.org/wiki/Multi-disciplinary) in nature, control systems engineering activities focus on implementation of control systems mainly derived by [mathematical modeling](https://en.wikipedia.org/wiki/Mathematical_model) of a diverse range of [systems](https://en.wikipedia.org/wiki/System).

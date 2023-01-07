@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## CSS Keyframe Animation
 
 A CSS keyframe animation is 0-100% time representation of all the transitions that should occur on the selected element for a specified period of time. This way multiple transitions can be combined into a seamless visual representation.

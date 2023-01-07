@@ -1,7 +1,5 @@
 # Ford-Fulkerson Algorithm
 
----
-
 # Maximum Flow (Max-Flow Min-Cut Theorem)
 
 ## Network Flow

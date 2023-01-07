@@ -1,7 +1,5 @@
 # Course - Time Series Analysis
 
----
-
 <https://365datascience.teachable.com/p/time-series-analysis-in-python>
 
 <https://365datascience.teachable.com/courses/enrolled/666338>

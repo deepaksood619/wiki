@@ -1,7 +1,5 @@
 # Server Driven Mobile UIs
 
----
-
 ## Apps
 
 - Personlized

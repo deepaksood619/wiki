@@ -1,7 +1,5 @@
 # Evaluation
 
----
-
 - Generalization and overfitting
 - Overfitting in decision trees
 - Validation set

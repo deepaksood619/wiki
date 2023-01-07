@@ -1,14 +1,12 @@
 # TOML
 
----
-
 Tom's Obvious, Minimal Language
 
 TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table. TOML should be easy to parse into data structures in a wide variety of languages.
 
 ## Example
 
-# This is a TOML document
+## This is a TOML document
 
 title = "TOML Example"
 
@@ -24,7 +22,7 @@ enabled = true
 
 [servers]
 
-# Indentation (tabs and/or spaces) is allowed but not required
+## Indentation (tabs and/or spaces) is allowed but not required
 
 [servers.alpha]
 ip = "10.0.0.1"
@@ -37,7 +35,7 @@ dc = "eqdc10"
 [clients]
 data = [ ["gamma", "delta"], [1, 2] ]
 
-# Line breaks are OK when inside arrays
+## Line breaks are OK when inside arrays
 
 hosts = [
 "alpha",

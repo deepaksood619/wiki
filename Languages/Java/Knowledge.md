@@ -1,7 +1,5 @@
 # Knowledge
 
----
-
 - Parent class can hold child class reference but not vice-versa
 
 ```java

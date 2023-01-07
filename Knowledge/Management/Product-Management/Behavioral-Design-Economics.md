@@ -1,7 +1,5 @@
 # Behavioral Design / Economics
 
----
-
 <https://www.lennysnewsletter.com/p/how-to-use-behavioral-science-to>
 
 <https://en.wikipedia.org/wiki/Behavioral_economics>

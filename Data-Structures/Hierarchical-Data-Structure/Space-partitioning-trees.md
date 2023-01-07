@@ -1,7 +1,5 @@
 # Space-partitioning trees
 
----
-
 Use a tree to represent a recursive subdivision of 2d space
 
 ## Grid - Divide space uniformly into squares

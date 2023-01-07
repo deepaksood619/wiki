@@ -1,7 +1,5 @@
 # Examples
 
----
-
 ```bash
 #Variables
 variable "region" {

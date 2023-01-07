@@ -1,7 +1,5 @@
 # Getting Started
 
----
-
 ## Points
 
 - Uses Optimisitic Concurrency Control

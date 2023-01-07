@@ -1,7 +1,5 @@
 # Basic Computer Organization
 
----
-
 ## Instruction Execution Cycle
 
 1. Instruction Fetch - Obtain instruction from program store

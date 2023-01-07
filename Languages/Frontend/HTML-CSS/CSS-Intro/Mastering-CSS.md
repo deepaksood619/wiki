@@ -1,7 +1,5 @@
 # Mastering CSS
 
----
-
 ## The Anatomy of a Rule Set and three types of Style Sheets
 
 - Selector

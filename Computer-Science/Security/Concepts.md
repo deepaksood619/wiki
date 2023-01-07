@@ -1,7 +1,5 @@
 # Concepts
 
----
-
 ## Security Services
 
 1. Data confidentiality

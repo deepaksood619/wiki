@@ -1,7 +1,5 @@
 # Mixin
 
----
-
 A mixin is a special kind of multiple inheritance. There are two main situations where mixins are used:
 
 1. You want to provide a lot of optional features for a class.

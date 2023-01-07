@@ -1,7 +1,5 @@
 # Binary Tree
 
----
-
 ## Properties
 
 - In Binary tree, number of leaf nodes is always one more than nodes with two children.

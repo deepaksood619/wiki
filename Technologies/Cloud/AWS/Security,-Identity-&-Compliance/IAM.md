@@ -1,7 +1,5 @@
 # IAM
 
----
-
 permission guardrails
 
 enforcing least privilege at scale

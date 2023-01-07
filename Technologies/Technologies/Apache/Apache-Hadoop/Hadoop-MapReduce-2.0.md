@@ -1,7 +1,5 @@
 # Hadoop MapReduce 2.0
 
----
-
 ## Introduction
 
 - **MapReduce** is a programming model and an associated implementation for processing and generating large data sets

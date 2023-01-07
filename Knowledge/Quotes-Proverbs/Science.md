@@ -1,7 +1,5 @@
 # Science
 
----
-
 Science is a 6 decimal approximation to real knowledge
 
 Equations that govern the world

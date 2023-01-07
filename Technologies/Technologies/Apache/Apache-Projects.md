@@ -1,7 +1,5 @@
 # Apache Projects
 
----
-
 - [HTTP Server](http://httpd.apache.org/)
 
 # A

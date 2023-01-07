@@ -1,7 +1,5 @@
 # Human History / Human Anthropology
 
----
-
 <https://www.youtube.com/watch?v=ehV-MmuvVMU&ab_channel=NationalGeographic>
 
 - We divided from fungi 650 million years ago

@@ -1,7 +1,5 @@
 # Course - AWS Certified Database - Specialty
 
----
-
 1. Workload-specific database design
 
    - Select appropriate database services for specific types of data and workloads

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Redis Time Series
 
 RedisTimeSeries simplifies the use of Redis for time-series use cases like IoT, stock prices, and telemetry.

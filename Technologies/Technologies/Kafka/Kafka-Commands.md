@@ -1,7 +1,5 @@
 # Kafka Commands
 
----
-
 ## Configuration
 
 <https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md>

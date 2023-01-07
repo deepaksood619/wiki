@@ -1,7 +1,5 @@
 # Firewall WAF
 
----
-
 ## Web Application Firewall (WAF)
 
 A WAF creates a shield between a web app and the Internet; this shield can help mitigate many common attacks.

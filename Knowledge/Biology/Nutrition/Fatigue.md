@@ -1,7 +1,5 @@
 # Fatigue
 
----
-
 1. Stress
 
 2. Anemia

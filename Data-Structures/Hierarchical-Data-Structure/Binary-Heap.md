@@ -1,7 +1,5 @@
 # Binary Heap
 
----
-
 ## Points to remember
 
 1. Common way of implementing priority queues.

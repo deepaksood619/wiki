@@ -1,7 +1,5 @@
 # rsync / rclone
 
----
-
 ## Rsync Algorithm
 
 Used for reducing the cost of a file transfer by avoiding the transfer of blocks that are already at the destination.

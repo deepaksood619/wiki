@@ -1,7 +1,5 @@
 # Tatoos Quotes
 
----
-
 ||||| (number of jobs you changed, getting new line when get a new job)
 
 Panta rhei - change is the only constant in life

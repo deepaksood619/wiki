@@ -1,7 +1,5 @@
 # Types of algorithms
 
----
-
 1. Simple recursive algorithms
 
    - solves the base care directly

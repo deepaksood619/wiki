@@ -1,7 +1,5 @@
 # MiniMax Algorithm
 
----
-
 <https://en.wikipedia.org/wiki/Minimax>
 
 Minimax algorithm is a decision rule used in decision theory, game theory, statistics and philosophy for minimizing the possible loss for a worst case (maximum loss) scenario.

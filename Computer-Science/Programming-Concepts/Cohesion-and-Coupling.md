@@ -1,7 +1,5 @@
 # Cohesion and Coupling
 
----
-
 ## COUPLING
 
 ## An indication of the strength of interconnections between program units

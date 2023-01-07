@@ -1,7 +1,5 @@
 # Government Terms
 
----
-
 ## Equitable Distribution
 
 Fiscal policy is done by the government through spending. Monetary policy is done by the central bank through interest rates.

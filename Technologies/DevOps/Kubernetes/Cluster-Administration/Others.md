@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Kubernetes Network Model
 
 EveryPodgets its own IP address. This means you do not need to explicitly create links betweenPodsand you almost never need to deal with mapping container ports to host ports. This creates a clean, backwards-compatible model wherePodscan be treated much like VMs or physical hosts from the perspectives of port allocation, naming, service discovery, load balancing, application configuration, and migration.

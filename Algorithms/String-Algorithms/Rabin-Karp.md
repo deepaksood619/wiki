@@ -1,7 +1,5 @@
 # Rabin Karp
 
----
-
 ![image](media/Rabin-Karp-image1.png)
 
 ![image](media/Rabin-Karp-image2.png)

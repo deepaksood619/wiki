@@ -1,7 +1,5 @@
 # Protocols
 
----
-
 1. Application Layer
     - BGP
     - DHCP

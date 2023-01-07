@@ -1,7 +1,5 @@
 # Predictive Analytics 1
 
----
-
 ## Preface
 
 - In this lecture, we will discuss the fundamental techniques of predictive analytics

@@ -1,7 +1,5 @@
 # Knowledge of Humanity
 
----
-
 # Humanities
 
 ## Arts

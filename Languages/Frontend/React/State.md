@@ -1,7 +1,5 @@
 # State
 
----
-
 ## Props vs State
 
 - "props" (short for "properties") is an object of arbitrary inputs a React function component accepts as the first argument.

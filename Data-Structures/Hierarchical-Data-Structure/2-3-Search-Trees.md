@@ -1,7 +1,5 @@
 # 2-3 Search Trees
 
----
-
 ## Properties
 
 - Every non-leaf is a 2-node or a 3-node. A 2-node contains one data item and has two children. A 3-node contains two data items and has 3 children.

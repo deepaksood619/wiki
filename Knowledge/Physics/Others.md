@@ -1,7 +1,5 @@
 # Others
 
----
-
 # Wave-particle duality
 
 ## Wave--particle dualityis the concept in [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) that every [particle](https://en.wikipedia.org/wiki/Particle) or [quantic](https://en.wikipedia.org/wiki/Quantum) entity may be partly described in terms not only of particles, but also of [waves](https://en.wikipedia.org/wiki/Wave). It expresses the inability of the [classical](https://en.wikipedia.org/wiki/Classical_physics) concepts "particle" or "wave" to fully describe the behavior of [quantum-scale](https://en.wikipedia.org/wiki/Quantum-scale) objects. As [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) wrote

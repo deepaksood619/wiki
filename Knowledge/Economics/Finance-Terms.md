@@ -1,7 +1,5 @@
 # Finance Terms
 
----
-
 ## Asset Classes
 
 1. Fixed income instruments

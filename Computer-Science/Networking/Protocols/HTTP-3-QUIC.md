@@ -1,7 +1,5 @@
 # HTTP/3 QUIC
 
----
-
 QUIC - Quick UDP Internet Connections
 HTTP/3 don't use TCP as the transport layer for the session, it uses [QUIC, a new Internet transport protocol](https://blog.cloudflare.com/the-road-to-quic/), which, among other things, introduces streams as first-class citizens at the transport layer. QUIC streams share the same QUIC connection, so no additional handshakes and slow starts are required to create new ones, but QUIC streams are delivered independently such that in most cases packet loss affecting one stream doesn't affect others. This is possible because QUIC packets are encapsulated on top of UDP datagrams.
 Using UDP allows much more flexibility compared to TCP, and enables QUIC implementations to live fully in user-space - updates to the protocol's implementations are not tied to operating systems updates as is the case with TCP. With QUIC, HTTP-level streams can be simply mapped on top of QUIC streams to get all the benefits of HTTP/2 without the head-of-line blocking.

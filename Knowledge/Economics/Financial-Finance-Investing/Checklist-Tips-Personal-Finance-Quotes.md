@@ -1,7 +1,5 @@
 # Checklist / Tips / Personal Finance / Quotes
 
----
-
 Markets discount everything
 
 Best asset is a machine that creates more asset

@@ -1,7 +1,5 @@
 # System Design - TinyURL
 
----
-
 [System Design : Design a service like TinyUrl](https://www.youtube.com/watch?v=fMZMm_0ZhK4)
 
 ## Problem Statement - Given a long url return a short url, and given a short url return the corresponding long url

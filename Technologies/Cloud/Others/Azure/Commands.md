@@ -1,7 +1,5 @@
 # Commands
 
----
-
 Use `az --version` to display the current version.
 
 Here are the base commands:

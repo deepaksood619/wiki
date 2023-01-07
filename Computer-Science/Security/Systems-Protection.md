@@ -1,7 +1,5 @@
 # Systems Protection
 
----
-
 Protection against Buffer Overflow attacks / Stash smashing attacks
 
 1. NX bit protection

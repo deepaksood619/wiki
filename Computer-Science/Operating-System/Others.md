@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Interrupt Coelesing
 
 ## Bank Switching

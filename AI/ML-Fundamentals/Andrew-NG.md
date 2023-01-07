@@ -1,7 +1,5 @@
 # Andrew NG
 
----
-
 ## Model and cost function
 
 1. Model representation - Linear regression using Training set

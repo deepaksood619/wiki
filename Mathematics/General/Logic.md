@@ -1,7 +1,5 @@
 # Logic
 
----
-
 # Conceptions of logic
 
 - Logic as a way to evaluate reasoning

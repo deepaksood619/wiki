@@ -1,7 +1,5 @@
 # Statistics
 
----
-
 1. **Statistics in Data Preparation**
 
 Statistical methods are required in the preparation of train and test data for your machine learning model.

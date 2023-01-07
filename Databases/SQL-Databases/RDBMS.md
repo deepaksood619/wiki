@@ -1,7 +1,5 @@
 # RDBMS
 
----
-
 Arelational databaseis a database that organizes information into one or more tables. Here, the relational database contains one table.
 Atableis a collection of data organized into rows and columns. Tables are sometimes referred to asrelations. Here the table iscelebs.
 Acolumnis a set of data values of a particular type. Here, id, name, andageare the columns.

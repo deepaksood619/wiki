@@ -1,7 +1,5 @@
 # Documentation
 
----
-
 [Preface](https://www.postgresql.org/docs/12/preface.html)
 
 [1. What IsPostgreSQL?](https://www.postgresql.org/docs/12/intro-whatis.html)

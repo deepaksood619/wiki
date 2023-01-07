@@ -1,7 +1,5 @@
 # Parallel Processing
 
----
-
 ## Parallel Processing, MPP (Massive Parallel Processing)
 
 ## Symmetric Multi-Processing (SMP) is a tightly coupled multiprocessor system where processors share resources -- single instances of the Operating System (OS), memory, I/O devices and connected using a common bus. SMP is the primary parallel architecture employed in servers and is depicted in the following image

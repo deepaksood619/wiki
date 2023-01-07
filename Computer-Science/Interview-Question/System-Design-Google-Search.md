@@ -1,7 +1,5 @@
 # System Design - Google Search
 
----
-
 [How does Google Search work?](https://www.youtube.com/watch?v=KyCYyoGusqs)-  Can crawl according to page ranks (high reputation, links from other sites to yours)
 
 - 2002 - Update fretz

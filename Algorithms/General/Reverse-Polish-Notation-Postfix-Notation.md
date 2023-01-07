@@ -1,7 +1,5 @@
 # Reverse Polish Notation / Postfix Notation
 
----
-
 Infix - (2+5)*3
 
 Polish Notation - *+253

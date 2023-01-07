@@ -1,8 +1,8 @@
 # Education / PhD
 
----
-
 Education is not preparation for life; education is life itself.
+
+School is a test for memory and not intelligence
 
 India's Institutions of National Importance (INIs)
 

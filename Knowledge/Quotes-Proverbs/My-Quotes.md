@@ -1,7 +1,5 @@
 # My Quotes
 
----
-
 Pros outweight the cons
 
 Everytime you fail, you fail a hundred times. Because everytime you fail, it is easy to fail next time and difficult to succeed the next time.

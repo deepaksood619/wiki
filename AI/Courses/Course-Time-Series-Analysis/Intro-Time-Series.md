@@ -1,7 +1,5 @@
 # Intro - Time Series
 
----
-
 - QQ-Plot (Quantile-Quantile Plot)
   - Used to determine whether a data set is distributed a certain way (To see if the values of a data set follow a given distribution?)
   - Usually showcases how the data fits a Normal Distribution

@@ -1,7 +1,5 @@
 # Parameter Servers
 
----
-
 ## Parameter Servers and Stale Synchronous Parallel Model
 
 ## ML Systems

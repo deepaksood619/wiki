@@ -1,7 +1,5 @@
 # BI Tools
 
----
-
 <https://www.toptal.com/business-intelligence/interview-questions>
 
 ## Tableau - Visualization from relational databases and data cubes, OLAP cubes, cloud databases

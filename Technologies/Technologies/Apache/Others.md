@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Optimization
 
 <https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-partitions.html#aws-glue-programming-etl-partitions-writing>

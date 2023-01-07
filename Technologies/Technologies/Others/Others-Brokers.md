@@ -1,7 +1,5 @@
 # Others - Brokers
 
----
-
 ## NSQ - A realtime distributed messaging platform
 
 NSQ is a realtime distributed messaging platform designed to operate at scale, handling billions of messages per day. It promotes distributed and decentralized topologies without single points of failure, enabling fault tolerance and high availability coupled with a reliable message delivery guarantee.

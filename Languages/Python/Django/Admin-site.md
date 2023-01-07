@@ -1,7 +1,5 @@
 # Admin site
 
----
-
 ## Overview
 
 - Enabled by default

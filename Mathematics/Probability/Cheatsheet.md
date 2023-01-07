@@ -1,7 +1,5 @@
 # Cheatsheet
 
----
-
 MVN - MultiVariate Normal Distribution
 
 ![image](media/Cheatsheet-image1.png)

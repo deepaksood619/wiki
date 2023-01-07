@@ -1,7 +1,5 @@
 # ELK/EFK Stack /Elastic Stack / ElasticSearch
 
----
-
 ## ELK stands for Elasticsearch - Logstash - Kibana
 
 ![image](../../media/Technologies-Elasticsearch-ELK-EFK-Stack-Elastic-Stack-ElasticSearch-image1.png)

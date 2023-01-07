@@ -1,7 +1,5 @@
 # Questions
 
----
-
 1. Where would you use exact-match packet forwarding? Where would you use longest-prefix? Whyis 2-choice better than standard hashing?
 
 2. What are the different types of queueing structures in a router? What are the pros and cons of each? Explain the HoL blocking problem in input-queued routers.

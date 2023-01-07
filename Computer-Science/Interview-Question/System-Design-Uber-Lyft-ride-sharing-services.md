@@ -1,7 +1,5 @@
 # System Design - Uber Lyft ride sharing services
 
----
-
 [System Design: Uber Lyft ride sharing services - Interview question](https://www.youtube.com/watch?v=J3DY3Te3A_A)
 
 ## Core Features

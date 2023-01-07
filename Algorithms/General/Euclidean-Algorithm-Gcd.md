@@ -1,7 +1,5 @@
 # Euclidean Algorithm - Gcd
 
----
-
 ## Synonyms
 
 1. Greatest Common Divisor (GCD)

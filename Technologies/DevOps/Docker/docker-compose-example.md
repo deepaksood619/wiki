@@ -1,7 +1,5 @@
 # docker-compose example
 
----
-
 ```yaml
 version: "3.7"
 services:

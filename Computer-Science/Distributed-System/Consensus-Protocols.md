@@ -1,7 +1,5 @@
 # Consensus Protocols
 
----
-
 There are a number of ways we can go about replicating the log data. Broadly speaking, we can group the techniques into two different categories:
 
 ## Gossip/Multicast Protocols

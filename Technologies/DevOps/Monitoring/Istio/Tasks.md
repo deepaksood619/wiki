@@ -1,7 +1,5 @@
 # Tasks
 
----
-
 ## Traffic Management
 
 Istio's traffic management model relies on theEnvoyproxies that are deployed along with your services. All traffic that your mesh services send and receive (data planetraffic) is proxied through Envoy, making it easy to direct and control traffic around your mesh without making any changes to your services.

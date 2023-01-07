@@ -1,7 +1,5 @@
 # Continents
 
----
-
 <table style="width:100%;">
 <colgroup>
 <col style="width: 13%" />

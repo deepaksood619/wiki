@@ -1,7 +1,5 @@
 # Industrial IoT (IIoT)
 
----
-
 ## Reference Architecure
 
 ![image](media/Industrial-IoT-(IIoT)-image1.png)

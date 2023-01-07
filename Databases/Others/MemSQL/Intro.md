@@ -1,7 +1,5 @@
 # Intro
 
----
-
 MemSQL is a distributed in-memory relational database designed for both transactional and analytical workloads.
 
 ## History

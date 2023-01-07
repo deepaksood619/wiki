@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Fundamental marketing theory
 
 - STP - Segmentation, Targeting, Positioning

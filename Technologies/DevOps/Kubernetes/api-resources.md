@@ -1,7 +1,5 @@
 # api-resources
 
----
-
 ### Namespaces
 
 Kubernetes includes a means to segment a single physical cluster into separate logical clusters using namespacing.

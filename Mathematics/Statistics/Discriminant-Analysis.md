@@ -1,7 +1,5 @@
 # Discriminant Analysis
 
----
-
 During a study, there are often questions that strike the researcher that must be answered. These questions include questions like 'are the groups different?', 'on what variables, are the groups most different?', 'can one predict which group a person belongs to using such variables?' etc. In answering such questions, discriminant analysis is quite helpful.
 Discriminant analysis is a technique that is used by the researcher to analyze the research data when the criterion or the dependent variable is categorical and the predictor or the independent variable is interval in nature. The term categorical variable means that the dependent variable is divided into a number of categories. For example, three brands of computers, Computer A, Computer B and Computer C can be the categorical dependent variable.
 The objective of discriminant analysis is to develop discriminant functions that are nothing but the linear combination of independent variables that will discriminate between the categories of the dependent variable in a perfect manner. It enables the researcher to examine whether significant differences exist among the groups, in terms of the predictor variables. It also evaluates the accuracy of the classification.

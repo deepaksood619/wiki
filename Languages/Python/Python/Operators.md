@@ -1,7 +1,5 @@
 # Operators
 
----
-
 Types of Operator
 
 Python language supports the following types of operators.

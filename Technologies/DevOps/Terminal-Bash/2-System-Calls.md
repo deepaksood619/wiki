@@ -1,7 +1,5 @@
 # (2) System Calls
 
----
-
 ## man syscalls
 
 <http://man7.org/linux/man-pages/man2/syscalls.2.html>

@@ -1,7 +1,5 @@
 # Characteristics
 
----
-
 ## Characteristics of Data warehouse
 
 A data warehouse has following characteristics:

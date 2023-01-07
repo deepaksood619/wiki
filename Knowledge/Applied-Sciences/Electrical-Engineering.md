@@ -1,7 +1,5 @@
 # Electrical Engineering
 
----
-
 ## Electrical Engineering
 
 - William Gilbert: De Magnete (On a Magnet)

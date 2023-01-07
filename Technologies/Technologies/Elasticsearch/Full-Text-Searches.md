@@ -1,7 +1,5 @@
 # Full Text Searches
 
----
-
 - Ignoring "stop words" such as "a", 'the', 'and'
 - Stemming words, so that 'pony' and 'ponies' are considered similar
 - Weighting words absed on different criteria such as how frequently they appear in the text, or the importance of the fields, such as the title or keywords, that they appear in.

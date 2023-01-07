@@ -1,7 +1,5 @@
 # Syllabus
 
----
-
 1. Markov Decision Processes
 
 - Introduction

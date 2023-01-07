@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## SE Radio - 321: End to End Encryption - Kim Carter with Peter Budai
 
 IM, Voice over IP, Email scenarios, as well as interservice communication scenarios such as securing data in use with full memory encryption, CPU-based key storage, enclaves, cryptographic protocols (Secure multi-party computation and Homomorphic encryption).

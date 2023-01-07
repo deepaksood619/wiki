@@ -1,7 +1,5 @@
 # Memory Mapping mmap
 
----
-
 ## Memory Mapping (mmap)
 
 Memory mapping ([mmap](http://man7.org/linux/man-pages/man2/mmap.2.html)) allows you to access a file as if it was loaded in memory entirely.It simplies file access and is frequently used by database and application developers.

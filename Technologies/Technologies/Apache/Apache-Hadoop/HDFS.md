@@ -1,7 +1,5 @@
 # HDFS
 
----
-
 ## Contents
 
 - design goals of HDFS

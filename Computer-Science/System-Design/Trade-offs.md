@@ -1,7 +1,5 @@
 # Trade offs
 
----
-
 ## Tradeoffs
 
 - Speed vs. memory

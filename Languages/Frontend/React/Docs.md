@@ -1,7 +1,5 @@
 # Docs
 
----
-
 ## MAIN CONCEPTS
 
 - [1. Hello World](https://reactjs.org/docs/hello-world.html)

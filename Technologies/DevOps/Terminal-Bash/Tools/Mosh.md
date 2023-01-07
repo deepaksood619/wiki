@@ -1,7 +1,5 @@
 # Mosh
 
----
-
 Remote terminal application that allowsroaming, supportsintermittent connectivity, and provides intelligentlocal echoand line editing of user keystrokes.
 
 Mosh is a replacement for interactive SSH terminals. It's more robust and responsive, especially over Wi-Fi, cellular, and long-distance links.

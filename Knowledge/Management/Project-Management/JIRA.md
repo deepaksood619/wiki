@@ -1,7 +1,5 @@
 # JIRA
 
----
-
 ## Atlassian - JIRA Confluence Trello Bitbucket
 
 ## JIRA Software

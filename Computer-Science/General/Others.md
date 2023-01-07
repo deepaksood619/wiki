@@ -1,7 +1,5 @@
 # Others
 
----
-
 ISO 3103 - How to brew tea?
 
 ## Pairwise distinct - All elements are unique

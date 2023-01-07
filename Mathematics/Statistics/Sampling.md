@@ -1,7 +1,5 @@
 # Sampling
 
----
-
 - Sampling is the main technique employed for data selection
   - It is often used for both the preliminary investigation of the data and the final data analysis
 - Statisticians samples because obtaining the entire set of data of interest is too expensive or time consuming

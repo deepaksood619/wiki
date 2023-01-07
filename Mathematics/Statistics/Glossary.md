@@ -1,7 +1,5 @@
 # Glossary
 
----
-
 | **Word**                        | **Definition**                                                                                                                                                                                                                                                 |
 |---------------|---------------------------------------------------------|
 | Population                      | The collections of all items of interest to our study; denoted N.                                                                                                                                                                                              |

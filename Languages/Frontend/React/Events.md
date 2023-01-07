@@ -1,7 +1,5 @@
 # Events
 
----
-
 Your event handlers will be passed instances ofSyntheticEvent, a cross-browser wrapper around the browser's native event. It has the same interface as the browser's native event, includingstopPropagation()andpreventDefault(), except the events work identically across all browsers.
 
 - [Clipboard Events](https://reactjs.org/docs/events.html#clipboard-events)

@@ -1,7 +1,5 @@
 # Estimation Statistics
 
----
-
 Estimation statistics may be used as an alternative to statistical hypothesis tests. Statistical hypothesis tests can be used to indicate whether the difference between two samples is due to random chance, but cannot comment on the size of the difference. A group of methods referred to as new statistics are seeing increased use instead of or in addition to p-values in order to quantify the magnitude of effects and the amount of uncertainty for estimated values. This group of statistical methods is referred to as estimation statistics. Estimation statistics is a term to describe three main classes of methods. The three main classes of methods include:
 
 1. Effect Size. Methods for quantifying the size of an effect given a treatment or intervention.

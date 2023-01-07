@@ -1,7 +1,5 @@
 # DeFi Decentralized Finance
 
----
-
 ## Decentralized Finance - DeFi
 
 - Allow most operations traditional financial instruments, but on The Blockchain

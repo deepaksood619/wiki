@@ -1,7 +1,5 @@
 # Problems
 
----
-
 ## Anagrams (ABC, CBA are anagrams of each other)
 
 - Can sort both array and compare both

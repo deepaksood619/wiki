@@ -1,7 +1,5 @@
 # Youtube / Podcasts / Magazine
 
----
-
 Discovery+
 
 <https://www.discoveryplus.in/show/the-birth-of-empire-the-east-india-company>

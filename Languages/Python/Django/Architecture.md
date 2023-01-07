@@ -1,7 +1,5 @@
 # Architecture
 
----
-
 Follows **Model-View-Template (MVT)** architectural pattern.
 
 ## Primary Goal

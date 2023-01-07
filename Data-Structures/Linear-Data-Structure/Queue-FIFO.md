@@ -1,7 +1,5 @@
 # Queue FIFO
 
----
-
 ## Points to remember
 
 1. Linear Data Structure

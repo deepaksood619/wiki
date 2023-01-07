@@ -1,7 +1,5 @@
 # Blogs / Conferences / Blogging / Presentation / Tech Thursdays
 
----
-
 ## Startup onboarding series
 
 1. Setting up laptop (mac)

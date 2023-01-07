@@ -1,7 +1,5 @@
 # Microprocessor
 
----
-
 ## Course - NPTEL - IIT-Guwahati, by Dr. John Jose
 
 # Multilevel Machine Architecture

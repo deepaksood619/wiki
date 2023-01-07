@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## netdata
 
 Netdata is high-fidelity infrastructure monitoring and troubleshooting.

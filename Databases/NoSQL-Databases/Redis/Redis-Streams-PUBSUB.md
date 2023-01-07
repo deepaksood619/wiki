@@ -1,7 +1,5 @@
 # Redis Streams / PUBSUB
 
----
-
 ## Messaging
 
 **Redis Streams** doubles as a communication channel for building streaming architectures and as a log-like data structure for persisting data, making Streams the perfect solution for event sourcing

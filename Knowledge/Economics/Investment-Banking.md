@@ -1,7 +1,5 @@
 # Investment Banking
 
----
-
 ## Investment banking
 
 Investment banking is a specific division of banking related to the creation of capital for other companies, governments, and other entities.

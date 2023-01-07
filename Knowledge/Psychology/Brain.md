@@ -1,7 +1,5 @@
 # Brain
 
----
-
 Left side of brain - Logic, Language, Linear (Analytical / Logical)
 
 Right - Creative, Imagination, Emotion, Visualization (Emotional / Social)

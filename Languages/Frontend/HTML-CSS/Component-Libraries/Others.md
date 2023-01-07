@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Bootstrap
 
 1. Flatter Buttons

@@ -1,7 +1,5 @@
 # International Relations IR
 
----
-
 In international relations there are no permanent friends or enemies only permanent interests
 
 We can choose our friends but not our neighbours

@@ -1,7 +1,5 @@
 # Reflection
 
----
-
 Reflection is an api used to examine or modify the behavior of methods, classes or interfaces at runtime.
 
 Java Reflection API

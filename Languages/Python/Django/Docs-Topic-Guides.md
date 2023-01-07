@@ -1,7 +1,5 @@
 # Docs - Topic Guides
 
----
-
 - [How to install Django](https://docs.djangoproject.com/en/2.0/topics/install/)
   - [Install Python](https://docs.djangoproject.com/en/2.0/topics/install/#install-python)
   - [Install Apache andmod_wsgi](https://docs.djangoproject.com/en/2.0/topics/install/#install-apache-and-mod-wsgi)

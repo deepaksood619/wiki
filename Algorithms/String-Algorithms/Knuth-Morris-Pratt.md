@@ -1,7 +1,5 @@
 # Knuth-Morris-Pratt
 
----
-
 ![image](media/Knuth-Morris-Pratt-image1.png)
 
 ![image](media/Knuth-Morris-Pratt-image2.png)

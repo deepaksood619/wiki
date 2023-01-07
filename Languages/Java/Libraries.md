@@ -1,7 +1,5 @@
 # Libraries
 
----
-
 ## jvisualvm
 
 Visualize memory footprint of java app

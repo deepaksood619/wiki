@@ -1,7 +1,5 @@
 # Diseases / Tests
 
----
-
 ## Lifestyle related disease
 
 - Obesity

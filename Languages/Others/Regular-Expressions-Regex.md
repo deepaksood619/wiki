@@ -1,7 +1,5 @@
 # Regular Expressions / Regex
 
----
-
 Its different from wildcards (Wildcards have very few metacharacters than Regular Expressions)
 
 ## Standards

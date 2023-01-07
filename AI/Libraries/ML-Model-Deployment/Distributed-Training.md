@@ -1,7 +1,5 @@
 # Distributed Training
 
----
-
 # Architecture of Distributed Training
 
 There are three basic strategies to train a model with multiple nodes:

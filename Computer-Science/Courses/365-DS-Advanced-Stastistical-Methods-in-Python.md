@@ -1,7 +1,5 @@
 # 365 DS - Advanced Stastistical Methods in Python
 
----
-
 ## Linear regression
 
 Welcome to Advanced Statistics! (0:28)

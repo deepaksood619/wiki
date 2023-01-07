@@ -1,7 +1,5 @@
 # Security, Identity & Compliance
 
----
-
 1. AWS Identity & Access Management (IAM)
 
 Manage User Access and Encryption Keys

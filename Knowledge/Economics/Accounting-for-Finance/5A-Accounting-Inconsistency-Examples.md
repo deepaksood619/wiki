@@ -1,7 +1,5 @@
 # 5A: Accounting Inconsistency Examples
 
----
-
 ## Tax Rates
 
 ![image](media/Accounting-for-Finance_5A-Accounting-Inconsistency-Examples-image1.jpg)

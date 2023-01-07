@@ -1,7 +1,5 @@
 # A* Search Algorithm
 
----
-
 The process of plotting an efficiently directed path between multiple points, called nodes.
 
 ## Used in

@@ -1,7 +1,5 @@
 # Product Design / Questions
 
----
-
 <https://www.toptal.com/designers/product-design/interview-questions>
 
 <https://www.toptal.com/designers/interactive/interview-questions>

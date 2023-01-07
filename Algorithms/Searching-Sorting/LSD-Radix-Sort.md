@@ -1,7 +1,5 @@
 # LSD Radix Sort
 
----
-
 ![image](media/LSD-Radix-Sort-image1.png)
 
 ![image](media/LSD-Radix-Sort-image2.png)

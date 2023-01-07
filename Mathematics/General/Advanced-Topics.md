@@ -1,7 +1,5 @@
 # Advanced Topics
 
----
-
 Bayes' Theorem and Conditional Probability (<https://brilliant.org/wiki/bayes-theorem>)
 Linear Diophantine Equations (<https://brilliant.org/wiki/linear-diophantine-equations-one-equation/#linear-diophantine-equations>)
 Maximum Likelihood Estimation (MLE) (<https://brilliant.org/wiki/maximum-likelihood-estimation-mle>)

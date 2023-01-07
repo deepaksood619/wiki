@@ -1,7 +1,5 @@
 # Helm
 
----
-
 ## The package manager for Kubernetes
 
 Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.

@@ -1,7 +1,5 @@
 # Attacks
 
----
-
 ## Types of Security Attacks
 
 1. Passive Attack

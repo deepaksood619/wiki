@@ -1,7 +1,5 @@
 # Mental Models
 
----
-
 ## 80/20 Rule / Pareto Principle
 
 In 1906 there was an Italian economist named Vilfredo Pareto. One day Pareto noticed that every year, 20% of the pea pods in his garden produced approximately 80% of the peas.

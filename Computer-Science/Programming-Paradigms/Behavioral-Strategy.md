@@ -1,7 +1,5 @@
 # Behavioral - Strategy
 
----
-
 ![image](media/Behavioral-Strategy-image1.png)
 
 ![image](media/Behavioral-Strategy-image2.png)

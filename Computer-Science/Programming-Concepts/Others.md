@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Relationships
 
 inheritance (is-a relationship)

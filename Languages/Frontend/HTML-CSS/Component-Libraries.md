@@ -1,7 +1,5 @@
 # Component Libraries
 
----
-
 <https://lwc.dev>
 
 ## CSS in JS

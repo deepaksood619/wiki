@@ -1,7 +1,5 @@
 # 5: Cleaning Up Accounting
 
----
-
 ## The Accountant's Role
 
 - Accountants like order and consistency, as can be seen in their propensity to write rules

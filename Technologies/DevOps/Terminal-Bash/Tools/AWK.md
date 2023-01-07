@@ -1,7 +1,5 @@
 # AWK
 
----
-
 ## man awk - pattern-directed scanning and processing language
 
 ## AWKis a [programming language](https://en.wikipedia.org/wiki/Programming_language) designed for text processing and typically used as a [data extraction](https://en.wikipedia.org/wiki/Data_extraction) and reporting tool. It is a standard feature of most [Unix-like](https://en.wikipedia.org/wiki/Unix-like)[operating systems](https://en.wikipedia.org/wiki/Operating_system)

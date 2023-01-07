@@ -1,7 +1,5 @@
 # Laws
 
----
-
 ## Thoughts
 
 ## Useless laws weaken the necessary laws'. The maxim conceptualised by French historian and philosopher Baron de Montesquieu illuminates the legal landscape in India's political economy. The distinction between what is necessary and what is useless is trapped in a fog of perceived intent and perpetuation of fear. The result is: criminalisation of entrepreneurship and of business entities

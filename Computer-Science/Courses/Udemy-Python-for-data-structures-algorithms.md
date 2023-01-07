@@ -1,7 +1,5 @@
 # Udemy - Python for data structures algorithms
 
----
-
 1. Array Sequences
 
 2. Stacks, Queues, and Deques

@@ -1,7 +1,5 @@
 # Falcor
 
----
-
 A JavaScript library for efficient data fetching
 
 1. One Model Everywhere

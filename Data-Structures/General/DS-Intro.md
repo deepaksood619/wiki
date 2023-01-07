@@ -1,7 +1,5 @@
 # DS Intro
 
----
-
 1. **Implicit Data Structure -**
 
 In [computer science](https://en.wikipedia.org/wiki/Computer_science), an**implicit [data structure](https://en.wikipedia.org/wiki/Data_structure)**or**space-efficient data structure**is a data structure that stores very little information other than the main or required data: a data structure that requires low [overhead](https://en.wikipedia.org/wiki/Overhead_(computing)). They are called "implicit" because the position of the elements carries meaning and relationship between elements.

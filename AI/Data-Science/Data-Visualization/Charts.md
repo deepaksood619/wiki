@@ -1,7 +1,5 @@
 # Charts
 
----
-
 ## Graphic Types
 
 1. Pareto chart

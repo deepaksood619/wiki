@@ -1,7 +1,5 @@
 # Graphite
 
----
-
 ## Graphite does two things
 
 1. Store numeric time-series data

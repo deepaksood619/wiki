@@ -1,7 +1,5 @@
 # Intro
 
----
-
 DRI - Designated Response Individuals
 
 SRE - Site Reliability Engineers

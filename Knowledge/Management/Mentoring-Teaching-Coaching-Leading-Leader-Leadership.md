@@ -1,7 +1,5 @@
 # Mentoring / Teaching / Coaching / Leading / Leader / Leadership
 
----
-
 Leadership is the ability to guide, support, and nurture others. Leaders are adept at finding ways for others to be at their best.
 
 A leader doesn't have to be told to step up; they just do it when it's necessary. It's automatic.

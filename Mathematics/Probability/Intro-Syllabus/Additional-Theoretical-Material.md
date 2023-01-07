@@ -1,7 +1,5 @@
 # Additional Theoretical Material
 
----
-
 # Functions
 
 ![image](media/Intro-Syllabus_Additional-Theoretical-Material-image1.png)

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Blinkists
 
 1. The End of Illness

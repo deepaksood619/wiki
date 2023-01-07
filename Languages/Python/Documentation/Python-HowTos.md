@@ -1,7 +1,5 @@
 # Python HowTos
 
----
-
 - [Porting Python 2 Code to Python 3](https://docs.python.org/3/howto/pyporting.html)
 - [Porting Extension Modules to Python 3](https://docs.python.org/3/howto/cporting.html)
 - [Curses Programming with Python](https://docs.python.org/3/howto/curses.html)

@@ -1,7 +1,5 @@
 # Bellman Ford Algorithm
 
----
-
 ![image](media/Bellman-Ford-Algorithm-image1.png)
 
 ![image](media/Bellman-Ford-Algorithm-image2.png)

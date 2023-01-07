@@ -1,7 +1,5 @@
 # Memory Layout
 
----
-
 A typical memory representation of C program consists of following sections.
 
 1. Text segment

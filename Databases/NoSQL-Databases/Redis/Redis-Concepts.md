@@ -1,7 +1,5 @@
 # Redis Concepts
 
----
-
 ## Redis keys
 
 Redis keys are binary safe, this means that you can use any binary sequence as a key, from a string like "foo" to the content of a JPEG file. The empty string is also a valid key.

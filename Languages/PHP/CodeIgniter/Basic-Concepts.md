@@ -1,7 +1,5 @@
 # Basic Concepts
 
----
-
 ## Routing
 
 CodeIgniter has user-friendly URI routing system, so that you can easily re-route URL. Typically, there is a one-to-one relationship between a URL string and its corresponding controller class/method. The segments in a URI normally follow this pattern −

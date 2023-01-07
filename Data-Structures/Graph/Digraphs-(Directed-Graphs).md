@@ -1,7 +1,5 @@
 # Digraphs (Directed Graphs)
 
----
-
 ![image](media/Digraphs-(Directed-Graphs)-image1.png)
 
 1. Path

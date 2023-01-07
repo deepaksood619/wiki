@@ -1,7 +1,5 @@
 # Type Introspection and Reflection
 
----
-
 ## Type Introspection
 
 The ability of a program to examine the type or properties of an object at runtime.

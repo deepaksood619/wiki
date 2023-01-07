@@ -1,7 +1,5 @@
 # Mordern React with Redux
 
----
-
 ## An Intro to React
 
 - BoilerPlate Code

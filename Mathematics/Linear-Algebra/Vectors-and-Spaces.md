@@ -1,7 +1,5 @@
 # Vectors and Spaces
 
----
-
 1. [Vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces#vectors)
     - Vector = Magnitude + Direction
 

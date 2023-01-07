@@ -1,7 +1,5 @@
 # Photoshop
 
----
-
 | **Photoshop**                                                                                                  |
 |------------------------------------------------------------------------|
 | <https://www.sitepoint.com/getting-started-photoshop-5>                                                       |

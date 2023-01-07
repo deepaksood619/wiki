@@ -1,7 +1,5 @@
 # CAP Theorem
 
----
-
 ## Proposed by Eric Brewer (Berkeley)
 
 ## C - Consistency

@@ -1,7 +1,5 @@
 # Futures / Options / Trading
 
----
-
 ## Trading
 
 - Start with paper trading account

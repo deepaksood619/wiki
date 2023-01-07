@@ -1,7 +1,5 @@
 # RBAC
 
----
-
 ![image](../../../media/DevOps-Kubernetes-RBAC-image1.png)
 
 ![image](../../../media/DevOps-Kubernetes-RBAC-image2.png)

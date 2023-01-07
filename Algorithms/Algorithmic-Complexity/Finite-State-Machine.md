@@ -1,7 +1,5 @@
 # Finite-State Machine
 
----
-
 DFA - Deterministic Finite Automata
 
 NFA - Non-deterministic Finite Automata

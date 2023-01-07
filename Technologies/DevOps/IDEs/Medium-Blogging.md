@@ -1,7 +1,5 @@
 # Medium Blogging
 
----
-
 You have reached the pay-walled version of this article. You can read it absolutely for free [on my blog](https://preslav.me/2018/12/02/designing-well-structured-rest-apis-with-flask-restplus-part-1/), however.
 
 ## Shortcuts

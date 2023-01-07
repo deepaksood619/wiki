@@ -1,7 +1,5 @@
 # Prime Factorization
 
----
-
 Prime factorization or integer factorization of a number is breaking a number down into the set of prime numbers which multiply together to result in the original number. This is also known as prime decomposition.
 
 ## Prime Factorization using Trial Division

@@ -1,7 +1,5 @@
 # Commands
 
----
-
 ```bash
 vmq-admin
 Usage: vmq-admin <sub-command>

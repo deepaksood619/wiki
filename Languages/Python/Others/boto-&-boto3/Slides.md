@@ -1,7 +1,5 @@
 # Slides
 
----
-
 ## Boto3
 
 - AWS SDK for Python developers

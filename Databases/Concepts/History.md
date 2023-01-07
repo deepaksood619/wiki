@@ -1,7 +1,5 @@
 # History
 
----
-
 ![image](media/History-image1.png)
 
 ![image](media/History-image2.png)

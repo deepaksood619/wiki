@@ -1,7 +1,5 @@
 # Create Table
 
----
-
 ## CREATE TABLE
 
 ```sql

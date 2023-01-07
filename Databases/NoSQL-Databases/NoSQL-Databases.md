@@ -1,7 +1,5 @@
 # NoSQL Databases
 
----
-
 ## Aerospike
 
 Aerospike is a distributed key-value DBMS. It is mainly targeted at OLTP workloads with large number of transactions.

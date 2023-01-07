@@ -1,7 +1,5 @@
 # Guides
 
----
-
 - [Authentication](https://grpc.io/docs/guides/auth/)
 - [Benchmarking](https://grpc.io/docs/guides/benchmarking/)
 - [Contribution Guidelines](https://grpc.io/docs/guides/contributing/)

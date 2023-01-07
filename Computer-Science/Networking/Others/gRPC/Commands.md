@@ -1,7 +1,5 @@
 # Commands
 
----
-
 ```bash
 brew install protobuf
 >>> protoc

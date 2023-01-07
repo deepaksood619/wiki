@@ -1,7 +1,5 @@
 # Constitution of India
 
----
-
 ## Original
 
 - Articles - 395

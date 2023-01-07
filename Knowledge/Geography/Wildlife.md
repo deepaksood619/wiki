@@ -1,7 +1,5 @@
 # Wildlife
 
----
-
 ## IUCN Red List of Threatened Species
 
 The [IUCN Red List of Threatened Species](https://en.wikipedia.org/wiki/IUCN_Red_List) is the best known worldwide conservation status listing and ranking system. Species are classified by the IUCN Red List into nine groups set through criteria such as rate of decline, population size, area of geographic distribution, and degree of population and distribution fragmentation.

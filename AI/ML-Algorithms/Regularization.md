@@ -1,7 +1,5 @@
 # Regularization
 
----
-
 ## Regularization - Techniques used to generalize a model
 
 ![image](media/Regularization-image1.png)

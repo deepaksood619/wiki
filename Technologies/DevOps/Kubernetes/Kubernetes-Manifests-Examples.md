@@ -1,7 +1,5 @@
 # Kubernetes Manifests Examples
 
----
-
 ## Resource Schema Components (Manifests)
 
 - GVK (Group Version Kind) aka TypeMeta - apiVersion & Kind

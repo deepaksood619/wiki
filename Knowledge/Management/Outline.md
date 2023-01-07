@@ -1,7 +1,5 @@
 # Outline
 
----
-
 ## Management Basics
 
 - [Management Basics](https://www.managementstudyguide.com/management-basics-articles.htm)

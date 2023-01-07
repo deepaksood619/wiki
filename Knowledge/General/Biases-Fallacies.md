@@ -1,7 +1,5 @@
 # Biases / Fallacies
 
----
-
 There are two major types of **logical fallacies**
 
 1. **Formal fallacies**, there's a problem withhowyou structure your argument, and how you're making your points. You might be speaking the truth, but the logic breaks down because of the way you're putting your arguments together.

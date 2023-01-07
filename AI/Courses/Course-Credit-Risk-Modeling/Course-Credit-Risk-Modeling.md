@@ -1,7 +1,5 @@
 # Course - Credit Risk Modeling
 
----
-
 <https://365datascience.teachable.com/p/credit-risk-modeling-in-python>
 
 <https://365datascience.teachable.com/courses/629877>

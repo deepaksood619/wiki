@@ -1,7 +1,5 @@
 # Tools
 
----
-
 1. [InfluxDB command line interface (CLI/shell)](https://docs.influxdata.com/influxdb/v1.7/tools/shell/)
 
 2. [InfluxDB HTTP API reference](https://docs.influxdata.com/influxdb/v1.7/tools/api/)

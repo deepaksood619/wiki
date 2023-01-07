@@ -1,7 +1,5 @@
 # Geometry Foundations
 
----
-
 [Intro to Euclidean geometry](https://www.khanacademy.org/math/geometry/hs-geo-foundations#hs-geo-intro-euclid)
 
 [Angles](https://www.khanacademy.org/math/geometry/hs-geo-foundations#hs-geo-angles)

@@ -1,7 +1,5 @@
 # Pulses / Daal / Lentils
 
----
-
 1. Masoor daal
 
 ![image](media/Nutrition_Pulses-Daal-Lentils-image1.png)

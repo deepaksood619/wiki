@@ -1,7 +1,5 @@
 # Kafka Topic/Replication
 
----
-
 ## Kafka Topics
 
 More partitions in a Kafka cluster leads to higher throughput. However, one does have to be aware of the potential impact of having too many partitions in total or per broker on things like availability and latency.

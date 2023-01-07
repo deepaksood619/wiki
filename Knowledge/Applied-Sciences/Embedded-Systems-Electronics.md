@@ -1,7 +1,5 @@
 # Embedded Systems / Electronics
 
----
-
 ## Network Processors
 
 A **network processor** is an [integrated circuit](https://en.wikipedia.org/wiki/Integrated_circuit) which has a feature set specifically targeted at the [networking](https://en.wikipedia.org/wiki/Computer_networking) application domain.

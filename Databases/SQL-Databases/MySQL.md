@@ -1,7 +1,5 @@
 # MySQL
 
----
-
 ## MySQL gotchas
 
 - select * from table_name where column != 'abc'; # doesn't return NULL rows

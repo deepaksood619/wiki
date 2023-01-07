@@ -1,7 +1,5 @@
 # Politics
 
----
-
 Lennon will always remain a freedom seeker, a liberal globalizer who dreamed of a world with no country, with nothing to kill or die for, and no religion too. Impossible? Maybe , but dreams need to go beyond the mere possible.
 
 Only the dead can be forgiven

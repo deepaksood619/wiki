@@ -1,7 +1,5 @@
 # Questions
 
----
-
 ## Hash Table
 
 - Find symmetric pairs in an array

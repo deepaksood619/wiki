@@ -1,7 +1,5 @@
 # Home Exercise Routine
 
----
-
 Youtube - Athlean X
 
 ![image](media/Exercise-Stretching_Home-Exercise-Routine-image1.jpg)

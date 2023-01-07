@@ -1,7 +1,5 @@
 # Quotient Rule
 
----
-
 ![image](media/Quotient-Rule-image1.png)
 ![image](media/Quotient-Rule-image2.png)
 ![image](media/Quotient-Rule-image3.png)

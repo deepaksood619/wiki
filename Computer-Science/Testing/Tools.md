@@ -1,7 +1,5 @@
 # Tools
 
----
-
 ## Google Test
 
 Google Testing and Mocking Framework

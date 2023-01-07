@@ -1,7 +1,5 @@
 # Load / Performance Testing/QA Tools
 
----
-
 ## Website Performance Testing Tools
 
 - <https://gtmetrix.com>

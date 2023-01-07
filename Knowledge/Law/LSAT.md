@@ -1,7 +1,5 @@
 # LSAT
 
----
-
 LSAT (Law School Admission Test) (Score - 120 to 180, above 160 is good)
 
 The test consists of five 35-minute sections ofmultiple-choice questions. Four of the five sections contribute to the test taker's score.

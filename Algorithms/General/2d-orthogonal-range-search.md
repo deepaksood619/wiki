@@ -1,7 +1,5 @@
 # 2d orthogonal range search
 
----
-
 ![image](media/2d-orthogonal-range-search-image1.png)
 
 ## Analysis

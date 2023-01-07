@@ -1,7 +1,5 @@
 # Self-Driving Nanodegree
 
----
-
 ## Part - 1
 
 [Computer Vision, Deep Learning, and Sensor Fusion](https://classroom.udacity.com/nanodegrees/nd013/parts/edf28735-efc1-4b99-8fbb-ba9c432239c8)

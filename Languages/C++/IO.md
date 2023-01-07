@@ -1,7 +1,5 @@
 # IO
 
----
-
 ## Char input
 
 ```c++

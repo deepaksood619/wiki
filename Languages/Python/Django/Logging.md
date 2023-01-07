@@ -1,7 +1,5 @@
 # Logging
 
----
-
 Django uses Python's builtin logging module to perform system logging.
 
 A Python logging configuration consists of four parts:

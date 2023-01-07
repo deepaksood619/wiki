@@ -1,7 +1,5 @@
 # Memory Allocation
 
----
-
 ## Dynamic memory allocation
 
 Is memory allocated at runtime usingcalloc(), malloc()and friends. It is sometimes also referred to as 'heap' memory, although it has nothing to do with the heap data-structure [ref](http://www.quora.com/Why-is-dynamic-memory-allocation-called-heap-memory-allocation).

@@ -1,7 +1,5 @@
 # Documentation
 
----
-
 ## Programming with Redis
 
 - [The full list of commands](https://redis.io/commands) implemented by Redis, along with thorough documentation for each of them.

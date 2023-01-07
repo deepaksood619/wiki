@@ -1,7 +1,5 @@
 # Tools
 
----
-
 <https://sqlnotebook.com>
 
 [**nteract**](https://github.com/nteract) is a next-gen React-based UI for Jupyter notebooks. It provides a simple, intuitive interface and offers several improvements over the classic Jupyter UI, such as inline cell toolbars, drag and droppable cells, and a built-in data explorer.

@@ -1,7 +1,5 @@
 # Gatsby
 
----
-
 Gatsby is a free and open source framework based on React that helps developers build blazing fastwebsitesandapps
 
 Gatsby is a modern web framework for blazing fast websites.

@@ -1,7 +1,5 @@
 # 6A: Ratio Analysis
 
----
-
 ## Financial Ratios: A Life Cycle Perspective
 
 ![image](media/Accounting-for-Finance_6A-Ratio-Analysis-image1.jpg)

@@ -1,7 +1,5 @@
 # Configs
 
----
-
 ```yaml
 apiVersion: v1
 kind: ConfigMap

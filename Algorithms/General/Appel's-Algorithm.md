@@ -1,7 +1,5 @@
 # Appel's Algorithm
 
----
-
 ## Appel's algorithm for N-body simulation
 
 Key idea: suppose particle is far, far away from cluster of particles:

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Column level access controls
 
 <https://aws.amazon.com/about-aws/whats-new/2020/03/announcing-column-level-access-control-for-amazon-redshift>

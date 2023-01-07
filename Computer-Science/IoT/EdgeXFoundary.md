@@ -1,7 +1,5 @@
 # EdgeXFoundary
 
----
-
 Founded in 2017, EdgeX Foundry acts as a vendor-neutral interoperabilityframework. It is hostedin a hardware and OS agnostic referenceplatform and seeks toenablean ecosystem of plug-and-playcomponents, unitingthe marketplace and acceleratingIoT deployment. The project wants to enable collaborators tofreely work onopen and interoperable IoT solutionswith existing and self-created connectivity standards.
 The EdgeX Foundry is a collection of open source microservices that span from the edge of the physical realm on the Device Services Layer, with the Core Services Layer at the center. These services communicate through a common API, allowing them to be augmented or replaced by custom implementations.
 By bringing this much-needed interoperability, EdgeX makes it easier to monitor physical world items, send instructions to them, collect data from them, move the data across the fog up to the cloud where it may be stored, aggregated, analyzed, and turned into information, actuated, and acted upon. So EdgeX enables data to travel northwards towards the Cloud and also laterally to other gateways, or back to devices, sensors, and actuators.

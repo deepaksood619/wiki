@@ -1,7 +1,5 @@
 # Plugins
 
----
-
 TheEMQ Xbroker could be extended by Plugins. A plugin is an Erlang application that adds extra feature to theEMQ Xbroker:
 
 | [emqx_retainer](https://github.com/emqx/emqx-retainer)               | Store Retained Messages                   |

@@ -1,7 +1,5 @@
 # Algo + DS
 
----
-
 ## Algorithms
 
 1. Union-Find Algorithm

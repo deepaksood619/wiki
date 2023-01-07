@@ -1,11 +1,7 @@
 # Intro
 
----
-
 1. Centralized
-
 2. Decentralised
-
 3. Distributed
 
 ## 2.0 stack
@@ -45,14 +41,11 @@
 ## Decentralized Chat (Whisper)
 
 1. Building first whisper chat app
-
 2. Sending messages with Geth + Whisper
-
 3. Off chain P2P communication protocol
-
 4. Scalability issues
-
 5. Peer to peer chat
+
 ![alt text](media/Intro-image1.jpeg)
 
 ## What is Whisper
@@ -60,22 +53,16 @@
 ![alt text](media/Intro-image2.png)
 
 - Darkness as a feature
-<https://github.com/llSourcell/Decentralized_Chat/blob/master/Decentralized%20Chat.ipynb>
-Decentralized News
+  <https://github.com/llSourcell/Decentralized_Chat/blob/master/Decentralized%20Chat.ipynb>
 
-Decentralized Games
-
-Decentralized Rides
-
-Decentralized Music
-
-Decentralized Search Engine App
-
-Decentralized Marketplace
-
-Decentralized Social Network
-
-Decentralized Artificial Intelligence
+- Decentralized News
+- Decentralized Games
+- Decentralized Rides
+- Decentralized Music
+- Decentralized Search Engine App
+- Decentralized Marketplace
+- Decentralized Social Network
+- Decentralized Artificial Intelligence
 
 ## References
 

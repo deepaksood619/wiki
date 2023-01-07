@@ -1,7 +1,5 @@
 # Code Smell
 
----
-
 In [computer programming](https://www.wikiwand.com/en/Computer_programming), acode smellis any characteristic in the [source code](https://www.wikiwand.com/en/Source_code) of a [program](https://www.wikiwand.com/en/Computer_program) that possibly indicates a deeper problem.Determining what is and is not a code smell is subjective, and varies by language, developer, and development methodology.
 One way to look at smells is with respect to principles and quality: "Smells are certain structures in the code that indicate violation of fundamental design principles and negatively impact design quality".Code smells are usually not [bugs](https://www.wikiwand.com/en/Software_bug); they are not technically incorrect and do not prevent the program from functioning. Instead, they indicate weaknesses in design that may slow down development or increase the risk of bugs or failures in the future. Bad code smells can be an indicator of factors that contribute to [technical debt](https://www.wikiwand.com/en/Technical_debt).[Robert C. Martin](https://www.wikiwand.com/en/Robert_C._Martin) calls a list of code smells a "value system" for software craftsmanship.
 

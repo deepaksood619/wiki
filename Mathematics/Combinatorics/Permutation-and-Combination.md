@@ -1,7 +1,5 @@
 # Permutation and Combination
 
----
-
 Permutation - Order matters
 
 Combination - Order doesn't matter

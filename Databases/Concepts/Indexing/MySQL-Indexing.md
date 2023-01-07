@@ -1,7 +1,5 @@
 # MySQL Indexing
 
----
-
 ## Important Points
 
 - The primary key is already an index

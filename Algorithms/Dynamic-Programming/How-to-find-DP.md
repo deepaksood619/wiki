@@ -1,7 +1,5 @@
 # How to find DP
 
----
-
 ## Steps to solve a DP
 
 1) Identify if it is a DP problem

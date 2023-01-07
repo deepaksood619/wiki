@@ -1,7 +1,5 @@
 # Design of Key-Value Stores
 
----
-
 - We will discuss the design and insight of key-value/NoSQL stores for today's cloud storage systems.
 - We will also discuss Apache Cassandra and different consistency solutions
 

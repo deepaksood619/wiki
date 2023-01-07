@@ -1,7 +1,5 @@
 # Hello World
 
----
-
 ## hello.go
 
 ```go

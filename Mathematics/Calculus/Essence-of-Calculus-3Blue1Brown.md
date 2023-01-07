@@ -1,7 +1,5 @@
 # Essence of Calculus - 3Blue1Brown
 
----
-
 1. Introduction
 
 2. The paradox of the derivative

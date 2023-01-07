@@ -1,7 +1,5 @@
 # Mental Models
 
----
-
 ## To read
 
 - <http://beyondthetechrevolution.com/technological-revolutions-and-financial-capital>

@@ -1,7 +1,5 @@
 # Time Series Databases
 
----
-
 - Optimized for time-stamped or time series data
 - built specifically for handling metrics and events or measurements that are time-stamped.
 - optimized for measuring change over time.

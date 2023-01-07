@@ -1,7 +1,5 @@
 # npm commands
 
----
-
 npx - npm package runner
 
 <https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference>

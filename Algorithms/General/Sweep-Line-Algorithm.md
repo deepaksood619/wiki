@@ -1,7 +1,5 @@
 # Sweep Line Algorithm
 
----
-
 ## Orthogonal Line Segment Intersection
 
 Given N horizontal and vertical line segments, find all intersections

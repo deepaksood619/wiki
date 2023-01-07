@@ -1,7 +1,5 @@
 # Components
 
----
-
 - Always component name should start with Capital letter
 - CamelCase with first letter capatilized
 - One component in one file with same name (MyInfo.js)

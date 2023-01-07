@@ -1,7 +1,5 @@
 # Overview
 
----
-
 <https://www.djangoproject.com/start/overview>
 
 Django is a powerful web development framework built on top of Python

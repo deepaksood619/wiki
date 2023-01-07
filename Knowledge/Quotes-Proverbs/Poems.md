@@ -1,7 +1,5 @@
 # Poems
 
----
-
 ## The Cookie Thief by Valerie Cox
 
 A woman was waiting at an airport one night, with several long hours before her flight. She hunted for a book in the airport shops, bought a bag of cookies and found a place to drop.

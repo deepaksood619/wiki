@@ -1,7 +1,5 @@
 # Outline Documentation
 
----
-
 1. Overview
 
    - What is kubernetes

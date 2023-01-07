@@ -1,7 +1,5 @@
 # Kafka schema-registry
 
----
-
 <https://www.confluent.io/blog/schemas-contracts-compatibility>
 
 Schema Registry provides a serving layer for your metadata. It provides a RESTful interface for storing and retrieving Avro schemas. It stores a **versioned history** of all schemas, provides multiple compatibility settings and allows evolution of schemas according to the configured compatibility settings and expanded Avro support. It provides serializers that plug into Kafka clients that handle schema storage and retrieval for Kafka messages that are sent in the Avro format.

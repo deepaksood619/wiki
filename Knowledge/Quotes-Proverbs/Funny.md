@@ -1,7 +1,5 @@
 # Funny
 
----
-
 Once i was travelling by train from Mumbai to Delhi!
 
 When the train started, I was traveling alone in the AC-I coupe.
@@ -37,8 +35,6 @@ Now shout & scream !!
 Moral of the story : *DOCUMENTATION IS VERY IMPORTANT*
 
 Credit : Swami.V
-
----
 
 We are all humans until we are pregnant -- Giles Yao
 

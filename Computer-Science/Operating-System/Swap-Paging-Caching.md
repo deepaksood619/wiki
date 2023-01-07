@@ -1,7 +1,5 @@
 # Swap / Paging / Caching
 
----
-
 ## Paging
 
 Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory. This scheme permits the physical address space of a process to be non-contiguous.

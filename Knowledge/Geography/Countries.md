@@ -1,7 +1,5 @@
 # Countries
 
----
-
 ## Apps
 
 - StudyGe

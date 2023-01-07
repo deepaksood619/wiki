@@ -1,7 +1,5 @@
 # Obsidian / Note Taking / Second Brain
 
----
-
 Your brain is for having ideas not holding them
 
 ## Learning

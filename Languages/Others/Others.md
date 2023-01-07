@@ -1,7 +1,5 @@
 # Others
 
----
-
 <https://dev.to/raygun/top-43-programming-languages-when-and-how-to-use-them-515n>
 
 ## Assembly Language

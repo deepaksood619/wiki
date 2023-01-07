@@ -1,7 +1,5 @@
 # Biology
 
----
-
 ## Live longer
 
 1. Avoid DNA damage

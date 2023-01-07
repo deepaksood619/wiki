@@ -1,7 +1,5 @@
 # PyCharm
 
----
-
 # Shortcuts Mac
 
 Push - command + shift + k

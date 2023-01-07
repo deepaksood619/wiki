@@ -1,7 +1,5 @@
 # Ecology
 
----
-
 Troglobites - animals that live in cave
 
 [https://en.wikipedia.org/wiki/Evolutionary_history_of_plants](https://en.wikipedia.org/wiki/Evolutionary_history_of_plants#Seeds)

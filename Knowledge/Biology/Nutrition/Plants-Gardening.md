@@ -1,7 +1,5 @@
 # Plants / Gardening
 
----
-
 Aloe vera, English ivy air purifying plants
 
 1. ZZ Plant

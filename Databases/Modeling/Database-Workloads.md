@@ -1,7 +1,5 @@
 # Database Workloads
 
----
-
 ## OLTP (On-line Transaction Processing)
 
 Transactions

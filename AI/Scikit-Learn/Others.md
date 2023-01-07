@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Some Classifiers in scikit-learn
 
 - K-nearest neighbors

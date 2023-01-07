@@ -1,7 +1,5 @@
 # Preliminaries
 
----
-
 [2. Preliminaries](https://d2l.ai/chapter_preliminaries/index.html)
 
 [2.1. Data Manipulation](https://d2l.ai/chapter_preliminaries/ndarray.html)

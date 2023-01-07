@@ -1,7 +1,5 @@
 # Shuffle Sort
 
----
-
 Goal: Rearrange array so that result is a uniformly random permutation
 
 - Generate a random real number for each array entry

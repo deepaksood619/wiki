@@ -1,7 +1,5 @@
 # Elasticsearch: The Definitive Guide
 
----
-
 Elasticsearch is a distributed, scalable, real-time search and analytics engine. It enables you to search, analyze, and explore your data. It exists because raw data sitting on a hard drive is just not useful.
 
 A distributed real-time document store whereevery fieldis indexed and searchable

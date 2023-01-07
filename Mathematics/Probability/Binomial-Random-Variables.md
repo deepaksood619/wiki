@@ -1,7 +1,5 @@
 # Binomial Random Variables
 
----
-
 1. Binomial Random Variables
 
 The conditions of a binomial random variable are -

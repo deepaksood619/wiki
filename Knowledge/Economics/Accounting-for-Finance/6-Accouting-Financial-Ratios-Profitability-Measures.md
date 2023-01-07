@@ -1,7 +1,5 @@
 # 6: Accouting Financial Ratios - Profitability Measures
 
----
-
 ## From Absolutes to Ratios
 
 - Financial statements measure operations in absolute terms, i.e. in dollars, rupees or reais, depending upon the currency of denomination

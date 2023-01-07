@@ -1,7 +1,5 @@
 # Boyer-Moore
 
----
-
 ![image](media/Boyer-Moore-image1.png)
 
 ![image](media/Boyer-Moore-image2.png)

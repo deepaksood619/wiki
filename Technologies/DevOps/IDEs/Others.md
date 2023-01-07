@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Google Meet
 
 CMD + D - microphone mute/unmute (MAC)

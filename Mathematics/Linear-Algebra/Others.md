@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Concepts
 
 - Matrix factorization

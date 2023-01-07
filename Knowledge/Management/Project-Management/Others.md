@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Slack
 
 Command + k - Search

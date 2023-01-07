@@ -1,7 +1,5 @@
 # Ethical Hacking
 
----
-
 <https://www.shodan.io/host/182.71.91.174>
 
 <https://github.com/arthaud/git-dumper/blob/master/git-dumper.py>

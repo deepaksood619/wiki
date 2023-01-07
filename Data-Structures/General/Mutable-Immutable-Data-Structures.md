@@ -1,7 +1,5 @@
 # Mutable/Immutable Data Structures
 
----
-
 ## Immutable Data Structure
 
 The obvious advantage of the immutable data structures is that the storage overhead can be minimized: we do not have to reserve any extra space for data that is going to be inserted later or for the cases when the updated records require more space than the originally written ones.

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Opensource Free Stuff
 
 <https://free-for.dev>

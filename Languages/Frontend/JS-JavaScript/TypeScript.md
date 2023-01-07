@@ -1,7 +1,5 @@
 # TypeScript
 
----
-
 TypeScript is an open source syntactic superset of javascript that compiles to JS. Allows to use optional static typing as well as support for the latest evolving features of ES2015.
 
 TypeScript offers type annotations which provide optional, static type checking at compile time. Since it is a superset of JavaScript, all JavaScript is syntactically valid TypeScript.

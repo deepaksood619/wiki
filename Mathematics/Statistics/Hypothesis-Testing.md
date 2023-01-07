@@ -1,7 +1,5 @@
 # Hypothesis Testing
 
----
-
 Null vs Alternative
 
 Rejection region and significance level

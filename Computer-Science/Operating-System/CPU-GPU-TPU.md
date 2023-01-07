@@ -1,7 +1,5 @@
 # CPU | GPU | TPU
 
----
-
 MAC - Multiplier, Adder, Accumulator
 
 Tensor - n-dimensional array

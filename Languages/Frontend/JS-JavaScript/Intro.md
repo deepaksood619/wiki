@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Javascript
 
 1. Lightweight

@@ -1,7 +1,5 @@
 # NGINX
 
----
-
 Designed to address the C10K problem: How can web servers handle 10,000 clients at the same time. With each new incoming connection, NGINX creates a file descriptor, which consumes less memory than an entire thread or process. Because its architecture is event-driven rather than process-based, NGINX also reduces the need for context switching that occurs in process-per-connection web servers.
 
 ## NGINX / HAProxy

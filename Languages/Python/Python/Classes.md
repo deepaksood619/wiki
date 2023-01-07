@@ -1,7 +1,5 @@
 # Classes
 
----
-
 ## Creating a class
 
 ```python

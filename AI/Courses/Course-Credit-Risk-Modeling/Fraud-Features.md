@@ -1,7 +1,5 @@
 # Fraud Features
 
----
-
 | Data Features |                                       |
 |---------------------------------|----------------------------------------|
 | **Feature Name**                | **Description**                        |

@@ -1,7 +1,5 @@
 # Habits
 
----
-
 When in doubt do
 
 Habits are the compound interest of self-improvement.

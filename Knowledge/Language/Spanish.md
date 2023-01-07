@@ -1,7 +1,5 @@
 # Spanish
 
----
-
 ## Duolingo Spanish Podcast
 
 ![image](media/Spanish-image1.png)

@@ -1,7 +1,5 @@
 # Muscles
 
----
-
 ## Muscles
 
 ![image](media/Muscles-image1.png)

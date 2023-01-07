@@ -1,7 +1,5 @@
 # Self Control / Will Power
 
----
-
 Before you try to increase your willpower, try to decrease the friction in your environment.
 
 ## Self Control

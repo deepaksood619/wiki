@@ -1,7 +1,5 @@
 # Nutanix Hybrid Cloud
 
----
-
 Udacity - Hybrid Cloud Scholarship Foundation Course Nanodegree Program (23 June 2020)
 
 <https://www.udacity.com/scholarships/nutanix-hybrid-cloud-scholarship-program>

@@ -1,7 +1,5 @@
 # Decision Making
 
----
-
 Ensure that decisions are made at the level where the best information is available
 
 You only need to know the direction, not the destination.

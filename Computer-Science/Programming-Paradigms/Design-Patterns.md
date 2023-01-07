@@ -1,7 +1,5 @@
 # Design Patterns
 
----
-
 ## Gang of Four (GOF)
 
 Two main principles are in the bases of the design patterns defined by the GOF:

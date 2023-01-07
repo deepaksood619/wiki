@@ -1,7 +1,5 @@
 # Connected Components
 
----
-
 ## Connected Components
 
 Definition: Vertices v and w are connected if there is a path between them.

@@ -1,7 +1,5 @@
 # Ticketing / TMS
 
----
-
 ## Ticketing Management System (TMS)
 
 ## Features

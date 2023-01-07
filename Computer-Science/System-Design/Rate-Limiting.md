@@ -1,7 +1,5 @@
 # Rate Limiting
 
----
-
 ## Endpoint Protection
 
 In [computer networks](https://en.wikipedia.org/wiki/Computer_network), rate limitingis used to control the rate of traffic sent or received by a [network interface controller](https://en.wikipedia.org/wiki/Network_interface_controller) and is used to prevent [DoS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack).

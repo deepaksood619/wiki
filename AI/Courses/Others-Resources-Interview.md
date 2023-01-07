@@ -1,7 +1,5 @@
 # Others / Resources / Interview
 
----
-
 [Intro to graph neural networks (ML Tech Talks)](https://www.youtube.com/watch?v=8owQBFAHw7E&ab_channel=TensorFlow)
 
 [Machine Learning Course for Beginners](https://www.youtube.com/watch?v=NWONeJKn6kc)

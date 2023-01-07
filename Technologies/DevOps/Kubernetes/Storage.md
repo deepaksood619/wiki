@@ -1,7 +1,5 @@
 # Storage
 
----
-
 1. Volumes
 
 2. Persistant Volumes

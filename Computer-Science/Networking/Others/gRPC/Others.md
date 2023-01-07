@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## How to automate grpc generation using git hooks, why grpc over REST + JSON
 
 <https://medium.com/red-crane/grpc-and-why-it-can-save-you-development-time-436168fd0cbc>

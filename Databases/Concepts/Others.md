@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Datastructures > Others > Database Index
 
 ## JDBC - Java Database Connectivity

@@ -1,7 +1,5 @@
 # Design of Zookeeper
 
----
-
 Zookeeper - Service for coordinating processes of distributed applications
 
 - Fundamentals

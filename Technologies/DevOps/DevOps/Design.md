@@ -1,7 +1,5 @@
 # Design
 
----
-
 ## How do you design a self-healing distributed service?
 
 Any system that is supposed to be capable of healing itself needs to be able to handle faults and partitioning (i.e. when part of the system cannot access the rest of the system) to a certain extent.

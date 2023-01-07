@@ -1,7 +1,5 @@
 # Hooks
 
----
-
 - [1. Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [2. Hooks at a Glance](https://reactjs.org/docs/hooks-overview.html)
 - [3. Using the State Hook](https://reactjs.org/docs/hooks-state.html)

@@ -1,7 +1,5 @@
 # Astronomy
 
----
-
 [Earth's motion around the Sun, not as simple as I thought](https://youtu.be/82p-DYgGFjI)
 
 ## Azimuth

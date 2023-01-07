@@ -1,7 +1,5 @@
 # Template
 
----
-
 ```python
 import sys
 import logging

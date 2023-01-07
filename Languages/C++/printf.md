@@ -1,7 +1,5 @@
 # printf
 
----
-
 A *format specifier* follows this prototype:
 
 `%[flags][width][.precision][length]specifier`

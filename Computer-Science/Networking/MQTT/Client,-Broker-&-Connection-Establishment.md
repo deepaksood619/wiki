@@ -1,7 +1,5 @@
 # Client, Broker & Connection Establishment
 
----
-
 ## Client
 
 Both publishers and subscribers are MQTT clients.

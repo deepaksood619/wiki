@@ -1,7 +1,5 @@
 # Game Development
 
----
-
 <https://docs.microsoft.com/en-us/archive/msdn-magazine/2015/march/game-development-a-web-game-in-an-hour>
 
 <https://www.freecodecamp.org/news/code-an-endless-runner-game-using-unreal-engine-and-c>

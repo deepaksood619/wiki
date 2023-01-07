@@ -1,7 +1,5 @@
 # Working
 
----
-
 ## DynamoDB Item Sizes
 
 DynamoDB tables are schemaless, except for the primary key, so the items in a table can all have different attributes, sizes, and data types.

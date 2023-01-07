@@ -1,7 +1,5 @@
 # Services, LoadBalancing and Networking
 
----
-
 1. Services
 
 2. DNS for Services and Pods

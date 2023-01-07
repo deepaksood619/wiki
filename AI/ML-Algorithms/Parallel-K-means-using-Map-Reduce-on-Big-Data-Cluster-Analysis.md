@@ -1,7 +1,5 @@
 # Parallel K-means using Map Reduce on Big Data Cluster Analysis
 
----
-
 ![image](media/Parallel-K-means-using-Map-Reduce-on-Big-Data-Cluster-Analysis-image1.png)
 
 ![image](media/Parallel-K-means-using-Map-Reduce-on-Big-Data-Cluster-Analysis-image2.png)

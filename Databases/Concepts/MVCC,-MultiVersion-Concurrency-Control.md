@@ -1,7 +1,5 @@
 # MVCC, MultiVersion Concurrency Control
 
----
-
 The DBMS maintans physical versions of a single logical object in the database:
 
 - When a txn writes to an object, the DBMS creates a new version of that object

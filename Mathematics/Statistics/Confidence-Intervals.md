@@ -1,7 +1,5 @@
 # Confidence Intervals
 
----
-
 Definition of confidence intervals
 
 Population variance known, z-score

@@ -1,7 +1,5 @@
 # Examples
 
----
-
 1. Check if a number is power of two
 
 ## bool isPowerOfTwo = x && !(x & (x - 1))

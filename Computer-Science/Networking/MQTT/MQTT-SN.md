@@ -1,7 +1,5 @@
 # MQTT - SN
 
----
-
 MQTT for Sensor Networks
 
 - MQTT-SNusesUDPand notTCPfor its transport.

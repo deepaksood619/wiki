@@ -1,7 +1,5 @@
 # Aggregation / Analytical Queries / SQL Analytics
 
----
-
 ## Aggregate functions perform calculations based on sets of rows
 
 Unlike aggregate functions, **analytic functions** return a (potentially different) value for each row in the original table.

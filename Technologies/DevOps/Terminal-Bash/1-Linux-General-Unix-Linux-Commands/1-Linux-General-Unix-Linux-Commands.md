@@ -1,7 +1,5 @@
 # (1) Linux General / Unix / Linux Commands
 
----
-
 ## Display
 
 ```bash

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## LWM2M - Light Weight Machine-to-Machine
 
 It is an application layer protocol built over CoAP

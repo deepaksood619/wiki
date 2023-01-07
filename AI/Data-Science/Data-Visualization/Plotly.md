@@ -1,7 +1,5 @@
 # Plotly
 
----
-
 similar to matplotlib
 
 <https://plotly.com/python>

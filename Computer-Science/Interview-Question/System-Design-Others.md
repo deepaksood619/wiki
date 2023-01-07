@@ -1,7 +1,5 @@
 # System Design - Others
 
----
-
 ## CricInfo
 
 [CRICINFO system design | CRICBUZZ System desi](http://youtube.com/watch?v=exSwQtMxGd4) gn

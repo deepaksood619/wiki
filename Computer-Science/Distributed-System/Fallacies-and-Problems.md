@@ -1,7 +1,5 @@
 # Fallacies and Problems
 
----
-
 ## Fallacies of distributed computing
 
 The**fallacies of distributed computing**are a set of assertions made by [L Peter Deutsch](https://en.wikipedia.org/wiki/L_Peter_Deutsch) and others at [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) describing false assumptions that [programmers](https://en.wikipedia.org/wiki/Programmer) new to [distributed](https://en.wikipedia.org/wiki/Distributed_computing) [applications](https://en.wikipedia.org/wiki/Application_software) invariably make.

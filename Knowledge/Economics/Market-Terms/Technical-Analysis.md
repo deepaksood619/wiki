@@ -1,7 +1,5 @@
 # Technical Analysis
 
----
-
 Technical Analysis helps identify trading opportunities using actions of Market Participants through charts, patterns, and indicators.
 
 ## The Chart Types

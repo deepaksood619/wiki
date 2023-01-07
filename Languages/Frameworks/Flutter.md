@@ -1,7 +1,5 @@
 # Flutter
 
----
-
 Flutter is used to develop apps that run on Android and iOS and deliver the same user experience. Flutter will also be able to target Fuchsia, the upcoming OS from Google
 
 Flutter development is done in Dart, an open-source programming language developed by Google.

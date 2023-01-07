@@ -1,7 +1,5 @@
 # Operators / Wildcards
 
----
-
 ## SQL Arithmetic Operators
 
 | **Operator** | **Description** |

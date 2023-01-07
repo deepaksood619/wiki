@@ -1,7 +1,5 @@
 # NextJS
 
----
-
 ## NextJS - The React Framework
 
 To build a complete web application with React from scratch, there are many important details you need to consider:

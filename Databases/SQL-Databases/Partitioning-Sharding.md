@@ -1,7 +1,5 @@
 # Partitioning / Sharding
 
----
-
 ## Partitioning/Sharding Data
 
 We cannot store 1 Trillion entries in a database, so we can shard / split / divide databases into parts where one part is responsible for that amount of data.

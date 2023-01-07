@@ -1,7 +1,5 @@
 # Frameworks
 
----
-
 <https://kinsta.com/blog/php-frameworks>
 
 - **Laravel**

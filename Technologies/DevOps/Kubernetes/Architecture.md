@@ -1,7 +1,5 @@
 # Architecture
 
----
-
 ## Kubernetes Architecture
 
 - **Kubernetes Master Node**

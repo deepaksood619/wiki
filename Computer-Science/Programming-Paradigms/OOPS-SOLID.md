@@ -1,7 +1,5 @@
 # OOPS / SOLID
 
----
-
 ## AEIP - Abstraction, Encapsulation, Inheritance and Polymorphism
 
 ## Modularity

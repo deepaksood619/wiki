@@ -1,7 +1,5 @@
 # 365 DS - Probability
 
----
-
 ## The Basics of Probability
 
 What is the probability formula?

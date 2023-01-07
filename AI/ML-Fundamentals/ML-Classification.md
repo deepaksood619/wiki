@@ -1,7 +1,5 @@
 # ML Classification
 
----
-
 ## Types of ML Algorithms
 
 1. Parametric Machine Learning Algorithms

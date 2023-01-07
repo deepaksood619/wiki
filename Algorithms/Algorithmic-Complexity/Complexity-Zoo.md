@@ -1,7 +1,5 @@
 # Complexity Zoo
 
----
-
 ![image](media/Complexity-Zoo-image1.png)
 
 ![S 0 ](media/Complexity-Zoo-image2.png)

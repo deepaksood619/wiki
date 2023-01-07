@@ -1,7 +1,5 @@
 # Examples
 
----
-
 ```python
 # SQL table to parquet
  from pyspark.sql import SparkSession

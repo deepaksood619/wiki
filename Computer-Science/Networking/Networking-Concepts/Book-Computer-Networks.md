@@ -1,7 +1,5 @@
 # Book - Computer Networks
 
----
-
 ## Andrew S Tanenbaum and DAVID J. WETHERALL - 5th Edition
 
 ## Acronyms - 28/119

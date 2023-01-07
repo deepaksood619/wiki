@@ -1,7 +1,5 @@
 # Tools
 
----
-
 ## AutoML (Automated Machine Learning)
 
 [AutoML](https://www.smarten.com/autoInsights.html) is, quite simply, the automated process of features and algorithm selection that supports planning, and allows users to fine tune, perform iterative modeling, and allows for the application and evolution of machine learning models.

@@ -1,7 +1,5 @@
 # Disk Scheduling Algorithms
 
----
-
 ## Elevator algorithm / SCAN
 
 The **elevator algorithm** (also **SCAN**) is a [disk](https://en.wikipedia.org/wiki/Hard_disk)-[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling) algorithm to determine the motion of the disk's arm and head in servicing read and write requests.

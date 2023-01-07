@@ -1,7 +1,5 @@
 # Networking
 
----
-
 # Container Networking Model CNM
 
 The Docker networking architecture is built on a set of interfaces called theContainer Networking Model(CNM). The philosophy of CNM is to provide application portability across diverse infrastructures. This model strikes a balance to achieve application portability and also takes advantage of special features and capabilities of the infrastructure.

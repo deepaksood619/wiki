@@ -1,7 +1,5 @@
 # Tour of Heroes
 
----
-
 ## Directives
 
 A directive is a marker on a HTML tag that tells Angular to run or reference some JavaScript code.

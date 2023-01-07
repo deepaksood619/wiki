@@ -1,7 +1,5 @@
 # Data Modeling
 
----
-
 Data modeling in [software engineering](https://en.wikipedia.org/wiki/Software_engineering) is the process of creating a [data model](https://en.wikipedia.org/wiki/Data_model) for an [information system](https://en.wikipedia.org/wiki/Information_system) by applying certain formal techniques
 
 ![image](media/Data-Modeling-image1.png)

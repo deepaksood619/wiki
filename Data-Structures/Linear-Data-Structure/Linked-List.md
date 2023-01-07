@@ -1,7 +1,5 @@
 # Linked List
 
----
-
 ## Points to remember
 
 1. Explicit Data Structure

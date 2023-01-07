@@ -1,7 +1,5 @@
 # Linguistics
 
----
-
 [Writing Systems of the World | Abjads, Alphabets, Abugidas, Syllabaries & Logosyllabaries](https://youtu.be/Mmz42awTRsA)
 
 ## Grapheme

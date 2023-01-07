@@ -1,7 +1,5 @@
 # Serialization/Deserialization
 
----
-
 Serialization is the process of turning structured in-memory objects into a byte stream for transmission over a network or for writing to persistent storage
 Deserialization is the reverse process from a byte stream back to a series of structured in-memory objects
 When selecting a data serialization format, the following characteristic should be evaluated:

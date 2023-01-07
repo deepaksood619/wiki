@@ -1,7 +1,5 @@
 # Amazon S3
 
----
-
 S3: More than 235 distributed microservices
 
 - Scalable Storage in the Cloud

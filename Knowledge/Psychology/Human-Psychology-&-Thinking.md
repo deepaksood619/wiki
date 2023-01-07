@@ -1,7 +1,5 @@
 # Human Psychology & Thinking
 
----
-
 We all crave attention - Therefore if you even know everything, still you ask questions, just for attention
 
 War is a tricky game the only way to win it is to not play it at all

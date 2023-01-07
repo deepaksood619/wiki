@@ -1,7 +1,5 @@
 # Code / Commands / Snippets
 
----
-
 ## dependenciesare the packages your project depends on
 
 ## devDependenciesare the packages that are needed during the development phase. Say a testing framework like [Jest](https://flaviocopes.com/jest/) or other utilities like [Babel](https://flaviocopes.com/babel/) or [ESLint](https://flaviocopes.com/eslint/)

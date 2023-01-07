@@ -1,7 +1,5 @@
 # Overview
 
----
-
 ## Database
 
 Database is a physical container for collections. Each database gets its own set of files on the file system. A single MongoDB server typically has multiple databases.

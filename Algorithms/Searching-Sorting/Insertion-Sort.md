@@ -1,7 +1,5 @@
 # Insertion Sort
 
----
-
 Insertion sorttakes elements of the array sequentially, and maintains a sorted subarray to the left of the current point. It does this by taking an element, finding its correct position in the sorted array, and shifting all following elements by 1, leaving a space for the element to be inserted.
 
 Stability - Yes

@@ -1,7 +1,5 @@
 # Business Case Studies
 
----
-
 <https://www.youtube.com/c/AdityaSaini1505/videos>
 
 <https://google.com/search?q=business+case+studies>

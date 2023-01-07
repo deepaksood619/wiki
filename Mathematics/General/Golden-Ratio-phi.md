@@ -1,7 +1,5 @@
 # Golden Ratio - phi
 
----
-
 Two quantities are in the**golden ratio** if their [ratio](https://en.wikipedia.org/wiki/Ratio) is the same as the ratio of their [sum](https://en.wikipedia.org/wiki/Summation) to the larger of the two quantities. Expressed algebraically, for quantities *a* and *b* w ith*a*>*b*>0,
 
 ![a def ](media/Golden-Ratio-phi-image1.png)

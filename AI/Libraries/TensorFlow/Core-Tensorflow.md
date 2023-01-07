@@ -1,7 +1,5 @@
 # Core Tensorflow
 
----
-
 tf_estimator to create, train and evaluate an ML model
 
 - Lazy Evaluation

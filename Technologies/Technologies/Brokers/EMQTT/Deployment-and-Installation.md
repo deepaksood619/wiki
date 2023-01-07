@@ -1,7 +1,5 @@
 # Deployment and Installation
 
----
-
 ![image](../../../media/Technologies-Brokers-Deployment-and-Installation-image1.png)
 
 Load Balancers

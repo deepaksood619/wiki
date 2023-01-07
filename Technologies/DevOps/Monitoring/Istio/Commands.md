@@ -1,7 +1,5 @@
 # Commands
 
----
-
 curl -L <https://istio.io/downloadIstio> | sh - #installing istioctl
 
 brew install istioctl

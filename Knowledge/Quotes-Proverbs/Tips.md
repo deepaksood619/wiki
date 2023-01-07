@@ -1,7 +1,5 @@
 # Tips
 
----
-
 To improve, compare little things.
 
 - marketing strategies

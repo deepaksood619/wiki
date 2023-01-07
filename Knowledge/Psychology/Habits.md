@@ -1,7 +1,5 @@
 # Habits
 
----
-
 ## Self-Control
 
 Prime your environment to make the next action easy.

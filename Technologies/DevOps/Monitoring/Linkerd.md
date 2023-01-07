@@ -1,7 +1,5 @@
 # Linkerd
 
----
-
 ## Ultralight service mesh for Kubernetes
 
 For example, when a request is made to a service through Linkerd, a very simplified timeline of events is as follows:

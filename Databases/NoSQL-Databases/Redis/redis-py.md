@@ -1,7 +1,5 @@
 # redis-py
 
----
-
 ### check pending list in redis
 
 ```python

@@ -1,7 +1,5 @@
 # Chunking - The Essentials
 
----
-
 ## Key points
 
 - Chunks

@@ -1,7 +1,5 @@
 # Course - Intro to TensorFlow
 
----
-
 <https://www.youtube.com/watch?v=tPYj3fFJGjk>
 
 ## Core TensorFlow

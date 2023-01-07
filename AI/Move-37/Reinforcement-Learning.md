@@ -1,7 +1,5 @@
 # Reinforcement Learning
 
----
-
 ## Reinforcement learning
 
 RL is an area of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) concerned with how [software agents](https://en.wikipedia.org/wiki/Software_agent) ought to take [*actions*](https://en.wikipedia.org/wiki/Action_selection) in an *environment*so as to maximize some notion of cumulative *reward*

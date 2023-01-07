@@ -1,7 +1,5 @@
 # Commands
 
----
-
 ## Final Commands
 
 1. Change value of reporting location

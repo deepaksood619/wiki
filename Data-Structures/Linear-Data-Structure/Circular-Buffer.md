@@ -1,7 +1,5 @@
 # Circular Buffer
 
----
-
 Acircular buffer, circular queue, cyclic bufferorring bufferis a [data structure](https://en.wikipedia.org/wiki/Data_structure) that uses a single, fixed-size [buffer](https://en.wikipedia.org/wiki/Buffer_(computer_science)) as if it were connected end-to-end. This structure lends itself easily to buffering [data streams](https://en.wikipedia.org/wiki/Data_stream).
 ![image](media/Circular-Buffer-image1.png)
 

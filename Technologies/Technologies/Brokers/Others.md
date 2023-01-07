@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Message DB
 
 A fully-featured event store and message store implemented in PostgreSQL for Pub/Sub, Event Sourcing, Messaging, and Evented Microservices applications.

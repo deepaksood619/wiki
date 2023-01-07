@@ -1,7 +1,5 @@
 # Debt Mutual Funds
 
----
-
 <https://zerodha.com/varsity/chapter/the-debt-funds-part-1>
 
 <https://zerodha.com/varsity/chapter/government-securities>

@@ -1,7 +1,5 @@
 # Religion
 
----
-
 [Branches of Islam & Family Tree of Shia Imams](https://www.youtube.com/watch?v=e5YynfMfJXA)
 
 - 85% sunni

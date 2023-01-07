@@ -1,7 +1,5 @@
 # VerneMQ
 
----
-
 VerneMQ is first and foremost a MQTT publish/subscribe message broker which implements the OASIS industry standard [MQTT protocol](https://vernemq.com/intro/mqtt-primer/). But VerneMQ is also built to take messaging and IoT applications to the next level by providing a unique set of features related to scalability, reliability and high-performance as well as operational simplicity.
 
 To achieve these goals VerneMQ is designed from the ground up to work as a distributed message broker, ensuring continued operation in the event of node or network failures and easy horizontal scalability. The underlying technology is a proven [telecom grade technology stack](https://vernemq.com/intro/benefits/erlang.html) providing a rock solid foundation for systems that must be in continuous operation around the clock. It's also able to make efficient use of all available resources as a basis for easy vertical scalability.

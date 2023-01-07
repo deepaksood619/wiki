@@ -1,7 +1,5 @@
 # Concepts
 
----
-
 ## Namespaces
 
 Docker uses a technology called *namespaces*to provide the isolated workspace called the *container*. When you run a container, Docker creates a set ofnamespacesfor that container.

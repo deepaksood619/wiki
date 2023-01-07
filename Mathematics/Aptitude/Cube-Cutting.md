@@ -1,7 +1,5 @@
 # Cube Cutting
 
----
-
 Concepts -
 
 1. Cube has 6 faces, 8 vetices and 12 edges

@@ -1,7 +1,5 @@
 # Outline
 
----
-
 - [Agrochemistry](https://en.wikipedia.org/wiki/Agrochemistry)
 - [Analytical chemistry](https://en.wikipedia.org/wiki/Analytical_chemistry)
 - [Astrochemistry](https://en.wikipedia.org/wiki/Astrochemistry)

@@ -1,7 +1,5 @@
 # Operators
 
----
-
 - Arithmetic Operators
 - Comparison Operators
 - Logical (or Relational) Operators

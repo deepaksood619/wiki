@@ -1,7 +1,5 @@
 # React Native
 
----
-
 ## Interaction Manager
 
 TheInteractionManageris the native module responsible for deferring the execution of a function until an "interaction" has finished. We can callInteractionManager.runAfterInteractions(() => {...})to handle this deferral. We can also register our own interactions.

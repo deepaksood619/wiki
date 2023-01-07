@@ -1,7 +1,5 @@
 # Motivation
 
----
-
 ## War Cry - Give up nahi karna hai
 
 ## Watch great leaders motivational videos

@@ -1,7 +1,5 @@
 # Kafka Architecture
 
----
-
 ## Why is Kafka so Fast?
 
 Kafka relies heavily on the OS kernel to move data around quickly. It relies on the principals of [Zero Copy](https://en.wikipedia.org/wiki/Zero-copy). Kafka enables you to batch data records into chunks. These batches of data can be seen end to end from Producer to file system (Kafka Topic Log) to the Consumer. Batching allows for more efficient data compression and reduces I/O latency. Kafka writes to the immutable commit log to the disk sequential; thus, avoids random disk access, slow disk seeking. Kafka provides horizontal Scale through sharding. It shards a Topic Log into hundreds potentially thousands of partitions to thousands of servers. This sharding allows Kafka to handle massive load.

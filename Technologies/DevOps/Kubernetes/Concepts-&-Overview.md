@@ -1,8 +1,6 @@
 # Concepts & Overview
 
----
-
-# Kubernetes Objects
+## Kubernetes Objects
 
 We use **Kubernetes API objects**to describe our cluster'sdesired state: what applications or other workloads you want to run, what container images they use, the number of replicas, what network and disk resources you want to make available, and more.
 
@@ -139,7 +137,7 @@ In imperative object configuration, the kubectl command specifies the operation 
 
 When using declarative object configuration, a user operates on object configuration files stored locally, however the user does not define the operations to be taken on the files. Create, update, and delete operations are automatically detected per-object by **kubectl**. This enables working on directories, where different operations might be needed for different objects.
 
-# Kubernetes Control Plane
+## Kubernetes Control Plane
 
 Once you've set your desired state, the **Kubernetes Control Plane** works to make the cluster's current state match the desired state. To do so, Kubernetes performs a variety of tasks automatically-such as starting or restarting containers, scaling the number of replicas of a given application, and more.
 

@@ -1,7 +1,5 @@
 # Chart
 
----
-
 # Vitamins and minerals
 
 | **Nutrient**                                                              | **EAR** | **Highest RDA/AI** | **UL** | **Unit** | **Top common sources, 100 grams, U.S. Department of Agriculture (USDA)**                                                                                                                                                                                                                                                                                                                      |

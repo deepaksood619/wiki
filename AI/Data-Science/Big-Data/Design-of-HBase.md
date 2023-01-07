@@ -1,7 +1,5 @@
 # Design of HBase
 
----
-
 1. What is HBase
 
 2. HBase Architecture

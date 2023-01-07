@@ -1,7 +1,5 @@
 # Sorting
 
----
-
 Sort items in a list in alphabetical order, or reverse alphabetical order.
 
 lowercase and uppercase letters may affect the sort order.

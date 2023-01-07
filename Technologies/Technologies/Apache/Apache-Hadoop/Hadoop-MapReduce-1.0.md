@@ -1,7 +1,5 @@
 # Hadoop MapReduce 1.0
 
----
-
 ## What is Map Reduce
 
 - MapReduce is the execution engine of Hadoop

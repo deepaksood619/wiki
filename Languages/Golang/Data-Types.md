@@ -1,7 +1,5 @@
 # Data Types
 
----
-
 1. Boolean types
 
 They are boolean types and consists of the two predefined constants: (a) true (b) false

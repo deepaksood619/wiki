@@ -1,7 +1,5 @@
 # Editors
 
----
-
 ## Commenting multiple using the terminal
 
 1. First, pressESC

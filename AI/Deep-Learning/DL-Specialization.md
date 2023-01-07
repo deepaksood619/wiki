@@ -1,7 +1,5 @@
 # DL Specialization
 
----
-
 [**https://www.coursera.org/specializations/deep-learning**](https://www.coursera.org/specializations/deep-learning)
 
 1. **Neural Networks and Deep Learning**

@@ -1,7 +1,5 @@
 # Databases - Others
 
----
-
 ## Flat file database
 
 A **flat file database** is a [database](https://en.wikipedia.org/wiki/Database) stored as an ordinary unstructured file called a "flat file". To access the structure of the data and manipulate it on a computer system, the file must be read in its entirety into the computer's memory. Upon completion of the database operations, the file is again written out in its entirety to the host's file system. In this stored mode the database is said to be "flat", meaning that it has no structure for indexing and there are usually no structural relationships between the records. A flat file can be a [plain text](https://en.wikipedia.org/wiki/Plain_text) file or a [binary file](https://en.wikipedia.org/wiki/Binary_file).

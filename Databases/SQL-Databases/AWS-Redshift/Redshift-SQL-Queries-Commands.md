@@ -1,7 +1,5 @@
 # Redshift SQL Queries / Commands
 
----
-
 <https://docs.aws.amazon.com/redshift/latest/dg/c_designing-queries-best-practices.html>
 
 ```sql

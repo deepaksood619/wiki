@@ -1,7 +1,5 @@
 # Mechanical Engineering
 
----
-
 ## Outline
 
 - [Aerospace engineering](https://en.wikipedia.org/wiki/Aerospace_engineering)

@@ -1,7 +1,5 @@
 # Numbers
 
----
-
 ![image](media/Numbers-image1.png)
 
 ## Types of numbers

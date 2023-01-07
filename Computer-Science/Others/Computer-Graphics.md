@@ -1,7 +1,5 @@
 # Computer Graphics
 
----
-
 1. Rasterization
 
 2. Ray Tracing

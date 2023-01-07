@@ -1,7 +1,5 @@
 # Centering
 
----
-
 1. **Centering a div in a page, Basic**
 
 .center-div

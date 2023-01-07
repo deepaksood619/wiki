@@ -1,7 +1,5 @@
 # System Sort
 
----
-
 Java System Sort - Arrays.sort()
 
 - Has different method for each primitive type

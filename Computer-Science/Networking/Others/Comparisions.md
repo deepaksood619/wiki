@@ -1,7 +1,5 @@
 # Comparisions
 
----
-
 ## Avro vs Protobuf
 
 What should you choose then? Avro, especially at the beginning, seems much easier to use. The cost of this is that you will need to provide both reader and writer schema to deserialize anything.

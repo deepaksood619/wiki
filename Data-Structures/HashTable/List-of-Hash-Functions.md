@@ -1,7 +1,5 @@
 # List of Hash Functions
 
----
-
 ## Cyclic redundancy checks
 
 Main article:[Cyclic redundancy check](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)

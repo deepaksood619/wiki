@@ -1,7 +1,5 @@
 # Cryptography Terms
 
----
-
 ## Cryptographic Techniques
 
 1. Substitution - is one in which the letters of the plaintext are replace by other letters

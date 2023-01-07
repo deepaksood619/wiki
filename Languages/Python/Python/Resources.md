@@ -1,7 +1,5 @@
 # Resources
 
----
-
 ## Getting started
 
 - [**https://diveintopython3.net/**](https://diveintopython3.net/)

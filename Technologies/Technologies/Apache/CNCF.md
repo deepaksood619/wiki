@@ -1,7 +1,5 @@
 # CNCF
 
----
-
 ## CNCF Landscape
 
 [https://landscape.cncf.io](https://landscape.cncf.io/)

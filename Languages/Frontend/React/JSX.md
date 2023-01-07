@@ -1,7 +1,5 @@
 # JSX
 
----
-
 JSX Rules
 
 - return single element

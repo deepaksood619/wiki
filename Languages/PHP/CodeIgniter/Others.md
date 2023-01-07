@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Logging
 
 <https://codeigniter.com/user_guide/general/logging.html>

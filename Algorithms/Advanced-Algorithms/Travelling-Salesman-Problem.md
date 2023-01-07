@@ -1,7 +1,5 @@
 # Travelling Salesman Problem
 
----
-
 The Traveling Salesman Problem is a well known challenge in Computer Science: it consists on finding the shortest route possible that traverses all cities in a given map only once. Although its simple explanation, this problem is, indeed, NP-Complete. This implies that the difficulty to solve it increases rapidly with the number of cities, and we do not know in fact a general solution that solves the problem. For that reason, we currently consider that any method able to find a sub-optimal solution is generally good enough (we cannot verify if the solution returned is the optimal one most of the times).
 
 To solve it, we can try to apply a modification of the Self-Organizing Map (SOM) technique.

@@ -1,7 +1,5 @@
 # BigQuery / Big Query
 
----
-
 ## Architecture
 
 Dremel - The execution engine

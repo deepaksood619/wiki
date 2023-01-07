@@ -1,7 +1,5 @@
 # (3) Library Functions
 
----
-
 ## setvbuf
 
 setbuf, setbuffer, setlinebuf, setvbuf - stream buffering operations

@@ -1,7 +1,5 @@
 # OneNote
 
----
-
 ## Shortcut Mac
 
 | todo | shortcut |

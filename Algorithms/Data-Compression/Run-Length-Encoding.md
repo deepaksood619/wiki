@@ -1,7 +1,5 @@
 # Run Length Encoding
 
----
-
 ![image](media/Run-Length-Encoding-image1.jpeg)
 
 Que: How many bits to store the counts?

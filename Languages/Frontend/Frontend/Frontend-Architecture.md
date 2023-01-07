@@ -1,7 +1,5 @@
 # Frontend Architecture
 
----
-
 <https://dev.to/kevtiq/how-to-create-a-scalable-and-maintainable-front-end-architecture-4f47>
 
 <https://www.toptal.com/front-end/client-side-vs-server-side-pre-rendering>

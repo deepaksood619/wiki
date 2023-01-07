@@ -1,7 +1,5 @@
 # docker-compose
 
----
-
 ## Commands
 
 Define and run multi-container applications with Docker.

@@ -1,7 +1,5 @@
 # React admin / Templates
 
----
-
 <https://marmelab.com/react-admin/doc/2.8/Authentication.html>
 
 <https://github.com/marmelab/react-admin>

@@ -1,7 +1,5 @@
 # Company's Management
 
----
-
 [Evaluating Company's Management For Stock Buying | ET Money](https://youtu.be/kiYqad1gz5c)
 
 While most investors focus on a company's PE ratio, it's earnings growth, return on equity etc. .. very few pay enough attention to the quality of people running that business. Presence of a sound management team is what will differentiate a good business from a great one. In Fact no one knows this better than Warren Buffett who has often said and I quote:

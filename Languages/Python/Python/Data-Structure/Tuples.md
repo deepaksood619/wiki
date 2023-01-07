@@ -1,7 +1,5 @@
 # Tuples
 
----
-
 ## Properties
 
 - Tuples are similar to lists, but the items in a tuple can't be modified

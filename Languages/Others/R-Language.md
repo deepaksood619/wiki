@@ -1,7 +1,5 @@
 # R
 
----
-
 ## Introduction
 
 In R, you can store data in a variable by using either `=` or `<-`.

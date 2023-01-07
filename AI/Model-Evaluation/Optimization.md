@@ -1,7 +1,5 @@
 # Optimization
 
----
-
 ## Learn how to
 
 - Quantify model performance using loss function

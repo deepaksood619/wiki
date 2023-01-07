@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Testing Vocabulary
 
 - The **units** we are testing in the section above are functions -fibandnext_collatz_element.

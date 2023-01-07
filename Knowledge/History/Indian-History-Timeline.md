@@ -1,7 +1,5 @@
 # Indian History Timeline
 
----
-
 ## Books
 
 - From Plassey To Partition - Sekhar Bandyopadhyay

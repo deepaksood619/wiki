@@ -1,7 +1,5 @@
 # Others
 
----
-
 <https://dev.to/fahimulhaq/top-10-system-design-interview-questions-for-software-engineers>
 
 <https://www.linkedin.com/pulse/six-steps-tackle-any-system-design-interview-question-varun-hasija>

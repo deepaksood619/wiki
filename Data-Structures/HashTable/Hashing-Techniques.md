@@ -1,7 +1,5 @@
 # Hashing Techniques
 
----
-
 1. **Separate chaining (open hashing)**
 
    - Chained hash table (Using linked list if collision)

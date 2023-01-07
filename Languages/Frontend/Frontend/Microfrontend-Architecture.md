@@ -1,7 +1,5 @@
 # Microfrontend Architecture
 
----
-
 Micro-frontend architecture is a design approach in which a [front-end](https://www.toptal.com/front-end) app is decomposed into individual, semi-independent "microapps" working loosely together.
 
 The benefits of the micro-frontend pattern include

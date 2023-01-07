@@ -1,7 +1,5 @@
 # Sets
 
----
-
 Symmetric Difference (**△**) - The symmetric difference of two sets is the collection of elements which are members of either set but not both - in other words, the union of the sets excluding their intersection. Forming the symmetric difference of two sets is simple, but forming the symmetric difference of three sets is a bit trickier
 
 Ex - Given two sets (for example set A = {1, 2, 3} and set B = {2, 3, 4}), the mathematical term "symmetric difference" of two sets is the set of elements which are in either of the two sets, but not in both (A △ B = C = {1, 4}).

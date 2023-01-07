@@ -1,7 +1,5 @@
 # Mutual Funds
 
----
-
 [Index Investing Options In India:](https://www.youtube.com/watch?v=IIV1Xt_rB3Y)
 
 TER - Total Expense Ratio

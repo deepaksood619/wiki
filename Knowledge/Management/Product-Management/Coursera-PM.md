@@ -1,7 +1,5 @@
 # Coursera - PM
 
----
-
 <https://www.coursera.org/specializations/real-world-product-management>
 
 ## Applied Learning Project

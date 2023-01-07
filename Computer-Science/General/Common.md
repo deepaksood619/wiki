@@ -1,7 +1,5 @@
 # Common
 
----
-
 CAPTCHA - Completely Automated Public Turing test to tell Computers and Humans Apart
 API - Application Programming Interface
 

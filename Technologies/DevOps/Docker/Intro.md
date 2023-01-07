@@ -1,7 +1,5 @@
 # Intro
 
----
-
 Docker is a tool for deploying isolated, or containerized, applications. Docker containers are similar to virtual machines in a sense, but much more lightweight both in size and resource consumption.
 
 "With Docker, developers can build any app in any language using any toolchain. "Dockerized" apps are completely portable and can run anywhere' OS X and Windows laptops, QA servers running Ubuntu in the cloud, and production data center VMs running Red Hat.

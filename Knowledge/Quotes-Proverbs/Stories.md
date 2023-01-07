@@ -1,7 +1,5 @@
 # Stories
 
----
-
 Two men were sent to Africa on reporting if shoes can be a viable business.
 
 One wrote back that, it will be a disaster, because here people doesn't wear shoes

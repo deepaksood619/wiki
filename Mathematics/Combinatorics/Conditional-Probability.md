@@ -1,7 +1,5 @@
 # Conditional Probability
 
----
-
 Conditional probability is calculating the probability of an event given that another event has already occured .
 
 The formula for conditional probability P(A|B), read as P(A given B) is

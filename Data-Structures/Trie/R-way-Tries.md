@@ -1,7 +1,5 @@
 # R-way Tries
 
----
-
 ![Tries Tries](media/R-way-Tries-image1.png)
 
 ![image](media/R-way-Tries-image2.png)

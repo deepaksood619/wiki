@@ -1,7 +1,5 @@
 # Intro
 
----
-
 Knowledgeis a familiarity, awareness, or understanding of someone or something, such as [facts](https://en.wikipedia.org/wiki/Fact), [information](https://en.wikipedia.org/wiki/Information), [descriptions](https://en.wikipedia.org/wiki/Description), or [skills](https://en.wikipedia.org/wiki/Skills), which is acquired through [experience](https://en.wikipedia.org/wiki/Experience) or [education](https://en.wikipedia.org/wiki/Education) by [perceiving](https://en.wikipedia.org/wiki/Perception), [discovering](https://en.wikipedia.org/wiki/Discovery_(observation)), or [learning](https://en.wikipedia.org/wiki/Learning).
 
 h

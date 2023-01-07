@@ -1,7 +1,5 @@
 # Mental Models
 
----
-
 ## Mental Models in Science
 
 Biology

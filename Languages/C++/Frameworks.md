@@ -1,7 +1,5 @@
 # Frameworks
 
----
-
 ## Qt (pronounced cute)
 
 Everything you need for your entire software development life cycle. Qt is the fastest and smartest way to produce industry-leading software that users love.

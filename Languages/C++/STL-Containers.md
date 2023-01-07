@@ -1,7 +1,5 @@
 # STL Containers
 
----
-
 1. Sequences
    - C++ Vectors
    - C++ Lists

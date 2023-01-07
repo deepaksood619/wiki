@@ -1,7 +1,5 @@
 # Two-Stack Algorithm
 
----
-
 Goal: Evaluate Infix Expressions
 
 Ex: (1 + (( 2 + 3 ) *( 4* 5 )))

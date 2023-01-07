@@ -1,7 +1,5 @@
 # Neural Networks 3B1B
 
----
-
 Mnemonic - Input, times Weight, add a Bias, Activate
 
 # What is neural network

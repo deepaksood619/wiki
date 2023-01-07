@@ -1,7 +1,5 @@
 # Internal working
 
----
-
 ## Concurrency
 
 ## Path operation functions

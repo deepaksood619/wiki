@@ -1,7 +1,5 @@
 # Apache Storm
 
----
-
 Apache Storm
 
 Apache Storm is a stream processing framework that focuses on extremely low latency and is perhaps the best option for workloads that require near real-time processing. It can handle very large quantities of data with and deliver results with less latency than other solutions.

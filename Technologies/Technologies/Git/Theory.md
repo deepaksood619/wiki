@@ -1,7 +1,5 @@
 # Theory
 
----
-
 ## git submodule
 
 Mounting one repository inside another.
@@ -38,7 +36,6 @@ git subtree push --prefix .layouts/public origin pages
 <https://www.atlassian.com/git/tutorials/git-subtree>
 
 <https://medium.com/@porteneuve/mastering-git-subtrees-943d29a798ec>
-
 
 ## Git Bisect
 

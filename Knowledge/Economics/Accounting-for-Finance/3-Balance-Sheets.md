@@ -1,7 +1,5 @@
 # 3 Balance Sheets
 
----
-
 ## Balance Sheets - Assets Owned & Money Owed
 
 ## The Balance Sheet: Dueling Views

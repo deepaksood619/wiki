@@ -1,7 +1,5 @@
 # Grafana
 
----
-
 The open platform for beautiful analytics and monitoring (open source software for time series analytics) (Expression browser)
 
 - 40 data sources

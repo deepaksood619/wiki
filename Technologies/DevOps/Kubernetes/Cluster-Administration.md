@@ -1,7 +1,5 @@
 # Cluster Administration
 
----
-
 1. Cluster Administration Overview
 
 2. Certificates

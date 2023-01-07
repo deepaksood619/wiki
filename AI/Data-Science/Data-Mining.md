@@ -1,7 +1,5 @@
 # Data Mining
 
----
-
 ## Why data Mining
 
 - The explosive growth of data: from terabytes to petabytes

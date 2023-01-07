@@ -1,7 +1,5 @@
 # MO's Algorithm
 
----
-
 ## Query Square Root Decomposition
 
 - **Range Query**

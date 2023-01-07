@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Laplace Transform
 
 In [mathematics](https://en.wikipedia.org/wiki/Mathematics), theLaplace transformis an [integral transform](https://en.wikipedia.org/wiki/Integral_transform) named after its inventor [Pierre-Simon Laplace](https://en.wikipedia.org/wiki/Pierre-Simon_Laplace)([/ləˈplɑːs/](https://en.wikipedia.org/wiki/Help:IPA/English)). It transforms a function of a real variablet(often time) to a function of a [complex variable](https://en.wikipedia.org/wiki/Complex_analysis) s([complex frequency](https://en.wikipedia.org/wiki/Complex_frequency)). The transform has many applications in science and engineering.

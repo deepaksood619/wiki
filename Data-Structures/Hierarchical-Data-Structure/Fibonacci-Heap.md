@@ -1,7 +1,5 @@
 # Fibonacci Heap
 
----
-
 ## Key Points
 
 - Running Time: O(E + V log V)

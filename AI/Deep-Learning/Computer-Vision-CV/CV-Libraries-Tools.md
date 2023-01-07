@@ -1,7 +1,5 @@
 # CV - Libraries / Tools
 
----
-
 ## YOLO - You Only Look Once
 
 ## SSD - Single Shot MultiBox Detector

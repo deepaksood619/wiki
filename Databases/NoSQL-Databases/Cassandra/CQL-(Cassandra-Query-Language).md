@@ -1,7 +1,5 @@
 # CQL (Cassandra Query Language)
 
----
-
 ## CQL
 
 - CQL mapping to cassandra's internal data structure

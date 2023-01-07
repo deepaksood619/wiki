@@ -1,7 +1,5 @@
 # Course - Intro to Data and Data Science
 
----
-
 <https://365datascience.com>
 
 <https://365datascience.teachable.com/courses/enrolled/361452>

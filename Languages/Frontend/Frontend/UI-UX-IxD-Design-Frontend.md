@@ -1,7 +1,5 @@
 # UI / UX / IxD / Design / Frontend
 
----
-
 "Design is not just what it looks like and feels like. Design is how it works."---[Steve Jobs, 2003](https://www.lukew.com/quotes/)
 
 <https://www.freecodecamp.org/news/ui-ux-design-guide>

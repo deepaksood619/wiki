@@ -1,7 +1,5 @@
 # Azure
 
----
-
 [Azure Portal "How To" Series](https://www.youtube.com/playlist?list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR)
 
 ## Commands

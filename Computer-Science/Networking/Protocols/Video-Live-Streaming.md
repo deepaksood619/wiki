@@ -1,7 +1,5 @@
 # Video / Live Streaming
 
----
-
 ## Tools
 
 - **Zoom**

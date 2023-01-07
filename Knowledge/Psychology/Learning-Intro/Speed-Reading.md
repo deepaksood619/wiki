@@ -1,7 +1,5 @@
 # Speed Reading
 
----
-
 Read to Lead
 
 There is only one way to read, which is to browse in libraries and bookshops, picking up books that attract you, reading only those, dropping them when they bore you, skipping the parts that drag -- and never, never reading anything because you feel you ought, or because it is part of a trend or a movement. Remember that the book which bores you when you are twenty or thirty will open doors for you when you are forty or fifty-and vise versa. Don't read a book out of its right time for you.

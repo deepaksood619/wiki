@@ -1,7 +1,5 @@
 # Stack LIFO
 
----
-
 ## Points to remember
 
 1. Linear Data Structure

@@ -1,7 +1,5 @@
 # Collections
 
----
-
 A*collection*--- sometimes called a container - is simply an object that groups multiple elements into a single unit. Collections are used to store, retrieve, manipulate, and communicate aggregate data.
 
 ## What Is a Collections Framework?

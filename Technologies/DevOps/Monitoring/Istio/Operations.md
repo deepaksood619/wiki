@@ -1,7 +1,5 @@
 # Operations
 
----
-
 ## Load Balancer
 
 Make sure your load balancer configuration forwards to all your worker nodes. This will ensure that the traffic gets forwarded even if some nodes are down.

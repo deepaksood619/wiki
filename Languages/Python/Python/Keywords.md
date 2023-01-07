@@ -1,7 +1,5 @@
 # Keywords
 
----
-
 ## Keywords
 
 | and      | exec    | not    |

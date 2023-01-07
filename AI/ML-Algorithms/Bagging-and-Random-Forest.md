@@ -1,7 +1,5 @@
 # Bagging and Random Forest
 
----
-
 Random Forest is one of the most popular machine learning algorithms. It is a type of ensemble machine learning algorithm called Bootstrap Aggregation or bagging.
 
 The bootstrap is a powerful statistical method for estimating a quantity from a data sample, such as a mean. You take lots of samples of your data, calculate the mean, then average all of your mean values to give you a better estimation of the true mean value.

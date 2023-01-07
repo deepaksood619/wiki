@@ -1,7 +1,5 @@
 # Forward Error Correction
 
----
-
 ## Error Detection and Correction Codes
 
 ## Parity Bit

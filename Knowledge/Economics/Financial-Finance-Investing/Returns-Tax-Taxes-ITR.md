@@ -1,7 +1,5 @@
 # Returns / Tax / Taxes / ITR
 
----
-
 <https://taxbuddy.com>
 
 ## Tax evasion (punishable) vs tax avoidance (your legitimate right) of saving tax

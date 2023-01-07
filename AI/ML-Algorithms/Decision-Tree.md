@@ -1,7 +1,5 @@
 # Decision Tree
 
----
-
 ## Decision Tree for Big Data Analytics
 
 Hi, decision Trees are an important type of algorithm for predictive modeling machine learning.

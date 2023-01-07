@@ -1,7 +1,5 @@
 # Notifications
 
----
-
 curl -X POST
 
 <https://fcm.googleapis.com/fcm/send>

@@ -1,7 +1,5 @@
 # Frontend Frameworks
 
----
-
 ## Frontend Frameworks
 
 1. jQuery

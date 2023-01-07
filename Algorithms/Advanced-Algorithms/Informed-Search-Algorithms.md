@@ -1,7 +1,5 @@
 # Informed Search Algorithms
 
----
-
 Be smart about what paths to try
 
 1. Best first search

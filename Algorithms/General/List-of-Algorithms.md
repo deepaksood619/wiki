@@ -1,7 +1,5 @@
 # List of Algorithms
 
----
-
 1. **Automated Planning**
 
 2. **Combinatorial Algorithms**

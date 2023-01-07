@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Algebra - 1
 
 1. Solving equations

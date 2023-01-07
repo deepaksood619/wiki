@@ -1,7 +1,5 @@
 # Swift
 
----
-
 Basic Syntax -
 
 var str = "Hello world!"

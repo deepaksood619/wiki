@@ -1,7 +1,5 @@
 # Deployment Strategies
 
----
-
 ![image](../../media/DevOps-DevOps-Deployment-Strategies-image1.png)
 
 1. **Blue/Green Deployment**

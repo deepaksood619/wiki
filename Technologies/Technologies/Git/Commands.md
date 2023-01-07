@@ -1,7 +1,5 @@
 # Commands
 
----
-
 ## Shortcuts
 
 ```bash

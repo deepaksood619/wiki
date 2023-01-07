@@ -1,7 +1,5 @@
 # Documentation
 
----
-
 Getting Started
 
 - [Design](http://druid.io/docs/latest/design/index.html)

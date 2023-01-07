@@ -1,7 +1,5 @@
 # MVC
 
----
-
 ![Flow Chart](media/CodeIgniter_MVC-image1.png)
 
 ## Views

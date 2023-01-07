@@ -1,7 +1,5 @@
 # Outline
 
----
-
 [**Pure mathematics**](https://en.wikipedia.org/wiki/Pure_mathematics)
 
 - [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic) and [Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)

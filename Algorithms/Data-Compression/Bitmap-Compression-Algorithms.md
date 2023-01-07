@@ -1,7 +1,5 @@
 # Bitmap Compression Algorithms
 
----
-
 1. Byte-aligned Bitmap Code
 
 2. Word-Aligned Hybrid (WAH) code

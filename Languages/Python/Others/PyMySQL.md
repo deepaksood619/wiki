@@ -1,7 +1,5 @@
 # PyMySQL
 
----
-
 <https://github.com/PyMySQL/PyMySQL>
 
 <https://pymysql.readthedocs.io/en/latest>

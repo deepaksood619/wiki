@@ -1,7 +1,5 @@
 # Intro
 
----
-
 The HTTP protocol is one of the most important protocols for smooth communication between the server and the client. The main disadvantage of the HTTP protocol it is a stateless protocol that means it does not track any kind of information of response and request by the server and the client, So in order to resolve this problem, there are three ways to track useful information.
 
 ## Local Storage

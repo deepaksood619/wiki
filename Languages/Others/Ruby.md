@@ -1,7 +1,5 @@
 # Ruby
 
----
-
 ## Gems
 
 A gem is code you can include in Ruby projects. It allows you to package up functionality and share it across other projects or with other people. Gems can perform functionality such as:

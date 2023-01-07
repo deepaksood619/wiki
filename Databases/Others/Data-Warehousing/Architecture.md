@@ -1,7 +1,5 @@
 # Architecture
 
----
-
 There are mainly three types of Datawarehouse Architectures: -
 
 ## Single-tier architecture

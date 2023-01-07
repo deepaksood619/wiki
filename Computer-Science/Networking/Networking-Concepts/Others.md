@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Interface Definition Languages
 
 - Apache Thrift (donated by Facebook)

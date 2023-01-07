@@ -1,7 +1,5 @@
 # Libraries
 
----
-
 ## Deep Learning Frameworks
 
 1. mxNet

@@ -1,7 +1,5 @@
 # Tools
 
----
-
 - Nginx
 - HAProxy
 - Envoy (winner in benchmark)

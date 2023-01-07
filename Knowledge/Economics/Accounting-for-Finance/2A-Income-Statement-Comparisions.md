@@ -1,7 +1,5 @@
 # 2A Income Statement Comparisions
 
----
-
 ## Income Statement: A Life Cycle Perspective
 
 ![image](media/Accounting-for-Finance_2A-Income-Statement-Comparisions-image1.jpg)

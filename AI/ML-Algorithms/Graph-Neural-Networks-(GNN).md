@@ -1,7 +1,5 @@
 # Graph Neural Networks (GNN)
 
----
-
 ## Why Is a Graph Difficult To Analyze?
 
 1. A graph does not exist in a Euclidean space, which means it cannot be represented by any coordinate systems that we are familiar with. This makes the interpretation of graph data much harder as compared to other types of data such as waves, images, or time-series signals("text" can also be treated as time-series), which can be easily mapped to a 2-D or 3-D Euclidean space.

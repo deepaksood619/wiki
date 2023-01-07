@@ -1,7 +1,5 @@
 # Bash Metacharacters
 
----
-
 | **Symbol:** | **Meaning and Usage examples:** |
 |---|---|
 | `<` | Redirection: Get input for the command to the left from the file listed to the right of this symbol. Example: `sort < filename.txt` # This will print out the contents of filename.txt with the lines sorted. |

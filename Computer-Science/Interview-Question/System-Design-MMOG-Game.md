@@ -1,7 +1,5 @@
 # System Design - MMOG - Game
 
----
-
 [System design: Design Multiplayer game](https://www.youtube.com/playlist?list=PLkQkbY7JNJuCoOw3epgKcNIU6rFri4iQk)
 
 ## Game Loop

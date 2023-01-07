@@ -1,7 +1,5 @@
 # Capital budgeting
 
----
-
 ## Definition of Capital Budgeting
 
 Capital budgeting is a process used by companies for evaluating and ranking potential [capital expenditures](https://www.accountingcoach.com/blog/what-are-capital-expenditures) or investments that are significant in amount. A few examples of capital expenditures include:

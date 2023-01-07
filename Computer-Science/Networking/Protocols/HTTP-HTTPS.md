@@ -1,7 +1,5 @@
 # HTTP / HTTPS
 
----
-
 URL - Uniform Resource Locator
 
 URI - Uniform Resource Indicator

@@ -1,7 +1,5 @@
 # MSD Radix Sort
 
----
-
 ![image](media/MSD-Radix-Sort-image1.png)
 
 ![image](media/MSD-Radix-Sort-image2.png)

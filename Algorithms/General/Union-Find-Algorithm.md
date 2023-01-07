@@ -1,7 +1,5 @@
 # Union-Find Algorithm
 
----
-
 A union-find algorithm is an algorithm that performs two operations on a disjoint-set data structure -
 
 1. Find - Determine which subset a particular element is in.

@@ -1,7 +1,5 @@
 # Summary - Unit 5
 
----
-
 ![image](media/Intro-Syllabus_Summary-Unit-5-image1.png)
 
 ![image](media/Intro-Syllabus_Summary-Unit-5-image2.png)

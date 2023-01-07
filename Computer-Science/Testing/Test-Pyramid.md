@@ -1,7 +1,5 @@
 # Test Pyramid
 
----
-
 ## Typical Test Pyramid
 
 ## Unit tests

@@ -1,7 +1,5 @@
 # Matplotlib
 
----
-
 Matplotlib
 
 2-dimensional graphs and plots

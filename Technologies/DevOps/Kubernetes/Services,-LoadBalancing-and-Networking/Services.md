@@ -1,7 +1,5 @@
 # Services
 
----
-
 A Kubernetes **Service** is an abstraction which defines a logical set of **Pods** and a policy by which to access them - sometimes called a micro-service.
 
 Remember that Pods are not durable. When a Pod dies, the ReplicaSet creates a new Pod instance. The new Pod's IP address differs from the old Pod's IP address. Therefore services are used. A service gets its own stable IP address, a stable DNS name and a stable port. Services provide service discovery, load-balancing, and features to support zero-downtime deployments.

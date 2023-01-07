@@ -1,7 +1,5 @@
 # Business
 
----
-
 <https://hbr.org>
 
 Financial times

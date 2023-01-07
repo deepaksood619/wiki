@@ -1,7 +1,5 @@
 # 3-Way Quick Sort
 
----
-
 Properties -
 
 - Efficient for duplicate keys

@@ -1,7 +1,5 @@
 # Coursera - How Google does ML
 
----
-
 ## Mathematical Models used in ML
 
 1. Neural Network

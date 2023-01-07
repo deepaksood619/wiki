@@ -1,7 +1,5 @@
 # EC2 Instance types
 
----
-
 <https://aws.amazon.com/blogs/compute/it-just-got-easier-to-discover-and-compare-ec2-instance-types>
 
 <https://github.com/aws/amazon-ec2-instance-selector>

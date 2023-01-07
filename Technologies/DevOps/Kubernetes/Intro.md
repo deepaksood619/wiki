@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## One liner - Kubernetes/Mesos - software tools to manage and coordinate containers
 
 ## Borg - Google's container system

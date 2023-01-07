@@ -1,7 +1,5 @@
 # Mocking
 
----
-
 ## The Abstract Pattern of the Problem
 
 A dependency of the function we want to test can have an effect in three different ways: By side-effects, return values or exceptions.

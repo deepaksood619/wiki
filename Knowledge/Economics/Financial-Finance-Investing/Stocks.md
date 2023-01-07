@@ -1,7 +1,5 @@
 # Stocks
 
----
-
 The stock market is a device for transferring money from the impatient to the patient -- Warren Buffet
 
 <https://marcellus.in/newsletter/consistent-compounders/studying-the-holiday-schedule-of-consistent-compounders>

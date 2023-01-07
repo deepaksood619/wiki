@@ -1,7 +1,5 @@
 # Developer Tools
 
----
-
 1. AWS CodeStar
 
 Develop and Deploy AWS Applications

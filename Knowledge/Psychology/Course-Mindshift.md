@@ -1,7 +1,5 @@
 # Course - Mindshift
 
----
-
 1. **Change is Possible**
 
 In today's world, change is the only constant. This means that whatever stage you are in life, you need to keep yourself open and able to change. How can you do this? In three ways: Learn more about your hidden capabilities and assets. Learn more about learning effectively. Learn about matching your assets with the opportunities that face you. In this week, we'll dive into these three important areas!

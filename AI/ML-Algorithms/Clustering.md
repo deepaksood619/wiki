@@ -1,7 +1,5 @@
 # Clustering
 
----
-
 <https://www.toptal.com/clustering/clustering-metrics-for-comparison>
 
 ## Clustering

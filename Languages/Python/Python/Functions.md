@@ -1,7 +1,5 @@
 # Functions
 
----
-
 Functions are named blocks of code, designed to do one specific job.
 
 Information passed to a function is called an argument, and information received by a function is called a parameter.

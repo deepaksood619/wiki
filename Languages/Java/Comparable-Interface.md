@@ -1,7 +1,5 @@
 # Comparable Interface
 
----
-
 ![image](media/Comparable-Interface-image1.png)
 
 Goal - Sort any type of data

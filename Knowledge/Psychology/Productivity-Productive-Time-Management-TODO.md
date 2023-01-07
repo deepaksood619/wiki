@@ -1,7 +1,5 @@
 # Productivity / Productive / Time Management / TODO
 
----
-
 <https://www.scotthyoung.com/blog/2020/10/26/foundation-practices>
 
 1. Establish an Airtight Productivity System

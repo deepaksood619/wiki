@@ -1,7 +1,5 @@
 # Designing Distributed Systems
 
----
-
 # Designing Distributed Systems
 
 #### *Patterns and Paradigms for Scalable, Reliable Services by Brendon Burns (cofounder of Kubernetes)*

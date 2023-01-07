@@ -1,7 +1,5 @@
 # Architecting on AWS
 
----
-
 12thAugust to 14thAugust 2020
 
 <http://online.vitalsource.com>

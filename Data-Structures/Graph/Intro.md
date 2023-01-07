@@ -1,7 +1,5 @@
 # Intro
 
----
-
 Representation
 
 1. Adjacency Matrix

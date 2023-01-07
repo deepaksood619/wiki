@@ -1,7 +1,5 @@
 # Vulnerabilities
 
----
-
 1. Spectre
 
 2. Meltdown

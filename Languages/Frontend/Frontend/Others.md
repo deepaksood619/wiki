@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Performance
 
 - **Steps to build a hyper-light website**

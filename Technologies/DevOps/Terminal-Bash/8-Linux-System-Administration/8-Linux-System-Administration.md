@@ -1,7 +1,5 @@
 # (8) Linux System Administration
 
----
-
 ## sudo
 
 sudo, sudoedit - execute a command as another user

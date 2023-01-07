@@ -1,7 +1,5 @@
 # Intro
 
----
-
 Statistics is a subfield of mathematics. It refers to a collection of methods for working with data and using data to answer questions.
 Eyeball statistics
 

@@ -1,7 +1,5 @@
 # Outline
 
----
-
 - [Administrative law](https://en.wikipedia.org/wiki/Administrative_law)
 - [Canon law](https://en.wikipedia.org/wiki/Canon_law)
 - [Civil law](https://en.wikipedia.org/wiki/Civil_law_(common_law))

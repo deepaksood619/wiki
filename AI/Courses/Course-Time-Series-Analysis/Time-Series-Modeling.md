@@ -1,7 +1,5 @@
 # Time-Series Modeling
 
----
-
 ## Endogenous variable - The variable we are estimating
 
 Patterns in the past persist in the future

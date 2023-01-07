@@ -1,7 +1,5 @@
 # Khan Academy Physics
 
----
-
 1. One-dimensional motion
 
 2. Two-dimensional motion

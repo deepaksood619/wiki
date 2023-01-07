@@ -1,7 +1,5 @@
 # Product - Terms - Tools
 
----
-
 ## Ecommerce
 
 ## PLP - Product Listing Page

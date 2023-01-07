@@ -1,7 +1,5 @@
 # SQL / MySQL Tools
 
----
-
 ## Monitoring
 
 <https://www.percona.com/doc/percona-monitoring-and-management/index.html>

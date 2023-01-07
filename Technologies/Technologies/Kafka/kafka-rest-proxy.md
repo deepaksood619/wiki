@@ -1,7 +1,5 @@
 # kafka-rest proxy
 
----
-
 curl -s -X GET <http://104.211.229.18:8082/topics>
 
 curl -s -X GET <http://104.211.229.18:8082/topics>

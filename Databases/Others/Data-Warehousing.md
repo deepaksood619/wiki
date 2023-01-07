@@ -1,7 +1,5 @@
 # Data Warehousing
 
----
-
 ## Lifecycle Data
 
 In [computing](https://en.wikipedia.org/wiki/Computing), adata warehouse(DWorDWH), also known as anenterprise data warehouse(EDW), is a system used for [reporting](https://en.wikipedia.org/wiki/Business_reporting) and [data analysis](https://en.wikipedia.org/wiki/Data_analysis), and is considered a core component of [business intelligence](https://en.wikipedia.org/wiki/Business_intelligence).DWs are central repositories of integrated data from one or more disparate sources. They store current and historical data in one single placethat are used for creating analytical reports for workers throughout the enterprise.

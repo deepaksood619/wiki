@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Quantile
 
 Each of any set of values of a variate which divide a frequency distribution into equal groups, each containing the same fraction of the total population.

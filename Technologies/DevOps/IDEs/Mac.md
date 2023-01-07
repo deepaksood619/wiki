@@ -1,7 +1,5 @@
 # Mac
 
----
-
 ## Screenshots
 
 ```bash

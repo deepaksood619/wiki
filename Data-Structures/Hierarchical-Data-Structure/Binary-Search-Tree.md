@@ -1,7 +1,5 @@
 # Binary Search Tree
 
----
-
 Properties -
 
 - Explicit Data Structure

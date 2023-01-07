@@ -1,7 +1,5 @@
 # Distributed Logging
 
----
-
 ## Logs
 
 A log is perhaps the simplest possible storage abstraction. It is an append-only, totally-ordered sequence of records ordered by time. It looks like this:

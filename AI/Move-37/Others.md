@@ -1,7 +1,5 @@
 # Others
 
----
-
 MCMC - Markov Chain Monte Carlo
 
 <https://skymind.ai/wiki/markov-chain-monte-carlo>

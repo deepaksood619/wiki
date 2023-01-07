@@ -1,7 +1,5 @@
 # Configuration
 
----
-
 [**Configuration Best Practices**](https://kubernetes.io/docs/concepts/configuration/overview/)
 
 [**ConfigMaps**](https://kubernetes.io/docs/concepts/configuration/configmap/)

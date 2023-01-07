@@ -1,7 +1,5 @@
 # Datasets
 
----
-
 <https://www.kaggle.com/dalpozz/creditcardfraud>
 
 ## MNIST database

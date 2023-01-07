@@ -1,7 +1,5 @@
 # Inferential Statistics
 
----
-
 Introduction
 
 What is a distribution

@@ -1,7 +1,5 @@
 # Birthday Paradox
 
----
-
 ## Problem - Exponents aren't intuitive
 
 The Birthday Paradox is one of the most surprising results in math. In a room of just 23 people there's a 50-50 chance of two people having the same birthday. In a room of 75 there's a 99.9% chance of two people matching.

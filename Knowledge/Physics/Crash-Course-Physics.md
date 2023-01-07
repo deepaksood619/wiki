@@ -1,7 +1,5 @@
 # Crash Course Physics
 
----
-
 1. Motion in a Straight Line
     - Kinematic Equations
     - Dimensions - (Time, Position, Velocity, Acceleration)

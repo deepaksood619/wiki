@@ -1,7 +1,5 @@
 # Levenshtein distance or Edit Distance
 
----
-
 The Levenshtein Distance, or Edit Distance, is the amount by which two strings differ.
 
 There are 3 possible actions that can be applied on a character:

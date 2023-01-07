@@ -1,7 +1,5 @@
 # AMQP
 
----
-
 ## Advanced Message Queuing Protocol (AMQP)
 
 - open standard application layer protocol

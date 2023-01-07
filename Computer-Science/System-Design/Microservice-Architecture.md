@@ -1,7 +1,5 @@
 # Microservice Architecture
 
----
-
 ## What is microservices architecture?
 
 A microservices‑based application is a distributed system running on multiple machines. Each service in the system communicates by passing messages to the others.

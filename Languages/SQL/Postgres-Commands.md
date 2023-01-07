@@ -1,7 +1,5 @@
 # Postgres Commands
 
----
-
 `brew install postgresql`
 
 ## psql - start postgres sql query engine

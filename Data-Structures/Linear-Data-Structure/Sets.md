@@ -1,7 +1,5 @@
 # Sets
 
----
-
 Application of Symbol table.
 
 ## Sets

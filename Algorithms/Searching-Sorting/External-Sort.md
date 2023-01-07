@@ -1,7 +1,5 @@
 # External Sort
 
----
-
 ![image](media/External-Sort-image1.png)
 
 ![image](media/External-Sort-image2.png)

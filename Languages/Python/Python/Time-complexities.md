@@ -1,7 +1,5 @@
 # Time complexities
 
----
-
 ## list
 
 The Average Case assumes parameters generated uniformly at random.

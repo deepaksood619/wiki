@@ -1,7 +1,5 @@
 # Firebase
 
----
-
 ## Google Signals
 
 - The key condition for the new feature to collect and return data is that users have turned on the Ads Personalization settings, allowing thus Google to use their info to personalize ads,

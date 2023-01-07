@@ -1,7 +1,5 @@
 # Others
 
----
-
 ![Image for post](media/Others-image1.png)
 
 ## Zstd (by facebook)

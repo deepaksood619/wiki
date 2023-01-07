@@ -1,7 +1,5 @@
 # Course - Launching into ML
 
----
-
 ## Objectives
 
 1. Identify why deep learning is currently popular

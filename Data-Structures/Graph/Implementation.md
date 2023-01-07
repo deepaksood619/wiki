@@ -1,7 +1,5 @@
 # Implementation
 
----
-
 ## Python
 
 Use dictionary to represent a graph in Python

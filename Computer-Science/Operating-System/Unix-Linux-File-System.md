@@ -1,7 +1,5 @@
 # Unix / Linux File System
 
----
-
 Command - man hier (layout of filesystems)
 
 ## /

@@ -1,7 +1,5 @@
 # Intro
 
----
-
 Andrew S. Tanenbaum - A Collection of independent computers that appears to its users as one computer.
 ![image](media/Intro-image1.jpg)- In**Centralized Systems** there is one central authority or server and all the other nodes act like clients or entities who accept message and enact accordingly
 

@@ -1,7 +1,5 @@
 # SEO / ASO
 
----
-
 ### SEO - Search Engine Optimization
 
 ### SMO - Social Media Optimization

@@ -1,7 +1,5 @@
 # Tech Books
 
----
-
 Networks, Crowds, and Markets: Reasoning about a Highly Connected World
 
 - David Easley

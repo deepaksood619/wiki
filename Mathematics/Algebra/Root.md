@@ -1,7 +1,5 @@
 # Root
 
----
-
 Roots get back the base number from the solution of an exponential equation.
 
 Square Roots, Cube Roots andMore

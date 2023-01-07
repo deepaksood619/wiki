@@ -1,7 +1,5 @@
 # Faster Python
 
----
-
 1. Line Profiling
 
 2. Numpy Vectorization

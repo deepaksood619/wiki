@@ -1,7 +1,5 @@
 # MongoDB
 
----
-
 ## MongoDB / CouchBase
 
 Json like structure and you want to persist that than mongodb works fine, provide ACID properties at a document level and scale pretty well

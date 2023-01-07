@@ -1,7 +1,5 @@
 # Scaling / Optimizations
 
----
-
 ## What exactly needs to Scale?
 
 1. Tables (Data)

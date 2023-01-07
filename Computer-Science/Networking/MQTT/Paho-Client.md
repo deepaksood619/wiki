@@ -1,7 +1,5 @@
 # Paho Client
 
----
-
 ```python
 import paho.mqtt.client as mqtt
 

@@ -1,7 +1,5 @@
 # Alternate Coordinate systems (bases)
 
----
-
 1. [Orthogonal complements](https://www.khanacademy.org/math/linear-algebra/alternate-bases#othogonal-complements)
 
 2. [Orthogonal projections](https://www.khanacademy.org/math/linear-algebra/alternate-bases#orthogonal-projections)

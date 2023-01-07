@@ -1,7 +1,5 @@
 # Pods
 
----
-
 APodis the basic building block of Kubernetes--the smallest and simplest unit in the Kubernetes object model that you create or deploy. A Pod represents a running process on your cluster.
 
 A Pod encapsulates an application container (or, in some cases, multiple containers), storage resources, a unique network IP, and options that govern how the container(s) should run. A Pod represents a unit of deployment:**a single instance of an application in Kubernetes,** which might consist of either a single container or a small number of containers that are tightly coupled and that share resources.

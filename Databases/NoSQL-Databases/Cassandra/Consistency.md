@@ -1,7 +1,5 @@
 # Consistency
 
----
-
 ## ANY
 
 - any server (may not be replica)

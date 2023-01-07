@@ -1,7 +1,5 @@
 # Deep dive / Best practices
 
----
-
 ## Insert performance
 
 <https://stackoverflow.com/questions/16485425/aws-redshift-jdbc-insert-performance>

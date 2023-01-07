@@ -1,7 +1,5 @@
 # Food
 
----
-
 The way you eat not only decides your physical health, but the very way you think, feel, and experience life. -- Sadhguru
 
 Only eat till you are 80% full

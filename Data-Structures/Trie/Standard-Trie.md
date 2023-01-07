@@ -1,7 +1,5 @@
 # Standard Trie
 
----
-
 Radix Tree / Prefix Tree (Because pre-order traversal would give the nodes in lexicographical order)
 
 - Autocomplete function

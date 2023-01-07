@@ -1,7 +1,5 @@
 # Protocol Buffers Protobuf
 
----
-
 Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.
 Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for **serializing structured data.**
 

@@ -1,7 +1,5 @@
 # Stacks
 
----
-
 ## Java stack
 
 - [Zookeeper](http://zookeeper.apache.org/) handles much of the system co-ordination (perhaps with a bit of help from higher-level abstractions like [Helix](http://helix.incubator.apache.org/) or [Curator](http://curator.incubator.apache.org/)).

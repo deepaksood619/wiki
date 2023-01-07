@@ -1,7 +1,5 @@
 # Example
 
----
-
 <https://thenewstack.io/how-redis-simplifies-microservices-design-patterns>
 
 ## Financial System

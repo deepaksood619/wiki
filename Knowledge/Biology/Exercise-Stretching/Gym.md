@@ -1,7 +1,5 @@
 # Gym
 
----
-
 The best exercise for gaining strength is not missing workouts
 
 ## Ego-lifting

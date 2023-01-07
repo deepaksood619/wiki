@@ -1,7 +1,5 @@
 # Others
 
----
-
 RPAD (Registered Post with Acknowledgement Due)
 
 ## Lawyer

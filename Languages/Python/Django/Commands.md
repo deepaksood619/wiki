@@ -1,7 +1,5 @@
 # Commands
 
----
-
 ```python
 python -m django --version
 

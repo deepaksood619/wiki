@@ -1,7 +1,5 @@
 # Crash Course Engineering
 
----
-
 1. What is engineering
 
 2. Civil engineering

@@ -1,7 +1,5 @@
 # Intro to Kafka
 
----
-
 ## Kafka: a streaming data platform, Unix Pipelines Analogy
 
 - Kafka Core is the distributed, durable equivalent of Unix pipes. Use it to connect and compose your large-scale data applications

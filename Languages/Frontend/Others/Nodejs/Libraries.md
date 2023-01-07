@@ -1,7 +1,5 @@
 # Libraries
 
----
-
 ## Frontends
 
 <https://github.com/SoftwareBrothers/adminjs>

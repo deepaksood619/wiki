@@ -1,7 +1,5 @@
 # Jenkins
 
----
-
 ## What can you do with Jenkins?
 
 Jenkins is a continuous integration tool which enables software teams to build the integration pipelines for their projects. You can customize your Jenkins-powered pipelines to include different software development processes like building, testing, and staging as well as perform static analysis of your code.

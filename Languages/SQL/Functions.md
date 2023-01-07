@@ -1,7 +1,5 @@
 # Functions
 
----
-
 ## MySQL String Functions
 
 | **Function** | **Description** |

@@ -1,7 +1,5 @@
 # Apache Zookeeper
 
----
-
 Apache Zookeeper is a distributed, open-source configuration, synchronization service along with naming registry for distributed applications.
 
 - Centralized configuration management tool

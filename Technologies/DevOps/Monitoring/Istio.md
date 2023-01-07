@@ -1,7 +1,5 @@
 # Istio
 
----
-
 ## Circuit Breaker
 
 A way to prevent a service from being bombarded with requests if the back end reports trouble and can't fulfill the requests in a timely way

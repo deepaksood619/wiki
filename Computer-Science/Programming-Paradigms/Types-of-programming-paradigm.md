@@ -1,7 +1,5 @@
 # Types of programming paradigm
 
----
-
 ## Imperative (allows side effect)
 
 Uses statements that change a program's state

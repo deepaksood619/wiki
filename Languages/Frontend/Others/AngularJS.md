@@ -1,7 +1,5 @@
 # AngularJS
 
----
-
 <https://www.toptal.com/angular/angular-9-tutorial-angular-ivy>
 
 <https://medium.freecodecamp.org/want-to-learn-angular-heres-our-free-33-part-course-by-dan-wahlin-fc2ff27ab451>

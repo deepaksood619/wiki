@@ -1,7 +1,5 @@
 # Docker Commands
 
----
-
 ## Installation
 
 ```bash

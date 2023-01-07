@@ -1,7 +1,5 @@
 # Data
 
----
-
 - What is Data
 - Types of Attributes
   - Nominal

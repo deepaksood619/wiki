@@ -1,7 +1,5 @@
 # Internals
 
----
-
 ## Why is NumPy Faster?
 
 1. **Fixed type**

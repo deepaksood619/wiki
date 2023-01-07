@@ -1,7 +1,5 @@
 # Advanced
 
----
-
 1. Atomic Transactions
 
 2. Using + as the related_name when we do not want django to automatically create related_name

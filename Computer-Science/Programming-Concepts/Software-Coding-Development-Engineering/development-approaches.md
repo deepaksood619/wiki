@@ -1,7 +1,5 @@
 # Development Approaches
 
----
-
 Asshole Driven development (ADD) - Any team where the biggest jerk makes all the big decisions is asshole driven development. All wisdom, logic or process goes out the window when Mr. Asshole is in the room, doing whatever idiotic, selfish thing he thinks is best. There may rules and processes, but Mr. A breaks them and people follow anyway.
 
 Cognitive Dissonance development (CDD) - In any organization where there are two or more divergent beliefs on how software should be made. The tension between those beliefs, as it's fought out in various meetings and individual decisions by players on both sides, defines the project more than any individual belief itself.

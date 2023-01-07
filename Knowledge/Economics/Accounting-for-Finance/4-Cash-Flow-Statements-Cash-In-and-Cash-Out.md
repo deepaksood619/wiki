@@ -1,7 +1,5 @@
 # 4: Cash Flow Statements - Cash In and Cash Out
 
----
-
 ## The End Game with Cash Flows
 
 - The surface level objective of a statement of cash flows is to explain how much the cash balance of a business changed during a period and why it changed.

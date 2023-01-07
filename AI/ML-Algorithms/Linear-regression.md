@@ -1,7 +1,5 @@
 # Linear regression
 
----
-
 ## Linear regressionis a method for finding the straight line or hyperplane that best fits a set of points
 
 The representation of linear regression is an equation that describes a line that best fits the relationship between the input variables (x) and the output variables (y), byfinding specific weightings for the input variables called coefficients (B).

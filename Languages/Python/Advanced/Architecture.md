@@ -1,7 +1,5 @@
 # Architecture
 
----
-
 ## Working
 
 ![image](media/Architecture-image1.png)

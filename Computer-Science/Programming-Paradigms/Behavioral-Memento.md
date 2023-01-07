@@ -1,7 +1,5 @@
 # Behavioral - Memento
 
----
-
 ## Mementois a behavioral design pattern that allows you to save and restore the past states of the objects without revealing the details of their implementation
 
 Let's say that you are writing a text editor program. Apart from the usual addition and removal of the text, your editor allows you to change the text formatting, insert pictures and other. At some point, you've decided to make all of these actions cancelable. To do this, you need to save the current state of the text before performing any actions. If you then decide to cancel your action, you'll get a copy of the state from the history and restore the old state of the text.

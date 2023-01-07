@@ -1,7 +1,5 @@
 # Course
 
----
-
 Roadmap - <https://www.youtube.com/watch?v=Ip_jOSpThSg>
 
 <https://roadmap.sh/react>

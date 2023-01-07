@@ -1,7 +1,5 @@
 # Outline
 
----
-
 - [Logic in computer science](https://en.wikipedia.org/wiki/Logic_in_computer_science)
   - [Formal methods](https://en.wikipedia.org/wiki/Formal_methods)([Formal verification](https://en.wikipedia.org/wiki/Formal_verification))
   - [Logic programming](https://en.wikipedia.org/wiki/Logic_programming)

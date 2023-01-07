@@ -1,7 +1,5 @@
 # Logistic regression
 
----
-
 Logistic regression is another technique borrowed by machine learning from the field of statistics. It is the go-to method for **binary classification problems** (problems with two class values).
 
 Logistic regression is like linear regression in that the goal is to find the values for the coefficients that weight each input variable.

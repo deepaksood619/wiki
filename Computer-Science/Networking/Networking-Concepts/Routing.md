@@ -1,7 +1,5 @@
 # Routing
 
----
-
 IP addresses are classified into several classes of operational characteristics: unicast, multicast, anycast and broadcast addressing.
 
 - **Unicast addressing**

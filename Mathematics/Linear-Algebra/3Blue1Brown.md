@@ -1,7 +1,5 @@
 # 3Blue1Brown
 
----
-
 1. Vectors
 2. Linear combinations, span and basis vectors
 3. Linear transformations and matrices

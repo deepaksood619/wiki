@@ -1,7 +1,5 @@
 # Crash Course History of Science
 
----
-
 Nullius in verba - in no one words
 
 ## Natural philosophers

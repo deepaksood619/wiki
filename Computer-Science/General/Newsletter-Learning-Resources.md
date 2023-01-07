@@ -1,7 +1,5 @@
 # Newsletter / Learning Resources
 
----
-
 <https://www.freecodecamp.org/news/how-to-create-an-email-newsletter-design-layout-send>
 
 ## #1

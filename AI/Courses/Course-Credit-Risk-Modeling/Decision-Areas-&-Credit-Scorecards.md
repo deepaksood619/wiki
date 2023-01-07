@@ -1,7 +1,5 @@
 # Decision Areas & Credit Scorecards
 
----
-
 ## Decision Areas
 
 - Underwriting

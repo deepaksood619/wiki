@@ -1,7 +1,5 @@
 # Static Code Analysis
 
----
-
 ## black / autopep8 / yapf (Auto formatters)
 
  <https://www.kevinpeters.net/auto-formatters-for-python>

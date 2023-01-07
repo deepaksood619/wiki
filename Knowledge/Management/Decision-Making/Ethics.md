@@ -1,7 +1,5 @@
 # Ethics
 
----
-
 ## Panoticon
 
 Thepanopticonis a type of institutional building and a system of control designed by the English philosopher and social theorist [Jeremy Bentham](https://en.wikipedia.org/wiki/Jeremy_Bentham) in the 18th century. The concept of the design is to allow all prisoners of an institution to be observed by a single [security guard](https://en.wikipedia.org/wiki/Security_guard), without the inmates being able to tell whether they are being watched.

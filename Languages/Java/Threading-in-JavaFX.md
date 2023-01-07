@@ -1,7 +1,5 @@
 # Threading in JavaFX
 
----
-
 JavaFX Scene Graph
 
 1. Worker

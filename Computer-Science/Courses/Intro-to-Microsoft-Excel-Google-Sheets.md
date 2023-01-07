@@ -1,7 +1,5 @@
 # Intro to Microsoft Excel / Google Sheets
 
----
-
 ## Features
 
 - Timeline View

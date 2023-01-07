@@ -1,7 +1,5 @@
 # ACID and BASE
 
----
-
 1. ACID (SQL)
 
    - A - Atomic, Everything in a transaction succeeds or the entire transaction is rolled back

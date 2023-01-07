@@ -1,7 +1,5 @@
 # Functions
 
----
-
 # Elementary Functions
 
 1. **Polynomials**

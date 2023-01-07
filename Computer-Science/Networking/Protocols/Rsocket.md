@@ -1,7 +1,5 @@
 # Rsocket
 
----
-
 RSocket is a binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron.
 It enables the following symmetric interaction models via async message passing over a single connection:
 

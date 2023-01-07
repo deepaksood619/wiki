@@ -1,7 +1,5 @@
 # Dijkstra's Algorithm
 
----
-
 ## Properties
 
 - For directed graphs

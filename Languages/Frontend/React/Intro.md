@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ![image](media/Intro-image1.png)
 
 ## A Javascript library for building user interfaces

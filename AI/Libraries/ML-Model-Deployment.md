@@ -1,7 +1,5 @@
 # ML Model Deployment
 
----
-
 ![image](media/ML-Model-Deployment-image1.jpg)
 
 ## Offline Deployment

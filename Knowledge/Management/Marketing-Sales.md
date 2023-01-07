@@ -1,7 +1,5 @@
 # Marketing / Sales
 
----
-
 ## Consumer Immersion Exercise
 
 ## ORM - Online Reputation Management

@@ -1,7 +1,5 @@
 # CheatSheet
 
----
-
 <https://www.kaggle.com/grroverpr/pandas-cheatsheet>
 
 ```python

@@ -1,7 +1,5 @@
 # OSI Layers
 
----
-
 Mnemonic - All people seem to need data processing
 OSI Model (Open Systems Interconnection)
 

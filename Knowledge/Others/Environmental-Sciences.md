@@ -1,7 +1,5 @@
 # Environmental Sciences
 
----
-
 <https://www.pmfias.com/carbon-nitrogen-phosphorus-sulphur-cycle>
 
 ## Blinkist - The Uninhabitable Earth by David Wallace-Wells, 18 Apr 2019 - A Story of the Future

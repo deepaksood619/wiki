@@ -1,7 +1,5 @@
 # Generalization and Sampling
 
----
-
 ## Learn how to
 
 - Assess if your model is overfitting

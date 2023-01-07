@@ -1,7 +1,5 @@
 # Undirected Graph
 
----
-
 ## Undirected Graphs
 
 Path: Sequence of vertices connected by edges

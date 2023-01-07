@@ -1,7 +1,5 @@
 # 1d Range Search
 
----
-
 ## 1 d range search
 
 ## Operations

@@ -1,7 +1,5 @@
 # Machine Learning Algorithm K-means using Map Reduce for Big Data Analytics
 
----
-
 ## Preface
 
 - In this lecture, we will discuss machine learning classification algorithm k-means using mapreduce for big data analytics

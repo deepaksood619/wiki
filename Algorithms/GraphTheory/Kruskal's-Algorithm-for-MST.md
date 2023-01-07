@@ -1,7 +1,5 @@
 # Kruskal's Algorithm for MST
 
----
-
 ![image](media/Kruskal's-Algorithm-for-MST-image1.png)
 
 ![image](media/Kruskal's-Algorithm-for-MST-image2.png)

@@ -1,7 +1,5 @@
 # Intro
 
----
-
 Searching
 
 - Sequential Search / Linear Search

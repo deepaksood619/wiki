@@ -1,7 +1,5 @@
 # General
 
----
-
 Bitwise Operators ( a = 60, b = 13)
 
 a = 0011 1100

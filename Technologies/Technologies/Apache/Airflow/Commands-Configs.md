@@ -1,7 +1,5 @@
 # Commands / Configs
 
----
-
 ```python
 'resetdb', 'render', 'variables', 'delete_user', 'connections', 'create_user', 'rotate_fernet_key', 'pause', 'sync_perm', 'task_failed_deps', 'version', 'trigger_dag', 'initdb', 'test', 'unpause', 'list_dag_runs', 'dag_state', 'run', 'list_tasks', 'backfill', 'list_dags', 'kerberos', 'worker', 'webserver', 'flower', 'scheduler', 'task_state', 'pool', 'serve_logs', 'clear', 'list_users', 'next_execution', 'upgradedb', 'delete_dag'
 

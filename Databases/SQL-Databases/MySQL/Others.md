@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Facts
 
 MySQLhas hardlimitof **4096columnsper table**, but the effectivemaximummay be less for a given table. The exactcolumn limitdepends on several factors: Themaximumrow size for a table constrains the number (and possibly size) ofcolumnsbecause the total length of allcolumnscannot exceed this size.-  CREATE SCHEMA is a synonym for CREATE DATABASEas of MySQL 5.0.2.

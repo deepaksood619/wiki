@@ -1,7 +1,5 @@
 # CSS Positions
 
----
-
 CSS Positions allow you to manipulate how elements are positioned to achieve many different visual effects.
 
 ## Positioning Values

@@ -1,7 +1,5 @@
 # Project Contraints
 
----
-
 ## Project Contraints
 
 - **Triple Contraint Triangle (Iron Triangle of Project Management)**

@@ -1,7 +1,5 @@
 # Rule generation & Pattern Evaluation
 
----
-
 monotone - a continuing sound, especially of a person's voice, that is unchanging in pitch and without intonation.
 
 Ex - "he sat and answered the questionsin a monotone"

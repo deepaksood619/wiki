@@ -1,7 +1,5 @@
 # Documentation
 
----
-
 1.3 Overview of the MySQL Database Management System
 
 1.3.1 What is MySQL?

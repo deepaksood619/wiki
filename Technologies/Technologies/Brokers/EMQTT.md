@@ -1,7 +1,5 @@
 # EMQTT
 
----
-
 *EMQ X*broker is a fully open source, distributed, highly scalable, highly extensible, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.
 
 Written in Erlang/OTP.

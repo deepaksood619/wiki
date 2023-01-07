@@ -1,7 +1,5 @@
 # Binomial Heap
 
----
-
 ## Key Points
 
 - Faster union or merge operation of two binary heaps

@@ -1,7 +1,5 @@
 # Servers
 
----
-
 ## HTTPD (HTTP Daemon)
 
 The HTTPD (HTTP Daemon) server is the one handling the requests/responses on the server side. The most common HTTPD servers are Apache or nginx for Linux and IIS for Windows

@@ -1,7 +1,5 @@
 # AWS Services
 
----
-
 1. **Migration**
 
    - AWS Application Discovery Service

@@ -1,7 +1,5 @@
 # Speech
 
----
-
 # Parts of Speech
 
 The eight parts of speech are nouns, pronouns, verbs, adjectives, adverbs, conjunctions, prepositions, and interjections.

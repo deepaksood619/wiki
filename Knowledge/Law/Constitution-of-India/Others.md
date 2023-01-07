@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## 9 Dec 1946 - Started writing
 
 ## 26 Nov 1949 - Adoption

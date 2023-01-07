@@ -1,7 +1,5 @@
 # Huffman Compression
 
----
-
 ## Variable-length codes
 
 Use different number of bits to encode different chars

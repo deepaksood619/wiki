@@ -1,7 +1,5 @@
 # Addressing Failures
 
----
-
 ## Cascading Failures
 
 A cascading failure is a failure that grows over time as a result of positive feedback.[^107^](https://landing.google.com/sre/book/chapters/addressing-cascading-failures.html#id-GbduZFnh9) It can occur when a portion of an overall system fails, increasing the probability that other portions of the system fail. For example, a single replica for a service can fail due to overload, increasing load on remaining replicas and increasing their probability of failing, causing a domino effect that takes down all the replicas for a service.

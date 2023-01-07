@@ -1,7 +1,5 @@
 # Application Architecture
 
----
-
 ## Application Architecture
 
 ![image](media/CodeIgniter_Application-Architecture-image1.png)

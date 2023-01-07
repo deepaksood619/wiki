@@ -1,7 +1,5 @@
 # Concurrency
 
----
-
 ## Concurrent Modification
 
 When one or more thread is iterating over the collection, in between, one thread changes the structure of the collection (either adding the element to the collection or by deleting the element in the collection or by updating the value at particular position in the collection) is known as Concurrent Modification.

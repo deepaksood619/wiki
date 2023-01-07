@@ -1,7 +1,5 @@
 # Commands & Configs
 
----
-
 ## Telegraf
 
 ```bash

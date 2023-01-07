@@ -1,7 +1,5 @@
 # Congruence
 
----
-
 [Transformations & congruence:Congruence](https://www.khanacademy.org/math/geometry/hs-geo-congruence#hs-geo-trans-and-congruence)
 
 [Triangle congruence:Congruence](https://www.khanacademy.org/math/geometry/hs-geo-congruence#hs-geo-triangle-congruence)

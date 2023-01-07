@@ -1,7 +1,5 @@
 # Shell Sort
 
----
-
 - In-place comparison sort
 - Not Stable
 

@@ -1,7 +1,5 @@
 # TimSort
 
----
-
 - Hybrid algorithm which uses binary insertion sort and improved merge sort by using galloping in a combination.
 - Stable Algorithm
 

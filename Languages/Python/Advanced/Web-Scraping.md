@@ -1,7 +1,5 @@
 # Web Scraping
 
----
-
 Web Scraping is a technique in which a computer program extracts data from human-readable output coming from websites.
 
 1. lxml.etree

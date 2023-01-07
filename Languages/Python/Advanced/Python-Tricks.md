@@ -1,7 +1,5 @@
 # Python Tricks
 
----
-
 # Patterns for Cleaner Python
 
 1. **Smart formatting and comma placement** can make your list, dict, or set constants easier to maintain.

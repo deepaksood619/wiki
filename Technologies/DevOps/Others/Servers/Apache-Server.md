@@ -1,7 +1,5 @@
 # Apache Server
 
----
-
 ## Apache HTTP Server
 
 The [Apache HTTP Server](https://httpd.apache.org/), also known as Apache HTTPd, is a widely used open source web server that is extremely customizable. Its functionality can be extended through modules that suit a wide range of use cases, from serving [dynamic PHP content](https://wiki.apache.org/httpd/php) to acting as a [forward or reverse proxy](https://httpd.apache.org/docs/current/mod/mod_proxy.html).

@@ -1,7 +1,5 @@
 # Algorithms
 
----
-
 1. Brute force algorithm
 
 2. Value Iteration Algorithm

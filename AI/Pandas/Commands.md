@@ -1,7 +1,5 @@
 # Commands
 
----
-
 ## DataFrame.describe(percentiles=None, include=None, exclude=None)
 
 Generates descriptive statistics that summarize the central tendency, dispersion and shape of a dataset's distribution, excludingNaNvalues.

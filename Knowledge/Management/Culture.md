@@ -1,7 +1,5 @@
 # Culture
 
----
-
 Culture eats strategy for breakfast - Peter Drucker
 
 Strong norms lesser rules

@@ -1,7 +1,5 @@
 # KeyCloak
 
----
-
 Add authentication to applications and secure services with minimum fuss.
 
 - User Federation

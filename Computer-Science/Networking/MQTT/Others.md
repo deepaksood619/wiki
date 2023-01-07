@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## MQTT vs HTTP
 
 - MQTT transfers data as a byte array and publish/subscribe model, which makes it perfect for resource-constrained devices and help to save battery.

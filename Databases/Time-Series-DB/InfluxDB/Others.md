@@ -1,7 +1,5 @@
 # Others
 
----
-
 # Supported Protocols
 
 1. [CollectD](https://docs.influxdata.com/influxdb/v1.7/supported_protocols/collectd/)

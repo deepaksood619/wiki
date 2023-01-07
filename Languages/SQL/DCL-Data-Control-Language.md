@@ -1,7 +1,5 @@
 # DCL - Data Control Language
 
----
-
 ## Data Control Language (DCL) / Data Management Language (DML)
 
 show grants for 'raghwendra_sarkar';

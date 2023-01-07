@@ -1,7 +1,5 @@
 # Standards
 
----
-
 ## ASCII
 
 48-57 - 0-9

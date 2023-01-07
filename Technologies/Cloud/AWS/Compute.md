@@ -1,7 +1,5 @@
 # Compute
 
----
-
 1. Amazon EC2
 
 Virtual Servers in the Cloud

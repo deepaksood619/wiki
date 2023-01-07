@@ -1,7 +1,5 @@
 # MapReduce Examples
 
----
-
 ![image](../../../media/Technologies-Apache-MapReduce-Examples-image1.png)
 
 ![image](../../../media/Technologies-Apache-MapReduce-Examples-image2.png)

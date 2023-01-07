@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## K-S Model Evaluation
 
 Kolmogorov-Smirnov

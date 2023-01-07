@@ -1,7 +1,5 @@
 # Other Graph Algorithms
 
----
-
 ## Dominating Set
 
 In [graph theory](https://en.wikipedia.org/wiki/Graph_theory), adominating setfor a [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) G=(V, E) is a [subset](https://en.wikipedia.org/wiki/Subset) DofVsuch that every vertex not inDis adjacent to at least one member ofD. Thedomination numberγ(G) is the number of vertices in a smallest dominating set forG.

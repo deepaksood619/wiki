@@ -1,7 +1,5 @@
 # Apache Hadoop
 
----
-
 - MapReduce API (Processing large parallel data)
 - MapReduce job management
 - Distributed Filesystem (HDFS)

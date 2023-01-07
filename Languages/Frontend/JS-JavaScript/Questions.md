@@ -1,7 +1,5 @@
 # Questions
 
----
-
 ### Event Delegation
 
 JS event listeners fire not only on a single DOM element, but on all its descendants.

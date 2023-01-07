@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Istio Ingress vs Kubernetes Ingress
 
 ![image](../../../media/DevOps-Monitoring-Others-image1.png)

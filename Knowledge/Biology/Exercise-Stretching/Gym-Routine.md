@@ -1,7 +1,5 @@
 # Gym Routine
 
----
-
 ## Tips
 
 1. Leg Press

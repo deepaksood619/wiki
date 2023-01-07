@@ -1,7 +1,5 @@
 # Learning Vector Quantization (LVQ)
 
----
-
 Hi, adownside of K-Nearest Neighbors is that you need to hang on to your entire training dataset.
 
 The Learning Vector Quantization algorithm (or LVQ for short) is an artificial neural network algorithm that allows you to choose how many training instances to hang onto and learns exactly what those instances should look like.

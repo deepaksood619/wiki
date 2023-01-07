@@ -1,7 +1,5 @@
 # Bayes Classification
 
----
-
 ## Naive Bayes
 
 Naive Bayes is a simple but surprisingly powerful algorithm for predictive modeling.

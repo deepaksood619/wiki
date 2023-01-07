@@ -1,7 +1,5 @@
 # Concepts
 
----
-
 ## Goroutines & Channels
 
 The native support for concurrency and parallelism. This makes Go an ideal candidate for applications that require heavy concurrent and/or parallel processing, networking and so on. Goroutines makes it so easy to start lightweight threads and channels provide a way to communicate between these threads acting like a message bus.

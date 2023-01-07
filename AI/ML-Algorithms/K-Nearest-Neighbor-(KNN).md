@@ -1,7 +1,5 @@
 # K-Nearest Neighbor (KNN)
 
----
-
 The model representation for KNN is the entire training dataset. Simple right?
 
 Predictions are made for a new data point by searching through the entire training set for the K most similar instances (the neighbors) and summarizing the output variable for those K instances. For regression problems, this might be the mean output variable, for classification problems this might be the mode (or most common) class value.

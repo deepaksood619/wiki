@@ -1,7 +1,5 @@
 # Authentication
 
----
-
 ## Methods of Authentication
 
 - **Single Factor authentication**

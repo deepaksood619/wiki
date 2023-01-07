@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## CE - Accurate Indoor Location for the IoT (Jan 19)
 
 - 802.11b - Received Signal Strength Indication (RSSI)

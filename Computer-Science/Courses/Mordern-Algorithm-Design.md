@@ -1,7 +1,5 @@
 # Mordern Algorithm Design
 
----
-
 1. Randomization
 
 2. Amortized Analysis

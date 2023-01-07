@@ -1,7 +1,5 @@
 # Drivers / Clients
 
----
-
 ```python
 pip install cassandra-driver
 

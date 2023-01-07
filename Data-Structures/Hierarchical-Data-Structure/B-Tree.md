@@ -1,7 +1,5 @@
 # B-Tree
 
----
-
 ## Points
 
 - A generalization of 2-3 tees

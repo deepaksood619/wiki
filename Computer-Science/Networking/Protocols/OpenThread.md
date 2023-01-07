@@ -1,7 +1,5 @@
 # OpenThread
 
----
-
 ## Thread
 
 Thread is designed to address the unique interoperability, security, power, and architecture challenges of the IoT.

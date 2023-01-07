@@ -1,7 +1,5 @@
 # Cheatsheet
 
----
-
 ## The Basics of DynamoDB
 
 DynamoDBis a fully managed NoSQL key/value and document database.

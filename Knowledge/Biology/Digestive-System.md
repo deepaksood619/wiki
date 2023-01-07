@@ -1,7 +1,5 @@
 # Digestive System
 
----
-
 ## Metabolic chart of the Human Body
 
 ![image](media/Digestive-System-image1.jpg)

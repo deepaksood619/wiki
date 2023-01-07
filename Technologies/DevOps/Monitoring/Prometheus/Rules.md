@@ -1,7 +1,5 @@
 # Rules
 
----
-
 Prometheus supports two types of rules which may be configured and then evaluated at regular intervals: recording rules and [alerting rules](https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/).
 
 ## Recording Rules

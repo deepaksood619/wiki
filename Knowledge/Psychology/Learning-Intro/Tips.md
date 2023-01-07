@@ -1,7 +1,5 @@
 # Tips
 
----
-
 <https://en.wikipedia.org/wiki/List_of_mnemonics>
 
 Immediately after every lecture, meeting, or any significant experience, take 30 seconds --- no more, no less --- to write down the most important points.

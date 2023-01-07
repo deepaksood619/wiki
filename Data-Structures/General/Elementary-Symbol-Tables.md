@@ -1,7 +1,5 @@
 # Elementary Symbol Tables
 
----
-
 ## Symbol Tables (Associative Arrays, Maps and Dictionaries)
 
 Key-value pair abstraction -

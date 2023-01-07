@@ -1,7 +1,5 @@
 # Open Tracing
 
----
-
 ## What is OpenTracing?
 
 It is probably easier to start with what OpenTracing is NOT.

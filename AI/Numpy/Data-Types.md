@@ -1,7 +1,5 @@
 # Data Types
 
----
-
 <table>
 <colgroup>
 <col style="width: 11%" />

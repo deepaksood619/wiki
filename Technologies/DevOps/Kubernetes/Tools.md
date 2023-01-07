@@ -1,7 +1,5 @@
 # Tools
 
----
-
 <https://devops-stack.io>
 
 An all-in-one Kubernetesstack using ArgoCDand Terraform as base components

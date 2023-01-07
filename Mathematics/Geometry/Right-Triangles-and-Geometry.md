@@ -1,7 +1,5 @@
 # Right Triangles and Geometry
 
----
-
 1. [Pythagorean theorem](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-pyth-theorem)
 
 2. [Pythagorean theorem proofs](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-pythagorean-proofs)

@@ -1,7 +1,5 @@
 # Data Pipeline Architecture
 
----
-
 ![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image1.png)
 
 ![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image2.png)

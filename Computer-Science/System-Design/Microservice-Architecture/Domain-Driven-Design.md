@@ -1,7 +1,5 @@
 # Domain Driven Design
 
----
-
 Domain-driven design(DDD) is the concept that the structure and language of software code (class names, class methods, class variables) should match the [business domain](https://www.wikiwand.com/en/Business_domain). For example, if a software processes loan applications, it might have classes such as LoanApplication and Customer, and methods such as AcceptOffer and Withdraw.
 
 DDD connects the [implementation](https://www.wikiwand.com/en/Implementation) to an evolving model.

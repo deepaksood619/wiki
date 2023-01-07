@@ -1,7 +1,5 @@
 # Minimum Spanning Tree
 
----
-
 ## Properties of MST
 
 - Always have V-1 edges for a graph of V vertices

@@ -1,7 +1,5 @@
 # Google Cloud Platform - Managed Services
 
----
-
 ## Compute
 
 - Compute Engine

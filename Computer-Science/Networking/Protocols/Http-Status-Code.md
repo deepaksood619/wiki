@@ -1,7 +1,5 @@
 # Http Status Code
 
----
-
 1xx - Informational
 
 2xx - Success

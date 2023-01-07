@@ -1,7 +1,5 @@
 # Content Types
 
----
-
 ## Content Types
 
 it's a built in app that keeps track of models from the installed apps of your Django application. And one of the use cases of theContentTypesis to create generic relationships between models.

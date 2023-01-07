@@ -1,7 +1,5 @@
 # Others
 
----
-
 <https://github.com/pallets/flask/tree/1.1.2/examples/tutorial>
 
 <https://flask.palletsprojects.com/en/1.1.x/tutorial/database>

@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Connection
 
 In networking, a connection refers to pieces of related information that are transfered through a network. This generally infers that a connection is built before the data transfer (by following the procedures laid out in a protocol) and then is deconstructed at the at the end of the data transfer.

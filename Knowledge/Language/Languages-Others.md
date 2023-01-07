@@ -1,7 +1,5 @@
 # Languages Others
 
----
-
 It is tradition for Sherpa to name their children after the day of the week on which they were born.
 
 Tibetan

@@ -1,7 +1,5 @@
 # Software/Coding / Development/Engineering
 
----
-
 - **Learning and Discovery -** Iteration, Feedback, Incrementalism, Experimentation and Empiricism
 - **Managing Complexity -** Modularity, Information Hiring, Seperation of Concerns, Loose-Coupling, Cohesion
 <https://dont.build>

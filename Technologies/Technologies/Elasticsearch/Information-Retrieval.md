@@ -1,7 +1,5 @@
 # Information Retrieval
 
----
-
 ## Link Analysis and Web Search
 
 Talks about "How Google Search indexes pages"

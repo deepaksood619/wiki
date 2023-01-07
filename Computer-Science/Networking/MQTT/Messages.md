@@ -1,7 +1,5 @@
 # Messages
 
----
-
 MQTT has 14 different message types. Typically, end users only need to employ the CONNECT, PUBLISH, SUBSCRIBE, and UNSUBSCRIBE message types. The other message types are used for internal mechanisms and message flows.
 
 | **MESSAGE TYPE**       | **DESCRIPTION**                                                   |

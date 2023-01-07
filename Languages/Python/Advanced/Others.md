@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## The priority of how methods are resolved is from left to right
 
 ```python

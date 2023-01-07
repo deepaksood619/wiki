@@ -1,7 +1,5 @@
 # Optimizations
 
----
-
 ## Reserving Resources For The System and Kubelet
 
 ```bash

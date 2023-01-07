@@ -1,7 +1,5 @@
 # Knuth Shuffle
 
----
-
 ## Knuth Shuffle
 
 - In iteration i, pick integer r between 0 and i uniformly at random.

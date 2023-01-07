@@ -1,7 +1,5 @@
 # Outline
 
----
-
 - [Acoustics](https://en.wikipedia.org/wiki/Acoustics)
 - [Applied physics](https://en.wikipedia.org/wiki/Applied_physics)
 - [Astrophysics](https://en.wikipedia.org/wiki/Astrophysics)

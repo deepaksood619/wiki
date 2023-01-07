@@ -1,7 +1,5 @@
 # Recipe
 
----
-
 ## Grilled Chicken + Paneer
 
 - Chicken - 250 grm

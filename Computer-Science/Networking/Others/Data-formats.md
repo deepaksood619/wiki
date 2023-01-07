@@ -1,7 +1,5 @@
 # Data formats
 
----
-
 ## Hierarchical Data Format
 
 Hierarchical Data Format(**HDF**) is a set of file formats (**HDF4**,**HDF5) designed to store and organize large amounts of data

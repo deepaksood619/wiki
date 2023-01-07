@@ -1,7 +1,5 @@
 # Feature Engineering
 
----
-
 - Scale to large datasets
 - Find good features
   - Synthetic features

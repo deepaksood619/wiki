@@ -1,7 +1,5 @@
 # Architecture Guide
 
----
-
 1. Application Architecture Guide
    - Architecture Styles
        - Big compute

@@ -1,7 +1,5 @@
 # Scrum / Meetings
 
----
-
 - Video Calls
 - Don't add all in video call (to save bandwidth)
 - Do group calls

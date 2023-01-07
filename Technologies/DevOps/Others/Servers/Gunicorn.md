@@ -1,7 +1,5 @@
 # Gunicorn
 
----
-
 [Gunicorn](http://gunicorn.org/) was inspired by Ruby's Unicorn server (hence the name). It modestly claims that it is "simply implemented, light on server resources, and fairly speedy." Unlike Bjoern and CerryPy, Gunicorn is a standalone server. "WORKER_COUNT" was set to be **twice the number of available of processors, plus one**. This was based on a recommendation from Gunicorn's documentation.
 
 ## Async Workers

@@ -1,7 +1,5 @@
 # Important Dates / Timelines
 
----
-
 <table>
 <colgroup>
 <col style="width: 18%" />

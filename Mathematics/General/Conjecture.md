@@ -1,7 +1,5 @@
 # Conjecture
 
----
-
 Conjecture - Is a conclusion or proposition based on incomplete information, for which no proof has been found.
 
 1. Collatz Conjecture

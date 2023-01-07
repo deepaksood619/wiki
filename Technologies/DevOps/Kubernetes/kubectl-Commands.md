@@ -1,7 +1,5 @@
 # kubectl Commands
 
----
-
 ```bash
 kgpo -A --watch | ts '[%Y-%m-%d %H:%M:%S]'
 k rollout restart deployment/ticket-api -n prod

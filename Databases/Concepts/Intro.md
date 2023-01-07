@@ -1,7 +1,5 @@
 # Intro
 
----
-
 ## Transactions
 
 A transaction is defined as a sequence of actionsthat are executed on a shared database to perform some higher-level function. It is a basic unit of change in the DBMS. No partial transactions are allowed.

@@ -1,7 +1,5 @@
 # Hash Collection
 
----
-
 SparseArray
 
 ## HashSet

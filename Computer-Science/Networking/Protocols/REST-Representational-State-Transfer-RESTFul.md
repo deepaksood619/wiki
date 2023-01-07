@@ -1,7 +1,5 @@
 # REST Representational State Transfer / RESTFul
 
----
-
 REST + JSON over HTTP
 REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server.
 

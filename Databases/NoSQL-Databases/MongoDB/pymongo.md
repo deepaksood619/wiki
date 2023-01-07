@@ -1,7 +1,5 @@
 # pymongo
 
----
-
 <https://github.com/mongodb/mongo-python-driver>
 
 <https://pymongo.readthedocs.io/en/stable>

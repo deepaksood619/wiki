@@ -1,7 +1,5 @@
 # Ansible
 
----
-
 ## Features
 
 - Automation system

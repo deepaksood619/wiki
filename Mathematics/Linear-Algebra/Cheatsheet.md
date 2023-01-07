@@ -1,7 +1,5 @@
 # Cheatsheet
 
----
-
 <https://www.freecodecamp.org/news/linear-algebra-full-course>
 
 ![image](media/Cheatsheet-image1.png)

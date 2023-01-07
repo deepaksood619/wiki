@@ -1,7 +1,5 @@
 # Neural network and deep learning
 
----
-
 # Logistic Regression as a Neural Network
 
 ## Logistic Regression - Binary Classification

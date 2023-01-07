@@ -1,7 +1,5 @@
 # Variables
 
----
-
 ## Defining Variables
 
 - **variables.tf**

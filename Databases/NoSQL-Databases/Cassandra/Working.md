@@ -1,7 +1,5 @@
 # Working
 
----
-
 ## Writes
 
 - Need to be lock-free and fast (no reads or disk seeks)

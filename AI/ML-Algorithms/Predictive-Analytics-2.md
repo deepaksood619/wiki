@@ -1,7 +1,5 @@
 # Predictive Analytics 2
 
----
-
 ## Gradient Boosted Decision Trees - Regression
 
 ## Boosting

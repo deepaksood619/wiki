@@ -1,7 +1,5 @@
 # Endianness
 
----
-
 ## endian
 
 #### adjective

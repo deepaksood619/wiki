@@ -1,7 +1,5 @@
 # Coursera - Algorithms Part - 2
 
----
-
 # Syllabus
 
 ## Week - 1

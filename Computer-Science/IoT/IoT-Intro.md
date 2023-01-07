@@ -1,7 +1,5 @@
 # IoT Intro
 
----
-
 ## Internet of Things (IoT)
 
 IoT world is all about communication between devices, gateways and the cloud; messages are exchanged between all these parties in order to provide a comprehensive end-to-end solution.

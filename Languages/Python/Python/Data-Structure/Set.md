@@ -1,7 +1,5 @@
 # Set
 
----
-
 - Set doesn't support indexing/slicing
 - Set doesn't support random.choices(a), since it doesn't support indexing
 - Implementation is mostly similar to dictionary

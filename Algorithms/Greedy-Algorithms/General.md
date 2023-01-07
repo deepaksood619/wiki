@@ -1,7 +1,5 @@
 # General
 
----
-
 Algorithms
 
 1. Huffman Coding (a type of entropy coding)

@@ -1,7 +1,5 @@
 # Unicode
 
----
-
 There are 3 built-in methods for string conversion -
 
 1. __str__()

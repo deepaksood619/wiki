@@ -1,7 +1,5 @@
 # NLP
 
----
-
 [14. Natural Language Processing: Pretraining](https://d2l.ai/chapter_natural-language-processing-pretraining/index.html)
 
 [14.1. Word Embedding (word2vec)](https://d2l.ai/chapter_natural-language-processing-pretraining/word2vec.html)

@@ -1,7 +1,5 @@
 # Functional Programming
 
----
-
 ## Everything is immutable
 
 [Why Functional Programming Matters](https://www.youtube.com/watch?v=oB8jN68KGcU)

@@ -1,7 +1,5 @@
 # Organ Systems
 
----
-
 1. [Circulatory system](https://en.wikipedia.org/wiki/Circulatory_system):
     - Circulates [blood](https://en.wikipedia.org/wiki/Blood) around the body via the [heart](https://en.wikipedia.org/wiki/Human_heart), [arteries](https://en.wikipedia.org/wiki/Artery) and [veins](https://en.wikipedia.org/wiki/Vein), delivering [oxygen](https://en.wikipedia.org/wiki/Oxygen) and nutrients to organs and cells and carrying their waste products away.
     - Equalizes temperature in the body

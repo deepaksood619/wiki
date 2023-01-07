@@ -1,7 +1,5 @@
 # Exams
 
----
-
 ## The strategy to ace Exams
 
 1. **Spacing**

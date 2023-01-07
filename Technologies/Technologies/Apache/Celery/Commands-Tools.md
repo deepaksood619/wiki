@@ -1,7 +1,5 @@
 # Commands / Tools
 
----
-
 ```bash
 celery -A tasks worker --loglevel=INFO
 celery worker --help

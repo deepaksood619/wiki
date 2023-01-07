@@ -1,7 +1,5 @@
 # Documentation
 
----
-
 - [**Language Reference**](https://www.php.net/manual/en/langref.php)
   - [Basic syntax](https://www.php.net/manual/en/language.basic-syntax.php)
   - [Types](https://www.php.net/manual/en/language.types.php)

@@ -1,7 +1,5 @@
 # Best Practices
 
----
-
 - [Introduction](https://redislabs.com/redis-best-practices/introduction/)
 - [Indexing Patterns](https://redislabs.com/redis-best-practices/indexing-patterns/)
 

@@ -1,7 +1,5 @@
 # Corporate Actions
 
----
-
 ## Corporate actions
 
 A corporate action is initiated by the board of directors and approved by the company's shareholders.

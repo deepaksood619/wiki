@@ -1,7 +1,5 @@
 # DQL - Data Query Language
 
----
-
 ```sql
 -- SELECT
 select * from mysql.user;

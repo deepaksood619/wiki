@@ -1,7 +1,5 @@
 # Concentration / Mindfulness / Attention / Focus / Hard Work
 
----
-
 I think, therefore I am distracted.
 
 Think of many things. Do one.

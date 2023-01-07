@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Dive
 
 An amazing tool for inspecting Docker images.

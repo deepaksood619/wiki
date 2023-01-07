@@ -1,7 +1,5 @@
 # Course - Big Data Computing - NPTEL
 
----
-
 - Dr. Rajiv Mishra
 - CSE - IIT, Patna
 

@@ -1,7 +1,5 @@
 # Components
 
----
-
 <https://material.io/components>
 
 Badges, Buttons, Breadcrumbs, Cards, Chips, Collections, Footer, Forms, Icons, Navbar, Pagination, Preloader

@@ -1,7 +1,5 @@
 # Others
 
----
-
 ## Blinkist - The future is history
 
 Totalitarian rule in Russia

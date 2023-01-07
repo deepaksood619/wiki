@@ -1,7 +1,5 @@
 # Apache Hive
 
----
-
 - Hive is a distributed data management for Hadoop
 - It supports SQL-like query option HiveSQL (HSQL) to access big data
 - It can be primarily used for Data mining purpose

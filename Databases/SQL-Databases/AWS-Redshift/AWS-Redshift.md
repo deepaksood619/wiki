@@ -1,7 +1,5 @@
 # AWS Redshift
 
----
-
 - OLAP
 - Columnar data storage structure
 - Fully managed data warehouse service

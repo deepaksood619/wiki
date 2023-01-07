@@ -1,7 +1,5 @@
 # Intro
 
----
-
 The word Calculus comes from Latin meaning "small stone", Because it is like understanding something by looking at small pieces.
 Differential Calculuscuts something into small pieces to find how it changes.
 

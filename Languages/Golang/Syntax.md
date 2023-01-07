@@ -1,7 +1,5 @@
 # Syntax
 
----
-
 ## Reserved Words
 
 | break    | default     | func   | interface | select |

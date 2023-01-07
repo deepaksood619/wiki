@@ -1,7 +1,5 @@
 # Commands
 
----
-
 ## Libraries
 
 - [numpy](https://idrgfain.labs.coursera.org/notebooks/Week%202/Logistic%20Regression%20as%20a%20Neural%20Network/www.numpy.org) is the fundamental package for scientific computing with Python.

@@ -1,7 +1,5 @@
 # Data Analysis
 
----
-
 <https://www.freecodecamp.org/learn/data-analysis-with-python>
 
 ## Data Analysis

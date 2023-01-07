@@ -1,7 +1,5 @@
 # Prim's Algorithm for MST
 
----
-
 ## Properties
 
 - For Undirected graph

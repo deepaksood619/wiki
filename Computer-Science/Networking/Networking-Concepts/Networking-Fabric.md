@@ -1,7 +1,5 @@
 # Networking Fabric
 
----
-
 The networking switch fabric is the basic topology of how a network is laid out and connected to switch traffic on a data or circuit-switched network.
 The switch fabric concept, in which many connections are made in a matrix, has a long history in communications, dating back to the circuit-switched voice telephone days when connections were switched by humans operating a switchboard. The term "fabric" comes from the criss-cross nature of a networking fabric, which is often visualized as a checkerboard of connections
 Although the basic concept of switch fabrics dates back to the origins of the telephone nearly 150 years ago, data networking has pushed theconcept to new levels. We've come a long way from the local telephone switchboard. Now, a myriad of physical connectivity, chip, and switching technologies are used to connect bits in a networking fabric. In some cases, a switching fabric can be boiled down to a single switch, known as a "switch on a chip."

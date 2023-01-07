@@ -1,7 +1,5 @@
 # Flask-sqlalchemy
 
----
-
 <https://github.com/pallets/flask-sqlalchemy>
 
 <https://courses.prettyprinted.com/courses/1016334/lectures/21156810>
