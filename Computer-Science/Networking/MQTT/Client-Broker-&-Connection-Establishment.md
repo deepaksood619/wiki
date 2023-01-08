@@ -19,13 +19,13 @@ The broker also holds the sessions of all persisted clients, including subscript
 The MQTT protocol is based on TCP/IP. Both the client and the broker need to have a TCP/IP stack.
 The MQTT connection is always between one client and the broker. Clients never connect to each other directly. To initiate a connection, **the client sends a CONNECT message to the broker. The broker responds with a CONNACK message**and a status code. Once the connection is established, the broker keeps it open until the client sends a disconnect command or the connection breaks.
 
-![image](media/Client,-Broker-&-Connection-Establishment-image1.gif)
+![image](media/Client-Broker-&-Connection-Establishment-image1.gif)
 
 ## MQTT Connect
 
 To initiate a connection, the client sends a command message to the broker. If this CONNECT message is malformed (according to the MQTT specification) or too much time passes between opening a network socket and sending the connect message, the broker closes the connection.
 
-![image](media/Client,-Broker-&-Connection-Establishment-image2.png)
+![image](media/Client-Broker-&-Connection-Establishment-image2.png)
 
 ## ClientID
 
@@ -56,7 +56,7 @@ The CONNACK message contains two data entries:
 - The session present flag
 - A connect acknowledge flag
 
-![image](media/Client,-Broker-&-Connection-Establishment-image3.png)
+![image](media/Client-Broker-&-Connection-Establishment-image3.png)
 
 ## Session Presentflag
 

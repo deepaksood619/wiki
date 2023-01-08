@@ -447,11 +447,12 @@ find ./ ! -name 'config.yaml' -type f -exec sed -i "s~${ecr_name}.*$~${ecr_name}
 
 find -E . -regex '.*hello[^/]*' -type f
 find AI -regex '.*/[^a-zA-Z].*'
-find . -regex '.*/[^a-zA-Z0-9.].*' -not -path "*/node_modules/*"
+find . -regex '.*/[^a-zA-Z0-9.].*' -not -path "*/node_modules/*" -not -path  "*/.git/*"
 
 # rename file, replace - with -
 # brew install rename
 find . -name "*---*.md" -exec rename 's/---/-/' {} ";"
+find . -name "*,*.md" -exec rename 's/,//' {} ";"
 
 find . -name '*.md' -exec rename .md .mdx {} +
 
