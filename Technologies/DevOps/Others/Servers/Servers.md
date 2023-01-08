@@ -40,7 +40,7 @@ Examples
 
 7. WildFly (JBoss) written in Java
 
-![server WSGI App ](../../media/DevOps-Others-Servers-image1.png)
+![server WSGI App ](../../../media/DevOps-Others-Servers-image1.png)
 
 ## Proxy Server
 

@@ -73,7 +73,7 @@ There's one worker process per core to make efficient use of hardware resources,
 
 <https://www.aosabook.org/en/nginx.html>
 
-![image](../../../media/DevOps-Others-NGINX-image1.jpg)
+![image](../../../../media/DevOps-Others-NGINX-image1.jpg)
 
 ## nginx 3rd party modules
 

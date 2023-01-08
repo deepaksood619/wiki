@@ -22,6 +22,9 @@ npm run develop
 # setting up gatsby via gatsby cli
 gatsby new
 gatsby develop
+gatsby develop -H 0.0.0.0 -p 8001
+
+gatsby build --prefix-paths
 ```
 
 <https://www.gatsbyjs.org>

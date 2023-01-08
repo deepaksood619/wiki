@@ -110,7 +110,7 @@ jsii allows code in any language to naturally interact with JavaScript classes. 
 
 ## Static Site Generators
 
-## HUGO
+### HUGO
 
 The world's fastest framework for building websites.
 
@@ -118,7 +118,7 @@ Hugo is a static HTML and CSS website generator written in [Go](https://golang.o
 
 <https://github.com/gohugoio/hugo>
 
-## jekyll
+### jekyll
 
 Transform your plain text into static websites and blogs
 
@@ -129,5 +129,27 @@ Transform your plain text into static websites and blogs
 <https://jekyllthemes.io>
 
 <https://github.com/topics/jekyll-theme>
+
+## Documentation Generators
+
+- <https://www.mkdocs.org>
+- <https://docsify.js.org>
+- <https://docusaurus.io>
+- <https://github.com/doczjs/docz>
+  - <https://www.docz.site>
+
+### Docusaurus
+
+```bash
+npx create-docusaurus@latest my-website classic
+
+cd my-website
+
+npx docusaurus start
+
+# http://localhost:3000
+```
+
+<https://docusaurus.io/docs>
 
 ## nextjs

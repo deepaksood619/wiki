@@ -90,8 +90,16 @@ Install using zsh instead of homebrew on macos
 
 ```bash
 nvm install 14
+nvm install 18
+nvm install 19
 
 nvm use 14
+nvm use 18
+nvm use 19
+
+nvm list
+nvm cache clear
+nvm uninstall 18
 ```
 
 ## Others

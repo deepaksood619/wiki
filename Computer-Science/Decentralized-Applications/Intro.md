@@ -35,7 +35,7 @@
   - Etherium has a tiring complete block chain
 - No central point of failure (IPFS Stack)
   - Instead of IP addressing our content, we should content address it
-  - Merkel DAG
+  - Merkle DAG
   - Resiliency happening with bits and shards of data replicated across network (multiple nodes)
 
 ## Decentralized Chat (Whisper)

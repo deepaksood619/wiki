@@ -6,12 +6,14 @@ Virtual Servers in the Cloud
 
 installing docker in ubuntu ec2 instance
 
-- apt-get update
-- apt-get install docker
-- sudo usermod -aG docker ubuntu
-- log out of terminal and log back in
-- sudo systemctl start docker
-- docker run hello-world
+```bash
+apt-get update
+apt-get install docker
+sudo usermod -aG docker ubuntu
+# log out of terminal and log back in
+sudo systemctl start docker
+docker run hello-world
+```
 
 2. Amazon EC2 Auto Scaling
 
@@ -113,26 +115,22 @@ def lambda_handler(event, context):
 
 11. AWS Serverless Application Repository
 
-Discover, Deploy, and Publish Serverless Applications
+    Discover, Deploy, and Publish Serverless Applications
 
 12. VMware Cloud on AWS
 
-Build a Hybrid Cloud without Custom Hardware
+    Build a Hybrid Cloud without Custom Hardware
 
 13. AWS ECS (Elastic Container Service)
 
-![image](../../media/Cloud-AWS-Compute-image1.png)
+    ![image](../../../media/Cloud-AWS-Compute-image1.png)
 
 14. AWS EKS (Elastic Kubernetes Service)
 
 ## Others
 
-VirtualBox
-
-AWS EC2
-
-VMWare player
-
-Vagrant Environment
-
-Paralles in mac
+- VirtualBox
+- AWS EC2
+- VMWare player
+- Vagrant Environment
+- Paralles in mac

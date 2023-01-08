@@ -1,5 +1,21 @@
 # Consensus Protocols
 
+## Proof of Work (PoW)
+
+## Proof of Stake (PoS) / Staking
+
+- Staking (Proof of Stake) is a blockchain consensus mechanism whereby a certain number of coins are locked away in order to append new blocks to the blockchain and ensure the security of the blockchain.
+- Like PoA, but authority is indirectly established by "stake", suh as token holdings
+- May offer integrated punishement mechanism for malicious nodes: slashing
+- Current **holy grail** to get of the energy waste stigma (both Ethereum and IOTA plan to pivot to PoS)
+- Slight problems
+  - How is stake initally distributed?
+    - Popular: Sale of tokens
+    - Alternative: Bootstrap off of existing blockchains
+  - No built-in defence against centralization. No Sybil resistance
+    - Even if bootstrapped correctly, may become centralized without any visible sign
+- By owning and staking the coins, you not only become an important part of securing the entire network, but you also get paid for this service. This regular income stream is paid out directly from the blockchain and is deeply embedded in the underlying programming code. The payout amounts (emission rates) vary from blockchain to blockchain; for example, for staking DeFiChain (DFI) you currently receive over 40% APY, while for staking DASH it is over 5% APY.
+
 ## Proof of Authority (PoA)
 
 - Blocks must be signed by a sufficient quorum of "authoritative" nodes
@@ -8,18 +24,6 @@
   - How are they chosen?
 - Basically: A PKI, a databases, and a hashchain in a trenchcoat
 - Standard construction for "private"/"permissioned" blockchains
-
-## Proof of Stake
-
-- Like PoA, but authority is indirectly established by "stake", suh as token holdings
-- May offer integrated punishement mechanism for malicious nodes: slashing
-- Current **holy grail** to get of the nergy waste stigma (both Ethereum and IOTA plan to pivot to PoS)
-- Slight problems
-  - How is stake initally distributed?
-    - Popular: Sale of tokens
-    - Alternative: Bootstrap off of existing blockchains
-  - No built-in defence against centralization. No Sybil resistance
-    - Even if bootstrapped correctly, may become centralized without any visible sign
 
 ## Proof of Storage
 

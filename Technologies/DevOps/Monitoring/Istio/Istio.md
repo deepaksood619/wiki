@@ -4,7 +4,7 @@
 
 A way to prevent a service from being bombarded with requests if the back end reports trouble and can't fulfill the requests in a timely way
 
-## Istio is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data. Istio's control plane provides an abstraction layer over the underlying cluster management platform, such as Kubernetes, Mesos, etc
+Istio is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data. Istio's control plane provides an abstraction layer over the underlying cluster management platform, such as Kubernetes, Mesos, etc
 
 Istio deploys a proxy (called a sidecar) next to each service. All of the traffic meant for a service goes to the proxy, which uses policies to decide how, when, or if that traffic should go on to the service. Istio also enables sophisticated DevOps techniques such as canary deployments, **circuit breakers**, fault injection, and more.
 

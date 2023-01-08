@@ -128,6 +128,8 @@ Extensions that helps make obsidian better
 
 ## Publish Free
 
+<https://docusaurus.io>
+
 [**https://beingpax.medium.com/7-obsidian-publish-alternatives-to-publish-your-notes-online-for-free-33db4fb06f5**](https://beingpax.medium.com/7-obsidian-publish-alternatives-to-publish-your-notes-online-for-free-33db4fb06f5)
 
 <https://github.com/jackyzha0/quartz> - 1.4k
@@ -233,8 +235,8 @@ a Zettelkasten needs to adhere to the [Principle of Atomicity](https://zettelkas
 
 1. Two stage filter
 
-- Literature notes and Fleeting notes
-- Permanent notes
+   - Literature notes and Fleeting notes
+   - Permanent notes
 
 2. Bottom‐up approach to deepen understanding and generate new insights
 
@@ -252,7 +254,7 @@ a Zettelkasten needs to adhere to the [Principle of Atomicity](https://zettelkas
 
 - [**https://github.com/logseq/logseq**](https://github.com/logseq/logseq)
 
-## A privacy-first, open-source platform for knowledge management and collaboration
+    A privacy-first, open-source platform for knowledge management and collaboration
 
 - [**https://github.com/foambubble/foam**](https://github.com/foambubble/foam)
 
@@ -261,20 +263,20 @@ a Zettelkasten needs to adhere to the [Principle of Atomicity](https://zettelkas
 - Roam Research
 - <https://www.producthunt.com/posts/heyday-4>
 
-Automatically organize content - without learning a new app
+    Automatically organize content - without learning a new app
 
 - <https://www.producthunt.com/posts/reflect-notes>
 
-Fast networked note-taking
-
-<https://www.slant.co/topics/4962/~knowledge-base-systems-for-personal-use>
+    Fast networked note-taking
 
 - Notion
 
-[The ULTIMATE Second Brain Setup in Notion](https://www.youtube.com/watch?v=vs8WQh2k-Ow)
+    [The ULTIMATE Second Brain Setup in Notion](https://www.youtube.com/watch?v=vs8WQh2k-Ow)
 
 - AppFlowy - Open-source alternative to Notion
 - <https://anytype.io/en>
+
+<https://www.slant.co/topics/4962/~knowledge-base-systems-for-personal-use>
 
 ### Sync
 

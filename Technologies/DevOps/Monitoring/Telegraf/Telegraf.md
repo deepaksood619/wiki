@@ -16,7 +16,7 @@ Telegraf is plugin-driven and has the concept of 4 distinct plugins:
 
 ## Architecture
 
-![image](../../media/DevOps-Monitoring-Telegraf-image1.png)
+![image](../../../media/DevOps-Monitoring-Telegraf-image1.png)
 
 ## Input Data Formats
 

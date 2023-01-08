@@ -6,7 +6,7 @@ Spark supports both Scala & Python. Even though Spark itself is written in Scala
 
 The basic structure of a Spark-cluster:
 
-![image](../../media/Technologies-Apache-Apache-Spark-image1.png)
+![image](../../../media/Technologies-Apache-Apache-Spark-image1.png)
 
 The cluster manager is not part of the Spark framework itself - even though Spark ships with its own, this one should not be used in production. Supported cluster managers are Mesos, Yarn, and Kubernetes.
 
@@ -18,7 +18,7 @@ Each worker node might run multiple executors (as configured: normally one per a
 
 The modules of Apache Spark run directly on top of its core:
 
-![image](../../media/Technologies-Apache-Apache-Spark-image2.png)
+![image](../../../media/Technologies-Apache-Apache-Spark-image2.png)
 
 ## Spark Abstractions & Concepts
 
@@ -241,7 +241,7 @@ But it's important to understand:
 - Streaming data inputs from HDFS, Kafka, Flume, TCP sockets, kinesis, etc
 - Spark ML (Machine Learning) functions and GraphX graph processing algorithms are fully applicable to streaming data
 
-![image](../../media/Technologies-Apache-Apache-Spark-image3.jpg)
+![image](../../../media/Technologies-Apache-Apache-Spark-image3.jpg)
 
 ## Spark MLlib
 
@@ -250,7 +250,7 @@ But it's important to understand:
 
 ## Spark MLlib Component
 
-![image](../../media/Technologies-Apache-Apache-Spark-image4.jpg)
+![image](../../../media/Technologies-Apache-Apache-Spark-image4.jpg)
 
 ## Spark GraphX
 
@@ -258,7 +258,7 @@ But it's important to understand:
 - GraphX reuses Spark RDD concept, simplifies graph analytics tasks, provides the ability to make operations on a directed multigraph with properties attached to each vertex and edge
 - GraphX is a thin layer on top of the Spark general-purpose dataflow framework
 
-![image](../../media/Technologies-Apache-Apache-Spark-image5.jpg)
+![image](../../../media/Technologies-Apache-Apache-Spark-image5.jpg)
 
 ## pyspark
 

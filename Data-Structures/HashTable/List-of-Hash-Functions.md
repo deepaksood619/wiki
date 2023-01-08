@@ -151,61 +151,62 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 
 ## Keyed cryptographic hash functions
 
-Main article:[Message authentication code](https://en.wikipedia.org/wiki/Message_authentication_code)
+<https://en.wikipedia.org/wiki/Message_authentication_code>
 
-| Name                                                                     | Tag Length | hideType                                                                                              |
-|-----------------------------|-------------|-------------------------------|
-| [BLAKE2](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2)     | arbitrary  | keyed hash function (prefix-MAC)                                                                      |
-| [HMAC](https://en.wikipedia.org/wiki/HMAC)                               |           |                                                                                                      |
-| [KMAC](https://en.wikipedia.org/wiki/SHA-3#Additional_instances)         | arbitrary  | based on Keccak                                                                                       |
-| [MD6](https://en.wikipedia.org/wiki/MD6)                                 | 512 bits   | [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree)[NLFSR](https://en.wikipedia.org/wiki/NLFSR) |
-| [One-key MAC](https://en.wikipedia.org/wiki/One-key_MAC)(OMAC; CMAC)    |           |                                                                                                      |
-| [PMAC (cryptography)](https://en.wikipedia.org/wiki/PMAC_(cryptography)) |           |                                                                                                      |
-| [Poly1305-AES](https://en.wikipedia.org/wiki/Poly1305-AES)               | 128 bits   | nonce-based                                                                                           |
-| [SipHash](https://en.wikipedia.org/wiki/SipHash)                         | 64 bits    | non-collision-resistant PRF                                                                           |
-| [UMAC](https://en.wikipedia.org/wiki/UMAC)                               |           |                                                                                                      |
-| [VMAC](https://en.wikipedia.org/wiki/VMAC)                               |           |                                                                                                      |
+| **Name** | **Tag Length** | **hideType** |
+|---|---|---|
+| [BLAKE2](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2) | arbitrary | keyed hash function (prefix-MAC) |
+| [HMAC](https://en.wikipedia.org/wiki/HMAC) |  |  |
+| [KMAC](https://en.wikipedia.org/wiki/SHA-3#Additional_instances) | arbitrary | based on Keccak |
+| [MD6](https://en.wikipedia.org/wiki/MD6) | 512 bits | [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree)[NLFSR](https://en.wikipedia.org/wiki/NLFSR) |
+| [One-key MAC](https://en.wikipedia.org/wiki/One-key_MAC)(OMAC; CMAC) |  |  |
+| [PMAC (cryptography)](https://en.wikipedia.org/wiki/PMAC_(cryptography)) |  |  |
+| [Poly1305-AES](https://en.wikipedia.org/wiki/Poly1305-AES) | 128 bits | nonce-based |
+| [SipHash](https://en.wikipedia.org/wiki/SipHash) | 64 bits | non-collision-resistant PRF |
+| [UMAC](https://en.wikipedia.org/wiki/UMAC) |  |  |
+| [VMAC](https://en.wikipedia.org/wiki/VMAC) |  |  |
 
 ## Unkeyed cryptographic hash functions
 
-Main article:[Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
+<https://en.wikipedia.org/wiki/Cryptographic_hash_function>
 
-See also:[Comparison of cryptographic hash functions](https://en.wikipedia.org/wiki/Comparison_of_cryptographic_hash_functions)
+<https://en.wikipedia.org/wiki/Comparison_of_cryptographic_hash_functions>
 
-| Name                                                                               | Length          | hideType                                                                                                                                 |
-|-------------------|-------------|----------------------------------------|
-| [BLAKE-256](https://en.wikipedia.org/wiki/BLAKE_(hash_function))                   | 256 bits        | HAIFA structure                                                                                                                          |
-| [BLAKE-512](https://en.wikipedia.org/wiki/BLAKE_(hash_function))                   | 512 bits        | HAIFA structure                                                                                                                          |
-| [BLAKE2s](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2)              | up to 256 bits  | HAIFA structure                                                                                                                          |
-| [BLAKE2b](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2)              | up to 512 bits  | HAIFA structure                                                                                                                          |
-| [BLAKE2X](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2)              | arbitrary       | HAIFA structure,extensible-output functions (XOFs) design                                                                               |
-| [ECOH](https://en.wikipedia.org/wiki/Elliptic_curve_only_hash)                     | 224 to 512 bits | hash                                                                                                                                     |
-| [FSB](https://en.wikipedia.org/wiki/Fast_Syndrome_Based_Hash)                      | 160 to 512 bits | hash                                                                                                                                     |
-| [GOST](https://en.wikipedia.org/wiki/GOST_(hash_function))                         | 256 bits        | hash                                                                                                                                     |
-| [Grøstl](https://en.wikipedia.org/wiki/Gr%C3%B8stl)                                | up to 512 bits  | hash                                                                                                                                     |
-| [HAS-160](https://en.wikipedia.org/wiki/HAS-160)                                   | 160 bits        | hash                                                                                                                                     |
-| [HAVAL](https://en.wikipedia.org/wiki/HAVAL)                                       | 128 to 256 bits | hash                                                                                                                                     |
-| [JH](https://en.wikipedia.org/wiki/JH_(hash_function))                             | 224 to 512 bits | hash                                                                                                                                     |
-| LSH | 256 to 512 bits | wide-pipe [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                         |
-| [MD2](https://en.wikipedia.org/wiki/MD2_(cryptography))                            | 128 bits        | hash                                                                                                                                     |
-| [MD4](https://en.wikipedia.org/wiki/MD4)                                           | 128 bits        | hash                                                                                                                                     |
-| [MD5](https://en.wikipedia.org/wiki/MD5)                                           | 128 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
-| [MD6](https://en.wikipedia.org/wiki/MD6)                                           | up to 512 bits  | [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree)[NLFSR](https://en.wikipedia.org/wiki/NLFSR)(it is also a keyed hash function) |
-| [RadioGatún](https://en.wikipedia.org/wiki/RadioGat%C3%BAn)                        | arbitrary       | ideal mangling function                                                                                                                  |
-| [RIPEMD](https://en.wikipedia.org/wiki/RIPEMD)                                     | 128 bits        | hash                                                                                                                                     |
-| [RIPEMD-128](https://en.wikipedia.org/wiki/RIPEMD)                                 | 128 bits        | hash                                                                                                                                     |
-| [RIPEMD-160](https://en.wikipedia.org/wiki/RIPEMD)                                 | 160 bits        | hash                                                                                                                                     |
-| [RIPEMD-320](https://en.wikipedia.org/wiki/RIPEMD)                                 | 320 bits        | hash                                                                                                                                     |
-| [SHA-1](https://en.wikipedia.org/wiki/SHA-1)                                       | 160 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
-| [SHA-224](https://en.wikipedia.org/wiki/SHA-2)                                     | 224 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
-| [SHA-256](https://en.wikipedia.org/wiki/SHA-2)                                     | 256 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
-| [SHA-384](https://en.wikipedia.org/wiki/SHA-2)                                     | 384 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
-| [SHA-512](https://en.wikipedia.org/wiki/SHA-2)                                     | 512 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
-| [SHA-3](https://en.wikipedia.org/wiki/SHA-3)(subset of Keccak)                    | arbitrary       | [sponge function](https://en.wikipedia.org/wiki/Sponge_function)                                                                         |
-| [Skein](https://en.wikipedia.org/wiki/Skein_(hash_function))                       | arbitrary       | [Unique Block Iteration](https://en.wikipedia.org/w/index.php?title=Unique_Block_Iteration&action=edit&redlink=1)                        |
-| [Snefru](https://en.wikipedia.org/wiki/Snefru)                                     | 128 or 256 bits | hash                                                                                                                                     |
-| [Spectral Hash](https://en.wikipedia.org/wiki/Spectral_Hash)                       | 512 bits        | wide-pipe Merkle--Damgård construction                                                                                                   |
-| [Streebog](https://en.wikipedia.org/wiki/Streebog)                                 | 256 or 512 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
-| [SWIFFT](https://en.wikipedia.org/wiki/SWIFFT)                                     | 512 bits        | hash                                                                                                                                     |
-| [Tiger](https://en.wikipedia.org/wiki/Tiger_(cryptography))                        | 192 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
-| [Whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography))                | 512 bits        | hash                                                                                                                                     |
+| **Name** | **Length** | **hideType** |
+|---|---|---|
+| [BLAKE-256](https://en.wikipedia.org/wiki/BLAKE_(hash_function)) | 256 bits | HAIFA structure |
+| [BLAKE-512](https://en.wikipedia.org/wiki/BLAKE_(hash_function)) | 512 bits | HAIFA structure |
+| [BLAKE2s](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2) | up to 256 bits | HAIFA structure |
+| [BLAKE2b](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2) | up to 512 bits | HAIFA structure |
+| [BLAKE2X](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2) | arbitrary | HAIFA structure,extensible-output functions (XOFs) design |
+| [ECOH](https://en.wikipedia.org/wiki/Elliptic_curve_only_hash) | 224 to 512 bits | hash |
+| [FSB](https://en.wikipedia.org/wiki/Fast_Syndrome_Based_Hash) | 160 to 512 bits | hash |
+| [GOST](https://en.wikipedia.org/wiki/GOST_(hash_function)) | 256 bits | hash |
+| [Grøstl](https://en.wikipedia.org/wiki/Gr%C3%B8stl) | up to 512 bits | hash |
+| [HAS-160](https://en.wikipedia.org/wiki/HAS-160) | 160 bits | hash |
+| [HAVAL](https://en.wikipedia.org/wiki/HAVAL) | 128 to 256 bits | hash |
+| [JH](https://en.wikipedia.org/wiki/JH_(hash_function)) | 224 to 512 bits | hash |
+| LSH | 256 to 512 bits | wide-pipe [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [MD2](https://en.wikipedia.org/wiki/MD2_(cryptography)) | 128 bits | hash |
+| [MD4](https://en.wikipedia.org/wiki/MD4) | 128 bits | hash |
+| [MD5](https://en.wikipedia.org/wiki/MD5) | 128 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [MD6](https://en.wikipedia.org/wiki/MD6) | up to 512 bits | [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree)[NLFSR](https://en.wikipedia.org/wiki/NLFSR)(it is also a keyed hash function) |
+| [RadioGatún](https://en.wikipedia.org/wiki/RadioGat%C3%BAn) | arbitrary | ideal mangling function |
+| [RIPEMD](https://en.wikipedia.org/wiki/RIPEMD) | 128 bits | hash |
+| [RIPEMD-128](https://en.wikipedia.org/wiki/RIPEMD) | 128 bits | hash |
+| [RIPEMD-160](https://en.wikipedia.org/wiki/RIPEMD) | 160 bits | hash |
+| [RIPEMD-320](https://en.wikipedia.org/wiki/RIPEMD) | 320 bits | hash |
+| [SHA-1](https://en.wikipedia.org/wiki/SHA-1) | 160 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [SHA-224](https://en.wikipedia.org/wiki/SHA-2) | 224 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [SHA-256](https://en.wikipedia.org/wiki/SHA-2) | 256 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [SHA-384](https://en.wikipedia.org/wiki/SHA-2) | 384 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [SHA-512](https://en.wikipedia.org/wiki/SHA-2) | 512 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [SHA-3](https://en.wikipedia.org/wiki/SHA-3)(subset of Keccak) | arbitrary | [sponge function](https://en.wikipedia.org/wiki/Sponge_function) |
+| [Skein](https://en.wikipedia.org/wiki/Skein_(hash_function)) | arbitrary | [Unique Block Iteration](https://en.wikipedia.org/w/index.php?title=Unique_Block_Iteration&action=edit&redlink=1) |
+| [Snefru](https://en.wikipedia.org/wiki/Snefru) | 128 or 256 bits | hash |
+| [Spectral Hash](https://en.wikipedia.org/wiki/Spectral_Hash) | 512 bits | wide-pipe Merkle--Damgård construction |
+| [Streebog](https://en.wikipedia.org/wiki/Streebog) | 256 or 512 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [SWIFFT](https://en.wikipedia.org/wiki/SWIFFT) | 512 bits | hash |
+| [Tiger](https://en.wikipedia.org/wiki/Tiger_(cryptography)) | 192 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
+| [Whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography)) | 512 bits | hash |
+

@@ -33,9 +33,13 @@ Stretching is a type of flexibility exercise that keeps your muscles relaxed and
 - Active static stretch - the muscle being stretched does the work of holding the position.
 - Passive static stretch - depends on gravity or a prop - like a partner, barre, strap, or elastic band - to hold the muscle that is being stretched in place.
 
-## Ballistic stretches - Many people try to go deeper into a stretch by adopt- ing a stretch position, then bouncing to quickly extend muscle length and range of motion. Stretches like these are called ballistic stretches. Ballistic stretches trigger the stretch reflex - resistance prompted by specialized nerves, forcing a lengthening muscle to contract
+### Ballistic stretches
 
-## Proprioceptive neuromuscular facilitation - PNF takes a two-step approach. It starts with iso- metric contraction of the opposing muscle, followed by a passive static stretch of the target muscle applied by a partner who focuses on moving a joint through its range of motion. (To do an isometric contraction, you press against an immovable object, like a partner, so that the muscle activates without lengthening or shortening.)
+Many people try to go deeper into a stretch by adopt- ing a stretch position, then bouncing to quickly extend muscle length and range of motion. Stretches like these are called ballistic stretches. Ballistic stretches trigger the stretch reflex - resistance prompted by specialized nerves, forcing a lengthening muscle to contract
+
+### Proprioceptive neuromuscular facilitation
+
+PNF takes a two-step approach. It starts with iso- metric contraction of the opposing muscle, followed by a passive static stretch of the target muscle applied by a partner who focuses on moving a joint through its range of motion. (To do an isometric contraction, you press against an immovable object, like a partner, so that the muscle activates without lengthening or shortening.)
 
 ## Stretching
 
@@ -89,7 +93,7 @@ So, just what happens when you deliberately try to stretch a muscle? Sarcomeres 
 
 7. Knee lifts
 
-![(`츻냐 ](media/Exercise-Stretching-image6.png)
+![image](media/Exercise-Stretching-image6.png)
 
 8. Arm sweeps - Cool down with four arm sweeps
 

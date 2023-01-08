@@ -341,17 +341,17 @@ Load balancers need to be configured. In large deployments, this can become a su
 
 - Middle proxy
 
-![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image1.png)
+![image](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image1.png)
 
 In Proxy load balancing, the client issues RPCs to the a Load Balancer (LB) proxy. The LB distributes the RPC call to one of the available backend servers that implement the actual logic for serving the call. The LB keeps track of load on each backend and implements algorithms for distributing load fairly. The clients themselves do not know about the backend servers. Clients can be untrusted. This architecture is typically used for user facing services where clients from open internet can connect to servers in a data cente
 
 - Edge proxy
 
-![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image2.png)
+![image](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image2.png)
 
 - Embedded client library / Client-side load balancing
 
-![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image3.png)
+![image](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image3.png)
 
 In Client side load balancing, the client is aware of multiple backend servers and chooses one to use for each RPC. The client gets load reports from backend servers and the client implements the load balancing algorithms. In simpler configurations server load is not considered and client can just round-robin between available servers.
 
@@ -367,7 +367,7 @@ A thick client approach means the load balancing smarts are implemented in the c
 
 [Client Side Load Balancing | Microservices Architecture Pattern | Tech Primers](https://www.youtube.com/watch?v=-PbnWGddmcM)
 
-![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image4.jpg)
+![image](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image4.jpg)
 
 ## Lookaside Load Balancing
 
@@ -377,7 +377,7 @@ With lookaside load balancing, the load balancing smarts are implemented in a sp
 
 The picture below illustrates this approach. The client gets at least one address from lookaside LB (#1). Then the client uses this address to make a RPC (#2), and server sends load report to the LB (#3). The lookaside LB communicates with other infrastructure such as name resolution, service discovery, and so on (#4).
 
-![image alt text](../../media/DevOps-DevOps-Load-Balancer-Proxy-image5.png)
+![image alt text](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image5.png)
 
 ## Recommendations and best practices
 
@@ -481,21 +481,21 @@ The picture below illustrates this approach. The client gets at least one addres
 
 - Sidecar proxy
 
-![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image6.png)
+![image](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image6.png)
 
 ## Direct Server Return (DSR)
 
 DSR is an optimization in which only**ingress/request**packets traverse the load balancer.**Egress/response**packets travel around the load balancer directly back to the client. The primary reason why it's interesting to perform DSR is that in many workloads, response traffic dwarfs request traffic (e.g., typical HTTP request/response patterns).
 
-![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image7.png)
+![image](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image7.png)
 
 ## Fault tolerance via high availability pairs
 
-![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image8.png)
+![image](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image8.png)
 
 ## Global load balancing and the centralized control plane
 
-![image](../../media/DevOps-DevOps-Load-Balancer-Proxy-image9.png)
+![image](../../../media/DevOps-DevOps-Load-Balancer-Proxy-image9.png)
 
 ## References
 

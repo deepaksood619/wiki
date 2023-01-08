@@ -1,6 +1,6 @@
 # Jupyter / Jupyterlab / notebook
 
-# Overview
+## Overview
 
 "Jupyter" is a loose acronym meaning Julia, Python, and R.
 
@@ -9,7 +9,7 @@ Components
 1. Kernels
 2. Dashboard
 
-# Commands
+## Commands
 
 The Jupyter Notebook has two different keyboard input modes.
 
@@ -220,7 +220,7 @@ JupyterHub on Kubernetes - <https://z2jh.jupyter.org/en/latest/setup-jupyterhub.
 
 JupyterHub will automatically delete any user pods that have no activity for a period of time. This helps free up computational resources and keeps costs down if you are using an autoscaling cluster. When these users navigate back to your JupyterHub, they will have to start their server again, and the state of their previous session (variables they've created, any in-memory data, etc) will be lost. This is known as *culling*.
 
-![image](../../media/DevOps-IDEs-Jupyter-Jupyterlab-notebook-image1.png)
+![image](../../../media/DevOps-IDEs-Jupyter-Jupyterlab-notebook-image1.png)
 
 When you close the tab, it runs in background. You can't see the output though, but variables are not lost.. And you cannot run any code in that notebook bcoz it's processing in background. After the process finishes you can access those variables
 

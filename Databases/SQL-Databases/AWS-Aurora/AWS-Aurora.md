@@ -33,7 +33,8 @@ Aurora uses the same indexes as MySQL/InnoDB. In MySQL, both b-tree and hash ind
 [Serializable](https://dbdb.io/browse?isolation-levels=serializable)
 In the paper that introduced Aurora, the authors stated that Aurora has exactly the same isolation levels as MySQL. The supported isolation levels includes the standard ANSI levels and Snapshot Isolation.
 [Amazon Aurora](https://aws.amazon.com/rds/aurora/) with MySQL compatibility supports the ANSI READ COMMITTED isolation level on read replicas. This isolation level enables long-running queries on an Aurora read replica to execute without impacting the throughput of writes on the writer node.
->>> SELECT @@TX_ISOLATION;
+
+`SELECT @@TX_ISOLATION;`
 
 REPEATABLE-READ
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Reference.html#AuroraMySQL.Reference.IsolationLevels>

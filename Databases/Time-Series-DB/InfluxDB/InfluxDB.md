@@ -17,7 +17,7 @@ Tag sets are indexed, field sets are not. InfluxDB's speed is based on the fact 
 
 [Time Series Index (TSI) details](https://docs.influxdata.com/influxdb/v1.7/concepts/tsi-details/)
 
-# InfluxDB design insights and tradeoffs
+## InfluxDB design insights and tradeoffs
 
 InfluxDB is a time series database. Optimizing for this use case entails some tradeoffs, primarily to increase performance at the cost of functionality. Below is a list of some of those design insights that lead to tradeoffs:
 
@@ -54,7 +54,7 @@ InfluxDB is a time series database. Optimizing for this use case entails some tr
     Con:Points don't have IDs in the traditional sense, they are differentiated by timestamp and series.
 <https://docs.influxdata.com/influxdb/v1.7/concepts/insights_tradeoffs>
 
-# InfluxDB schema design and data layouts
+## InfluxDB schema design and data layouts
 
 Every InfluxDB use case is special and your [schema](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#schema) will reflect that uniqueness. There are, however, general guidelines to follow and pitfalls to avoid when designing your schema.
 

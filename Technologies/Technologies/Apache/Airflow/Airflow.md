@@ -56,7 +56,7 @@ The kubernetes executor is introduced in Apache Airflow 1.10.0. The Kubernetes e
 
 ## Airflow vs Luigi
 
-![image](../../media/Technologies-Apache-Airflow-image1.png)
+![image](../../../media/Technologies-Apache-Airflow-image1.png)
 
 <https://towardsdatascience.com/why-quizlet-chose-apache-airflow-for-executing-data-workflows-3f97d40e9571>
 

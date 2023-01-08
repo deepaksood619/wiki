@@ -8,7 +8,7 @@ Starting from 3.0 release,*EMQ X*broker fully supports MQTT V5.0 protocol specif
 
 The 1.0 release of the*EMQ X*broker has scaled to 1.3 million concurrent MQTT connections on a 12 Core, 32G CentOS server.
 
-![image](../../media/Technologies-Brokers-EMQTT-image1.png)
+![image](../../../media/Technologies-Brokers-EMQTT-image1.png)
 
 ## Highlights of theEMQ Xbroker
 

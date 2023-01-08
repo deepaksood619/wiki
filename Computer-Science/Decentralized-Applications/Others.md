@@ -76,7 +76,8 @@ XRootD software framework is a fully generic suite for fast, low latency and sca
 <https://dev.to/brandonskerritt/how-does-bittorrent-work-a-plain-english-guide-16a2>
 
 <https://skerritt.blog/bit-torrent>
-Others - **WebTorrent**
+
+### WebTorrent
 
 <https://github.com/webtorrent/webtorrent>
 

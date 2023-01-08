@@ -18,7 +18,7 @@ TCP is the protocol of choice for many of the most popular uses for the internet
 
 - Increase sending rate if ACK
 - Decrease if ACK missed
-![image](media/TCP-(Connection-Oriented-Protocol)-image1.png)
+![image](media/TCP-Connection-Oriented-Protocol-image1.png)
 cat /proc/sys/net/ipv4/tcp_congestion_control
 
 ## TCP BBR
@@ -50,7 +50,7 @@ Path MTU Discovery(PMTUD) is a standardized technique in [computer networking](h
 ## MSS (Maximum Segment Size)
 
 Maximum segment size is the maximum TCP datagram size. It represents the maximum payload size an endpoint is willing to accept within a single packet. Maximum MSS value is 1460 bytes. The MSS, IP header and TCP header, together make up the MTU value. That is, 1500 MTU = 1460 byte MSS + 20 byte IP header + 20 byte TCP header. Said another way, MSS = MTU - 40.
-![image](media/TCP-(Connection-Oriented-Protocol)-image2.png)
+![image](media/TCP-Connection-Oriented-Protocol-image2.png)
 
 Do note that MSS is only announced during the TCP handshake in the SYN segment, it is not a negotiated parameter. Meaning, client and server can announce their own individual and different MSS values [[rfc879]](https://tools.ietf.org/html/rfc879). The actual MSS is selected based on the endpoint's buffer and outgoing interface MTU. This can be represented visually by considering a communication between client A and server B [[cisco-ipfrag]](https://www.cisco.com/c/en/us/support/docs/ip/generic-routing-encapsulation-gre/25885-pmtud-ipfrag.html).**TCP Segment Structure**
 
@@ -60,7 +60,7 @@ The termTCP packetappears in both informal and formal usage, whereas in more pre
 Processes transmit data by calling on the TCP and passing buffers of data as arguments. The TCP packages the data from these buffers into segments and calls on the internet module [e.g. IP] to transmit each segment to the destination TCP.
 A TCP segment consists of **a segmentheaderand adatasection**. The TCP header contains 10 mandatory fields, and an optional extension field (Options, pink background in table).
 The data section follows the header. Its contents are the payload data carried for the application. The length of the data section is not specified in the TCP segment header. It can be calculated by subtracting the combined length of the TCP header and the encapsulating IP header from the total IP datagram length (specified in the IP header).
-![image](media/TCP-(Connection-Oriented-Protocol)-image3.png)
+![image](media/TCP-Connection-Oriented-Protocol-image3.png)
 
 ## Sequence number (32 bits)
 
@@ -86,7 +86,7 @@ This is the length of the TCP payload + the current sequence number. It indicate
 
 This TCP option is used to identify a block of data that was received by a host. The sender does not re-transmit data identified by the left edge and right edge of SACK. This option can be used only if supported by both the parties and is negotiated during the TCP handshake [[packetlife-sack]](http://packetlife.net/blog/2010/jun/17/tcp-selective-acknowledgments-sack/).
 
-![image](media/TCP-(Connection-Oriented-Protocol)-image4.png)
+![image](media/TCP-Connection-Oriented-Protocol-image4.png)
 
 ## Duplicate ACK
 
@@ -115,7 +115,7 @@ Contains 9 1-bit flags
 
 A three-way handshake is a method used in a TCP/IP network to create a connection between a local host/client and server. It is a three-step method that requires both the client and server to exchange SYN and ACK (acknowledgment) packets before actual data communication begins.
 Now a device using PAR resend the data unit until it receives an acknowledgement. If the data unit received at the receiver's end is damaged(It checks the data with checksum functionality of the transport layer that is used for Error Detection), then receiver discards the segment. So the sender has to resend the data unit for which positive acknowledgement is not received.
-![image](media/TCP-(Connection-Oriented-Protocol)-image5.png)
+![image](media/TCP-Connection-Oriented-Protocol-image5.png)
 
 - **Step 1 (SYN):**In the first step, client wants to establish a connection with server, so it sends a segment with SYN(Synchronize Sequence Number) which informs server that client is likely to start communication and with what sequence number it starts segments with
 - **Step 2 (SYN + ACK):**Server responds to the client request with SYN-ACK signal bits set. Acknowledgement(ACK) signifies the response of segment it received and SYN signifies with what sequence number it is likely to start the segments with
@@ -127,7 +127,7 @@ Initial sequence numbers are randomly selected while establishing connections be
 
 ## TCP Connection Termination
 
-![image](media/TCP-(Connection-Oriented-Protocol)-image6.png)
+![image](media/TCP-Connection-Oriented-Protocol-image6.png)
 
 1. **Step 1 (FIN From Client)** Suppose that the client application decides it wants to close the connection. (Note that the server could also choose to close the connection). This causes the client send a TCP segment with the **FIN** bit set to**1** to server and to enter the **FIN_WAIT_1** state. While in the **FIN_WAIT_1** state, the client waits for a TCP segment from the server with an acknowledgment (ACK).
 
@@ -140,11 +140,11 @@ Initial sequence numbers are randomly selected while establishing connections be
 5. **Step 5 (ACK from Client) --**When Client receive FIN bit segment from the Server, the client acknowledges the server's segment and enters the **TIME_WAIT** state. The **TIME_WAIT** state lets the client resend the final acknowledgment in case the **ACK** is lost.The time spent by client in the **TIME_WAIT** state is depend on their implementation, but their typical values are 30 seconds, 1 minute, and 2 minutes. After the wait, the connection formally closes and all resources on the client side (including port numbers and buffer data) are released.
 TCP states visited by ClientSide --
 
-![image](media/TCP-(Connection-Oriented-Protocol)-image7.png)
+![image](media/TCP-Connection-Oriented-Protocol-image7.png)
 
 TCP states visited by ServerSide --
 
-![image](media/TCP-(Connection-Oriented-Protocol)-image8.png)
+![image](media/TCP-Connection-Oriented-Protocol-image8.png)
 <https://www.geeksforgeeks.org/tcp-connection-termination>
 
 ## Problems
@@ -182,7 +182,7 @@ One of the well known problems of TCP splitting is that by breaking the end-to-e
 
 [split tcp protocol | Adhoc N/W | lec-34 | Bhanu Priya](https://www.youtube.com/watch?v=U1ryk2zIAjc)
 
-![image](media/TCP-(Connection-Oriented-Protocol)-image9.jpg)
+![image](media/TCP-Connection-Oriented-Protocol-image9.jpg)
 
 ## Tools
 

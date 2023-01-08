@@ -20,19 +20,19 @@ it means that all the containers in a pod can reach each other on localhost.
 
 ## Pod Network Architecture
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image1.png)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image1.png)
 
 ## Kubernetes Network Architecture
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image2.png)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image2.png)
 
 cbr - custom bridge
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image3.png)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image3.png)
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image4.png)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image4.png)
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image5.png)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image5.png)
 
 ## Netfilter
 
@@ -50,7 +50,7 @@ There's two major operations that relate to service discovery:
 
 Service registrationis the process of registering a service in aservice registryso that other services can discover it.
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image6.jpg)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image6.jpg)
 
 Kubernetes uses DNS for theservice registry.
 
@@ -74,7 +74,7 @@ Step 5 is the secret sauce in this process. Thecluster DNSservice is based on [C
 
 It's important to understand that the name registered with DNS is the value ofmetadata.nameand that the ClusterIP is dynamically assigned by Kubernetes.
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image7.jpg)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image7.jpg)
 
 Once a Service is registered with the cluster's DNS it can bediscoveredby other Pods running on the cluster...
 
@@ -92,13 +92,13 @@ When a newServiceis created it is allocated a virtual IP address called aCluster
 
 At the same time, all Nodes in the cluster are configured with the iptables/IPVS rules that listen for traffic to this ClusterIP and redirect it to real Pod IPs. The is summarised in the image below, though the ordering of some events might be slightly different..
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image8.jpg)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image8.jpg)
 
 When a Pod needs to connect to another Pod, it does this via a Service. It sends a query to the cluster DNS to resolve the name of the Service to its ClusterIP and then send traffic to the ClusterIP. This ClusterIP is on a special network called theService network.However, there are no routes to theService network, so the Pod sends traffic to its default gateway. This gets forwarded to an interface on the Node the Pod is running, and eventually the default gateway of the Node. As part of this operation, the Node's kernel traps on the address and rewrites the destination IP field in the packet header so that it now goes to the IP of a healthy Pod.
 
 This is summarised in the image below.
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image9.jpg)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image9.jpg)
 
 Last but not least... all Pods are on the same flat overlay network and routes exist to this network and the rest is simple.
 
@@ -124,19 +124,19 @@ In this mode, Kube-proxy installs iptables rules which capture traffic to a Serv
 
 kube-proxy serves as an OSI layer 4 load balancer in this model. Since Kube-proxy runs in the userspace, packages need to be copied back and forth between kernelspace and userspace, adding extra latency in the proxy process. The advantage is that Kube-proxy can retry other Pod if the first Pod is not available.
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image10.png)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image10.png)
 
 - **iptables**
 
 To avoid the additional copies between kernelspace and userspace, Kube-proxy can work on iptables mode. Kube-proxy creates an iptables rule for each of the backend Pods in the Service. After catching the traffic sent to the ClusterIP, iptables forwards that traffic directly to one of the backend Pod using DNAT. In this mode, Kube-proxy no longer serves as the OSI layer 4 proxy. It only creates corresponding iptables rules. Without switching between kernelspace and userspace, the proxy process is more efficient.
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image11.png)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image11.png)
 
 - **ipvs**
 
 This model is similar to iptables because both ipvs and iptables are base on netfilter hook in kernelspace. Ipvs uses hash tables to store rules, meaning it's faster than iptables, especially in a large cluster where there're thousands of services. In addition, ipvs supports more load balancing algorithms.
 
-![image](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image12.png)
+![image](../../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image12.png)
 
 ## ip tables
 

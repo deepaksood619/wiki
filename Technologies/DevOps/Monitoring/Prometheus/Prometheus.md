@@ -24,9 +24,9 @@ A CNCF (Cloud Native Computing Foundation) project, is a systems and service mon
 
 ## Architecture Overview
 
-![image](../../media/DevOps-Monitoring-Prometheus-image1.png)
+![image](../../../media/DevOps-Monitoring-Prometheus-image1.png)
 
-![image](../../media/DevOps-Monitoring-Prometheus-image2.png)
+![image](../../../media/DevOps-Monitoring-Prometheus-image2.png)
 
 ## Concepts
 

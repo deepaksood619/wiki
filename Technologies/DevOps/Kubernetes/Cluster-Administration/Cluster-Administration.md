@@ -34,6 +34,6 @@ The federated clusters can achieve this by doing the following two things
 
 2. Sync resources across clusters
 
-![Federated Clusters - Kubernetes Interview Questions - Edureka](../../media/DevOps-Kubernetes-Cluster-Administration-image1.png)
+![Federated Clusters - Kubernetes Interview Questions - Edureka](../../../media/DevOps-Kubernetes-Cluster-Administration-image1.png)
 
 <https://github.com/kubernetes-sigs/kubefed>

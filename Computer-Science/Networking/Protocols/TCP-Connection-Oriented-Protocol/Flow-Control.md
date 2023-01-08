@@ -14,19 +14,19 @@ Congestion Window (cwnd) is a TCP state variable that limits the amount of data 
 
 When we need to send data over a network, this is normally what happens.
 
-![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image1.png)
+![image](media/TCP-Connection-Oriented-Protocol_Flow-Control-image1.png)
 
 The sender application writes data to a socket, the transport layer (in our case, TCP) will wrap this data in a segment and hand it to the network layer (e.g.IP), that will somehow route this packet to the receiving node.
 On the other side of this communication, the network layer will deliver this piece of data toTCP, that will make it available to the receiver application as an exact copy of the data sent, meaning if will not deliver packets out of order, and will wait for a retransmission in case it notices a gap in the byte stream.
 If we zoom in, we will see something like this.
 
-![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image2.png)
+![image](media/TCP-Connection-Oriented-Protocol_Flow-Control-image2.png)
 
 TCPstores the data it needs to send in thesend buffer, and the data it receives in thereceive buffer. When the application is ready, it will then read data from the receive buffer.
 Flow Control is all about making sure we don't send more packets when the receive buffer is already full, as the receiver wouldn't be able to handle them and would need to drop these packets.
 To control the amount of data thatTCPcan send, the receiver will advertise its**Receive Window (rwnd)**, that is, the spare room in the receive buffer.
 
-![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image3.png)
+![image](media/TCP-Connection-Oriented-Protocol_Flow-Control-image3.png)
 
 Every timeTCPreceives a packet, it needs to send anackmessage to the sender, acknowledging it received that packet correctly, and with thisackmessage it sends the value of the current receive window, so the sender knows if it can keep sending data.
 
@@ -36,7 +36,7 @@ TCPuses a sliding window protocol to control the number of bytes in flight it ca
 Let's say we want to send a 150000 bytes file from node A to node B.TCPcould break this file down into 100 packets, 1500 bytes each. Now let's say that when the connection between node A and B is established, node B advertises a receive window of 45000 bytes, because it really wants to help us with our math here.
 Seeing that, TCPknows it can send the first 30 packets (1500 * 30 = 45000) before it receives an acknowledgment. If it gets anackmessage for the first 10 packets (meaning we now have only 20 packets in flight), and the receive window present in theseackmessages is still 45000, it can send the next 10 packets, bringing the number of packets in flight back to 30, that is the limit defined by the receive window. In other words, at any given point in time it can have 30 packets in flight, that were sent but not yetacked.
 
-![Window 10 ](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image4.png)
+![Window 10 ](media/TCP-Connection-Oriented-Protocol_Flow-Control-image4.png)
 
 Example of a sliding window. As soon as packet 3 is acked, we can slide the window to the right and send the packet 8.
 Now, if for some reason the application reading these packets in node B slows down, TCPwill still ack the packets that were correctly received, but as these packets need to be stored in the receive buffer until the application decides to read them, the receive window will be smaller, so even if TCP receives the acknowledgment for the next 10 packets (meaning there are currently 20 packets, or 30000 bytes, in flight), but the receive window value received in thisackis now 30000 (instead of 45000), it will not send more packets, as the number of bytes in flight is already equal to the latest receive window advertised.
@@ -107,7 +107,7 @@ fmt.Println(string(message))
 
 Now we are sleeping for 1 second before we read data from the receive buffer. If we runnetcatagain and observeWireshark, it doesn't take long until the receive buffer is full andTCPstarts advertising a 0 window size:
 
-![No](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image5.png)
+![No](media/TCP-Connection-Oriented-Protocol_Flow-Control-image5.png)
 
 At this moment TCP will stop transmitting data, as the receiver's buffer is full.
 
@@ -116,7 +116,7 @@ At this moment TCP will stop transmitting data, as the receiver's buffer is full
 There's still one problem, though. After the receiver advertises a zero window, if it doesn't send any otherackmessage to the sender (or if theackis lost), it will never know when it can start sending data again. We will have a deadlock situation, where the receiver is waiting for more data, and the sender is waiting for a message saying it can start sending data again.
 To solve this problem, whenTCPreceives a zero-window message it starts the *persist timer*, that will periodically send a small packet to the receiver (usually calledWindowProbe), so it has a chance to advertise a nonzero window size.
 
-![tcp.port](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image6.png)
+![tcp.port](media/TCP-Connection-Oriented-Protocol_Flow-Control-image6.png)
 
 When there's some spare space in the receiver's buffer again it can advertise a non-zero window size and the transmission can continue.
 
@@ -138,25 +138,25 @@ BitTorrent uses tcp slow start
 slow start" increases total throughput by keeping networks busy as in "sliding window" and also it solves end-to-end flow control by allowing the receiver to restrict transmission until it has sufficient buffer space to accommodate more data. Whenever the receiver sends ACK, the available buffer space is attached to the ACK (which is known as 'window advertisement'), so that the sender can decide its window size.
 In TCP, the window size is defined as the minimum value between**cwnd(congestion window size)** andwindow advertisement.At any time, the window size cannot be greater thanmaximum cwndwhich is fixed.
 Not only when the sender starts to transmit at the first time, but also after collision and after idle periods between the sender and the receiver, TCP transmits its data in "slow start" fashion.
-![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image7.png)<https://www.isi.edu/nsnam/DIRECTED_RESEARCH/DR_HYUNAH/D-Research/slow-start-tcp.html>
+![image](media/TCP-Connection-Oriented-Protocol_Flow-Control-image7.png)<https://www.isi.edu/nsnam/DIRECTED_RESEARCH/DR_HYUNAH/D-Research/slow-start-tcp.html>
 
 ## Flow Control vs Congestion Control
 
-![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image8.png)
+![image](media/TCP-Connection-Oriented-Protocol_Flow-Control-image8.png)
 
 ## TCP Backlog
 
 Wait, what is the TCP backlog? An application wishing to accept incoming TCP connections must issue thelistensyscall. This syscall instructs the OS to proceed with the TCP 3-way handshake when it receives initial SYN packets. During a handshake, metadata for a connection is maintained in a queue called the TCP backlog. The length of this queue dictates how many TCP connections can be establishing concurrently. The application issues accept syscalls to dequeue connections once they are established; this action frees space in the backlog for new connections.
 A backlog length of 1 means the queue will be full while just a single connection is establishing and then waiting to be dequeued. When the queue is full, the OS will drop initial SYN packets from other new connections. A client will resend an initial SYN packet if it doesn't receive a response, but after a couple attempts, it will stop and report failure to connect.
 
-![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image9.png)
+![image](media/TCP-Connection-Oriented-Protocol_Flow-Control-image9.png)
 
 Why would setting the backlog length to 1 occasionally result in HTTP 502s? Most of the time, there are already established connections between the ALB and our API service, so the backlog length does not matter. However, when our service is unusually idle or is about to be upgraded, these connections are closed. A burst of API requests from just a single client at this point could cause the ALB to attempt to establish new TCP connections concurrently. Contention for the single slot in the TCP backlog would cause some of these connections to eventually report failure. The ALB responds to this failure by returning HTTP 502.
 <http://veithen.io/2014/01/01/how-tcp-backlog-works-in-linux.html>
 
 When an application puts a socket into LISTEN state using the [listen](http://linux.die.net/man/2/listen) syscall, it needs to specify a backlog for that socket. The backlog is usually described as the limit for the queue of incoming connections.
 
-![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image10.png)
+![image](media/TCP-Connection-Oriented-Protocol_Flow-Control-image10.png)
 
 Because of the 3-way handshake used by TCP, an incoming connection goes through an intermediate state SYN RECEIVED before it reaches the ESTABLISHED state and can be returned by the [accept](http://linux.die.net/man/2/accept) syscall to the application (see the part of the [TCP state diagram](http://commons.wikimedia.org/wiki/File:Tcp_state_diagram_fixed.svg) reproduced above). This means that a TCP/IP stack has two options to implement the backlog queue for a socket in LISTEN state:
 

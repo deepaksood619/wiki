@@ -1,6 +1,6 @@
 # Intro - Syllabus
 
-# Introduction to Probability - The Science of Uncertainty - MITx - 6.041x
+## Introduction to Probability - The Science of Uncertainty - MITx - 6.041x
 
 An introduction to probabilistic models, including random processes and the basic elements of statistical inference.
 

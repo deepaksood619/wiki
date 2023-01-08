@@ -22,9 +22,9 @@
 
 11. Amazon CloudFront
 
-![image](../../media/Cloud-AWS-Storage-image1.png)
+![image](../../../media/Cloud-AWS-Storage-image1.png)
 
-![image](../../media/Cloud-AWS-Storage-image2.png)
+![image](../../../media/Cloud-AWS-Storage-image2.png)
 
 - [Amazon S3](https://dzone.com/articles/five-things-you-probably-didnt-know-about-amazon-s) is cheapest for data storage alone. However, there are various other pricing parameters in S3, including cost per number of requests made, S3 Analytics, and data transfer out of S3 per gigabyte. EFS has the simplest cost structure.
 - Amazon S3 can be accessed from anywhere. AWS EBS is only available in a particular region, while you can share files between regions on multiple EFS instances.
@@ -128,7 +128,7 @@ Storage Gateway durably stores your on-premises application data by uploading it
 
 Similar to most AWS storage services all data transferred through AWS Storage Gateway is secure and encrypted when at rest. IAM services provide security in controlling access to AWS Storage Gateway and when integrating with other storage services, access control can be used in combination with other services.
 
-![image](../../media/Cloud-AWS-Storage-image3.png)
+![image](../../../media/Cloud-AWS-Storage-image3.png)
 
 7. **AWS Snowball**
 
@@ -154,7 +154,7 @@ Snowball can be integrated with AWS Identity and Access Management (IAM) service
 
 All data loaded onto a Snowball appliance is encrypted using 256-bit encryption. Snowball is physically secured using an industry-standard Trusted Platform Module (TPM) that uses a dedicated processor designed to detect any unauthorised modifications to the hardware, firmware, or software. In addition, Snowball is included in the AWS HIPAA compliance program so you can use Snowball to transfer large amounts of Protected Health Information (PHI) data in and out of AWS.
 
-![AWS Snowball ](../../media/Cloud-AWS-Storage-image4.png)
+![AWS Snowball ](../../../media/Cloud-AWS-Storage-image4.png)
 
 8. **AWS Snowball Edge**
 
@@ -193,7 +193,5 @@ Since CloudFront is anedge cache, Amazon CloudFront does not provide durable sto
 ## Security
 
 CloudFront is a highly secure CDN that provides both network and application level protection. CloudFront customers benefit from the automatic protection of AWS Shield (DDoS protection service) Standard, at no additional charge. CloudFront is also seamlessly integrated with AWS WAF (Web Application Firewall) and AWS Shield Advanced to help protect your applications from more sophisticated threats and DDoS attacks.
-
-![amazon cl udfront ](../../media/Cloud-AWS-Storage-image5.jpg)
 
 <https://www.mitrai.com/tech-guide/eight-types-of-aws-storage-services-explained>
