@@ -6,7 +6,7 @@ The SQLAlchemy SQL Toolkit and Object Relational Mapper is a comprehensive set o
 
 ![image](media/SQLAlchemy-image1.png)
 
-Above, the two most significant front-facing portions of SQLAlchemy are the**Object Relational Mapper (ORM)**and **theCore.**
+Above, the two most significant front-facing portions of SQLAlchemy are the **Object Relational Mapper (ORM)**and **theCore.**
 
 Core contains the breadth of SQLAlchemy's SQL and database integration and description services, the most prominent part of this being the**SQL Expression Language.**
 
@@ -76,9 +76,7 @@ Commits should reduce memory usage, although presumably there is a trade-off bet
 
 flask-sqlacodegen
 
-sqlacodegen mysql+pymysql://developer:Ck4DmZA3TZZF@@devdb-ujwy3me96v.example.com:3306/sttash_website_LIVE --table "st_quickwallet
-
-_payment"
+sqlacodegen mysql+pymysql://user:pass@host.com:3306/sttash_website_LIVE --table "table_name"
 
 <https://github.com/ksindi/flask-sqlacodegen>
 

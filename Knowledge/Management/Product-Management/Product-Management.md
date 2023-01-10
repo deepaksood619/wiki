@@ -73,11 +73,8 @@ If you're running into this issue often, it likely means you're not effectively 
 Regardless, by following these strategies, you accomplish four critical goals in a bad situation:
 
 - You take responsibility early, creating trust and respect with all parties
-
 - You communicate unified expectations to everyone involved, limiting potential backlash
-
 - You create a collaborative situation with all stakeholders, limiting blame and internal fighting
-
 - You build trust and respect with your engineering team, limiting resentment and burnout
 
 This is the best-case scenario out of a worst-case scenario.
@@ -180,12 +177,6 @@ There is no perfect PEPSI there are only perfect PEPSIs
   - Data Platforms
   - B2B vs B2C vs B2B2C
 
-## COCA - Cost of customer acquisation
-
-## CAC - Customer Acquisition Cost
-
-<https://neilpatel.com/blog/customer-acquisition-cost>
-
 ## Helpful things
 
 - Have an eye to detail
@@ -209,17 +200,16 @@ The tricky part is to figure outwhich1% problems to solve and which ones to igno
 
 <https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b>
 
-## TAM - Total Addressable or Accessible Market
+## Abbreviations
 
-## TSM - Total Servicable Market
-
-Remonetisation plan - hook and bait the customers
-
-## BRD - Business Requirement Document
-
-## PRD - Product Requirement Document
-
-## FRD - Functional Requirement Document
+- TAM - Total Addressable or Accessible Market
+- TSM - Total Servicable Market
+- Remonetisation plan - hook and bait the customers
+- BRD - Business Requirement Document
+- PRD - Product Requirement Document
+- FRD - Functional Requirement Document
+- COCA - Cost of customer acquisation
+- CAC - Customer Acquisition Cost - <https://neilpatel.com/blog/customer-acquisition-cost>
 
 ## User Stories / User Story
 
@@ -327,35 +317,35 @@ User stories are a type of [boundary object](https://en.wikipedia.org/wiki/Bound
 
 1. **Must-be Quality**
 
-Simply stated, these are the requirements that the customers expect and are taken for granted. When done well, customers are just neutral, but when done poorly, customers are very dissatisfied. Kano originally called these "Must-be's" because they are the requirements that must be included and are the price of entry into a market.
+    Simply stated, these are the requirements that the customers expect and are taken for granted. When done well, customers are just neutral, but when done poorly, customers are very dissatisfied. Kano originally called these "Must-be's" because they are the requirements that must be included and are the price of entry into a market.
 
-Examples: In a hotel, providing a clean room is a basic necessity. In a call center, greeting customers is a basic necessity.
+    Examples: In a hotel, providing a clean room is a basic necessity. In a call center, greeting customers is a basic necessity.
 
 2. **One-dimensional Quality**
 
-These attributes result in satisfaction when fulfilled and dissatisfaction when not fulfilled. These are attributes that are spoken and the ones in which companies compete. An example of this would be a milk package that is said to have ten percent more milk for the same price will result in customer satisfaction, but if it only contains six percent then the customer will feel misled and it will lead to dissatisfaction.
+    These attributes result in satisfaction when fulfilled and dissatisfaction when not fulfilled. These are attributes that are spoken and the ones in which companies compete. An example of this would be a milk package that is said to have ten percent more milk for the same price will result in customer satisfaction, but if it only contains six percent then the customer will feel misled and it will lead to dissatisfaction.
 
-Examples: Time taken to resolve a customer's issue in a call center. Waiting service at a hotel.
+    Examples: Time taken to resolve a customer's issue in a call center. Waiting service at a hotel.
 
 3. **Attractive Quality (User Delights)**
 
-These attributes provide satisfaction when achieved fully, but do not cause dissatisfaction when not fulfilled. These are attributes that are not normally expected, for example, a thermometer on a package of milk showing the temperature of the milk. Since these types of attributes of quality unexpectedly delight customers, they are often unspoken.
+    These attributes provide satisfaction when achieved fully, but do not cause dissatisfaction when not fulfilled. These are attributes that are not normally expected, for example, a thermometer on a package of milk showing the temperature of the milk. Since these types of attributes of quality unexpectedly delight customers, they are often unspoken.
 
-Examples: In a callcenter, providing special offers and compensations to customers or the proactive escalation and instant resolution of their issue is an attractive feature. In a hotel, providing free food is an attractive feature.
+    Examples: In a callcenter, providing special offers and compensations to customers or the proactive escalation and instant resolution of their issue is an attractive feature. In a hotel, providing free food is an attractive feature.
 
-Examples: if you ask Google assistant for a reminder for tomorrow morning at 1 am, it sets it at same day morning 8:00 am and not tomorrow i.e. the next day morning
+    Examples: if you ask Google assistant for a reminder for tomorrow morning at 1 am, it sets it at same day morning 8:00 am and not tomorrow i.e. the next day morning
 
 4. **Indifferent Quality**
 
-These attributes refer to aspects that are neither good nor bad, and they do not result in either customer satisfaction or customer dissatisfaction. For example, thickness of the wax coating on a milk carton. This might be key to the design and manufacturing of the carton, but consumers are not even aware of the distinction. It is interesting to identify these attributes in the product in order to suppress them and therefore diminish production costs.
+    These attributes refer to aspects that are neither good nor bad, and they do not result in either customer satisfaction or customer dissatisfaction. For example, thickness of the wax coating on a milk carton. This might be key to the design and manufacturing of the carton, but consumers are not even aware of the distinction. It is interesting to identify these attributes in the product in order to suppress them and therefore diminish production costs.
 
-Examples: In a callcenter, highly polite speaking and very prompt responses might not be necessary to satisfy customers and might not be appreciated by them. The same applies to hotels.
+    Examples: In a callcenter, highly polite speaking and very prompt responses might not be necessary to satisfy customers and might not be appreciated by them. The same applies to hotels.
 
 5. **Reverse Quality**
 
-These attributes refer to a high degree of achievement resulting in dissatisfaction and to the fact that not all customers are alike. For example, some customers prefer high-tech products, while others prefer the basic model of a product and will be dissatisfied if a product has too many extra features.
+    These attributes refer to a high degree of achievement resulting in dissatisfaction and to the fact that not all customers are alike. For example, some customers prefer high-tech products, while others prefer the basic model of a product and will be dissatisfied if a product has too many extra features.
 
-Examples: In a callcenter, using a lot of jargon, using excessive pleasantries, or using excessive scripts while talking to customers might be off-putting for them. In a hotel, producing elaborate photographs of the facilities that set high expectations which are then not satisfied upon visiting can dissatisfy the customers.
+    Examples: In a callcenter, using a lot of jargon, using excessive pleasantries, or using excessive scripts while talking to customers might be off-putting for them. In a hotel, producing elaborate photographs of the facilities that set high expectations which are then not satisfied upon visiting can dissatisfy the customers.
 
 <https://en.wikipedia.org/wiki/Kano_model>
 
@@ -364,11 +354,8 @@ Examples: In a callcenter, using a lot of jargon, using excessive pleasantries, 
 What do these questions test
 
 1. Setting objectives
-
 2. Customer empathy
-
 3. Prioritization
-
 4. Creative thinking
 
 ## CIRCLES Method
@@ -377,20 +364,14 @@ Is a framework to help solve design questions in PM interviews
 
 1. **C - Comprehend Situation -** What? Who? Why? How?
 
-ask clarifying questions
-
-understand the situation
+    - ask clarifying questions
+    - understand the situation
 
 2. **I - Identify Customer -** Personas
-
 3. **R - Report customer needs**
-
 4. **C - Cut through prioritization -** ROI Estimate?
-
 5. **L - List Solutions**
-
 6. **E - Evaluate trade-offs -** thoughtful, analytical, objective
-
 7. **S - Summarize recommendation -** What, recap, why others
 
 After getting the answer to RCA, keep on going to all other points, just to confirm for multiple factors in play
@@ -457,17 +438,11 @@ A go-to-market (GTM) strategy is a step-by-step plan for launching a new product
 ## 7 common ways to differentiate a product
 
 1. Be the cheapest
-
 2. Be the highest quality
-
 3. Be the most convenient
-
 4. Be the safest
-
 5. Sell a proprietary product
-
 6. Sell something that makes people feel great buying
-
 7. Focus on a niche underserved market
 
 <https://www.lennysnewsletter.com/p/how-to-differentiate>
@@ -577,20 +552,17 @@ Product sense is the skill of consistently being able to craft products (or make
 
 Product sense relies on
 
-1. Empathyto discover meaningful user needs
-
-2. Creativityto come up with solutions that effectively address those needs
+1. Empathy to discover meaningful user needs
+2. Creativity to come up with solutions that effectively address those needs
 
 ## Building empathy
 
 1. Observe people interacting with products
-
 2. Deconstruct everyday products
 
 ## Improving creativity
 
 1. Learn from great product thinkers
-
 2. Be curious about changes in technology and your domain
 
 <https://www.lennysnewsletter.com/p/product-sense>

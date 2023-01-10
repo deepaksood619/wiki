@@ -145,7 +145,7 @@ To others, a degree of centralisation may simply be a price to pay for the other
 - Smart contract
 - Ronin (Side Chain)
 - Lightning network
-  
+
 ## Tools
 
 - <https://coinmarketcap.com>

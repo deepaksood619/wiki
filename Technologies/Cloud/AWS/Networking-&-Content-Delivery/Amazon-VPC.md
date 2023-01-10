@@ -75,7 +75,7 @@ A VPC endpoint enables you to privately connect your VPC to supported AWS servic
 
 Endpoints are virtual devices. They are horizontally scaled, redundant, and highly available VPC components. They allow communication between instances in your VPC and services without imposing availability risks or bandwidth constraints on your network traffic.
 
-There are two types of VPC endpoints:**interface endpoints**and**gateway endpoints**. Create the type of VPC endpoint required by the supported service.
+There are two types of VPC endpoints: **interface endpoints** and **gateway endpoints**. Create the type of VPC endpoint required by the supported service.
 
 ## Interface Endpoint
 

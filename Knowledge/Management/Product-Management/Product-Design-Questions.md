@@ -217,12 +217,21 @@ Feel free to reach out to Shahid Hussain or Srinidhi Shama Rao on LinkedIn if yo
 - Sanity Checks
 - Round numbers up/down for easier calculations
 - Be as structured as possible & write down assumptions
-- Keep statistics & formulas memorized
-  - Total population of India - 1.37 billion
-  - Rural:Urban = 70:30
-  - Upper Class UC : MC : LMC : BPL = 2:3:3:2
-  - Average life expectancy = 80 years
-  - Android:iPhones market share = 95:5
+
+
+### Keep statistics & formulas memorized / Facts
+
+- Total population of India - 1.37 billion
+- Rural:Urban = 70:30
+- Upper Class UC : MC : LMC : BPL = 2:3:3:2
+- Average life expectancy = 80 years
+- Android:iPhones market share = 95:5
+- Estimates suggest that only 3% of Indians take home an annual salary of more than ₹5 lakhs
+  - i.e. 4.11 crore out of 137 crore
+  - i.e. 41667 per month
+  - in hand salary of 37313.33
+  - After expenses, savings of 20% i.e. Rs. 7400 per month of savings
+- [Supercharged customers - Customers who visit a physical store spend more money. In fact, they spend 60% more on average per order](retail-offline-sales.md)
 
 ## RCA
 

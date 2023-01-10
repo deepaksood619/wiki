@@ -67,6 +67,8 @@ order by user_id;
  GRANT SELECT on public.sentinel_customers TO bhupesh_goyal;
  GRANT SELECT on public.dsa_customers TO bhupesh_goyal;
 
+ GRANT SELECT on sttash_website_live.equifax_api_request_inquiry TO outsource_consultant;
+
  grant select,update,delete on all tables in schema colender to developer;
 
  https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_USER.html

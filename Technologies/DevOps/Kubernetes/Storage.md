@@ -1,17 +1,11 @@
 # Storage
 
 1. Volumes
-
 2. Persistant Volumes
-
 3. Volume Snapshots
-
 4. Storage Classes
-
 5. Volume Snapshot Classes
-
 6. Dynamic Volume Provisioning
-
 7. Node-specific Volume Limits
 
 ## Volumes
@@ -28,18 +22,19 @@ A process in a container sees a filesystem view composed from their Docker image
 
 AnemptyDirvolume is first created when a Pod is assigned to a Node, and exists as long as that Pod is running on that node. As the name says, it is initially empty. Containers in the Pod can all read and write the same files in theemptyDirvolume, though that volume can be mounted at the same or different paths in each Container. When a Pod is removed from a node for any reason, the data in theemptyDiris deleted forever.
 
-## Note:A Container crashing doesNOTremove a Pod from a node, so the data in anemptyDirvolume is safe across Container crashes
+**Note:** A Container crashing does NOT remove a Pod from a node, so the data in an empty Dir volume is safe across Container crashes
 
-Some uses for anemptyDirare:
+Some uses for an emptyDir are:
 
 - scratch space, such as for a disk-based merge sort
-- checkpointing a long computation for recovery from crashes
+- check pointing a long computation for recovery from crashes
 - holding files that a content-manager Container fetches while a webserver Container serves the data
 
-By default, emptyDirvolumes are stored on whatever medium is backing the node - that might be disk or SSD or network storage, depending on your environment. However, you can set theemptyDir.mediumfield to"Memory"to tell Kubernetes to mount a tmpfs (RAM-backed filesystem) for you instead. While tmpfs is very fast, be aware that unlike disks, tmpfs is cleared on node reboot and any files you write will count against your Container's memory limit.
+By default, emptyDir volumes are stored on whatever medium is backing the node - that might be disk or SSD or network storage, depending on your environment. However, you can set theemptyDir.mediumfield to"Memory"to tell Kubernetes to mount a tmpfs (RAM-backed filesystem) for you instead. While tmpfs is very fast, be aware that unlike disks, tmpfs is cleared on node reboot and any files you write will count against your Container's memory limit.
 
 ## Example Pod
 
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -50,11 +45,12 @@ containers:
 - image: k8s.gcr.io/test-webserver
 name: test-container
 volumeMounts:
-- mountPath: /cache
-name: cache-volume
+    - mountPath: /cache
+    name: cache-volume
 volumes:
 - name: cache-volume
 emptyDir: {}
+```
 
 ## Persistant Volumes
 

@@ -209,4 +209,3 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 | [SWIFFT](https://en.wikipedia.org/wiki/SWIFFT) | 512 bits | hash |
 | [Tiger](https://en.wikipedia.org/wiki/Tiger_(cryptography)) | 192 bits | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction) |
 | [Whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography)) | 512 bits | hash |
-

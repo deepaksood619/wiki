@@ -318,19 +318,13 @@ They would be surrounded by relatives and friends that systematically leached of
 
 ## Facts
 
-US GDP - 21 lakh crore USD (21 trillion)
-
-China GDP - 14.7 lakh crore USD (14.7 trillion)
-
-India GDP - 2.6 lakh crore USD (2.6 trillion)
-
-Real state capitalization, economy - 340 trillion dollar
-
-Global Equity market - 80 trillion dollar
-
-Global debt and bond market - 250 trillion dollar
-
-Global gold - 7 trillion dollar
+- US GDP - 21 lakh crore USD (21 trillion)
+- China GDP - 14.7 lakh crore USD (14.7 trillion)
+- India GDP - 2.6 lakh crore USD (2.6 trillion)
+- Real state capitalization, economy - 340 trillion dollar
+- Global Equity market - 80 trillion dollar
+- Global debt and bond market - 250 trillion dollar
+- Global gold - 7 trillion dollar
 
 ## Largest sovereign wealth funds
 

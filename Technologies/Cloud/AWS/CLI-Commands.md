@@ -62,7 +62,7 @@ AWS_ACCESS_KEY_ID=XXX AWS_SECRET_ACCESS_KEY=XXX aws s3 cp s3://<folder_name>/sms
 
 aws iam delete-policy --policy-arn arn:aws:iam::331916247734:policy/ssh_update_policy
 
-aws rds create-db-instance --db-instance-identifier <db_name> --db-cluster-identifier backup-sttash-main-db-instance-cluster --engine aurora-mysql --db-instance-class db.r5.2xlarge --availability-zone ap-south-1b
+aws rds create-db-instance --db-instance-identifier <db_name> --db-cluster-identifier db_name --engine aurora-mysql --db-instance-class db.r5.2xlarge --availability-zone ap-south-1b
 
 aws rds delete-db-instance --db-instance-identifier <db_name>
 

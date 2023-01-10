@@ -43,18 +43,18 @@ GET /megacorp/_search
         "bool" : {
             "must" : {
                 "match" : {
-                    "last_name" : "smith" 
+                    "last_name" : "smith"
                  }
             },
             "filter" : {
                 "range" : {
-                    "age" : { "gt" : 30 } 
+                    "age" : { "gt" : 30 }
                  }
             }
         }
     }
 }
-	
+
 // Highlights
 GET /megacorp/_search
 {
