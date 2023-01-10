@@ -351,7 +351,7 @@ Wondering what happened to vitamins B4, B8, B10, and B11? They got the boot! As 
 
 #### Wait, what about Vitamin D?
 
-We saved it for the last because it’s kinda special! Vitamin D has many roles to play—blood pressure regulation, bone growth, calcium balance, hormone production, immune health, nervous system function etc.
+We saved it for the last because it’s kinda special! Vitamin D has many roles to play-blood pressure regulation, bone growth, calcium balance, hormone production, immune health, nervous system function etc.
 Unlike the others, vitamin D can be produced by our bodies, provided our skin is exposed to adequate sunshine. Unfortunately, most of us don’t get enough time in the sun and hence, are D-deficient. ☹️
 
 **Make Vit D while the sun shines**

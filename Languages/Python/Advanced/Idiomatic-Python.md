@@ -83,7 +83,7 @@ if user:
     print(user)
     print('------------------------------')
 
-# In the example above, we have repeated — over 30 times which is really not good.
+# In the example above, we have repeated - over 30 times which is really not good.
 
 # Good
 if user:

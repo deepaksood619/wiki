@@ -48,7 +48,7 @@
 <td>49,506,799</td>
 <td>160,205</td>
 <td>Telugu</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Arunachal Pradesh</td>
@@ -61,7 +61,7 @@
 <td>1,383,727</td>
 <td>83,743</td>
 <td>English</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Assam</td>
@@ -100,7 +100,7 @@
 <td>25,545,198</td>
 <td>135,194</td>
 <td>Hindi</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Goa</td>
@@ -126,7 +126,7 @@
 <td>60,439,692</td>
 <td>196,024</td>
 <td>Gujarati</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Haryana</td>
@@ -205,7 +205,7 @@
 <td>72,626,809</td>
 <td>308,252</td>
 <td>Hindi</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Maharashtra</td>
@@ -219,7 +219,7 @@
 <td>112,374,333</td>
 <td>307,713</td>
 <td>Marathi</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Manipur</td>
@@ -258,7 +258,7 @@
 <td>1,097,206</td>
 <td>21,081</td>
 <td>English,Hindi,Mizo</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Nagaland</td>
@@ -271,7 +271,7 @@
 <td>1,978,502</td>
 <td>16,579</td>
 <td>English</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Odisha</td>
@@ -284,7 +284,7 @@
 <td>41,974,218</td>
 <td>155,820</td>
 <td>Odia</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Punjab</td>
@@ -297,7 +297,7 @@
 <td>27,743,338</td>
 <td>50,362</td>
 <td>Punjabi</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Rajasthan</td>
@@ -349,7 +349,7 @@
 <td>35,193,978</td>
 <td>114,840</td>
 <td>Telugu,Urdu</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Tripura</td>
@@ -362,7 +362,7 @@
 <td>3,673,917</td>
 <td>10,492</td>
 <td>Bengali,English,Kokborok</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Uttar Pradesh</td>
@@ -449,18 +449,18 @@
 <td>380,581</td>
 <td>8,249</td>
 <td>English,Hindi</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Chandigarh</td>
 <td>IN-CH</td>
 <td>CH</td>
 <td>Chandigarh</td>
-<td>—</td>
+<td>-</td>
 <td>1,055,450</td>
 <td>114</td>
 <td>English</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Dadra and Nagar Haveli</td>
@@ -482,14 +482,14 @@
 <td>243,247</td>
 <td>112</td>
 <td>English,Gujarati,Hindi,Konkani,</td>
-<td>—</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Delhi</td>
 <td>IN-DL</td>
 <td>DL</td>
 <td>New Delhi</td>
-<td>—</td>
+<td>-</td>
 <td>16,787,941</td>
 <td>1,490</td>
 <td>Hindi</td>

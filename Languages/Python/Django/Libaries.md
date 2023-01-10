@@ -94,7 +94,7 @@ Haystack provides modular search for Django. It features a unified, familiar API
 
 ## Django ratelimit
 
-[Django Ratelimit — Django Ratelimit 4.0.0 documentation](https://django-ratelimit.readthedocs.io/)
+[Django Ratelimit - Django Ratelimit 4.0.0 documentation](https://django-ratelimit.readthedocs.io/)
 
 ```python
 from django_ratelimit.decorators import ratelimit

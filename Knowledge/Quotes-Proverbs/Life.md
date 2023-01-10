@@ -986,6 +986,6 @@ You could claim that anything's real if the only basis for believing in it is th
 
 There is no greater fool than he who thinks himself wise; no one wiser than he who suspects he is a fool. -- Marguerite de Valois
 
-A clever person solves a problem. A wise person avoids it — Albert Einstein
+A clever person solves a problem. A wise person avoids it - Albert Einstein
 
 The first principle is that you must not fool yourself and you are the easiest person to fool. -- Richard P. Feynman

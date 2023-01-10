@@ -23,8 +23,8 @@
 
 - Most DeFi projects are built on the **Ethereum** blockchain, where applications run on so-called virtual machines. **Unlike native blockchains**, blockchains like Ethereum offer **greater flexibility** for developers. This flexibility, however, **makes them more risky for decentralized financial applications.**
 - When it comes to financial services, Ethereum uses smart contracts on the **application layer**, which could be prone to **human errors and coding mistakes**. In addition, they are simply **not built for the function of financial applications**, but rather a one-size-fits all solution. There, the code gets compiled and has to run through a virtual machine.
-- On blockchains like DeFiChain, the **execution** of the code happens **directly on the native blockchain** layer — no “on-top” application layer is needed. As a result, DeFiChain is perfectly designed for all kinds of financial applications and services.
-- Performing DeFi transactions on Ethereum takes more than 3,000 distinct steps — each with its own **potential attack** surface. On DeFiChain, just a few lines of code are enough, making transactions much more robust against potential attacks, and DeFiChain’s NativeDeFi approach, more secure.
+- On blockchains like DeFiChain, the **execution** of the code happens **directly on the native blockchain** layer - no “on-top” application layer is needed. As a result, DeFiChain is perfectly designed for all kinds of financial applications and services.
+- Performing DeFi transactions on Ethereum takes more than 3,000 distinct steps - each with its own **potential attack** surface. On DeFiChain, just a few lines of code are enough, making transactions much more robust against potential attacks, and DeFiChain’s NativeDeFi approach, more secure.
 - The main benefits of NativeDeFi include: **Consensus happens directly on the native blockchain layer**, the **transaction costs are low**, and the attack surface is low.
 
 ## Others
@@ -33,7 +33,7 @@
 
 - DEX Aggregators
 
-    DEX aggregators are the financial protocols which give traders/investors — an easy access to various trading pools using a single dashboard.
+    DEX aggregators are the financial protocols which give traders/investors - an easy access to various trading pools using a single dashboard.
 
 ## DeFi Tools (SAAS)
 
