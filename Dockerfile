@@ -2,10 +2,10 @@ FROM ubuntu:22.04
 
 ENV TZ=Asia/Kolkata
 
-RUN apt update
+RUN apt-get update
 RUN apt-get install -y curl git
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt -y install nodejs
+RUN apt-get -y install nodejs
 RUN npm i -g npm
 
 # Set the working directory to /app
