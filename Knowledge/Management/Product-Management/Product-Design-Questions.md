@@ -218,7 +218,6 @@ Feel free to reach out to Shahid Hussain or Srinidhi Shama Rao on LinkedIn if yo
 - Round numbers up/down for easier calculations
 - Be as structured as possible & write down assumptions
 
-
 ### Keep statistics & formulas memorized / Facts
 
 - Total population of India - 1.37 billion

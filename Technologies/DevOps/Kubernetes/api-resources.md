@@ -108,6 +108,7 @@ CSI empowers users to support different storage systems through a driver model.
 
 ### Outline
 
+```yaml
 - API Version: most resource type covered in the exam belongs to thecoregroup and are currently in the versionv1. Several special cases are listed below.
   - v1: Pod, Service, ConfigMap, Secret, PersistentVolumeClaim, Namespace, ServiceAccount, Node
   - apps/v1: Deployment
@@ -239,3 +240,4 @@ CSI empowers users to support different storage systems through a driver model.
     - podSelector: matchExpressions or matchLabels
     - ingress
     - egress
+```
