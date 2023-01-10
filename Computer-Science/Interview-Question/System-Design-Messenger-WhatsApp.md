@@ -8,81 +8,54 @@
 
 - variant of XMPP for signaling.
 - Opus voice codec, but in 16Khz
-- **Opus/SILK audio codec**and**NAT (Network Address Translation)** techniques. The STUN server and Peer to Peer connection are the key elements included to boost and maintain authentication to the users.
+- **Opus/SILK audio codec** and **NAT (Network Address Translation)** techniques. The STUN server and Peer to Peer connection are the key elements included to boost and maintain authentication to the users.
 - WhatsApp is using the [PJSIP library](http://www.pjsip.org/) to implement Voice over IP (VoIP) functionality. The captures shows no signs of DTLS, which suggests the use of SDES encryption (see [here](https://webrtchacks.com/webrtc-must-implement-dtls-srtp-but-must-not-implement-sdes/) for Victor's past post on this). Even though [STUN](https://webrtchacks.com/stun-helps-webrtc-traverse-nats/) is used, the binding requests do not contain ICE-specific attributes. RTP and RTCP are multiplexed on the same port.
+
 <https://webrtchacks.com/whats-up-with-whatsapp-and-webrtc>
 
 ## Design a Messaging Service
 
 - **Messaging**
-
   - One to one message
-
   - Group message
-
   - Broadcast message-  Timeline
 - Sharing
-
   - text / stickers
-
   - image / gifs
-
   - video
-
   - status (text / image / video)-  **Delivery**
-
   - Sent notification
-
   - Delivered notification
-
   - Read notification (can be sent like a regular message [like an acknowledgement])
 - **Push notifications**
-
   - Only delivering, because there cannot be interaction with the message
-
   - Uses GCM-  Backup
-
   - Local
-
   - Cloud
 - Storage
-
   - Store messages
-
   - Store analytics
-
   - Send and delete
 - Network
-
   - **Ephermeral**
   - TCP - Handshake
-
   - Load balancing (layers of load balancing and caching)
 - Scaling
-
   - Horizontally
-
   - Messages can be delivered out of order because different messages can be used to handle message requests.
 - Caching
 - Database
-
   - storing logs
-
   - analytics data
-
   - history
 - Database replication
 - Database sharding
 - Queuing
-
   - Messages Queue
 - Security
-
   - End to end encryption
 - How to monetize the application
-
   - sell stickers, emojis
-
   - permium services
 
 ## Two Types of Chatting
@@ -123,14 +96,14 @@ Networking - HTTP, WebSockets
 
 ## Sending messages when user is offline
 
-![VS e I - CD ](media/System-Design-Messenger-WhatsApp-image3.png)
+![image](media/System-Design-Messenger-WhatsApp-image3.png)
 
 ## Sending Images
 
 - Use thumbnail to send image
 - Save into blob storage and pass down url
 
-![BE s l.)VWeed ](media/System-Design-Messenger-WhatsApp-image4.png)
+![image](media/System-Design-Messenger-WhatsApp-image4.png)
 
 ## Optimizations
 

@@ -51,8 +51,6 @@ void possibleSubsets(char A[], int N)
 
 ## Python (Using chain and combinations)
 
-# get all subsets of a list
-
 ```python
 # get all subsets of a list
 from itertools import chain, combinations

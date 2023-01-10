@@ -27,13 +27,13 @@
      - Asserts can be globally disabled with an interpreter setting.
 
 4. **Context Managers and the with statement**
-    - **Handling file descriptors**
-    - **threading.Lock class**
-    - **Context Manager - It's a simple "protocol" (or interface) that your object needs to follow so it can be used with the *with* statement. (Add**enter**and**exit**methods)**
-    - **We can use contextlib.contextmanager decorator to define a generator-based factory function for a resource that will automatically support the *with* statement**
-    - **The *with* statement simplifies exception handling by encapsulating standard uses of try/finally statements in so-called Context Managers**
-    - **Most commonly it is used to manage the safe acquisition and release of system resources. Resources are acquired by the *with* statement and released automatically when execution leaves the *with* context**
-    - **Using *with* effectively can help you avoid resource leaks and make your code easier to read**
+    - Handling file descriptors
+    - threading.Lock class
+    - Context Manager - It's a simple "protocol" (or interface) that your object needs to follow so it can be used with the *with* statement. (Add `__enter__` and `__exit__` methods)
+    - We can use contextlib.contextmanager decorator to define a generator-based factory function for a resource that will automatically support the *with* statement
+    - The *with* statement simplifies exception handling by encapsulating standard uses of try/finally statements in so-called Context Managers
+    - Most commonly it is used to manage the safe acquisition and release of system resources. Resources are acquired by the *with* statement and released automatically when execution leaves the *with* context
+    - Using *with* effectively can help you avoid resource leaks and make your code easier to read
 
 <https://rednafi.github.io/digressions/python/2020/03/26/python-contextmanager.html>
 
@@ -76,7 +76,7 @@
 -  If your format strings are user-supplied, use Template Strings to avoid security issues. Otherwise, use Literal String Interpolation if you’re on Python 3.6+, and “New Style” String Formatting if you’re not.
 ```
 
-# Effective Functions
+## Effective Functions
 
 1. **Python's Functions are first-class**
     - Everything in Python is an object, including functions. You can assign them to variables, store them in data structures, and pass or return them to and from other functions (first-class functions.)
@@ -114,7 +114,7 @@
     - If a function doesn't specify a return value, it returns None. Whether to explicitly return None is a stylistic decision.
     - This is a core Python feature but your code might communicate its intent more clearly with an explicit return None statement.
 
-# Classes and OOP
+## Classes and OOP
 
 1. Object comparisions: is vs ==
     - An is expression evaluates to True if two variables point to the same (identical) object.
@@ -127,7 +127,7 @@
 7. String conversion (Every class needs a `__repr__`)
 8. Cloning objects for fun and profit
 
-# Common data strucutres in Python
+## Common data strucutres in Python
 
 1. Dictionaries, Maps, and Hashtables
 2. Array data structures
@@ -137,7 +137,7 @@
 6. Queues (FIFOs)
 7. Priority Queues
 
-# Looping and Iteration
+## Looping and Iteration
 
 1. Pythonic loops
 2. Comprehending comprehensions
@@ -147,7 +147,7 @@
 6. Generator Expressions
 7. Iterator chains
 
-# Dictionary Tricks
+## Dictionary Tricks
 
 1. Dictionary default values
 2. Sorting dictionaries for fun and profit
@@ -155,7 +155,7 @@
 4. Merging dictionaries
 5. Dictionary Pretty-printing
 
-# Pythonic Productivity Techniques
+## Pythonic Productivity Techniques
 
 1. Python modules and objects
 2. Isolating Project dependencies with Virtualenv

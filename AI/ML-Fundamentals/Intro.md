@@ -24,7 +24,7 @@ Evolved from the study of [pattern recognition](https://en.wikipedia.org/wiki/Pa
 
 [1.9. Exercises](https://d2l.ai/chapter_introduction/index.html#exercises)
 
-You can think of the parameters as knobs that we can turn, manipulating the behavior of the program. Fixing the parameters, we call the program a**model**. The set of all distinct programs (input-output mappings) that we can produce just by manipulating the parameters is called a**familyof models**. And the meta-program that uses our dataset to choose the parameters is called a**learning algorithm**.
+You can think of the parameters as knobs that we can turn, manipulating the behavior of the program. Fixing the parameters, we call the program a **model**. The set of all distinct programs (input-output mappings) that we can produce just by manipulating the parameters is called a**familyof models**. And the meta-program that uses our dataset to choose the parameters is called a**learning algorithm**.
 
 ## What is Machine Learning?
 
@@ -48,7 +48,7 @@ Core components that will follow us around, no matter what kind of machine learn
 
 1. The **data** that we can learn from.
 
-2. A**model** of how to transform the data.
+2. A **model** of how to transform the data.
 
 3. An **objective function** that quantifies how well (or badly) the model is doing.
 

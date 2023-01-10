@@ -9,7 +9,7 @@ Stack is an abstract data type with a bounded(predefined) capacity. It is a simp
 
 1. Stack is an ordered list of similar data type.
 
-2. Stack is a**LIFO** structure. (Last in First out).3. **push()**function is used to insert new elements into the Stack and**pop()**function is used to delete an element from the stack. Both insertion and deletion are allowed at only one end of Stack called **Top**.4. Stack is said to be in **Overflow** state when it is completely full and is said to be in **Underflow** state if it is completely empty.
+2. Stack is a **LIFO** structure. (Last in First out).3. **push()**function is used to insert new elements into the Stack and**pop()**function is used to delete an element from the stack. Both insertion and deletion are allowed at only one end of Stack called **Top**.4. Stack is said to be in **Overflow** state when it is completely full and is said to be in **Underflow** state if it is completely empty.
 
 5. Loitering (don't keep the reference of the object when an element is popped)
 

@@ -19,16 +19,19 @@ services:
             - -c
             - |
                 sleep infinity
-                # git clean -f
-                # git reset --hard
-                # git pull
-                # cd .layouts
+                # git clone https://github.com/deepaksood619/wiki.git
+                # cd wiki/.layouts
                 # npm i
+                # npm run deploy
                 # npm run build
                 # cd ..
+                # git subtree split --prefix '.layouts/public' -b docs
+                # git push -f https://deepaksood619:xxx@github.com/deepaksood619/wiki.git docs:docs
+
                 # git checkout -b docs
                 # git add .layouts/public -f
                 # git commit -m "added docs"
                 # git subtree push --prefix .layouts/public origin docs
+                # git subtree push --prefix .layouts/public https://deepaksood619:xxx@github.com/deepaksood619/wiki.git docs
         # volumes:
         #     - .:/app/

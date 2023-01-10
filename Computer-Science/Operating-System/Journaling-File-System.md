@@ -73,7 +73,7 @@ Btrfs is intended to address the lack of [pooling](https://en.wikipedia.org/wiki
 
 ## ext4
 
-The **ext4 journaling file system**or**fourth extended filesystem** is a [journaling file system](https://en.wikipedia.org/wiki/Journaling_file_system) for [Linux](https://en.wikipedia.org/wiki/Linux), developed as the successor to [ext3](https://en.wikipedia.org/wiki/Ext3).
+The **ext4 journaling file system** or **fourth extended filesystem** is a [journaling file system](https://en.wikipedia.org/wiki/Journaling_file_system) for [Linux](https://en.wikipedia.org/wiki/Linux), developed as the successor to [ext3](https://en.wikipedia.org/wiki/Ext3).
 
 ## Features
 

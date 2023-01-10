@@ -64,7 +64,7 @@ PGP and similar software follow the [OpenPGP](https://en.wikipedia.org/wiki/Pret
 
 ## Air Gap Networking
 
-An**air gap**, **air wall**or**air gapping**is a [network security](https://en.wikipedia.org/wiki/Network_security) measure employed on one or more computers to ensure that a secure [computer network](https://en.wikipedia.org/wiki/Computer_network) is physically isolated from unsecured networks, such as the public [Internet](https://en.wikipedia.org/wiki/Internet) or an unsecured [local area network](https://en.wikipedia.org/wiki/Local_area_network). It means a computer or network has no [network interfaces](https://en.wikipedia.org/wiki/Network_interface) connected to other networks, with a physical or conceptual air gap, analogous to the [air gap](https://en.wikipedia.org/wiki/Air_gap_(plumbing)) used in plumbing to maintain water quality.
+An **air gap**, **air wall** or **air gapping** is a [network security](https://en.wikipedia.org/wiki/Network_security) measure employed on one or more computers to ensure that a secure [computer network](https://en.wikipedia.org/wiki/Computer_network) is physically isolated from unsecured networks, such as the public [Internet](https://en.wikipedia.org/wiki/Internet) or an unsecured [local area network](https://en.wikipedia.org/wiki/Local_area_network). It means a computer or network has no [network interfaces](https://en.wikipedia.org/wiki/Network_interface) connected to other networks, with a physical or conceptual air gap, analogous to the [air gap](https://en.wikipedia.org/wiki/Air_gap_(plumbing)) used in plumbing to maintain water quality.
 <https://en.wikipedia.org/wiki/Air_gap_(networking)>
 
 ## Bastion Host

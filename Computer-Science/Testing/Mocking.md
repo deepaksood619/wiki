@@ -81,7 +81,7 @@ Just like the example above, they make isolated unit testing hard or even imposs
 
 ## The solution: Patching
 
-The overall strategy to test this is always the same: Replace the external dependency that is causing headaches by something in your control. The act of replacing the dependency is called **patching**, the replacement is called a**mock**. Depending on what exactly the mock does, you might also hear this being called a **Test Double, Test Stub, Test Spy or a Fake Object**. In practice in Python, the distinction does not matter.
+The overall strategy to test this is always the same: Replace the external dependency that is causing headaches by something in your control. The act of replacing the dependency is called **patching**, the replacement is called a **mock**. Depending on what exactly the mock does, you might also hear this being called a **Test Double, Test Stub, Test Spy or a Fake Object**. In practice in Python, the distinction does not matter.
 Let's make a tiny example how to use patch!
 
 ```python

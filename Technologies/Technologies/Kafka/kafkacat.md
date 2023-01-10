@@ -128,7 +128,7 @@ Consume messages between two timestamps
 kafkacat -b **kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092** -C -t druid_telemetry_data_Samhi -o s@1574063938000 -o e@1574063940000 **-**f 'nKey (%K bytes): %ktnValue (%S bytes): %snTimestamp: %TtPartition: %ptOffset: %on--n'
 
 # Redirect logs to different topic
-kafkacat -b kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092 -C -t**smap_samhi**-o s@**1568989590000**-o e@**1568989620000 | kafkacat -b**kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092 -P -t samhi_logs
+kafkacat -b kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092 -C -t **smap_samhi**-o s@**1568989590000**-o e@**1568989620000 | kafkacat -b**kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092 -P -t samhi_logs
 ```
 
 ## Producers

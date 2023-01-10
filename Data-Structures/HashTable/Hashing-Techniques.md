@@ -49,44 +49,47 @@ Probing techniques / Searching techniques / Search sequences
 - Cuckoo Hashing
 - Robin Hood Hashing
 - Hopscotch Hashing
+
 <https://programming.guide/hash-tables-open-addressing.html>
 
-3. **Coalesced Hashing**
+1. **Coalesced Hashing**
 
 Coalesced hashing is a technique for implementing a hash table. It's an [open addressing](https://programming.guide/hash-tables-open-addressing.html) technique which means that all keys are**stored in the array itself**(e.g. it doesn't use for example linked lists to handle collisions). As opposed to other open addressing techniques however, it also uses**nodes with next-poiners**to form collision chains.
 
-## Example:Coalesced hash table holding five keys in two collision chains. (Keys of the same color hash to the same bucket.)
+Example:Coalesced hash table holding five keys in two collision chains. (Keys of the same color hash to the same bucket.)
 
 ![image](media/Hashing-Techniques-image4.png)
 
-## Removal
+**Removal**
 
 - clearing out a slot might break a chain, and cause future lookups to fail. To avoid this problem, one could instead use 'deleted' markings but this is subject to so called **contamination**.-  The approach commonly used in practice is to clear the slot holding the key, and then **reinsert** all following keys in the chain.
 - This maintains the invariants, avoids contamination and potentially even breaks apart previously coalesced chains.
 
-## Cellar
+**Cellar**
 
 A common optimization (so common in fact, that it is almost to be considered a part of the standard implementation) is to reserve part of the hash table array to be used only for storing colliding keys. This part is called**the cellar**.
 
-## Example:A coalescing hash table array with*M* = 10and*N* = 3
+Example:A coalescing hash table array with *M* = 10 and *N* = 3
 
 ![image](media/Hashing-Techniques-image5.png)
 <https://programming.guide/coalesced-hashing.html>
+
 4. **Robin hood hashing**
 5. **Cuckoo Hashing**
 
-Cuckoo Hashing is a technique for implementing a hash table. As opposed to most other hash tables, it achieves**constant time worst-case complexity for lookups**.
+Cuckoo Hashing is a technique for implementing a hash table. As opposed to most other hash tables, it achieves **constant time worst-case complexity for lookups**.
+
 Collisions are handled by evicting existing keys and moving them from one array to the other. This resembles the way a cuckoo chick [pushes out an egg from the nest](https://www.youtube.com/watch?v=SO1WccH2_YM) to make room for itself, hence the name Cuckoo Hashing.
 
 ## Representation
 
-It is implemented using**two arrays of equal size**and**two hash functions**:
+It is implemented using **two arrays of equal size** and **two hash functions**:
 
 ## Insertion
 
 A new element is always inserted in the first hash table. Should a collision occur, the existing element is kicked out and inserted in the second hash table. Should that in turn cause a collision, the second existing element will be kicked out and inserted in the first hash table, and so on. This continues until an empty bucket is found.
 If the number of displacements reaches a certain threshold (for instance due to a cycle among the inserted keys) rehashing takes place.
-Rehashing is a linear operation, so**worst-case complexity is*O*(*n*)**. Just as with other hashing techniques however, **the ammortized run time can be shown to be*O*(1)**.
+Rehashing is a linear operation, so **worst-case complexity is*O*(*n*)**. Just as with other hashing techniques however, **the ammortized run time can be shown to be *O*(1)**.
 
 ## Stashing
 

@@ -21,7 +21,7 @@ The idea of**MO's algorithm**is to pre-process all queries so that result of one
 
 Let**a[0...n-1]**be input array and**q[0..m-1]**be array of queries.
 
-1. Sort all queries in a way that queries with L values from**0** to**√n -- 1**are put together, then all queries from**√n**to** 2*√n -- 1**, and so on. All queries within a block are sorted in increasing order of R values.
+1. Sort all queries in a way that queries with L values from **0** to**√n -- 1**are put together, then all queries from**√n**to** 2*√n -- 1**, and so on. All queries within a block are sorted in increasing order of R values.
 
 2. Process all queries one by one in a way that every query uses sum computed in previous query.
     - Let 'sum' be sum of previous query.

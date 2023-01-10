@@ -37,7 +37,7 @@ It is the ordinary straight line distance between two points in Euclidean Space
 ```java
 //Returns the Euclidean distance between this point and that point.
 
-public double**distanceTo**(Point2D that) {
+public double **distanceTo**(Point2D that) {
     double dx = this.x - that.x;
     double dy = this.y - that.y;
     return Math.**sqrt**(dx*dx + dy*dy);

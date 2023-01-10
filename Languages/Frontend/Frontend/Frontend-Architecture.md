@@ -57,11 +57,11 @@ For example, let's say you go to a website. Now, you want to check the contact p
 
 In SPA's, there is only one page, i.e, index.html. When you want to go to another page, the server provides the same page but with a different component injected into it.
 
-## Client-side rendering
+## Client-side rendering (CSR)
 
 Client-side rendering allows developers to make their websites entirely rendered in the browser with JavaScript. Instead of having a different HTML page per route, a client-side rendered website creates each route dynamically directly in the browser. This approach spread once JS frameworks made it easy to take.
 
-## Server Side Rendering / Universal rendering
+## Server Side Rendering (SSR) / Universal rendering
 
 Server-side rendering allows developers to pre-populate a web page with custom user data directly on the server. It is generally faster to make all the requests within a server than making extra browser-to-server round-trips for them. This is what developers used to do before client-side rendering.
 

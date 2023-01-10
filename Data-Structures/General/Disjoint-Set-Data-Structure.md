@@ -66,7 +66,7 @@ yRoot.parent := xRoot
 else
 //Arbitrarily make one root the new parent
 yRoot.parent := xRoot
-xRoot.rank := xRoot.rank + 1**Optimizations**
+xRoot.rank := xRoot.rank + 1 **Optimizations**
 
 1. Weighted Union (Union by rank)
 

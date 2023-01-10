@@ -11,9 +11,9 @@ RUN npm i -g npm
 # Set the working directory to /app
 WORKDIR /app
 
-COPY . /app/
+# COPY . /app/
 
-RUN git remote set-url origin https://github.com/deepaksood619/wiki.git
+# RUN git remote set-url origin https://github.com/deepaksood619/wiki.git
 
 # RUN cd .layouts && npm i
 

@@ -10,7 +10,7 @@
 
 ## Volumes
 
-On-disk files in a Container are ephemeral, which presents some problems for non-trivial applications when running in Containers. First, when a Container crashes, kubelet will restart it, but the files will be lost - the Container starts with a clean state. Second, when running Containers together in a**Pod** it is often necessary to share files between those Containers. The Kubernetes **Volume** abstraction solves both of these problems.
+On-disk files in a Container are ephemeral, which presents some problems for non-trivial applications when running in Containers. First, when a Container crashes, kubelet will restart it, but the files will be lost - the Container starts with a clean state. Second, when running Containers together in a **Pod** it is often necessary to share files between those Containers. The Kubernetes **Volume** abstraction solves both of these problems.
 
 At its core, a volume is just a directory, possibly with some data in it, which is accessible to the Containers in a Pod. How that directory comes to be, the medium that backs it, and the contents of it are determined by the particular volume type used.
 
@@ -71,17 +71,17 @@ A cluster administrator creates a number of PVs. They carry the details of the r
 
 - Dynamic
 
-When none of the static PVs the administrator created matches a user's**PersistentVolumeClaim**, the cluster may try to dynamically provision a volume specially for the PVC. This provisioning is based on **StorageClasses**: the PVC must request a [storage class](https://kubernetes.io/docs/concepts/storage/storage-classes/) and the administrator must have created and configured that class in order for dynamic provisioning to occur.
+When none of the static PVs the administrator created matches a user's **PersistentVolumeClaim**, the cluster may try to dynamically provision a volume specially for the PVC. This provisioning is based on **StorageClasses**: the PVC must request a [storage class](https://kubernetes.io/docs/concepts/storage/storage-classes/) and the administrator must have created and configured that class in order for dynamic provisioning to occur.
 
 2. **Binding**
 
-A user creates, or has already created in the case of dynamic provisioning, a**PersistentVolumeClaim** with a specific amount of storage requested and with certain access modes. A control loop in the master watches for new PVCs, finds a matching PV (if possible), and binds them together. If a PV was dynamically provisioned for a new PVC, the loop will always bind that PV to the PVC. Otherwise, the user will always get at least what they asked for, but the volume may be in excess of what was requested. Once bound, **PersistentVolumeClaim** binds are exclusive, regardless of how they were bound. A PVC to PV binding is a one-to-one mapping.
+A user creates, or has already created in the case of dynamic provisioning, a **PersistentVolumeClaim** with a specific amount of storage requested and with certain access modes. A control loop in the master watches for new PVCs, finds a matching PV (if possible), and binds them together. If a PV was dynamically provisioned for a new PVC, the loop will always bind that PV to the PVC. Otherwise, the user will always get at least what they asked for, but the volume may be in excess of what was requested. Once bound, **PersistentVolumeClaim** binds are exclusive, regardless of how they were bound. A PVC to PV binding is a one-to-one mapping.
 
 3. **Using**
 
 Pods use claims as volumes. The cluster inspects the claim to find the bound volume and mounts that volume for a pod. For volumes which support multiple access modes, the user specifies which mode is desired when using their claim as a volume in a pod.
 
-Once a user has a claim and that claim is bound, the bound PV belongs to the user for as long as they need it. Users schedule Pods and access their claimed PVs by including a**persistentVolumeClaim** in their Pod's volumes block
+Once a user has a claim and that claim is bound, the bound PV belongs to the user for as long as they need it. Users schedule Pods and access their claimed PVs by including a **persistentVolumeClaim** in their Pod's volumes block
 
 4. **Storage Object in Use Protection**
 
@@ -106,7 +106,7 @@ The Recycle option runs an**rm -rf /mountpoint**and then makes it available to a
 
 7. **Expanding Persistant Volumes Claims**
 
-You can only expand a PVC if its storage class's**allowVolumeExpansion** field is set to true.
+You can only expand a PVC if its storage class's **allowVolumeExpansion** field is set to true.
 
 - Resizing a volume containing a file system
 - Resizing an in-use PersistentVolumeClaim
@@ -142,9 +142,9 @@ WhileVolumeSnapshotsallow a user to consume abstract storage resources, cluster 
 
 A **StorageClass** provides a way for administrators to describe the "classes" of storage they offer. Different classes might map to quality-of-service levels, or to backup policies, or to arbitrary policies determined by the cluster administrators. Kubernetes itself is unopinionated about what classes represent. This concept is sometimes called "profiles" in other storage systems.
 
-Each **StorageClass** contains the fields **provisioner**, **parameters**, and **reclaimPolicy**, which are used when a**PersistentVolume** belonging to the class needs to be dynamically provisioned.
+Each **StorageClass** contains the fields **provisioner**, **parameters**, and **reclaimPolicy**, which are used when a **PersistentVolume** belonging to the class needs to be dynamically provisioned.
 
-The name of a**StorageClass** object is significant, and is how users can request a particular class. Administrators set the name and other parameters of a class when first creating **StorageClass** objects, and the objects cannot be updated once they are created.
+The name of a **StorageClass** object is significant, and is how users can request a particular class. Administrators set the name and other parameters of a class when first creating **StorageClass** objects, and the objects cannot be updated once they are created.
 
 <https://kubernetes.io/docs/concepts/storage/storage-classes>
 

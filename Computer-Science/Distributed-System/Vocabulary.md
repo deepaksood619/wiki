@@ -32,7 +32,7 @@ Conflict resolution mechanisms for distributed systems:
 
 ## State Machine Replication
 
-In [computer science](https://en.wikipedia.org/wiki/Computer_science), **state machine replication**or**state machine approach** is a general method for implementing a fault-tolerant service by replicating servers and coordinating client interactions with server replicas. The approach also provides a framework for understanding and designing replication management protocols.
+In [computer science](https://en.wikipedia.org/wiki/Computer_science), **state machine replication** or **state machine approach** is a general method for implementing a fault-tolerant service by replicating servers and coordinating client interactions with server replicas. The approach also provides a framework for understanding and designing replication management protocols.
 <https://en.wikipedia.org/wiki/State_machine_replication>
 
 ## Highy Available and Fault Tolerant
@@ -76,8 +76,10 @@ The different classifications for the kinds of failures we see in a distributed 
 
 ## Error
 
-Errorsare manifestations of faults within our system, and when an error occurs and then spreadsor propagates through the system
+Errors are manifestations of faults within our system, and when an error occurs and then spreadsor propagates through the system
+
 ![image](media/Vocabulary-image4.jpeg)
+
 <https://medium.com/baseds/fantastic-faults-and-what-to-call-them-56d91a1b198c>
 
 <https://medium.com/baseds/modes-of-failure-part-1-6687504bfed6>

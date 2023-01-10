@@ -74,7 +74,7 @@ Attributes you define to describe segments of your user base, such as **language
 
 - **Properties**
 
-In Google Analytics, a**property** is a website, mobile application, or blog, etc., that is associated with a unique tracking ID.
+In Google Analytics, a **property** is a website, mobile application, or blog, etc., that is associated with a unique tracking ID.
 
 While you might think about your website or mobile app as a distinct, real-world piece of property, like a storefront, Analytics understands a property only as a resource associated with your tracking code. When you track a resource using Analytics, you include a property ID in the tracking code that you put on your web pages or in your app source code. Performance data, like number of users or screen views, for resources tagged with the same ID is collected into the corresponding property.
 

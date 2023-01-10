@@ -3,18 +3,13 @@
 ## Live longer
 
 1. Avoid DNA damage
-
 2. Eat less
-
 3. Eat less protein
-
 4. HIIT
-
 5. Be cold
-
 6. Be hot
 
-Taxonomy, which translates from Ancient Greek as "arrangement method," is a tool for categorizing living organisms into groups (ortaxa) based on shared genetic traits and common ancestry. Organisms grouped higher up in the hierarchy share very broad traits, while organisms grouped together farther down the hierarchy are more closely related (they share more genetic traits). Historically, we have classified living organisms into these taxa (in order of increasing specificity): domain, kingdom, phylum, class, order, family, genus, species, [Variety]. (Mnemonic - "**D** ear**K** ing**P** hilip**C** ame**O** ver**F** or**G** ood**S** oup")
+Taxonomy, which translates from Ancient Greek as "arrangement method," is a tool for categorizing living organisms into groups (ortaxa) based on shared genetic traits and common ancestry. Organisms grouped higher up in the hierarchy share very broad traits, while organisms grouped together farther down the hierarchy are more closely related (they share more genetic traits). Historically, we have classified living organisms into these taxa (in order of increasing specificity): domain, kingdom, phylum, class, order, family, genus, species, [Variety]. (Mnemonic - "**D** ear **K** ing **P** hilip **C** ame **O** ver **F** or **G** ood **S** oup")
 
 ## Humans
 

@@ -23,7 +23,7 @@ Kubernetes provides two types of Services.
     - An ExternalName Service is a special case of Service that does not have selectors and uses DNS names instead.
     - When looking up the hostmy-service.prod.svc.cluster.local, the cluster DNS Service returns aCNAMErecord with the valuemy.database.example.com. Accessingmy-serviceworks in the same way as other Services but with the crucial difference that redirection happens at the DNS level rather than via proxying or forwarding. Should you later decide to **move your database into your cluster**, you can start its Pods, add appropriate selectors or endpoints, and change the Service'stype.
 
-For Kubernetes-native applications, Kubernetes offers a simple **Endpoints** API that is updated whenever the set of **Pods** in a**Service** changes. For non-native applications, Kubernetes offers a virtual-IP-based bridge to Services which redirects to the backend **Pods**.
+For Kubernetes-native applications, Kubernetes offers a simple **Endpoints** API that is updated whenever the set of **Pods** in a **Service** changes. For non-native applications, Kubernetes offers a virtual-IP-based bridge to Services which redirects to the backend **Pods**.
 
 ## Headless services
 
