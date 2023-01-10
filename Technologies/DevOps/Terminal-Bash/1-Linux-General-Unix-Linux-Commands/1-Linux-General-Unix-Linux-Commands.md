@@ -565,7 +565,8 @@ openssl genrsa -out key.pem 2048
   cat pass.dec
 
 # Compress, Encrypt, Decyrpt, Uncompress a file (using password in pass.txt)
-  echo content > file.txt
+  echo content > file.txt # overwrite file with content
+  echo content >> file.txt # append content to file.txt
   gzip file.txt
   openssl bf -in file.txt.gz -out file.enc -pass file:pass.txt -e
   openssl bf -in file.enc -out file.dec.gz -pass file:pass.dec -d

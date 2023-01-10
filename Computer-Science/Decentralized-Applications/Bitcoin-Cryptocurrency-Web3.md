@@ -13,6 +13,8 @@
 ## Bitcoin Facts
 
 - Total number of bitcoins that can be issued is 21 million
+- A unit of bitcoin is divisible to eight decimal places (100 millionths of one bitcoin). Hence, it can be purchased in smaller units called a Satoshi - which, as you might have already guessed, was named in homage to Bitcoin’s creator(s) – Satoshi Nakamoto.
+    ![bitcoin](media/bitcoin.svg)
 - 2 pizza for 10,000 bitcoins which are now worth $100 million
 - A new block is added every 10 minutes
 
@@ -21,7 +23,7 @@
 - Built-in currency caller **Ether**
 - Operations in smart contracts have a **gas cost** that gets paid to the miners
 
-## Cryptocurrency
+## Cryptocurrency Terms
 
 <https://hackernoon.com/crypto-baby-talk-first-50-terms-that-you-should-know-about-30a829320b4b>
 

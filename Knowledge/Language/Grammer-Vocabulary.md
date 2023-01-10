@@ -150,6 +150,7 @@ As a general rule, "has" is used in the third person singular ("he", "she", "it"
 - hypocrisy - the practice of claiming to have higher standards or more noble beliefs than is the case
 
 - Catnip - someone or something that is very attractive or appealing to a particular person or group.
+- dire straits - in a very bad situation that is difficult to fix
 
 "both men are aggressive self-promoters and catnip for the media"
 

@@ -50,13 +50,13 @@ WHERE    a.slice = 0
 ORDER BY 4 desc, db_id, name;
 
 -- show all users and Grant
- select usesysid as user_id,
-        usename as username,
-        usecreatedb as db_create,
-        usesuper as is_superuser,
-        valuntil as password_expiration
- from pg_user
- order by user_id;
+select usesysid as user_id,
+       usename as username,
+       usecreatedb as db_create,
+       usesuper as is_superuser,
+       valuntil as password_expiration
+from pg_user
+order by user_id;
 
  CREATE USER intern2_datascience WITH password 's4XfxXE8D8FqXxNH';
  grant usage on schema data_analytics to developer; (important for 1st time)

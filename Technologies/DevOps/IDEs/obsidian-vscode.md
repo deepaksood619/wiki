@@ -47,6 +47,7 @@
 ## Other Extensions
 
 - Markdown Preview Enhanced
+  - <https://shd101wyy.github.io/markdown-preview-enhanced>
 - markdownlint
 - markdown-link-expander
   [markdown-link-expander - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=skn0tt.markdown-link-expander)

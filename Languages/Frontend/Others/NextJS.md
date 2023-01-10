@@ -9,7 +9,7 @@ To build a complete web application with React from scratch, there are many impo
 - You might want to statically pre-render some pages for performance and SEO. You might also want to use server-side rendering or client-side rendering.
 - You might have to write some server-side code to connect your React app to your data store.
 
-Aframeworkcan solve these problems. But such a framework must have the right level of abstraction - otherwise it won't be very useful. It also needs to have great "Developer Experience", ensuring you and your team have an amazing experience while writing code.
+A framework can solve these problems. But such a framework must have the right level of abstraction - otherwise it won't be very useful. It also needs to have great "Developer Experience", ensuring you and your team have an amazing experience while writing code.
 
 EnterNext.js, the React Framework. Next.js provides a solution to all of the above problems. But more importantly, it puts you and your team in the pit of success when building React applications.
 

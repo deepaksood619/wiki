@@ -36,6 +36,8 @@ Moral of the story : *DOCUMENTATION IS VERY IMPORTANT*
 
 Credit : Swami.V
 
+## Others
+
 We are all humans until we are pregnant -- Giles Yao
 
 What does YES sound like, now what does EYES sound like?

@@ -42,8 +42,8 @@ Request Flow
 Optimizations
 
 1. Cache in CDN (Content Delivery Networks)
-
 2. Cache results in Local Machine
-![ii9 ](media/System-Design-Autocomplete-or-TypeAhead-image1.png)
-![DO 0 ](media/System-Design-Autocomplete-or-TypeAhead-image2.png)
-![Neo プ ャ ](media/System-Design-Autocomplete-or-TypeAhead-image3.png)
+
+![image](media/System-Design-Autocomplete-or-TypeAhead-image1.png)
+![image](media/System-Design-Autocomplete-or-TypeAhead-image2.png)
+![image](media/System-Design-Autocomplete-or-TypeAhead-image3.png)

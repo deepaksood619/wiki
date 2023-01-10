@@ -17,3 +17,7 @@ The take-up rate measures the percentage of eligible people who accept a particu
 ## Tools
 
 - [Sendbird - A Complete Chat Platform, Messaging and Chat API and SDK | Sendbird](https://sendbird.com/)
+
+## Others
+
+GameFi (gaming + finance), especially play-to-earn (P2E) games

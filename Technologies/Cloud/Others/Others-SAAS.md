@@ -8,12 +8,16 @@ Stock Photos - <https://unsplash.com>
 
 <https://nimbletext.com/Live>
 
-## CDN
+## CDN (Content Delivery Network)
 
 - Cloudflare
 - fastly
 - Cloudfront
 - Akamai
+- Imagekit
+  - <https://imagekit.io>
+  - Image crop with Focus mode
+  - <https://docs.imagekit.io/features/image-transformations/resize-crop-and-other-transformations#focus-fo>
 
 ## Cloudflare
 
