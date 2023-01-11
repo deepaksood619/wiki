@@ -1,28 +1,20 @@
 # VSCode / VS Code
 
-# Remove empty lines
-
-`Regex - ^(s)*$n`
+ Remove empty lines - `Regex - ^(s)*$n`
 
 ## Debugging Python
 
-<https://github.com/microsoft/ptvsd>
-
-<https://www.youtube.com/watch?v=b78Tg-YmJZI>
+- <https://github.com/microsoft/ptvsd>
+- <https://www.youtube.com/watch?v=b78Tg-YmJZI>
 
 ## CodeServer / Online Machine Environments
 
-VS Code in the browser
-
-<https://github.com/cdr/code-server>
-
-<https://coder.com>
-
-<https://vscode.dev>
-
-<https://github.com/conwnet/github1s>
-
-Gitpod - <https://www.freecodecamp.org/news/exampro-cloud-developer-environment-certification-gitpod-course>
+- VS Code in the browser
+- <https://github.com/cdr/code-server>
+- <https://coder.com>
+- <https://vscode.dev>
+- <https://github.com/conwnet/github1s>
+- Gitpod - <https://www.freecodecamp.org/news/exampro-cloud-developer-environment-certification-gitpod-course>
 
 codeanywhere
 
@@ -70,9 +62,10 @@ codeanywhere
 - CTRL + G = Go to line
 - CMD + SHIFT + F = search whole project
 - CMD + SHIFT + H = Find and replace whole project
-- `cmd + opt + <-`
-- `cmd + opt + ->`
+- `cmd + opt + <-` = move left in open editors
+- `cmd + opt + ->` = move right in open editors
 - `cmd + K + cmd + S` = show all shortcuts
+- `cmd + shift + T` = reopen last closed tab
 
 ## Changed commands
 
@@ -104,12 +97,12 @@ Command + Shit + p (directly run commands)
 - **Unfold All** unfolds all regions in the editor:
   - ⌘+ (K=>J) on macOS
 
-- Ctrl - (go back)
-- Ctrl Shift - (go forward)
-- Shift Option F (Format document)
-- Option + Command + Up/Down - Multiline cursor
-- **Select All > Option + shift + i - Every line multiline cursor**
-- **Search > Command + Shift + L - Cursor in every searched line**
+- `Ctrl -` (go back)
+- `Ctrl Shift -` (go forward)
+- `Shift + Option F` (Format document)
+- `Option + Command + Up/Down` - Multiline cursor
+- Select All > `Option + shift + i` - Every line multiline cursor
+- Search > `Command + Shift + L` - Cursor in every searched line
 
 ![image](../../media/DevOps-IDEs-VSCode-VS-Code-image1.png)
 

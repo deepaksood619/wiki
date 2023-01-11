@@ -1,15 +1,14 @@
 {
   "private": true,
-  "name": "wiki",
+  "name": "notes",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop -H 0.0.0.0",
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build",
     "clean": "gatsby clean",
-    "serve": "gatsby serve --prefix-paths",
-    "test": "echo test"
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "gatsby": "4.6.0",

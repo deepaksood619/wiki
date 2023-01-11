@@ -24,6 +24,7 @@ gatsby new
 gatsby develop
 gatsby develop -H 0.0.0.0 -p 8001
 
+gatsby build
 gatsby build --prefix-paths
 ```
 

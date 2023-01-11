@@ -1,13 +1,13 @@
 const path = require("path");
-const pathPrefix = "/wiki/";
+const pathPrefix = "/";
 const siteMetadata = {
-  title: "Everything that I know",
-  shortName: "Deepak Wiki",
+  title: "Deep Notes",
+  shortName: "Deep Notes",
   description:
-  "Accumulating thoughts, knowledge, tips and anything that is worth keeping a not of. These notes are build using the obsidian tool and deployed here as well for easy access.",
+  "Accumulating thoughts, knowledge, tips and anything that is worth keeping a note of.",
   twitterName: "deepaksood619",
   imageUrl: "/graph-visualisation.jpg",
-  siteUrl: "https://deepaksood619.github.io/wiki/",
+  siteUrl: "https://deepaksood619.github.io/",
 };
 module.exports = {
   siteMetadata,
@@ -30,7 +30,7 @@ module.exports = {
         nav: [
           {
             title: "Github",
-            url: "https://github.com/deepaksood619/wiki/",
+            url: "https://github.com/deepaksood619/deepaksood619.github.io/",
           },
           {
             title: "Twitter",
@@ -38,7 +38,7 @@ module.exports = {
           },
         ],
         editUrl:
-          "https://github.com/deepaksood619/wiki/tree/main/",
+          "https://github.com/deepaksood619/deepaksood619.github.io/tree/master/",
       },
     },
     {

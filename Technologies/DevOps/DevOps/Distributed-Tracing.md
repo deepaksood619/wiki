@@ -21,16 +21,13 @@ The first service that receives a client request should generate the correlation
 ## Tools
 
 1. Grafana Tempo - <https://grafana.com/oss/tempo>
-
 2. Twitter zipkin
-
 3. Google Dapper - <https://ai.google/research/pubs/pub36356>
-
 4. Jaeger
 
 <https://medium.com/@masroor.hasan/tracing-infrastructure-with-jaeger-on-kubernetes-6800132a677>
 
-# SE Radio - 337: Distributed Tracing
+## SE Radio - 337: Distributed Tracing
 
 #### *Robert Blumen with Ben Sigelman*
 
