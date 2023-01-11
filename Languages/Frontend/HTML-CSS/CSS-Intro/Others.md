@@ -41,9 +41,7 @@ Since Sass 3, the new Sass syntax and file extension are called SCSS.
 ## Features
 
 1. Mixins
-
 2. Functions
-
 3. Maps / Lists
 
 ## SASS - Syntactically Awesome Style Sheets

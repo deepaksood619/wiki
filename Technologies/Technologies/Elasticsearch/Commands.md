@@ -13,7 +13,6 @@ PUT /megacorp/_doc/1
     "interests": [ "sports", "music" ]
 }
 
-
 GET /megacorp/employee/1
 
 // Retrieving part of a document

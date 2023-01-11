@@ -6,13 +6,15 @@ CSS Positions allow you to manipulate how elements are positioned to achieve man
 
 CSS Position allows up to 5 different values. But essentially only 4 values are commonly used.
 
+```css
 div {
-position: static; /*default*/
-position: relative;
-position: absolute;
-position: fixed;
-position: inherit; /*Not very common*/
+    position: static; /* default */
+    position: relative;
+    position: absolute;
+    position: fixed;
+    position: inherit; /* Not very common */
 }
+```
 
 ## Static
 

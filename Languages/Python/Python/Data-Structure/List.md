@@ -156,16 +156,16 @@ Notethat, because you have keys and values that link to each other, the performa
 
 ## List vs Array
 
-| **LIST**                                                                  | **ARRAY**                                                             |
-|-------------------------------------|-----------------------------------|
-| Can consist of elements belonging to different data types                 | Only consists of elements belonging to the same data type             |
-| No need to explicitly import a module for declaration                     | Need to explicitly import a module for declaration                    |
-| Cannot directly handle arithmetic operations                              | Can directly handle arithmetic operations                             |
-| Can be nested to contain different type of elements                       | Must contain either all nested elements of same size                  |
-| Preferred for shorter sequence of data items                              | Preferred for longer sequence of data items                           |
+| **LIST** | **ARRAY** |
+|:---:|:---:|
+| Can consist of elements belonging to different data types | Only consists of elements belonging to the same data type |
+| No need to explicitly import a module for declaration | Need to explicitly import a module for declaration |
+| Cannot directly handle arithmetic operations | Can directly handle arithmetic operations |
+| Can be nested to contain different type of elements | Must contain either all nested elements of same size |
+| Preferred for shorter sequence of data items | Preferred for longer sequence of data items |
 | Greater flexibility allows easy modification (addition, deletion) of data | Less flexibility since addition, deletion has to be done element wise |
-| The entire list can be printed without any explicit looping               | A loop has to be formed to print or access the components of array    |
-| Consume larger memory for easy addition of elements                       | Comparatively more compact in memory size                             |
+| The entire list can be printed without any explicit looping | A loop has to be formed to print or access the components of array |
+| Consume larger memory for easy addition of elements | Comparatively more compact in memory size |
 
 So, when should you use a list and when should you use an array?
 
@@ -183,11 +183,8 @@ Ex - slice this in hh mm and tt
 
 ```python
 a = "01:20 am"
-
 H = a[0:2]
-
 M = a[3:5]
-
 T = a[6:8] / a[-2:] # start at the end -2 and go to end of the list
 ```
 
@@ -195,38 +192,37 @@ T = a[6:8] / a[-2:] # start at the end -2 and go to end of the list
 
 List comprehensions are an elegant way to build a list without having to use different for loops to append values one by one.
 
-Ex -
-
+```python
 x = int ( input())
 y = int ( input())
 n = int ( input())
 print ( [ [ i, j] for i in range( x + 1) for j in range( y + 1) if ( ( i + j ) != n ) ] )
+```
 
 ## Remove all instances of a value from a list
 
+```python
 pets = ['dog', 'cat', 'dog', 'fish', 'cat']
-
 while 'cat in pets:
-
-perts.remove('cat')
+  perts.remove('cat')
+```
 
 ## Rotate a list clockwise
 
+```python
 lst = [1,2,3]
-
 n = len(lst)
-
 k = 1 #number of times to rotate #k = k%n if multiple rotation
-
 lst[n-k:] + lst[:n-k]
+```
 
 ## Sorting a list
 
+```python
 lst.sort()
-
 tup.sort(key **= lambda** x: x[1])#sort a list of tuples by second key
-
 tup.sort() # sort a list of tuples by 1st key, if 1st keys are same then 2nd key will be used to sort
+```
 
 ## References
 

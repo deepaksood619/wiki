@@ -90,7 +90,6 @@ data:
             }
     }
 
-
 # production.conf
 upstream api {
 server api:6379;

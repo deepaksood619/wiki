@@ -227,25 +227,31 @@ Managed Cassandra-compatible database
 13. Amazon Quantum Ledger Database (QLDB)
 
 Fully managed ledged database
-| **Database Type** | **Use Cases**                                                                                  | **AWS Service**                                                                                                                                                                                |
-|--------------|--------------------------------|---------------------------|
-| Relational        | Traditional applications, ERP, CRM, e-commerce                                                 | [Amazon Aurora](https://aws.amazon.com/rds/aurora/?c=db&sec=srv)|[Amazon RDS](https://aws.amazon.com/rds/?c=db&sec=srv)|[Amazon Redshift](https://aws.amazon.com/redshift/?c=db&sec=srv) |
-| Key-value         | High-traffic web apps, e-commerce systems, gaming applications                                 | [Amazon DynamoDB](https://aws.amazon.com/dynamodb/?c=db&sec=srv)                                                                                                                               |
-| In-memory         | Caching, session management, gaming leaderboards, geospatial applications                      | [Amazon ElastiCache for Memcached](https://aws.amazon.com/elasticache/memcached/?c=db&sec=srv)|[Amazon ElastiCache for Redis](https://aws.amazon.com/elasticache/redis/?c=db&sec=srv)       |
-| Document          | Content management, catalogs, user profiles                                                    | [Amazon DocumentDB](https://aws.amazon.com/documentdb/?c=db&sec=srv)                                                                                                                           |
-| Wide-column       | High scale industrial apps for equipment maintenance, fleet management, and route optimization | [Amazon Managed Apache Cassandra Service](https://aws.amazon.com/mcs/?c=db&sec=srv)                                                                                                            |
-| Graph             | Fraud detection, social networking, recommendation engines                                     | [Amazon Neptune](https://aws.amazon.com/neptune/?c=db&sec=srv)                                                                                                                                 |
-| Time series       | IoT applications, DevOps, industrial telemetry                                                 | [Amazon Timestream](https://aws.amazon.com/timestream/?c=db&sec=srv)                                                                                                                           |
-| Ledger            | Systems of record, supply chain, registrations, banking transactions                           | [Amazon Quantum Ledger Database](https://aws.amazon.com/qldb/?c=db&sec=srv)                                                                                                                    |
+
+| **Database Type** | **Use Cases** | **AWS Service** |  |  |
+|---|---|---|---|---|
+| Relational | Traditional applications, ERP, CRM, e-commerce | [Amazon Aurora](https://aws.amazon.com/rds/aurora/?c=db&sec=srv) | [Amazon RDS](https://aws.amazon.com/rds/?c=db&sec=srv) | [Amazon Redshift](https://aws.amazon.com/redshift/?c=db&sec=srv) |
+| Key-value | High-traffic web apps, e-commerce systems, gaming applications | [Amazon DynamoDB](https://aws.amazon.com/dynamodb/?c=db&sec=srv) |  |  |
+| In-memory | Caching, session management, gaming leaderboards, geospatial applications | [Amazon ElastiCache for Memcached](https://aws.amazon.com/elasticache/memcached/?c=db&sec=srv) | [Amazon ElastiCache for Redis](https://aws.amazon.com/elasticache/redis/?c=db&sec=srv) |  |
+| Document | Content management, catalogs, user profiles | [Amazon DocumentDB](https://aws.amazon.com/documentdb/?c=db&sec=srv) |  |  |
+| Wide-column | High scale industrial apps for equipment maintenance, fleet management, and route optimization | [Amazon Managed Apache Cassandra Service](https://aws.amazon.com/mcs/?c=db&sec=srv) |  |  |
+| Graph | Fraud detection, social networking, recommendation engines | [Amazon Neptune](https://aws.amazon.com/neptune/?c=db&sec=srv) |  |  |
+| Time series | IoT applications, DevOps, industrial telemetry | [Amazon Timestream](https://aws.amazon.com/timestream/?c=db&sec=srv) |  |  |
+| Ledger | Systems of record, supply chain, registrations, banking transactions | [Amazon Quantum Ledger Database](https://aws.amazon.com/qldb/?c=db&sec=srv) |  |  |
+
 <https://aws.amazon.com/products/databases>
 
 ## Row Oriented vs Column Oriented (columnar) Databases
 
 Here is an example: Say we have a table that stores the following data for 1M users:user_id, name, # logins, last_login. So we effectively have 1M rows and 4 columns. A row-oriented data store will physically store each user's data (i.e., each row) contiguously on disk. By contrast, a columnar store will store all of the user_id's together, all of the names together, and so forth, so that each column's data is stored contiguously on disk.
+
 As a result, shallow-and-wide queries will be faster on a row store (e.g., "fetch all data for user X"), while deep-and-narrow queries will be faster on a column store (e.g., "calculate the average number of logins for all users").
 In particular, columnar stores do really well with narrow queries over very wide data. With such storage, only the designated columns need to be read from disk (rather than bringing in pages of data from disk with the entire rows, then selecting one or a few columns just in memory).
+
 Additionally, because individual columns of data are typically the same type and are often drawn from a more limited domain or range, they typically compress better than an entire wide row of data comprising many different data types and ranges. For example, our column of number of logins would all be of an integer type and may cover a small range of numeric values.
+
 Yet columnar stores are not without trade-offs. First of all, inserts take much longer: the system needs to split each record into the appropriate columns and write it to disk accordingly. Second, it is easier for row-based stores to take advantage of an index (e.g., B-tree) to quickly find the appropriate records. Third, with a row-store it is easier to normalize your dataset, such that you can more efficiently store related datasets in other tables.
+
 As a result, the choice of row-oriented vs. columnar database greatly depends on your workload. Typically, row-oriented stores are used with transactional (OLTP) workloads, while columnar stores are used with analytical (OLAP) workloads.
 <https://blog.timescale.com/blog/building-columnar-compression-in-a-row-oriented-database>
 
@@ -259,40 +265,38 @@ SELECT COUNT(1) from people where last_name = "Rathbone"
 
 With a regular CSV a SQL engine would have to scan every row, parse each column, extract thelast_namevalue, then count allRathbonevalues that it sees.
 In CCSV, the SQL engine can skip past the first two fields and simply scan line 3, which contains all the last name values available.
+
 Why is that good? Well now the SQL engine is only processing around 1/6 of the data, so CCSV just delivered a (theoretical and totally unsubstantiated)600% performance improvement vs regular CSV files.
+
 Imagine the same gains against a petabyte-scale dataset. It is not hard to imagine columnar file format optimizations saving a tonne of processing power (and money) compared to regular JSON datasets. This is the core value of columnar file formats.
+
 Of course, in reality there is more work that CCSV would need to do to be a viable file format, but that is getting a little into the weeds, so I will not cover those topics here.
 
 ## COMPRESSION IMPROVEMENTS
 
 Storing like-data together also has advantages for compression codecs. Many compression codecs (including GZIP and Snappy) have a higher compression-ratio when compressing sequences of similar data. By storing records column-by-column, in many cases each section of column data will contain similar values - that makes it ripe for compression. In fact, each column could be compressed independently of the others to optimize this further.
+
 The final benefit is that compression and dense-packing in columnar databases free up space - space that may be used to sort and index data within the columns. In other words, **columnar databases have higher sorting and indexing efficiency**, which comes more as a side benefit of having some leftover space from strong compression. It is also, in fact, mutually beneficial: researchers who study columnar databases point out that sorted data compress better than unsorted data, because sorting lowers entropy.
 
 ## Negatives of Columnar Formats
 
 The biggest negative of columnar formats is that re-constructing a complete record is slower and requires reading segments from each row, one-by-one. It is for this reason that columnar-file-formats initially hit their groove for analytics-style workflows, rather than Map/Reduce style workflows - which by default operate on whole rows of data at a time.
 For real columnar file formats (like [Parquet](http://parquet.apache.org/)), this downside is minimized by some clever tricks like breaking the file up into 'row groups' and building extensive metadata, although for particularly wide datasets (like 200+ columns), the speed impact can be fairly significant.
+
 The other downside, is that they are more CPU and ram intensive to write, as the file writer needs to collect a whole bunch of metadata, and reorganize the rows before it can write the file.
+
 <https://blog.matthewrathbone.com/2019/11/21/guide-to-columnar-file-formats.html>
 
 ## Choosing the Database
 
 1. Instant performance (respond in less than 1ms)
-
 2. Scalability (Linear and horizontal scaling)
-
 3. High availability (quickly recover from database failure without loss of data, replication)
-
 4. Tiered memory support (hottest data in DRAM and warm data in persistent memory)
-
 5. Simplicity and extensibility
-
 6. Developer tools
-
 7. Cloud native
-
 8. Open source
-
 9. NoSQL for the future
 
 ## In-Memory Databases (IMDB) and In-Memory Data Grids (IMDG)
@@ -303,11 +307,12 @@ One of the crucial differences between In-Memory Data Grids and In-Memory Databa
 ## RDBMS
 
 A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database. Most relational database management systems use the SQL language to access the database.
-Arelational databaseis a type of database. It uses a structure that allows us to identify and access datain relationto another piece of data in the database. Often, data in a relational database is organized into tables.
 
-## Columns - Tables can have hundreds, thousands, sometimes even millions of columns of data. Columns are labeled with a descriptive name (say, age) and have a specificdata type
+A relational database is a type of database. It uses a structure that allows us to identify and access datain relationto another piece of data in the database. Often, data in a relational database is organized into tables.
 
-## Rows/Records - Tables can also have manyrowsof data. These rows are often calledrecords
+Columns - Tables can have hundreds, thousands, sometimes even millions of columns of data. Columns are labeled with a descriptive name (say, age) and have a specific data type
+
+Rows/Records - Tables can also have many rows of data. These rows are often called records
 
 ## Resources
 

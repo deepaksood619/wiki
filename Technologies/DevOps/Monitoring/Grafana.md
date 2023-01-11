@@ -99,7 +99,7 @@ Use the Query Editor to build one or more queries (for one or more series) in yo
 
 You can utilize [Template variables](http://docs.grafana.org/reference/templating/) in the Query Editor within the queries themselves. This provides a powerful way to explore data dynamically based on the Templating variables selected on the Dashboard.
 
-Grafana allows you to reference queries in the Query Editor by the row that they're on. If you add a second query to graph, you can reference the first query simply by typing in #A. This provides an easy and convenient way to build compounded queries.
+Grafana allows you to reference queries in the Query Editor by the row that they're on. If you add a second query to graph, you can reference the first query simply by typing in `#A`. This provides an easy and convenient way to build compounded queries.
 
 - **Dashboard**
 

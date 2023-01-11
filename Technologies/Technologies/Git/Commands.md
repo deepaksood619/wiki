@@ -116,6 +116,16 @@ git clean -f -i (clean the working directory interactively)
 -n (to dry-run the operation and display the results without actually deleting anything)
 ```
 
+## Delete all files expect `.git`
+
+```bash
+# Resetting the index is cheap, so
+git rm -rf .
+git clean -fxd
+
+# Then you can reset the index (with git reset) or go straight on to checking out a new branch.
+```
+
 ## Undo all unstaged local changes
 
 ```bash

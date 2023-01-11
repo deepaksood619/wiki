@@ -25,7 +25,6 @@ resource "aws_eip" "ip" {
  instance = aws_instance.example.id
 }
 
-
 ## Explicit Dependency Example
 # New resource for the S3 bucket our application will use.
 resource "aws_s3_bucket" "example" {

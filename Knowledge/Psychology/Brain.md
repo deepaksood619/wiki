@@ -82,11 +82,9 @@ If you visit a new place, you can try to visualize your way back home in your mi
 ## Brain Tricks
 
 1. What does J O K E spell, what does P O K E spell, what's the white part of the egg.
-
-Everyone will say YOKE, but its albumen and the yellow part is YOLK
+  Everyone will say YOKE, but its albumen and the yellow part is YOLK
 
 2. Shake your hand, make a fist and put it to your chin (put it to your head)
-
 3. The combined cost of a ball and a bat equals Rs. 110. The bat costs Rs. 100 more than the ball. How much does the ball cost? (Answer is Rs. 5)
 
 ## Physical brain tricks
@@ -95,7 +93,7 @@ Everyone will say YOKE, but its albumen and the yellow part is YOLK
 
 ## Optical Illusions
 
-[Never trust your brain #shorts](https://www.youtube.com/watch?v=fpKyR5ybG4M)
+[Never trust your brain](https://www.youtube.com/watch?v=fpKyR5ybG4M)
 
 [The Image You Can Only See Once](https://youtu.be/0pUku1Vk7e0)
 

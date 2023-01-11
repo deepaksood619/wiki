@@ -47,7 +47,7 @@ CSS is easy to learn and understand but it provides powerful control over the pr
 
 ## Selectors
 
-- id - #button
+- id - `#button`
 - class - .button
 - tag - a - find all element tag
 
@@ -58,31 +58,31 @@ CSS is easy to learn and understand but it provides powerful control over the pr
 ## Advanced Selectors
 
 - tag selector `<tag>`
-- class selector .container
-- id selector - #container
-- Stacked selectors (a, strong { color: red; })
-- All selector (* { margin: 0; padding: 0; })
-- Descendant selector ( li a { color: red; })
-- Direct Descendant selector (.container > ul { border: 6px solid red; }) (One layer deep childrens and not other layers)
-- Adjacent Selectors (ul + p { color: red; }) (only the adjacent p to ul gets selected)
-- Sibling Combinator (ul ~ p { color: red; }) (any paragraph following ul will be selected)
-- Pseudo Selectors (a:hover { color: red; })
-- Nth selector (p:first-child { color: red; }) (first-child, last-of-type, nth-child(3), nth-child(odd), nth-child(even), nth-child(3n))
+- class selector `.container`
+- id selector - `#container`
+- Stacked selectors `(a, strong { color: red; })`
+- All selector `(* { margin: 0; padding: 0; })`
+- Descendant selector `( li a { color: red; })`
+- Direct Descendant selector `(.container > ul { border: 6px solid red; })` (One layer deep childrens and not other layers)
+- Adjacent Selectors `(ul + p { color: red; })` (only the adjacent p to ul gets selected)
+- Sibling Combinator `(ul ~ p { color: red; }`)` (any paragraph following ul will be selected)
+- Pseudo Selectors `(a:hover { color: red; })`
+- Nth selector `(p:first-child { color: red; })` (first-child, last-of-type, nth-child(3), nth-child(odd), nth-child(even), nth-child(3n))
 
 ## CSS Units
 
-| em   | Relative to the font-size of the element (2em means 2 times the size of the current font) |
-|---------|---------------------------------------------------------------|
-| ex   | Relative to the x-height of the current font (rarely used)                                |
-| ch   | Relative to the width of the "0" (zero)                                                 |
-| rem  | Relative to font-size of the root element                                                 |
-| vw   | Relative to 1% of the width of the viewport*                                             |
-| vh   | Relative to 1% of the height of the viewport*                                            |
-| vmin | Relative to 1% of viewport's* smaller dimension                                         |
-| vmax | Relative to 1% of viewport's* larger dimension                                          |
-| %   | Relative to the parent element                                                            |
+| em | Relative to the font-size of the element (2em means 2 times the size of the current font) |
+|:---:|:---:|
+| ex | Relative to the x-height of the current font (rarely used) |
+| ch | Relative to the width of the "0" (zero) |
+| rem | Relative to font-size of the root element |
+| vw | Relative to 1% of the width of the viewport* |
+| vh | Relative to 1% of the height of the viewport* |
+| vmin | Relative to 1% of viewport's* smaller dimension |
+| vmax | Relative to 1% of viewport's* larger dimension |
+| % | Relative to the parent element |
 
-## Tip:The em and rem units are practical in creating perfectly scalable layout
+**Tip:** The em and rem units are practical in creating perfectly scalable layout
 
 - Viewport = the browser window size. If the viewport is 50cm wide, 1vw = 0.5cm.
 

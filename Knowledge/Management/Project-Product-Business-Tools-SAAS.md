@@ -46,7 +46,7 @@ The conceptual data model breaks down like this:
 
 <https://www.nocodb.com> (Airtable Alternative)
 
-NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet.
+NocoDB is an open source NoCode platform that turns any database into a smart spreadsheet.
 
 <https://github.com/nocodb/nocodb>
 

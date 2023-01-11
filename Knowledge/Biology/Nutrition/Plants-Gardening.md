@@ -10,9 +10,9 @@ Aloe vera, English ivy air purifying plants
 
 4. Areca palm
 
-[Areca Palm Complete Care Tips | How to Save Areca Palm Leaves | How to water Areca Palm #arecapalm](https://www.youtube.com/watch?v=QPuoVzjkNpc)
+[Areca Palm Complete Care Tips | How to Save Areca Palm Leaves | How to water Areca Palm](https://www.youtube.com/watch?v=QPuoVzjkNpc)
 
-5. monstera
+1. monstera
 
 [Common House Plants with Names || Must Have Plants in your Garden](https://www.youtube.com/watch?v=PR8lbGBLYI4)
 

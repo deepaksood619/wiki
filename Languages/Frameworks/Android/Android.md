@@ -19,7 +19,7 @@ Judo brings server-driven UI to your iOS and Android apps. Build user interfaces
 
 [Memory Leak - Part 1, Curious Case of Memory Leak](https://www.youtube.com/watch?v=OqalhCheKXQ)
 
-# Contexts = #Activities + #Services + #1 Application Context
+Contexts = Activities + Services + 1 Application Context
 
 ![image](media/Android-image1.png)
 
@@ -28,29 +28,22 @@ Judo brings server-driven UI to your iOS and Android apps. Build user interfaces
 Layouts
 
 1. Drawer layout
-
 2. Linear layout
-
 3. Relative layout
-
 4. Constraint layout
-
 5. Coordinator layout
-
 6. Tabbed layout
 
 Eventbus greenbot
 
 ORM greenbot
 
-## SQLite Database
+### SQLite Database
 
-## How to corrupt - <https://sqlite.org/howtocorrupt.html>
+How to corrupt - <https://sqlite.org/howtocorrupt.html>
 
 RxJava
-
 GCM
-
 Mosquitto MQTT Broker
 
 ## Serializable vs Parcelable

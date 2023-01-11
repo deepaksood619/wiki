@@ -141,3 +141,8 @@ Below are some of the key features of Hyperledger Fabric and what differentiates
 - A pure timestamping hash chain/Merkle tree (without consensus overhead) can be useful
 ![image](media/Blockchain-image6.jpg)
 <https://blog.chain.link/what-is-the-blockchain-oracle-problem>
+
+## Tools
+
+- [10 Most Used Blockchain tools In 2023 For Blockchain Development | upGrad blog](https://www.upgrad.com/blog/top-blockchain-tools/)
+- [List of 10 Best Blockchain Tools](https://101blockchains.com/best-blockchain-tools/)

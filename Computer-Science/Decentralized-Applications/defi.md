@@ -47,3 +47,4 @@
 <https://www.youtube.com/watch?v=p9iTNsh9bSk>
 
 [Youtube DeFi Crash Course](https://www.youtube.com/playlist?list=PLZYHS2HeJ5ejvwRrGI4Wgi5HVVwvvow7R)
+[What is DeFi? A Beginner’s Guide to Decentralized Finance](https://www.youtube.com/watch?v=btB__oHQ0sU)

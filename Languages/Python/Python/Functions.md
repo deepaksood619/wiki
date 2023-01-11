@@ -84,7 +84,6 @@ def create_pizza(item_number, *toppings):
 
     return pizza
 
-
 print (create_pizza(1, 'onion', 'tomato'))
 print (create_pizza(2, 'mushroom'))
 
@@ -99,7 +98,6 @@ def create_pizza(item_number, **toppings):
 
 print (create_pizza(1, topping1='onion', topping2='tomato'))
 print (create_pizza(2, topping='mushroom'))
-
 
 # another instance of *
 def print_args(d1, d2, d3):

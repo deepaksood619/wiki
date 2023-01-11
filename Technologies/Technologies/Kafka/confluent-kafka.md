@@ -36,10 +36,8 @@ def print_on_assign(consumer, partitions):
 
     logging.info(f'position: {c.position(partitions=partitions)}')
 
-
 def print_on_revoke(consumer, partitions):
     logging.info(f'Revoke Assignment: {partitions}')
-
 
 c.subscribe(['bank_data'], on_assign=print_on_assign, on_revoke=print_on_revoke)
 

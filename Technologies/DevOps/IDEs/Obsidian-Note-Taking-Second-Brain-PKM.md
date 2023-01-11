@@ -1,4 +1,4 @@
-# Obsidian / Note Taking / Second Brain
+# Obsidian / Note Taking / Second Brain / PKM
 
 Your brain is for having ideas not holding them
 

@@ -87,7 +87,6 @@ chocolateData %>%
       summarise(averageRating = mean(Rating),
                sdRating = sd(Rating))
 
-
 # Return the average and sd of ratings by the year a rating was given
 chocolateData %>%
       group_by(Review_Date) %>%

@@ -6,17 +6,15 @@
 - Property
 - Value
 
-// Inside the selector is called declaration
+```css
+/* Inside the selector is called declaration */
 
 Selector {
-
-Property: value;
-
-Property: value;
-
-Property: value;
-
+  Property: value;
+  Property: value;
+  Property: value;
 }
+```
 
 <https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage>
 
@@ -73,52 +71,28 @@ This is a more powerful way of specifying your columns and rows. Let's take our 
 
 ## Responsive Web Design
 
-Fluid Layout
-
-Media Queries
-
-Box Model (margin, border, padding, content)
-
-Selector
-
-Attributes
-
-Span
-
-browser specific prefixes (for all browser supports)
-
-<https://www.udacity.com/course/responsive-web-design-fundamentals--ud893>
-
-Patterns
-
-Grid Fluid System
-
-Category -
-
-Mostly Fluid
-
-Layout Shifter
-
-Column Drop
-
-Off canvas
-
-SrcSet for images for different sizes
-
-Art Direction
-
-Responsive Images
-
-Simple Cropping
-
-Grid System
-
-Art Direction
-
-Variable Width
-
-picture element
-
-Data URI (Convert images in base64 encoding)
-
-image sprites (CSS spriting is a technique whereby a number of images are combined into a single "sprite sheet" image)
+- Fluid Layout
+- Media Queries
+- Box Model (margin, border, padding, content)
+- Selector
+- Attributes
+- Span
+- browser specific prefixes (for all browser supports)
+- <https://www.udacity.com/course/responsive-web-design-fundamentals--ud893>
+- Patterns
+  - Grid Fluid System
+- Category -
+- Mostly Fluid
+- Layout Shifter
+- Column Drop
+- Off canvas
+- SrcSet for images for different sizes
+- Art Direction
+- Responsive Images
+- Simple Cropping
+- Grid System
+- Art Direction
+- Variable Width
+- picture element
+- Data URI (Convert images in base64 encoding)
+- image sprites (CSS spriting is a technique whereby a number of images are combined into a single - "sprite sheet" image)

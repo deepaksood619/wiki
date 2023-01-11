@@ -156,7 +156,6 @@ SELECT column_name(s)
 FROM table_name
 WHERE column_name LIKE pattern;
 
-
 SELECT * FROM movies WHERE name LIKE 'Se_en';
 
 -- MY SQL

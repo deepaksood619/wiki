@@ -96,61 +96,45 @@ The connector requires a [Confluent enterprise license](https://www.confluent.io
 
 ## Commands
 
-## # using confluent mqtt source connector
+```bash
+# using confluent mqtt source connector
+docker exec kafka-connect curl -s -X POST -H "Content-Type: application/json" --data '{"name": "smap-mqtt-source", "config": {"connector.class": "io.confluent.connect.mqtt.MqttSourceConnector", "tasks.max":"1", "mqtt.server.uri":"tcp://emqx:1883", "mqtt.topics":"telemetry/#", "kafka.topic": "smap_telemetry_data",  "mqtt.username":"zenatix_mqtt_client", "mqtt.password":"xitanez123"}}' http://kafka-connect:8082/connectors
 
-docker exec kafka-connect curl -s -X POST -H "Content-Type: application/json" --data '{"name": "smap-mqtt-source", "config": {"connector.class": "io.confluent.connect.mqtt.MqttSourceConnector", "tasks.max":"1", "mqtt.server.uri":"tcp://emqx:1883", "mqtt.topics":"telemetry/#", "kafka.topic": "smap_telemetry_data", "mqtt.username":"example_mqtt_client", "mqtt.password":"xitanez123"}}' <http://kafka-connect:8082/connectors>
-
-## errors.log.enable = false
-
+errors.log.enable = false
 errors.log.include.messages = false
-
 errors.retry.delay.max.ms = 60000
-
 errors.retry.timeout = 0
-
 errors.tolerance = none
-
-## header.converter = null
-
-## key.converter = null
-
+header.converter = null
+key.converter = null
 name = smap-mqtt-source
-
 tasks.max = 1
-
 transforms = []
+value.converter = null
 
-## value.converter = null
+# using lenses connector
+docker exec kafka-connect curl -s -X POST -H "Content-Type: application/json" --data '{"name": "smap-mqtt-source-lenses", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max":"1", "connect.mqtt.hosts":"tcp://emqx:1883", "connect.mqtt.username":"zenatix_mqtt_client", "connect.mqtt.password":"xitanez123", "connect.mqtt.service.quality":"1", "connect.mqtt.kcql":"INSERT INTO smap_telemetry_data SELECT * FROM telemetry/+/+ WITHCONVERTER=`com.datamountaineer.streamreactor.connect.converters.source.BytesConverter`"}}' http://kafka-connect:8082/connectors
 
-## # using lenses connector
+# validate configuration values
+docker exec kafka-connect curl -s -X PUT -H "Content-Type: application/json" -d '{"name":"smap-mqtt-source","config": {"connector.class": "io.confluent.connect.mqtt.MqttSourceConnector", "tasks.max":"1", "mqtt.server.uri":"tcp://emqx:1883", "mqtt.username":"zenatix_mqtt_client", "mqtt.password":"xitanez123", "mqtt.topic":"smap_telemetry_data", "kafka.topic": "smap_telemetry_data"}}' http://kafka-connect:8082/connector-plugins/MqttSourceConnector/config/validate
 
-docker exec kafka-connect curl -s -X POST -H "Content-Type: application/json" --data '{"name": "smap-mqtt-source-lenses", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max":"1", "connect.mqtt.hosts":"tcp://emqx:1883", "connect.mqtt.username":"example_mqtt_client", "connect.mqtt.password":"xitanez123", "connect.mqtt.service.quality":"1", "connect.mqtt.kcql":"**INSERT INTO smap_telemetry_data SELECT * FROM** telemetry**/+/+ WITHCONVERTER=`**com.datamountaineer.streamreactor.connect.converters.source.BytesConverter**`**"}}' <http://kafka-connect:8082/connectors>
+# list all connector available
+docker exec kafka-connect curl -s -X GET http://kafka-connect:8082/connectors/
+docker exec kafka-connect curl -s -X GET http://kafka-connect:8082/connector-plugins/
 
-## # validate configuration values
+# get status of a connector
+docker exec kafka-connect curl -s -X GET http://kafka-connect:8082/connectors/smap-mqtt-source status
 
-docker exec kafka-connect curl -s -X PUT -H "Content-Type: application/json" -d '{"name":"smap-mqtt-source","config": {"connector.class": "io.confluent.connect.mqtt.MqttSourceConnector", "tasks.max":"1", "mqtt.server.uri":"tcp://emqx:1883", "mqtt.username":"example_mqtt_client", "mqtt.password":"xitanez123", "mqtt.topic":"smap_telemetry_data", "kafka.topic": "smap_telemetry_data"}}' <http://kafka-connect:8082/connector-plugins/MqttSourceConnector/config/validate>
+# delete connector
+docker exec kafka-connect curl -X DELETE http://kafka-connect:8082/connectors/smap-mqtt-source
 
-## # list all connector available
+#Updating a connector config
+curl -s -X PUT -H "Content-Type:application/json" --data '{"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max":"1", "connect.mqtt.hosts":"tcp://mqtt.vernemq:1883", "connect.mqtt.username":"zenatix_mqtt_client", "connect.mqtt.password":"xitanez123", "connect.mqtt.service.quality":"1", "connect.mqtt.clean":"false", "connect.mqtt.kcql":"INSERT INTO smap_telemetry_data SELECT * FROM telemetry/+/+ WITHCONVERTER=`com.datamountaineer.streamreactor.connect.converters.source.BytesConverter`"}' http://ke-cp-kafka-connect.kafka:8083/connectors/smap-mqtt-source-lenses/config
+```
 
-docker exec kafka-connect curl -s -X GET <http://kafka-connect:8082/connectors>
+## Lenses Source Mqtt Connector
 
-docker exec kafka-connect curl -s -X GET <http://kafka-connect:8082/connector-plugins>
-
-## # get status of a connector
-
-docker exec kafka-connect curl -s -X GET <http://kafka-connect:8082/connectors/smap-mqtt-source> status
-
-## # delete connector
-
-docker exec kafka-connect curl -X DELETE <http://kafka-connect:8082/connectors/smap-mqtt-source>
-
-## #Updating a connector config
-
-curl -s -X PUT -H "Content-Type:application/json" --data '{"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max":"1", "connect.mqtt.hosts":"tcp://mqtt.vernemq:1883", "connect.mqtt.username":"example_mqtt_client", "connect.mqtt.password":"xitanez123", "connect.mqtt.service.quality":"1", "connect.mqtt.clean":"false", "connect.mqtt.kcql":"INSERT INTO smap_telemetry_data SELECT * FROM telemetry/+/+ WITHCONVERTER=`com.datamountaineer.streamreactor.connect.converters.source.BytesConverter`"}' <http://ke-cp-kafka-connect.kafka:8083/connectors/smap-mqtt-source-lenses/config>
-
-# Lenses Source Mqtt Connector
-
-## Configurations
+### Configurations
 
 - Kafka Connect framework configurations
   - name
@@ -184,7 +168,7 @@ curl -s -X PUT -H "Content-Type:application/json" --data '{"connector.class": "c
 
   - connect.progress.enabled
 
-## Commands
+### Commands
 
 ```bash
 curl -s -X POST -H "Content-Type: application/json" --data '{"name": "bench-test", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max":"1", "connect.mqtt.hosts":"tcp://mqtt.vernemq:1883", "connect.mqtt.username":"example_mqtt_client", "connect.mqtt.password":"xitanez123", "connect.mqtt.client.id":"bench-test-client-id", "connect.mqtt.service.quality":"1", "connect.mqtt.clean":"false", "connect.mqtt.kcql":"INSERT INTO bench_data SELECT * FROM bench/+ WITHCONVERTER=`com.datamountaineer.streamreactor.connect.converters.source.BytesConverter`"}}'
@@ -192,29 +176,27 @@ curl -s -X POST -H "Content-Type: application/json" --data '{"name": "bench-test
 
 <http://ke-cp-kafka-connect.kafka:8083/connectors>
 
-## References
-
 <https://docs.lenses.io/connectors/source/mqtt.html>
 
 ## Simple Message Transformations SMT
 
 These single message transforms (SMTs) are available for use with Kafka Connect:
 
-| **Transform**                                                                                                         | **Description**                                                                                                                                              |
-|------------------|------------------------------------------------------|
-| [Cast](https://docs.confluent.io/current/connect/transforms/cast.html#cast)                                           | Cast fields or the entire key or value to a specific type, e.g. to force an integer field to a smaller width.                                                |
-| [ExtractField](https://docs.confluent.io/current/connect/transforms/extractfield.html#extractfield)                   | Extract the specified field from a Struct when schema present, or a Map in the case of schemaless data. Any null values are passed through unmodified.       |
-| [ExtractTopic](https://docs.confluent.io/current/connect/transforms/extracttopic.html#extracttopic)                   | Replace the record topic with a new topic derived from its key or value.                                                                                     |
-| [Flatten](https://docs.confluent.io/current/connect/transforms/flatten.html#flatten)                                  | Flatten a nested data structure. This generates names for each field by concatenating the field names at each level with a configurable delimiter character. |
-| [HoistField](https://docs.confluent.io/current/connect/transforms/hoistfield.html#hoistfield)                         | Wrap data using the specified field name in a Struct when schema present, or a Map in the case of schemaless data.                                           |
-| [InsertField](https://docs.confluent.io/current/connect/transforms/insertfield.html#insertfield)                      | Insert field using attributes from the record metadata or a configured static value.                                                                         |
-| [MaskField](https://docs.confluent.io/current/connect/transforms/maskfield.html#maskfield)                            | Mask specified fields with a valid null value for the field type.                                                                                            |
-| [RegexRouter](https://docs.confluent.io/current/connect/transforms/regexrouter.html#regexrouter)                      | Update the record topic using the configured regular expression and replacement string.                                                                      |
-| [ReplaceField](https://docs.confluent.io/current/connect/transforms/replacefield.html#replacefield)                   | Filter or rename fields.                                                                                                                                     |
-| [SetSchemaMetadata](https://docs.confluent.io/current/connect/transforms/setschemametadata.html#setschemametadata)    | Set the schema name, version, or both on the record's key or value schema.                                                                                   |
-| [TimestampConverter](https://docs.confluent.io/current/connect/transforms/timestampconverter.html#timestampconverter) | Convert timestamps between different formats such as Unix epoch, strings, and Connect Date and Timestamp types.                                              |
-| [TimestampRouter](https://docs.confluent.io/current/connect/transforms/timestamprouter.html#timestamprouter)          | Update the record's topic field as a function of the original topic value and the record timestamp.                                                          |
-| [ValueToKey](https://docs.confluent.io/current/connect/transforms/valuetokey.html#valuetokey)                         | Replace the record key with a new key formed from a subset of fields in the record value.                                                                    |
+| **Transform** | **Description** |
+|:---:|:---:|
+| [Cast](https://docs.confluent.io/current/connect/transforms/cast.html#cast) | Cast fields or the entire key or value to a specific type, e.g. to force an integer field to a smaller width. |
+| [ExtractField](https://docs.confluent.io/current/connect/transforms/extractfield.html#extractfield) | Extract the specified field from a Struct when schema present, or a Map in the case of schemaless data. Any null values are passed through unmodified. |
+| [ExtractTopic](https://docs.confluent.io/current/connect/transforms/extracttopic.html#extracttopic) | Replace the record topic with a new topic derived from its key or value. |
+| [Flatten](https://docs.confluent.io/current/connect/transforms/flatten.html#flatten) | Flatten a nested data structure. This generates names for each field by concatenating the field names at each level with a configurable delimiter character. |
+| [HoistField](https://docs.confluent.io/current/connect/transforms/hoistfield.html#hoistfield) | Wrap data using the specified field name in a Struct when schema present, or a Map in the case of schemaless data. |
+| [InsertField](https://docs.confluent.io/current/connect/transforms/insertfield.html#insertfield) | Insert field using attributes from the record metadata or a configured static value. |
+| [MaskField](https://docs.confluent.io/current/connect/transforms/maskfield.html#maskfield) | Mask specified fields with a valid null value for the field type. |
+| [RegexRouter](https://docs.confluent.io/current/connect/transforms/regexrouter.html#regexrouter) | Update the record topic using the configured regular expression and replacement string. |
+| [ReplaceField](https://docs.confluent.io/current/connect/transforms/replacefield.html#replacefield) | Filter or rename fields. |
+| [SetSchemaMetadata](https://docs.confluent.io/current/connect/transforms/setschemametadata.html#setschemametadata) | Set the schema name, version, or both on the record's key or value schema. |
+| [TimestampConverter](https://docs.confluent.io/current/connect/transforms/timestampconverter.html#timestampconverter) | Convert timestamps between different formats such as Unix epoch, strings, and Connect Date and Timestamp types. |
+| [TimestampRouter](https://docs.confluent.io/current/connect/transforms/timestamprouter.html#timestamprouter) | Update the record's topic field as a function of the original topic value and the record timestamp. |
+| [ValueToKey](https://docs.confluent.io/current/connect/transforms/valuetokey.html#valuetokey) | Replace the record key with a new key formed from a subset of fields in the record value. |
 
 ## References
 
@@ -227,15 +209,3 @@ These single message transforms (SMTs) are available for use with Kafka Connect:
 <https://docs.confluent.io/current/installation/docker/docs/installation/single-node-client.html#step-7-start-kafka-connect>
 
 <https://docs.confluent.io/current/connect/transforms/index.html>
-
-ke-cp-kafka-connect-6ffd957b8f-c9n2q
-
-ke-cp-kafka-connect-6ffd957b8f-vpmqb
-
-ke-cp-kafka-connect-6ffd957b8f-zm9zn
-
-Attempt to heartbeat failed since group is rebalancing
-
-This member will leave the group because consumer poll timeout has expired. This means the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time processing messages. You can address this either by increasing max.poll.interval.ms or by reducing the maximum size of batches returned in poll() with max.poll.records. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
-
-Member connect-1-38c5d959-4b87-42fd-a449-03bc7b109962 sending LeaveGroup request to coordinator ke-cp-kafka-0.ke-cp-kafka-headless.kafka:9092 (id: 2147483647 rack: null) (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)

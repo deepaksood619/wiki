@@ -56,11 +56,11 @@ Kubernetes supports multiple virtual clusters backed by the same physical cluste
 
 ### Hierarchical Namespaces
 
-[#Kubernetes](https://www.linkedin.com/feed/hashtag/?keywords=kubernetes&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6700424364623503361) has introduced the feature of the hierarchical namespace.!!!
+[Kubernetes](https://www.linkedin.com/feed/hashtag/?keywords=kubernetes&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6700424364623503361) has introduced the feature of the hierarchical namespace.!!!
 
 Till now we have the namespaces for logical grouping of components in Kubernetes but it was not flexible enough to meet common use cases.
 
-That's why they have introduced the hierarchical namespaces which will work on policy inheritance and delegated access control which means now you don't need cluster admin permission to create [#namespaces](https://www.linkedin.com/feed/hashtag/?keywords=namespaces&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6700424364623503361). The namespace owner can create the hierarchical namespace with his/her own access.
+That's why they have introduced the hierarchical namespaces which will work on policy inheritance and delegated access control which means now you don't need cluster admin permission to create [namespaces](https://www.linkedin.com/feed/hashtag/?keywords=namespaces&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6700424364623503361). The namespace owner can create the hierarchical namespace with his/her own access.
 
 This concept of ownership enables two additional types of behaviours:
 

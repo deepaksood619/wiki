@@ -12,29 +12,26 @@ This version, sometimes referred to as iperf3, is a redesign of an original vers
 
 ## Commands
 
+```bash
 brew install iperf3
-
 sudo apt-get install iperf3
 
-## # server
-
+# server
 iperf3 -s -p 5002
 
-## # client
-
+# client
 iperf3 -c localhost -p 5002
 
-## # Verbose, debug
-
+# Verbose, debug
 iperf3 -V -d -s -p 5002
 
-## #The number of simultaneous connections to make to the server. Default is 1
-
+#The number of simultaneous connections to make to the server. Default is 1.
 iperf3 -V -d -s -p 5002 -P 10
 
-## #Run in reverse mode (server sends, client receives)
-
+#Run in reverse mode (server sends, client receives).
 iperf3 -V -d -s -p 5002 -P 10 -R
+```
+
 <https://en.wikipedia.org/wiki/Iperf>
 
 <https://github.com/esnet/iperf>
@@ -45,96 +42,75 @@ iperf3 -V -d -s -p 5002 -P 10 -R
 
 It's the number of TCP segments retransmitted. This can happen if TCP segments are lost in the network due to congestion or corruption.
 
-## Localhost in laptop
+## Test
 
-[ 7] 0.00-10.00 sec 56.7 GBytes 48.7 Gbits/sec sender
+```bash
+# Localhost in laptop
+[  7]   0.00-10.00  sec  56.7 GBytes  48.7 Gbits/sec                  sender
+[  7]   0.00-10.00  sec  56.7 GBytes  48.7 Gbits/sec                  receiver
 
-[ 7] 0.00-10.00 sec 56.7 GBytes 48.7 Gbits/sec receiver
+# API-v1 -> API-v1 localhost
+[  5]   0.00-10.00  sec  38.3 GBytes  32.9 Gbits/sec    0             sender
+[  5]   0.00-10.04  sec  38.3 GBytes  32.8 Gbits/sec                  receiver
 
-## API-v1 -> API-v1 localhost
+[  5]   0.00-10.00  sec  38.0 GBytes  32.7 Gbits/sec    0             sender
+[  5]   0.00-10.04  sec  38.0 GBytes  32.5 Gbits/sec                  receiver
 
-[ 5] 0.00-10.00 sec 38.3 GBytes 32.9 Gbits/sec 0 sender
+# API-v2 -> API-v1 using pod container ip (in same node)
+[  5]   0.00-10.00  sec  27.7 GBytes  23.8 Gbits/sec   29             sender
+[  5]   0.00-10.04  sec  27.7 GBytes  23.7 Gbits/sec                  receiver
 
-[ 5] 0.00-10.04 sec 38.3 GBytes 32.8 Gbits/sec receiver
-[ 5] 0.00-10.00 sec 38.0 GBytes 32.7 Gbits/sec 0 sender
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  27.2 GBytes  23.4 Gbits/sec   31             sender
+[  5]   0.00-10.04  sec  27.2 GBytes  23.3 Gbits/sec                  receiver
 
-[ 5] 0.00-10.04 sec 38.0 GBytes 32.5 Gbits/sec receiver
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  27.2 GBytes  23.4 Gbits/sec  525             sender
+[  5]   0.00-10.04  sec  27.2 GBytes  23.3 Gbits/sec                  receiver
 
-## API-v2 -> API-v1 using pod container ip (in same node)
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  27.1 GBytes  23.3 Gbits/sec  189             sender
+[  5]   0.00-10.05  sec  27.1 GBytes  23.2 Gbits/sec                  receiver
 
-[ 5] 0.00-10.00 sec 27.7 GBytes 23.8 Gbits/sec 29 sender
+# test -> API-v1 using pod container ip (in different nodes)
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  5.71 GBytes  4.90 Gbits/sec  223             sender
+[  5]   0.00-10.04  sec  5.70 GBytes  4.88 Gbits/sec                  receiver
 
-[ 5] 0.00-10.04 sec 27.7 GBytes 23.7 Gbits/sec receiver
-[ ID] Interval Transfer Bitrate Retr
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  5.77 GBytes  4.96 Gbits/sec  233             sender
+[  5]   0.00-10.04  sec  5.77 GBytes  4.94 Gbits/sec                  receiver
 
-[ 5] 0.00-10.00 sec 27.2 GBytes 23.4 Gbits/sec 31 sender
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  5.77 GBytes  4.95 Gbits/sec  121             sender
+[  5]   0.00-10.04  sec  5.76 GBytes  4.93 Gbits/sec                  receiver
 
-[ 5] 0.00-10.04 sec 27.2 GBytes 23.3 Gbits/sec receiver
-[ ID] Interval Transfer Bitrate Retr
+# API-v2, API-v1 (localhost) (in same node), test (in different node) -> API-v1 using pod container ip
+# can't be done via iperf3
 
-[ 5] 0.00-10.00 sec 27.2 GBytes 23.4 Gbits/sec 525 sender
+# API-v1 -> test (different nodes)
+[  5]   0.00-10.00  sec  5.77 GBytes  4.95 Gbits/sec  189             sender
+[  5]   0.00-10.04  sec  5.76 GBytes  4.93 Gbits/sec                  receiver
 
-[ 5] 0.00-10.04 sec 27.2 GBytes 23.3 Gbits/sec receiver
-[ ID] Interval Transfer Bitrate Retr
+# API-v1 -> svc test (ip) -> test pod (different nodes)
+[  5]   0.00-10.00  sec  5.77 GBytes  4.95 Gbits/sec  108             sender
+[  5]   0.00-10.04  sec  5.76 GBytes  4.93 Gbits/sec                  receiver
 
-[ 5] 0.00-10.00 sec 27.1 GBytes 23.3 Gbits/sec 189 sender
+[  5]   0.00-10.00  sec  5.72 GBytes  4.92 Gbits/sec  393             sender
+[  5]   0.00-10.04  sec  5.72 GBytes  4.90 Gbits/sec                  receiver
 
-[ 5] 0.00-10.05 sec 27.1 GBytes 23.2 Gbits/sec receiver
+# API-v1 -> svc test (dns) -> test pod (different nodes)
+[  5]   0.00-10.00  sec  5.78 GBytes  4.97 Gbits/sec   83             sender
+[  5]   0.00-10.04  sec  5.78 GBytes  4.95 Gbits/sec                  receiver
 
-## test -> API-v1 using pod container ip (in different nodes)
-
-[ ID] Interval Transfer Bitrate Retr
-
-[ 5] 0.00-10.00 sec 5.71 GBytes 4.90 Gbits/sec 223 sender
-
-[ 5] 0.00-10.04 sec 5.70 GBytes 4.88 Gbits/sec receiver
-[ ID] Interval Transfer Bitrate Retr
-
-[ 5] 0.00-10.00 sec 5.77 GBytes 4.96 Gbits/sec 233 sender
-
-[ 5] 0.00-10.04 sec 5.77 GBytes 4.94 Gbits/sec receiver
-[ ID] Interval Transfer Bitrate Retr
-
-[ 5] 0.00-10.00 sec 5.77 GBytes 4.95 Gbits/sec 121 sender
-
-[ 5] 0.00-10.04 sec 5.76 GBytes 4.93 Gbits/sec receiver
-
-## API-v2, API-v1 (localhost) (in same node), test (in different node) -> API-v1 using pod container ip
-
-can't be done via iperf3
-
-## API-v1 -> test (different nodes)
-
-[ 5] 0.00-10.00 sec 5.77 GBytes 4.95 Gbits/sec 189 sender
-
-[ 5] 0.00-10.04 sec 5.76 GBytes 4.93 Gbits/sec receiver
-
-## API-v1 -> svc test (ip) -> test pod (different nodes)
-
-[ 5] 0.00-10.00 sec 5.77 GBytes 4.95 Gbits/sec 108 sender
-
-[ 5] 0.00-10.04 sec 5.76 GBytes 4.93 Gbits/sec receiver
-[ 5] 0.00-10.00 sec 5.72 GBytes 4.92 Gbits/sec 393 sender
-
-[ 5] 0.00-10.04 sec 5.72 GBytes 4.90 Gbits/sec receiver
-
-## API-v1 -> svc test (dns) -> test pod (different nodes)
-
-[ 5] 0.00-10.00 sec 5.78 GBytes 4.97 Gbits/sec 83 sender
-
-[ 5] 0.00-10.04 sec 5.78 GBytes 4.95 Gbits/sec receiver
-[ 5] 0.00-10.00 sec 5.74 GBytes 4.93 Gbits/sec 284 sender
-
-[ 5] 0.00-10.04 sec 5.74 GBytes 4.91 Gbits/sec receiver
+[  5]   0.00-10.00  sec  5.74 GBytes  4.93 Gbits/sec  284             sender
+[  5]   0.00-10.04  sec  5.74 GBytes  4.91 Gbits/sec                  receiver
 
 # 20 parallel connections
-
-[SUM] 0.00-10.00 sec 11.7 GBytes 10.0 Gbits/sec 1886 sender
-
-[SUM] 0.00-10.01 sec 11.7 GBytes 10.0 Gbits/sec receiver
+[SUM]   0.00-10.00  sec  11.7 GBytes  10.0 Gbits/sec  1886             sender
+[SUM]   0.00-10.01  sec  11.7 GBytes  10.0 Gbits/sec                  receiver
 
 # 30 parallel connections
-
-[SUM] 0.00-10.00 sec 11.7 GBytes 10.1 Gbits/sec 10305 sender
-
-[SUM] 0.00-10.01 sec 11.7 GBytes 10.0 Gbits/sec receiver
+[SUM]   0.00-10.00  sec  11.7 GBytes  10.1 Gbits/sec  10305             sender
+[SUM]   0.00-10.01  sec  11.7 GBytes  10.0 Gbits/sec                  receiver
+```

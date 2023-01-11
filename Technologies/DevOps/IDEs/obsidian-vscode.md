@@ -9,6 +9,7 @@
 ### Commands
 
 - Foam: Show Graph
+- Paste URL (Command + Shift + V)
 
 ## Extension - Markdown All in One
 
@@ -52,6 +53,7 @@
 - markdown-link-expander
   [markdown-link-expander - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=skn0tt.markdown-link-expander)
 - [GitHub - svsool/memo: Markdown knowledge base with bidirectional [[link]]s built on top of VSCode](https://github.com/svsool/memo)
+- [Paste URL](https://marketplace.visualstudio.com/items?itemName=kukushi.pasteurl)
 
 ## Markdown shortcuts in VSCode
 

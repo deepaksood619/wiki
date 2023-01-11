@@ -30,7 +30,7 @@ Pls table this or provide a slide in Tech updates for MMM and we can call out wh
   - Of course, could you help me prioritize my project list
   - Then take them through everything on your plate, and ask
   - Which of these would you like me to de-prioritize to fit in the new task?
-- Replace but with and - [Change ONE WORD to Transform your Communication | @shadezahrai #shorts](https://www.youtube.com/shorts/tomgKAxMsq8)
+- Replace but with and - [Change ONE WORD to Transform your Communication](https://www.youtube.com/shorts/tomgKAxMsq8)
 
 Feel free to interrupt me in between to ask any questions and let me know if you want to dig deeper in any part.
 

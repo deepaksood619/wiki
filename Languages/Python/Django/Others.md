@@ -165,14 +165,12 @@ class AuthorQuerySet(models.QuerySet):
         # Write your solution here
         return self.annotate(copies_sold=Coalesce(Sum('books__copies_sold'), 0))
 
-
 class Author(models.Model):
     # Make sure this manager is available.
     objects = AuthorManager()
     # objects = models.Manager.from_queryset(AuthorQuerySet)()
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
-
 
 class Book(models.Model):
     title = models.CharField(max_length=30)

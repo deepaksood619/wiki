@@ -16,29 +16,20 @@ Often these processes continue to run in the background after they start, and ar
 
 ## systemctl
 
+```bash
 systemctl list-units | grep .service
-
 systemctl status ssh.service
-
 systemctl --failed
-
 systemctl is-enabled ssh
-
 systemctl reboot
-
 systemctl poweroff
-
 systemctl suspend
-
 sudo systemctl start ssh.service
-
 sudo systemctl stop ssh.service
-
 sudo systemctl restart ssh.service
-
 sudo systemctl disable ssh.service #will not run automatically on next startup
-
 sudo systemctl enable ssh.service
+```
 
 ## Journald
 
@@ -50,6 +41,7 @@ Journald replaces the plain text files of syslog with a binary format that:
 
 ## Commands
 
+```bash
 - journalctl #view blob messages
 - journalctl -a #view decoded messages
 - journalctl -k #view kernel messages
@@ -59,22 +51,23 @@ Journald replaces the plain text files of syslog with a binary format that:
 - journalctl --since "2 days ago"
 - journalctl --since "1 hour ago"
 - journalctl -u nginx.service #only show nginx.service unit logs
+```
 
 ## bashplotlib
 
-pip install bashplotlib #graphs in the console
+`pip install bashplotlib #graphs in the console`
 
 ## jq
 
-jq is likesedfor JSON data - you can use it to slice and filter and map and transform structured data with the same ease thatsed, awk, grepand friends let you play with text.
+jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
 
-brew install jq
+`brew install jq`
 
 <https://stedolan.github.io/jq>
 
 ## Networking - socat
 
-## Socatis a command line based utility that establishes two bidirectional byte streams and transfers data between them. Because the streams can be constructed from a large set of different types of data sinks and sources (see [address types](http://www.dest-unreach.org/socat/doc/socat.html#ADDRESS_TYPES)), and because lots of [address options](http://www.dest-unreach.org/socat/doc/socat.html#ADDRESS_OPTIONS) may be applied to the streams, socat can be used for many different purposes
+socat is a command line based utility that establishes two bidirectional byte streams and transfers data between them. Because the streams can be constructed from a large set of different types of data sinks and sources (see [address types](http://www.dest-unreach.org/socat/doc/socat.html#ADDRESS_TYPES)), and because lots of [address options](http://www.dest-unreach.org/socat/doc/socat.html#ADDRESS_OPTIONS) may be applied to the streams, socat can be used for many different purposes
 
 <http://www.dest-unreach.org/socat/doc/socat.html>
 
@@ -86,14 +79,15 @@ Dump and analyze network traffic
 
 ## Logrotate
 
-logrotateis designed to ease administration of systems that generate large numbers of log files. It allows automatic rotation, compression, removal, and mailing of log files. Each log file may be handled daily, weekly, monthly, or when it grows too large.
+logrotate is designed to ease administration of systems that generate large numbers of log files. It allows automatic rotation, compression, removal, and mailing of log files. Each log file may be handled daily, weekly, monthly, or when it grows too large.
 
-## Config file - /etc/logrotate.conf
+`Config file - /etc/logrotate.conf`
 
-## Options - man logrotate.conf
+`Options - man logrotate.conf`
 
 ## Example
 
+```json
 /tmp/email.log {
 compress
 
@@ -119,15 +113,15 @@ create 666 root root
 missingok
 rotate 14
 }
+```
 
-## Manually trigger logrotate
+### Manually trigger logrotate
 
-sudo logrotate -f /etc/logrotate.conf
+`sudo logrotate -f /etc/logrotate.conf`
 
 ## File watchers (uses this to know how to see changes to a file)
 
 1. inotify
-
 2. poll
 
 The biggest difference is that epoll can be used for ANY fd. This means it's good for watching all types of ways to communicate data. Sockets, IPC, files, printers.. anything. inotify is for filesystems only.

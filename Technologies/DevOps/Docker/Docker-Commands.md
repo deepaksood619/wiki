@@ -22,11 +22,13 @@ sudo apt install docker-compose
 
 ### List
 
-- docker image ls -all #show all images
-- docker container ls --all #show all containers
-- docker info #Display system-wide information
+```bash
+docker image ls -all #show all images
+docker container ls --all #show all containers
+docker info #Display system-wide information
 
 docker info --format '{{.LoggingDriver}}'
+```
 
 ### Lifecycle
 

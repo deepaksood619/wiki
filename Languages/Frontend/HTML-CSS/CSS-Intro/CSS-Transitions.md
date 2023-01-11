@@ -6,21 +6,25 @@ A transition occurs when a CSS property changes from one value to another value 
 
 You can create CSS Transitions with the transition property:
 
+```css
 .selector {
-transition: property duration transition-timing-function delay;
+  transition: property duration transition-timing-function delay;
 }
+```
 
 The transition property is a shorthand of four CSS properties, transition-property, transition-duration, transition-timing-function, transition-delay.
 
+```css
 .selector {
-transition-property: property;
-transition-duration: duration;
-transition-timing-function: timing-function;
-transition-delay: delay
+  transition-property: property;
+  transition-duration: duration;
+  transition-timing-function: timing-function;
+  transition-delay: delay
 
-/*The transition property is the shorthand for the above four properties*/
-transition: property duration timing-function delay;
+  /* The transition property is the shorthand for the above four properties */
+  transition: property duration timing-function delay;
 }
+```
 
 transition-property refers to the CSS property you wish to transition. It is required in the transition shorthand.
 
@@ -34,61 +38,74 @@ transition-delay refers to how long you want to wait before starting the duratio
 
 You can trigger CSS transitions directly with pseudo classes like :hover (activates when mouse goes over an element), :focus (activates when a user tabs onto an element, or when a user clicks into an input element), or :active (activates when user clicks on the element).
 
-/*creating transitions directly in CSS*/
+```css
+/* creating transitions directly in CSS */
 .button {
-background-color: #33ae74;
-transition: background-color 0.5s ease-out;
+  background-color: #33ae74;
+  transition: background-color 0.5s ease-out;
 }
 
 .button:hover {
-background-color: #1ce;
+  background-color: #1ce;
 }
+```
 
 You can also trigger CSS transitions through JavaScript by adding or removing a class.
 
+```css
 .button {
-background-color: #33ae74;
-transition: background-color 0.5s ease-out;
+  background-color: #33ae74;
+  transition: background-color 0.5s ease-out;
 }
 
 .button.is-active {
-color: #1ce;
+  color: #1ce;
 }
+
 const button = document.querySelector('.button')
 button.addEventListener('click', _ => button.classList.toggle('is-active'))
+```
 
 ## Understanding transition-timing-function
 
 The transition-timing-function governs how a transition occurs. All transitions have a value of linear by default, which means the property changes evenly until the end of the transition.
 
+```css
 .selector {
-transition: transform 1s linear;
+  transition: transform 1s linear;
 
-/*OR*/
-transition-property: transform;
-transition-duration: 1s;
-transition-timing-function: linear;
+  /* OR */
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
+```
 
 The thing is, nothing moves linearly in life. That's not how real objects move. Sometimes, we accelerate; sometimes, we decelerate. The transition-timing-function allows you to capture all of that.
 
 Imagine yourself throwing a tennis ball into an open field. The ball leaves your hand with the maximum speed. As it moves, it loses energy, it decelerates and eventually comes to a halt. This is called ease-out. There's a timing function for it.
 
+```css
 .selector {
-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
+```
 
 Now imagine you're in a car. It's not moving right now. When you move the car, it accelerates and goes toward its top speed. This is called ease-in. There's also a timing function for it.
 
+```css
 .selector {
-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
+```
 
 Since you have ease-in and ease-out, there's also a timing function that combines the two together, ease-in-out. (I advise against using ease-in-out in your transitions unless your transitions last longer than a second. Nothing eases in and out within a second. It simply looks weird.)
 
+```css
 .selector {
-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
+```
 
 See this pen for a demo of the timing functions you've learned so far:
 
@@ -100,9 +117,11 @@ Finally, if you don't like any of the above choices, you can create your own tim
 
 A Cubic-bezier is a set of four values that determine your transition-timing-function. It looks like this:
 
+```css
 .selector {
-transition-timing-function: cubic-bezier(x1, y1, x2, y2);
+  transition-timing-function: cubic-bezier(x1, y1, x2, y2);
 }
+```
 
 Don't worry about the x1, y1,, x2 and y2. You'll never create cubic-bezier curves by writing numbers yourself (unless you already know what they mean and you're tweaking your timing function for perfection).
 
@@ -120,27 +139,31 @@ You can transition two (or more) CSS properties by separating them with a comma 
 
 You can do the same with duration, timing-functions and delays as well. If the values are the same, you only need to specify one of them.
 
+```css
 .selector {
-transition: background-color 1s ease-out,
-color 1s ease-out;
+  transition: background-color 1s ease-out,
+              color 1s ease-out;
 
-/*OR*/
-transition-property: background, color;
-transition-duration: 1s;
-transition-timing-function: ease-out;
+  /* OR */
+  transition-property: background, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
+```
 
 You may be tempted to transition every CSS property with all. Don't ever do this. This is bad for performance. Always specify the property you're trying to transition.
 
-/*DON'T EVER DO THIS*/
+```css
+/* DON'T EVER DO THIS */
 .selector {
-transition-property: all
+  transition-property: all
 }
 
-/*ALWAYS DO THIS*/
+/* ALWAYS DO THIS */
 .selector {
-transition-property: background-color, color, transform;
+  transition-property: background-color, color, transform;
 }
+```
 
 ## Transitioning in vs transitioning out
 
@@ -148,21 +171,23 @@ Sometimes, you want the properties to transition in and out at differently. You 
 
 To do so, you write another set of transition- properties.
 
+```css
 .button {
-background-color: #33ae74;
-transition: background-color 0.5s ease-out;
+  background-color: #33ae74;
+  transition: background-color 0.5s ease-out;
 }
 
 .button:hover {
-background-color: #1ce;
-transition-duration: 2s;
+  background-color: #1ce;
+  transition-duration: 2s;
 }
+```
 
 When you write transition properties in the triggering (pseudo) class, the transition properties in the triggering class overwrites the original transition properties you've stated in the base class.
 
-So, in the example above, when you hover on the button, the background color takes 2 seconds to change from #33ae74 to #1ce.
+So, in the example above, when you hover on the button, the background color takes 2 seconds to change from `#33ae74` to `#1ce`.
 
-When you hover out from the button, the background color only takes 0.5s to change back to #1ce because the transition-duration of 2s no longer exists.
+When you hover out from the button, the background color only takes 0.5s to change back to `#1ce` because the transition-duration of 2s no longer exists.
 
 ## Wrapping up
 

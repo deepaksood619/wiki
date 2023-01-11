@@ -195,8 +195,8 @@ To others, a degree of centralisation may simply be a price to pay for the other
 - [Why I lost faith in Bitcoin (as an early adopter and software engineer)](https://www.youtube.com/watch?v=vjwVtl-VBDw)
 - [The Money Flower and why Bitcoin is a ponzi scheme | Morten Bech | TEDxBasel](https://www.youtube.com/watch?v=UK0ATammdRo)
 
-## References
+## References / Resources / Courses
 
 whiteboardcrypto
 
-<https://www.youtube.com/playlist?list=PLU52pNodXIGdM6XDgHVG7DsPytlsrR_6b>
+[The Complete Beginner's Crypto Crash Course](https://www.youtube.com/playlist?list=PLU52pNodXIGdM6XDgHVG7DsPytlsrR_6b)

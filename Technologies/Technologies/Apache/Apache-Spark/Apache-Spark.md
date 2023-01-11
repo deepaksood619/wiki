@@ -118,11 +118,11 @@ Memory used to cache data that will be reused later
 
 ## Commands
 
+```bash
 spark-shell # run scala spark interpreter
-
 pyspark # python interpreter
-
 spark-submit --master local --class GvaWeather target/scala-2.10/gva-weather_2.10-1.0.jar #job submission
+```
 
 ## Summary
 

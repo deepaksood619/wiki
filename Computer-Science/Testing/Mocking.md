@@ -236,7 +236,6 @@ def get_ip():
 if __name__ == "__main__":
     print(get_ip())
 
-
 from requests_example import get_ip
 import responses
 

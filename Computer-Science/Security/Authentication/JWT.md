@@ -155,7 +155,6 @@ async def login(request):
 app = web.Application()
 app.router.add_route('POST', '/login', login)
 
-
 # Auth Middleware
 async def get_user(request):
 return json_response({'user': str(request.user)})

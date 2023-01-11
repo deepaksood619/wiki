@@ -426,7 +426,7 @@ make links
 
 The ln utility creates a new directory entry (linked file) which has the same modes as the original file. It is useful for maintaining multiple copies of a file in many places at once without using up storage for the ``copies''; instead, a link``points'' to the original copy. There are two types of links; hard links and symbolic links. How a link ``points'' to a file is one of the differences between a hard and symbolic link.
 
-`ln -s /bin/zsh /usr/local/bin/zsh` #create a symbolic link
+`ln -s /bin/zsh /usr/local/bin/zsh #create a symbolic link`
 
 ### find
 

@@ -899,7 +899,7 @@ American billionaire investor and hedge fund manager, who has served as co-chief
 
 Israeli public intellectual, historian and a professor in the Department of History at the Hebrew University of Jerusalem. He is the author of the popular science bestsellers Sapiens: A Brief History of Humankind, Homo Deus: A Brief History of Tomorrow, and 21 Lessons for the 21st Century
 
-- [Is Gautam Adani Gifted Wealth ? India's Second Richest Man Story 🔥 Business Case Study #gautamadani](https://youtu.be/Z8yKfenzYRI)
+- [Is Gautam Adani Gifted Wealth ? India's Second Richest Man Story 🔥 Business Case Study](https://youtu.be/Z8yKfenzYRI)
   - If you build great relationships, half of your work is already done before you tell i need you
 
 - [Netaji Subash Chandra Bose: What Schools don't teach you about India's Real Hero!](https://youtu.be/Wf6X-50OQdE)

@@ -88,11 +88,13 @@ helm delete --purge elasticsearch
 
 ## Create secret to pull from private registry
 
-# gcrreg addition
+```bash
+# gcr reg addition
 
 kubectl create secret docker-registry gcrreg --docker-server=gcr.io --docker-username=_json_key --docker-password="$(cat ~/json-key-file.json)" --docker-email=username@example.com -n smap
 
 kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "gcrreg"}]}' -n smap
+```
 
 ## ACI (Azure Container Instances)
 
