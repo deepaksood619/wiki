@@ -295,3 +295,7 @@ Indian History - <https://www.anirudhkanisetti.com/podcasts>
 ## Newsletter
 
 Not Boring by Packy McCormick - <https://www.notboring.co>
+
+## Tools
+
+- [YouTube Transcript - read YouTube videos](https://youtubetranscript.com/)
